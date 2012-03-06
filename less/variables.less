@@ -8,7 +8,7 @@
 // --------------------------------------------------
 
 // Links
-@linkColor:             #08c;
+@linkColor:             @blueDark;
 @linkColorHover:        darken(@linkColor, 15%);
 
 // Grays
@@ -16,13 +16,14 @@
 @grayDarker:            #222;
 @grayDark:              #333;
 @gray:                  #555;
-@grayLight:             #999;
-@grayLighter:           #eee;
+@grayLight:             rgba(219, 219, 220, 1);
+@grayLighter:           rgba(235, 235, 235, 1);
+@softwhite: 						rgba(249, 249, 249, 1);
 @white:                 #fff;
 
 // Accent colors
 @blue:                  rgba(  0, 126, 166, 1);
-@blueDark:              rgba(  0, 104, 138, 1);
+@blueDark:              rgba(  0, 106, 141, 1);
 @green:                 #46a546;
 @red:                   #9d261d;
 @yellow:                #ffc40d;
@@ -31,9 +32,10 @@
 @purple:                #7a43b6;
 
 // Typography
-@baseFontSize:          13px;
-@baseFontFamily:        "Helvetica Neue", Helvetica, Arial, sans-serif;
-@baseLineHeight:        18px;
+@baseFontSize:          15px;
+@baseFontFamily:        Arial, Helvetica, sans-serif;
+@baseLineHeight:        21px;
+@specialFontFamily: 		"Ubuntu", Helvetica, Arial, sans-serif;
 @textColor:             @grayDark;
 
 // Buttons
@@ -65,14 +67,17 @@
 @hrBorder:                @grayLighter;
 
 // Navbar
-@navbarHeight:                    40px;
+@navbarHeight:                    33px;
+@navbarExtraNaviHeight: 					26px;
 @navbarBackground:                @blueDark;
 @navbarBackgroundHighlight:       @blue;
 @navbarLinkBackgroundHover:       transparent;
 
 @navbarText:                      @grayLight;
-@navbarLinkColor:                 @grayLight;
+@navbarLinkColor:                 @grayLighter;
 @navbarLinkColorHover:            @white;
+@navbarSublevelLinkColor: 				@blueDark;
+@navbarSublevelLinkColorHover: 		@blue;
 
 // Form states and alerts
 @warningText:             #c09853;

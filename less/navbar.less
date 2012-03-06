@@ -15,9 +15,10 @@
   padding-left:  20px;
   padding-right: 20px;
   #gradient > .vertical(@navbarBackgroundHighlight, @navbarBackground);
-  .border-radius(4px);
-  @shadow: 0 1px 3px rgba(0,0,0,.25), inset 0 -1px 0 rgba(0,0,0,.1);
-  .box-shadow(@shadow);
+	&.sublevel {
+		#gradient > .vertical(@softwhite, @grayLighter);
+		border-bottom: 1px solid @grayLight;
+	}
 }
 
 // Navbar button for toggling navbar items in responsive layouts
@@ -183,36 +184,107 @@
   float: right;
   margin: 0 10px 0 0;
 }
+
 .navbar .nav.pull-right {
   float: right; // redeclare due to specificity
 }
-.navbar .nav > li {
-  display: block;
-  float: left;
+
+.navbar {
+	.nav {
+		> li {
+		  display: block;
+		  float: left;
+			border-left: 1px solid rgba(0, 135, 178, 0.52);
+			border-right: 1px solid rgba(13, 92, 120, 0.42);
+			&:first-child {
+				border-left: none;
+			}
+			&:last-child {
+				border-right: none;
+			}
+		}
+	}
+	.sublevel {
+		.nav > li {
+			border-left-color: @softwhite;
+			border-right-color: @grayLight;
+		}
+	}
+	&.extra_navi {
+		.nav {
+			background: transparent url('../img/bgr_extra_navi.png') no-repeat center bottom;
+			> li {
+				border: none;
+			}
+		}
+	}
 }
 
 // Links
-.navbar .nav > li > a {
-  float: none;
-  padding: 10px 10px 11px;
-  line-height: 19px;
-  color: @navbarLinkColor;
-  text-decoration: none;
-  text-shadow: 0 -1px 0 rgba(0,0,0,.25);
+.navbar {
+	.nav > li > a {
+  	float: none;
+  	padding: 7px 10px;
+  	line-height: 19px;
+  	color: @navbarLinkColor;
+  	text-decoration: none;
+  	text-shadow: 1px 1px 0 rgba(0,0,0,.45);
+	}
+	.sublevel {
+		.nav > li > a {
+			color: @navbarSublevelLinkColor;
+			text-shadow: none;
+		}
+	}
+	&.extra_navi {
+		.nav > li > a {
+			color: @navbarSublevelLinkColor;
+			padding: 3px 10px 4px;
+			text-shadow: none;
+		}
+	}
 }
 // Hover
-.navbar .nav > li > a:hover {
-  background-color: @navbarLinkBackgroundHover; // "transparent" is default to differentiate :hover from .active
-  color: @navbarLinkColorHover;
-  text-decoration: none;
+.navbar {
+	.nav > li > a:hover {
+	  background-color: @navbarLinkBackgroundHover; // "transparent" is default to differentiate :hover from .active
+	  color: @navbarLinkColorHover;
+	  text-decoration: none;
+	}
+	.sublevel {
+		.nav > li > a:hover {
+		  color: @navbarSublevelLinkColorHover;
+		}
+	}
+	&.extra_navi{
+		.nav > li > a:hover {
+		  color: @navbarSublevelLinkColorHover;
+		}
+	}
 }
 
 // Active nav items
-.navbar .nav .active > a,
-.navbar .nav .active > a:hover {
-  color: @navbarLinkColorHover;
-  text-decoration: none;
-  background-color: @navbarBackground;
+.navbar,
+.navbar .sublevel {
+	.nav .active > a,
+	.nav .active > a:hover {
+		color: @blueDark;
+	  text-decoration: none;
+	  background-color: @grayLighter;
+		#gradient > .vertical(@grayLighter, @softwhite);
+		text-shadow: none;
+	}
+}
+
+.navbar .sublevel {
+	.nav .active > a,
+	.nav .active > a:hover {
+		#gradient > .vertical(@grayLighter, white);
+		padding-bottom: 8px;
+		padding-left: 11px;
+		margin-bottom: -1px;
+		margin-left: -1px;
+	}
 }
 
 // Dividers (basically a vertical hr)
