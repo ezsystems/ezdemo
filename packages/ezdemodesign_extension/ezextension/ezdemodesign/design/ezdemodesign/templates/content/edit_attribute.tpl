@@ -4,9 +4,9 @@
 
 {foreach $content_attributes_grouped_data_map as $attribute_group => $content_attributes_grouped}
 {if $attribute_group|ne( $attribute_default_category )}
-	<fieldset class="ezcca-collapsible">
-	<legend><a href="JavaScript:void(0);">{$attribute_categorys[$attribute_group]}</a></legend>
-	<div class="ezcca-collapsible-fieldset-content">
+    <fieldset class="ezcca-collapsible">
+    <legend><a href="JavaScript:void(0);">{$attribute_categorys[$attribute_group]}</a></legend>
+    <div class="ezcca-collapsible-fieldset-content">
 {/if}
 {foreach $content_attributes_grouped as $attribute_identifier => $attribute}
 {def $contentclass_attribute = $attribute.contentclass_attribute}
@@ -87,16 +87,16 @@ jQuery(function( $ )
 {
     $('fieldset.ezcca-collapsible legend a').click( function()
     {
-		var container = $( this.parentNode.parentNode ), inner = container.find('div.ezcca-collapsible-fieldset-content');
-		if ( container.hasClass('ezcca-collapsed') )
-		{
-			container.removeClass('ezcca-collapsed');
-			inner.slideDown( 150 );
-	    }
-		else
-		{
-			inner.slideUp( 150, function(){
-            	$( this.parentNode ).addClass('ezcca-collapsed');
+        var container = $( this.parentNode.parentNode ), inner = container.find('div.ezcca-collapsible-fieldset-content');
+        if ( container.hasClass('ezcca-collapsed') )
+        {
+            container.removeClass('ezcca-collapsed');
+            inner.slideDown( 150 );
+        }
+        else
+        {
+            inner.slideUp( 150, function(){
+                $( this.parentNode ).addClass('ezcca-collapsed');
             });
         }
     });

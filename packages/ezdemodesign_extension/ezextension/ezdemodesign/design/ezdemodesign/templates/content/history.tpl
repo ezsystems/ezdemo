@@ -1,7 +1,4 @@
 {ezscript_require( 'tools/ezjsselection.js' )}
-<div class="border-box">
-<div class="border-tl"><div class="border-tr"><div class="border-tc"></div></div></div>
-<div class="border-ml"><div class="border-mr"><div class="border-mc float-break">
 
 <div class="content-history">
 
@@ -399,8 +396,4 @@ document.write('<div class="context-toolbar"><div class="block"><ul><li><a href=
 </div>
 {/if}
 
-</div>
-
-</div></div></div>
-<div class="border-bl"><div class="border-br"><div class="border-bc"></div></div></div>
 </div>

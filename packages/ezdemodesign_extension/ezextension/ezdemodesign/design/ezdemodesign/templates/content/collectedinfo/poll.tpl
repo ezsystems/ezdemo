@@ -1,9 +1,5 @@
 {set-block scope=global variable=title}{'Poll %pollname'|i18n( 'design/ezdemodesign/collectedinfo/poll', , hash( '%pollname', $node.name|wash() ) )}{/set-block}
 
-<div class="border-box">
-<div class="border-tl"><div class="border-tr"><div class="border-tc"></div></div></div>
-<div class="border-ml"><div class="border-mr"><div class="border-mc">
-
 <div class="content-view-full">
     <div class="class-poll">
         <div class="poll-result">
@@ -109,8 +105,4 @@
 
         </div>
     </div>
-</div>
-
-</div></div></div>
-<div class="border-bl"><div class="border-br"><div class="border-bc"></div></div></div>
 </div>

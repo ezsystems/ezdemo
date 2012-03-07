@@ -1,10 +1,6 @@
 {set-block scope=root variable=cache_ttl}600{/set-block}
 {* Event - Full view *}
 
-<div class="border-box">
-<div class="border-tl"><div class="border-tr"><div class="border-tc"></div></div></div>
-<div class="border-ml"><div class="border-mr"><div class="border-mc float-break">
-
 <div class="content-view-full">
     <div class="class-event">
     
@@ -50,8 +46,4 @@
         </p>
     {/if *}
   </div>
-</div>
-
-</div></div></div>
-<div class="border-bl"><div class="border-br"><div class="border-bc"></div></div></div>
 </div>

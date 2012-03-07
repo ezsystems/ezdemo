@@ -17,11 +17,6 @@
                                             attribute_filter, array( and, array( 'modified_subnode', '>', $node.modified_subnode ) ),
                                             'sort_by', array( array( 'modified_subnode', true() ), array( 'node_id', true() ) ) ) ) }
 
-
-<div class="border-box">
-<div class="border-tl"><div class="border-tr"><div class="border-tc"></div></div></div>
-<div class="border-ml"><div class="border-mr"><div class="border-mc float-break">
-
 <div class="content-view-full">
     <div class="class-forum-topic">
 
@@ -237,9 +232,5 @@
          item_limit=$page_limit}
 
     </div>
-</div>
-
-</div></div></div>
-<div class="border-bl"><div class="border-br"><div class="border-bc"></div></div></div>
 </div>
 {/let}
