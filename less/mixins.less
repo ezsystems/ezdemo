@@ -441,6 +441,12 @@
 // BACKGROUNDS
 // --------------------------------------------------
 
+// Sprites
+
+.sprite(@color: transparent, @left: left, @top: top) {
+	background: @color @spriteURL no-repeat @left @top;
+}
+
 // Add an alphatransparency value to any background or border color (via Elyse Holladay)
 #translucent {
   .background(@color: @white, @alpha: 1) {

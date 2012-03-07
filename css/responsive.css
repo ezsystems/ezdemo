@@ -27,7 +27,7 @@
   }
   .page-header h1 small {
     display: block;
-    line-height: 18px;
+    line-height: 21px;
   }
   input[class*="span"],
   select[class*="span"],
@@ -294,7 +294,7 @@
   }
   .navbar-fixed-top {
     position: static;
-    margin-bottom: 18px;
+    margin-bottom: 21px;
   }
   .navbar-fixed-top .navbar-inner {
     padding: 5px;
@@ -313,7 +313,7 @@
   }
   .navbar .nav {
     float: none;
-    margin: 0 0 9px;
+    margin: 0 0 10.5px;
   }
   .navbar .nav > li {
     float: none;
@@ -325,13 +325,13 @@
     display: none;
   }
   .navbar .nav .nav-header {
-    color: #999999;
+    color: #dbdbdc;
     text-shadow: none;
   }
   .navbar .nav > li > a, .navbar .dropdown-menu a {
     padding: 6px 15px;
     font-weight: bold;
-    color: #999999;
+    color: #ebebeb;
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
     border-radius: 3px;
@@ -340,7 +340,7 @@
     margin-bottom: 2px;
   }
   .navbar .nav > li > a:hover, .navbar .dropdown-menu a:hover {
-    background-color: #222222;
+    background-color: #006a8d;
   }
   .navbar .dropdown-menu {
     position: static;
@@ -368,10 +368,10 @@
   }
   .navbar-form, .navbar-search {
     float: none;
-    padding: 9px 15px;
-    margin: 9px 0;
-    border-top: 1px solid #222222;
-    border-bottom: 1px solid #222222;
+    padding: 10.5px 15px;
+    margin: 10.5px 0;
+    border-top: 1px solid #006a8d;
+    border-bottom: 1px solid #006a8d;
     -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(255, 255, 255, 0.1);
     -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(255, 255, 255, 0.1);
     box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(255, 255, 255, 0.1);

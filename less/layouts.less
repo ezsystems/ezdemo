@@ -28,3 +28,34 @@ header {
 header > .container {
 	background: transparent url('../img/bgr_header.png') no-repeat left bottom;
 }
+
+header .logo {
+	display: block;
+	width: 138px;
+	height: 46px;
+	margin-top: 18px;
+}
+
+header .form-search {
+	margin-top: 27px;
+}
+
+header .form-search label {
+	position: relative;
+	&:before {
+		content: "";
+		display: block;
+		width: 13px;
+		height: 13px;
+		position: absolute;
+		top: 9px;
+		left: 8px;
+		.sprite();
+	}
+	input.search-query {
+		padding-left: 25px;
+		&:focus {
+			.placeholder(transparent);
+		}
+	}
+}

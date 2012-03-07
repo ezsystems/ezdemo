@@ -1,4 +1,5 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 	<head>
     <meta charset="utf-8">
     <title>eZ Demo Design</title>
@@ -33,11 +34,14 @@
 				</div>
 				<div class="row">
 					<div class="span8">
-						eZ Logo here
+						<a href="#" class="logo"><img src="img/logo_ez.png" alt="ez brand mark"/></a>
 					</div>
-					<div class="span4">
-						Search field here
-					</div>
+					<form class="span4 form-search" method="get" action="#" id="siteWideSearch">
+						<label class="pull-right">
+							<span class="hidden">Search</span>
+							<input class="search-query span3" type="search" name="siteWideSearchField" id="siteWideSearchField" placeholder="Search..." />
+						</label>
+					</form>
 				</div>
 			</div>
 		</header>
