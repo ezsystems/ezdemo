@@ -54,8 +54,73 @@ header .form-search label {
 	}
 	input.search-query {
 		padding-left: 25px;
-		&:focus {
-			.placeholder(transparent);
+	}
+}
+
+.navbar.extra_navi .nav > li#loginLink {
+	a.hideLoginForm {
+		display: none;
+	}
+	a.showLoginForm {
+		display: block;
+	}
+	.loginForm {
+		margin: 0;
+		background: @blue;
+		color: white;
+		position: absolute;
+		bottom: -140px;
+		right: 0;
+		z-index: 10;
+		height: 0px;
+		overflow: hidden;
+		bottom: 0;
+		#gradient > .vertical(@blue, @blueDark);
+		.border-radius(3px 0 3px 3px);
+		.box-shadow(0 5px 5px rgba(0,0,0,0.35));
+		.transition(all 0.2s ease);
+		fieldset {
+			display: block;
+			padding: 10px;
+			a.forgotPassword,
+			a.forgotPassword:hover {
+				color: white;
+				display: inline-block;
+				margin-top: 18px;
+			}
+			label {
+				display: block;
+				padding-right: 10px;
+				input {
+					width: 100%;
+					.placeholder(@gray);
+					&:focus{
+						.placeholder(transparent);
+					}
+				}
+			}
+		}
+		a.close:after{
+			content: "x";
+		}
+	}
+	&:target{
+		background-color: @blue;
+		> a,
+		> a:hover {
+			color: white;
+		}
+		a.hideLoginForm {
+			display: block;
+		}
+		a.showLoginForm {
+			display: none;
+		}
+		.loginForm {
+			display: block;
+			height: 140px;
+			overflow: hidden;
+			bottom: -140px;
 		}
 	}
 }

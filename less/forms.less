@@ -51,6 +51,11 @@ textarea {
   #font > #family > .sans-serif(); // And only set font-family here for those that need it (note the missing label element)
 }
 
+button {
+	font-weight: 500;
+	font-family: @specialFontFamily;
+}
+
 // Identify controls by their labels
 label {
   display: block;
@@ -329,6 +334,10 @@ select:focus:required:invalid {
 
 // Placeholder text gets special styles; can't be bundled together though for some reason
 .placeholder(@blueDark);
+
+input:focus {
+	.placeholder(transparent);
+}
 
 
 

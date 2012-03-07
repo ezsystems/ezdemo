@@ -326,11 +326,92 @@ header .form-search label:before {
 header .form-search label input.search-query {
   padding-left: 25px;
 }
-header .form-search label input.search-query:focus :-moz-placeholder {
+.navbar.extra_navi .nav > li#loginLink a.hideLoginForm {
+  display: none;
+}
+.navbar.extra_navi .nav > li#loginLink a.showLoginForm {
+  display: block;
+}
+.navbar.extra_navi .nav > li#loginLink .loginForm {
+  margin: 0;
+  background: #007ea6;
+  color: white;
+  position: absolute;
+  bottom: -140px;
+  right: 0;
+  z-index: 10;
+  height: 0px;
+  overflow: hidden;
+  bottom: 0;
+  background-color: #00769c;
+  background-image: -moz-linear-gradient(top, #007ea6, #006a8d);
+  background-image: -ms-linear-gradient(top, #007ea6, #006a8d);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#007ea6), to(#006a8d));
+  background-image: -webkit-linear-gradient(top, #007ea6, #006a8d);
+  background-image: -o-linear-gradient(top, #007ea6, #006a8d);
+  background-image: linear-gradient(top, #007ea6, #006a8d);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#007ea6', endColorstr='#006a8d', GradientType=0);
+  -webkit-border-radius: 3px 0 3px 3px;
+  -moz-border-radius: 3px 0 3px 3px;
+  border-radius: 3px 0 3px 3px;
+  -webkit-box-shadow: 0 5px 5px rgba(0, 0, 0, 0.35);
+  -moz-box-shadow: 0 5px 5px rgba(0, 0, 0, 0.35);
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.35);
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -ms-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+.navbar.extra_navi .nav > li#loginLink .loginForm fieldset {
+  display: block;
+  padding: 10px;
+}
+.navbar.extra_navi .nav > li#loginLink .loginForm fieldset a.forgotPassword, .navbar.extra_navi .nav > li#loginLink .loginForm fieldset a.forgotPassword:hover {
+  color: white;
+  display: inline-block;
+  margin-top: 18px;
+}
+.navbar.extra_navi .nav > li#loginLink .loginForm fieldset label {
+  display: block;
+  padding-right: 10px;
+}
+.navbar.extra_navi .nav > li#loginLink .loginForm fieldset label input {
+  width: 100%;
+}
+.navbar.extra_navi .nav > li#loginLink .loginForm fieldset label input :-moz-placeholder {
+  color: #aeaeae;
+}
+.navbar.extra_navi .nav > li#loginLink .loginForm fieldset label input::-webkit-input-placeholder {
+  color: #aeaeae;
+}
+.navbar.extra_navi .nav > li#loginLink .loginForm fieldset label input:focus :-moz-placeholder {
   color: transparent;
 }
-header .form-search label input.search-query:focus::-webkit-input-placeholder {
+.navbar.extra_navi .nav > li#loginLink .loginForm fieldset label input:focus::-webkit-input-placeholder {
   color: transparent;
+}
+.navbar.extra_navi .nav > li#loginLink .loginForm a.close:after {
+  content: "x";
+}
+.navbar.extra_navi .nav > li#loginLink:target {
+  background-color: #007ea6;
+}
+.navbar.extra_navi .nav > li#loginLink:target > a, .navbar.extra_navi .nav > li#loginLink:target > a:hover {
+  color: white;
+}
+.navbar.extra_navi .nav > li#loginLink:target a.hideLoginForm {
+  display: block;
+}
+.navbar.extra_navi .nav > li#loginLink:target a.showLoginForm {
+  display: none;
+}
+.navbar.extra_navi .nav > li#loginLink:target .loginForm {
+  display: block;
+  height: 140px;
+  overflow: hidden;
+  bottom: -140px;
 }
 p {
   margin: 0 0 10.5px;
@@ -609,7 +690,11 @@ input,
 button,
 select,
 textarea {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
+}
+button {
+  font-weight: 500;
+  font-family: "Ubuntu", Helvetica, Arial, sans-serif;
 }
 label {
   display: block;
@@ -627,7 +712,7 @@ select,
   margin-bottom: 9px;
   font-size: 15px;
   line-height: 21px;
-  color: #555555;
+  color: #aeaeae;
   border: 1px solid #dbdbdc;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
@@ -911,6 +996,12 @@ input:focus:required:invalid:focus, textarea:focus:required:invalid:focus, selec
 }
 ::-webkit-input-placeholder {
   color: #006a8d;
+}
+input:focus :-moz-placeholder {
+  color: transparent;
+}
+input:focus::-webkit-input-placeholder {
+  color: transparent;
 }
 .help-block {
   display: block;
@@ -1252,6 +1343,23 @@ table .span12 {
 .well blockquote {
   border-color: #ddd;
   border-color: rgba(0, 0, 0, 0.15);
+}
+.close {
+  float: right;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 21px;
+  color: #000000;
+  text-shadow: 0 1px 0 #ffffff;
+  opacity: 0.2;
+  filter: alpha(opacity=20);
+}
+.close:hover {
+  color: #000000;
+  text-decoration: none;
+  opacity: 0.4;
+  filter: alpha(opacity=40);
+  cursor: pointer;
 }
 .btn {
   display: inline-block;
@@ -1806,7 +1914,7 @@ button.btn.small, input[type="submit"].btn.small {
   border-color: #ebebeb #ebebeb #dddddd;
 }
 .nav-tabs > .active > a, .nav-tabs > .active > a:hover {
-  color: #555555;
+  color: #aeaeae;
   background-color: #ffffff;
   border: 1px solid #ddd;
   border-bottom-color: transparent;
@@ -2125,7 +2233,7 @@ button.btn.small, input[type="submit"].btn.small {
 }
 .navbar-search .search-query {
   padding: 4px 9px;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 13px;
   font-weight: normal;
   line-height: 1;
@@ -2205,11 +2313,44 @@ button.btn.small, input[type="submit"].btn.small {
   border-left-color: #f9f9f9;
   border-right-color: #dbdbdc;
 }
+.navbar.extra_navi {
+  position: relative;
+}
 .navbar.extra_navi .nav {
   background: transparent url('../img/bgr_extra_navi.png') no-repeat center bottom;
 }
 .navbar.extra_navi .nav > li {
   border: none;
+  position: relative;
+}
+.navbar.extra_navi .langSelect {
+  display: block;
+  position: absolute;
+  left: -25px;
+  top: 6px;
+}
+.navbar.extra_navi .langSelect > li {
+  display: none;
+  list-style-type: none;
+  padding-bottom: 2px;
+}
+.navbar.extra_navi .langSelect > li > a {
+  display: block;
+  width: 16px;
+  height: 11px;
+  background-color: transparent;
+}
+.navbar.extra_navi .langSelect > li.current {
+  display: block;
+}
+.navbar.extra_navi .langSelect > li.english > a {
+  background: transparent url('../img/ezSprite.png') no-repeat -29px 0px;
+}
+.navbar.extra_navi .langSelect > li.german > a {
+  background: transparent url('../img/ezSprite.png') no-repeat -13px 0px;
+}
+.navbar.extra_navi .langSelect > li.french > a {
+  background: transparent url('../img/ezSprite.png') no-repeat -45px 0px;
 }
 .navbar .nav > li > a {
   float: none;

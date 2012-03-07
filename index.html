@@ -16,6 +16,11 @@
 			<div class="container">
 				<div class="navbar extra_navi">
 					<div class="nav-collapse">
+						<ul class="langSelect">
+							<li class="current english"><a href="#"><span class="hidden">English</span></a></li>
+							<li class="french"><a href="#"><span class="hidden">Françe</span></a></li>
+							<li class="german"><a href="#"><span class="hidden">Deutsch</span></a></li>
+						</ul>
 						<ul class="nav">
 							<li>
 								<a href="#">Tag Cloud</a>
@@ -23,8 +28,27 @@
 							<li>
 								<a href="#">Register</a>
 							</li>
-							<li>
-								<a href="#">Login</a>
+							<li id="loginLink">
+								<a href="#loginLink" title="show login form" class="showLoginForm">Login</a>
+								<a href="#" title="hide login form" class="hideLoginForm">Login</a>
+								<form class="loginForm span3" action="#" method="get">
+									<fieldset>
+										<label>
+											<span class="hidden">Username</span>
+											<input type="text" name="loginUsername" id="loginUsername" placeholder="Username">
+										</label>
+										<label>
+											<span class="hidden">Password</span>
+											<input type="password" name="loginPassword" id="loginPassword" placeholder="Password">
+										</label>
+										<div class="clearfix">
+											<a href="" class="forgotPassword">Forgot password?</a>
+											<button class="btn btn-warning pull-right" type="submit">
+											  Login
+											</button>
+										</div>
+									</fieldset>
+								</form>
 							</li>
 							<li>
 								<a href="#">Sitemap</a>
