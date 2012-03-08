@@ -598,6 +598,9 @@ small {
 cite {
   font-style: normal;
 }
+.breadcrumb {
+  font-size: 12px;
+}
 .main_navi {
   font-family: "Ubuntu", Helvetica, Arial, sans-serif;
   font-size: 16px;
@@ -2313,6 +2316,9 @@ button.btn.small, input[type="submit"].btn.small {
   border-left-color: #f9f9f9;
   border-right-color: #dbdbdc;
 }
+.navbar .breadcrumb_wrapper {
+  border-bottom: 1px solid #ebebeb;
+}
 .navbar.extra_navi {
   position: relative;
 }
@@ -2478,35 +2484,23 @@ button.btn.small, input[type="submit"].btn.small {
   right: 13px;
 }
 .breadcrumb {
-  padding: 7px 14px;
-  margin: 0 0 21px;
-  background-color: #fbfbfb;
-  background-image: -moz-linear-gradient(top, #ffffff, #f5f5f5);
-  background-image: -ms-linear-gradient(top, #ffffff, #f5f5f5);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#f5f5f5));
-  background-image: -webkit-linear-gradient(top, #ffffff, #f5f5f5);
-  background-image: -o-linear-gradient(top, #ffffff, #f5f5f5);
-  background-image: linear-gradient(top, #ffffff, #f5f5f5);
-  background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#f5f5f5', GradientType=0);
-  border: 1px solid #ddd;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  border-radius: 3px;
-  -webkit-box-shadow: inset 0 1px 0 #ffffff;
-  -moz-box-shadow: inset 0 1px 0 #ffffff;
-  box-shadow: inset 0 1px 0 #ffffff;
+  padding: 7px 0;
+  margin: 0;
 }
 .breadcrumb li {
   display: inline-block;
   text-shadow: 0 1px 0 #ffffff;
+  color: #aeaeae;
+}
+.breadcrumb li a {
+  color: #aeaeae;
+}
+.breadcrumb li a:hover, .breadcrumb li afocus {
+  color: #006a8d;
 }
 .breadcrumb .divider {
   padding: 0 5px;
   color: #dbdbdc;
-}
-.breadcrumb .active a {
-  color: #333333;
 }
 .pagination {
   height: 42px;
