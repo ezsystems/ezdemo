@@ -223,7 +223,7 @@ cite {
 }
 
 // Main navi
-.main_navi {
+.main-navi {
 	font-family: @specialFontFamily;
 	font-size: 16px;
 	font-weight: 400;
@@ -232,6 +232,14 @@ cite {
 	}
 }
 
-.extra_navi {
+.extra-navi {
 	font-size: 12px;
+}
+
+// Footer
+
+footer .claim-wrapper {
+	.main-navi();
+	line-height: 33px;
+	color: @softwhite;
 }

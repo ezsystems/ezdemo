@@ -11,7 +11,8 @@
 }
 
 // Gradient is applied to it's own element because overflow visible is not honored by IE when filter is present
-.navbar-inner {
+.navbar-inner,
+.claim-wrapper {
   padding-left:  20px;
   padding-right: 20px;
   #gradient > .vertical(@navbarBackgroundHighlight, @navbarBackground);
@@ -210,19 +211,19 @@
 			border-right-color: @grayLight;
 		}
 	}
-	.breadcrumb_wrapper {
+	.breadcrumb-wrapper {
 		border-bottom: 1px solid @grayLighter;
 	}
-	&.extra_navi {
+	&.extra-navi {
 		position: relative;
 		.nav {
-			background: transparent url('../img/bgr_extra_navi.png') no-repeat center bottom;
+			background: transparent url('../img/bgr-extra-navi.png') no-repeat center bottom;
 			> li {
 				border: none;
 				position: relative;
 			}
 		}
-		.langSelect {
+		.lang-select {
 			display: block;
 			position: absolute;
 			left: -25px;
@@ -276,7 +277,7 @@
 			text-shadow: none;
 		}
 	}
-	&.extra_navi {
+	&.extra-navi {
 		.nav > li > a {
 			color: @navbarSublevelLinkColor;
 			padding: 3px 10px 4px;
@@ -296,7 +297,7 @@
 		  color: @navbarSublevelLinkColorHover;
 		}
 	}
-	&.extra_navi{
+	&.extra-navi{
 		.nav > li > a:hover {
 		  color: @navbarSublevelLinkColorHover;
 		}
