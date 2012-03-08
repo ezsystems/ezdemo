@@ -1,6 +1,3 @@
-<div class="border-box">
-<div class="border-tl"><div class="border-tr"><div class="border-tc"></div></div></div>
-<div class="border-ml"><div class="border-mr"><div class="border-mc">
 {def $left_menu_depth = $pagedata.current_menu|eq('LeftOnly')|choose( 1, 0 )
      $left_menu_root_url = cond( $pagedata.path_array[$left_menu_depth].url_alias, $pagedata.path_array[$left_menu_depth].url_alias, $requested_uri_string )}
 
@@ -87,7 +84,3 @@
 {/if}
 
 {undef $left_menu_root_url $left_menu_depth}
-
-</div></div></div>
-<div class="border-bl"><div class="border-br"><div class="border-bc"></div></div></div>
-</div>

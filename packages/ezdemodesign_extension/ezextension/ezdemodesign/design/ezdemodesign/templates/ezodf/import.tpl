@@ -1,7 +1,3 @@
-<div class="border-box">
-<div class="border-tl"><div class="border-tr"><div class="border-tc"></div></div></div>
-<div class="border-ml"><div class="border-mr"><div class="border-mc">
-
 <form enctype="multipart/form-data" method="post" action={"/ezodf/import"|ezurl}>
 {section show=$error.number|ne(0)}
    <div class="message-warning"><h2><span class="time">[{currentdate()|l10n( shortdatetime )}]</span>{$error.number}) {$error.message} </h2></div>
@@ -48,7 +44,6 @@
 <h3>{"Import to"|i18n("design/ezdemodesign/ezodf/import")}: {$import_node.name|wash}</h3>
 {/section}
 
-
 <p>
 {"You can import OpenOffice.org Writer documents directly into eZ publish from this page. You are
 asked where to place the document and eZ publish does the rest. The document is converted into
@@ -66,7 +61,3 @@ Images are placed in the media library so you can re-use them in other articles.
 {/section}
 
 </form>
-
-</div></div></div>
-<div class="border-bl"><div class="border-br"><div class="border-bc"></div></div></div>
-</div>

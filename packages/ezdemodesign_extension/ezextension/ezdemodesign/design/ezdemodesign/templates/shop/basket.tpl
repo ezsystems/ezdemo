@@ -1,25 +1,12 @@
-<div class="border-box">
-<div class="border-tl"><div class="border-tr"><div class="border-tc"></div></div></div>
-<div class="border-ml"><div class="border-mr"><div class="border-mc float-break">
-
 <div class="shop-basket">
 
 <ul>
     <li class="selected">1. {"Shopping basket"|i18n("design/ezdemodesign/shop/basket")}</li>
-    <li>2. {"Account information"|i18n("design/ezdemodesign/shop/basket")}
-</li>
+    <li>2. {"Account information"|i18n("design/ezdemodesign/shop/basket")}</li>
     <li>3. {"Confirm order"|i18n("design/ezdemodesign/shop/basket")}</li>
 </ul>
 
 </div>
-
-</div></div></div>
-<div class="border-bl"><div class="border-br"><div class="border-bc"></div></div></div>
-</div>
-
-<div class="border-box">
-<div class="border-tl"><div class="border-tr"><div class="border-tc"></div></div></div>
-<div class="border-ml"><div class="border-mr"><div class="border-mc float-break">
 
 <div class="shop-basket">
 
@@ -63,7 +50,6 @@
 </div>
 {/section}
 
-
     {def $currency = fetch( 'shop', 'currency', hash( 'code', $basket.productcollection.currency_code ) )
          $locale = false()
          $symbol = false()}
@@ -73,7 +59,6 @@
     {/if}
 
     {section name=Basket show=$basket.items}
-
 
 <table class="list"  width="100%" cellspacing="0" cellpadding="0" border="0">
 <tr>
@@ -227,8 +212,4 @@
 
 </form>
 
-</div>
-
-</div></div></div>
-<div class="border-bl"><div class="border-br"><div class="border-bc"></div></div></div>
 </div>
