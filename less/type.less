@@ -29,7 +29,8 @@ p {
 
 h1, h2, h3, h4, h5, h6 {
   margin: 0;
-  font-weight: bold;
+  font-family: @specialFontFamily;
+	font-weight: 500;
   color: @grayDark;
   text-rendering: optimizelegibility; // Fix the character spacing for headings
   small {
@@ -94,7 +95,7 @@ h6 {
 // Unordered and Ordered lists
 ul, ol {
   padding: 0;
-  margin: 0 0 @baseLineHeight / 2 25px;
+  margin: 0 0 @baseLineHeight / 2 1em;
 }
 ul ul,
 ul ol,
@@ -103,7 +104,7 @@ ol ul {
   margin-bottom: 0;
 }
 ul {
-  list-style: disc;
+  list-style: none;
 }
 ol {
   list-style: decimal;
@@ -115,6 +116,19 @@ ul.unstyled,
 ol.unstyled {
   margin-left: 0;
   list-style: none;
+}
+
+ul.ez-pointer {
+	li {
+		position: relative;
+		&:before {
+			content: "»";
+			color: @blueDark;
+			display: inline-block;
+			position: absolute;
+			margin-left: -1em;
+		}
+	}
 }
 
 // Description Lists
@@ -238,8 +252,10 @@ cite {
 
 // Footer
 
-footer .claim-wrapper {
-	.main-navi();
-	line-height: 33px;
-	color: @softwhite;
+footer {
+	.claim-wrapper {
+		.main-navi();
+		line-height: 33px;
+		color: @softwhite;
+	}
 }

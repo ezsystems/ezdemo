@@ -54,6 +54,10 @@ header .form-search label {
 	}
 	input.search-query {
 		padding-left: 25px;
+		.placeholder(@blue);
+		&:focus{
+			.placeholder(transparent);
+		}
 	}
 }
 
@@ -93,10 +97,6 @@ header .form-search label {
 				padding-right: 10px;
 				input {
 					width: 100%;
-					.placeholder(@gray);
-					&:focus{
-						.placeholder(transparent);
-					}
 				}
 			}
 		}
@@ -125,6 +125,24 @@ header .form-search label {
 	}
 }
 
-footer .claim-wrapper {
-	min-height: 33px;
+footer {
+	.claim-wrapper {
+		min-height: 33px;
+		margin-bottom: 14px;
+	}
+	h3 {
+		border-bottom: 1px solid @grayLighter;
+		#border-gradient > .left-to-right(0 0 1px 0, @grayLighter, fadeout(@grayLighter, 100%));
+		margin-bottom: 2px;
+	}
+	.contact-form {
+		margin-top: 8px;
+		label {
+			padding-right: 10px;
+			input,
+			textarea {
+				width: 100%;
+			}
+		}
+	}
 }

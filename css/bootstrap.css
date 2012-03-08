@@ -118,7 +118,7 @@ a {
   text-decoration: none;
 }
 a:hover {
-  color: #003041;
+  color: #006a8d;
   text-decoration: underline;
 }
 .row {
@@ -326,6 +326,18 @@ header .form-search label:before {
 header .form-search label input.search-query {
   padding-left: 25px;
 }
+header .form-search label input.search-query :-moz-placeholder {
+  color: #007ea6;
+}
+header .form-search label input.search-query::-webkit-input-placeholder {
+  color: #007ea6;
+}
+header .form-search label input.search-query:focus :-moz-placeholder {
+  color: transparent;
+}
+header .form-search label input.search-query:focus::-webkit-input-placeholder {
+  color: transparent;
+}
 .navbar.extra-navi .nav > li#login-link a.hide-login-form {
   display: none;
 }
@@ -380,18 +392,6 @@ header .form-search label input.search-query {
 .navbar.extra-navi .nav > li#login-link .login-form fieldset label input {
   width: 100%;
 }
-.navbar.extra-navi .nav > li#login-link .login-form fieldset label input :-moz-placeholder {
-  color: #aeaeae;
-}
-.navbar.extra-navi .nav > li#login-link .login-form fieldset label input::-webkit-input-placeholder {
-  color: #aeaeae;
-}
-.navbar.extra-navi .nav > li#login-link .login-form fieldset label input:focus :-moz-placeholder {
-  color: transparent;
-}
-.navbar.extra-navi .nav > li#login-link .login-form fieldset label input:focus::-webkit-input-placeholder {
-  color: transparent;
-}
 .navbar.extra-navi .nav > li#login-link .login-form a.close:after {
   content: "x";
 }
@@ -415,6 +415,25 @@ header .form-search label input.search-query {
 }
 footer .claim-wrapper {
   min-height: 33px;
+  margin-bottom: 14px;
+}
+footer h3 {
+  border-bottom: 1px solid #ebebeb;
+  border-width: 0 0 1px 0;
+  -webkit-border-image: -webkit-gradient(linear, 100% 0, 0 0, from(#ebebeb), to(rgba(235, 235, 235, 0))) 1 100%;
+  -webkit-border-image: -webkit-linear-gradient(right, #ebebeb, rgba(235, 235, 235, 0)) 1 100%;
+  -o-border-image: -o-linear-gradient(right, #ebebeb, rgba(235, 235, 235, 0)) 1 100%;
+  -moz-border-image: -moz-linear-gradient(right, #ebebeb, end) 1 100%;
+  margin-bottom: 2px;
+}
+footer .contact-form {
+  margin-top: 8px;
+}
+footer .contact-form label {
+  padding-right: 10px;
+}
+footer .contact-form label input, footer .contact-form label textarea {
+  width: 100%;
 }
 p {
   margin: 0 0 10.5px;
@@ -439,7 +458,8 @@ h4,
 h5,
 h6 {
   margin: 0;
-  font-weight: bold;
+  font-family: "Ubuntu", Helvetica, Arial, sans-serif;
+  font-weight: 500;
   color: #333333;
   text-rendering: optimizelegibility;
 }
@@ -500,7 +520,7 @@ h6 {
 }
 ul, ol {
   padding: 0;
-  margin: 0 0 10.5px 25px;
+  margin: 0 0 10.5px 1em;
 }
 ul ul,
 ul ol,
@@ -509,7 +529,7 @@ ol ul {
   margin-bottom: 0;
 }
 ul {
-  list-style: disc;
+  list-style: none;
 }
 ol {
   list-style: decimal;
@@ -520,6 +540,16 @@ li {
 ul.unstyled, ol.unstyled {
   margin-left: 0;
   list-style: none;
+}
+ul.ez-pointer li {
+  position: relative;
+}
+ul.ez-pointer li:before {
+  content: "»";
+  color: #006a8d;
+  display: inline-block;
+  position: absolute;
+  margin-left: -1em;
 }
 dl {
   margin-bottom: 21px;
@@ -728,7 +758,7 @@ select,
   margin-bottom: 9px;
   font-size: 15px;
   line-height: 21px;
-  color: #aeaeae;
+  color: #333333;
   border: 1px solid #dbdbdc;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
@@ -1008,15 +1038,15 @@ input:focus:required:invalid:focus, textarea:focus:required:invalid:focus, selec
   cursor: not-allowed;
 }
 :-moz-placeholder {
-  color: #006a8d;
+  color: #aeaeae;
 }
 ::-webkit-input-placeholder {
-  color: #006a8d;
+  color: #aeaeae;
 }
-input:focus :-moz-placeholder {
+input:focus :-moz-placeholder, textarea:focus :-moz-placeholder {
   color: transparent;
 }
-input:focus::-webkit-input-placeholder {
+input:focus::-webkit-input-placeholder, textarea:focus::-webkit-input-placeholder {
   color: transparent;
 }
 .help-block {
@@ -1998,7 +2028,7 @@ button.btn.small, input[type="submit"].btn.small {
   margin-top: 6px;
 }
 .nav-tabs .dropdown-toggle:hover .caret, .nav-pills .dropdown-toggle:hover .caret {
-  border-top-color: #003041;
+  border-top-color: #006a8d;
 }
 .nav-tabs .active .dropdown-toggle .caret, .nav-pills .active .dropdown-toggle .caret {
   border-top-color: #333333;

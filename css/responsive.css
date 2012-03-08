@@ -93,6 +93,9 @@
   .carousel-caption {
     position: static;
   }
+  footer address br {
+    display: none;
+  }
 }
 @media (max-width: 767px) {
   .container {
