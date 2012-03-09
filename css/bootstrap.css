@@ -338,13 +338,13 @@ header .form-search label input.search-query:focus :-moz-placeholder {
 header .form-search label input.search-query:focus::-webkit-input-placeholder {
   color: transparent;
 }
-.navbar.extra-navi .nav > li#login-link a.hide-login-form {
+.navbar.extra-navi .nav > li#login a.hide-login-form {
   display: none;
 }
-.navbar.extra-navi .nav > li#login-link a.show-login-form {
+.navbar.extra-navi .nav > li#login a.show-login-form {
   display: block;
 }
-.navbar.extra-navi .nav > li#login-link .login-form {
+.navbar.extra-navi .nav > li#login .login-form {
   margin: 0;
   background: #007ea6;
   color: white;
@@ -376,38 +376,38 @@ header .form-search label input.search-query:focus::-webkit-input-placeholder {
   -o-transition: all 0.2s ease;
   transition: all 0.2s ease;
 }
-.navbar.extra-navi .nav > li#login-link .login-form fieldset {
+.navbar.extra-navi .nav > li#login .login-form fieldset {
   display: block;
   padding: 10px;
 }
-.navbar.extra-navi .nav > li#login-link .login-form fieldset a.forgot-password, .navbar.extra-navi .nav > li#login-link .login-form fieldset a.forgot-password:hover {
+.navbar.extra-navi .nav > li#login .login-form fieldset a.forgot-password, .navbar.extra-navi .nav > li#login .login-form fieldset a.forgot-password:hover {
   color: white;
   display: inline-block;
   margin-top: 18px;
 }
-.navbar.extra-navi .nav > li#login-link .login-form fieldset label {
+.navbar.extra-navi .nav > li#login .login-form fieldset label {
   display: block;
   padding-right: 10px;
 }
-.navbar.extra-navi .nav > li#login-link .login-form fieldset label input {
+.navbar.extra-navi .nav > li#login .login-form fieldset label input {
   width: 100%;
 }
-.navbar.extra-navi .nav > li#login-link .login-form a.close:after {
+.navbar.extra-navi .nav > li#login .login-form a.close:after {
   content: "x";
 }
-.navbar.extra-navi .nav > li#login-link:target {
+.navbar.extra-navi .nav > li#login:target {
   background-color: #007ea6;
 }
-.navbar.extra-navi .nav > li#login-link:target > a, .navbar.extra-navi .nav > li#login-link:target > a:hover {
+.navbar.extra-navi .nav > li#login:target > a, .navbar.extra-navi .nav > li#login:target > a:hover {
   color: white;
 }
-.navbar.extra-navi .nav > li#login-link:target a.hide-login-form {
+.navbar.extra-navi .nav > li#login:target a.hide-login-form {
   display: block;
 }
-.navbar.extra-navi .nav > li#login-link:target a.show-login-form {
+.navbar.extra-navi .nav > li#login:target a.show-login-form {
   display: none;
 }
-.navbar.extra-navi .nav > li#login-link:target .login-form {
+.navbar.extra-navi .nav > li#login:target .login-form {
   display: block;
   height: 140px;
   overflow: hidden;
