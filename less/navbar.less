@@ -16,10 +16,10 @@
   padding-left:  20px;
   padding-right: 20px;
   #gradient > .vertical(@navbarBackgroundHighlight, @navbarBackground);
-	&.sublevel {
-		#gradient > .vertical(@softwhite, @grayLighter);
-		border-bottom: 1px solid @grayLight;
-	}
+    &.sublevel {
+        #gradient > .vertical(@softwhite, @grayLighter);
+        border-bottom: 1px solid @grayLight;
+    }
 }
 
 // Navbar button for toggling navbar items in responsive layouts
@@ -191,141 +191,141 @@
 }
 
 .navbar {
-	.nav {
-		> li {
-		  display: block;
-		  float: left;
-			border-left: 1px solid rgba(0, 135, 178, 0.52);
-			border-right: 1px solid rgba(13, 92, 120, 0.42);
-			&:first-child {
-				border-left: none;
-			}
-			&:last-child {
-				border-right: none;
-			}
-		}
-	}
-	.sublevel {
-		.nav > li {
-			border-left-color: @softwhite;
-			border-right-color: @grayLight;
-		}
-	}
-	.breadcrumb-wrapper {
-		border-bottom: 1px solid @grayLighter;
-	}
-	&.extra-navi {
-		position: relative;
-		.nav {
-			background: transparent url('../images/bgr-extra-navi.png') no-repeat center bottom;
-			> li {
-				border: none;
-				position: relative;
-			}
-		}
-		.lang-select {
-			display: block;
-			position: absolute;
-			left: -25px;
-			top: 6px;
-			> li {
-				display: none;
-				list-style-type: none;
-				padding-bottom: 2px;
-				> a {
-					display: block;
-					width: 16px;
-					height: 11px;
-					background-color: transparent;
-				}
-				&.current {
-					display: block;
-				}
-				&.english {
-					> a {
-						.sprite(transparent, -29px, 0px);
-					}
-				}
-				&.german{
-					> a {
-						.sprite(transparent, -13px, 0px);
-					}
-				}
-				&.french {
-					> a {
-						.sprite(transparent, -45px, 0px);
-					}
-				}
-			}
-		}
-	}
+    .nav {
+        > li {
+          display: block;
+          float: left;
+            border-left: 1px solid rgba(0, 135, 178, 0.52);
+            border-right: 1px solid rgba(13, 92, 120, 0.42);
+            &:first-child {
+                border-left: none;
+            }
+            &:last-child {
+                border-right: none;
+            }
+        }
+    }
+    .sublevel {
+        .nav > li {
+            border-left-color: @softwhite;
+            border-right-color: @grayLight;
+        }
+    }
+    .breadcrumb-wrapper {
+        border-bottom: 1px solid @grayLighter;
+    }
+    &.extra-navi {
+        position: relative;
+        .nav {
+            background: transparent url('../images/bgr-extra-navi.png') no-repeat center bottom;
+            > li {
+                border: none;
+                position: relative;
+            }
+        }
+        .lang-select {
+            display: block;
+            position: absolute;
+            left: -25px;
+            top: 6px;
+            > li {
+                display: none;
+                list-style-type: none;
+                padding-bottom: 2px;
+                > a {
+                    display: block;
+                    width: 16px;
+                    height: 11px;
+                    background-color: transparent;
+                }
+                &.current {
+                    display: block;
+                }
+                &.english {
+                    > a {
+                        .sprite(transparent, -29px, 0px);
+                    }
+                }
+                &.german{
+                    > a {
+                        .sprite(transparent, -13px, 0px);
+                    }
+                }
+                &.french {
+                    > a {
+                        .sprite(transparent, -45px, 0px);
+                    }
+                }
+            }
+        }
+    }
 }
 
 // Links
 .navbar {
-	.nav > li > a {
-  	float: none;
-  	padding: 7px 10px;
-  	line-height: 19px;
-  	color: @navbarLinkColor;
-  	text-decoration: none;
-  	text-shadow: 1px 1px 0 rgba(0,0,0,.45);
-	}
-	.sublevel {
-		.nav > li > a {
-			color: @navbarSublevelLinkColor;
-			text-shadow: none;
-		}
-	}
-	&.extra-navi {
-		.nav > li > a {
-			color: @navbarSublevelLinkColor;
-			padding: 3px 10px 4px;
-			text-shadow: none;
-		}
-	}
+    .nav > li > a {
+    float: none;
+    padding: 7px 10px;
+    line-height: 19px;
+    color: @navbarLinkColor;
+    text-decoration: none;
+    text-shadow: 1px 1px 0 rgba(0,0,0,.45);
+    }
+    .sublevel {
+        .nav > li > a {
+            color: @navbarSublevelLinkColor;
+            text-shadow: none;
+        }
+    }
+    &.extra-navi {
+        .nav > li > a {
+            color: @navbarSublevelLinkColor;
+            padding: 3px 10px 4px;
+            text-shadow: none;
+        }
+    }
 }
 // Hover
 .navbar {
-	.nav > li > a:hover {
-	  background-color: @navbarLinkBackgroundHover; // "transparent" is default to differentiate :hover from .active
-	  color: @navbarLinkColorHover;
-	  text-decoration: none;
-	}
-	.sublevel {
-		.nav > li > a:hover {
-		  color: @navbarSublevelLinkColorHover;
-		}
-	}
-	&.extra-navi{
-		.nav > li > a:hover {
-		  color: @navbarSublevelLinkColorHover;
-		}
-	}
+    .nav > li > a:hover {
+      background-color: @navbarLinkBackgroundHover; // "transparent" is default to differentiate :hover from .active
+      color: @navbarLinkColorHover;
+      text-decoration: none;
+    }
+    .sublevel {
+        .nav > li > a:hover {
+          color: @navbarSublevelLinkColorHover;
+        }
+    }
+    &.extra-navi{
+        .nav > li > a:hover {
+          color: @navbarSublevelLinkColorHover;
+        }
+    }
 }
 
 // Active nav items
 .navbar,
 .navbar .sublevel {
-	.nav .active > a,
-	.nav .active > a:hover {
-		color: @blueDark;
-	  text-decoration: none;
-	  background-color: @grayLighter;
-		#gradient > .vertical(@grayLighter, @softwhite);
-		text-shadow: none;
-	}
+    .nav .active > a,
+    .nav .active > a:hover {
+        color: @blueDark;
+      text-decoration: none;
+      background-color: @grayLighter;
+        #gradient > .vertical(@grayLighter, @softwhite);
+        text-shadow: none;
+    }
 }
 
 .navbar .sublevel {
-	.nav .active > a,
-	.nav .active > a:hover {
-		#gradient > .vertical(@grayLighter, white);
-		padding-bottom: 8px;
-		padding-left: 11px;
-		margin-bottom: -1px;
-		margin-left: -1px;
-	}
+    .nav .active > a,
+    .nav .active > a:hover {
+        #gradient > .vertical(@grayLighter, white);
+        padding-bottom: 8px;
+        padding-left: 11px;
+        margin-bottom: -1px;
+        margin-left: -1px;
+    }
 }
 
 // Dividers (basically a vertical hr)

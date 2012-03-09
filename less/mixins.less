@@ -444,7 +444,7 @@
 // Sprites
 
 .sprite(@color: transparent, @left: left, @top: top) {
-	background: @color @spriteURL no-repeat @left @top;
+    background: @color @spriteURL no-repeat @left @top;
 }
 
 // Add an alphatransparency value to any background or border color (via Elyse Holladay)
@@ -531,50 +531,50 @@
 
 // Border gradients
 #border-gradient {
-	.left-to-right(@widthSettings: 0 0 1px 0, @startColor: rgba(0,0,0,1), @endColor: transparent) {
-		border-width: @widthSettings;
-		-webkit-border-image: 
-			-webkit-gradient(linear, 100% 0, 0 0, from(@startColor), to(@endColor)) 1 100%;
-		-webkit-border-image: 
-			-webkit-linear-gradient(right, @startColor, @endColor) 1 100%;
-		-o-border-image:
-			-o-linear-gradient(right, @startColor, @endColor) 1 100%;
-		-moz-border-image:
-			-moz-linear-gradient(right, @startColor, end) 1 100%;
-	}
-	.right-to-left(@widthSettings: 0 0 1px 0, @startColor: rgba(0,0,0,1), @endColor: transparent) {
-		border-width: @widthSettings;
-		-webkit-border-image: 
-			-webkit-gradient(linear, 0 0, 100% 0, from(@startColor), to(@endColor)) 1 100%;
-		-webkit-border-image: 
-			-webkit-linear-gradient(left, @startColor, @endColor) 1 100%;
-		-o-border-image:
-			-o-linear-gradient(left, @startColor, @endColor) 1 100%;
-		-moz-border-image:
-			-moz-linear-gradient(left, @startColor, end) 1 100%;
-	}
-	.bottom-to-top(@widthSettings: 0 0 0 1px, @startColor: rgba(0,0,0,1), @endColor: transparent) {
-		border-width: @widthSettings;
-		-webkit-border-image: 
-			-webkit-gradient(linear, 0 100%, 0 0, from(@startColor), to(@endColor)) 1 100%;
-		-webkit-border-image: 
-			-webkit-linear-gradient(bottom, @startColor, @endColor) 1 100%;
-		-o-border-image:
-			-o-linear-gradient(bottom, @startColor, @endColor) 1 100%;
-		-moz-border-image:
-			-moz-linear-gradient(bottom, @startColor, end) 1 100%;
-	}
-	.top-to-bottom(@widthSettings: 0 0 0 1px, @startColor: rgba(0,0,0,1), @endColor: transparent) {
-		border-width: @widthSettings;
-		-webkit-border-image: 
-			-webkit-gradient(linear, 0 0, 0 100%, from(@startColor), to(@endColor)) 1 100%;
-		-webkit-border-image: 
-			-webkit-linear-gradient(@startColor, @endColor) 1 100%;
-		-o-border-image:
-			-o-linear-gradient(@startColor, @endColor) 1 100%;
-		-moz-border-image:
-			-moz-linear-gradient(@startColor, end) 1 100%;
-	}
+    .left-to-right(@widthSettings: 0 0 1px 0, @startColor: rgba(0,0,0,1), @endColor: transparent) {
+        border-width: @widthSettings;
+        -webkit-border-image: 
+            -webkit-gradient(linear, 100% 0, 0 0, from(@startColor), to(@endColor)) 1 100%;
+        -webkit-border-image: 
+            -webkit-linear-gradient(right, @startColor, @endColor) 1 100%;
+        -o-border-image:
+            -o-linear-gradient(right, @startColor, @endColor) 1 100%;
+        -moz-border-image:
+            -moz-linear-gradient(right, @startColor, end) 1 100%;
+    }
+    .right-to-left(@widthSettings: 0 0 1px 0, @startColor: rgba(0,0,0,1), @endColor: transparent) {
+        border-width: @widthSettings;
+        -webkit-border-image: 
+            -webkit-gradient(linear, 0 0, 100% 0, from(@startColor), to(@endColor)) 1 100%;
+        -webkit-border-image: 
+            -webkit-linear-gradient(left, @startColor, @endColor) 1 100%;
+        -o-border-image:
+            -o-linear-gradient(left, @startColor, @endColor) 1 100%;
+        -moz-border-image:
+            -moz-linear-gradient(left, @startColor, end) 1 100%;
+    }
+    .bottom-to-top(@widthSettings: 0 0 0 1px, @startColor: rgba(0,0,0,1), @endColor: transparent) {
+        border-width: @widthSettings;
+        -webkit-border-image: 
+            -webkit-gradient(linear, 0 100%, 0 0, from(@startColor), to(@endColor)) 1 100%;
+        -webkit-border-image: 
+            -webkit-linear-gradient(bottom, @startColor, @endColor) 1 100%;
+        -o-border-image:
+            -o-linear-gradient(bottom, @startColor, @endColor) 1 100%;
+        -moz-border-image:
+            -moz-linear-gradient(bottom, @startColor, end) 1 100%;
+    }
+    .top-to-bottom(@widthSettings: 0 0 0 1px, @startColor: rgba(0,0,0,1), @endColor: transparent) {
+        border-width: @widthSettings;
+        -webkit-border-image: 
+            -webkit-gradient(linear, 0 0, 0 100%, from(@startColor), to(@endColor)) 1 100%;
+        -webkit-border-image: 
+            -webkit-linear-gradient(@startColor, @endColor) 1 100%;
+        -o-border-image:
+            -o-linear-gradient(@startColor, @endColor) 1 100%;
+        -moz-border-image:
+            -moz-linear-gradient(@startColor, end) 1 100%;
+    }
 }
 
 // Reset filters for IE

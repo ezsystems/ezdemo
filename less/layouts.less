@@ -18,131 +18,131 @@
 
 header,
 header > .container {
-	min-height: 111px;
+    min-height: 111px;
 }
 
 header {
-	#gradient > .horizontal(white, rgba(242, 243, 243, 1));
+    #gradient > .horizontal(white, rgba(242, 243, 243, 1));
 }
 
 header > .container {
-	background: transparent url('../images/bgr-header.png') no-repeat left bottom;
+    background: transparent url('../images/bgr-header.png') no-repeat left bottom;
 }
 
 header .logo {
-	display: block;
-	width: 138px;
-	height: 46px;
-	margin-top: 18px;
+    display: block;
+    width: 138px;
+    height: 46px;
+    margin-top: 18px;
 }
 
 header .form-search {
-	margin-top: 27px;
+    margin-top: 27px;
 }
 
 header .form-search label {
-	position: relative;
-	&:before {
-		content: "";
-		display: block;
-		width: 13px;
-		height: 13px;
-		position: absolute;
-		top: 9px;
-		left: 8px;
-		.sprite();
-	}
-	input.search-query {
-		padding-left: 25px;
-		.placeholder(@blue);
-		&:focus{
-			.placeholder(transparent);
-		}
-	}
+    position: relative;
+    &:before {
+        content: "";
+        display: block;
+        width: 13px;
+        height: 13px;
+        position: absolute;
+        top: 9px;
+        left: 8px;
+        .sprite();
+    }
+    input.search-query {
+        padding-left: 25px;
+        .placeholder(@blue);
+        &:focus{
+            .placeholder(transparent);
+        }
+    }
 }
 
 .navbar.extra-navi .nav > li#login {
-	a.hide-login-form {
-		display: none;
-	}
-	a.show-login-form {
-		display: block;
-	}
-	.login-form {
-		margin: 0;
-		background: @blue;
-		color: white;
-		position: absolute;
-		bottom: -140px;
-		right: 0;
-		z-index: 10;
-		height: 0px;
-		overflow: hidden;
-		bottom: 0;
-		#gradient > .vertical(@blue, @blueDark);
-		.border-radius(3px 0 3px 3px);
-		.box-shadow(0 5px 5px rgba(0,0,0,0.35));
-		.transition(all 0.2s ease);
-		fieldset {
-			display: block;
-			padding: 10px;
-			a.forgot-password,
-			a.forgot-password:hover {
-				color: white;
-				display: inline-block;
-				margin-top: 18px;
-			}
-			label {
-				display: block;
-				padding-right: 10px;
-				input {
-					width: 100%;
-				}
-			}
-		}
-		a.close:after{
-			content: "x";
-		}
-	}
-	&:target{
-		background-color: @blue;
-		> a,
-		> a:hover {
-			color: white;
-		}
-		a.hide-login-form {
-			display: block;
-		}
-		a.show-login-form {
-			display: none;
-		}
-		.login-form {
-			display: block;
-			height: 140px;
-			overflow: hidden;
-			bottom: -140px;
-		}
-	}
+    a.hide-login-form {
+        display: none;
+    }
+    a.show-login-form {
+        display: block;
+    }
+    .login-form {
+        margin: 0;
+        background: @blue;
+        color: white;
+        position: absolute;
+        bottom: -140px;
+        right: 0;
+        z-index: 10;
+        height: 0px;
+        overflow: hidden;
+        bottom: 0;
+        #gradient > .vertical(@blue, @blueDark);
+        .border-radius(3px 0 3px 3px);
+        .box-shadow(0 5px 5px rgba(0,0,0,0.35));
+        .transition(all 0.2s ease);
+        fieldset {
+            display: block;
+            padding: 10px;
+            a.forgot-password,
+            a.forgot-password:hover {
+                color: white;
+                display: inline-block;
+                margin-top: 18px;
+            }
+            label {
+                display: block;
+                padding-right: 10px;
+                input {
+                    width: 100%;
+                }
+            }
+        }
+        a.close:after{
+            content: "x";
+        }
+    }
+    &:target{
+        background-color: @blue;
+        > a,
+        > a:hover {
+            color: white;
+        }
+        a.hide-login-form {
+            display: block;
+        }
+        a.show-login-form {
+            display: none;
+        }
+        .login-form {
+            display: block;
+            height: 140px;
+            overflow: hidden;
+            bottom: -140px;
+        }
+    }
 }
 
 footer {
-	.claim-wrapper {
-		min-height: 33px;
-		margin-bottom: 14px;
-	}
-	h3 {
-		border-bottom: 1px solid @grayLighter;
-		#border-gradient > .left-to-right(0 0 1px 0, @grayLighter, fadeout(@grayLighter, 100%));
-		margin-bottom: 2px;
-	}
-	.contact-form {
-		margin-top: 8px;
-		label {
-			padding-right: 10px;
-			input,
-			textarea {
-				width: 100%;
-			}
-		}
-	}
+    .claim-wrapper {
+        min-height: 33px;
+        margin-bottom: 14px;
+    }
+    h3 {
+        border-bottom: 1px solid @grayLighter;
+        #border-gradient > .left-to-right(0 0 1px 0, @grayLighter, fadeout(@grayLighter, 100%));
+        margin-bottom: 2px;
+    }
+    .contact-form {
+        margin-top: 8px;
+        label {
+            padding-right: 10px;
+            input,
+            textarea {
+                width: 100%;
+            }
+        }
+    }
 }
