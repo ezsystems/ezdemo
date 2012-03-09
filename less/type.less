@@ -39,7 +39,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 h1 {
-  font-size: 30px;
+  font-size: 36px;
   line-height: @baseLineHeight * 2;
   small {
     font-size: 18px;
@@ -85,6 +85,36 @@ h6 {
 }
 .page-header h1 {
   line-height: 1;
+}
+
+// Aside headings
+
+aside {
+    h2, h3, h4, h5, h6 {
+        font-weight: 300;
+    }
+    h2 {
+        font-size: 18px;
+        line-height: 34px;
+        padding: 7px 20px 7px 20px;
+        font-weight: 500;
+    }
+    article + h2 {
+        padding-top: 27px;
+    }
+    h3 {
+        font-size: 18px;
+        line-height: 22px;
+    }
+    article {
+        font-size: 13px;
+        line-height: 18px;
+        a {
+            img + h3, img + h4 {
+                margin-top: 7px;
+            }
+        }
+    }
 }
 
 
@@ -232,8 +262,27 @@ cite {
   font-style: normal;
 }
 
-.breadcrumb {
-    font-size: 12px;
+// Article elements
+
+.publishing-data,
+.picture-description {
+    font-size: 13px;
+    line-height: 21px;
+    color: @grayLow;
+}
+
+.strong {
+    font-weight: bold;
+}
+
+.main-content section article {
+    h2, h3, h4, h5, h6 {
+        margin-top: 1em;
+    }
+    h4, h5, h6 {
+        font-size: 18px;
+        line-height: @baseLineHeight * 1.5;
+    }
 }
 
 // Main navi
@@ -247,7 +296,11 @@ cite {
 }
 
 .extra-navi {
-    font-size: 12px;
+    font-size: 13px;
+}
+
+.breadcrumb {
+    font-size: 13px;
 }
 
 // Footer

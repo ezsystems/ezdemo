@@ -7,7 +7,7 @@
 
 .navbar {
   overflow: visible;
-  margin-bottom: @baseLineHeight;
+  margin-bottom: 0;
 }
 
 // Gradient is applied to it's own element because overflow visible is not honored by IE when filter is present
@@ -213,6 +213,7 @@
     }
     .breadcrumb-wrapper {
         border-bottom: 1px solid @grayLighter;
+        #border-gradient > .left-to-right(0 0 1px 0, @grayLighter, fadeout(@grayLighter, 100%));
     }
     &.extra-navi {
         position: relative;
@@ -226,7 +227,7 @@
         .lang-select {
             display: block;
             position: absolute;
-            left: -25px;
+            left: 120px;
             top: 6px;
             > li {
                 display: none;
@@ -282,6 +283,10 @@
             color: @navbarSublevelLinkColor;
             padding: 3px 10px 4px;
             text-shadow: none;
+            &:hover,
+            &:focus {
+                text-decoration: underline;
+            }
         }
     }
 }

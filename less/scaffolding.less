@@ -22,8 +22,23 @@ body {
 a {
   color: @linkColor;
   text-decoration: none;
+  .transition(color linear 0.2s)
 }
 a:hover {
   color: @linkColorHover;
   text-decoration: underline;
+}
+
+aside a.teaser-link {
+    h3, h4 {
+        color: @linkColor;
+        .transition(color linear 0.2s)
+    }
+    &:hover,
+    &:focus {
+        text-decoration: none;
+        h3, h4 {
+            color: @orange;
+        }
+    }
 }
