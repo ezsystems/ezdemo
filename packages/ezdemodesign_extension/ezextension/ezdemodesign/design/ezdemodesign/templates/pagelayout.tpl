@@ -22,11 +22,7 @@
 {include uri='design:page_head_script.tpl'}
 
 </head>
-{* To simplify IE css targeting. IE9 conforms, so threat as rest *}
-<!--[if lt IE 7 ]><body class="ie6"><![endif]-->
-<!--[if IE 7 ]>   <body class="ie7"><![endif]-->
-<!--[if IE 8 ]>   <body class="ie8"><![endif]-->
-<!--[if (gt IE 8)|!(IE)]><!--><body><!--<![endif]-->
+<body>
 <!-- Complete page area: START -->
 
 <!-- Change between "sidemenu"/"nosidemenu" and "extrainfo"/"noextrainfo" to switch display of side columns on or off  -->
