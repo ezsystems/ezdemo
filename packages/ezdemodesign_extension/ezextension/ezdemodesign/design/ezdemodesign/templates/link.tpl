@@ -7,10 +7,7 @@
 <link rel="Shortcut icon" href={"favicon.ico"|ezimage} type="image/x-icon" />
 <link rel="Copyright" href={"/ezinfo/copyright"|ezurl} />
 <link rel="Author" href={"/ezinfo/about"|ezurl} />
-
-{if and( is_set($pagedesign), $pagedesign.data_map.rss_feed.has_content )}
-<link rel="Alternate" type="application/rss+xml" title="RSS" href="{$pagedesign.data_map.rss_feed.data_text|ezurl(no)}" />
-{/if}
+<link rel="Alternate" type="application/rss+xml" title="RSS" href="{'/rss/feed/my_feed'|ezurl(no)}" />
 
 {if $enable_print}
 {* Add print <link> tag in JS to be cache safe with query string (not included in cache-block key by default in pagelayout) *}

@@ -14,7 +14,6 @@
 {def $pagedata         = ezpagedata()
      $pagestyle        = $pagedata.css_classes
      $locales          = fetch( 'content', 'translation_list' )
-     $pagedesign       = $pagedata.template_look
      $current_node_id  = $pagedata.node_id}
 
 {include uri='design:page_head.tpl'}
@@ -28,40 +27,42 @@
 <!-- Change between "sidemenu"/"nosidemenu" and "extrainfo"/"noextrainfo" to switch display of side columns on or off  -->
 <div id="page" class="{$pagestyle}">
 
-  {if and( is_set( $pagedata.persistent_variable.extra_template_list ),
+    {if and( is_set( $pagedata.persistent_variable.extra_template_list ),
              $pagedata.persistent_variable.extra_template_list|count() )}
     {foreach $pagedata.persistent_variable.extra_template_list as $extra_template}
-      {include uri=concat('design:extra/', $extra_template)}
+        {include uri=concat('design:extra/', $extra_template)}
     {/foreach}
-  {/if}
+    {/if}
 
-  <!-- Header area: START -->
-  {include uri='design:page_header.tpl'}
-  <!-- Header area: END -->
+    <!-- Header area: START -->
+    {include uri='design:page_header.tpl'}
+    <!-- Header area: END -->
 
-  {cache-block keys=array( $module_result.uri, $user_hash, $extra_cache_key )}
+    {cache-block keys=array( $module_result.uri, $user_hash, $extra_cache_key )}
 
-  <!-- Top menu area: START -->
-  {if $pagedata.top_menu}
-    {include uri='design:page_topmenu.tpl'}
-  {/if}
-  <!-- Top menu area: END -->
+    <div class="navbar main-navi">
+        <!-- Top menu area: START -->
+        {if $pagedata.top_menu}
+            {include uri='design:page_topmenu.tpl'}
+        {/if}
+        <!-- Top menu area: END -->
 
-  <!-- Path area: START -->
-  {if $pagedata.show_path}
-    {include uri='design:page_toppath.tpl'}
-  {/if}
-  <!-- Path area: END -->
+        <!-- Path area: START -->
+        {if $pagedata.show_path}
+            {include uri='design:page_toppath.tpl'}
+        {/if}
+        <!-- Path area: END -->
+    </div>
 
-  <!-- Toolbar area: START -->
-  {if and( $pagedata.website_toolbar, $pagedata.is_edit|not)}
-    {include uri='design:page_toolbar.tpl'}
-  {/if}
-  <!-- Toolbar area: END -->
+    <!-- Toolbar area: START -->
+    {if and( $pagedata.website_toolbar, $pagedata.is_edit|not)}
+        {include uri='design:page_toolbar.tpl'}
+    {/if}
+    <!-- Toolbar area: END -->
 
-  <!-- Columns area: START -->
-  <div id="columns-position">
-  <div id="columns" class="float-break">
+    <!-- Columns area: START -->
+    <div id="columns-position">
+    <div id="columns" class="float-break">
 
     <!-- Side menu area: START -->
     {if $pagedata.left_menu}
@@ -69,17 +70,12 @@
     {/if}
     <!-- Side menu area: END -->
 
-  {/cache-block}
-{/cache-block}
+    {/cache-block}
+    {/cache-block}
     <!-- Main area: START -->
     {include uri='design:page_mainarea.tpl'}
     <!-- Main area: END -->
-{cache-block keys=array( $module_result.uri, $user_hash, $access_type.name, $extra_cache_key )}
-
-    {if is_unset($pagedesign)}
-        {def $pagedata   = ezpagedata()
-             $pagedesign = $pagedata.template_look}
-    {/if}
+    {cache-block keys=array( $module_result.uri, $user_hash, $access_type.name, $extra_cache_key )}
 
     <!-- Extra area: START -->
     {if $pagedata.extra_menu}
@@ -87,13 +83,13 @@
     {/if}
     <!-- Extra area: END -->
 
-  </div>
-  </div>
-  <!-- Columns area: END -->
+    </div>
+    </div>
+    <!-- Columns area: END -->
 
-  <!-- Footer area: START -->
-  {include uri='design:page_footer.tpl'}
-  <!-- Footer area: END -->
+    <!-- Footer area: START -->
+    {include uri='design:page_footer.tpl'}
+    <!-- Footer area: END -->
 
 </div>
 <!-- Complete page area: END -->

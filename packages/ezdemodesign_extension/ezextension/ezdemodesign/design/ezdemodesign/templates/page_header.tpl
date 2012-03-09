@@ -1,15 +1,16 @@
-  <div id="header-position">
-  <div id="header" class="float-break">
-    <div id="usermenu">
-      {include uri='design:page_header_languages.tpl'}
-  
-      {include uri='design:page_header_links.tpl'}
-    </div>
+<header>
+    <div class="container">
+        <div class="navbar extra-navi">
+            <div class="nav-collapse">
+                {include uri='design:page_header_languages.tpl'}
 
-    {include uri='design:page_header_logo.tpl'}
-    
-    {include uri='design:page_header_searchbox.tpl'}
-    
-    <p class="hide"><a href="#main">{'Skip to main content'|i18n('design/ezdemodesign/pagelayout')}</a></p>
-  </div>
-  </div>
+                {include uri='design:page_header_links.tpl'}
+            </div>
+        </div>
+        <div class="row">
+            {include uri='design:page_header_logo.tpl'}
+
+            {include uri='design:page_header_searchbox.tpl'}
+        </div>
+    </div>
+</header>

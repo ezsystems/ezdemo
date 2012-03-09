@@ -1,17 +1,13 @@
-<div id="searchbox">
-  <form action={"/content/search"|ezurl}>
-  <div id="searchbox-inner">
-    <label for="searchtext" class="hide">{'Search text:'|i18n('design/ezdemodesign/pagelayout')}</label>
-    {if $pagedata.is_edit}
-    <input id="searchtext" name="SearchText" type="text" value="" size="12" disabled="disabled" />
-    <input id="searchbutton" class="button-disabled" type="submit" value="{'Search'|i18n('design/ezdemodesign/pagelayout')}" title="{'Search'|i18n('design/ezdemodesign/pagelayout')}" disabled="disabled" />
-    {else}
-    <input id="searchtext" name="SearchText" type="text" value="" size="12" />
-    <input id="searchbutton" class="button" type="submit" value="{'Search'|i18n('design/ezdemodesign/pagelayout')}" title="{'Search'|i18n('design/ezdemodesign/pagelayout')}" />
-        {if eq( $ui_context, 'browse' )}
-         <input name="Mode" type="hidden" value="browse" />
+<form class="span4 form-search" method="get" action="{'/content/search'|ezurl( 'no' )}" id="site-wide-search">
+    <label class="pull-right">
+        <span class="hidden">{'Search'|i18n('design/ezdemodesign/pagelayout')}</span>
+        {if $pagedata.is_edit}
+            <input class="search-query span3" type="search" name="SearchText" id="site-wide-search-field" placeholder="{'Search text'|i18n('design/ezdemodesign/pagelayout')}" disabled="disabled" />
+        {else}
+            <input class="search-query span3" type="search" name="SearchText" id="site-wide-search-field" placeholder="{'Search text'|i18n('design/ezdemodesign/pagelayout')}" />
+            {if eq( $ui_context, 'browse' )}
+             <input name="Mode" type="hidden" value="browse" />
+            {/if}
         {/if}
-    {/if}
-  </div>
-  </form>
-</div>
+    </label>
+</form>

@@ -195,32 +195,6 @@ class eZPageData
                     $viewMode = '';
                 }
 
-                // Get custom template_look object. false|eZContentObject (set as parameter from caller)
-                if ( isset( $parameters['template_look'] ) )
-                {
-                    $pageData['template_look'] = $parameters['template_look'];
-                }
-                else
-                {
-                    // Get template_look eZContentObject
-                    if ( !isset( $parameters['template_look_class'] ) )
-                    {
-                        $parameters['template_look_class'] = 'template_look';
-                    }
-
-                    $templateLookClassID    = eZContentObjectTreeNode::classIDByIdentifier( $parameters['template_look_class'] );
-                    $templateLookObjectList = eZContentObject::fetchFilteredList( array( 'contentclass_id' => $templateLookClassID ), 0, 1 );
-
-                    if ( $templateLookObjectList )
-                    {
-                       $pageData['template_look'] = $templateLookObjectList[0];
-                    }
-                    else
-                    {
-                        $pageData['template_look'] = false;
-                    }
-                }
-
                 // canonical url, to let search engines know about main location on content with multiple locations
                 if ( isset( $parameters['canonical_url'] ) )
                 {
