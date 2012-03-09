@@ -299,7 +299,7 @@ header {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#f2f3f3', GradientType=1);
 }
 header > .container {
-  background: transparent url('../img/bgr-header.png') no-repeat left bottom;
+  background: transparent url('../images/bgr-header.png') no-repeat left bottom;
 }
 header .logo {
   display: block;
@@ -321,7 +321,7 @@ header .form-search label:before {
   position: absolute;
   top: 9px;
   left: 8px;
-  background: transparent url('../img/ez-sprite.png') no-repeat left top;
+  background: transparent url('../images/ez-sprite.png') no-repeat left top;
 }
 header .form-search label input.search-query {
   padding-left: 25px;
@@ -2366,7 +2366,7 @@ button.btn.small, input[type="submit"].btn.small {
   position: relative;
 }
 .navbar.extra-navi .nav {
-  background: transparent url('../img/bgr-extra-navi.png') no-repeat center bottom;
+  background: transparent url('../images/bgr-extra-navi.png') no-repeat center bottom;
 }
 .navbar.extra-navi .nav > li {
   border: none;
@@ -2393,13 +2393,13 @@ button.btn.small, input[type="submit"].btn.small {
   display: block;
 }
 .navbar.extra-navi .lang-select > li.english > a {
-  background: transparent url('../img/ez-sprite.png') no-repeat -29px 0px;
+  background: transparent url('../images/ez-sprite.png') no-repeat -29px 0px;
 }
 .navbar.extra-navi .lang-select > li.german > a {
-  background: transparent url('../img/ez-sprite.png') no-repeat -13px 0px;
+  background: transparent url('../images/ez-sprite.png') no-repeat -13px 0px;
 }
 .navbar.extra-navi .lang-select > li.french > a {
-  background: transparent url('../img/ez-sprite.png') no-repeat -45px 0px;
+  background: transparent url('../images/ez-sprite.png') no-repeat -45px 0px;
 }
 .navbar .nav > li > a {
   float: none;
