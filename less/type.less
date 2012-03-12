@@ -208,17 +208,31 @@ abbr {
 
 // Blockquotes
 blockquote {
-  padding: 0 0 0 15px;
-  margin: 0 0 @baseLineHeight;
-  border-left: 5px solid @grayLighter;
+  padding: 0;
+  margin: 0 0 1.5em 0;
+  #gradient > .vertical(@blueDark, @blue);
+  font-family: @serifFontFamily;
+  color: @white;
+  font-size: 20px;
+  line-height: 26px;
+  padding: 30px 20px 10px 20px;
+  .clearfix();
   p {
-    margin-bottom: 0;
-    #font > .shorthand(16px,300,@baseLineHeight * 1.25);
+    margin-bottom: 20px;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    color: inherit;
   }
   small {
     display: block;
-    line-height: @baseLineHeight;
-    color: @grayLight;
+    float: right;
+    font-family: @baseFontFamily;
+    font-size: 14px;
+    font-weight: bold;
+    font-style: italic;
+    color: @white;
+    margin-bottom: 10px;
     &:before {
       content: '\2014 \00A0';
     }
@@ -278,10 +292,10 @@ cite {
 .content-view-full .class-article {
     h2, h3, h4, h5, h6 {
         margin-top: 1em;
+        line-height: @baseLineHeight * 1.5;
     }
     h4, h5, h6 {
         font-size: 18px;
-        line-height: @baseLineHeight * 1.5;
     }
 }
 
