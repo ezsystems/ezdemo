@@ -110,7 +110,7 @@ aside {
         font-size: 13px;
         line-height: 18px;
         a {
-            img + h3, img + h4 {
+            .attribute-image + .attribute-header {
                 margin-top: 7px;
             }
         }
@@ -213,8 +213,9 @@ abbr {
 // Blockquotes
 blockquote {
   padding: 0;
-  margin: 0 0 1.5em 0;
+  margin: 1.5em 0;
   #gradient > .vertical(@blueDark, @blue);
+  .box-shadow(inset 0 0 10px rgba(0,0,0,0.25));
   font-family: @serifFontFamily;
   color: @white;
   font-size: 20px;
