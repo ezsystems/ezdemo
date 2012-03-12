@@ -534,31 +534,31 @@ aside > section:last-child > article:last-child:after {
   background-repeat: repeat-x;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='rgba(255, 255, 255, 0)', endColorstr='#ffffff', GradientType=0);
 }
-.main-content section {
+.content-view-full {
   margin: 26px 0 50px 0;
 }
-.main-content section article .publishing-data + p, .main-content section article .publishing-data + ul, .main-content section article .publishing-data + ol {
+.content-view-full .class-article .attribute-byline + p, .content-view-full .class-article .attribute-byline + ul, .content-view-full .class-article .attribute-byline + ol {
   margin-top: 1em;
 }
-.main-content section article .picture-wrapper.full-head {
+.content-view-full .class-article .attribute-image.full-head {
   margin-bottom: 1em;
 }
-.main-content section article .picture-wrapper.inline {
+.content-view-full .class-article .attribute-image.inline {
   width: 50%;
 }
-.main-content section article .picture-wrapper.inline.pull-right {
+.content-view-full .class-article .attribute-image.inline.pull-right {
   margin-left: 20px;
 }
-.main-content section article .picture-wrapper.inline.pull-left {
+.content-view-full .class-article .attribute-image.inline.pull-left {
   margin-right: 20px;
 }
-.main-content section article ul, .main-content section article ol {
+.content-view-full .class-article ul, .content-view-full .class-article ol {
   margin-top: 0.5em;
 }
-.main-content section article ul li, .main-content section article ol li {
+.content-view-full .class-article ul li, .content-view-full .class-article ol li {
   margin-bottom: 0.5em;
 }
-.picture-wrapper .picture-description {
+.attribute-image .attribute-caption {
   display: block;
   background-color: #fafafa;
   background-image: -webkit-gradient(linear, 0 0, 100% 0, from(#ffffff), color-stop(50%, #f9f9f9), to(#ffffff));
@@ -795,22 +795,27 @@ small {
 cite {
   font-style: normal;
 }
-.publishing-data, .picture-description {
+.attribute-byline, .attribute-caption {
   font-size: 13px;
   line-height: 21px;
   color: #969696;
 }
+.attribute-byline p, .attribute-caption p {
+  margin: 0;
+  padding: 0;
+  font-size: 13px;
+}
 .strong {
   font-weight: bold;
 }
-.main-content section article h2,
-.main-content section article h3,
-.main-content section article h4,
-.main-content section article h5,
-.main-content section article h6 {
+.content-view-full .class-article h2,
+.content-view-full .class-article h3,
+.content-view-full .class-article h4,
+.content-view-full .class-article h5,
+.content-view-full .class-article h6 {
   margin-top: 1em;
 }
-.main-content section article h4, .main-content section article h5, .main-content section article h6 {
+.content-view-full .class-article h4, .content-view-full .class-article h5, .content-view-full .class-article h6 {
   font-size: 18px;
   line-height: 31.5px;
 }

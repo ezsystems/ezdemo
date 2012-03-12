@@ -1,7 +1,7 @@
 {* Article - Line view *}
 
-<div class="content-view-line">
-    <div class="class-article float-break">
+<section class="content-view-line">
+    <article class="class-article float-break">
 
     <h2><a href={$node.url_alias|ezurl}>{$node.data_map.title.content|wash}</a></h2>
 
@@ -17,5 +17,5 @@
     </div>
     {/section}
 
-    </div>
-</div>
+    </article>
+</section>

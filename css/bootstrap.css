@@ -800,6 +800,11 @@ cite {
   line-height: 21px;
   color: #969696;
 }
+.attribute-byline p, .attribute-caption p {
+  margin: 0;
+  padding: 0;
+  font-size: 13px;
+}
 .strong {
   font-weight: bold;
 }
