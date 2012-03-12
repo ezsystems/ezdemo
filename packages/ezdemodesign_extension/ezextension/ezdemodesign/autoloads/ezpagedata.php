@@ -395,8 +395,7 @@ class eZPageData
                 $pageData['path_normalized'] = '';
 
                 // Creating menu css classes for div#page
-                $pageData['css_classes']     = $pageData['left_menu'] ? 'sidemenu' : 'nosidemenu';
-                $pageData['css_classes']    .= $pageData['extra_menu'] ? ' extrainfo' : ' noextrainfo';
+                $pageData['css_classes']     = '';
 
                 // Add section css class for div#page
                 if ( isset( $moduleResult['section_id'] ))
@@ -425,6 +424,16 @@ class eZPageData
                 {
                     $pageData['css_classes'] .= ' ' . implode( ' ', $pageData['persistent_variable']['pagestyle_css_classes'] );
                 }
+
+                $pageData['inner_column_size'] = 8;
+                if ( $pageData['left_menu'] && $pageData['extra_menu'] )
+                    $pageData['inner_column_size'] = 6;
+                if ( !$pageData['left_menu'] && !$pageData['extra_menu'] )
+                    $pageData['inner_column_size'] = 12;
+
+                $pageData['outer_column_size'] = 4;
+                if ( $pageData['left_menu'] && $pageData['extra_menu'] )
+                    $pageData['outer_column_size'] = 3;
 
                 $operatorValue = $pageData;
             } break;

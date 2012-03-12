@@ -1,8 +1,14 @@
-{def $infoboxes=fetch( 'content', 'list', hash( 'parent_node_id', $pagedata.extra_menu_node_id,
-                                                'class_filter_type', 'include',
-                                                'class_filter_array', $pagedata.extra_menu_class_list,
-                                                'sort_by', array( 'priority', false() ) ) )}
-                                                
-{foreach $infoboxes as $infobox}
-    {node_view_gui content_node=$infobox view='infobox'}
-{/foreach}
+{def $global_layout_object = fetch( 'content', 'tree', hash( 'parent_node_id', 1,
+                                                             'limit', 1,
+                                                             'class_filter_type', include,
+                                                             'class_filter_array', array( 'global_layout' ) ) )}
+
+<!-- ZONE CONTENT: START -->
+
+{if $global_layout_object}
+<aside>
+    {attribute_view_gui attribute=$global_layout_object[0].data_map.page}
+</aside>
+{/if}
+
+<!-- ZONE CONTENT: END -->

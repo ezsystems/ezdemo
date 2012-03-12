@@ -10,9 +10,12 @@
     {def $extra_cache_key = ''}
 {/if}
 
+{def $pagedata        = ezpagedata()
+     $inner_column_size = $pagedata.inner_column_size
+     $outer_column_size = $pagedata.outer_column_size}
+
 {cache-block keys=array( $module_result.uri, $basket_is_empty, $current_user.contentobject_id, $extra_cache_key )}
-{def $pagedata         = ezpagedata()
-     $pagestyle        = $pagedata.css_classes
+{def $pagestyle        = $pagedata.css_classes
      $locales          = fetch( 'content', 'translation_list' )
      $current_node_id  = $pagedata.node_id}
 
@@ -24,7 +27,6 @@
 <body>
 <!-- Complete page area: START -->
 
-<!-- Change between "sidemenu"/"nosidemenu" and "extrainfo"/"noextrainfo" to switch display of side columns on or off  -->
 <div id="page" class="{$pagestyle}">
 
     {if and( is_set( $pagedata.persistent_variable.extra_template_list ),
@@ -61,29 +63,26 @@
     <!-- Toolbar area: END -->
 
     <!-- Columns area: START -->
-    <div id="columns-position">
-    <div id="columns" class="float-break">
-
-    <!-- Side menu area: START -->
-    {if $pagedata.left_menu}
-        {include uri='design:page_leftmenu.tpl'}
-    {/if}
-    <!-- Side menu area: END -->
-
+    <div class="container">
+        <div class="row">
+            <!-- Side menu area: START -->
+            {if $pagedata.left_menu}
+                {include uri='design:page_leftmenu.tpl'}
+            {/if}
+            <!-- Side menu area: END -->
     {/cache-block}
     {/cache-block}
-    <!-- Main area: START -->
-    {include uri='design:page_mainarea.tpl'}
-    <!-- Main area: END -->
-    {cache-block keys=array( $module_result.uri, $user_hash, $access_type.name, $extra_cache_key )}
+            <!-- Main area: START -->
+            {include uri='design:page_mainarea.tpl'}
+            <!-- Main area: END -->
+            {cache-block keys=array( $module_result.uri, $user_hash, $access_type.name, $extra_cache_key )}
 
-    <!-- Extra area: START -->
-    {if $pagedata.extra_menu}
-        {include uri='design:page_extramenu.tpl'}
-    {/if}
-    <!-- Extra area: END -->
-
-    </div>
+            <!-- Extra area: START -->
+            {if $pagedata.extra_menu}
+                {include uri='design:page_extramenu.tpl'}
+            {/if}
+            <!-- Extra area: END -->
+        </div>
     </div>
     <!-- Columns area: END -->
 
