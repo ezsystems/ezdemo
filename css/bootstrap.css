@@ -838,6 +838,11 @@ cite {
   line-height: 21px;
   color: #969696;
 }
+.attribute-byline p, .attribute-caption p {
+  margin: 0;
+  padding: 0;
+  font-size: 13px;
+}
 .strong {
   font-weight: bold;
 }
@@ -2975,6 +2980,19 @@ a.thumbnail:hover {
 }
 .pull-left {
   float: left;
+}
+.object-left {
+  float: left;
+  clear: left;
+}
+.object-right {
+  float: right;
+  clear: right;
+}
+.object-center {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
 .hide {
   display: none;
