@@ -224,38 +224,43 @@
                 position: relative;
             }
         }
-        .lang-select {
-            display: block;
-            position: absolute;
-            left: 120px;
-            top: 6px;
-            > li {
-                display: none;
-                list-style-type: none;
-                padding-bottom: 2px;
-                > a {
-                    display: block;
-                    width: 16px;
-                    height: 11px;
-                    background-color: transparent;
+        #lang-selector {
+            .current-lang {
+                display:block;
+                position:absolute;
+                left: 170px;
+                top: 0;
+            }
+            a {
+                display: inline-block;
+                padding: 5px 10px 5px 30px;
+            }
+            ul {
+                margin:0;
+                background-color: @blue;
+                position: absolute;
+                left: 170px;
+                top: -200px;
+                z-index:10;
+                #gradient > .vertical(@blue, @blueDark);
+                .border-radius(0px 0px 3px 3px);
+                .box-shadow(0 5px 5px rgba(0,0,0,0.35));
+                .transition(top 0.4s ease);
+                > li {
+                    list-style-type: none;
+                    padding-bottom: 2px;
                 }
-                &.current {
-                    display: block;
+                > .current {
+                    background:@blueDarker;
                 }
-                &.english {
-                    > a {
-                        .sprite(transparent, -29px, 0px);
-                    }
+            }
+            &:target {
+                ul {
+                    overflow:hidden;
+                    top:0;
                 }
-                &.german{
-                    > a {
-                        .sprite(transparent, -13px, 0px);
-                    }
-                }
-                &.french {
-                    > a {
-                        .sprite(transparent, -45px, 0px);
-                    }
+                a {
+                    color:#fff;
                 }
             }
         }
