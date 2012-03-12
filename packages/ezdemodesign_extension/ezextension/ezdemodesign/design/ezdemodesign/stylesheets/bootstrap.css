@@ -2943,6 +2943,19 @@ a.thumbnail:hover {
 .pull-left {
   float: left;
 }
+.object-left {
+  float: left;
+  clear: left;
+}
+.object-right {
+  float: right;
+  clear: right;
+}
+.object-center {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
 .hide {
   display: none;
 }
