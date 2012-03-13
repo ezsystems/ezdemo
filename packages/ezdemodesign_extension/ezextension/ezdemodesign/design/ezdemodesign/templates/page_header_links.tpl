@@ -11,7 +11,7 @@
     {if ezmodule( 'user/register' )}
     <li id="registeruser"><a href={"/user/register"|ezurl} title="{'Register'|i18n('design/ezdemodesign/pagelayout')}">{'Register'|i18n('design/ezdemodesign/pagelayout')}</a></li>
     {/if}
-    <li id="login">
+    <li id="login" class="transition-showed">
         <a href="#login" title="show login form" class="show-login-form">{'Login'|i18n('design/ezdemodesign/pagelayout')}</a>
         <a href="#" title="hide login form" class="hide-login-form">{'Login'|i18n('design/ezdemodesign/pagelayout')}</a>
         <form class="login-form span3" action="{'/user/login'|ezurl( 'no' )}" method="post">

@@ -1,6 +1,6 @@
 {def $lang_selector = array()
      $avail_translation = array()}
-<div id="lang-selector">
+<div id="lang-selector" class="transition-showed">
 {if and( is_set( $DesignKeys:used.url_alias ), $DesignKeys:used.url_alias|count|ge( 1 ) )}
     {set $avail_translation = language_switcher( $DesignKeys:used.url_alias )}
 {else}

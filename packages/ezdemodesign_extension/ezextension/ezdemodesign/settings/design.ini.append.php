@@ -7,4 +7,7 @@ DesignExtensions[]=ezdemodesign
 [JavaScriptSettings]
 JavaScriptFooterList[]
 
+FrontendJavaScriptList[]=ezjsc::yui3
+FrontendJavaScriptList[]=handle_transition.js
+
 */ ?>
