@@ -222,12 +222,21 @@ blockquote {
   line-height: 26px;
   padding: 30px 20px 10px 20px;
   .clearfix();
-  p {
-    margin-bottom: 20px;
-    font-family: inherit;
-    font-size: inherit;
-    line-height: inherit;
-    color: inherit;
+  .blockquote-body {
+      .clearfix();
+      p {
+          margin-bottom: 20px;
+          font-family: inherit;
+          font-size: inherit;
+          line-height: inherit;
+          color: inherit;
+          &:first-child:before {
+              content: '\AB';
+          }
+          &:last-child:after {
+                content: '\BB';
+            }
+        }
   }
   small {
     display: block;
@@ -242,19 +251,18 @@ blockquote {
       content: '\2014 \00A0';
     }
   }
+}
 
-  // Float right with text-align: right
-  &.pull-right {
-    float: right;
-    padding-left: 0;
-    padding-right: 15px;
-    border-left: 0;
-    border-right: 5px solid @grayLighter;
-    p,
-    small {
-      text-align: right;
-    }
-  }
+.object-left blockquote p {
+    text-align: left;
+}
+
+.object-center blockquote p {
+    text-align: center;
+}
+
+.object-right blockquote p {
+    text-align: right;
 }
 
 // Quotes
@@ -327,9 +335,12 @@ cite {
             color: @orange;
             font-weight: 500;
         }
-        .person-position {
+        .person-position,
+        .image-and-data-set ul li {
             font-size: 13px;
-            color: @grayLow;
+            color: @grayLower;
+        }
+        .person-position {
             font-style: italic;
         }
     }
