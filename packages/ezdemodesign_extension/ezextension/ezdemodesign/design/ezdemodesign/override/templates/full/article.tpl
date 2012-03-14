@@ -55,15 +55,15 @@
     {if is_unset( $versionview_mode )}
         {if $node.data_map.enable_comments.data_int}
             <h1>{"Comments"|i18n("design/ezdemodesign/full/article")}</h1>
-            <div class="content-view-children">
+            <section class="content-view-children">
                 {foreach fetch_alias( comments, hash( parent_node_id, $node.node_id ) ) as $comment}
-                        {node_view_gui view='line' content_node=$comment}
-                    {/foreach}
-            </div>
+                    {node_view_gui view='line' content_node=$comment}
+                {/foreach}
+            </section>
 
             {if fetch( 'content', 'access', hash( 'access', 'create',
-            'contentobject', $node,
-            'contentclass_id', 'comment' ) )}
+                                                  'contentobject', $node,
+                                                  'contentclass_id', 'comment' ) )}
                 <form method="post" action={"content/action"|ezurl}>
                     <input type="hidden" name="ClassIdentifier" value="comment" />
                     <input type="hidden" name="NodeID" value="{$node.object.main_node.node_id}" />
@@ -80,8 +80,7 @@
         {/if}
     {/if}
 
-    {def $tipafriend_access=fetch( 'user', 'has_access_to', hash( 'module', 'content',
-    'function', 'tipafriend' ) )}
+    {def $tipafriend_access=fetch( 'user', 'has_access_to', hash( 'module', 'content', 'function', 'tipafriend' ) )}
     {if and( ezmodule( 'content/tipafriend' ), $tipafriend_access )}
         <div class="attribute-tipafriend">
             <p><a href={concat( "/content/tipafriend/", $node.node_id )|ezurl} title="{'Tip a friend'|i18n( 'design/ezdemodesign/full/article' )}">{'Tip a friend'|i18n( 'design/ezdemodesign/full/article' )}</a></p>

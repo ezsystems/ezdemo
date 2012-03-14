@@ -1,7 +1,13 @@
 {* Article - Line view *}
 
-<section class="content-view-line">
-    <article class="class-article float-break">
+<div class="content-view-line">
+    <article class="class-article">
+
+    {section show=$node.data_map.image.has_content}
+        <div class="attribute-image">
+            {attribute_view_gui image_class=articlethumbnail href=$node.url_alias|ezurl attribute=$node.data_map.image}
+        </div>
+    {/section}
 
     <div class="attribute-header">
         <h2>
@@ -23,12 +29,6 @@
         </a>
     </div>
 
-    {section show=$node.data_map.image.has_content}
-        <div class="attribute-image">
-            {attribute_view_gui image_class=articlethumbnail href=$node.url_alias|ezurl attribute=$node.data_map.image}
-        </div>
-    {/section}
-
     {section show=$node.data_map.intro.content.is_empty|not}
     <div class="attribute-short">
         {attribute_view_gui attribute=$node.data_map.intro}
@@ -36,4 +36,4 @@
     {/section}
 
     </article>
-</section>
+</div>

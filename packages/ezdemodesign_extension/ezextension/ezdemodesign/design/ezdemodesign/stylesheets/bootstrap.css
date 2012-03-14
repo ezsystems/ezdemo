@@ -134,12 +134,7 @@ a:hover {
   color: #006a8d;
   text-decoration: underline;
 }
-aside a.teaser-link h3,
-.class-list a.teaser-link h3,
-aside a.teaser-link h4,
-.class-list a.teaser-link h4,
-aside a.teaser-link h5,
-.class-list a.teaser-link h5 {
+a.teaser-link {
   color: #006a8d;
   -webkit-transition: color linear 0.2s;
   -moz-transition: color linear 0.2s;
@@ -147,26 +142,7 @@ aside a.teaser-link h5,
   -o-transition: color linear 0.2s;
   transition: color linear 0.2s;
 }
-aside a.teaser-link:hover,
-.class-list a.teaser-link:hover,
-aside a.teaser-link:focus,
-.class-list a.teaser-link:focus {
-  text-decoration: none;
-}
-aside a.teaser-link:hover h3,
-.class-list a.teaser-link:hover h3,
-aside a.teaser-link:focus h3,
-.class-list a.teaser-link:focus h3,
-aside a.teaser-link:hover h4,
-.class-list a.teaser-link:hover h4,
-aside a.teaser-link:focus h4,
-.class-list a.teaser-link:focus h4,
-aside a.teaser-link:hover h5,
-.class-list a.teaser-link:hover h5,
-aside a.teaser-link:focus h5,
-.class-list a.teaser-link:focus h5 {
-  color: #e57910;
-}
+a.teaser-link h2,
 a.teaser-link h3,
 a.teaser-link h4,
 a.teaser-link h5 {
@@ -180,7 +156,10 @@ a.teaser-link h5 {
 a.teaser-link:hover,
 a.teaser-link:focus {
   text-decoration: none;
+  color: #e57910;
 }
+a.teaser-link:hover h2,
+a.teaser-link:focus h2,
 a.teaser-link:hover h3,
 a.teaser-link:focus h3,
 a.teaser-link:hover h4,
@@ -648,28 +627,46 @@ aside > .content-view-aside:last-child > article:last-child:after {
   border-bottom: 1px solid #ebebeb;
   padding: 0 10px 3px 10px;
 }
-.class-list .attribute-header h1,
-.class-list .attribute-header h2,
-.class-list .attribute-header h3,
-.class-list .attribute-header h4,
-.class-list .attribute-header h5,
-.class-list .attribute-header h6 {
+.content-view-children .attribute-header h1,
+.content-view-children .attribute-header h2,
+.content-view-children .attribute-header h3,
+.content-view-children .attribute-header h4,
+.content-view-children .attribute-header h5,
+.content-view-children .attribute-header h6 {
   border-bottom: 1px solid #ebebeb;
   margin-bottom: 5px;
 }
-.class-list > ul {
+.content-view-children > ul {
   padding: 0;
   margin: 1em 0;
 }
-.class-list .content-list-item {
+.content-view-children .content-view-line {
   margin-bottom: 1em;
+  *zoom: 1;
 }
-.class-list .content-list-item a.teaser-link.with-product-number {
+.content-view-children .content-view-line:before,
+.content-view-children .content-view-line:after {
+  display: table;
+  content: "";
+}
+.content-view-children .content-view-line:after {
+  clear: both;
+}
+.content-view-children .content-view-line .class-article .attribute-image {
+  width: 22%;
+  float: left;
+  padding-right: 30px;
+  background-color: #ffffff;
+  display: block;
+  position: relative;
+  z-index: 10;
+}
+.content-view-children .content-view-line .with-product-number {
   padding-right: 150px;
   position: relative;
   display: block;
 }
-.class-list .content-list-item a.teaser-link.with-product-number .product-number {
+.content-view-children .content-view-line .with-product-number .product-number {
   display: block;
   position: absolute;
   right: 0;
@@ -679,28 +676,28 @@ aside > .content-view-aside:last-child > article:last-child:after {
   border-bottom: 1px solid #ebebeb;
   color: #969696;
 }
-.class-list .content-list-item form .item-price,
-.class-list .content-list-item form .item-buying-action {
+.content-view-children .content-view-line form .item-price,
+.content-view-children .content-view-line form .item-buying-action {
   text-align: right;
 }
-.class-list .content-list-item form .item-price {
+.content-view-children .content-view-line form .item-price {
   margin-bottom: 13px;
 }
-.class-list .contacts-container article {
+.content-view-children .contacts-container article {
   margin-top: 10px;
 }
-.class-list .contacts-container article .person-position {
+.content-view-children .contacts-container article .person-position {
   margin-bottom: 0;
 }
-.class-list .contacts-container article .image-and-data-set {
+.content-view-children .contacts-container article .image-and-data-set {
   margin-top: 10px;
   padding-bottom: 10px;
 }
-.class-list .contacts-container article .image-and-data-set ul {
+.content-view-children .contacts-container article .image-and-data-set ul {
   margin: 0;
   padding: 0;
 }
-.class-list .contacts-container article .image-and-data-set ul li:before {
+.content-view-children .contacts-container article .image-and-data-set ul li:before {
   content: "";
   height: 19px;
   width: 19px;
@@ -719,17 +716,20 @@ aside > .content-view-aside:last-child > article:last-child:after {
   -moz-border-radius: 3px;
   border-radius: 3px;
   vertical-align: text-bottom;
+  position: relative;
+  left: auto;
+  top: auto;
 }
-.class-list .contacts-container article .image-and-data-set ul li.phone.mobile:before {
+.content-view-children .contacts-container article .image-and-data-set ul li.phone.mobile:before {
   background: transparent url('../images/ez-sprite.png') no-repeat -61px 0;
 }
-.class-list .contacts-container article .image-and-data-set ul li.phone.landline:before {
+.content-view-children .contacts-container article .image-and-data-set ul li.phone.landline:before {
   background: transparent url('../images/ez-sprite.png') no-repeat -80px 0;
 }
-.class-list .contacts-container article .image-and-data-set ul li.messenger.skype:before {
+.content-view-children .contacts-container article .image-and-data-set ul li.messenger.skype:before {
   background: transparent url('../images/ez-sprite.png') no-repeat -99px 0;
 }
-.class-list .contacts-container article .image-and-data-set ul li.social.twitter:before {
+.content-view-children .contacts-container article .image-and-data-set ul li.social.twitter:before {
   background: transparent url('../images/ez-sprite.png') no-repeat -118px 0;
 }
 .attribute-byline.with-comments {
@@ -796,6 +796,7 @@ h6 small {
 h1 {
   font-size: 36px;
   line-height: 42px;
+  color: #007ea6;
 }
 h1 small {
   font-size: 18px;
@@ -853,6 +854,7 @@ aside h2 {
   line-height: 34px;
   padding: 7px 20px 7px 20px;
   font-weight: 500;
+  color: #007ea6;
 }
 aside article + h2 {
   padding-top: 27px;
@@ -897,15 +899,22 @@ ol.unstyled {
   margin-left: 0;
   list-style: none;
 }
-ul.ez-pointer li {
+section ul li,
+footer ul li,
+section ol li,
+footer ol li {
   position: relative;
 }
-ul.ez-pointer li:before {
+section ul li:before,
+footer ul li:before,
+section ol li:before,
+footer ol li:before {
   content: "»";
   color: #006a8d;
   display: inline-block;
   position: absolute;
-  margin-left: -1em;
+  left: -13px;
+  top: -1px;
 }
 dl {
   margin-bottom: 21px;
@@ -1063,32 +1072,32 @@ cite {
 .content-view-full .class-article h6 {
   font-size: 18px;
 }
-.class-list .attribute-header h1,
-.class-list .attribute-header h2,
-.class-list .attribute-header h3,
-.class-list .attribute-header h4,
-.class-list .attribute-header h5,
-.class-list .attribute-header h6 {
+.content-view-children .attribute-header h2,
+.content-view-children .attribute-header h3,
+.content-view-children .attribute-header h4,
+.content-view-children .attribute-header h5,
+.content-view-children .attribute-header h6 {
   line-height: 1.5em;
   font-weight: 300;
+  font-size: 18px;
 }
-.class-list .content-list-item .item-price {
+.content-view-children .content-view-line .item-price {
   color: #e57910;
   font-family: "Ubuntu", Helvetica, Arial, sans-serif;
   font-size: 30px;
   font-weight: 500;
 }
-.class-list .contacts-container h3,
-.class-list .contacts-container h4 {
+.content-view-children .contacts-container h3,
+.content-view-children .contacts-container h4 {
   color: #e57910;
   font-weight: 500;
 }
-.class-list .contacts-container .person-position,
-.class-list .contacts-container .image-and-data-set ul li {
+.content-view-children .contacts-container .person-position,
+.content-view-children .contacts-container .image-and-data-set ul li {
   font-size: 13px;
   color: #6f6f6f;
 }
-.class-list .contacts-container .person-position {
+.content-view-children .contacts-container .person-position {
   font-style: italic;
 }
 .main-navi {
