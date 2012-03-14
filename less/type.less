@@ -41,6 +41,7 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
   font-size: 36px;
   line-height: @baseLineHeight * 2;
+  color: @blue;
   small {
     font-size: 18px;
   }
@@ -98,6 +99,7 @@ aside {
         line-height: 34px;
         padding: 7px 20px 7px 20px;
         font-weight: 500;
+        color: @blue;
     }
     article + h2 {
         padding-top: 27px;
@@ -152,15 +154,20 @@ ol.unstyled {
   list-style: none;
 }
 
-ul.ez-pointer {
-    li {
-        position: relative;
-        &:before {
-            content: "»";
-            color: @blueDark;
-            display: inline-block;
-            position: absolute;
-            margin-left: -1em;
+section,
+footer {
+    ul,
+    ol {
+        li {
+            position: relative;
+            &:before {
+                content: "»";
+                color: @blueDark;
+                display: inline-block;
+                position: absolute;
+                left: -13px;
+                top: -1px;
+            }
         }
     }
 }
@@ -317,14 +324,14 @@ cite {
     }
 }
 
-.class-list {
+.content-view-children {
     .attribute-header {
-        h1, h2, h3, h4, h5, h6 {
+        h2, h3, h4, h5, h6 {
             line-height: 1.5em;
             font-weight: 300;
         }
     }
-    .content-list-item .item-price {
+    .content-view-line .item-price {
         color: @orange;
         font-family: @specialFontFamily;
         font-size: 30px;
