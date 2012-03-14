@@ -2,17 +2,13 @@
 
 <div class="block-type-3items block-view-{$block.view}">
 
-<div class="attribute-header"><h2>{$block.name}</h2></div>
+    <div class="attribute-header">
+        <h2>{$block.name|wash()}</h2>
+    </div>
 
-{foreach $valid_nodes as $valid_node}
-
-{node_view_gui view='block_item' image_class='articlethumbnail' content_node=$valid_node}
-
-{delimiter}
-<div class="separator"></div>
-{/delimiter}
-
-{/foreach}
+    {foreach $valid_nodes as $valid_node}
+        {node_view_gui view='block_item' image_class='teaserimage' content_node=$valid_node}
+    {/foreach}
 
 </div>
 

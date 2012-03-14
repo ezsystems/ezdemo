@@ -1,7 +1,7 @@
 {* Folder - Full view *}
 {def $rss_export = fetch( 'rss', 'export_by_node', hash( 'node_id', $node.node_id ) )}
 
-<div class="content-view-full">
+<section class="content-view-full">
     <div class="class-folder">
 
         {if $rss_export}
@@ -64,4 +64,4 @@
 
         {/if}
     </div>
-</div>
+</section>
