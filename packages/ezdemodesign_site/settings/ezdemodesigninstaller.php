@@ -4126,7 +4126,8 @@ class ezdemodesignInstaller extends eZSiteInstaller
                         '9' => 'rss', 
                         '10' => 'logo', 
                         '11' => 'infoboximage', 
-                        '12' => 'billboard' 
+                        '12' => 'billboard',
+                        '13' => 'blockitemimage'
                     ) 
                 ), 
                 'small' => array( 
@@ -4168,13 +4169,13 @@ class ezdemodesignInstaller extends eZSiteInstaller
                 'articleimage' => array( 
                     'Reference' => '', 
                     'Filters' => array( 
-                        '0' => 'geometry/scaledownonly=170;350' 
+                        '0' => 'geometry/scalewidth=760'
                     ) 
                 ), 
                 'articlethumbnail' => array( 
                     'Reference' => '', 
                     'Filters' => array( 
-                        '0' => 'geometry/scaledownonly=70;150' 
+                        '0' => 'geometry/scaledownonly=170;220'
                     ) 
                 ), 
                 'gallerythumbnail' => array( 
@@ -4206,7 +4207,14 @@ class ezdemodesignInstaller extends eZSiteInstaller
                     'Filters' => array( 
                         '0' => 'geometry/scalewidth=764' 
                     ) 
-                ) 
+                ),
+                'blockitemimage' => array(
+                    'Reference' => '',
+                    'Filters' => array(
+                        '0' => 'geometry/scalewidth=360',
+                        '1' => 'geometry/crop=360;130;0;0'
+                    )
+                )
             ) 
         );
         return $settings;

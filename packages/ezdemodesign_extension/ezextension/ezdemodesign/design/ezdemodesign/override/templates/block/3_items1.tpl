@@ -7,7 +7,7 @@
     </div>
 
     {foreach $valid_nodes as $valid_node}
-        {node_view_gui view='block_item' image_class='teaserimage' content_node=$valid_node}
+        {node_view_gui view='block_item' image_class='blockitemimage' content_node=$valid_node}
     {/foreach}
 
 </div>
