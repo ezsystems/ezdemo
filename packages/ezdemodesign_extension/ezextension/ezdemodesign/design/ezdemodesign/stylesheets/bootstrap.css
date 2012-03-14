@@ -167,6 +167,28 @@ aside a.teaser-link:focus h5,
 .class-list a.teaser-link:focus h5 {
   color: #e57910;
 }
+a.teaser-link h3,
+a.teaser-link h4,
+a.teaser-link h5 {
+  color: #006a8d;
+  -webkit-transition: color linear 0.2s;
+  -moz-transition: color linear 0.2s;
+  -ms-transition: color linear 0.2s;
+  -o-transition: color linear 0.2s;
+  transition: color linear 0.2s;
+}
+a.teaser-link:hover,
+a.teaser-link:focus {
+  text-decoration: none;
+}
+a.teaser-link:hover h3,
+a.teaser-link:focus h3,
+a.teaser-link:hover h4,
+a.teaser-link:focus h4,
+a.teaser-link:hover h5,
+a.teaser-link:focus h5 {
+  color: #e57910;
+}
 .attribute-byline.with-comments a.comments {
   color: #aeaeae;
   text-decoration: none;
@@ -664,11 +686,51 @@ aside > .content-view-aside:last-child > article:last-child:after {
 .class-list .content-list-item form .item-price {
   margin-bottom: 13px;
 }
-.class-list .contacts-container .person-position {
+.class-list .contacts-container article {
+  margin-top: 10px;
+}
+.class-list .contacts-container article .person-position {
   margin-bottom: 0;
 }
-.class-list .contacts-container .image-and-data-set {
+.class-list .contacts-container article .image-and-data-set {
   margin-top: 10px;
+  padding-bottom: 10px;
+}
+.class-list .contacts-container article .image-and-data-set ul {
+  margin: 0;
+  padding: 0;
+}
+.class-list .contacts-container article .image-and-data-set ul li:before {
+  content: "";
+  height: 19px;
+  width: 19px;
+  margin-right: 0.5em;
+  display: inline-block;
+  background-color: #a4a4a4;
+  background-image: -moz-linear-gradient(top, #aeaeae, #969696);
+  background-image: -ms-linear-gradient(top, #aeaeae, #969696);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#aeaeae), to(#969696));
+  background-image: -webkit-linear-gradient(top, #aeaeae, #969696);
+  background-image: -o-linear-gradient(top, #aeaeae, #969696);
+  background-image: linear-gradient(top, #aeaeae, #969696);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#aeaeae', endColorstr='#969696', GradientType=0);
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  vertical-align: text-bottom;
+}
+.class-list .contacts-container article .image-and-data-set ul li.phone.mobile:before {
+  background: transparent url('../images/ez-sprite.png') no-repeat -61px 0;
+}
+.class-list .contacts-container article .image-and-data-set ul li.phone.landline:before {
+  background: transparent url('../images/ez-sprite.png') no-repeat -80px 0;
+}
+.class-list .contacts-container article .image-and-data-set ul li.messenger.skype:before {
+  background: transparent url('../images/ez-sprite.png') no-repeat -99px 0;
+}
+.class-list .contacts-container article .image-and-data-set ul li.social.twitter:before {
+  background: transparent url('../images/ez-sprite.png') no-repeat -118px 0;
 }
 .attribute-byline.with-comments {
   display: block;
@@ -909,12 +971,29 @@ blockquote:after {
 blockquote:after {
   clear: both;
 }
-blockquote p {
+blockquote .blockquote-body {
+  *zoom: 1;
+}
+blockquote .blockquote-body:before,
+blockquote .blockquote-body:after {
+  display: table;
+  content: "";
+}
+blockquote .blockquote-body:after {
+  clear: both;
+}
+blockquote .blockquote-body p {
   margin-bottom: 20px;
   font-family: inherit;
   font-size: inherit;
   line-height: inherit;
   color: inherit;
+}
+blockquote .blockquote-body p:first-child:before {
+  content: '\AB';
+}
+blockquote .blockquote-body p:last-child:after {
+  content: '\BB';
 }
 blockquote small {
   display: block;
@@ -929,15 +1008,13 @@ blockquote small {
 blockquote small:before {
   content: '\2014 \00A0';
 }
-blockquote.pull-right {
-  float: right;
-  padding-left: 0;
-  padding-right: 15px;
-  border-left: 0;
-  border-right: 5px solid #ebebeb;
+.object-left blockquote p {
+  text-align: left;
 }
-blockquote.pull-right p,
-blockquote.pull-right small {
+.object-center blockquote p {
+  text-align: center;
+}
+.object-right blockquote p {
   text-align: right;
 }
 q:before,
@@ -1006,9 +1083,12 @@ cite {
   color: #e57910;
   font-weight: 500;
 }
-.class-list .contacts-container .person-position {
+.class-list .contacts-container .person-position,
+.class-list .contacts-container .image-and-data-set ul li {
   font-size: 13px;
-  color: #969696;
+  color: #6f6f6f;
+}
+.class-list .contacts-container .person-position {
   font-style: italic;
 }
 .main-navi {
@@ -3367,4 +3447,40 @@ a.thumbnail:hover {
   -webkit-border-image: -webkit-linear-gradient(right, #ebebeb, rgba(235, 235, 235, 0)) 1 100%;
   -o-border-image: -o-linear-gradient(right, #ebebeb, rgba(235, 235, 235, 0)) 1 100%;
   -moz-border-image: -moz-linear-gradient(right, #ebebeb, end) 1 100%;
+}
+.block-separator {
+  height: 20px;
+}
+.block-type-mainstory {
+  position: relative;
+}
+.block-type-mainstory .overlay {
+  position: absolute;
+  top: 74%;
+  padding-left: 8px;
+  font-weight: 300;
+}
+.block-type-mainstory .overlay .attribute-author {
+  color: #fff;
+  font-size: 18px;
+}
+.block-type-mainstory .overlay h2 {
+  font-weight: 300;
+}
+.block-type-mainstory .overlay h2 a {
+  color: #fff;
+  text-decoration: none;
+}
+.block-type-2items article {
+  display: block;
+}
+.block-type-2items article a.teaser-link {
+  display: block;
+  padding-bottom: 8px;
+}
+.block-type-2items article h3 {
+  font-weight: 300;
+}
+.block-type-2items .attribute-short {
+  font-weight: 300;
 }

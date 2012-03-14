@@ -2,3 +2,44 @@
     #gradient > .directional(fadeout(@grayLight, 70%), fadeout(@grayLight, 100%), -45deg);
     #border-gradient > .left-to-right(1px 0 0 0, @grayLighter, fadeout(@grayLighter, 100%));
 }
+
+.block-separator {
+    height: 20px;
+}
+
+.block-type-mainstory {
+    position: relative;
+    .overlay {
+        position: absolute;
+        top: 74%;
+        padding-left: 8px;
+        font-weight: 300;
+        .attribute-author {
+            color: #fff;
+            font-size: 18px;
+        }
+        h2 {
+            font-weight: 300;
+            a {
+                color: #fff;
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+.block-type-2items {
+    article {
+        display: block;
+        a.teaser-link {
+            display: block;
+            padding-bottom: 8px;
+        }
+        h3 {
+            font-weight: 300;
+        }
+    }
+    .attribute-short {
+        font-weight: 300;
+    }
+}
