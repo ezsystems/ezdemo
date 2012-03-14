@@ -9,7 +9,7 @@
 
         <div class="attribute-byline">
             <span class="date">
-            {$node.object.published|l10n(shortdatetime)}
+                {$node.object.published|l10n(shortdatetime)}
             </span>
         {if $node.data_map.author.content.is_empty|not()}
             <span class="author">

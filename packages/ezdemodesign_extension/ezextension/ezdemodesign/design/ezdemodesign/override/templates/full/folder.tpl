@@ -1,7 +1,7 @@
 {* Folder - Full view *}
 {def $rss_export = fetch( 'rss', 'export_by_node', hash( 'node_id', $node.node_id ) )}
 
-<div class="content-view-full">
+<section class="content-view-full">
     <div class="class-folder">
 
         {if $rss_export}
@@ -43,6 +43,7 @@
                                                                       'class_filter_array', $classes ) )}
 
             <div class="content-view-children">
+                <div class="class-list">
                 {if $children_count}
                     {foreach fetch_alias( 'children', hash( 'parent_node_id', $node.node_id,
                                                             'offset', $view_parameters.offset,
@@ -53,6 +54,7 @@
                         {node_view_gui view='line' content_node=$child}
                     {/foreach}
                 {/if}
+                </div>
             </div>
 
             {include name=navigator
@@ -64,4 +66,4 @@
 
         {/if}
     </div>
-</div>
+</section>
