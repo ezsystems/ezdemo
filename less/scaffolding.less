@@ -29,32 +29,18 @@ a:hover {
   text-decoration: underline;
 }
 
-aside,
-.content-view-children {
-    a.teaser-link {
-        h3, h4, h5 {
-            color: @linkColor;
-            .transition(color linear 0.2s)
-        }
-        &:hover,
-        &:focus {
-            text-decoration: none;
-            h3, h4, h5 {
-                color: @orange;
-            }
-        }
-    }
-}
-
 a.teaser-link {
-    h3, h4, h5 {
+    color: @linkColor;
+    .transition(color linear 0.2s);
+    h2, h3, h4, h5 {
         color: @linkColor;
-        .transition(color linear 0.2s)
+        .transition(color linear 0.2s);
     }
     &:hover,
     &:focus {
         text-decoration: none;
-        h3, h4, h5 {
+        color: @orange;
+        h2, h3, h4, h5 {
             color: @orange;
         }
     }

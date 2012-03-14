@@ -229,7 +229,6 @@ aside {
         h1, h2, h3, h4, h5, h6 {
             border-bottom: 1px solid @grayLighter;
             margin-bottom: 5px;
-            display: inline-block;
         }
     }
     > ul {
@@ -239,17 +238,18 @@ aside {
     .content-view-line {
         margin-bottom: 1em;
         .clearfix();
-        .attribute-image {
-            width: 25%;
-            float: left;
-            margin-right: 20px;
-            display: block;
+        .class-article {
+            .attribute-image {
+                width: 22%;
+                float: left;
+                padding-right: 30px;
+                background-color: @white;
+                display: block;
+                position: relative;
+                z-index: 10;
+            }
         }
-        .content-view-line-body {
-            display: block;
-            float: left;
-        }
-        a.teaser-link.with-product-number {
+        .with-product-number {
             padding-right: 150px;
             position: relative;
             display: block;
@@ -296,6 +296,9 @@ aside {
                             #gradient > .vertical(@gray, @grayLow);
                             .border-radius(3px);
                             vertical-align: text-bottom;
+                            position: relative;
+                            left: auto;
+                            top: auto;
                         }
                         &.phone {
                             &.mobile {
