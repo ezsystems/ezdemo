@@ -577,40 +577,53 @@ aside > .content-view-aside:last-child > article:last-child:after {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='rgba(255, 255, 255, 0)', endColorstr='#ffffff', GradientType=0);
 }
 .content-view-full,
-.content-view-children {
+.content-view-children,
+.content-view-block {
   margin: 26px 0 50px 0;
 }
 .content-view-full article,
-.content-view-children article {
+.content-view-children article,
+.content-view-block article {
   display: block;
 }
 .content-view-full article .attribute-image.full-head,
-.content-view-children article .attribute-image.full-head {
+.content-view-children article .attribute-image.full-head,
+.content-view-block article .attribute-image.full-head {
   margin-bottom: 1em;
 }
 .content-view-full article .attribute-image.content-view-embed,
-.content-view-children article .attribute-image.content-view-embed {
+.content-view-children article .attribute-image.content-view-embed,
+.content-view-block article .attribute-image.content-view-embed {
   width: 50%;
 }
 .content-view-full article .attribute-image.content-view-embed.pull-right,
-.content-view-children article .attribute-image.content-view-embed.pull-right {
+.content-view-children article .attribute-image.content-view-embed.pull-right,
+.content-view-block article .attribute-image.content-view-embed.pull-right {
   margin-left: 20px;
 }
 .content-view-full article .attribute-image.content-view-embed.pull-left,
-.content-view-children article .attribute-image.content-view-embed.pull-left {
+.content-view-children article .attribute-image.content-view-embed.pull-left,
+.content-view-block article .attribute-image.content-view-embed.pull-left {
   margin-right: 20px;
 }
 .content-view-full article ul,
 .content-view-children article ul,
+.content-view-block article ul,
 .content-view-full article ol,
-.content-view-children article ol {
+.content-view-children article ol,
+.content-view-block article ol {
   margin-top: 0.5em;
 }
 .content-view-full article ul li,
 .content-view-children article ul li,
+.content-view-block article ul li,
 .content-view-full article ol li,
-.content-view-children article ol li {
+.content-view-children article ol li,
+.content-view-block article ol li {
   margin-bottom: 0.5em;
+}
+.content-view-block {
+  margin-top: 26px;
 }
 .attribute-image .attribute-caption {
   display: block;
@@ -665,6 +678,7 @@ aside > .content-view-aside:last-child > article:last-child:after {
   font-size: 13px;
   border-bottom: 1px solid #ebebeb;
   color: #969696;
+  text-align: right;
 }
 .content-view-children .content-view-line form .item-price,
 .content-view-children .content-view-line form .item-buying-action {
@@ -3452,24 +3466,92 @@ aside .block-content {
 }
 .block-type-mainstory {
   position: relative;
-  margin-bottom: 20px;
+  margin: 20px 0;
+  *zoom: 1;
 }
-.block-type-mainstory .overlay {
+.block-type-mainstory:before,
+.block-type-mainstory:after {
+  display: table;
+  content: "";
+}
+.block-type-mainstory:after {
+  clear: both;
+}
+.block-type-mainstory.full-size a .overlay {
   position: absolute;
-  top: 74%;
-  padding-left: 8px;
+  bottom: 15px;
+  left: 0;
   font-weight: 300;
 }
-.block-type-mainstory .overlay .attribute-author {
-  color: #fff;
+.block-type-mainstory.full-size a .overlay .attribute-author {
+  color: #ffffff;
   font-size: 18px;
+  display: block;
+  margin: 0 10px;
 }
-.block-type-mainstory .overlay h2 {
-  font-weight: 300;
+.block-type-mainstory.full-size a .overlay h2 {
+  display: block;
+  margin: 0 10px;
+  color: #ffffff;
+  line-height: 1.2;
 }
-.block-type-mainstory .overlay h2 a {
-  color: #fff;
+.block-type-mainstory.full-size a:hover,
+.block-type-mainstory.full-size a:focus {
   text-decoration: none;
+}
+.block-type-mainstory.full-size a:hover .overlay .attribute-author,
+.block-type-mainstory.full-size a:focus .overlay .attribute-author,
+.block-type-mainstory.full-size a:hover .overlay h2,
+.block-type-mainstory.full-size a:focus .overlay h2 {
+  text-decoration: none;
+  color: #e57910;
+}
+.block-type-mainstory.picture-left a {
+  display: block;
+  *zoom: 1;
+  padding: 15px;
+  background-color: #004054;
+  background-image: -moz-linear-gradient(top, #004d66, #002c3a);
+  background-image: -ms-linear-gradient(top, #004d66, #002c3a);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#004d66), to(#002c3a));
+  background-image: -webkit-linear-gradient(top, #004d66, #002c3a);
+  background-image: -o-linear-gradient(top, #004d66, #002c3a);
+  background-image: linear-gradient(top, #004d66, #002c3a);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#004d66', endColorstr='#002c3a', GradientType=0);
+}
+.block-type-mainstory.picture-left a:before,
+.block-type-mainstory.picture-left a:after {
+  display: table;
+  content: "";
+}
+.block-type-mainstory.picture-left a:after {
+  clear: both;
+}
+.block-type-mainstory.picture-left a .attribute-image {
+  display: block;
+  width: 40%;
+  float: left;
+  margin-right: 20px;
+}
+.block-type-mainstory.picture-left a .attribute-header h2 {
+  line-height: 1.2;
+  margin-bottom: 5px;
+  color: #ffffff;
+}
+.block-type-mainstory.picture-left a .attribute-short {
+  color: #ffffff;
+}
+.block-type-mainstory.picture-left a:hover,
+.block-type-mainstory.picture-left a:focus {
+  text-decoration: none;
+}
+.block-type-mainstory.picture-left a:hover .attribute-header h2,
+.block-type-mainstory.picture-left a:focus .attribute-header h2,
+.block-type-mainstory.picture-left a:hover .attribute-short,
+.block-type-mainstory.picture-left a:focus .attribute-short {
+  text-decoration: none;
+  color: #e57910;
 }
 .block-type-2items article {
   display: block;

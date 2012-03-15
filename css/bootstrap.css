@@ -671,6 +671,9 @@ aside > .content-view-aside:last-child > article:last-child:after {
 .content-view-block article ol li {
   margin-bottom: 0.5em;
 }
+.content-view-block {
+  margin-top: 26px;
+}
 .attribute-image .attribute-caption {
   display: block;
   background-color: #fafafa;

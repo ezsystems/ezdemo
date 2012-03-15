@@ -1,19 +1,19 @@
 {def $valid_node = $block.valid_nodes[0]}
-
-<div class="block-type-mainstory">
-    <div class="attribute-image">
-        {attribute_view_gui href=$valid_node.url_alias|ezurl() attribute=$valid_node.data_map.image image_class='mainstory1'}
-    </div>
-    <div class="overlay">
-    {if $valid_node.data_map.author.content.is_empty|not()}
-        <div class="attribute-author">
-            {attribute_view_gui attribute=$valid_node.data_map.author}
+<article class="block-type-mainstory full-size">
+    <a href="{$valid_node.url_alias|ezurl(no)}">
+        <div class="attribute-image">
+            {attribute_view_gui attribute=$valid_node.data_map.image image_class='mainstory1'}
         </div>
-    {/if}
-        <div class="attribute-link">
-            <h2><a href="{$valid_node.url_alias|ezurl(no)}">{$valid_node.name|wash()}</a></h2>
+        <div class="overlay">
+        {if $valid_node.data_map.author.content.is_empty|not()}
+            <div class="attribute-author">
+                {attribute_view_gui attribute=$valid_node.data_map.author}
+            </div>
+        {/if}
+            <div class="attribute-header">
+                <h2>{$valid_node.name|wash()}</h2>
+            </div>
         </div>
-    </div>
-</div>
-
+    </a>
+</article>
 {undef $valid_node}
