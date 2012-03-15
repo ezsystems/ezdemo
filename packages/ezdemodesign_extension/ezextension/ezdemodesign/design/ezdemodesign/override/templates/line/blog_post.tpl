@@ -1,9 +1,10 @@
 {* Blog post - Line view *}
+
 <div class="content-view-line">
-    <article class="class-blog-post float-break">
+    <article class="class-blog-post">
 
     <div class="attribute-header">
-        <h1><a href={$node.url_alias|ezurl} title="{$node.data_map.title.content|wash}">{$node.data_map.title.content|wash}</a></h1>
+        <h2><a href={$node.url_alias|ezurl} title="{$node.data_map.title.content|wash}">{$node.data_map.title.content|wash}</a></h2>
      </div>
 
     <div class="attribute-byline">
@@ -18,7 +19,7 @@
         </span>
     </div>
 
-        <div class="attribute-body float-break">
+        <div class="attribute-body">
             {attribute_view_gui attribute=$node.data_map.body}
         </div>
 

@@ -1,7 +1,7 @@
 {* Product - Line view *}
 
 <div class="content-view-line">
-    <div class="class-product float-break">
+    <article class="class-product float-break">
 
         <h2><a href={$node.url_alias|ezurl}>{$node.name|wash()}</a></h2>
 
@@ -23,5 +23,5 @@
           <p class="ex-vat">(price ex. vat {$node.object.data_map.price.content.ex_vat_price})</p>
         </div>
 
-   </div>
+   </article>
 </div>
