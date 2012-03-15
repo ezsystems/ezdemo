@@ -1,11 +1,13 @@
-<div class="attribute-image">
-    {attribute_view_gui href=$node.url_alias|ezurl() attribute=$node.data_map.image image_class=$image_class}
-</div>
-
-<div class="attribute-caption">
-    {if $node.data_map.caption.has_content}
-        {attribute_view_gui attribute=$node.data_map.caption}
-    {else}
-        <p>{$node.name|wash()}</p>
-    {/if}
-</div>
+{def $image = $node.data_map.image.content[$image_class]}
+<!-- BOX CONTENT: START -->
+<figure class="attribute-image">
+    <img src={$image.url|ezroot} width="{$image.width}" height="{$image.height}" alt="{$node.name|wash}" />
+    <figcaption class="attribute-caption">
+        {if $node.data_map.caption.has_content}
+            {attribute_view_gui attribute=$node.data_map.caption}
+        {/if}
+        <h3><a href={$node.url_alias|ezurl()}>{$node.name|wash()}</a></h3>
+    </figcaption>
+</figure>
+<!-- BOX CONTENT: END -->
+{undef $image}
