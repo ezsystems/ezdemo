@@ -1,7 +1,7 @@
 <div class="zone-layout-{$zone_layout|downcase()} row">
     <div class="span4">
         <aside>
-            <section class="content-view-aside">
+            <section class="content-view-block content-view-aside">
                 {if and( is_set( $zones[0].blocks ), $zones[0].blocks|count() )}
                 {foreach $zones[0].blocks as $block}
                     {include uri='design:parts/zone_block.tpl' zone=$zones[0]}
@@ -20,7 +20,7 @@
         </section>
     </div>
     <div class="span12">
-        <section>
+        <section class="content-view-block">
             {if and( is_set( $zones[2].blocks ), $zones[2].blocks|count() )}
             {foreach $zones[2].blocks as $block}
                 {include uri='design:parts/zone_block.tpl' zone=$zones[2]}
