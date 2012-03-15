@@ -1,74 +1,35 @@
-{def $valid_nodes = $block.valid_nodes}
+{def $valid_nodes = $block.valid_nodes
+     $images = array()
+     $several = $valid_nodes|count|gt( 1 )}
 <!-- BLOCK: START -->
 <div class="block-type-gallery">
-
-<div class="border-box block-style6-box-outside">
-<div class="border-tl"><div class="border-tr"><div class="border-tc"></div></div></div>
-<div class="border-ml"><div class="border-mr"><div class="border-mc">
-<div class="border-content">
-
-<div class="block">
-    <div class="left">
-        <h2>{$block.name|wash()}</h2>
+    <div class="gallery">
+        <a href="#" class="navig prev" style="opacity:0;"><span class="hide">&lt;</span></a>
+        <a href={cond( $several, $valid_nodes[1].url_alias|ezurl, '"#"' )} class="navig next{cond( $several|not, ' disabled', '' )}"><span class="hide">&gt;</span></a>
+        <ul class="indicator">
+            {for 1 to $valid_nodes|count as $i}
+            <li{cond( $i|eq( 1 ), ' class="selected"', '' )}><span class="hide">{$i}</span></li>
+            {/for}
+        </ul>
+        <ul class="images">
+        {foreach $valid_nodes as $k => $img_node}<li>{node_view_gui view='block_item' image_class='gallery' content_node=$img_node}</li>{/foreach}
+        </ul>
     </div>
-    <div class="right">
-    {*
-        <input type="image" src={"input-img-prev.png"|ezimage()} />
-        <input type="image" src={"input-img-next.png"|ezimage()} />
-    *}
-    </div>
-    <div class="break"></div>
-</div>
-<!-- BLOCK BORDER INSIDE: START -->
-
-<div class="border-box block-style6-box-inside">
-<div class="border-tl"><div class="border-tr"><div class="border-tc"></div></div></div>
-<div class="border-ml"><div class="border-mr"><div class="border-mc">
-<div class="border-content">
-
-<!-- BLOCK CONTENT: START -->
-
-<div class="columns-three">
-<div class="col-1-2">
-<div class="col-1">
-<div class="col-content">
-
-{node_view_gui view='block_item' image_class='blockgallery1' content_node=$valid_nodes[0]}
-
-</div>
-</div>
-<div class="col-2">
-<div class="col-content">
-
-{node_view_gui view='block_item' image_class='blockgallery1' content_node=$valid_nodes[1]}
-
-</div>
-</div>
-</div>
-<div class="col-3">
-<div class="col-content">
-
-{node_view_gui view='block_item' image_class='blockgallery1' content_node=$valid_nodes[2]}
-
-</div>
-</div>
-</div>
-
-<!-- BLOCK CONTENT: END -->
-
-</div>
-</div></div></div>
-<div class="border-bl"><div class="border-br"><div class="border-bc"></div></div></div>
-</div>
-
-<!-- BLOCK BORDER INSIDE: END -->
-
-</div>
-</div></div></div>
-<div class="border-bl"><div class="border-br"><div class="border-bc"></div></div></div>
-</div>
-
 </div>
 <!-- BLOCK: END -->
-
-{undef $valid_nodes}
+{run-once}
+<script type="text/javascript">
+{literal}
+YUI(YUI3_config).use('event', 'ezsimplegallery', function (Y) {
+    Y.on('domready', function () {
+        Y.all('.block-type-gallery').each(function () {
+            var gal = new Y.eZ.SimpleGallery({
+                gallery: this
+            });
+        });
+    });
+});
+{/literal}
+</script>
+{/run-once}
+{undef $valid_nodes $images $several}
