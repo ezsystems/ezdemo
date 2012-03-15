@@ -598,6 +598,12 @@ aside > .content-view-aside article.highlighted p {
 aside > .content-view-aside article.highlighted p {
   margin-top: 5px;
 }
+aside > .content-view-aside .block-type-poll form h3 {
+  margin-bottom: 10px;
+}
+aside > .content-view-aside .block-type-poll form .actions {
+  margin-top: 10px;
+}
 aside > .content-view-aside:last-child > article:last-child {
   padding-bottom: 70px;
 }

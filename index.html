@@ -319,6 +319,35 @@
                             </a>
                         </article>
                         
+                        <div class="block-type-poll">
+                            <div class="attribute-header">
+                                <h2>Quick Poll</h2>
+                            </div>
+                            <article>
+                                <form method="post" action="/~ls/ezdemodesign_dev/index.php/content/action">
+                                    <input type="hidden" name="ContentNodeID" value="70">
+                                    <input type="hidden" name="ContentObjectID" value="68">
+                                    <input type="hidden" name="ViewMode" value="full">
+
+                                    <h3>Will you attend eZ events in 2012?</h3>
+
+                                    <label class="radio">
+                                        <input type="radio" name="ContentObjectAttribute_data_option_value_256" value="0" checked="checked" id="poll_option_256_0">Yes
+                                    </label>
+                                    <label class="radio">
+                                        <input type="radio" name="ContentObjectAttribute_data_option_value_256" value="1" id="poll_option_256_1">No
+                                    </label>
+                                    <label class="radio">
+                                        <input type="radio" name="ContentObjectAttribute_data_option_value_256" value="2" id="poll_option_256_2">I always attend
+                                    </label>
+                                
+                                    <div class="actions">
+                                        <button type="submit" name="ActionCollectInformation" class="btn btn-warning">Vote</button>
+                                    </div>
+                                </form>
+                            </article>
+                        </div>
+                        
                     </section>
                     
                     <section class="content-view-children">
@@ -555,6 +584,36 @@
                                     </p>
                                 </a>
                             </article>
+                            
+                            <div class="block-type-poll">
+                                <div class="attribute-header">
+                                    <h2>Quick Poll</h2>
+                                </div>
+                                <article>
+                                    <form method="post" action="/~ls/ezdemodesign_dev/index.php/content/action">
+                                        <input type="hidden" name="ContentNodeID" value="70">
+                                        <input type="hidden" name="ContentObjectID" value="68">
+                                        <input type="hidden" name="ViewMode" value="full">
+
+                                        <h3>Will you attend eZ events in 2012?</h3>
+
+                                        <label class="radio">
+                                            <input type="radio" name="ContentObjectAttribute_data_option_value_256" value="0" checked="checked" id="poll_option_256_0">Yes
+                                        </label>
+                                        <label class="radio">
+                                            <input type="radio" name="ContentObjectAttribute_data_option_value_256" value="1" id="poll_option_256_1">No
+                                        </label>
+                                        <label class="radio">
+                                            <input type="radio" name="ContentObjectAttribute_data_option_value_256" value="2" id="poll_option_256_2">I always attend
+                                        </label>
+                                    
+                                        <div class="actions">
+                                            <button type="submit" name="ActionCollectInformation" class="btn btn-warning">Vote</button>
+                                        </div>
+                                    </form>
+                                </article>
+                            </div>
+                            
                             <article>
                                 <a href="#" class="teaser-link" title="Read more about teaser-type without picture">
                                     <div class="attribute-header">
@@ -661,8 +720,8 @@
                                     <textarea id="contact-form-message" name="contact-form-message" placeholder="Message" rows="3"></textarea>
                                 </label>
                                 <div class="actions">
-                        <button type="submit" class="btn btn-mini btn-warning pull-right">Send</button>
-                      </div>
+                                    <button type="submit" class="btn btn-mini btn-warning pull-right">Send</button>
+                                </div>
                             </fieldset>
                         </form>
                     </div>
