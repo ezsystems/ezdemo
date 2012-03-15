@@ -5195,6 +5195,9 @@ aside .block-content {
   -o-border-image: -o-linear-gradient(right, #ebebeb, rgba(235, 235, 235, 0)) 1 100%;
   -moz-border-image: -moz-linear-gradient(right, #ebebeb, end) 1 100%;
 }
+.item-list .block-content {
+  padding: 10px 20px;
+}
 .block-type-mainstory {
   position: relative;
   margin: 20px 0;
@@ -5241,6 +5244,6 @@ aside .block-content {
 .block-type-2items .attribute-short {
   font-weight: 300;
 }
-.item-list .block-content {
+.content-view-aside .block-type-tagcloud .block-content {
   padding: 10px 20px;
 }
