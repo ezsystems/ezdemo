@@ -3457,11 +3457,9 @@ a.thumbnail:hover {
   -o-border-image: -o-linear-gradient(right, #ebebeb, rgba(235, 235, 235, 0)) 1 100%;
   -moz-border-image: -moz-linear-gradient(right, #ebebeb, end) 1 100%;
 }
-.block-separator {
-  height: 20px;
-}
 .block-type-mainstory {
   position: relative;
+  margin-bottom: 20px;
 }
 .block-type-mainstory .overlay {
   position: absolute;

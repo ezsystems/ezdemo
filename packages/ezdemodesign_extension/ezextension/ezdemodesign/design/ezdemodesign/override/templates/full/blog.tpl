@@ -15,6 +15,7 @@
                                                                  'classid', 'blog_post',
                                                                  'parent_node_id', $node.node_id ) )}
                 {if $blogs_count}
+                <section class="content-view-children">
                     {foreach fetch( 'content', 'keyword', hash( 'alphabet', rawurldecode( $view_parameters.tag ),
                                                                 'classid', 'blog_post',
                                                                 'parent_node_id', $node.node_id,
@@ -27,6 +28,7 @@
                             {set $uniq_post = $uniq_post|append( $uniq_id )}
                         {/if}
                     {/foreach}
+                </section>
                 {/if}
             {else}
                 {if and( $view_parameters.month, $view_parameters.year )}
@@ -38,6 +40,7 @@
                                                                                      array( 'blog_post/publication_date', '>=', $start_date ),
                                                                                      array( 'blog_post/publication_date', '<=', $end_date) ) ) )}
                     {if $blogs_count}
+                    <section class="content-view-children">
                         {foreach fetch( 'content', 'list', hash( 'parent_node_id', $node.node_id,
                                                                  'offset', $view_parameters.offset,
                                                                  'attribute_filter', array( and,
@@ -47,16 +50,19 @@
                                                                  'limit', $page_limit ) ) as $blog}
                             {node_view_gui view=line content_node=$blog}
                         {/foreach}
+                    </section>
                     {/if}
                 {else}
                     {set $blogs_count = fetch( 'content', 'list_count', hash( 'parent_node_id', $node.node_id ) )}
                     {if $blogs_count}
+                    <section class="content-view-children">
                         {foreach fetch( 'content', 'list', hash( 'parent_node_id', $node.node_id,
                                                                  'offset', $view_parameters.offset,
                                                                  'sort_by', array( 'attribute', false(), 'blog_post/publication_date' ),
                                                                  'limit', $page_limit ) ) as $blog}
                             {node_view_gui view=line content_node=$blog}
                         {/foreach}
+                    </section>
                     {/if}
                 {/if}
             {/if}

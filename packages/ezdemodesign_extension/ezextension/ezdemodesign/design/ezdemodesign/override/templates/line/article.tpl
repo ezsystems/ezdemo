@@ -25,7 +25,9 @@
         </span>
     {/if}
         <a href="{$node.url_alias|ezurl( 'no' )}" class="comments">
-            4
+            {fetch( 'content', 'list_count', hash( 'parent_node_id', $node.node_id,
+                                                   'class_filter_type', 'include',
+                                                   'class_filter_array', array( 'comment' ) ) )}
         </a>
     </div>
 
