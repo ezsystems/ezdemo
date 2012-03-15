@@ -5,16 +5,23 @@
      $offset = $block.custom_attributes.offset
      $res = feedreader( $source, $limit, $offset )}
 
-<div class="block-type-feed-reader">
-    <h2>
-        <a href="{$res.links[0]}" title="{$res.title|wash()}">{$res.title|wash()}</a>
-    </h2>
+<div class="block-type-feed-reader item-list">
 
-{foreach $res.items as $item}
-    <div>
-        <a href="{$item.links[0]}" title="{$item.title|wash()}">{$item.title|wash()}</a>
+    <div class="attribute-header">
+        <h2>
+            <a href="{$res.links[0]}" title="{$res.title|wash()}">{$res.title|wash()}</a>
+        </h2>
     </div>
-{/foreach}
+
+    <div class="block-content">
+        <ul>
+        {foreach $res.items as $item}
+            <li>
+                <a href="{$item.links[0]}" title="{$item.title|wash()}">{$item.title|wash()}</a>
+            </li>
+        {/foreach}
+        </ul>
+    </div>
 
 </div>
 {/cache-block}

@@ -3429,10 +3429,11 @@ a.thumbnail:hover {
 .content-view-full .attribute-short {
   font-weight: bold;
 }
-.content-view-line .attribute-short {
+.content-view-line .attribute-short,
+.content-view-aside .attribute-short {
   font-weight: normal;
 }
-.block-content {
+aside .block-content {
   background-color: rgba(219, 219, 220, 0);
   background-repeat: repeat-x;
   background-image: -moz-linear-gradient(-45deg, rgba(219, 219, 220, 0.30000000000000004), rgba(219, 219, 220, 0));
@@ -3480,6 +3481,6 @@ a.thumbnail:hover {
 .block-type-2items .attribute-short {
   font-weight: 300;
 }
-.block-type-itemlist .block-content {
+.item-list .block-content {
   padding: 10px 20px;
 }

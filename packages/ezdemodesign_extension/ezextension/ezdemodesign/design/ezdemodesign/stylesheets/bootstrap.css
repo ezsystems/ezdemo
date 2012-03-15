@@ -580,37 +580,37 @@ aside > .content-view-aside:last-child > article:last-child:after {
 .content-view-children {
   margin: 26px 0 50px 0;
 }
-.content-view-full .class-article,
-.content-view-children .class-article {
+.content-view-full article,
+.content-view-children article {
   display: block;
   margin-bottom: 25px;
 }
-.content-view-full .class-article .attribute-image.full-head,
-.content-view-children .class-article .attribute-image.full-head {
+.content-view-full article .attribute-image.full-head,
+.content-view-children article .attribute-image.full-head {
   margin-bottom: 1em;
 }
-.content-view-full .class-article .attribute-image.content-view-embed,
-.content-view-children .class-article .attribute-image.content-view-embed {
+.content-view-full article .attribute-image.content-view-embed,
+.content-view-children article .attribute-image.content-view-embed {
   width: 50%;
 }
-.content-view-full .class-article .attribute-image.content-view-embed.pull-right,
-.content-view-children .class-article .attribute-image.content-view-embed.pull-right {
+.content-view-full article .attribute-image.content-view-embed.pull-right,
+.content-view-children article .attribute-image.content-view-embed.pull-right {
   margin-left: 20px;
 }
-.content-view-full .class-article .attribute-image.content-view-embed.pull-left,
-.content-view-children .class-article .attribute-image.content-view-embed.pull-left {
+.content-view-full article .attribute-image.content-view-embed.pull-left,
+.content-view-children article .attribute-image.content-view-embed.pull-left {
   margin-right: 20px;
 }
-.content-view-full .class-article ul,
-.content-view-children .class-article ul,
-.content-view-full .class-article ol,
-.content-view-children .class-article ol {
+.content-view-full article ul,
+.content-view-children article ul,
+.content-view-full article ol,
+.content-view-children article ol {
   margin-top: 0.5em;
 }
-.content-view-full .class-article ul li,
-.content-view-children .class-article ul li,
-.content-view-full .class-article ol li,
-.content-view-children .class-article ol li {
+.content-view-full article ul li,
+.content-view-children article ul li,
+.content-view-full article ol li,
+.content-view-children article ol li {
   margin-bottom: 0.5em;
 }
 .attribute-image .attribute-caption {
@@ -651,15 +651,6 @@ aside > .content-view-aside:last-child > article:last-child:after {
 }
 .content-view-children .content-view-line:after {
   clear: both;
-}
-.content-view-children .content-view-line .class-article .attribute-image {
-  width: 22%;
-  float: left;
-  padding-right: 30px;
-  background-color: #ffffff;
-  display: block;
-  position: relative;
-  z-index: 10;
 }
 .content-view-children .content-view-line .with-product-number {
   padding-right: 150px;
@@ -1059,17 +1050,16 @@ cite {
 .strong {
   font-weight: bold;
 }
-.content-view-full .class-article h2,
-.content-view-full .class-article h3,
-.content-view-full .class-article h4,
-.content-view-full .class-article h5,
-.content-view-full .class-article h6 {
-  margin-top: 1em;
+.content-view-full article h2,
+.content-view-full article h3,
+.content-view-full article h4,
+.content-view-full article h5,
+.content-view-full article h6 {
   line-height: 31.5px;
 }
-.content-view-full .class-article h4,
-.content-view-full .class-article h5,
-.content-view-full .class-article h6 {
+.content-view-full article h4,
+.content-view-full article h5,
+.content-view-full article h6 {
   font-size: 18px;
 }
 .content-view-children .attribute-header h2,
@@ -3440,10 +3430,11 @@ a.thumbnail:hover {
 .content-view-full .attribute-short {
   font-weight: bold;
 }
-.content-view-line .attribute-short {
+.content-view-line .attribute-short,
+.content-view-aside .attribute-short {
   font-weight: normal;
 }
-.block-content {
+aside .block-content {
   background-color: rgba(219, 219, 220, 0);
   background-repeat: repeat-x;
   background-image: -moz-linear-gradient(-45deg, rgba(219, 219, 220, 0.30000000000000004), rgba(219, 219, 220, 0));
@@ -3491,6 +3482,6 @@ a.thumbnail:hover {
 .block-type-2items .attribute-short {
   font-weight: 300;
 }
-.block-type-itemlist .block-content {
+.item-list .block-content {
   padding: 10px 20px;
 }

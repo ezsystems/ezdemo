@@ -1,6 +1,6 @@
 {def $valid_nodes = $block.valid_nodes}
 
-<div class="block-type-itemlist">
+<div class="block-type-itemlist item-list">
 
     <div class="attribute-header">
         <h2>{$block.name|wash()}</h2>

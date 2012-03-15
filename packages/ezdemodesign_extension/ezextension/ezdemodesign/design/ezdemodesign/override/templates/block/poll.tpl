@@ -1,27 +1,13 @@
 {def $poll_node = fetch( 'content', 'node', hash( 'node_id', $block.custom_attributes.poll_node_id ) )
      $poll_object = $poll_node.object
      $question_attribute = $poll_object.data_map.question}
-
-<!-- BLOCK: START -->
 <div class="block-type-poll">
 
-<div class="border-box block-style2-box-outside">
-<div class="border-tl"><div class="border-tr"><div class="border-tc"></div></div></div>
-<div class="border-ml"><div class="border-mr"><div class="border-mc">
-<div class="border-content">
+    <div class="attribute-header">
+        <h2>{$block.name|wash()}</h2>
+    </div>
 
-<!-- BLOCK BORDER INSIDE: START -->
-
-<div class="border-box block-style2-box-inside">
-<div class="border-tl"><div class="border-tr"><div class="border-tc"></div></div></div>
-<div class="border-ml"><div class="border-mr"><div class="border-mc">
-<div class="border-content">
-
-<div class="class-poll">
-<!-- BLOCK CONTENT: START -->
-
-<h2>{$block.name|wash()}</h2>
-
+    <div class="block-content">
         <form method="post" action={"content/action"|ezurl}>
         <input type="hidden" name="ContentNodeID" value="{$poll_object.main_node_id}" />
         <input type="hidden" name="ContentObjectID" value="{$poll_object.id}" />
@@ -37,23 +23,7 @@
 
         <input class="button" type="submit" name="ActionCollectInformation" value="{"Vote"|i18n("design/ezflow/embed/poll")}" />
         </form>
-</div>
-<!-- BLOCK CONTENT: END -->
+    </div>
 
 </div>
-</div></div></div>
-<div class="border-bl"><div class="border-br"><div class="border-bc"></div></div></div>
-</div>
-
-<!-- BLOCK BORDER INSIDE: END -->
-
-
-</div>
-</div></div></div>
-<div class="border-bl"><div class="border-br"><div class="border-bc"></div></div></div>
-</div>
-
-</div>
-<!-- BLOCK: END -->
-
 {undef}

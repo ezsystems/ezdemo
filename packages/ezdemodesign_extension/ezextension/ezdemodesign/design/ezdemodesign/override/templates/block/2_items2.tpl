@@ -2,11 +2,17 @@
 
 <div class="block-type-2items block-view-{$block.view}">
 
-{foreach $valid_nodes as $valid_node}
+    {if ne( $block.name, '' )}
+    <div class="attribute-header">
+        <h2>{$block.name|wash()}</h2>
+    </div>
+    {/if}
 
-{node_view_gui view='block_item' image_class='block2items1' content_node=$valid_node}
-
-{/foreach}
+    <div class="block-content">
+    {foreach $valid_nodes as $valid_node}
+        {node_view_gui view='block_item' image_class='blockitemimage' content_node=$valid_node}
+    {/foreach}
+    </div>
 
 </div>
 
