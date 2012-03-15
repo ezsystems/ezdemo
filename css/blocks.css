@@ -1,0 +1,74 @@
+.clearfix {
+  *zoom: 1;
+}
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  content: "";
+}
+.clearfix:after {
+  clear: both;
+}
+aside .block-content {
+  background-color: rgba(219, 219, 220, 0);
+  background-repeat: repeat-x;
+  background-image: -moz-linear-gradient(-45deg, rgba(219, 219, 220, 0.30000000000000004), rgba(219, 219, 220, 0));
+  background-image: -ms-linear-gradient(-45deg, rgba(219, 219, 220, 0.30000000000000004), rgba(219, 219, 220, 0));
+  background-image: -webkit-linear-gradient(-45deg, rgba(219, 219, 220, 0.30000000000000004), rgba(219, 219, 220, 0));
+  background-image: -o-linear-gradient(-45deg, rgba(219, 219, 220, 0.30000000000000004), rgba(219, 219, 220, 0));
+  background-image: linear-gradient(-45deg, rgba(219, 219, 220, 0.30000000000000004), rgba(219, 219, 220, 0));
+  border-width: 1px 0 0 0;
+  -webkit-border-image: -webkit-gradient(linear, 100% 0, 0 0, from(#ebebeb), to(rgba(235, 235, 235, 0))) 1 100%;
+  -webkit-border-image: -webkit-linear-gradient(right, #ebebeb, rgba(235, 235, 235, 0)) 1 100%;
+  -o-border-image: -o-linear-gradient(right, #ebebeb, rgba(235, 235, 235, 0)) 1 100%;
+  -moz-border-image: -moz-linear-gradient(right, #ebebeb, end) 1 100%;
+}
+.block-type-mainstory {
+  position: relative;
+  margin: 20px 0;
+}
+.block-type-mainstory.full-size a .overlay {
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  font-weight: 300;
+}
+.block-type-mainstory.full-size a .overlay .attribute-author {
+  color: #ffffff;
+  font-size: 18px;
+  display: block;
+  margin: 0 10px;
+}
+.block-type-mainstory.full-size a .overlay h2 {
+  display: block;
+  margin: 0 10px;
+  color: #ffffff;
+  line-height: 1.5;
+}
+.block-type-mainstory.full-size a:hover,
+.block-type-mainstory.full-size a:focus {
+  text-decoration: none;
+}
+.block-type-mainstory.full-size a:hover .overlay .attribute-author,
+.block-type-mainstory.full-size a:focus .overlay .attribute-author,
+.block-type-mainstory.full-size a:hover .overlay h2,
+.block-type-mainstory.full-size a:focus .overlay h2 {
+  text-decoration: none;
+  color: #e57910;
+}
+.block-type-2items article {
+  display: block;
+}
+.block-type-2items article a.teaser-link {
+  display: block;
+  padding-bottom: 8px;
+}
+.block-type-2items article h3 {
+  font-weight: 300;
+}
+.block-type-2items .attribute-short {
+  font-weight: 300;
+}
+.item-list .block-content {
+  padding: 10px 20px;
+}

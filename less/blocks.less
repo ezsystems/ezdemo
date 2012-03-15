@@ -1,3 +1,6 @@
+@import "variables.less"; // Modify this for custom colors, font-sizes, etc
+@import "mixins.less";
+
 aside {
     .block-content {
         #gradient > .directional(fadeout(@grayLight, 70%), fadeout(@grayLight, 100%), -45deg);
@@ -7,21 +10,37 @@ aside {
 
 .block-type-mainstory {
     position: relative;
-    margin-bottom: 20px;
-    .overlay {
-        position: absolute;
-        top: 74%;
-        padding-left: 8px;
-        font-weight: 300;
-        .attribute-author {
-            color: #fff;
-            font-size: 18px;
-        }
-        h2 {
-            font-weight: 300;
-            a {
-                color: #fff;
+    margin: 20px 0;
+    &.full-size {
+        a {
+            .overlay {
+                position: absolute;
+                bottom: 10px;
+                left: 0;
+                font-weight: 300;
+                .attribute-author {
+                    color: @white;
+                    font-size: 18px;
+                    display: block;
+                    margin: 0 10px;
+                }
+                h2 {
+                    display: block;
+                    margin: 0 10px;
+                    color: @white;
+                    line-height: 1.5;
+                }
+            }
+            &:hover,
+            &:focus {
                 text-decoration: none;
+                .overlay {
+                    .attribute-author,
+                    h2 {
+                        text-decoration: none;
+                        color: @orange;
+                    }
+                }
             }
         }
     }
