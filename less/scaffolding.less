@@ -46,6 +46,23 @@ a.teaser-link {
     }
 }
 
+.highlighted {
+    a.teaser-link {
+        color: @white;
+        h2, h3, h4, h5 {
+            color: @white;
+        }
+        &:hover,
+        &:focus {
+            text-decoration: none;
+            color: @orange;
+            h2, h3, h4, h5 {
+                color: @orange;
+            }
+        }
+    }
+}
+
 .attribute-byline.with-comments a.comments {
     color: @gray;
     text-decoration: none;

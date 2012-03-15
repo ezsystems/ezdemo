@@ -171,6 +171,17 @@ aside {
                 display: block;
                 padding-bottom: 8px;
             }
+            &.highlighted {
+                #gradient > .vertical(@blueDarker, @blueDarkest);
+                a.teaser-link,
+                p {
+                    padding-bottom: 0;
+                    margin-bottom: 0;
+                }
+                p {
+                    margin-top: 5px;
+                }
+            }
         }
         &:last-child > article:last-child {
             padding-bottom: 70px;
