@@ -3506,7 +3506,7 @@ aside .block-content {
 .block-type-mainstory.picture-left a {
   display: block;
   *zoom: 1;
-  padding: 10px;
+  padding: 15px;
   background-color: #004054;
   background-image: -moz-linear-gradient(top, #004d66, #002c3a);
   background-image: -ms-linear-gradient(top, #004d66, #002c3a);
@@ -3534,6 +3534,7 @@ aside .block-content {
 .block-type-mainstory.picture-left a .attribute-header h2 {
   line-height: 1.2;
   margin-bottom: 5px;
+  color: #ffffff;
 }
 .block-type-mainstory.picture-left a .attribute-short {
   color: #ffffff;
