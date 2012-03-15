@@ -583,7 +583,6 @@ aside > .content-view-aside:last-child > article:last-child:after {
 .content-view-full article,
 .content-view-children article {
   display: block;
-  margin-bottom: 25px;
 }
 .content-view-full article .attribute-image.full-head,
 .content-view-children article .attribute-image.full-head {
