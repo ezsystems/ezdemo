@@ -3491,3 +3491,6 @@ a.thumbnail:hover {
 .block-type-2items .attribute-short {
   font-weight: 300;
 }
+.block-type-itemlist .block-content {
+  padding: 10px 20px;
+}
