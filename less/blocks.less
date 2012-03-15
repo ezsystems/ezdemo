@@ -14,11 +14,12 @@ aside {
 .block-type-mainstory {
     position: relative;
     margin: 20px 0;
+    .clearfix();
     &.full-size {
         a {
             .overlay {
                 position: absolute;
-                bottom: 10px;
+                bottom: 15px;
                 left: 0;
                 font-weight: 300;
                 .attribute-author {
@@ -31,7 +32,7 @@ aside {
                     display: block;
                     margin: 0 10px;
                     color: @white;
-                    line-height: 1.5;
+                    line-height: 1.2;
                 }
             }
             &:hover,
@@ -43,6 +44,36 @@ aside {
                         text-decoration: none;
                         color: @orange;
                     }
+                }
+            }
+        }
+    }
+    &.picture-left {
+        a {
+            display: block;
+            .clearfix();
+            padding: 10px;
+            #gradient > .vertical(@blueDarker, @blueDarkest);
+            .attribute-image {
+                display: block;
+                width: 40%;
+                float: left;
+                margin-right: 20px;
+            }
+            .attribute-header h2 {
+                line-height: 1.2;
+                margin-bottom: 5px;
+            },
+            .attribute-short {
+                color: @white;
+            }
+            &:hover,
+            &:focus {
+                text-decoration: none;
+                .attribute-header h2,
+                .attribute-short {
+                    text-decoration: none;
+                    color: @orange;
                 }
             }
         }
