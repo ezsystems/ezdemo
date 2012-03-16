@@ -22,114 +22,7 @@
                         </ezobject:attribute>
                         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="201"
                                             ezremote:identifier="page" name="Layout" type="ezpage">
-                            <page>
-                                <zone_layout>2ZonesLayout1</zone_layout>
-                                <zone id="id_88183d4e8424a84545944c0e01decc20">
-                                    <zone_identifier>left</zone_identifier>
-                                    <block id="id_3b0c4c8f706db66a7cb2b8de2039cfe6">
-                                        <name>Main story</name>
-                                        <zone_id>88183d4e8424a84545944c0e01decc20</zone_id>
-                                        <type>MainStory</type>
-                                        <view>main_story1</view>
-                                        <overflow_id/>
-                                    </block>
-                                    <block id="id_6191aa54a941c54a22696f54737a3734">
-                                        <name>Geeting started</name>
-                                        <zone_id>88183d4e8424a84545944c0e01decc20</zone_id>
-                                        <type>Manual2Items</type>
-                                        <view>2_items1</view>
-                                        <overflow_id/>
-                                    </block>
-                                    <block id="id_00102744f03039ce78da031fa528c5ce">
-                                        <name/>
-                                        <zone_id>88183d4e8424a84545944c0e01decc20</zone_id>
-                                        <type>Manual2Items</type>
-                                        <view>2_items1</view>
-                                        <overflow_id/>
-                                    </block>
-                                    <block id="id_35b4a03892f4d66563dfe17f904e65a7">
-                                        <name>eZ Conference 2011</name>
-                                        <zone_id>88183d4e8424a84545944c0e01decc20</zone_id>
-                                        <type>MultimediaCarousel</type>
-                                        <fetch_params>a:2:{s:7:"Classes";s:5:"image";s:6:"Source";s:2:"62";}
-                                        </fetch_params>
-                                        <view>multimediacarousel</view>
-                                        <overflow_id/>
-                                    </block>
-                                    <block id="id_607cc82f87d6459c45f4e4f1b192ec1f">
-                                        <name/>
-                                        <zone_id>88183d4e8424a84545944c0e01decc20</zone_id>
-                                        <type>Banner</type>
-                                        <view>banner1</view>
-                                    </block>
-                                    <block id="id_ca9940f6a425914f432edc86c5836213">
-                                        <name>Getting started tag cloud</name>
-                                        <zone_id>88183d4e8424a84545944c0e01decc20</zone_id>
-                                        <type>TagCloud</type>
-                                        <view>tag_cloud</view>
-                                        <custom_attributes>
-                                            <subtree_node_id>71</subtree_node_id>
-                                        </custom_attributes>
-                                    </block>
-                                </zone>
-                                <zone id="id_58b7118c74d898c26c0d6a24e11cdd4c">
-                                    <zone_identifier>right</zone_identifier>
-                                    <block id="id_350aa24db5424088fe03747c74b3c19b">
-                                        <name>News</name>
-                                        <zone_id>58b7118c74d898c26c0d6a24e11cdd4c</zone_id>
-                                        <type>Manual3Items</type>
-                                        <view>3_items1</view>
-                                        <overflow_id/>
-                                    </block>
-                                    <block id="id_10575465d4dc3e028d1e6539419adc78">
-                                        <name/>
-                                        <zone_id>58b7118c74d898c26c0d6a24e11cdd4c</zone_id>
-                                        <type>Manual3Items</type>
-                                        <view>3_items1</view>
-                                        <overflow_id/>
-                                    </block>
-                                    <block id="id_d61a5f8766e9e682a3d914e23d9b793a">
-                                        <name/>
-                                        <zone_id>58b7118c74d898c26c0d6a24e11cdd4c</zone_id>
-                                        <type>Manual3Items</type>
-                                        <view>3_items1</view>
-                                        <overflow_id/>
-                                    </block>
-                                    <block id="id_f3d816b310ace80da0347d3b78ab6f12">
-                                        <name>eZ Publish video</name>
-                                        <zone_id>58b7118c74d898c26c0d6a24e11cdd4c</zone_id>
-                                        <type>Video</type>
-                                        <view>video</view>
-                                        <overflow_id/>
-                                    </block>
-                                    <block id="id_a28c7c2ae5d6a04244de97cd0c01cecc">
-                                        <name>Quick Poll</name>
-                                        <zone_id>58b7118c74d898c26c0d6a24e11cdd4c</zone_id>
-                                        <type>Poll</type>
-                                        <view>poll</view>
-                                        <custom_attributes>
-                                            <poll_node_id>70</poll_node_id>
-                                        </custom_attributes>
-                                    </block>
-                                    <block id="id_c29364948f19bc4020e1f6fac7d0c450">
-                                        <name>Ads</name>
-                                        <zone_id>58b7118c74d898c26c0d6a24e11cdd4c</zone_id>
-                                        <type>Banner</type>
-                                        <view>banner2</view>
-                                    </block>
-                                    <block id="id_5dd0e5eb089dd54139a1675d7a7b7d9c">
-                                        <name>ez.no rss feed</name>
-                                        <zone_id>58b7118c74d898c26c0d6a24e11cdd4c</zone_id>
-                                        <type>FeedReader</type>
-                                        <custom_attributes>
-                                            <source>http://ez.no/rss/feed/news</source>
-                                            <limit>5</limit>
-                                            <offset>0</offset>
-                                        </custom_attributes>
-                                        <view>feed_reader</view>
-                                    </block>
-                                </zone>
-                            </page>
+                            <page />
                         </ezobject:attribute>
                         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="202"
                                             ezremote:identifier="tags" name="Tags" type="ezkeyword">
@@ -161,26 +54,7 @@
                         </ezobject:attribute>
                         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="204"
                                             ezremote:identifier="page" name="Layout" type="ezpage">
-                            <page>
-                                <zone_layout>GlobalZoneLayout</zone_layout>
-                                <zone id="id_2b484644d2cca382187b10cc38af4dec">
-                                    <zone_identifier>main</zone_identifier>
-                                    <block id="id_0e18c498c84791303373a2a96ea63199">
-                                        <name>Top stories</name>
-                                        <zone_id>2b484644d2cca382187b10cc38af4dec</zone_id>
-                                        <type>Manual3Items</type>
-                                        <view>3_items1</view>
-                                        <overflow_id/>
-                                    </block>
-                                    <block id="id_260bbb85f60cf94a9c811dd9974ddbf5">
-                                        <name>Conference Blog</name>
-                                        <zone_id>2b484644d2cca382187b10cc38af4dec</zone_id>
-                                        <type>ItemList</type>
-                                        <view>itemlist1</view>
-                                        <overflow_id/>
-                                    </block>
-                                </zone>
-                            </page>
+                            <page />
                         </ezobject:attribute>
                     </ezobject:object-translation>
                     <ezobject:node-assignment-list>
@@ -208,45 +82,7 @@
                         </ezobject:attribute>
                         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="206"
                                             ezremote:identifier="page" name="Layout" type="ezpage">
-                            <page>
-                                <zone_layout>2ZonesLayout1</zone_layout>
-                                <zone id="id_a9892ba0505f395fed470239e59d3963">
-                                    <zone_identifier>left</zone_identifier>
-                                    <block id="id_b4649ca215644ffd4f367fd1c164301b">
-                                        <name>Main story</name>
-                                        <zone_id>a9892ba0505f395fed470239e59d3963</zone_id>
-                                        <type>MainStory</type>
-                                        <view>main_story1</view>
-                                        <overflow_id/>
-                                    </block>
-                                    <block id="id_a8c0be0f10cb567cc9febcb7227f6cd9">
-                                        <name>Top Stories</name>
-                                        <zone_id>a9892ba0505f395fed470239e59d3963</zone_id>
-                                        <type>Manual3Items</type>
-                                        <view>3_items1</view>
-                                        <overflow_id/>
-                                    </block>
-                                </zone>
-                                <zone id="id_2c534a9d5a624ccc411592fa15d34b04">
-                                    <zone_identifier>right</zone_identifier>
-                                    <block id="id_13e7633b7614ce4a1319a882c24f7e84">
-                                        <name>Conference Video</name>
-                                        <zone_id>2c534a9d5a624ccc411592fa15d34b04</zone_id>
-                                        <type>Video</type>
-                                        <view>video</view>
-                                        <overflow_id/>
-                                    </block>
-                                    <block id="id_48522d2bea9c0666aeadb1f4dd030be0">
-                                        <name>Events tag cloud</name>
-                                        <zone_id>2c534a9d5a624ccc411592fa15d34b04</zone_id>
-                                        <type>TagCloud</type>
-                                        <view>tag_cloud</view>
-                                        <custom_attributes>
-                                            <subtree_node_id>61</subtree_node_id>
-                                        </custom_attributes>
-                                    </block>
-                                </zone>
-                            </page>
+                            <page />
                         </ezobject:attribute>
                         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="207"
                                             ezremote:identifier="tags" name="Tags" type="ezkeyword">

@@ -1349,44 +1349,68 @@ class ezdemodesignInstaller extends eZSiteInstaller
                 'AvailableDataTypes' => $availableDatatype 
             ) 
         ) );
-        $this->insertDBFile( 'ezflow_extension', 'ezflow', true );
+        $this->insertDBFile( 'ezflow_extension', 'ezflow' );
+        $this->insertDBFile( 'ezdemodesign_extension', 'ezdemodesign', false, true );
         $this->insertDBFile( 'ezstarrating_extension', 'ezstarrating' );
         $this->insertDBFile( 'ezgmaplocation_extension', 'ezgmaplocation' );
     }
 
-    function insertDBFile( $packageName, $extensionName, $loadContent = false )
+    function insertDBFile( $packageName, $extensionName, $loadSchema = true, $loadContent = false )
     {
-        $db = eZDB::instance();
         $extensionPackage = eZPackage::fetch( $packageName, false, false, false );
         if ( $extensionPackage instanceof eZPackage )
         {
-            switch ($db->databaseName())
-            {
-                case 'mysql':
-                    $sqlFile = 'mysql.sql';
-                    $path = $extensionPackage->path() . '/ezextension/' . $extensionName . '/sql/mysql';
-                    break;
-                case 'postgresql':
-                    $sqlFile = 'postgresql.sql';
-                    $path = $extensionPackage->path() . '/ezextension/' . $extensionName . '/sql/postgresql';
-                    break;
-            }
-            $res = $db->insertFile( $path, $sqlFile, false );
-            if ( ! $res )
-            {
-                eZDebug::writeError( 'Can\'t initialize ' . $extensionName . ' database shema.', __METHOD__ );
-            }
-            if ( $res && $loadContent )
-            {
-                $sqlFile = 'democontent.sql';
-                $path = $extensionPackage->path() . '/ezextension/' . $extensionName . '/sql/common';
-                $res = $db->insertFile( $path, $sqlFile, false );
-                if ( ! $res )
-                {
-                    eZDebug::writeError( 'Can\'t initialize ' . $extensionName . ' demo data.', __METHOD__ );
-                }
-            }
+            if ( $loadSchema )
+                $this->loadDBSchemaFromFile( $extensionName, $packageName );
+
+            if ( $loadContent)
+                $this->loadDBContentFromFile( $extensionName, $packageName );
         }
+    }
+
+    function loadDBSchemaFromFile( eZPackage $extensionPackage, $extensionName )
+    {
+        $db = eZDB::instance();
+
+        switch ( $db->databaseName() )
+        {
+            case 'mysql':
+                $sqlFile = 'mysql.sql';
+                $path = $extensionPackage->path() . '/ezextension/' . $extensionName . '/sql/mysql';
+                break;
+            case 'postgresql':
+                $sqlFile = 'postgresql.sql';
+                $path = $extensionPackage->path() . '/ezextension/' . $extensionName . '/sql/postgresql';
+                break;
+        }
+        $res = $db->insertFile( $path, $sqlFile, false );
+
+        if ( !$res )
+        {
+            eZDebug::writeError( 'Can\'t initialize ' . $extensionName . ' database shema.', __METHOD__ );
+
+            return false;
+        }
+
+        return true;
+    }
+
+    function loadDBContentFromFile( eZPackage $extensionPackage, $extensionName )
+    {
+        $db = eZDB::instance();
+
+        $sqlFile = 'democontent.sql';
+        $path = $extensionPackage->path() . '/ezextension/' . $extensionName . '/sql/common';
+        $res = $db->insertFile( $path, $sqlFile, false );
+
+        if ( ! $res )
+        {
+            eZDebug::writeError( 'Can\'t initialize ' . $extensionName . ' demo data.', __METHOD__ );
+
+            return false;
+        }
+
+        return true;
     }
 
     function updateTemplateLookClassAttributes( $params = false )
