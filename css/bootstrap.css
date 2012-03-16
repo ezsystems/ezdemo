@@ -1024,6 +1024,14 @@ aside .block-content p {
   line-height: inherit;
   font-size: inherit;
 }
+aside article ul,
+aside .block-content ul {
+  margin-bottom: 5px;
+}
+aside article ul li,
+aside .block-content ul li {
+  margin-bottom: 5px;
+}
 aside .item-price {
   color: #e57910;
   font-family: "Ubuntu", Helvetica, Arial, sans-serif;
