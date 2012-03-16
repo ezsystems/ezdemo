@@ -559,7 +559,8 @@ aside > .content-view-aside:first-child {
   /* W3C */
 
 }
-aside > .content-view-aside article {
+aside > .content-view-aside article,
+aside > .content-view-aside .block-content {
   display: block;
   padding: 20px;
   background-color: rgba(219, 219, 220, 0);
@@ -575,11 +576,13 @@ aside > .content-view-aside article {
   -o-border-image: -o-linear-gradient(right, #ebebeb, rgba(235, 235, 235, 0)) 1 100%;
   -moz-border-image: -moz-linear-gradient(right, #ebebeb, end) 1 100%;
 }
-aside > .content-view-aside article a.teaser-link {
+aside > .content-view-aside article a.teaser-link,
+aside > .content-view-aside .block-content a.teaser-link {
   display: block;
   padding-bottom: 8px;
 }
-aside > .content-view-aside article.highlighted {
+aside > .content-view-aside article.highlighted,
+aside > .content-view-aside .block-content.highlighted {
   background-color: #004054;
   background-image: -moz-linear-gradient(top, #004d66, #002c3a);
   background-image: -ms-linear-gradient(top, #004d66, #002c3a);
@@ -591,11 +594,14 @@ aside > .content-view-aside article.highlighted {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#004d66', endColorstr='#002c3a', GradientType=0);
 }
 aside > .content-view-aside article.highlighted a.teaser-link,
-aside > .content-view-aside article.highlighted p {
+aside > .content-view-aside .block-content.highlighted a.teaser-link,
+aside > .content-view-aside article.highlighted p,
+aside > .content-view-aside .block-content.highlighted p {
   padding-bottom: 0;
   margin-bottom: 0;
 }
-aside > .content-view-aside article.highlighted p {
+aside > .content-view-aside article.highlighted p,
+aside > .content-view-aside .block-content.highlighted p {
   margin-top: 5px;
 }
 aside > .content-view-aside .block-type-poll form h3 {
@@ -909,21 +915,25 @@ aside h2 {
   font-weight: 500;
   color: #007ea6;
 }
-aside article + h2 {
+aside article + h2,
+aside .block-content + h2 {
   padding-top: 27px;
 }
 aside h3 {
   font-size: 18px;
   line-height: 22px;
 }
-aside article {
+aside article,
+aside .block-content {
   font-size: 13px;
   line-height: 18px;
 }
-aside article a .attribute-image + .attribute-header {
+aside article a .attribute-image + .attribute-header,
+aside .block-content a .attribute-image + .attribute-header {
   margin-top: 7px;
 }
-aside article p {
+aside article p,
+aside .block-content p {
   line-height: inherit;
   font-size: inherit;
 }
@@ -3495,20 +3505,6 @@ a.thumbnail:hover {
 .content-view-line .attribute-short,
 .content-view-aside .attribute-short {
   font-weight: normal;
-}
-aside .block-content {
-  background-color: rgba(219, 219, 220, 0);
-  background-repeat: repeat-x;
-  background-image: -moz-linear-gradient(-45deg, rgba(219, 219, 220, 0.30000000000000004), rgba(219, 219, 220, 0));
-  background-image: -ms-linear-gradient(-45deg, rgba(219, 219, 220, 0.30000000000000004), rgba(219, 219, 220, 0));
-  background-image: -webkit-linear-gradient(-45deg, rgba(219, 219, 220, 0.30000000000000004), rgba(219, 219, 220, 0));
-  background-image: -o-linear-gradient(-45deg, rgba(219, 219, 220, 0.30000000000000004), rgba(219, 219, 220, 0));
-  background-image: linear-gradient(-45deg, rgba(219, 219, 220, 0.30000000000000004), rgba(219, 219, 220, 0));
-  border-width: 1px 0 0 0;
-  -webkit-border-image: -webkit-gradient(linear, 100% 0, 0 0, from(#ebebeb), to(rgba(235, 235, 235, 0))) 1 100%;
-  -webkit-border-image: -webkit-linear-gradient(right, #ebebeb, rgba(235, 235, 235, 0)) 1 100%;
-  -o-border-image: -o-linear-gradient(right, #ebebeb, rgba(235, 235, 235, 0)) 1 100%;
-  -moz-border-image: -moz-linear-gradient(right, #ebebeb, end) 1 100%;
 }
 .item-list .block-content {
   padding: 10px 20px;
