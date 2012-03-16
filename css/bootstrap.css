@@ -604,6 +604,93 @@ aside > .content-view-aside article.highlighted p,
 aside > .content-view-aside .block-content.highlighted p {
   margin-top: 5px;
 }
+aside > .content-view-aside article.selected-products,
+aside > .content-view-aside .block-content.selected-products {
+  padding: 20px 0;
+  *zoom: 1;
+}
+aside > .content-view-aside article.selected-products:before,
+aside > .content-view-aside .block-content.selected-products:before,
+aside > .content-view-aside article.selected-products:after,
+aside > .content-view-aside .block-content.selected-products:after {
+  display: table;
+  content: "";
+}
+aside > .content-view-aside article.selected-products:after,
+aside > .content-view-aside .block-content.selected-products:after {
+  clear: both;
+}
+aside > .content-view-aside article.selected-products .attribute-image,
+aside > .content-view-aside .block-content.selected-products .attribute-image {
+  display: block;
+  float: left;
+  width: 25%;
+}
+aside > .content-view-aside article.selected-products .attribute-image img,
+aside > .content-view-aside .block-content.selected-products .attribute-image img {
+  margin: 0 20px;
+}
+aside > .content-view-aside article.selected-products .product-info,
+aside > .content-view-aside .block-content.selected-products .product-info {
+  display: block;
+  float: left;
+  width: 75%;
+}
+aside > .content-view-aside article.selected-products .product-info .attribute-header,
+aside > .content-view-aside .block-content.selected-products .product-info .attribute-header {
+  display: block;
+  margin-left: 30px;
+}
+aside > .content-view-aside article.selected-products .product-info .attribute-header .teaser-link,
+aside > .content-view-aside .block-content.selected-products .product-info .attribute-header .teaser-link {
+  padding-bottom: 0;
+}
+aside > .content-view-aside article.selected-products .product-info .breadcrumb,
+aside > .content-view-aside .block-content.selected-products .product-info .breadcrumb {
+  margin-left: 30px;
+  padding: 0;
+}
+aside > .content-view-aside article.selected-products .product-info .breadcrumb li:before,
+aside > .content-view-aside .block-content.selected-products .product-info .breadcrumb li:before {
+  display: none;
+}
+aside > .content-view-aside article.selected-products .product-info form,
+aside > .content-view-aside .block-content.selected-products .product-info form {
+  margin: 5px 0 0 30px;
+}
+aside > .content-view-aside article.selected-products .product-info form fieldset,
+aside > .content-view-aside .block-content.selected-products .product-info form fieldset {
+  *zoom: 1;
+}
+aside > .content-view-aside article.selected-products .product-info form fieldset:before,
+aside > .content-view-aside .block-content.selected-products .product-info form fieldset:before,
+aside > .content-view-aside article.selected-products .product-info form fieldset:after,
+aside > .content-view-aside .block-content.selected-products .product-info form fieldset:after {
+  display: table;
+  content: "";
+}
+aside > .content-view-aside article.selected-products .product-info form fieldset:after,
+aside > .content-view-aside .block-content.selected-products .product-info form fieldset:after {
+  clear: both;
+}
+aside > .content-view-aside article.selected-products .product-info form fieldset .item-price,
+aside > .content-view-aside .block-content.selected-products .product-info form fieldset .item-price {
+  display: block;
+  float: left;
+  width: 50%;
+  margin-top: 5px;
+}
+aside > .content-view-aside article.selected-products .product-info form fieldset .item-buying-action,
+aside > .content-view-aside .block-content.selected-products .product-info form fieldset .item-buying-action {
+  display: block;
+  float: left;
+  width: 50%;
+}
+aside > .content-view-aside article.selected-products .product-info form fieldset .item-buying-action input,
+aside > .content-view-aside .block-content.selected-products .product-info form fieldset .item-buying-action input {
+  width: 20px;
+  text-align: center;
+}
 aside > .content-view-aside .block-type-poll form h3 {
   margin-bottom: 10px;
 }
@@ -915,8 +1002,8 @@ aside h2 {
   font-weight: 500;
   color: #007ea6;
 }
-aside article + h2,
-aside .block-content + h2 {
+aside article + .attribute-header h2,
+aside article + .block-type-poll .attribute-header h2 {
   padding-top: 27px;
 }
 aside h3 {
@@ -936,6 +1023,12 @@ aside article p,
 aside .block-content p {
   line-height: inherit;
   font-size: inherit;
+}
+aside .item-price {
+  color: #e57910;
+  font-family: "Ubuntu", Helvetica, Arial, sans-serif;
+  font-size: 26px;
+  font-weight: 400;
 }
 ul,
 ol {
@@ -1143,7 +1236,7 @@ cite {
   font-weight: 300;
   font-size: 18px;
 }
-.content-view-children .content-view-line .item-price {
+.content-view-children .item-price {
   color: #e57910;
   font-family: "Ubuntu", Helvetica, Arial, sans-serif;
   font-size: 30px;

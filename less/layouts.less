@@ -183,6 +183,60 @@ aside {
                     margin-top: 5px;
                 }
             }
+            &.selected-products {
+                padding: 20px 0;
+                .clearfix();
+                .attribute-image {
+                    display: block;
+                    float: left;
+                    width: 25%;
+                    img {
+                        margin: 0 20px;
+                    }
+                }
+                .product-info {
+                    display: block;
+                    float: left;
+                    width: 75%;
+                    .attribute-header {
+                        display: block;
+                        margin-left: 30px;
+                        .teaser-link {
+                            padding-bottom: 0;
+                        }
+                    }
+                    .breadcrumb {
+                        margin-left: 30px;
+                        padding: 0;
+                        li {
+                            &:before {
+                                display: none;
+                            }
+                        }
+                    }
+                    form {
+                        margin: 5px 0 0 30px;
+                        fieldset {
+                            .clearfix();
+                            .item-price {
+                                display: block;
+                                float: left;
+                                width: 50%;
+                                margin-top: 5px;
+                            }
+                            .item-buying-action {
+                                display: block;
+                                float: left;
+                                width: 50%;
+                                input {
+                                    width: 20px;
+                                    text-align: center;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
         }
         .block-type-poll {
             form {

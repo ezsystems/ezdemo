@@ -101,8 +101,8 @@ aside {
         font-weight: 500;
         color: @blue;
     }
-    article + h2,
-    .block-content + h2 {
+    article + .attribute-header h2,
+    article + .block-type-poll .attribute-header h2 {
         padding-top: 27px;
     }
     h3 {
@@ -122,6 +122,12 @@ aside {
             line-height: inherit;
             font-size: inherit;
         }
+    }
+    .item-price {
+        color: @orange;
+        font-family: @specialFontFamily;
+        font-size: 26px;
+        font-weight: 400;
     }
 }
 
@@ -333,7 +339,7 @@ cite {
             font-size: 18px;
         }
     }
-    .content-view-line .item-price {
+    .item-price {
         color: @orange;
         font-family: @specialFontFamily;
         font-size: 30px;
