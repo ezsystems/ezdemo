@@ -775,48 +775,58 @@ aside > .content-view-aside:last-child > article:last-child:after {
 }
 .content-view-full,
 .content-view-children,
-.content-view-block {
+.content-view-block,
+.content-view-embed {
   margin: 26px 0 50px 0;
 }
 .content-view-full article,
 .content-view-children article,
-.content-view-block article {
+.content-view-block article,
+.content-view-embed article {
   display: block;
 }
 .content-view-full article .attribute-image.full-head,
 .content-view-children article .attribute-image.full-head,
-.content-view-block article .attribute-image.full-head {
+.content-view-block article .attribute-image.full-head,
+.content-view-embed article .attribute-image.full-head {
   margin-bottom: 1em;
 }
 .content-view-full article .attribute-image.content-view-embed,
 .content-view-children article .attribute-image.content-view-embed,
-.content-view-block article .attribute-image.content-view-embed {
+.content-view-block article .attribute-image.content-view-embed,
+.content-view-embed article .attribute-image.content-view-embed {
   width: 50%;
 }
 .content-view-full article .attribute-image.content-view-embed.pull-right,
 .content-view-children article .attribute-image.content-view-embed.pull-right,
-.content-view-block article .attribute-image.content-view-embed.pull-right {
+.content-view-block article .attribute-image.content-view-embed.pull-right,
+.content-view-embed article .attribute-image.content-view-embed.pull-right {
   margin-left: 20px;
 }
 .content-view-full article .attribute-image.content-view-embed.pull-left,
 .content-view-children article .attribute-image.content-view-embed.pull-left,
-.content-view-block article .attribute-image.content-view-embed.pull-left {
+.content-view-block article .attribute-image.content-view-embed.pull-left,
+.content-view-embed article .attribute-image.content-view-embed.pull-left {
   margin-right: 20px;
 }
 .content-view-full article ul,
 .content-view-children article ul,
 .content-view-block article ul,
+.content-view-embed article ul,
 .content-view-full article ol,
 .content-view-children article ol,
-.content-view-block article ol {
+.content-view-block article ol,
+.content-view-embed article ol {
   margin-top: 0.5em;
 }
 .content-view-full article ul li,
 .content-view-children article ul li,
 .content-view-block article ul li,
+.content-view-embed article ul li,
 .content-view-full article ol li,
 .content-view-children article ol li,
-.content-view-block article ol li {
+.content-view-block article ol li,
+.content-view-embed article ol li {
   margin-bottom: 0.5em;
 }
 .content-view-block {
@@ -836,6 +846,52 @@ aside > .content-view-aside:last-child > article:last-child:after {
   border-bottom: 1px solid #ebebeb;
   padding: 0 10px 3px 10px;
 }
+.content-view-embed .attribute-header h1,
+.content-view-embed .attribute-header h2,
+.content-view-embed .attribute-header h3,
+.content-view-embed .attribute-header h4,
+.content-view-embed .attribute-header h5,
+.content-view-embed .attribute-header h6 {
+  border-bottom: 1px solid #ebebeb;
+}
+.content-view-embed .file-to-download {
+  background-color: #fbfbfb;
+  background-image: -moz-linear-gradient(top, #f9f9f9, #ffffff);
+  background-image: -ms-linear-gradient(top, #f9f9f9, #ffffff);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#f9f9f9), to(#ffffff));
+  background-image: -webkit-linear-gradient(top, #f9f9f9, #ffffff);
+  background-image: -o-linear-gradient(top, #f9f9f9, #ffffff);
+  background-image: linear-gradient(top, #f9f9f9, #ffffff);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f9f9f9', endColorstr='#ffffff', GradientType=0);
+}
+.content-view-embed .file-to-download {
+  display: block;
+  padding: 0 10px 0 60px;
+  position: relative;
+}
+.content-view-embed .file-to-download:before {
+  content: "";
+  display: block;
+  position: absolute;
+  background: transparent url('../images/ez-sprite.png') no-repeat -13px -22px;
+  width: 36px;
+  height: 35px;
+  left: 8px;
+  top: 10px;
+}
+.content-view-embed .file-to-download .header {
+  *zoom: 1;
+  padding: 5px 0;
+}
+.content-view-embed .file-to-download .header:before,
+.content-view-embed .file-to-download .header:after {
+  display: table;
+  content: "";
+}
+.content-view-embed .file-to-download .header:after {
+  clear: both;
+}
 .content-view-children .attribute-header h1,
 .content-view-children .attribute-header h2,
 .content-view-children .attribute-header h3,
@@ -844,10 +900,6 @@ aside > .content-view-aside:last-child > article:last-child:after {
 .content-view-children .attribute-header h6 {
   border-bottom: 1px solid #ebebeb;
   margin-bottom: 5px;
-}
-.content-view-children > ul {
-  padding: 0;
-  margin: 1em 0;
 }
 .content-view-children .content-view-line {
   margin-bottom: 1em;
@@ -1340,6 +1392,16 @@ cite {
 }
 .content-view-children .contacts-container .person-position {
   font-style: italic;
+}
+.file-to-download .header {
+  font-weight: bold;
+}
+.file-to-download .file-size {
+  color: #000000;
+}
+.file-to-download .description,
+.file-to-download .modified-date {
+  color: #6f6f6f;
 }
 .main-navi {
   font-family: "Ubuntu", Helvetica, Arial, sans-serif;
