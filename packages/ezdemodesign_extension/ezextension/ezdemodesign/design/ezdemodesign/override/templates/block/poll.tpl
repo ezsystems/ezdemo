@@ -9,19 +9,21 @@
 
     <div class="block-content">
         <form method="post" action={"content/action"|ezurl}>
-        <input type="hidden" name="ContentNodeID" value="{$poll_object.main_node_id}" />
-        <input type="hidden" name="ContentObjectID" value="{$poll_object.id}" />
-        <input type="hidden" name="ViewMode" value="full" />
+            <input type="hidden" name="ContentNodeID" value="{$poll_object.main_node_id}" />
+            <input type="hidden" name="ContentObjectID" value="{$poll_object.id}" />
+            <input type="hidden" name="ViewMode" value="full" />
 
-        <h3>{$question_attribute.content.name|wash()}</h3>
+            <h3>{$question_attribute.content.name|wash()}</h3>
 
-        {foreach $question_attribute.content.option_list as $index => $option}
-            <label for="poll_option_{$question_attribute.id}_{$option.id}"><input type="radio" name="ContentObjectAttribute_data_option_value_{$question_attribute.id}" value="{$option.id}"
-           {if eq( $index, '0' )}checked="checked"{/if}
-            id="poll_option_{$question_attribute.id}_{$option.id}" />&nbsp;{$option.value|wash()}</label>
-        {/foreach}
+            {foreach $question_attribute.content.option_list as $index => $option}
+                <label class="radio" for="poll_option_{$question_attribute.id}_{$option.id}"><input type="radio" name="ContentObjectAttribute_data_option_value_{$question_attribute.id}" value="{$option.id}"
+               {if eq( $index, '0' )}checked="checked"{/if}
+                id="poll_option_{$question_attribute.id}_{$option.id}" />&nbsp;{$option.value|wash()}</label>
+            {/foreach}
 
-        <input class="button" type="submit" name="ActionCollectInformation" value="{"Vote"|i18n("design/ezflow/embed/poll")}" />
+            <div class="actions">
+                <button type="submit" name="ActionCollectInformation" class="btn btn-warning">{'Vote'|i18n('design/ezflow/embed/poll')}</button>
+            </div>
         </form>
     </div>
 

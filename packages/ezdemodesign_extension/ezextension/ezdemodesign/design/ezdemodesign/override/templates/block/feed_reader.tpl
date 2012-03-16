@@ -6,14 +6,12 @@
      $res = feedreader( $source, $limit, $offset )}
 
 <div class="block-type-feed-reader item-list">
-
     <div class="attribute-header">
         <h2>
             <a href="{$res.links[0]}" title="{$res.title|wash()}">{$res.title|wash()}</a>
         </h2>
     </div>
-
-    <div class="block-content">
+    <article>
         <ul>
         {foreach $res.items as $item}
             <li>
@@ -21,7 +19,6 @@
             </li>
         {/foreach}
         </ul>
-    </div>
-
+    </article>
 </div>
 {/cache-block}
