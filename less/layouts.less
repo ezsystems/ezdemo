@@ -151,6 +151,49 @@ footer {
 aside {
     #gradient > .horizontal(@softwhite, fadeout(@softwhite, 100%));
     position: relative;
+    > .subnavigation {
+        > ul {
+            #gradient > .directional(fadeout(@grayLight, 70%), fadeout(@grayLight, 100%), -45deg);
+            li {
+                border-bottom: 1px solid @grayLight;
+                #border-gradient > .left-to-right(0 0 1px 0, @grayLight, fadeout(@grayLight, 100%));
+                &:before {
+                    display: none;
+                }
+                a {
+                    display: block;
+                    padding: 8px 20px;
+                }
+                ul {
+                    display: none;
+                }
+                &.active {
+                    > a {
+                        background-color: @white;
+                    }
+                    ul {
+                        display: block;
+                        background-color: fadeout(@white, 25%);
+                        padding: 0;
+                        margin: 0;
+                        > li {
+                            a {
+                                padding-left: 40px;
+                            }
+                            &:first-child {
+                                border-top: 1px solid @grayLight;
+                                #border-gradient > .left-to-right(1px 0 1px 0, @grayLight, fadeout(@grayLight, 100%));
+                            }
+                            &:last-child {
+                                border-bottom: none;
+                                #border-gradient > .left-to-right(0 0 0 0, @grayLight, fadeout(@grayLight, 100%));
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
     > .content-view-aside {
         position: relative;
         &:first-child {

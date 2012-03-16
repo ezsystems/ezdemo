@@ -102,7 +102,8 @@ aside {
         color: @blue;
     }
     article + .attribute-header h2,
-    article + .block-type-poll .attribute-header h2 {
+    article + .block-type-poll .attribute-header h2,
+    .subnavigation .attribute-header h2 {
         padding-top: 27px;
     }
     h3 {
@@ -126,6 +127,34 @@ aside {
             margin-bottom: 5px;
             li {
                 margin-bottom: 5px;
+            }
+        }
+    }
+    > .subnavigation {
+        > .attribute-header h2 {
+            .makeColumn(4);
+        }
+        > ul {
+            > li {
+                font-size: 16px;
+                ul li {
+                    font-size: 13px;
+                    a {
+                        color: @grayLower;
+                    }
+                    &.active {
+                        a {
+                            color: @orange;
+                        }
+                    }
+                }
+                a {
+                    &:hover,
+                    &:focus {
+                        text-decoration: none;
+                        color: @orange;
+                    }
+                }
             }
         }
     }
