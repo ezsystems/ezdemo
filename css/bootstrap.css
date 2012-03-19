@@ -3839,17 +3839,17 @@ a.thumbnail:hover {
   text-decoration: none;
   color: #e57910;
 }
-.block-type-2items article {
+.block-type-content-grid article {
   display: block;
 }
-.block-type-2items article a.teaser-link {
+.block-type-content-grid article a.teaser-link {
   display: block;
   padding-bottom: 8px;
 }
-.block-type-2items article h3 {
+.block-type-content-grid article h3 {
   font-weight: 300;
 }
-.block-type-2items .attribute-short {
+.block-type-content-grid .attribute-short {
   font-weight: 300;
 }
 .content-view-aside .block-type-tagcloud .block-content {
