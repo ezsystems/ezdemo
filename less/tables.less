@@ -30,6 +30,13 @@ table {
   }
   th {
     font-weight: bold;
+    #gradient > .vertical(@grayLighter, @grayLight);
+  }
+  &.table-colorized {
+      th {
+          #gradient > .vertical(@blue, @blueDark);
+          color: @white;
+      }
   }
   // Bottom align for column headings
   thead th {
@@ -64,6 +71,9 @@ table {
 
 .table-bordered {
   border: 1px solid #ddd;
+  border-left-color: transparent;
+  border-right-color: transparent;
+  border-top-color: transparent;
   border-collapse: separate; // Done so we can round those corners!
   *border-collapse: collapsed; // IE7 can't round corners anyway
   .border-radius(4px);
@@ -71,7 +81,7 @@ table {
   td + td,
   th + td,
   td + th {
-    border-left: 1px solid #ddd;
+    border-left: 1px solid transparent;
   }
   // Prevent a double border
   thead:first-child tr:first-child th,
@@ -106,10 +116,21 @@ table {
 // Default zebra-stripe styles (alternating gray and transparent backgrounds)
 .table-striped {
   tbody {
-    tr:nth-child(odd) td,
-    tr:nth-child(odd) th {
+    tr:nth-child(even) td,
+    tr:nth-child(even) th {
       background-color: #f9f9f9;
     }
+    td, th {
+        border-color: transparent;
+    }
+  }
+  &.table-colorized {
+      td, th {
+          border-top-color: @grayLighter;
+          &:nth-child(even) {
+              background-color: fadeout(@blue, 93%);
+          }
+      }
   }
 }
 
