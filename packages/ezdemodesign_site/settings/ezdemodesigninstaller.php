@@ -1361,14 +1361,14 @@ class ezdemodesignInstaller extends eZSiteInstaller
         if ( $extensionPackage instanceof eZPackage )
         {
             if ( $loadSchema )
-                $this->loadDBSchemaFromFile( $extensionName, $packageName );
+                $this->loadDBSchemaFromFile( $extensionPackage, $extensionName );
 
             if ( $loadContent)
-                $this->loadDBContentFromFile( $extensionName, $packageName );
+                $this->loadDBContentFromFile( $extensionPackage, $extensionName );
         }
     }
 
-    function loadDBSchemaFromFile( eZPackage $extensionPackage, $extensionName )
+    function loadDBSchemaFromFile( eZPackage $package, $extensionName )
     {
         $db = eZDB::instance();
 
@@ -1376,11 +1376,11 @@ class ezdemodesignInstaller extends eZSiteInstaller
         {
             case 'mysql':
                 $sqlFile = 'mysql.sql';
-                $path = $extensionPackage->path() . '/ezextension/' . $extensionName . '/sql/mysql';
+                $path = $package->path() . '/ezextension/' . $extensionName . '/sql/mysql';
                 break;
             case 'postgresql':
                 $sqlFile = 'postgresql.sql';
-                $path = $extensionPackage->path() . '/ezextension/' . $extensionName . '/sql/postgresql';
+                $path = $package->path() . '/ezextension/' . $extensionName . '/sql/postgresql';
                 break;
         }
         $res = $db->insertFile( $path, $sqlFile, false );
