@@ -3009,7 +3009,7 @@ class ezdemodesignInstaller extends eZSiteInstaller
                     'Subdir' => 'templates',
                     'Match' => array(
                         'type' => 'Video',
-                        'view' => 'video'
+                        'view' => 'default'
                     )
                 ),
                 'block_tag_cloud' => array(
@@ -3018,7 +3018,7 @@ class ezdemodesignInstaller extends eZSiteInstaller
                     'Subdir' => 'templates',
                     'Match' => array(
                         'type' => 'TagCloud',
-                        'view' => 'tag_cloud'
+                        'view' => 'default'
                     )
                 ),
                 'block_poll' => array(
@@ -3027,7 +3027,7 @@ class ezdemodesignInstaller extends eZSiteInstaller
                     'Subdir' => 'templates',
                     'Match' => array(
                         'type' => 'Poll',
-                        'view' => 'poll'
+                        'view' => 'default'
                     )
                 ),
                 'block_item_list' => array(
@@ -3036,7 +3036,7 @@ class ezdemodesignInstaller extends eZSiteInstaller
                     'Subdir' => 'templates',
                     'Match' => array(
                         'type' => 'ItemList',
-                        'view' => 'item_list'
+                        'view' => 'default'
                     )
                 ),
                 'block_feed_reader' => array(
@@ -3045,7 +3045,7 @@ class ezdemodesignInstaller extends eZSiteInstaller
                     'Subdir' => 'templates',
                     'Match' => array(
                         'type' => 'FeedReader',
-                        'view' => 'feed_reader'
+                        'view' => 'default'
                     ) 
                 ), 
                 'block_item_article' => array( 
@@ -3071,7 +3071,15 @@ class ezdemodesignInstaller extends eZSiteInstaller
                     'Match' => array( 
                         'class_identifier' => 'image' 
                     ) 
-                ), 
+                ),
+                'block_item_product' => array(
+                    'Source' => 'node/view/block_item.tpl',
+                    'MatchFile' => 'block_item/product.tpl',
+                    'Subdir' => 'templates',
+                    'Match' => array(
+                        'class_identifier' => 'product'
+                    )
+                ),
                 'full_article' => array( 
                     'Source' => 'node/view/full.tpl', 
                     'MatchFile' => 'full/article.tpl', 
@@ -4007,7 +4015,7 @@ class ezdemodesignInstaller extends eZSiteInstaller
                         '10' => 'logo', 
                         '11' => 'infoboximage', 
                         '12' => 'billboard',
-                        '13' => 'blockitemimage'
+                        '13' => 'productthumbnail'
                     ) 
                 ), 
                 'small' => array( 
@@ -4088,11 +4096,10 @@ class ezdemodesignInstaller extends eZSiteInstaller
                         '0' => 'geometry/scalewidth=764' 
                     ) 
                 ),
-                'blockitemimage' => array(
+                'productthumbnail' => array(
                     'Reference' => '',
                     'Filters' => array(
-                        '0' => 'geometry/scalewidth=370',
-                        '1' => 'geometry/crop=370;140;0;0'
+                        '0' => 'geometry/scaledownonly=170;220'
                     )
                 )
             ) 

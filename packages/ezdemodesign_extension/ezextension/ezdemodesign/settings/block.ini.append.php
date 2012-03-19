@@ -86,8 +86,28 @@ ViewName[default]=Default
 [TagCloud]
 Name=Tag cloud
 ManualAddingOfItems=disabled
+CustomAttributes[]
 CustomAttributes[]=subtree_node_id
 UseBrowseMode[subtree_node_id]=true
+ViewList[]
+ViewList[]=default
+ViewName[default]=Default
+
+[Poll]
+Name=Poll
+ManualAddingOfItems=disabled
+CustomAttributes[]
+CustomAttributes[]=poll_node_id
+UseBrowseMode[poll_node_id]=true
+ViewList[]
+ViewList[]=default
+ViewName[default]=Poll
+
+[ItemList]
+Name=Item list
+NumberOfValidItems=12
+NumberOfArchivedItems=5
+ManualAddingOfItems=enabled
 ViewList[]
 ViewList[]=default
 ViewName[default]=Default
@@ -95,6 +115,7 @@ ViewName[default]=Default
 [FeedReader]
 Name=Feed reader
 ManualAddingOfItems=disabled
+CustomAttributes[]
 CustomAttributes[]=source
 CustomAttributes[]=limit
 CustomAttributes[]=offset
