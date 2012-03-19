@@ -22,7 +22,15 @@
                         </ezobject:attribute>
                         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="201"
                                             ezremote:identifier="page" name="Layout" type="ezpage">
-                            <page />
+                            <page>
+                              <zone_layout>2ZonesLayout1</zone_layout>
+                              <zone id="id_865346aabbcc48a9839274cc554868be">
+                                <zone_identifier>left</zone_identifier>
+                              </zone>
+                              <zone id="id_f742abffba08fc849b6e80dec769a74c">
+                                <zone_identifier>right</zone_identifier>
+                              </zone>
+                            </page>
                         </ezobject:attribute>
                         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="202"
                                             ezremote:identifier="tags" name="Tags" type="ezkeyword">
@@ -54,7 +62,12 @@
                         </ezobject:attribute>
                         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="204"
                                             ezremote:identifier="page" name="Layout" type="ezpage">
-                            <page />
+                            <page>
+                              <zone_layout>GlobalZoneLayout</zone_layout>
+                              <zone id="id_d38692201e6da4d79d8e660b029b2641">
+                                <zone_identifier>main</zone_identifier>
+                              </zone>
+                            </page>
                         </ezobject:attribute>
                     </ezobject:object-translation>
                     <ezobject:node-assignment-list>
@@ -82,7 +95,15 @@
                         </ezobject:attribute>
                         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="206"
                                             ezremote:identifier="page" name="Layout" type="ezpage">
-                            <page />
+                            <page>
+                              <zone_layout>2ZonesLayout1</zone_layout>
+                              <zone id="id_865346aabbcc48a9839274cc554868be">
+                                <zone_identifier>left</zone_identifier>
+                              </zone>
+                              <zone id="id_f742abffba08fc849b6e80dec769a74c">
+                                <zone_identifier>right</zone_identifier>
+                              </zone>
+                            </page>
                         </ezobject:attribute>
                         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="207"
                                             ezremote:identifier="tags" name="Tags" type="ezkeyword">
