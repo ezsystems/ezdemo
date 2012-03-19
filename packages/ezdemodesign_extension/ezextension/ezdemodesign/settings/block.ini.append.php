@@ -18,6 +18,7 @@ Name=Campaign
 NumberOfValidItems=5
 NumberOfArchivedItems=5
 ManualAddingOfItems=enabled
+ViewList[]
 ViewList[]=default
 ViewName[default]=Default
 
@@ -26,6 +27,7 @@ Name=Main story
 NumberOfValidItems=1
 NumberOfArchivedItems=5
 ManualAddingOfItems=enabled
+ViewList[]
 ViewList[]=default
 ViewList[]=highligted
 ViewName[default]=Background Image
@@ -36,6 +38,7 @@ Name=Content Grid
 NumberOfValidItems=8
 NumberOfArchivedItems=8
 ManualAddingOfItems=enabled
+ViewList[]
 ViewList[]=default
 ViewList[]=1_column_4_rows
 ViewList[]=2_columns_2_rows
@@ -56,6 +59,7 @@ Name=Gallery
 NumberOfValidItems=5
 NumberOfArchivedItems=5
 ManualAddingOfItems=enabled
+ViewList[]
 ViewList[]=default
 ViewName[default]=Default
 
@@ -64,6 +68,7 @@ Name=Banner
 NumberOfValidItems=1
 NumberOfArchivedItems=5
 ManualAddingOfItems=disabled
+ViewList[]
 ViewList[]=default
 ViewList[]=code
 ViewName[default]=URL
@@ -74,6 +79,7 @@ Name=Video
 NumberOfValidItems=1
 NumberOfArchivedItems=5
 ManualAddingOfItems=enabled
+ViewList[]
 ViewList[]=default
 ViewName[default]=Default
 
@@ -82,6 +88,7 @@ Name=Tag cloud
 ManualAddingOfItems=disabled
 CustomAttributes[]=subtree_node_id
 UseBrowseMode[subtree_node_id]=true
+ViewList[]
 ViewList[]=default
 ViewName[default]=Default
 
@@ -91,6 +98,7 @@ ManualAddingOfItems=disabled
 CustomAttributes[]=source
 CustomAttributes[]=limit
 CustomAttributes[]=offset
+ViewList[]
 ViewList[]=default
 ViewName[default]=Default
 
