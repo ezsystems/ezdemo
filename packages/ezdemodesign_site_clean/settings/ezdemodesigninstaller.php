@@ -2886,319 +2886,166 @@ class ezdemodesignInstaller extends eZSiteInstaller
             'name' => 'override.ini', 
             'discard_old_values' => true, 
             'settings' => array( 
-                'block_demo_block' => array( 
-                    'Source' => 'block/view/view.tpl', 
-                    'MatchFile' => 'block/demo_block.tpl', 
-                    'Subdir' => 'templates', 
-                    'Match' => array( 
-                        'type' => 'DemoBlock', 
-                        'view' => 'demoblock' 
-                    ) 
-                ), 
-                'block_2_items1' => array( 
-                    'Source' => 'block/view/view.tpl', 
-                    'MatchFile' => 'block/2_items1.tpl', 
-                    'Subdir' => 'templates', 
-                    'Match' => array( 
-                        'type' => 'Manual2Items', 
-                        'view' => '2_items1' 
-                    ) 
-                ), 
-                'block_2_items2' => array( 
-                    'Source' => 'block/view/view.tpl', 
-                    'MatchFile' => 'block/2_items2.tpl', 
-                    'Subdir' => 'templates', 
-                    'Match' => array( 
-                        'type' => 'Manual2Items', 
-                        'view' => '2_items2' 
-                    ) 
-                ), 
-                'block_main_story1' => array( 
-                    'Source' => 'block/view/view.tpl', 
-                    'MatchFile' => 'block/main_story1.tpl', 
-                    'Subdir' => 'templates', 
-                    'Match' => array( 
-                        'type' => 'MainStory', 
-                        'view' => 'main_story1' 
-                    ) 
-                ), 
-                'block_main_story2' => array( 
-                    'Source' => 'block/view/view.tpl', 
-                    'MatchFile' => 'block/main_story2.tpl', 
-                    'Subdir' => 'templates', 
-                    'Match' => array( 
-                        'type' => 'MainStory', 
-                        'view' => 'main_story2' 
-                    ) 
-                ), 
-                'block_main_story3' => array( 
-                    'Source' => 'block/view/view.tpl', 
-                    'MatchFile' => 'block/main_story3.tpl', 
-                    'Subdir' => 'templates', 
-                    'Match' => array( 
-                        'type' => 'MainStory', 
-                        'view' => 'main_story3' 
-                    ) 
-                ), 
-                'block_3_items1' => array( 
-                    'Source' => 'block/view/view.tpl', 
-                    'MatchFile' => 'block/3_items1.tpl', 
-                    'Subdir' => 'templates', 
-                    'Match' => array( 
-                        'type' => 'Manual3Items', 
-                        'view' => '3_items1' 
-                    ) 
-                ), 
-                'block_3_items2' => array( 
-                    'Source' => 'block/view/view.tpl', 
-                    'MatchFile' => 'block/3_items2.tpl', 
-                    'Subdir' => 'templates', 
-                    'Match' => array( 
-                        'type' => 'Manual3Items', 
-                        'view' => '3_items2' 
-                    ) 
-                ), 
-                'block_3_items3' => array( 
-                    'Source' => 'block/view/view.tpl', 
-                    'MatchFile' => 'block/3_items3.tpl', 
-                    'Subdir' => 'templates', 
-                    'Match' => array( 
-                        'type' => 'Manual3Items', 
-                        'view' => '3_items3' 
-                    ) 
-                ), 
-                'block_4_items1' => array( 
-                    'Source' => 'block/view/view.tpl', 
-                    'MatchFile' => 'block/4_items1.tpl', 
-                    'Subdir' => 'templates', 
-                    'Match' => array( 
-                        'type' => 'Manual4Items', 
-                        'view' => '4_items1' 
-                    ) 
-                ), 
-                'block_4_items2' => array( 
-                    'Source' => 'block/view/view.tpl', 
-                    'MatchFile' => 'block/4_items2.tpl', 
-                    'Subdir' => 'templates', 
-                    'Match' => array( 
-                        'type' => 'Manual4Items', 
-                        'view' => '4_items2' 
-                    ) 
-                ), 
-                'block_4_items3' => array( 
-                    'Source' => 'block/view/view.tpl', 
-                    'MatchFile' => 'block/4_items3.tpl', 
-                    'Subdir' => 'templates', 
-                    'Match' => array( 
-                        'type' => 'Manual4Items', 
-                        'view' => '4_items3' 
-                    ) 
-                ), 
-                'block_5_items1' => array( 
-                    'Source' => 'block/view/view.tpl', 
-                    'MatchFile' => 'block/5_items1.tpl', 
-                    'Subdir' => 'templates', 
-                    'Match' => array( 
-                        'type' => 'Manual5Items', 
-                        'view' => '5_items1' 
-                    ) 
-                ), 
-                'dynamic_3_items1' => array( 
-                    'Source' => 'block/view/view.tpl', 
-                    'MatchFile' => 'block/dynamic_3_items1.tpl', 
-                    'Subdir' => 'templates', 
-                    'Match' => array( 
-                        'type' => 'Dynamic3Items', 
-                        'view' => '3_items1' 
-                    ) 
-                ), 
-                'block_gallery1' => array( 
-                    'Source' => 'block/view/view.tpl', 
-                    'MatchFile' => 'block/gallery1.tpl', 
-                    'Subdir' => 'templates', 
-                    'Match' => array( 
-                        'type' => 'Gallery', 
-                        'view' => 'gallery1' 
-                    ) 
-                ), 
-                'block_gmap' => array( 
-                    'Source' => 'block/view/view.tpl', 
-                    'MatchFile' => 'block/gmap.tpl', 
-                    'Subdir' => 'templates', 
-                    'Match' => array( 
-                        'type' => 'GMap', 
-                        'view' => 'gmap' 
-                    ) 
-                ), 
-                'block_online_users' => array( 
-                    'Source' => 'block/view/view.tpl', 
-                    'MatchFile' => 'block/online_users.tpl', 
-                    'Subdir' => 'templates', 
-                    'Match' => array( 
-                        'type' => 'OnlineUsers', 
-                        'view' => 'onlineusers' 
-                    ) 
-                ), 
-                'block_keyword' => array( 
-                    'Source' => 'block/view/view.tpl', 
-                    'MatchFile' => 'block/keyword.tpl', 
-                    'Subdir' => 'templates', 
-                    'Match' => array( 
-                        'type' => 'Keyword', 
-                        'view' => 'keyword' 
-                    ) 
-                ), 
-                'block_multimediacarousel' => array( 
-                    'Source' => 'block/view/view.tpl', 
-                    'MatchFile' => 'block/multimediacarousel.tpl', 
-                    'Subdir' => 'templates', 
-                    'Match' => array( 
-                        'type' => 'MultimediaCarousel', 
-                        'view' => 'multimediacarousel' 
-                    ) 
-                ), 
-                'block_search' => array( 
-                    'Source' => 'block/view/view.tpl', 
-                    'MatchFile' => 'block/search.tpl', 
-                    'Subdir' => 'templates', 
-                    'Match' => array( 
-                        'type' => 'Search', 
-                        'view' => 'search' 
-                    ) 
-                ), 
-                'block_ads' => array( 
-                    'Source' => 'block/view/view.tpl', 
-                    'MatchFile' => 'block/ads.tpl', 
-                    'Subdir' => 'templates', 
-                    'Match' => array( 
-                        'type' => 'Ads', 
-                        'view' => 'ads' 
-                    ) 
-                ), 
-                'block_latest_content' => array( 
-                    'Source' => 'block/view/view.tpl', 
-                    'MatchFile' => 'block/latest_content.tpl', 
-                    'Subdir' => 'templates', 
-                    'Match' => array( 
-                        'type' => 'LatestContent', 
-                        'view' => 'latest_content' 
-                    ) 
-                ), 
-                'block_top_rated' => array( 
-                    'Source' => 'block/view/view.tpl', 
-                    'MatchFile' => 'block/top_rated.tpl', 
-                    'Subdir' => 'templates', 
-                    'Match' => array( 
-                        'type' => 'TopRated', 
-                        'view' => 'toprated' 
-                    ) 
-                ), 
-                'block_gmapitems_geo_located_content' => array( 
-                    'Source' => 'block/view/view.tpl', 
-                    'MatchFile' => 'block/geo_located_content.tpl', 
-                    'Subdir' => 'templates', 
-                    'Match' => array( 
-                        'type' => 'GMapItems', 
-                        'view' => 'geo_located_content' 
-                    ) 
-                ), 
-                'block_feed_reader' => array( 
-                    'Source' => 'block/view/view.tpl', 
-                    'MatchFile' => 'block/feed_reader.tpl', 
-                    'Subdir' => 'templates', 
-                    'Match' => array( 
-                        'type' => 'FeedReader', 
-                        'view' => 'feed_reader' 
-                    ) 
-                ), 
-                'block_video' => array( 
-                    'Source' => 'block/view/view.tpl', 
-                    'MatchFile' => 'block/video.tpl', 
-                    'Subdir' => 'templates', 
-                    'Match' => array( 
-                        'type' => 'Video', 
-                        'view' => 'video' 
-                    ) 
-                ), 
-                'block_itemlist1' => array( 
-                    'Source' => 'block/view/view.tpl', 
-                    'MatchFile' => 'block/itemlist1.tpl', 
-                    'Subdir' => 'templates', 
-                    'Match' => array( 
-                        'type' => 'ItemList', 
-                        'view' => 'itemlist1' 
-                    ) 
-                ), 
-                'block_itemlist1' => array( 
-                    'Source' => 'block/view/view.tpl', 
-                    'MatchFile' => 'block/itemlist1.tpl', 
-                    'Subdir' => 'templates', 
-                    'Match' => array( 
-                        'type' => 'ItemList', 
-                        'view' => 'itemlist1' 
-                    ) 
-                ), 
-                'block_itemlist2' => array( 
-                    'Source' => 'block/view/view.tpl', 
-                    'MatchFile' => 'block/itemlist2.tpl', 
-                    'Subdir' => 'templates', 
-                    'Match' => array( 
-                        'type' => 'ItemList', 
-                        'view' => 'itemlist2' 
-                    ) 
-                ), 
-                'block_itemlist3' => array( 
-                    'Source' => 'block/view/view.tpl', 
-                    'MatchFile' => 'block/itemlist3.tpl', 
-                    'Subdir' => 'templates', 
-                    'Match' => array( 
-                        'type' => 'ItemList', 
-                        'view' => 'itemlist3' 
-                    ) 
-                ), 
-                'block_banner1' => array( 
-                    'Source' => 'block/view/view.tpl', 
-                    'MatchFile' => 'block/banner1.tpl', 
-                    'Subdir' => 'templates', 
-                    'Match' => array( 
-                        'type' => 'Banner', 
-                        'view' => 'banner1' 
-                    ) 
-                ), 
-                'block_banner2' => array( 
-                    'Source' => 'block/view/view.tpl', 
-                    'MatchFile' => 'block/banner2.tpl', 
-                    'Subdir' => 'templates', 
-                    'Match' => array( 
-                        'type' => 'Banner', 
-                        'view' => 'banner2' 
-                    ) 
-                ), 
-                'block_tag_cloud' => array( 
-                    'Source' => 'block/view/view.tpl', 
-                    'MatchFile' => 'block/tag_cloud.tpl', 
-                    'Subdir' => 'templates', 
-                    'Match' => array( 
-                        'type' => 'TagCloud', 
-                        'view' => 'tag_cloud' 
-                    ) 
-                ), 
-                'block_poll' => array( 
-                    'Source' => 'block/view/view.tpl', 
-                    'MatchFile' => 'block/poll.tpl', 
-                    'Subdir' => 'templates', 
-                    'Match' => array( 
-                        'type' => 'Poll', 
-                        'view' => 'poll' 
-                    ) 
-                ), 
-                'block_flash_recorder' => array( 
-                    'Source' => 'block/view/view.tpl', 
-                    'MatchFile' => 'block/flash_recorder.tpl', 
-                    'Subdir' => 'templates', 
-                    'Match' => array( 
-                        'type' => 'FlashRecorder', 
-                        'view' => 'flash_recorder' 
+                'block_campaign' => array(
+                    'Source' => 'block/view/view.tpl',
+                    'MatchFile' => 'block/campaign.tpl',
+                    'Subdir' => 'templates',
+                    'Match' => array(
+                        'type' => 'Campaign',
+                        'view' => 'default'
+                    )
+                ),
+                'block_main_story_highlighted' => array(
+                    'Source' => 'block/view/view.tpl',
+                    'MatchFile' => 'block/main_story_highlighted.tpl',
+                    'Subdir' => 'templates',
+                    'Match' => array(
+                        'type' => 'MainStory',
+                        'view' => 'highligted'
+                    )
+                ),
+                'block_main_story_background_image' => array(
+                    'Source' => 'block/view/view.tpl',
+                    'MatchFile' => 'block/main_story_background_image.tpl',
+                    'Subdir' => 'templates',
+                    'Match' => array(
+                        'type' => 'MainStory',
+                        'view' => 'default'
+                    )
+                ),
+                'block_1_column_2_rows' => array(
+                    'Source' => 'block/view/view.tpl',
+                    'MatchFile' => 'block/1_column_2_rows.tpl',
+                    'Subdir' => 'templates',
+                    'Match' => array(
+                        'type' => 'ContentGrid',
+                        'view' => 'default'
+                    )
+                ),
+                'block_1_column_4_rows' => array(
+                    'Source' => 'block/view/view.tpl',
+                    'MatchFile' => 'block/1_column_4_rows.tpl',
+                    'Subdir' => 'templates',
+                    'Match' => array(
+                        'type' => 'ContentGrid',
+                        'view' => '1_column_4_rows'
+                    )
+                ),
+                'block_2_columns_2_rows' => array(
+                    'Source' => 'block/view/view.tpl',
+                    'MatchFile' => 'block/2_columns_2_rows.tpl',
+                    'Subdir' => 'templates',
+                    'Match' => array(
+                        'type' => 'ContentGrid',
+                        'view' => '2_columns_2_rows'
+                    )
+                ),
+                'block_3_columns_1_row' => array(
+                    'Source' => 'block/view/view.tpl',
+                    'MatchFile' => 'block/3_columns_1_row.tpl',
+                    'Subdir' => 'templates',
+                    'Match' => array(
+                        'type' => 'ContentGrid',
+                        'view' => '3_columns_1_row'
+                    )
+                ),
+                'block_3_columns_2_rows' => array(
+                    'Source' => 'block/view/view.tpl',
+                    'MatchFile' => 'block/3_columns_2_rows.tpl',
+                    'Subdir' => 'templates',
+                    'Match' => array(
+                        'type' => 'ContentGrid',
+                        'view' => '3_columns_2_rows'
+                    )
+                ),
+                'block_4_columns_1_row' => array(
+                    'Source' => 'block/view/view.tpl',
+                    'MatchFile' => 'block/4_columns_1_row.tpl',
+                    'Subdir' => 'templates',
+                    'Match' => array(
+                        'type' => 'ContentGrid',
+                        'view' => '4_columns_1_row'
+                    )
+                ),
+                'block_4_columns_2_rows' => array(
+                    'Source' => 'block/view/view.tpl',
+                    'MatchFile' => 'block/4_columns_2_rows.tpl',
+                    'Subdir' => 'templates',
+                    'Match' => array(
+                        'type' => 'ContentGrid',
+                        'view' => '4_columns_2_rows'
+                    )
+                ),
+                'block_gallery' => array(
+                    'Source' => 'block/view/view.tpl',
+                    'MatchFile' => 'block/gallery.tpl',
+                    'Subdir' => 'templates',
+                    'Match' => array(
+                        'type' => 'Gallery',
+                        'view' => 'default'
+                    )
+                ),
+                'block_banner_url' => array(
+                    'Source' => 'block/view/view.tpl',
+                    'MatchFile' => 'block/banner_url.tpl',
+                    'Subdir' => 'templates',
+                    'Match' => array(
+                        'type' => 'Banner',
+                        'view' => 'banner_url'
+                    )
+                ),
+                'dynamic_banner_code' => array(
+                    'Source' => 'block/view/view.tpl',
+                    'MatchFile' => 'block/banner_code.tpl',
+                    'Subdir' => 'templates',
+                    'Match' => array(
+                        'type' => 'Banner',
+                        'view' => 'banner_code'
+                    )
+                ),
+                'block_video' => array(
+                    'Source' => 'block/view/view.tpl',
+                    'MatchFile' => 'block/video.tpl',
+                    'Subdir' => 'templates',
+                    'Match' => array(
+                        'type' => 'Video',
+                        'view' => 'video'
+                    )
+                ),
+                'block_tag_cloud' => array(
+                    'Source' => 'block/view/view.tpl',
+                    'MatchFile' => 'block/tag_cloud.tpl',
+                    'Subdir' => 'templates',
+                    'Match' => array(
+                        'type' => 'TagCloud',
+                        'view' => 'tag_cloud'
+                    )
+                ),
+                'block_poll' => array(
+                    'Source' => 'block/view/view.tpl',
+                    'MatchFile' => 'block/poll.tpl',
+                    'Subdir' => 'templates',
+                    'Match' => array(
+                        'type' => 'Poll',
+                        'view' => 'poll'
+                    )
+                ),
+                'block_item_list' => array(
+                    'Source' => 'block/view/view.tpl',
+                    'MatchFile' => 'block/item_list.tpl',
+                    'Subdir' => 'templates',
+                    'Match' => array(
+                        'type' => 'ItemList',
+                        'view' => 'item_list'
+                    )
+                ),
+                'block_feed_reader' => array(
+                    'Source' => 'block/view/view.tpl',
+                    'MatchFile' => 'block/feed_reader.tpl',
+                    'Subdir' => 'templates',
+                    'Match' => array(
+                        'type' => 'FeedReader',
+                        'view' => 'feed_reader'
                     ) 
                 ), 
                 'block_item_article' => array( 
@@ -4202,7 +4049,7 @@ class ezdemodesignInstaller extends eZSiteInstaller
                 'articleimage' => array( 
                     'Reference' => '', 
                     'Filters' => array( 
-                        '0' => 'geometry/scalewidth=760'
+                        '0' => 'geometry/scalewidth=770'
                     ) 
                 ), 
                 'articlethumbnail' => array( 
@@ -4244,8 +4091,8 @@ class ezdemodesignInstaller extends eZSiteInstaller
                 'blockitemimage' => array(
                     'Reference' => '',
                     'Filters' => array(
-                        '0' => 'geometry/scalewidth=360',
-                        '1' => 'geometry/crop=360;130;0;0'
+                        '0' => 'geometry/scalewidth=370',
+                        '1' => 'geometry/crop=370;140;0;0'
                     )
                 )
             ) 

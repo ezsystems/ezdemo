@@ -2,8 +2,8 @@
      $images = array()
      $several = $valid_nodes|count|gt( 1 )}
 <!-- BLOCK: START -->
-<div class="block-type-gallery">
-    <div class="gallery">
+<div class="block-type-campaign">
+    <div class="campaign">
         <a href="#" class="navig prev" style="opacity:0;"><span class="hide">&lt;</span></a>
         <a href={cond( $several, $valid_nodes[1].url_alias|ezurl, '"#"' )} class="navig next{cond( $several|not, ' disabled', '' )}"><span class="hide">&gt;</span></a>
         <ul class="indicator">

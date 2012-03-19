@@ -2,7 +2,7 @@
 <article class="block-type-mainstory full-size">
     <a href="{$valid_node.url_alias|ezurl(no)}">
         <div class="attribute-image">
-            {attribute_view_gui attribute=$valid_node.data_map.image image_class='mainstory1'}
+            {attribute_view_gui attribute=$valid_node.data_map.image image_class='backgroundimage'}
         </div>
         <div class="overlay">
         {if $valid_node.data_map.author.content.is_empty|not()}

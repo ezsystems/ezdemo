@@ -3855,10 +3855,10 @@ a.thumbnail:hover {
 .content-view-aside .block-type-tagcloud .block-content {
   padding: 10px 20px;
 }
-.block-type-gallery {
+.block-type-campaign {
   margin-bottom: 1em;
 }
-.block-type-gallery .gallery {
+.block-type-campaign .campaign {
   white-space: nowrap;
   position: relative;
   top: 0;
@@ -3866,7 +3866,7 @@ a.thumbnail:hover {
   z-index: 10;
   overflow: hidden;
 }
-.block-type-gallery .indicator {
+.block-type-campaign .indicator {
   z-index: 12;
   position: absolute;
   top: 0;
@@ -3874,7 +3874,7 @@ a.thumbnail:hover {
   margin: 0;
   cursor: pointer;
 }
-.block-type-gallery .indicator li {
+.block-type-campaign .indicator li {
   display: inline-block;
   background: transparent url('../images/ez-sprite.png') no-repeat -13px -22px;
   width: 11px;
@@ -3882,13 +3882,13 @@ a.thumbnail:hover {
   opacity: 0.8;
   position: static;
 }
-.block-type-gallery .indicator li:before {
+.block-type-campaign .indicator li:before {
   display: none;
 }
-.block-type-gallery .indicator .selected {
+.block-type-campaign .indicator .selected {
   background: transparent url('../images/ez-sprite.png') no-repeat -24px -22px;
 }
-.block-type-gallery .navig {
+.block-type-campaign .navig {
   display: inline-block;
   width: 20px;
   height: 37px;
@@ -3896,15 +3896,15 @@ a.thumbnail:hover {
   top: 46%;
   z-index: 11;
 }
-.block-type-gallery .next {
+.block-type-campaign .next {
   right: 0px;
   background: transparent url('../images/ez-sprite.png') no-repeat -55px -22px;
 }
-.block-type-gallery .prev {
+.block-type-campaign .prev {
   left: 0px;
   background: transparent url('../images/ez-sprite.png') no-repeat -35px -22px;
 }
-.block-type-gallery .images {
+.block-type-campaign .images {
   margin: 0;
   position: relative;
   top: 0;
@@ -3912,20 +3912,20 @@ a.thumbnail:hover {
   white-space: nowrap;
   z-index: 1;
 }
-.block-type-gallery .images li {
+.block-type-campaign .images li {
   display: inline-block;
 }
-.block-type-gallery .images li:before {
+.block-type-campaign .images li:before {
   display: none;
 }
-.block-type-gallery figure {
+.block-type-campaign figure {
   margin: 0;
   white-space: normal;
 }
-.block-type-gallery figure a {
+.block-type-campaign figure a {
   color: #fff;
 }
-.block-type-gallery .attribute-caption {
+.block-type-campaign .attribute-caption {
   position: absolute;
   bottom: 6px;
   margin: 0;
@@ -3940,10 +3940,10 @@ a.thumbnail:hover {
   border: 0;
   filter: none;
 }
-.block-type-gallery .attribute-caption > * {
+.block-type-campaign .attribute-caption > * {
   padding: 0 20px;
 }
-.block-type-gallery h3 {
+.block-type-campaign h3 {
   font-size: 150%;
   text-transform: none;
 }

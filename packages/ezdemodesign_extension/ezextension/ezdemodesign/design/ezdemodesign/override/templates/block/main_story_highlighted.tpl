@@ -2,7 +2,7 @@
 <article class="block-type-mainstory picture-left">
     <a href="{$valid_node.url_alias|ezurl(no)}" title="{$valid_node.name|wash()}">
         <div class="attribute-image">
-            {attribute_view_gui attribute=$valid_node.data_map.image image_class='mainstory2'}
+            {attribute_view_gui attribute=$valid_node.data_map.image image_class='highlighted'}
         </div>
         <div class="attribute-header">
             <h2>{$valid_node.name|wash()}</h2>
