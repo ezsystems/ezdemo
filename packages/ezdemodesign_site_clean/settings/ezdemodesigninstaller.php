@@ -1395,12 +1395,12 @@ class ezdemodesignInstaller extends eZSiteInstaller
         return true;
     }
 
-    function loadDBContentFromFile( eZPackage $extensionPackage, $extensionName )
+    function loadDBContentFromFile( eZPackage $package, $extensionName )
     {
         $db = eZDB::instance();
 
         $sqlFile = 'democontent.sql';
-        $path = $extensionPackage->path() . '/ezextension/' . $extensionName . '/sql/common';
+        $path = $package->path() . '/ezextension/' . $extensionName . '/sql/common';
         $res = $db->insertFile( $path, $sqlFile, false );
 
         if ( ! $res )
@@ -2915,7 +2915,7 @@ class ezdemodesignInstaller extends eZSiteInstaller
                 ),
                 'block_1_column_2_rows' => array(
                     'Source' => 'block/view/view.tpl',
-                    'MatchFile' => 'block/1_column_2_rows.tpl',
+                    'MatchFile' => 'block/content_grid_1col_2rows.tpl',
                     'Subdir' => 'templates',
                     'Match' => array(
                         'type' => 'ContentGrid',
@@ -2924,7 +2924,7 @@ class ezdemodesignInstaller extends eZSiteInstaller
                 ),
                 'block_1_column_4_rows' => array(
                     'Source' => 'block/view/view.tpl',
-                    'MatchFile' => 'block/1_column_4_rows.tpl',
+                    'MatchFile' => 'block/content_grid_1col_4rows.tpl',
                     'Subdir' => 'templates',
                     'Match' => array(
                         'type' => 'ContentGrid',
@@ -2933,7 +2933,7 @@ class ezdemodesignInstaller extends eZSiteInstaller
                 ),
                 'block_2_columns_2_rows' => array(
                     'Source' => 'block/view/view.tpl',
-                    'MatchFile' => 'block/2_columns_2_rows.tpl',
+                    'MatchFile' => 'block/content_grid_2cols_2rows.tpl',
                     'Subdir' => 'templates',
                     'Match' => array(
                         'type' => 'ContentGrid',
@@ -2942,7 +2942,7 @@ class ezdemodesignInstaller extends eZSiteInstaller
                 ),
                 'block_3_columns_1_row' => array(
                     'Source' => 'block/view/view.tpl',
-                    'MatchFile' => 'block/3_columns_1_row.tpl',
+                    'MatchFile' => 'block/content_grid_3cols_1row.tpl',
                     'Subdir' => 'templates',
                     'Match' => array(
                         'type' => 'ContentGrid',
@@ -2951,7 +2951,7 @@ class ezdemodesignInstaller extends eZSiteInstaller
                 ),
                 'block_3_columns_2_rows' => array(
                     'Source' => 'block/view/view.tpl',
-                    'MatchFile' => 'block/3_columns_2_rows.tpl',
+                    'MatchFile' => 'block/content_grid_3cols_2rows.tpl',
                     'Subdir' => 'templates',
                     'Match' => array(
                         'type' => 'ContentGrid',
@@ -2960,7 +2960,7 @@ class ezdemodesignInstaller extends eZSiteInstaller
                 ),
                 'block_4_columns_1_row' => array(
                     'Source' => 'block/view/view.tpl',
-                    'MatchFile' => 'block/4_columns_1_row.tpl',
+                    'MatchFile' => 'block/content_grid_4cols_1row.tpl',
                     'Subdir' => 'templates',
                     'Match' => array(
                         'type' => 'ContentGrid',
@@ -2969,7 +2969,7 @@ class ezdemodesignInstaller extends eZSiteInstaller
                 ),
                 'block_4_columns_2_rows' => array(
                     'Source' => 'block/view/view.tpl',
-                    'MatchFile' => 'block/4_columns_2_rows.tpl',
+                    'MatchFile' => 'block/content_grid_4cols_2rows.tpl',
                     'Subdir' => 'templates',
                     'Match' => array(
                         'type' => 'ContentGrid',
