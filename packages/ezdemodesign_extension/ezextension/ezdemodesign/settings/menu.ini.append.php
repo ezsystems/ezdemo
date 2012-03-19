@@ -11,7 +11,7 @@ TopIdentifierList[]=event_calendar
 TopIdentifierList[]=multicalendar
 TopIdentifierList[]=link
 TopIdentifierList[]=blog
-TopIdentifierList[]=frontpage
+TopIdentifierList[]=landing_page
 
 LeftIdentifierList[]=folder
 LeftIdentifierList[]=feedback_form
@@ -23,7 +23,7 @@ LeftIdentifierList[]=event_calendar
 LeftIdentifierList[]=multicalendar
 LeftIdentifierList[]=link
 LeftIdentifierList[]=blog
-LeftIdentifierList[]=frontpage
+LeftIdentifierList[]=landing_page
 
 # Classes to use in extra menu (infobox)
 #ExtraIdentifierList[]
@@ -39,7 +39,7 @@ ExtraMenuSubitemsCheck=enabled
 #                                            'show_path', false())}
 [MenuSettings]
 #HideLeftMenuClasses[]
-HideLeftMenuClasses[]=frontpage
+HideLeftMenuClasses[]=landing_page
 HideLeftMenuClasses[]=blog
 HideLeftMenuClasses[]=blog_post
 

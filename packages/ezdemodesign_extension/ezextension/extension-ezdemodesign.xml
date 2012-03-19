@@ -196,7 +196,7 @@
   <file name="forum_reply.tpl" path="/design/ezdemodesign/override/templates/full" md5sum="48cb9f3a4dff78aa912fd511538e5ec7"/>
   <file name="forum_topic.tpl" path="/design/ezdemodesign/override/templates/full" md5sum="e6f8bd0fad8410227c2922f544a6edf2"/>
   <file name="forums.tpl" path="/design/ezdemodesign/override/templates/full" md5sum="4c2402d412f1832969393ba6651854a8"/>
-  <file name="frontpage.tpl" path="/design/ezdemodesign/override/templates/full" md5sum="21d500ff4f59ad8ca68f00340f3db47d"/>
+  <file name="landing_page.tpl" path="/design/ezdemodesign/override/templates/full" md5sum="21d500ff4f59ad8ca68f00340f3db47d"/>
   <file name="gallery.tpl" path="/design/ezdemodesign/override/templates/full" md5sum="35cbe2580dfeb559b315a432bf3a25ee"/>
   <file name="geo_article.tpl" path="/design/ezdemodesign/override/templates/full" md5sum="35e49086f5cb5f18bd06e62d8f28462d"/>
   <file name="image.tpl" path="/design/ezdemodesign/override/templates/full" md5sum="e3ea307bb8f18d617426bbd9e28f8167"/>

@@ -69,7 +69,7 @@
                value="feedback_form" />
       <provide type="ezcontentclass"
                name="contentclass"
-               value="frontpage" />
+               value="landing_page" />
       <provide type="ezcontentclass"
                name="contentclass"
                value="documentation_page" />
@@ -170,7 +170,7 @@
           filename="class-feedback_form"
           sub-directory="ezcontentclass" />
     <item type="ezcontentclass"
-          filename="class-frontpage"
+          filename="class-landing_page"
           sub-directory="ezcontentclass" />
     <item type="ezcontentclass"
           filename="class-documentation_page"
@@ -268,7 +268,7 @@
           filename="class-feedback_form"
           sub-directory="ezcontentclass" />
     <item type="ezcontentclass"
-          filename="class-frontpage"
+          filename="class-landing_page"
           sub-directory="ezcontentclass" />
     <item type="ezcontentclass"
           filename="class-documentation_page"

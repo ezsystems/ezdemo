@@ -5,7 +5,7 @@
                          name="Home" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="23"
                          ezremote:published="Mon, 19 Nov 2007 13:54:46 GMT"
                          ezremote:modified="Wed, 28 Nov 2007 16:51:36 GMT" remote_id="8a9c9c761004866fb458d89910f52bee"
-                         class_remote_id="e36c458e3e4a81298a0945f53a2c81f4" ezremote:class_identifier="frontpage"
+                         class_remote_id="e36c458e3e4a81298a0945f53a2c81f4" ezremote:class_identifier="landing_page"
                          ezremote:always_available="1" initial_language="eng-GB">
             <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="60">
                 <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="60" ezremote:status="1"

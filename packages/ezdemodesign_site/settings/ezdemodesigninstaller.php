@@ -361,7 +361,7 @@ class ezdemodesignInstaller extends eZSiteInstaller
                                     array( 
                                         '_function' => 'classIDbyIdentifier', 
                                         '_params' => array( 
-                                            'identifier' => 'frontpage' 
+                                            'identifier' => 'landing_page' 
                                         ) 
                                     ), 
                                     array( 
@@ -579,7 +579,7 @@ class ezdemodesignInstaller extends eZSiteInstaller
                                     array( 
                                         '_function' => 'classIDbyIdentifier', 
                                         '_params' => array( 
-                                            'identifier' => 'frontpage' 
+                                            'identifier' => 'landing_page' 
                                         ) 
                                     ), 
                                     array( 
@@ -616,7 +616,7 @@ class ezdemodesignInstaller extends eZSiteInstaller
                                 'ParentClass' => array( 
                                     '_function' => 'classIDbyIdentifier', 
                                     '_params' => array( 
-                                        'identifier' => 'frontpage' 
+                                        'identifier' => 'landing_page' 
                                     ) 
                                 ) 
                             ) 
@@ -683,7 +683,7 @@ class ezdemodesignInstaller extends eZSiteInstaller
                                     array( 
                                         '_function' => 'classIDbyIdentifier', 
                                         '_params' => array( 
-                                            'identifier' => 'frontpage' 
+                                            'identifier' => 'landing_page' 
                                         ) 
                                     ), 
                                     array( 
@@ -1815,7 +1815,7 @@ class ezdemodesignInstaller extends eZSiteInstaller
                         'user_group', 
                         'documentation_page', 
                         'event_calender', 
-                        'frontpage', 
+                        'landing_page', 
                         'forums', 
                         'gallery' 
                     ) 
@@ -2096,7 +2096,7 @@ class ezdemodesignInstaller extends eZSiteInstaller
                     'MatchFile' => 'content/parts/add_to_block_frontpage.tpl',
                     'Subdir' => 'templates',
                     'Match' => array(
-                        'class_identifier' => 'frontpage'
+                        'class_identifier' => 'landing_page'
                     )
                 ),
                 'embed_image' => array( 
@@ -2557,7 +2557,7 @@ class ezdemodesignInstaller extends eZSiteInstaller
             'article' => array( 
                 'DependentClassIdentifier' => array( 
                     '0' => 'folder', 
-                    '1' => 'frontpage' 
+                    '1' => 'landing_page' 
                 ), 
                 'ClearCacheMethod' => array( 
                     '0' => 'object', 
@@ -2568,7 +2568,7 @@ class ezdemodesignInstaller extends eZSiteInstaller
             'article_mainpage' => array( 
                 'DependentClassIdentifier' => array( 
                     '0' => 'folder', 
-                    '1' => 'frontpage' 
+                    '1' => 'landing_page' 
                 ), 
                 'ClearCacheMethod' => array( 
                     '0' => 'object', 
@@ -2589,7 +2589,7 @@ class ezdemodesignInstaller extends eZSiteInstaller
             ), 
             'blog_post' => array( 
                 'DependentClassIdentifier' => array( 
-                    '0' => 'frontpage', 
+                    '0' => 'landing_page', 
                     '1' => 'blog' 
                 ), 
                 'ClearCacheMethod' => array( 
@@ -2601,7 +2601,7 @@ class ezdemodesignInstaller extends eZSiteInstaller
             'product' => array( 
                 'DependentClassIdentifier' => array( 
                     '0' => 'folder', 
-                    '1' => 'frontpage' 
+                    '1' => 'landing_page' 
                 ), 
                 'ClearCacheMethod' => array( 
                     '0' => 'object', 
@@ -2631,7 +2631,7 @@ class ezdemodesignInstaller extends eZSiteInstaller
             ), 
             'banner' => array( 
                 'DependentClassIdentifier' => array( 
-                    '0' => 'frontpage' 
+                    '0' => 'landing_page' 
                 ), 
                 'ClearCacheMethod' => array( 
                     '0' => 'object', 
@@ -2641,7 +2641,7 @@ class ezdemodesignInstaller extends eZSiteInstaller
             ), 
             'geo_article' => array( 
                 'DependentClassIdentifier' => array( 
-                    '0' => 'frontpage' 
+                    '0' => 'landing_page' 
                 ), 
                 'ClearCacheMethod' => array( 
                     '0' => 'object', 
@@ -2813,7 +2813,7 @@ class ezdemodesignInstaller extends eZSiteInstaller
                     'ShowClasses' => array( 
                         'folder', 
                         'documentation_page', 
-                        'frontpage', 
+                        'landing_page', 
                         'forums' 
                     ), 
                     'ToolTips' => 'disabled' 
@@ -3248,12 +3248,12 @@ class ezdemodesignInstaller extends eZSiteInstaller
                         'class_identifier' => 'forums' 
                     ) 
                 ), 
-                'full_frontpage' => array( 
+                'full_landing_page' => array( 
                     'Source' => 'node/view/full.tpl', 
-                    'MatchFile' => 'full/frontpage.tpl', 
+                    'MatchFile' => 'full/landing_page.tpl', 
                     'Subdir' => 'templates', 
                     'Match' => array( 
-                        'class_identifier' => 'frontpage' 
+                        'class_identifier' => 'landing_page' 
                     ) 
                 ), 
                 'full_gallery' => array( 
@@ -3624,12 +3624,12 @@ class ezdemodesignInstaller extends eZSiteInstaller
                         'class_identifier' => 'forum_reply' 
                     ) 
                 ), 
-                'edit_frontpage' => array( 
+                'edit_landing_page' => array( 
                     'Source' => 'content/edit.tpl', 
-                    'MatchFile' => 'edit/frontpage.tpl', 
+                    'MatchFile' => 'edit/landing_page.tpl', 
                     'Subdir' => 'templates', 
                     'Match' => array( 
-                        'class_identifier' => 'frontpage' 
+                        'class_identifier' => 'landing_page' 
                     ) 
                 ), 
                 'highlighted_object' => array( 

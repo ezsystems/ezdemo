@@ -9,7 +9,7 @@
                          name="Home" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="23"
                          ezremote:published="Mon, 19 Nov 2007 13:54:46 GMT"
                          ezremote:modified="Tue, 14 Sep 2010 08:46:59 GMT" remote_id="8a9c9c761004866fb458d89910f52bee"
-                         class_remote_id="e36c458e3e4a81298a0945f53a2c81f4" ezremote:class_identifier="frontpage"
+                         class_remote_id="e36c458e3e4a81298a0945f53a2c81f4" ezremote:class_identifier="landing_page"
                          ezremote:always_available="1" initial_language="eng-GB">
             <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="8">
                 <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="8" ezremote:status="1"
@@ -82,7 +82,7 @@
                          name="Events" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="23"
                          ezremote:published="Thu, 22 Nov 2007 12:57:58 GMT"
                          ezremote:modified="Fri, 21 Oct 2011 13:38:11 GMT" remote_id="945b2d3d78653a42d5dbc85a0299aec6"
-                         class_remote_id="e36c458e3e4a81298a0945f53a2c81f4" ezremote:class_identifier="frontpage"
+                         class_remote_id="e36c458e3e4a81298a0945f53a2c81f4" ezremote:class_identifier="landing_page"
                          ezremote:always_available="0" initial_language="eng-GB">
             <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="4">
                 <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="4" ezremote:status="1"
