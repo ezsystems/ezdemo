@@ -31,7 +31,7 @@ ExtraIdentifierList[]=infobox
 
 # Control extra menu visibility depening on
 # available subitems for current node
-ExtraMenuSubitemsCheck=enabled
+ExtraMenuSubitemsCheck=disabled
 
 # DEPRICATED: use persistent_variable in node full veiw instead
 # {set scope=global persistent_variable=hash('left_menu', false(),
