@@ -353,14 +353,20 @@ aside {
         h1, h2, h3, h4, h5, h6 {
             border-bottom: 1px solid @grayLighter;
         }
+        margin-top: 2em;
     }
-    .file-to-download {
+    .attribute-header + div {
         #gradient > .vertical(@softwhite, @white);
     }
-    .file-to-download {
+    .file-to-download,
+    .comment {
         display: block;
-        padding: 0 10px 0 60px;
         position: relative;
+    }
+    .file-to-download {
+        padding: 0 10px 0 60px;
+        min-height: 55px;
+        margin-bottom: 0.5em;
         &:before {
             content: "";
             display: block;
@@ -374,6 +380,49 @@ aside {
         .header {
             .clearfix();
             padding: 5px 0;
+        }
+    }
+    .comment {
+        padding: 0 15px 0 115px;
+        min-height: 97px;
+        .clearfix();
+        .profile-picture {
+            display: block;
+            position: absolute;
+            left: 15px;
+            top: 15px;
+            width: 70px;
+            height: 70px;
+            border: 1px solid @grayLight;
+            padding: 5px;
+            background-color: @blueLightest;
+            .border-radius(2px);
+        }
+        .comment-content-wrapper {
+            display: block;
+            position: relative;
+            border: 1px solid @grayLight;
+            .border-radius(2px);
+            margin-top: 15px;
+            padding: 15px 20px;
+            #gradient > .vertical(@white, @softwhite);
+            &:before {
+                content: "";
+                display: block;
+                position: absolute;
+                left: -9px;
+                top: 15px;
+                width: 9px;
+                height: 17px;
+                .sprite(transparent, -137px, top);
+            }
+            .header {
+                display: block;
+                .clearfix();
+                border-bottom: 1px solid @grayLighter;
+                padding: 0 0 2px 0;
+                margin-bottom: 2px;
+            }
         }
     }
 }
