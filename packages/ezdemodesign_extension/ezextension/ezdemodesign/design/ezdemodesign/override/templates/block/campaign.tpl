@@ -22,7 +22,7 @@
 {literal}
 YUI(YUI3_config).use('event', 'ezsimplegallery', function (Y) {
     Y.on('domready', function () {
-        Y.all('.block-type-gallery').each(function () {
+        Y.all('.block-type-campaign').each(function () {
             var gal = new Y.eZ.SimpleGallery({
                 gallery: this
             });
