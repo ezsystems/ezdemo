@@ -617,3 +617,17 @@ aside {
         }
     }
 }
+
+.flyout {
+    display: block;
+    background-color: @white;
+    .box-shadow(-5px 5px 15px rgba(0,0,0,.25));
+    position: fixed;
+    right: 0;
+    bottom: 50px;
+    z-index: 15;
+    h2 {
+        #gradient > .vertical(@blue, @blueDark);
+        color: @white;
+    }
+}
