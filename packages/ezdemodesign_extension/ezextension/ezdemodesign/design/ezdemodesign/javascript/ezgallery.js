@@ -13,6 +13,7 @@ YUI(YUI3_config).add('ezgallery', function (Y) {
         figure: 'figure',
         transitionDuration: 0.4,
         autoScrollOnSelect: true,
+        autoFixSizes: true,
         initFunc: function () { },
         updateFunc: function (elem) { },
         navigator: Y.eZ.GalleryNavigator.DEFAULT_CONFIG
@@ -96,6 +97,9 @@ YUI(YUI3_config).add('ezgallery', function (Y) {
      * @private
      */
     eZG.prototype._fixSizes = function () {
+        if ( !this.conf.autoFixSizes ) {
+            return;
+        }
         var c = this.container,
             fig = c.one(this.conf.figure),
             nav = this.navigator.getContainer();

@@ -1,5 +1,5 @@
 
-.full-gallery, .embed-gallery {
+.full-gallery, .embed-gallery, .block-gallery {
     .gallery-navigator {
         white-space:nowrap;
         position:relative;
@@ -116,6 +116,38 @@
             }
         }
 
+    }
+}
+
+
+.block-gallery {
+
+    figure {
+        position:relative;
+    }
+
+    .gallery-viewer {
+        figcaption {
+            position:absolute;
+            top:0;
+            color:#fff;
+            background: rgba(0, 0, 0, 0.3);
+            width:100%;
+            padding:10px 0;
+
+            h3 {
+                color:#fff;
+                font-size:130%;
+            }
+
+            a, .counter {
+                color: #fff;
+            }
+
+            > * {
+                padding:0 10px;
+            }
+        }
     }
 }
 
