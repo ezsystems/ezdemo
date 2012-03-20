@@ -1,15 +1,79 @@
 {* Gallery - Embed view *}
-<div class="content-view-embed">
-    <div class="class-gallery">
-        <a href={$object.main_node.url_alias|ezurl}><h2>{$object.name|wash}</h2></a>
+{def $children = fetch( 'content', 'list', hash( 'parent_node_id', $object.main_node.node_id,
+                                                 'class_filter_type', 'include',
+                                                 'class_filter_array', array( 'image' ),
+                                                 'sort_by', $object.main_node.sort_array ) )
+     $children_count = $children|count
+     $first = $children.0
+     $big_image_class = 'galleryfull'
+     $image = $first.data_map.image.content[$big_image_class]}
+<div class="embed-gallery">
+    <div class="gallery-viewer" id="gallery{$node.node_id}">
+        <h2>
+            <span class="counter"><span>1</span>/{$children_count}</span>
+            <a href={$first.url_alias|ezurl}>{$first.name|wash()}</a>
+        </h2>
+        <figure>
+            <img src={$image.url|ezroot} alt="{$first.name|wash()}" height="{$image.height}" width="{$image.width}" />
+            <figcaption>
+                {if $first.data_map.caption.has_content}
+                    {attribute_view_gui attribute=$first.data_map.caption}
+                {/if}
+            </figcaption>
+        </figure>
+    </div>
+    <div class="gallery-navigator">
+        <a href="#" class="navig prev" style="opacity:0;"><span class="hide">&lt;</span></a>
+        <a href="#" class="navig next"><span class="hide">&gt;</span></a>
 
-    {def $children=fetch_alias( children, hash( parent_node_id, $object.main_node_id, limit, 5 ) ) }
-    <div class="content-view-children">
-    {foreach $children as $child}
-         {node_view_gui view=listitem content_node=$child}
-    {/foreach}
+        <img src={'fg-selected.png'|ezimage} alt="Selected indicator" class="cursor" />
+        <ul class="images">
+        {foreach $children as $k => $img}
+            <li>{node_view_gui view='gallery_item' thumb_class='gallerythumbnail' big_class=$big_image_class content_node=$img}</li>
+        {/foreach}
+        </ul>
     </div>
 
-    </div>
 </div>
+<script type="text/javascript">
+{literal}
 
+YUI(YUI3_config).use('ezgallery', 'event', function (Y) {
+    Y.on('domready', function () {
+        var g = new Y.eZ.Gallery({
+            navigator: {
+                gallery: '.embed-gallery'
+            },
+            initFunc: function () {
+                var imgs = this.navigator.getImages();
+
+                // make the browser caches images
+                setTimeout(function () {
+                    imgs.each(function(elem) {
+                        (new Image).src = elem.getAttribute('data-gallery-src');
+                    });
+                }, 0);
+            },
+            updateFunc: function (item) {
+                var node = item.imageNode,
+                    t = this.container.one(this.conf.title),
+                    img = this.container.one(this.conf.image),
+                    cap = this.container.one(this.conf.caption);
+                    c = this.container.one(this.conf.counter);
+
+                t.setContent(node.get('title'));
+                t.setAttribute('href', node.getAttribute('data-gallery-node-url'));
+                c.setContent(item.index + 1);
+                img.setAttribute('src', node.getAttribute('data-gallery-src'));
+                img.setAttribute('alt', node.get('title'));
+                img.setAttribute('height', node.getAttribute('data-gallery-height'));
+                img.setAttribute('width', node.getAttribute('data-gallery-width'));
+                cap.setContent(node.one('figcaption').getContent());
+            }
+        });
+    });
+});
+
+{/literal}
+</script>
+{undef $children $first $big_image_class $image}

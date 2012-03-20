@@ -107,14 +107,17 @@ YUI(YUI3_config).add('ezsimplegallery', function (Y) {
      */
     eZSG.prototype.scrollTo = function (newIndex) {
         var f = 1, s = this.conf.selectedIndactorClass,
-            c = this.container, o = this.index * this._getOffset() * -1;
+            c = this.container, o = this.index * this._getOffset() * -1,
+            hasIndicator = (this.indicators.size() > 0);
 
         f =  this.index - newIndex;
 
         if ( f != 0 ) {
-            this.indicators.item(this.index).removeClass(s);
+            if ( hasIndicator )
+                this.indicators.item(this.index).removeClass(s);
             this.index = newIndex;
-            this.indicators.item(this.index).addClass(s);
+            if ( hasIndicator )
+                this.indicators.item(this.index).addClass(s);
         }
 
         var target = o + (f * this._getOffset());

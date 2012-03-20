@@ -7,62 +7,91 @@
             <h1>{$node.name|wash()}</h1>
         </div>
 
-        {if $node.data_map.image.content}
-            <div class="attribute-image">
-                {attribute_view_gui image_class=medium attribute=$node.data_map.image.content.data_map.image}
-            </div>
-        {/if}
-
-        <div class="attribute-short">
-           {attribute_view_gui attribute=$node.data_map.short_description}
-        </div>
-
-        <div class="attribute-long">
-           {attribute_view_gui attribute=$node.data_map.description}
-        </div>
-
-        {def $page_limit=12
-             $children_count = fetch( 'content', 'list_count', hash( 'parent_node_id', $node.node_id,
+        {def $children_count = fetch( 'content', 'list_count', hash( 'parent_node_id', $node.node_id,
                                                                      'class_filter_type', 'include',
-                                                                     'class_filter_array', array( 'image', 'flash_player' ) ) )}
+                                                                     'class_filter_array', array( 'image' ) ) )
+             $children = array()
+             $first = false()
+             $image = false()
+             $big_image_class = 'galleryfull'}
 
         {if $children_count}
-            {* NOTE: Remember to modify templates for classes listed in class_filter_array if filters / sort_by is changed! *}
-            {def $children = fetch( 'content', 'list', hash( 'parent_node_id', $node.node_id,
-                                                             'offset', $view_parameters.offset,
-                                                             'limit', $page_limit,
+        <div class="full-gallery">
+            {set $children = fetch( 'content', 'list', hash( 'parent_node_id', $node.node_id,
                                                              'class_filter_type', 'include',
-                                                             'class_filter_array', array( 'image', 'flash_player' ),
-                                                             'sort_by', $node.sort_array ) )}
-            <div class="attribute-link">
-                <p>
-                <a href={$children[0].url_alias|ezurl}>{'View as slideshow'|i18n( 'design/ezdemodesign/full/gallery' )}</a>
-                </p>
+                                                             'class_filter_array', array( 'image' ),
+                                                             'sort_by', $node.sort_array ) )
+                 $first = $children.0
+                 $image = $first.data_map.image.content[$big_image_class]}
+            <div class="gallery-viewer" id="gallery{$node.node_id}">
+                <h2>
+                    <span class="counter"><span>1</span>/{$children_count}</span>
+                    <a href={$first.url_alias|ezurl}>{$first.name|wash()}</a>
+                </h2>
+                <figure>
+                    <img src={$image.url|ezroot} alt="{$first.name|wash()}" height="{$image.height}" width="{$image.width}" />
+                    <figcaption>
+                        {if $first.data_map.caption.has_content}
+                            {attribute_view_gui attribute=$first.data_map.caption}
+                        {/if}
+                    </figcaption>
+                </figure>
             </div>
+            <div class="gallery-navigator">
+                <a href="#" class="navig prev" style="opacity:0;"><span class="hide">&lt;</span></a>
+                <a href="#" class="navig next"><span class="hide">&gt;</span></a>
 
-            <div class="content-view-children">
-                {def $filters = ezini( 'gallerythumbnail', 'Filters', 'image.ini' )}
-
-                    {foreach $filters as $filter}
-                    {if or($filter|contains( "geometry/scale" ), $filter|contains( "geometry/scaledownonly" ), $filter|contains( "geometry/crop" ) )}
-                        {def $image_style = $filter|explode("=").1}
-                        {set $image_style = concat("width:", $image_style|explode(";").0, "px ;", "height:", $image_style|explode(";").1, "px")}
-                        {break}
-                    {/if}
-                    {/foreach}
-
-                {foreach $children as $child}
-                    {node_view_gui view=galleryline content_node=$child}
+                <img src={'fg-selected.png'|ezimage} alt="Selected indicator" class="cursor" />
+                <ul class="images">
+                {foreach $children as $k => $img}
+                    <li>{node_view_gui view='gallery_item' thumb_class='gallerythumbnail' big_class=$big_image_class content_node=$img}</li>
                 {/foreach}
-
+                </ul>
             </div>
-        {/if}
 
-        {include name=navigator
-                 uri='design:navigator/google.tpl'
-                 page_uri=$node.url_alias
-                 item_count=$children_count
-                 view_parameters=$view_parameters
-                 item_limit=$page_limit}
+        </div>
+        <script type="text/javascript">
+        {literal}
+
+        YUI(YUI3_config).use('ezgallery', 'event', function (Y) {
+            Y.on('domready', function () {
+                var g = new Y.eZ.Gallery({
+                    navigator: {
+                        gallery: '.full-gallery'
+                    },
+                    initFunc: function () {
+                        var imgs = this.navigator.getImages();
+
+                        // make the browser caches images
+                        setTimeout(function () {
+                            imgs.each(function(elem) {
+                                (new Image).src = elem.getAttribute('data-gallery-src');
+                            });
+                        }, 0);
+                    },
+                    updateFunc: function (item) {
+                        var node = item.imageNode,
+                            t = this.container.one(this.conf.title),
+                            img = this.container.one(this.conf.image),
+                            cap = this.container.one(this.conf.caption);
+                            c = this.container.one(this.conf.counter);
+
+                        t.setContent(node.get('title'));
+                        t.setAttribute('href', node.getAttribute('data-gallery-node-url'));
+                        c.setContent(item.index + 1);
+                        img.setAttribute('src', node.getAttribute('data-gallery-src'));
+                        img.setAttribute('alt', node.get('title'));
+                        img.setAttribute('height', node.getAttribute('data-gallery-height'));
+                        img.setAttribute('width', node.getAttribute('data-gallery-width'));
+                        cap.setContent(node.one('figcaption').getContent());
+                    }
+                });
+            });
+        });
+        
+        {/literal}
+        </script>
+        {/if}
+        {undef $children_count $children $first $big_image_class $image}
     </div>
 </div>
