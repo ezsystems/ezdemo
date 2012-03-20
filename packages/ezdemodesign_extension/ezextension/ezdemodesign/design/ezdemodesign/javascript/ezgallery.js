@@ -11,7 +11,7 @@ YUI(YUI3_config).add('ezgallery', function (Y) {
         image: 'figure img',
         caption: 'figcaption',
         figure: 'figure',
-        transitionDuration: 0.4,
+        transitionDuration: 0.8,
         autoScrollOnSelect: true,
         autoFixSizes: true,
         initFunc: function () { },
@@ -73,16 +73,12 @@ YUI(YUI3_config).add('ezgallery', function (Y) {
         var that = this;
 
         if ( animate ) {
+            this.container.setStyle('opacity', 0);
+            this.conf.updateFunc.call(that, item);
+            this._fixSizes();
             this.container.transition({
                 duration: this.conf.transitionDuration,
-                opacity: 0
-            }, function () {
-                that.conf.updateFunc.call(that, item);
-                that._fixSizes();
-                that.container.transition({
-                    duration: that.conf.transitionDuration,
-                    opacity: 1
-                });
+                opacity: 1
             });
         } else {
             this.conf.updateFunc.call(this, item);

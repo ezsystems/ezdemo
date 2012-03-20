@@ -2299,19 +2299,19 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-.table {
+table {
   width: 100%;
   margin-bottom: 21px;
 }
-.table th,
-.table td {
+table th,
+table td {
   padding: 8px;
   line-height: 21px;
   text-align: left;
   vertical-align: top;
   border-top: 1px solid #ddd;
 }
-.table th {
+table th {
   font-weight: bold;
   background-color: #e5e5e5;
   background-image: -moz-linear-gradient(top, #ebebeb, #dbdbdc);
@@ -2323,7 +2323,7 @@ table {
   background-repeat: repeat-x;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ebebeb', endColorstr='#dbdbdc', GradientType=0);
 }
-.table.table-colorized th {
+table.table-colorized th {
   background-color: #00769c;
   background-image: -moz-linear-gradient(top, #007ea6, #006a8d);
   background-image: -ms-linear-gradient(top, #007ea6, #006a8d);
@@ -2335,21 +2335,21 @@ table {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#007ea6', endColorstr='#006a8d', GradientType=0);
   color: #ffffff;
 }
-.table thead th {
+table thead th {
   vertical-align: bottom;
 }
-.table thead:first-child tr th,
-.table thead:first-child tr td {
+table thead:first-child tr th,
+table thead:first-child tr td {
   border-top: 0;
 }
-.table tbody + tbody {
+table tbody + tbody {
   border-top: 2px solid #ddd;
 }
 .table-condensed th,
 .table-condensed td {
   padding: 4px 5px;
 }
-.table-bordered {
+table {
   border: 1px solid #ddd;
   border-left-color: transparent;
   border-right-color: transparent;
@@ -2360,59 +2360,59 @@ table {
   -moz-border-radius: 4px;
   border-radius: 4px;
 }
-.table-bordered th + th,
-.table-bordered td + td,
-.table-bordered th + td,
-.table-bordered td + th {
+table th + th,
+table td + td,
+table th + td,
+table td + th {
   border-left: 1px solid transparent;
 }
-.table-bordered thead:first-child tr:first-child th,
-.table-bordered tbody:first-child tr:first-child th,
-.table-bordered tbody:first-child tr:first-child td {
+table thead:first-child tr:first-child th,
+table tbody:first-child tr:first-child th,
+table tbody:first-child tr:first-child td {
   border-top: 0;
 }
-.table-bordered thead:first-child tr:first-child th:first-child,
-.table-bordered tbody:first-child tr:first-child td:first-child {
+table thead:first-child tr:first-child th:first-child,
+table tbody:first-child tr:first-child td:first-child {
   -webkit-border-radius: 4px 0 0 0;
   -moz-border-radius: 4px 0 0 0;
   border-radius: 4px 0 0 0;
 }
-.table-bordered thead:first-child tr:first-child th:last-child,
-.table-bordered tbody:first-child tr:first-child td:last-child {
+table thead:first-child tr:first-child th:last-child,
+table tbody:first-child tr:first-child td:last-child {
   -webkit-border-radius: 0 4px 0 0;
   -moz-border-radius: 0 4px 0 0;
   border-radius: 0 4px 0 0;
 }
-.table-bordered thead:last-child tr:last-child th:first-child,
-.table-bordered tbody:last-child tr:last-child td:first-child {
+table thead:last-child tr:last-child th:first-child,
+table tbody:last-child tr:last-child td:first-child {
   -webkit-border-radius: 0 0 0 4px;
   -moz-border-radius: 0 0 0 4px;
   border-radius: 0 0 0 4px;
 }
-.table-bordered thead:last-child tr:last-child th:last-child,
-.table-bordered tbody:last-child tr:last-child td:last-child {
+table thead:last-child tr:last-child th:last-child,
+table tbody:last-child tr:last-child td:last-child {
   -webkit-border-radius: 0 0 4px 0;
   -moz-border-radius: 0 0 4px 0;
   border-radius: 0 0 4px 0;
 }
-.table-striped tbody tr:nth-child(even) td,
-.table-striped tbody tr:nth-child(even) th {
+table tbody tr:nth-child(even) td,
+table tbody tr:nth-child(even) th {
   background-color: #f9f9f9;
 }
-.table-striped tbody td,
-.table-striped tbody th {
+table tbody td,
+table tbody th {
   border-color: transparent;
 }
-.table-striped.table-colorized td,
-.table-striped.table-colorized th {
+table.table-colorized td,
+table.table-colorized th {
   border-top-color: #ebebeb;
 }
-.table-striped.table-colorized td:nth-child(even),
-.table-striped.table-colorized th:nth-child(even) {
+table.table-colorized td:nth-child(even),
+table.table-colorized th:nth-child(even) {
   background-color: rgba(0, 126, 166, 0.06999999999999995);
 }
-.table tbody tr:hover td,
-.table tbody tr:hover th {
+table tbody tr:hover td,
+table tbody tr:hover th {
   background-color: #f5f5f5;
 }
 table .span1 {
@@ -4149,118 +4149,6 @@ a.thumbnail:hover {
 .block-gallery .gallery-viewer figcaption > * {
   padding: 0 10px;
 }
-/*
-.block-type-gallery {
-    margin-bottom:1em;
-
-    .gallery {
-        white-space:nowrap;
-        position:relative;
-        top:0;
-        left:0;
-        z-index:10;
-        overflow:hidden;
-    }
-
-    .indicator {
-        z-index:12;
-        position:absolute;
-        top:0;
-        right:5px;
-        margin:0;
-        cursor:pointer;
-        li {
-            display:inline-block;
-            .sprite(transparent, -13px, -22px);
-            width:11px;
-            height:11px;
-            opacity:0.8;
-            position:static;
-
-            &:before {
-                display:none;
-            }
-        }
-        .selected {
-            .sprite(transparent, -24px, -22px);
-        }
-    }
-
-    .navig {
-        display:inline-block;
-        width:20px;
-        height:37px;
-        position:absolute;
-        top:46%;
-        z-index:11;
-    }
-
-    .next {
-        right:0px;
-        .sprite(transparent, -55px, -22px);
-    }
-
-    .prev {
-        left:0px;
-        .sprite(transparent, -35px, -22px);
-    }
-
-    .images {
-        margin:0;
-        position:relative;
-        top:0;
-        left:0;
-        white-space:nowrap;
-        z-index:1;
-
-        li {
-            display:inline-block;
-
-            &:before {
-                display:none;
-            }
-        }
-    }
-
-    figure {
-        margin:0;
-        white-space:normal;
-        img {
-        }
-
-        a {
-            color:#fff;
-        }
-    }
-
-    .attribute-caption {
-        position:absolute;
-        bottom:6px;
-        margin:0;
-        padding:1em 0;
-        z-index:12;
-        color:#fff;
-        font-size:120%;
-        text-transform:uppercase;
-        width:100%;
-        float:left;
-        background: rgba( 0, 0, 0, 0.3);
-        border:0;
-        filter:none;
-
-        > * {
-            padding: 0 20px;
-        }
-    }
-
-    h3 {
-        font-size:150%;
-        text-transform:none;
-    }
-
-
-
-}*/
 .item-list .block-content {
   padding: 10px 20px;
 }
