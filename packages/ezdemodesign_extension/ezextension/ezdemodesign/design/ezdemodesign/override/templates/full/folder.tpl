@@ -28,6 +28,10 @@
             </div>
         {/if}
 
+            <div class="attribute-tags">
+                {attribute_view_gui attribute=$node.data_map.tags}
+            </div>
+
         {if $node.object.data_map.show_children.data_int}
             {def $page_limit = 10
                  $classes = ezini( 'MenuContentSettings', 'ExtraIdentifierList', 'menu.ini' )
