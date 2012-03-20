@@ -155,6 +155,7 @@
   <file name="file.tpl" path="/design/ezdemodesign/override/templates/edit" md5sum="6a7bee01d3bfe4465cfb9e9a6b57caf9"/>
   <file name="forum_reply.tpl" path="/design/ezdemodesign/override/templates/edit" md5sum="e9ee8aa4e843b410eee05fc3b44dfc49"/>
   <file name="forum_topic.tpl" path="/design/ezdemodesign/override/templates/edit" md5sum="73ad823ced5a09993dd3b28bbb9c070b"/>
+  <file name="landing_page.tpl" path="/design/ezdemodesign/override/templates/edit" md5sum="3c486bc3f9edc6d60ec80d20cb4ac0b0"/>
   <file name="embed" path="/design/ezdemodesign/override/templates" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
   <file name="article.tpl" path="/design/ezdemodesign/override/templates/embed" md5sum="d50c5683fe90310b7c1ac2e530790027"/>
   <file name="banner.tpl" path="/design/ezdemodesign/override/templates/embed" md5sum="aa6a4d6d97fba339512772a0946a74fa"/>
@@ -461,7 +462,7 @@
   <file name="ezoe_attributes.ini.append.php" path="/settings" md5sum="e3471df1db510285225dcb426e365abf"/>
   <file name="ezxml.ini.append.php" path="/settings" md5sum="d0ff8dcbf436a4103fe781f6c03efa88"/>
   <file name="image.ini.append.php" path="/settings" md5sum="c6b693cb16f7a8007c74eb1b8fcb8a54"/>
-  <file name="menu.ini.append.php" path="/settings" md5sum="d6f37cf44e060afde1c394507b6494cb"/>
+  <file name="menu.ini.append.php" path="/settings" md5sum="9e114210de5bc7af54bd5bfed6cd8272"/>
   <file name="site.ini.append.php" path="/settings" md5sum="cf233ed91b99046fc5c847acd738e317"/>
   <file name="template.ini.append.php" path="/settings" md5sum="93260637cf03db6f1137f98aaa705cfc"/>
   <file name="websitetoolbar.ini.append.php" path="/settings" md5sum="11c50259346b9d4ead8ab2e1842901b4"/>
