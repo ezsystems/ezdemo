@@ -85,7 +85,8 @@ class ezdemodesignInstaller extends eZSiteInstaller
             'ezgmaplocation', 
             strtolower( $this->solutionName() ), 
             'ezwt', 
-            'ezflow'
+            'ezflow',
+            'eztags'
         ) );
         $this->addSetting( 'version', $this->solutionVersion() );
         $this->addSetting( 'locales', eZSiteInstaller::getParam( $parameters, 'all_language_codes', array() ) );
@@ -1196,7 +1197,7 @@ class ezdemodesignInstaller extends eZSiteInstaller
                 '_params' => array( 
                     'location' => 'users/partners', 
                     'role_name' => 'Member' 
-                ) 
+                )
             ), 
             array( 
                 '_function' => 'assignUserToRole', 
@@ -1211,7 +1212,22 @@ class ezdemodesignInstaller extends eZSiteInstaller
                     'location' => 'users/editors', 
                     'role_name' => 'Member' 
                 ) 
-            ), 
+            ),
+            array(
+                '_function' => 'addClassAttributes',
+                '_params' => array(
+                    'class' => array(
+                        'identifier' => 'folder'
+                    ),
+                    'attributes' => array(
+                        array(
+                            'identifier' => 'tags',
+                            'name' => 'Tags',
+                            'data_type_string' => 'eztags'
+                        )
+                    )
+                )
+            ),
             array( 
                 '_function' => 'updateClassAttributes', 
                 '_params' => array( 
@@ -1304,28 +1320,6 @@ class ezdemodesignInstaller extends eZSiteInstaller
     */
     function preInstall()
     {
-        $db = eZDB::instance();
-        $db->begin();
-        // extend 'folder' class
-        $this->addClassAttributes( array( 
-            'class' => array( 
-                'identifier' => 'folder' 
-            ), 
-            'attributes' => array( 
-                array( 
-                    'identifier' => 'tags', 
-                    'name' => 'Tags', 
-                    'data_type_string' => 'ezkeyword' 
-                ), 
-                array( 
-                    'identifier' => 'publish_date', 
-                    'name' => 'Publish date', 
-                    'data_type_string' => 'ezdatetime', 
-                    'default_value' => 0 
-                ) 
-            ) 
-        ) );
-        $db->commit();
         // hack for images/binaryfiles
         // need to set siteaccess to have correct placement(VarDir) for files in SetupWizard
         $ini = eZINI::instance();
@@ -1333,6 +1327,7 @@ class ezdemodesignInstaller extends eZSiteInstaller
         $contentINI = eZINI::instance( 'content.ini' );
         $datatypeRepositories = $contentINI->variable( 'DataTypeSettings', 'ExtensionDirectories' );
         $datatypeRepositories[] = 'ezflow';
+        $datatypeRepositories[] = 'eztags';
         $datatypeRepositories[] = 'ezstarrating';
         $datatypeRepositories[] = 'ezgmaplocation';
         $contentINI->setVariables( array( 
@@ -1342,6 +1337,7 @@ class ezdemodesignInstaller extends eZSiteInstaller
         ) );
         $availableDatatype = $contentINI->variable( 'DataTypeSettings', 'AvailableDataTypes' );
         $availableDatatype[] = 'ezpage';
+        $availableDatatype[] = 'eztags';
         $availableDatatype[] = 'ezsrrating';
         $availableDatatype[] = 'ezgmaplocation';
         $contentINI->setVariables( array( 
@@ -1350,6 +1346,7 @@ class ezdemodesignInstaller extends eZSiteInstaller
             ) 
         ) );
         $this->insertDBFile( 'ezflow_extension', 'ezflow' );
+        $this->insertDBFile( 'eztags_extension', 'eztags' );
         $this->insertDBFile( 'ezdemodesign_extension', 'ezdemodesign', false, true );
         $this->insertDBFile( 'ezstarrating_extension', 'ezstarrating' );
         $this->insertDBFile( 'ezgmaplocation_extension', 'ezgmaplocation' );
