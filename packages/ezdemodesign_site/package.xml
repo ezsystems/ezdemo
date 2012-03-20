@@ -74,6 +74,9 @@
                name="ezflow_extension"
                min-version="2.4" />
       <require type="ezpackage"
+               name="eztags_extension"
+               min-version="1.3" />
+      <require type="ezpackage"
                name="ezdemodesign_classes"
                min-version="1.0" />
       <require type="ezpackage"
