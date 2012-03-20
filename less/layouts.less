@@ -436,57 +436,59 @@ aside {
             margin-bottom: 10px;
         }
     }
-    .tags-wrapper {
-        display: block;
-        border-top: 1px solid @grayLighter;
-        #gradient > .vertical(@softwhite, @white);
-        margin: 0;
-        padding-top: 15px;
-        li {
-            display: inline-block;
-            margin-right: 10px;
-            &:before {
-                display: none;
+}
+
+.tags-wrapper {
+    display: block;
+    border-top: 1px solid @grayLighter;
+    #gradient > .vertical(@softwhite, @white);
+    margin: 0 0 1em 0;
+    padding-top: 15px;
+    .clearfix();
+    li {
+        display: inline-block;
+        margin-right: 10px;
+        &:before {
+            display: none;
+        }
+        a {
+            display: block;
+            .border-radius(15px 2px 2px 15px);
+            border: 1px solid @grayLight;
+            #gradient > .vertical(@grayLighter, @grayLight);
+            color: @grayLower;
+            font-size: 13px;
+            .tag-title {
+                display: inline-block;
+                padding: 2px 5px 2px 18px;
+                position: relative;
+                overflow: hidden;
+                &:before {
+                    content: '\b7';
+                    position: absolute;
+                    left: 3px;
+                    top: 3px;
+                    height: 15px;
+                    width: 15px;
+                    font-size: 42px;
+                    color: @white;
+                    text-shadow: 0 0 1px @grayLower;
+                }
             }
-            a {
-                display: block;
-                .border-radius(15px 2px 2px 15px);
-                border: 1px solid @grayLight;
-                #gradient > .vertical(@grayLighter, @grayLight);
-                color: @grayLower;
-                font-size: 13px;
+            .tag-amount {
+                display: inline-block;
+                color: @grayLow;
+                border-left: 1px solid @grayLight;
+                padding: 2px 5px;
+            }
+            &:hover,
+            &:focus {
+                text-decoration: none;
                 .tag-title {
-                    display: inline-block;
-                    padding: 2px 5px 2px 18px;
-                    position: relative;
-                    overflow: hidden;
+                    color: @linkColorHover;
                     &:before {
-                        content: '\b7';
-                        position: absolute;
-                        left: 3px;
-                        top: 3px;
-                        height: 15px;
-                        width: 15px;
-                        font-size: 42px;
-                        color: @white;
-                        text-shadow: 0 0 1px @grayLower;
-                    }
-                }
-                .tag-amount {
-                    display: inline-block;
-                    color: @grayLow;
-                    border-left: 1px solid @grayLight;
-                    padding: 2px 5px;
-                }
-                &:hover,
-                &:focus {
-                    text-decoration: none;
-                    .tag-title {
-                        color: @linkColorHover;
-                        &:before {
-                            color: @orange;
-                            text-shadow: none;
-                        }
+                        color: @orange;
+                        text-shadow: none;
                     }
                 }
             }
