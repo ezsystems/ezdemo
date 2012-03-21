@@ -72,7 +72,7 @@
                value="landing_page" />
       <provide type="ezcontentclass"
                name="contentclass"
-               value="documentation_page" />
+               value="wiki_page" />
       <provide type="ezcontentclass"
                name="contentclass"
                value="infobox" />
@@ -176,7 +176,7 @@
           filename="class-landing_page"
           sub-directory="ezcontentclass" />
     <item type="ezcontentclass"
-          filename="class-documentation_page"
+          filename="class-wiki_page"
           sub-directory="ezcontentclass" />
     <item type="ezcontentclass"
           filename="class-infobox"
@@ -277,7 +277,7 @@
           filename="class-landing_page"
           sub-directory="ezcontentclass" />
     <item type="ezcontentclass"
-          filename="class-documentation_page"
+          filename="class-wiki_page"
           sub-directory="ezcontentclass" />
     <item type="ezcontentclass"
           filename="class-infobox"
