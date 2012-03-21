@@ -142,6 +142,9 @@
       <provide type="ezcontentclass"
                name="contentclass"
                value="silverlight" />
+      <provide type="ezcontentclass"
+               name="contentclass"
+               value="video"/>
     </provides>
     <requires />
     <obsoletes />
@@ -244,6 +247,9 @@
     <item type="ezcontentclass"
           filename="class-silverlight"
           sub-directory="ezcontentclass" />
+    <item type="ezcontentclass"
+          filename="class-video"
+          sub-directory="ezcontentclass" />
   </install>
   <uninstall>
     <item type="ezcontentclass"
@@ -341,6 +347,9 @@
           sub-directory="ezcontentclass" />
     <item type="ezcontentclass"
           filename="class-silverlight"
+          sub-directory="ezcontentclass" />
+    <item type="ezcontentclass"
+          filename="class-video"
           sub-directory="ezcontentclass" />
   </uninstall>
 </package>
