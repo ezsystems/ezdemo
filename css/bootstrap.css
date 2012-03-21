@@ -886,7 +886,7 @@ aside > .content-view-aside:last-child > article:last-child:after {
   content: "";
   display: block;
   position: absolute;
-  background: transparent url('../images/ez-sprite.png') no-repeat -13px -22px;
+  background: transparent url('../images/ez-sprite.png') no-repeat -92px -22px;
   width: 36px;
   height: 35px;
   left: 8px;
@@ -3345,7 +3345,7 @@ input[type="submit"].btn.small {
   position: absolute;
   width: 17px;
   height: 26px;
-  background: transparent url('../images/ez-sprite.png') no-repeat -50px -22px;
+  background: transparent url('../images/ez-sprite.png') no-repeat -128px -22px;
   right: 7px;
   top: 10px;
 }
