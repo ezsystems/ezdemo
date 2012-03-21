@@ -1224,6 +1224,11 @@ class ezdemodesignInstaller extends eZSiteInstaller
                             'identifier' => 'tags',
                             'name' => 'Tags',
                             'data_type_string' => 'eztags'
+                        ),
+                        array(
+                            'identifier' => 'call_for_action',
+                            'name' => 'Call For Action',
+                            'data_type_string' => 'ezpage'
                         )
                     )
                 )

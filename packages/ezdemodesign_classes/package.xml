@@ -48,12 +48,6 @@
                value="article" />
       <provide type="ezcontentclass"
                name="contentclass"
-               value="article_mainpage" />
-      <provide type="ezcontentclass"
-               name="contentclass"
-               value="article_subpage" />
-      <provide type="ezcontentclass"
-               name="contentclass"
                value="blog" />
       <provide type="ezcontentclass"
                name="contentclass"
@@ -72,13 +66,7 @@
                value="landing_page" />
       <provide type="ezcontentclass"
                name="contentclass"
-               value="documentation_page" />
-      <provide type="ezcontentclass"
-               name="contentclass"
-               value="infobox" />
-      <provide type="ezcontentclass"
-               name="contentclass"
-               value="multicalendar" />
+               value="wiki_page" />
       <provide type="ezcontentclass"
                name="contentclass"
                value="poll" />
@@ -87,16 +75,7 @@
                value="file" />
       <provide type="ezcontentclass"
                name="contentclass"
-               value="flash" />
-      <provide type="ezcontentclass" 
-               name="contentclass"
-               value="flash_recorder"/>
-      <provide type="ezcontentclass"
-               name="contentclass"
                value="flash_player"/>
-      <provide type="ezcontentclass"
-               name="contentclass"
-               value="global_layout"/>
       <provide type="ezcontentclass"
                name="contentclass"
                value="image" />
@@ -105,19 +84,10 @@
                value="link" />
       <provide type="ezcontentclass"
                name="contentclass"
-               value="quicktime" />
-      <provide type="ezcontentclass"
-               name="contentclass"
                value="windows_media" />
       <provide type="ezcontentclass"
                name="contentclass"
-               value="real_video" />
-      <provide type="ezcontentclass"
-               name="contentclass"
                value="gallery" />
-      <provide type="ezcontentclass"
-               name="contentclass"
-               value="geo_article" />
       <provide type="ezcontentclass"
                name="contentclass"
                value="forum" />
@@ -141,7 +111,7 @@
                value="forums" />
       <provide type="ezcontentclass"
                name="contentclass"
-               value="silverlight" />
+               value="video"/>
     </provides>
     <requires />
     <obsoletes />
@@ -152,12 +122,6 @@
           filename="class-article"
           sub-directory="ezcontentclass" />
     <item type="ezcontentclass"
-          filename="class-article_mainpage"
-          sub-directory="ezcontentclass" />
-    <item type="ezcontentclass"
-          filename="class-article_subpage"
-          sub-directory="ezcontentclass" />
-    <item type="ezcontentclass"
           filename="class-blog"
           sub-directory="ezcontentclass" />
     <item type="ezcontentclass"
@@ -173,13 +137,7 @@
           filename="class-landing_page"
           sub-directory="ezcontentclass" />
     <item type="ezcontentclass"
-          filename="class-documentation_page"
-          sub-directory="ezcontentclass" />
-    <item type="ezcontentclass"
-          filename="class-infobox"
-          sub-directory="ezcontentclass" />
-    <item type="ezcontentclass"
-          filename="class-multicalendar"
+          filename="class-wiki_page"
           sub-directory="ezcontentclass" />
     <item type="ezcontentclass"
           filename="class-poll"
@@ -188,16 +146,7 @@
           filename="class-file"
           sub-directory="ezcontentclass" />
     <item type="ezcontentclass"
-          filename="class-flash"
-          sub-directory="ezcontentclass" />
-    <item type="ezcontentclass" 
-          filename="class-flash_recorder"
-          sub-directory="ezcontentclass" />
-    <item type="ezcontentclass"
           filename="class-flash_player"
-          sub-directory="ezcontentclass" />
-    <item type="ezcontentclass" 
-          filename="class-global_layout"
           sub-directory="ezcontentclass" />
     <item type="ezcontentclass"
           filename="class-image"
@@ -206,19 +155,10 @@
           filename="class-link"
           sub-directory="ezcontentclass" />
     <item type="ezcontentclass"
-          filename="class-quicktime"
-          sub-directory="ezcontentclass" />
-    <item type="ezcontentclass"
           filename="class-windows_media"
           sub-directory="ezcontentclass" />
     <item type="ezcontentclass"
-          filename="class-real_video"
-          sub-directory="ezcontentclass" />
-    <item type="ezcontentclass"
           filename="class-gallery"
-          sub-directory="ezcontentclass" />
-    <item type="ezcontentclass"
-          filename="class-geo_article"
           sub-directory="ezcontentclass" />
     <item type="ezcontentclass"
           filename="class-forum"
@@ -242,7 +182,7 @@
           filename="class-forums"
           sub-directory="ezcontentclass" />
     <item type="ezcontentclass"
-          filename="class-silverlight"
+          filename="class-video"
           sub-directory="ezcontentclass" />
   </install>
   <uninstall>
@@ -250,12 +190,6 @@
           filename="class-article"
           sub-directory="ezcontentclass" />
     <item type="ezcontentclass"
-          filename="class-article_mainpage"
-          sub-directory="ezcontentclass" />
-    <item type="ezcontentclass"
-          filename="class-article_subpage"
-          sub-directory="ezcontentclass" />
-    <item type="ezcontentclass"
           filename="class-blog"
           sub-directory="ezcontentclass" />
     <item type="ezcontentclass"
@@ -271,13 +205,7 @@
           filename="class-landing_page"
           sub-directory="ezcontentclass" />
     <item type="ezcontentclass"
-          filename="class-documentation_page"
-          sub-directory="ezcontentclass" />
-    <item type="ezcontentclass"
-          filename="class-infobox"
-          sub-directory="ezcontentclass" />
-    <item type="ezcontentclass"
-          filename="class-multicalendar"
+          filename="class-wiki_page"
           sub-directory="ezcontentclass" />
     <item type="ezcontentclass"
           filename="class-poll"
@@ -286,16 +214,7 @@
           filename="class-file"
           sub-directory="ezcontentclass" />
     <item type="ezcontentclass"
-          filename="class-flash"
-          sub-directory="ezcontentclass" />
-    <item type="ezcontentclass" 
-          filename="class-flash_recorder"
-          sub-directory="ezcontentclass" />
-    <item type="ezcontentclass"
           filename="class-flash_player"
-          sub-directory="ezcontentclass" />
-    <item type="ezcontentclass" 
-          filename="class-global_layout"
           sub-directory="ezcontentclass" />
     <item type="ezcontentclass"
           filename="class-image"
@@ -304,19 +223,10 @@
           filename="class-link"
           sub-directory="ezcontentclass" />
     <item type="ezcontentclass"
-          filename="class-quicktime"
-          sub-directory="ezcontentclass" />
-    <item type="ezcontentclass"
           filename="class-windows_media"
           sub-directory="ezcontentclass" />
     <item type="ezcontentclass"
-          filename="class-real_video"
-          sub-directory="ezcontentclass" />
-    <item type="ezcontentclass"
           filename="class-gallery"
-          sub-directory="ezcontentclass" />
-    <item type="ezcontentclass"
-          filename="class-geo_article"
           sub-directory="ezcontentclass" />
     <item type="ezcontentclass"
           filename="class-forum"
@@ -340,7 +250,7 @@
           filename="class-forums"
           sub-directory="ezcontentclass" />
     <item type="ezcontentclass"
-          filename="class-silverlight"
+          filename="class-video"
           sub-directory="ezcontentclass" />
   </uninstall>
 </package>
