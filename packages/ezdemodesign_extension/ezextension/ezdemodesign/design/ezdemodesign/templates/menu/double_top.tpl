@@ -2,7 +2,7 @@
 <div class="navbar-inner">
     <div class="container">
 
-        <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">show me the navi</a>
+        <a class="btn btn-navbar" data-action="toggleclass" data-class="nav-collapse" data-target="header .nav-collapse">show me the navi</a>
 
         <div class="nav-collapse">
             <ul class="nav">

@@ -9,13 +9,10 @@ JavaScriptFooterList[]
 
 FrontendJavaScriptList[]=ezjsc::yui3
 FrontendJavaScriptList[]=handle_transition.js
+FrontendJavaScriptList[]=toggle_class.js
 FrontendJavaScriptList[]=ezflyout.js
 FrontendJavaScriptList[]=ezsimplegallery.js
 FrontendJavaScriptList[]=ezgallerynavigator.js
 FrontendJavaScriptList[]=ezgallery.js
-#FrontendJavaScriptList[]=test_flyout.js
-
-#[StylesheetSettings]
-#FrontendCSSFileList[]=test_flyout.css
 
 */ ?>
