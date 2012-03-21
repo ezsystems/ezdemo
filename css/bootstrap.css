@@ -3320,51 +3320,34 @@ input[type="submit"].btn.small {
 }
 .btn-navbar {
   display: none;
-  float: right;
-  padding: 7px 10px;
-  margin-left: 5px;
-  margin-right: 5px;
-  background-color: #00769c;
-  background-image: -moz-linear-gradient(top, #007ea6, #006a8d);
-  background-image: -ms-linear-gradient(top, #007ea6, #006a8d);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#007ea6), to(#006a8d));
-  background-image: -webkit-linear-gradient(top, #007ea6, #006a8d);
-  background-image: -o-linear-gradient(top, #007ea6, #006a8d);
-  background-image: linear-gradient(top, #007ea6, #006a8d);
-  background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#007ea6', endColorstr='#006a8d', GradientType=0);
-  border-color: #006a8d #006a8d #003041;
-  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
-  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
-  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(255, 255, 255, 0.075);
-  -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(255, 255, 255, 0.075);
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(255, 255, 255, 0.075);
+  *zoom: 1;
+  padding: 12px 10px;
+  border: 1px solid #dbdbdc;
+  font-size: 30px;
+  text-align: left;
+  color: #6f6f6f;
+  margin-bottom: 5px;
+  position: relative;
+  -webkit-box-shadow: inset 0 18px 0 #ffffff;
+  -moz-box-shadow: inset 0 18px 0 #ffffff;
+  box-shadow: inset 0 18px 0 #ffffff;
 }
-.btn-navbar:hover,
-.btn-navbar:active,
-.btn-navbar.active,
-.btn-navbar.disabled,
-.btn-navbar[disabled] {
-  background-color: #006a8d;
+.btn-navbar:before,
+.btn-navbar:after {
+  display: table;
+  content: "";
 }
-.btn-navbar:active,
-.btn-navbar.active {
-  background-color: #00445a \9;
+.btn-navbar:after {
+  clear: both;
 }
-.btn-navbar .icon-bar {
-  display: block;
-  width: 18px;
-  height: 2px;
-  background-color: #f5f5f5;
-  -webkit-border-radius: 1px;
-  -moz-border-radius: 1px;
-  border-radius: 1px;
-  -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
-  -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
-  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
-}
-.btn-navbar .icon-bar + .icon-bar {
-  margin-top: 3px;
+.btn-navbar:after {
+  content: "";
+  position: absolute;
+  width: 17px;
+  height: 26px;
+  background: transparent url('../images/ez-sprite.png') no-repeat -50px -22px;
+  right: 7px;
+  top: 10px;
 }
 .nav-collapse.collapse {
   height: auto;
@@ -4149,118 +4132,6 @@ a.thumbnail:hover {
 .block-gallery .gallery-viewer figcaption > * {
   padding: 0 10px;
 }
-/*
-.block-type-gallery {
-    margin-bottom:1em;
-
-    .gallery {
-        white-space:nowrap;
-        position:relative;
-        top:0;
-        left:0;
-        z-index:10;
-        overflow:hidden;
-    }
-
-    .indicator {
-        z-index:12;
-        position:absolute;
-        top:0;
-        right:5px;
-        margin:0;
-        cursor:pointer;
-        li {
-            display:inline-block;
-            .sprite(transparent, -13px, -22px);
-            width:11px;
-            height:11px;
-            opacity:0.8;
-            position:static;
-
-            &:before {
-                display:none;
-            }
-        }
-        .selected {
-            .sprite(transparent, -24px, -22px);
-        }
-    }
-
-    .navig {
-        display:inline-block;
-        width:20px;
-        height:37px;
-        position:absolute;
-        top:46%;
-        z-index:11;
-    }
-
-    .next {
-        right:0px;
-        .sprite(transparent, -55px, -22px);
-    }
-
-    .prev {
-        left:0px;
-        .sprite(transparent, -35px, -22px);
-    }
-
-    .images {
-        margin:0;
-        position:relative;
-        top:0;
-        left:0;
-        white-space:nowrap;
-        z-index:1;
-
-        li {
-            display:inline-block;
-
-            &:before {
-                display:none;
-            }
-        }
-    }
-
-    figure {
-        margin:0;
-        white-space:normal;
-        img {
-        }
-
-        a {
-            color:#fff;
-        }
-    }
-
-    .attribute-caption {
-        position:absolute;
-        bottom:6px;
-        margin:0;
-        padding:1em 0;
-        z-index:12;
-        color:#fff;
-        font-size:120%;
-        text-transform:uppercase;
-        width:100%;
-        float:left;
-        background: rgba( 0, 0, 0, 0.3);
-        border:0;
-        filter:none;
-
-        > * {
-            padding: 0 20px;
-        }
-    }
-
-    h3 {
-        font-size:150%;
-        text-transform:none;
-    }
-
-
-
-}*/
 .item-list .block-content {
   padding: 10px 20px;
 }

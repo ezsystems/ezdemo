@@ -99,6 +99,33 @@
   footer address br {
     display: none;
   }
+  header .form-search {
+    *zoom: 1;
+    padding: 20px 0 15px 0;
+  }
+  header .form-search:before,
+  header .form-search:after {
+    display: table;
+    content: "";
+  }
+  header .form-search:after {
+    clear: both;
+  }
+  header .form-search label {
+    float: none;
+    clear: both;
+    display: block;
+  }
+  .navbar.main-navi ul {
+    margin: 0 -20px;
+  }
+  .navbar.main-navi ul li {
+    border: none;
+  }
+  .navbar.main-navi ul li a {
+    font-size: 30px;
+    line-height: 45px;
+  }
 }
 @media (max-width: 767px) {
   .container {
