@@ -8,6 +8,7 @@ DesignExtensions[]=ezdemodesign
 JavaScriptFooterList[]
 
 FrontendJavaScriptList[]=ezjsc::yui3
+FrontendJavaScriptList[]=init_ua.js
 FrontendJavaScriptList[]=handle_transition.js
 FrontendJavaScriptList[]=toggle_class.js
 FrontendJavaScriptList[]=ezflyout.js
