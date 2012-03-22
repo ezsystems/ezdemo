@@ -84,9 +84,6 @@
                value="link" />
       <provide type="ezcontentclass"
                name="contentclass"
-               value="windows_media" />
-      <provide type="ezcontentclass"
-               name="contentclass"
                value="gallery" />
       <provide type="ezcontentclass"
                name="contentclass"
@@ -155,9 +152,6 @@
           filename="class-link"
           sub-directory="ezcontentclass" />
     <item type="ezcontentclass"
-          filename="class-windows_media"
-          sub-directory="ezcontentclass" />
-    <item type="ezcontentclass"
           filename="class-gallery"
           sub-directory="ezcontentclass" />
     <item type="ezcontentclass"
@@ -221,9 +215,6 @@
           sub-directory="ezcontentclass" />
     <item type="ezcontentclass"
           filename="class-link"
-          sub-directory="ezcontentclass" />
-    <item type="ezcontentclass"
-          filename="class-windows_media"
           sub-directory="ezcontentclass" />
     <item type="ezcontentclass"
           filename="class-gallery"

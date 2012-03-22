@@ -86,7 +86,8 @@ class ezdemodesignInstaller extends eZSiteInstaller
             strtolower( $this->solutionName() ), 
             'ezwt', 
             'ezflow',
-            'eztags'
+            'eztags',
+            'ezcomments'
         ) );
         $this->addSetting( 'version', $this->solutionVersion() );
         $this->addSetting( 'locales', eZSiteInstaller::getParam( $parameters, 'all_language_codes', array() ) );
@@ -270,31 +271,7 @@ class ezdemodesignInstaller extends eZSiteInstaller
                                         '_params' => array( 
                                             'identifier' => 'banner' 
                                         ) 
-                                    ), 
-                                    array( 
-                                        '_function' => 'classIDbyIdentifier', 
-                                        '_params' => array( 
-                                            'identifier' => 'flash' 
-                                        ) 
-                                    ), 
-                                    array( 
-                                        '_function' => 'classIDbyIdentifier', 
-                                        '_params' => array( 
-                                            'identifier' => 'real_video' 
-                                        ) 
-                                    ), 
-                                    array( 
-                                        '_function' => 'classIDbyIdentifier', 
-                                        '_params' => array( 
-                                            'identifier' => 'windows_media' 
-                                        ) 
-                                    ), 
-                                    array( 
-                                        '_function' => 'classIDbyIdentifier', 
-                                        '_params' => array( 
-                                            'identifier' => 'quicktime' 
-                                        ) 
-                                    ) 
+                                    )
                                 ), 
                                 'Section' => array( 
                                     '_function' => 'sectionIDbyName', 
@@ -370,19 +347,7 @@ class ezdemodesignInstaller extends eZSiteInstaller
                                         '_params' => array( 
                                             'identifier' => 'article' 
                                         ) 
-                                    ), 
-                                    array( 
-                                        '_function' => 'classIDbyIdentifier', 
-                                        '_params' => array( 
-                                            'identifier' => 'article_mainpage' 
-                                        ) 
-                                    ), 
-                                    array( 
-                                        '_function' => 'classIDbyIdentifier', 
-                                        '_params' => array( 
-                                            'identifier' => 'article_subpage' 
-                                        ) 
-                                    ), 
+                                    ),
                                     array( 
                                         '_function' => 'classIDbyIdentifier', 
                                         '_params' => array( 
@@ -394,49 +359,13 @@ class ezdemodesignInstaller extends eZSiteInstaller
                                         '_params' => array( 
                                             'identifier' => 'poll' 
                                         ) 
-                                    ), 
-                                    array( 
-                                        '_function' => 'classIDbyIdentifier', 
-                                        '_params' => array( 
-                                            'identifier' => 'multicalendar' 
-                                        ) 
-                                    ), 
+                                    ),
                                     array( 
                                         '_function' => 'classIDbyIdentifier', 
                                         '_params' => array( 
                                             'identifier' => 'documentation_page' 
                                         ) 
-                                    ), 
-                                    array( 
-                                        '_function' => 'classIDbyIdentifier', 
-                                        '_params' => array( 
-                                            'identifier' => 'infobox' 
-                                        ) 
-                                    ), 
-                                    array( 
-                                        '_function' => 'classIDbyIdentifier', 
-                                        '_params' => array( 
-                                            'identifier' => 'flash' 
-                                        ) 
-                                    ), 
-                                    array( 
-                                        '_function' => 'classIDbyIdentifier', 
-                                        '_params' => array( 
-                                            'identifier' => 'quicktime' 
-                                        ) 
-                                    ), 
-                                    array( 
-                                        '_function' => 'classIDbyIdentifier', 
-                                        '_params' => array( 
-                                            'identifier' => 'windows_media' 
-                                        ) 
-                                    ), 
-                                    array( 
-                                        '_function' => 'classIDbyIdentifier', 
-                                        '_params' => array( 
-                                            'identifier' => 'real_video' 
-                                        ) 
-                                    ), 
+                                    ),
                                     array( 
                                         '_function' => 'classIDbyIdentifier', 
                                         '_params' => array( 
@@ -600,13 +529,7 @@ class ezdemodesignInstaller extends eZSiteInstaller
                                         '_params' => array( 
                                             'identifier' => 'event_calendar' 
                                         ) 
-                                    ), 
-                                    array( 
-                                        '_function' => 'classIDbyIdentifier', 
-                                        '_params' => array( 
-                                            'identifier' => 'multicalendar' 
-                                        ) 
-                                    ), 
+                                    ),
                                     array( 
                                         '_function' => 'classIDbyIdentifier', 
                                         '_params' => array( 
@@ -644,19 +567,7 @@ class ezdemodesignInstaller extends eZSiteInstaller
                                         '_params' => array( 
                                             'identifier' => 'article' 
                                         ) 
-                                    ), 
-                                    array( 
-                                        '_function' => 'classIDbyIdentifier', 
-                                        '_params' => array( 
-                                            'identifier' => 'article_mainpage' 
-                                        ) 
-                                    ), 
-                                    array( 
-                                        '_function' => 'classIDbyIdentifier', 
-                                        '_params' => array( 
-                                            'identifier' => 'article_subpage' 
-                                        ) 
-                                    ), 
+                                    ),
                                     array( 
                                         '_function' => 'classIDbyIdentifier', 
                                         '_params' => array( 
@@ -692,13 +603,7 @@ class ezdemodesignInstaller extends eZSiteInstaller
                                         '_params' => array( 
                                             'identifier' => 'documentation_page' 
                                         ) 
-                                    ), 
-                                    array( 
-                                        '_function' => 'classIDbyIdentifier', 
-                                        '_params' => array( 
-                                            'identifier' => 'multicalendar' 
-                                        ) 
-                                    ), 
+                                    ),
                                     array( 
                                         '_function' => 'classIDbyIdentifier', 
                                         '_params' => array( 
@@ -710,37 +615,13 @@ class ezdemodesignInstaller extends eZSiteInstaller
                                         '_params' => array( 
                                             'identifier' => 'file' 
                                         ) 
-                                    ), 
-                                    array( 
-                                        '_function' => 'classIDbyIdentifier', 
-                                        '_params' => array( 
-                                            'identifier' => 'flash' 
-                                        ) 
-                                    ), 
+                                    ),
                                     array( 
                                         '_function' => 'classIDbyIdentifier', 
                                         '_params' => array( 
                                             'identifier' => 'image' 
                                         ) 
-                                    ), 
-                                    array( 
-                                        '_function' => 'classIDbyIdentifier', 
-                                        '_params' => array( 
-                                            'identifier' => 'quicktime' 
-                                        ) 
-                                    ), 
-                                    array( 
-                                        '_function' => 'classIDbyIdentifier', 
-                                        '_params' => array( 
-                                            'identifier' => 'windows_media' 
-                                        ) 
-                                    ), 
-                                    array( 
-                                        '_function' => 'classIDbyIdentifier', 
-                                        '_params' => array( 
-                                            'identifier' => 'real_video' 
-                                        ) 
-                                    ), 
+                                    ),
                                     array( 
                                         '_function' => 'classIDbyIdentifier', 
                                         '_params' => array( 
@@ -1114,13 +995,7 @@ class ezdemodesignInstaller extends eZSiteInstaller
                                         '_params' => array( 
                                             'identifier' => 'blog_post' 
                                         ) 
-                                    ), 
-                                    array( 
-                                        '_function' => 'classIDbyIdentifier', 
-                                        '_params' => array( 
-                                            'identifier' => 'article_mainpage' 
-                                        ) 
-                                    ) 
+                                    )
                                 ) 
                             ) 
                         ), 
@@ -1333,6 +1208,7 @@ class ezdemodesignInstaller extends eZSiteInstaller
         $datatypeRepositories = $contentINI->variable( 'DataTypeSettings', 'ExtensionDirectories' );
         $datatypeRepositories[] = 'ezflow';
         $datatypeRepositories[] = 'eztags';
+        $datatypeRepositories[] = 'ezcomments';
         $datatypeRepositories[] = 'ezstarrating';
         $datatypeRepositories[] = 'ezgmaplocation';
         $contentINI->setVariables( array(
@@ -1343,6 +1219,7 @@ class ezdemodesignInstaller extends eZSiteInstaller
         $availableDatatype = $contentINI->variable( 'DataTypeSettings', 'AvailableDataTypes' );
         $availableDatatype[] = 'ezpage';
         $availableDatatype[] = 'eztags';
+        $availableDatatype[] = 'ezcomments';
         $availableDatatype[] = 'ezsrrating';
         $availableDatatype[] = 'ezgmaplocation';
         $contentINI->setVariables( array(
@@ -1352,6 +1229,7 @@ class ezdemodesignInstaller extends eZSiteInstaller
         ) );
         $this->insertDBFile( 'ezflow_extension', 'ezflow' );
         $this->insertDBFile( 'eztags_extension', 'eztags' );
+        $this->insertDBFile( 'ezcomments_extension', 'ezcomments' );
         $this->insertDBFile( 'ezdemodesign_extension', 'ezdemodesign', false, true );
         $this->insertDBFile( 'ezstarrating_extension', 'ezstarrating' );
         $this->insertDBFile( 'ezgmaplocation_extension', 'ezgmaplocation' );
