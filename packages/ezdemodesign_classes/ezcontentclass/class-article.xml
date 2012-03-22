@@ -14,7 +14,7 @@
     </groups>
     <id>16</id>
     <created>1332426596</created>
-    <modified>1332427014</modified>
+    <modified>1332430492</modified>
     <creator>
       <user-id>14</user-id>
       <user-login>admin</user-login>
@@ -95,20 +95,6 @@
         <text-column-count>20</text-column-count>
       </datatype-parameters>
     </attribute>
-    <attribute datatype="ezboolean" required="false" searchable="false" information-collector="false" translatable="false">
-      <remote>
-        <id>186</id>
-      </remote>
-      <serialized-name-list>a:2:{s:6:"eng-GB";s:15:"Enable comments";s:16:"always-available";s:6:"eng-GB";}</serialized-name-list>
-      <identifier>enable_comments</identifier>
-      <serialized-description-list>a:1:{s:6:"eng-GB";s:0:"";}</serialized-description-list>
-      <category></category>
-      <serialized-data-text>a:0:{}</serialized-data-text>
-      <placement>6</placement>
-      <datatype-parameters>
-        <default-value is-set="false"/>
-      </datatype-parameters>
-    </attribute>
     <attribute datatype="ezimage" required="false" searchable="false" information-collector="false" translatable="true">
       <remote>
         <id>187</id>
@@ -118,7 +104,7 @@
       <serialized-description-list>a:1:{s:6:"eng-GB";s:0:"";}</serialized-description-list>
       <category></category>
       <serialized-data-text>a:0:{}</serialized-data-text>
-      <placement>7</placement>
+      <placement>6</placement>
       <datatype-parameters>
         <max-size unit-size="mega">0</max-size>
       </datatype-parameters>
@@ -132,7 +118,7 @@
       <serialized-description-list>a:1:{s:6:"eng-GB";s:0:"";}</serialized-description-list>
       <category></category>
       <serialized-data-text>a:0:{}</serialized-data-text>
-      <placement>8</placement>
+      <placement>7</placement>
       <datatype-parameters>
         <text-column-count>10</text-column-count>
       </datatype-parameters>
@@ -146,7 +132,7 @@
       <serialized-description-list>a:1:{s:6:"eng-GB";s:0:"";}</serialized-description-list>
       <category></category>
       <serialized-data-text>a:0:{}</serialized-data-text>
-      <placement>9</placement>
+      <placement>8</placement>
       <datatype-parameters>
         <default-value type="empty"/>
         <use-seconds>0</use-seconds>
@@ -161,7 +147,7 @@
       <serialized-description-list>a:1:{s:6:"eng-GB";s:0:"";}</serialized-description-list>
       <category></category>
       <serialized-data-text>a:0:{}</serialized-data-text>
-      <placement>10</placement>
+      <placement>9</placement>
       <datatype-parameters/>
     </attribute>
     <attribute datatype="eztags" required="false" searchable="true" information-collector="false" translatable="true">
@@ -173,7 +159,7 @@
       <serialized-description-list>a:2:{s:6:"eng-GB";s:0:"";s:16:"always-available";s:6:"eng-GB";}</serialized-description-list>
       <category></category>
       <serialized-data-text>a:0:{}</serialized-data-text>
-      <placement>11</placement>
+      <placement>10</placement>
       <datatype-parameters>
         <subtree-limit>0</subtree-limit>
         <max-tags>0</max-tags>
@@ -190,7 +176,7 @@
       <serialized-description-list>a:2:{s:6:"eng-GB";s:0:"";s:16:"always-available";s:6:"eng-GB";}</serialized-description-list>
       <category></category>
       <serialized-data-text>a:0:{}</serialized-data-text>
-      <placement>12</placement>
+      <placement>11</placement>
       <datatype-parameters/>
     </attribute>
     <attribute datatype="ezcomcomments" required="false" searchable="true" information-collector="false" translatable="true">
@@ -202,7 +188,7 @@
       <serialized-description-list>a:2:{s:6:"eng-GB";s:0:"";s:16:"always-available";s:6:"eng-GB";}</serialized-description-list>
       <category></category>
       <serialized-data-text>a:2:{s:6:"eng-GB";s:0:"";s:16:"always-available";s:6:"eng-GB";}</serialized-data-text>
-      <placement>13</placement>
+      <placement>12</placement>
       <datatype-parameters/>
     </attribute>
   </ezcontentclass-attri:attributes>
