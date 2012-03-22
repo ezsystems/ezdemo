@@ -13,8 +13,8 @@
       <group id="1" name="Content"/>
     </groups>
     <id>16</id>
-    <created>1332247994</created>
-    <modified>1332252377</modified>
+    <created>1332426596</created>
+    <modified>1332427014</modified>
     <creator>
       <user-id>14</user-id>
       <user-login>admin</user-login>
@@ -154,7 +154,7 @@
     </attribute>
     <attribute datatype="ezsrrating" required="false" searchable="false" information-collector="false" translatable="true">
       <remote>
-        <id>192</id>
+        <id>190</id>
       </remote>
       <serialized-name-list>a:2:{s:6:"eng-GB";s:11:"Star Rating";s:16:"always-available";s:6:"eng-GB";}</serialized-name-list>
       <identifier>star_rating</identifier>
@@ -166,13 +166,13 @@
     </attribute>
     <attribute datatype="eztags" required="false" searchable="true" information-collector="false" translatable="true">
       <remote>
-        <id>345</id>
+        <id>191</id>
       </remote>
       <serialized-name-list>a:2:{s:6:"eng-GB";s:4:"Tags";s:16:"always-available";s:6:"eng-GB";}</serialized-name-list>
       <identifier>tags</identifier>
       <serialized-description-list>a:2:{s:6:"eng-GB";s:0:"";s:16:"always-available";s:6:"eng-GB";}</serialized-description-list>
       <category></category>
-      <serialized-data-text>a:2:{s:6:"eng-GB";s:0:"";s:16:"always-available";s:6:"eng-GB";}</serialized-data-text>
+      <serialized-data-text>a:0:{}</serialized-data-text>
       <placement>11</placement>
       <datatype-parameters>
         <subtree-limit>0</subtree-limit>
@@ -183,14 +183,26 @@
     </attribute>
     <attribute datatype="ezgmaplocation" required="false" searchable="true" information-collector="false" translatable="true">
       <remote>
-        <id>346</id>
+        <id>192</id>
       </remote>
       <serialized-name-list>a:2:{s:6:"eng-GB";s:8:"Location";s:16:"always-available";s:6:"eng-GB";}</serialized-name-list>
       <identifier>location</identifier>
       <serialized-description-list>a:2:{s:6:"eng-GB";s:0:"";s:16:"always-available";s:6:"eng-GB";}</serialized-description-list>
       <category></category>
-      <serialized-data-text>a:2:{s:6:"eng-GB";s:0:"";s:16:"always-available";s:6:"eng-GB";}</serialized-data-text>
+      <serialized-data-text>a:0:{}</serialized-data-text>
       <placement>12</placement>
+      <datatype-parameters/>
+    </attribute>
+    <attribute datatype="ezcomcomments" required="false" searchable="true" information-collector="false" translatable="true">
+      <remote>
+        <id>289</id>
+      </remote>
+      <serialized-name-list>a:2:{s:6:"eng-GB";s:8:"Comments";s:16:"always-available";s:6:"eng-GB";}</serialized-name-list>
+      <identifier>comments</identifier>
+      <serialized-description-list>a:2:{s:6:"eng-GB";s:0:"";s:16:"always-available";s:6:"eng-GB";}</serialized-description-list>
+      <category></category>
+      <serialized-data-text>a:2:{s:6:"eng-GB";s:0:"";s:16:"always-available";s:6:"eng-GB";}</serialized-data-text>
+      <placement>13</placement>
       <datatype-parameters/>
     </attribute>
   </ezcontentclass-attri:attributes>
