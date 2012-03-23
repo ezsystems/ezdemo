@@ -14,7 +14,7 @@
     </groups>
     <id>16</id>
     <created>1332426596</created>
-    <modified>1332430492</modified>
+    <modified>1332497541</modified>
     <creator>
       <user-id>14</user-id>
       <user-login>admin</user-login>
@@ -150,22 +150,17 @@
       <placement>9</placement>
       <datatype-parameters/>
     </attribute>
-    <attribute datatype="eztags" required="false" searchable="true" information-collector="false" translatable="true">
+    <attribute datatype="ezkeyword" required="false" searchable="true" information-collector="false" translatable="true">
       <remote>
-        <id>191</id>
+        <id>301</id>
       </remote>
       <serialized-name-list>a:2:{s:6:"eng-GB";s:4:"Tags";s:16:"always-available";s:6:"eng-GB";}</serialized-name-list>
       <identifier>tags</identifier>
       <serialized-description-list>a:2:{s:6:"eng-GB";s:0:"";s:16:"always-available";s:6:"eng-GB";}</serialized-description-list>
       <category></category>
-      <serialized-data-text>a:0:{}</serialized-data-text>
+      <serialized-data-text>a:2:{s:6:"eng-GB";s:0:"";s:16:"always-available";s:6:"eng-GB";}</serialized-data-text>
       <placement>10</placement>
-      <datatype-parameters>
-        <subtree-limit>0</subtree-limit>
-        <max-tags>0</max-tags>
-        <dropdown>false</dropdown>
-        <hide-root-tag>false</hide-root-tag>
-      </datatype-parameters>
+      <datatype-parameters/>
     </attribute>
     <attribute datatype="ezgmaplocation" required="false" searchable="true" information-collector="false" translatable="true">
       <remote>

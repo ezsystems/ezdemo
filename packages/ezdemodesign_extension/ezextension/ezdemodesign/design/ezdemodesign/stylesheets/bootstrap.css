@@ -773,6 +773,17 @@ aside > .content-view-aside:last-child > article:last-child:after {
   background-repeat: repeat-x;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='rgba(255, 255, 255, 0)', endColorstr='#ffffff', GradientType=0);
 }
+.ie.ie9 aside {
+  background-color: #fdfdfd;
+  background-image: -moz-linear-gradient(top, #ffffff, #f9f9f9);
+  background-image: -ms-linear-gradient(top, #ffffff, #f9f9f9);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#f9f9f9));
+  background-image: -webkit-linear-gradient(top, #ffffff, #f9f9f9);
+  background-image: -o-linear-gradient(top, #ffffff, #f9f9f9);
+  background-image: linear-gradient(top, #ffffff, #f9f9f9);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#f9f9f9', GradientType=0);
+}
 .content-view-full,
 .content-view-children,
 .content-view-block,
@@ -1030,9 +1041,19 @@ aside > .content-view-aside:last-child > article:last-child:after {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ebebeb', endColorstr='#dbdbdc', GradientType=0);
   color: #6f6f6f;
   font-size: 13px;
+  *zoom: 1;
+}
+.tags-wrapper li a:before,
+.tags-wrapper li a:after {
+  display: table;
+  content: "";
+}
+.tags-wrapper li a:after {
+  clear: both;
 }
 .tags-wrapper li a .tag-title {
-  display: inline-block;
+  display: block;
+  float: left;
   padding: 2px 5px 2px 18px;
   position: relative;
   overflow: hidden;
@@ -1049,7 +1070,8 @@ aside > .content-view-aside:last-child > article:last-child:after {
   text-shadow: 0 0 1px #6f6f6f;
 }
 .tags-wrapper li a .tag-amount {
-  display: inline-block;
+  display: block;
+  float: left;
   color: #969696;
   border-left: 1px solid #dbdbdc;
   padding: 2px 5px;

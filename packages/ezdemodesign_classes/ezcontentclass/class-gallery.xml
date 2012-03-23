@@ -8,13 +8,13 @@
   <url-alias-pattern></url-alias-pattern>
   <remote>
     <site-url>http://localhost/~ls/ezdemodesign_dev/index.php/</site-url>
-    <url>http://localhost/~ls/ezdemodesign_dev/index.php/class/view/38</url>
+    <url>http://localhost/~ls/ezdemodesign_dev/index.php/class/view/28</url>
     <groups>
       <group id="1" name="Content"/>
     </groups>
-    <id>38</id>
-    <created>1332247995</created>
-    <modified>1332253939</modified>
+    <id>28</id>
+    <created>1332426596</created>
+    <modified>1332498293</modified>
     <creator>
       <user-id>14</user-id>
       <user-login>admin</user-login>
@@ -27,7 +27,7 @@
   <ezcontentclass-attri:attributes xmlns:ezcontentclass-attribute="http://ezpublish/contentclassattribute">
     <attribute datatype="ezstring" required="true" searchable="true" information-collector="false" translatable="true">
       <remote>
-        <id>289</id>
+        <id>243</id>
       </remote>
       <serialized-name-list>a:2:{s:6:"eng-GB";s:4:"Name";s:16:"always-available";s:6:"eng-GB";}</serialized-name-list>
       <identifier>name</identifier>
@@ -42,7 +42,7 @@
     </attribute>
     <attribute datatype="ezxmltext" required="false" searchable="true" information-collector="false" translatable="true">
       <remote>
-        <id>290</id>
+        <id>244</id>
       </remote>
       <serialized-name-list>a:2:{s:6:"eng-GB";s:17:"Short description";s:16:"always-available";s:6:"eng-GB";}</serialized-name-list>
       <identifier>short_description</identifier>
@@ -56,7 +56,7 @@
     </attribute>
     <attribute datatype="ezxmltext" required="false" searchable="true" information-collector="false" translatable="true">
       <remote>
-        <id>291</id>
+        <id>245</id>
       </remote>
       <serialized-name-list>a:2:{s:6:"eng-GB";s:11:"Description";s:16:"always-available";s:6:"eng-GB";}</serialized-name-list>
       <identifier>description</identifier>
@@ -70,7 +70,7 @@
     </attribute>
     <attribute datatype="ezobjectrelation" required="false" searchable="true" information-collector="false" translatable="true">
       <remote>
-        <id>292</id>
+        <id>246</id>
       </remote>
       <serialized-name-list>a:2:{s:6:"eng-GB";s:5:"Image";s:16:"always-available";s:6:"eng-GB";}</serialized-name-list>
       <identifier>image</identifier>
@@ -83,9 +83,9 @@
         <fuzzy-match id="0"/>
       </datatype-parameters>
     </attribute>
-    <attribute datatype="eztags" required="false" searchable="true" information-collector="false" translatable="true">
+    <attribute datatype="ezkeyword" required="false" searchable="true" information-collector="false" translatable="true">
       <remote>
-        <id>348</id>
+        <id>305</id>
       </remote>
       <serialized-name-list>a:2:{s:6:"eng-GB";s:4:"Tags";s:16:"always-available";s:6:"eng-GB";}</serialized-name-list>
       <identifier>tags</identifier>
@@ -93,12 +93,7 @@
       <category></category>
       <serialized-data-text>a:2:{s:6:"eng-GB";s:0:"";s:16:"always-available";s:6:"eng-GB";}</serialized-data-text>
       <placement>5</placement>
-      <datatype-parameters>
-        <subtree-limit>0</subtree-limit>
-        <max-tags>0</max-tags>
-        <dropdown>false</dropdown>
-        <hide-root-tag>false</hide-root-tag>
-      </datatype-parameters>
+      <datatype-parameters/>
     </attribute>
   </ezcontentclass-attri:attributes>
 </content-class>

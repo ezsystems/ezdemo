@@ -86,7 +86,6 @@ class ezdemodesignInstaller extends eZSiteInstaller
             strtolower( $this->solutionName() ), 
             'ezwt', 
             'ezflow',
-            'eztags',
             'ezcomments'
         ) );
         $this->addSetting( 'version', $this->solutionVersion() );
@@ -1090,11 +1089,6 @@ class ezdemodesignInstaller extends eZSiteInstaller
                     ),
                     'attributes' => array(
                         array(
-                            'identifier' => 'tags',
-                            'name' => 'Tags',
-                            'data_type_string' => 'eztags'
-                        ),
-                        array(
                             'identifier' => 'call_for_action',
                             'name' => 'Call For Action',
                             'data_type_string' => 'ezpage'
@@ -1201,7 +1195,7 @@ class ezdemodesignInstaller extends eZSiteInstaller
         $contentINI = eZINI::instance( 'content.ini' );
         $datatypeRepositories = $contentINI->variable( 'DataTypeSettings', 'ExtensionDirectories' );
         $datatypeRepositories[] = 'ezflow';
-        $datatypeRepositories[] = 'eztags';
+        $datatypeRepositories[] = 'ezcomments';
         $datatypeRepositories[] = 'ezstarrating';
         $datatypeRepositories[] = 'ezgmaplocation';
         $contentINI->setVariables( array( 
@@ -1211,7 +1205,7 @@ class ezdemodesignInstaller extends eZSiteInstaller
         ) );
         $availableDatatype = $contentINI->variable( 'DataTypeSettings', 'AvailableDataTypes' );
         $availableDatatype[] = 'ezpage';
-        $availableDatatype[] = 'eztags';
+        $availableDatatype[] = 'ezcomcomments';
         $availableDatatype[] = 'ezsrrating';
         $availableDatatype[] = 'ezgmaplocation';
         $contentINI->setVariables( array( 
@@ -1220,7 +1214,6 @@ class ezdemodesignInstaller extends eZSiteInstaller
             ) 
         ) );
         $this->insertDBFile( 'ezflow_extension', 'ezflow' );
-        $this->insertDBFile( 'eztags_extension', 'eztags' );
         $this->insertDBFile( 'ezcomments_extension', 'ezcomments' );
         $this->insertDBFile( 'ezdemodesign_extension', 'ezdemodesign', false, true );
         $this->insertDBFile( 'ezstarrating_extension', 'ezstarrating' );
