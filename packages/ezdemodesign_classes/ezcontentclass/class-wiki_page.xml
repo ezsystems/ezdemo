@@ -14,7 +14,7 @@
     </groups>
     <id>22</id>
     <created>1332426596</created>
-    <modified>1332491351</modified>
+    <modified>1332498973</modified>
     <creator>
       <user-id>14</user-id>
       <user-login>admin</user-login>
@@ -54,29 +54,24 @@
         <text-column-count>20</text-column-count>
       </datatype-parameters>
     </attribute>
-    <attribute datatype="eztags" required="false" searchable="true" information-collector="false" translatable="true">
-      <remote>
-        <id>222</id>
-      </remote>
-      <serialized-name-list>a:2:{s:6:"eng-GB";s:4:"Tags";s:16:"always-available";s:6:"eng-GB";}</serialized-name-list>
-      <identifier>tags</identifier>
-      <serialized-description-list>a:2:{s:6:"eng-GB";s:0:"";s:16:"always-available";s:6:"eng-GB";}</serialized-description-list>
-      <category></category>
-      <serialized-data-text>a:0:{}</serialized-data-text>
-      <placement>3</placement>
-      <datatype-parameters>
-        <subtree-limit>0</subtree-limit>
-        <max-tags>0</max-tags>
-        <dropdown>false</dropdown>
-        <hide-root-tag>false</hide-root-tag>
-      </datatype-parameters>
-    </attribute>
     <attribute datatype="ezsrrating" required="false" searchable="true" information-collector="false" translatable="true">
       <remote>
         <id>299</id>
       </remote>
       <serialized-name-list>a:2:{s:6:"eng-GB";s:11:"Star Rating";s:16:"always-available";s:6:"eng-GB";}</serialized-name-list>
       <identifier>star_rating</identifier>
+      <serialized-description-list>a:2:{s:6:"eng-GB";s:0:"";s:16:"always-available";s:6:"eng-GB";}</serialized-description-list>
+      <category></category>
+      <serialized-data-text>a:2:{s:6:"eng-GB";s:0:"";s:16:"always-available";s:6:"eng-GB";}</serialized-data-text>
+      <placement>3</placement>
+      <datatype-parameters/>
+    </attribute>
+    <attribute datatype="ezkeyword" required="false" searchable="true" information-collector="false" translatable="true">
+      <remote>
+        <id>308</id>
+      </remote>
+      <serialized-name-list>a:2:{s:6:"eng-GB";s:4:"Tags";s:16:"always-available";s:6:"eng-GB";}</serialized-name-list>
+      <identifier>tags</identifier>
       <serialized-description-list>a:2:{s:6:"eng-GB";s:0:"";s:16:"always-available";s:6:"eng-GB";}</serialized-description-list>
       <category></category>
       <serialized-data-text>a:2:{s:6:"eng-GB";s:0:"";s:16:"always-available";s:6:"eng-GB";}</serialized-data-text>
