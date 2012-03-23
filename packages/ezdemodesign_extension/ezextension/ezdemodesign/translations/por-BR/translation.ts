@@ -1229,7 +1229,7 @@ As imagens são colocadas na biblioteca e você poderá reutilizá-las em outros
     </message>
 </context>
 <context>
-    <name>design/ezdemodesign/full/documentation_page</name>
+    <name>design/ezdemodesign/full/wiki_page</name>
     <message>
         <source>Created:</source>
         <translation>Criado:</translation>

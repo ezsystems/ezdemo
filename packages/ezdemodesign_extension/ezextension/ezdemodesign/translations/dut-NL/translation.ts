@@ -1246,7 +1246,7 @@ Afbeeldingen worden in de media bibliotheek geplaatst, zodat u deze opnieuw kunt
     </message>
 </context>
 <context>
-    <name>design/ezdemodesign/full/documentation_page</name>
+    <name>design/ezdemodesign/full/wiki_page</name>
     <message>
         <source>Table of contents</source>
         <translation>Inhoudstabel</translation>

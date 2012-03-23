@@ -363,7 +363,7 @@ class ezdemodesignInstaller extends eZSiteInstaller
                                     array( 
                                         '_function' => 'classIDbyIdentifier', 
                                         '_params' => array( 
-                                            'identifier' => 'documentation_page' 
+                                            'identifier' => 'wiki_page'
                                         ) 
                                     ),
                                     array( 
@@ -515,7 +515,7 @@ class ezdemodesignInstaller extends eZSiteInstaller
                                     array( 
                                         '_function' => 'classIDbyIdentifier', 
                                         '_params' => array( 
-                                            'identifier' => 'documentation_page' 
+                                            'identifier' => 'wiki_page'
                                         ) 
                                     ), 
                                     array( 
@@ -601,7 +601,7 @@ class ezdemodesignInstaller extends eZSiteInstaller
                                     array( 
                                         '_function' => 'classIDbyIdentifier', 
                                         '_params' => array( 
-                                            'identifier' => 'documentation_page' 
+                                            'identifier' => 'wiki_page'
                                         ) 
                                     ),
                                     array( 
@@ -1680,7 +1680,7 @@ class ezdemodesignInstaller extends eZSiteInstaller
                     'ShowClasses' => array( 
                         'folder', 
                         'user_group', 
-                        'documentation_page', 
+                        'wiki_page',
                         'event_calender', 
                         'frontpage', 
                         'forums', 
@@ -2486,9 +2486,9 @@ class ezdemodesignInstaller extends eZSiteInstaller
                     '2' => 'relating' 
                 ) 
             ), 
-            'documentation_page' => array( 
+            'wiki_page' => array(
                 'DependentClassIdentifier' => array( 
-                    '0' => 'documentation_page' 
+                    '0' => 'wiki_page'
                 ), 
                 'ClearCacheMethod' => array( 
                     '0' => 'object', 
@@ -2679,7 +2679,7 @@ class ezdemodesignInstaller extends eZSiteInstaller
                 'TreeMenu' => array( 
                     'ShowClasses' => array( 
                         'folder', 
-                        'documentation_page', 
+                        'wiki_page',
                         'frontpage', 
                         'forums' 
                     ), 
@@ -3011,12 +3011,12 @@ class ezdemodesignInstaller extends eZSiteInstaller
                         'class_identifier' => 'comment' 
                     ) 
                 ), 
-                'full_documentation_page' => array( 
+                'full_wiki_page' => array(
                     'Source' => 'node/view/full.tpl', 
-                    'MatchFile' => 'full/documentation_page.tpl', 
+                    'MatchFile' => 'full/wiki_page.tpl',
                     'Subdir' => 'templates', 
                     'Match' => array( 
-                        'class_identifier' => 'documentation_page' 
+                        'class_identifier' => 'wiki_page'
                     ) 
                 ), 
                 'full_event_calendar' => array( 
@@ -3275,12 +3275,12 @@ class ezdemodesignInstaller extends eZSiteInstaller
                         'class_identifier' => 'comment' 
                     ) 
                 ), 
-                'line_documentation_page' => array( 
+                'line_wiki_page' => array(
                     'Source' => 'node/view/line.tpl', 
-                    'MatchFile' => 'line/documentation_page.tpl', 
+                    'MatchFile' => 'line/wiki_page.tpl',
                     'Subdir' => 'templates', 
                     'Match' => array( 
-                        'class_identifier' => 'documentation_page' 
+                        'class_identifier' => 'wiki_page'
                     ) 
                 ), 
                 'line_event_calendar' => array( 
@@ -3691,12 +3691,12 @@ class ezdemodesignInstaller extends eZSiteInstaller
                         'class_identifier' => 'event_calendar' 
                     ) 
                 ), 
-                'embed_itemizedsubitems_documentation_page' => array( 
+                'embed_itemizedsubitems_wiki_page' => array(
                     'Source' => 'content/view/itemizedsubitems.tpl', 
-                    'MatchFile' => 'itemizedsubitems/documentation_page.tpl', 
+                    'MatchFile' => 'itemizedsubitems/wiki_page.tpl',
                     'Subdir' => 'templates', 
                     'Match' => array( 
-                        'class_identifier' => 'documentation_page' 
+                        'class_identifier' => 'wiki_page'
                     ) 
                 ), 
                 'embed_itemizedsubitems_itemized_sub_items' => array( 

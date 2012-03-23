@@ -9,7 +9,7 @@
 
         {if eztoc( $node.object.data_map.body )}
         <div class="attribute-toc">
-            <h2>{'Table of contents'|i18n( 'design/ezdemodesign/full/documentation_page' )}</h2>
+            <h2>{'Table of contents'|i18n( 'design/ezdemodesign/full/wiki_page' )}</h2>
             {eztoc( $node.object.data_map.body )}
         </div>
         {/if}
@@ -19,8 +19,8 @@
         </div>
         
         <div class="attribute-byline">
-            <p class="published">{'Created:'|i18n( 'design/ezdemodesign/full/documentation_page' )} {$node.object.published|l10n(shortdatetime)}</p>
-            <p class="modified">{'Modified:'|i18n( 'design/ezdemodesign/full/documentation_page' )} {$node.object.modified|l10n(shortdatetime)}</p>
+            <p class="published">{'Created:'|i18n( 'design/ezdemodesign/full/wiki_page' )} {$node.object.published|l10n(shortdatetime)}</p>
+            <p class="modified">{'Modified:'|i18n( 'design/ezdemodesign/full/wiki_page' )} {$node.object.modified|l10n(shortdatetime)}</p>
         </div>
 
         {if $node.object.data_map.show_children.data_int}

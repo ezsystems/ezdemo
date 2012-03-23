@@ -1216,7 +1216,7 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
 </context>
 <context>
-    <name>design/ezdemodesign/full/documentation_page</name>
+    <name>design/ezdemodesign/full/wiki_page</name>
     <message>
         <source>Table of contents</source>
         <translation>Innehållsförteckning</translation>

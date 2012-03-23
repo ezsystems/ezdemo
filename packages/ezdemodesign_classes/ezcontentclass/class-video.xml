@@ -14,7 +14,7 @@
     </groups>
     <id>36</id>
     <created>1332426596</created>
-    <modified>1332429341</modified>
+    <modified>1332490869</modified>
     <creator>
       <user-id>14</user-id>
       <user-login>admin</user-login>
@@ -68,6 +68,18 @@
         <max-size unit-size="mega">0</max-size>
       </datatype-parameters>
     </attribute>
+    <attribute datatype="ezsrrating" required="false" searchable="true" information-collector="false" translatable="true">
+      <remote>
+        <id>298</id>
+      </remote>
+      <serialized-name-list>a:2:{s:6:"eng-GB";s:11:"Star Rating";s:16:"always-available";s:6:"eng-GB";}</serialized-name-list>
+      <identifier>star_rating</identifier>
+      <serialized-description-list>a:2:{s:6:"eng-GB";s:0:"";s:16:"always-available";s:6:"eng-GB";}</serialized-description-list>
+      <category></category>
+      <serialized-data-text>a:2:{s:6:"eng-GB";s:0:"";s:16:"always-available";s:6:"eng-GB";}</serialized-data-text>
+      <placement>4</placement>
+      <datatype-parameters/>
+    </attribute>
     <attribute datatype="ezcomcomments" required="false" searchable="true" information-collector="false" translatable="true">
       <remote>
         <id>291</id>
@@ -77,7 +89,7 @@
       <serialized-description-list>a:2:{s:6:"eng-GB";s:0:"";s:16:"always-available";s:6:"eng-GB";}</serialized-description-list>
       <category></category>
       <serialized-data-text>a:2:{s:6:"eng-GB";s:0:"";s:16:"always-available";s:6:"eng-GB";}</serialized-data-text>
-      <placement>4</placement>
+      <placement>5</placement>
       <datatype-parameters/>
     </attribute>
   </ezcontentclass-attri:attributes>
