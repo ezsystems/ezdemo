@@ -603,13 +603,18 @@ aside {
 .attribute-star-rating {
     border-top: 1px solid @grayLighter;
     border-bottom: 1px solid @grayLighter;
-    margin:  0 0 1.5em 0;
+    margin:  0 0 1em 0;
     padding: 10px 0;
+    font-size: 13px;
     text-align: right;
+    #gradient > .vertical(@softwhite, @white);
     .clearfix();
     > ul.ezsr-star-rating {
         float: left;
         margin: 0;
+    }
+    p {
+        font-size: 13px;
     }
 }
 
