@@ -307,6 +307,12 @@ aside {
     }
 }
 
+.ie.ie9 {
+    aside {
+        #gradient > .vertical(@white, @softwhite);
+    }
+}
+
 .content-view-full,
 .content-view-children,
 .content-view-block,
@@ -458,8 +464,10 @@ aside {
             #gradient > .vertical(@grayLighter, @grayLight);
             color: @grayLower;
             font-size: 13px;
+            .clearfix();
             .tag-title {
-                display: inline-block;
+                display: block;
+                float: left;
                 padding: 2px 5px 2px 18px;
                 position: relative;
                 overflow: hidden;
@@ -476,7 +484,8 @@ aside {
                 }
             }
             .tag-amount {
-                display: inline-block;
+                display: block;
+                float: left;
                 color: @grayLow;
                 border-left: 1px solid @grayLight;
                 padding: 2px 5px;
