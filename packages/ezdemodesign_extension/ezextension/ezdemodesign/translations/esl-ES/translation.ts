@@ -1227,7 +1227,7 @@ Las imágenes se colocan en la biblioteca multimedia para poder ser reutilizadas
     </message>
 </context>
 <context>
-    <name>design/ezdemodesign/full/documentation_page</name>
+    <name>design/ezdemodesign/full/wiki_page</name>
     <message>
         <source>Table of contents</source>
         <translation>Tabla de contenidos</translation>

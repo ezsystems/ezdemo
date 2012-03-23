@@ -1226,7 +1226,7 @@ Les images sont placées dans la médiathèque, vous pouvez les réutiliser dans
     </message>
 </context>
 <context>
-    <name>design/ezdemodesign/full/documentation_page</name>
+    <name>design/ezdemodesign/full/wiki_page</name>
     <message>
         <source>Table of contents</source>
         <translation>Table des matières</translation>

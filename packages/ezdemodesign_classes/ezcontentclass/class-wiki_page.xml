@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <content-class xmlns:ezcontentclass-attri="http://ezpublish/contentclassattribute" is-container="true" always-available="false" sort-field="path" sort-order="1">
   <serialized-name-list>a:2:{s:6:"eng-GB";s:9:"Wiki Page";s:16:"always-available";s:6:"eng-GB";}</serialized-name-list>
-  <identifier>documentation_page</identifier>
+  <identifier>wiki_page</identifier>
   <serialized-description-list>a:1:{s:6:"eng-GB";s:0:"";}</serialized-description-list>
   <remote-id>d4a05eed0402e4d70fedfda2023f1aa2</remote-id>
   <object-name-pattern>&lt;title&gt;</object-name-pattern>
@@ -14,7 +14,7 @@
     </groups>
     <id>22</id>
     <created>1332426596</created>
-    <modified>1332430685</modified>
+    <modified>1332491351</modified>
     <creator>
       <user-id>14</user-id>
       <user-login>admin</user-login>
@@ -71,19 +71,17 @@
         <hide-root-tag>false</hide-root-tag>
       </datatype-parameters>
     </attribute>
-    <attribute datatype="ezboolean" required="false" searchable="false" information-collector="false" translatable="true">
+    <attribute datatype="ezsrrating" required="false" searchable="true" information-collector="false" translatable="true">
       <remote>
-        <id>223</id>
+        <id>299</id>
       </remote>
-      <serialized-name-list>a:2:{s:6:"eng-GB";s:17:"Display sub items";s:16:"always-available";s:6:"eng-GB";}</serialized-name-list>
-      <identifier>show_children</identifier>
-      <serialized-description-list>a:1:{s:6:"eng-GB";s:0:"";}</serialized-description-list>
+      <serialized-name-list>a:2:{s:6:"eng-GB";s:11:"Star Rating";s:16:"always-available";s:6:"eng-GB";}</serialized-name-list>
+      <identifier>star_rating</identifier>
+      <serialized-description-list>a:2:{s:6:"eng-GB";s:0:"";s:16:"always-available";s:6:"eng-GB";}</serialized-description-list>
       <category></category>
-      <serialized-data-text>a:0:{}</serialized-data-text>
+      <serialized-data-text>a:2:{s:6:"eng-GB";s:0:"";s:16:"always-available";s:6:"eng-GB";}</serialized-data-text>
       <placement>4</placement>
-      <datatype-parameters>
-        <default-value is-set="false"/>
-      </datatype-parameters>
+      <datatype-parameters/>
     </attribute>
     <attribute datatype="ezcomcomments" required="false" searchable="true" information-collector="false" translatable="true">
       <remote>
@@ -96,6 +94,20 @@
       <serialized-data-text>a:2:{s:6:"eng-GB";s:0:"";s:16:"always-available";s:6:"eng-GB";}</serialized-data-text>
       <placement>5</placement>
       <datatype-parameters/>
+    </attribute>
+    <attribute datatype="ezboolean" required="false" searchable="false" information-collector="false" translatable="true">
+      <remote>
+        <id>223</id>
+      </remote>
+      <serialized-name-list>a:2:{s:6:"eng-GB";s:17:"Display sub items";s:16:"always-available";s:6:"eng-GB";}</serialized-name-list>
+      <identifier>show_children</identifier>
+      <serialized-description-list>a:1:{s:6:"eng-GB";s:0:"";}</serialized-description-list>
+      <category></category>
+      <serialized-data-text>a:0:{}</serialized-data-text>
+      <placement>6</placement>
+      <datatype-parameters>
+        <default-value is-set="false"/>
+      </datatype-parameters>
     </attribute>
   </ezcontentclass-attri:attributes>
 </content-class>

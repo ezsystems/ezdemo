@@ -1227,7 +1227,7 @@ Le immagini vengono collocate nella libreria media in modo da poter essere riuti
     </message>
 </context>
 <context>
-    <name>design/ezdemodesign/full/documentation_page</name>
+    <name>design/ezdemodesign/full/wiki_page</name>
     <message>
         <source>Table of contents</source>
         <translation>Indice dei contenuti</translation>
