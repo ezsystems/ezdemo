@@ -1211,7 +1211,7 @@ class ezdemodesignInstaller extends eZSiteInstaller
         ) );
         $availableDatatype = $contentINI->variable( 'DataTypeSettings', 'AvailableDataTypes' );
         $availableDatatype[] = 'ezpage';
-        $availableDatatype[] = 'ezcomments';
+        $availableDatatype[] = 'ezcomcomments';
         $availableDatatype[] = 'ezsrrating';
         $availableDatatype[] = 'ezgmaplocation';
         $contentINI->setVariables( array(

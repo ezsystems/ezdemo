@@ -1195,6 +1195,7 @@ class ezdemodesignInstaller extends eZSiteInstaller
         $contentINI = eZINI::instance( 'content.ini' );
         $datatypeRepositories = $contentINI->variable( 'DataTypeSettings', 'ExtensionDirectories' );
         $datatypeRepositories[] = 'ezflow';
+        $datatypeRepositories[] = 'ezcomments';
         $datatypeRepositories[] = 'ezstarrating';
         $datatypeRepositories[] = 'ezgmaplocation';
         $contentINI->setVariables( array( 
@@ -1204,6 +1205,7 @@ class ezdemodesignInstaller extends eZSiteInstaller
         ) );
         $availableDatatype = $contentINI->variable( 'DataTypeSettings', 'AvailableDataTypes' );
         $availableDatatype[] = 'ezpage';
+        $availableDatatype[] = 'ezcomcomments';
         $availableDatatype[] = 'ezsrrating';
         $availableDatatype[] = 'ezgmaplocation';
         $contentINI->setVariables( array( 
