@@ -883,8 +883,7 @@ aside > .content-view-aside:last-child > article:last-child:after {
 .content-view-embed .attribute-header  + form {
   padding-top: 10px;
 }
-.content-view-embed .file-to-download,
-.content-view-embed .comment {
+.content-view-embed .file-to-download {
   display: block;
   position: relative;
 }
@@ -915,20 +914,22 @@ aside > .content-view-aside:last-child > article:last-child:after {
 .content-view-embed .file-to-download .header:after {
   clear: both;
 }
-.content-view-embed .comment {
+.comment {
+  display: block;
+  position: relative;
   padding: 0 15px 0 115px;
   min-height: 97px;
   *zoom: 1;
 }
-.content-view-embed .comment:before,
-.content-view-embed .comment:after {
+.comment:before,
+.comment:after {
   display: table;
   content: "";
 }
-.content-view-embed .comment:after {
+.comment:after {
   clear: both;
 }
-.content-view-embed .comment .profile-picture {
+.comment .profile-picture {
   display: block;
   position: absolute;
   left: 15px;
@@ -942,7 +943,7 @@ aside > .content-view-aside:last-child > article:last-child:after {
   -moz-border-radius: 2px;
   border-radius: 2px;
 }
-.content-view-embed .comment .comment-content-wrapper {
+.comment .comment-content-wrapper {
   display: block;
   position: relative;
   border: 1px solid #dbdbdc;
@@ -961,7 +962,7 @@ aside > .content-view-aside:last-child > article:last-child:after {
   background-repeat: repeat-x;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#f9f9f9', GradientType=0);
 }
-.content-view-embed .comment .comment-content-wrapper:before {
+.comment .comment-content-wrapper:before {
   content: "";
   display: block;
   position: absolute;
@@ -971,43 +972,43 @@ aside > .content-view-aside:last-child > article:last-child:after {
   height: 17px;
   background: transparent url('../images/ez-sprite.png') no-repeat -137px top;
 }
-.content-view-embed .comment .comment-content-wrapper .header,
-.content-view-embed .comment .comment-content-wrapper .comment-headline {
+.comment .comment-content-wrapper .header,
+.comment .comment-content-wrapper .comment-headline {
   display: block;
   *zoom: 1;
   border-bottom: 1px solid #ebebeb;
   padding: 0 0 2px 0;
   margin-bottom: 2px;
 }
-.content-view-embed .comment .comment-content-wrapper .header:before,
-.content-view-embed .comment .comment-content-wrapper .comment-headline:before,
-.content-view-embed .comment .comment-content-wrapper .header:after,
-.content-view-embed .comment .comment-content-wrapper .comment-headline:after {
+.comment .comment-content-wrapper .header:before,
+.comment .comment-content-wrapper .comment-headline:before,
+.comment .comment-content-wrapper .header:after,
+.comment .comment-content-wrapper .comment-headline:after {
   display: table;
   content: "";
 }
-.content-view-embed .comment .comment-content-wrapper .header:after,
-.content-view-embed .comment .comment-content-wrapper .comment-headline:after {
+.comment .comment-content-wrapper .header:after,
+.comment .comment-content-wrapper .comment-headline:after {
   clear: both;
 }
-.content-view-embed .comment .comment-content-wrapper .ezcom-comment-tool {
+.comment .comment-content-wrapper .ezcom-comment-tool {
   display: block;
   *zoom: 1;
   padding: 10px 0 0 0;
 }
-.content-view-embed .comment .comment-content-wrapper .ezcom-comment-tool:before,
-.content-view-embed .comment .comment-content-wrapper .ezcom-comment-tool:after {
+.comment .comment-content-wrapper .ezcom-comment-tool:before,
+.comment .comment-content-wrapper .ezcom-comment-tool:after {
   display: table;
   content: "";
 }
-.content-view-embed .comment .comment-content-wrapper .ezcom-comment-tool:after {
+.comment .comment-content-wrapper .ezcom-comment-tool:after {
   clear: both;
 }
-.content-view-embed .comment-form {
+.comment-form {
   display: block;
   margin-bottom: 1em;
 }
-.content-view-embed .comment-form .logging-message {
+.comment-form .logging-message {
   margin-bottom: 10px;
 }
 .tags-wrapper {
