@@ -1,91 +1,87 @@
 {* Article - Full view *}
+{set scope=global persistent_variable=hash('left_menu', false(),
+                                           'extra_menu', false())}
 
 <section class="content-view-full">
-    <article class="class-article">
+    <article class="class-article row">
 
-        <div class="attribute-header">
-            <h1>{$node.data_map.title.content|wash()}</h1>
-        </div>
-
-        <div class="attribute-byline">
-            <span class="date">
-                {$node.object.published|l10n(shortdatetime)}
-            </span>
-        {if $node.data_map.author.content.is_empty|not()}
-            <span class="author">
-                {attribute_view_gui attribute=$node.data_map.author}
-            </span>
-        {/if}
-        </div>
-
-    {if eq( ezini( 'article', 'ImageInFullView', 'content.ini' ), 'enabled' )}
-        {if $node.data_map.image.has_content}
-            <div class="attribute-image full-head">
-                {attribute_view_gui attribute=$node.data_map.image image_class=articleimage}
-
-                {if $node.data_map.caption.has_content}
-                    <div class="attribute-caption">
-                        {attribute_view_gui attribute=$node.data_map.caption}
-                    </div>
-                {/if}
+        <div class="span8">
+            <div class="attribute-header">
+                <h1>{$node.data_map.title.content|wash()}</h1>
             </div>
-        {/if}
-    {/if}
 
-    {if eq( ezini( 'article', 'SummaryInFullView', 'content.ini' ), 'enabled' )}
-        {if $node.data_map.intro.content.is_empty|not}
-            <div class="attribute-short">
-                {attribute_view_gui attribute=$node.data_map.intro}
+            <div class="attribute-byline">
+                <span class="date">
+                    {$node.object.published|l10n(shortdatetime)}
+                </span>
+            {if $node.data_map.author.content.is_empty|not()}
+                <span class="author">
+                    {attribute_view_gui attribute=$node.data_map.author}
+                </span>
+            {/if}
             </div>
-        {/if}
-    {/if}
 
-    {if $node.data_map.body.content.is_empty|not}
-        <div class="attribute-long">
-            {attribute_view_gui attribute=$node.data_map.body}
-        </div>
-    {/if}
+        {if eq( ezini( 'article', 'ImageInFullView', 'content.ini' ), 'enabled' )}
+            {if $node.data_map.image.has_content}
+                <div class="attribute-image full-head">
+                    {attribute_view_gui attribute=$node.data_map.image image_class=articleimage}
 
-        <div class="attribute-star-rating">
-        {attribute_view_gui attribute=$node.data_map.star_rating}
-        </div>
-
-    {include uri='design:parts/related_content.tpl'}
-
-    {if is_unset( $versionview_mode )}
-        {if $node.data_map.enable_comments.data_int}
-            <h1>{"Comments"|i18n("design/ezdemodesign/full/article")}</h1>
-            <section class="content-view-children">
-                {foreach fetch_alias( comments, hash( parent_node_id, $node.node_id ) ) as $comment}
-                    {node_view_gui view='line' content_node=$comment}
-                {/foreach}
-            </section>
-
-            {if fetch( 'content', 'access', hash( 'access', 'create',
-                                                  'contentobject', $node,
-                                                  'contentclass_id', 'comment' ) )}
-                <form method="post" action={"content/action"|ezurl}>
-                    <input type="hidden" name="ClassIdentifier" value="comment" />
-                    <input type="hidden" name="NodeID" value="{$node.object.main_node.node_id}" />
-                    <input type="hidden" name="ContentLanguageCode" value="{ezini( 'RegionalSettings', 'ContentObjectLocale', 'site.ini')}" />
-                    <input class="button new_comment" type="submit" name="NewButton" value="{'New comment'|i18n( 'design/ezdemodesign/full/article' )}" />
-                </form>
-                {else}
-                {if ezmodule( 'user/register' )}
-                    <p>{'%login_link_startLog in%login_link_end or %create_link_startcreate a user account%create_link_end to comment.'|i18n( 'design/ezdemodesign/full/article', , hash( '%login_link_start', concat( '<a href="', '/user/login'|ezurl(no), '">' ), '%login_link_end', '</a>', '%create_link_start', concat( '<a href="', "/user/register"|ezurl(no), '">' ), '%create_link_end', '</a>' ) )}</p>
-                    {else}
-                    <p>{'%login_link_startLog in%login_link_end to comment.'|i18n( 'design/ezdemodesign/article/comments', , hash( '%login_link_start', concat( '<a href="', '/user/login'|ezurl(no), '">' ), '%login_link_end', '</a>' ) )}</p>
-                {/if}
+                    {if $node.data_map.caption.has_content}
+                        <div class="attribute-caption">
+                            {attribute_view_gui attribute=$node.data_map.caption}
+                        </div>
+                    {/if}
+                </div>
             {/if}
         {/if}
-    {/if}
 
-    {def $tipafriend_access=fetch( 'user', 'has_access_to', hash( 'module', 'content', 'function', 'tipafriend' ) )}
-    {if and( ezmodule( 'content/tipafriend' ), $tipafriend_access )}
-        <div class="attribute-tipafriend">
-            <p><a href={concat( "/content/tipafriend/", $node.node_id )|ezurl} title="{'Tip a friend'|i18n( 'design/ezdemodesign/full/article' )}">{'Tip a friend'|i18n( 'design/ezdemodesign/full/article' )}</a></p>
+        {if eq( ezini( 'article', 'SummaryInFullView', 'content.ini' ), 'enabled' )}
+            {if $node.data_map.intro.content.is_empty|not}
+                <div class="attribute-short">
+                    {attribute_view_gui attribute=$node.data_map.intro}
+                </div>
+            {/if}
+        {/if}
+
+        {if $node.data_map.body.content.is_empty|not}
+            <div class="attribute-long">
+                {attribute_view_gui attribute=$node.data_map.body}
+            </div>
+        {/if}
+
+            <div class="attribute-tags">
+                {attribute_view_gui attribute=$node.data_map.tags}
+            </div>
+
+            <div class="attribute-star-rating">
+                {attribute_view_gui attribute=$node.data_map.star_rating}
+            </div>
+
+            <div class="attribute-comments">
+                {attribute_view_gui attribute=$node.data_map.comments}
+            </div>
+
+        {def $tipafriend_access=fetch( 'user', 'has_access_to', hash( 'module', 'content', 'function', 'tipafriend' ) )}
+        {if and( ezmodule( 'content/tipafriend' ), $tipafriend_access )}
+            <div class="attribute-tipafriend">
+                <p><a href={concat( "/content/tipafriend/", $node.node_id )|ezurl} title="{'Tip a friend'|i18n( 'design/ezdemodesign/full/article' )}">{'Tip a friend'|i18n( 'design/ezdemodesign/full/article' )}</a></p>
+            </div>
+        {/if}
         </div>
-    {/if}
+        <div class="span4">
+            <aside>
+                <section class="content-view-aside">
+                    <h2>{'Location'|i18n( 'design/ezdemodesign/full/article' )}</h2>
+                    <article>
+                        <div class="attribute-location">
+                            {attribute_view_gui attribute=$node.data_map.location}
+                        </div>
+                    </article>
+
+                    {include uri='design:parts/related_content.tpl'}
+                </section>
+            </aside>
+        </div>
 
     </article>
 </section>

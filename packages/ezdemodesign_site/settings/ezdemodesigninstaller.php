@@ -3741,7 +3741,15 @@ class ezdemodesignInstaller extends eZSiteInstaller
                     'Match' => array( 
                         'class_identifier' => 'product' 
                     ) 
-                ), 
+                ),
+                'ezgmaplocation_article' => array(
+                    'Source' => 'content/datatype/view/ezgmaplocation.tpl',
+                    'MatchFile' => 'datatype/view/ezgmaplocation_article.tpl',
+                    'Subdir' => 'templates',
+                    'Match' => array(
+                        'class_identifier' => 'article'
+                    )
+                ),
                 'factbox' => array( 
                     'Source' => 'content/datatype/view/ezxmltags/factbox.tpl', 
                     'MatchFile' => 'datatype/ezxmltext/factbox.tpl', 
