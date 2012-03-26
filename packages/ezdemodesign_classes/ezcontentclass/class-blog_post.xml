@@ -69,21 +69,6 @@
         <use-seconds>0</use-seconds>
       </datatype-parameters>
     </attribute>
-    <attribute datatype="ezdatetime" required="false" searchable="true" information-collector="false" translatable="true">
-      <remote>
-        <id>199</id>
-      </remote>
-      <serialized-name-list>a:2:{s:6:"eng-GB";s:14:"Unpublish date";s:16:"always-available";s:6:"eng-GB";}</serialized-name-list>
-      <identifier>unpublish_date</identifier>
-      <serialized-description-list>a:1:{s:6:"eng-GB";s:0:"";}</serialized-description-list>
-      <category></category>
-      <serialized-data-text>a:0:{}</serialized-data-text>
-      <placement>4</placement>
-      <datatype-parameters>
-        <default-value type="empty"/>
-        <use-seconds>0</use-seconds>
-      </datatype-parameters>
-    </attribute>
     <attribute datatype="ezkeyword" required="false" searchable="true" information-collector="false" translatable="true">
       <remote>
         <id>200</id>

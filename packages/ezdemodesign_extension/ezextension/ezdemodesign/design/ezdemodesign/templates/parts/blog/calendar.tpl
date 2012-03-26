@@ -87,8 +87,6 @@
 {/foreach}
 
 <div class="calendar">
-<div class="calendar-tl"><div class="calendar-tr"><div class="calendar-bl"><div class="calendar-br">
-<div class="content">
 
 <div class="month">
 <div class="previous">
@@ -100,8 +98,7 @@
 <h2>{$temp_ts|datetime( custom, '%F' )|upfirst()}&nbsp;{$temp_year}</h2>
 </div>
 
-<div class="table">
-<table cellspacing="0" border="0" summary="{'Calendar'|i18n('design/ezdemodesign/blog/calendar')}">
+<table cellspacing="0" border="0" summary="{'Calendar'|i18n('design/ezdemodesign/blog/calendar')}" class="list table-colorized">
 <tr class="top">
     <th class="left">{"Mon"|i18n("design/ezdemodesign/blog/calendar")}</th>
     <th>{"Tue"|i18n("design/ezdemodesign/blog/calendar")}</th>
@@ -155,10 +152,7 @@
     {set $counter=inc( $counter )}
 {/while}
 </table>
-</div>
 
-</div>
-</div></div></div></div>
 </div>
 
 {undef}
