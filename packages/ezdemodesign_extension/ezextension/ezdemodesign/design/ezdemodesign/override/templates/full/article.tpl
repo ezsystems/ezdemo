@@ -4,7 +4,6 @@
 
 <section class="content-view-full">
     <article class="class-article row">
-
         <div class="span8">
             <div class="attribute-header">
                 <h1>{$node.data_map.title.content|wash()}</h1>
@@ -82,7 +81,6 @@
                 </section>
             </aside>
         </div>
-
     </article>
 </section>
 
