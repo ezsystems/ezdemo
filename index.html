@@ -214,13 +214,104 @@
                                     <li><a href="javascript:void(0);" id="ezsr_228_2_5" title="Rate 5 stars out of 5" class="ezsr-stars-5" rel="nofollow" onfocus="this.blur();">5</a></li>
                                 </ul>
                                 Rating: <span id="ezsr_average_228" class="ezsr-average-rating">0</span>/5 (<span id="ezsr_total_228">0</span> votes cast)
-                                                                                                <p id="ezsr_just_rated_228" class="ezsr-just-rated hide">Thank you for rating!</p>
-                                                                                                <p id="ezsr_has_rated_228" class="ezsr-has-rated hide">You have already rated this page, you can only rate it once!</p>
-                                                                                                <p id="ezsr_changed_rating_228" class="ezsr-changed-rating hide">Your rating has been changed, thanks for rating!</p>
-                                                                                                <p id="ezsr_no_permission_228" class="ezsr-no-permission">
-                                                                                                    <a href="http://localhost/~ls/ezdemodesign_dev/index.php/eng/user/login">Log in</a> or 
-                                                                                                    <a href="http://localhost/~ls/ezdemodesign_dev/index.php/eng/user/register">create a user account</a> to rate this page.
-                                                                                                </p>
+                                <p id="ezsr_just_rated_228" class="ezsr-just-rated hide">
+                                    Thank you for rating!
+                                </p>
+                                <p id="ezsr_has_rated_228" class="ezsr-has-rated hide">
+                                    You have already rated this page, you can only rate it once!
+                                </p>
+                                <p id="ezsr_changed_rating_228" class="ezsr-changed-rating hide">
+                                    Your rating has been changed, thanks for rating!
+                                </p>
+                                <p id="ezsr_no_permission_228" class="ezsr-no-permission">
+                                    <a href="http://localhost/~ls/ezdemodesign_dev/index.php/eng/user/login">Log in</a> or 
+                                    <a href="http://localhost/~ls/ezdemodesign_dev/index.php/eng/user/register">create a user account</a> to rate this page.
+                                </p>
+                            </div>
+                            
+                            <div class="attribute-header">
+                                <h3>Post a comment</h3>
+                            </div>
+                            
+                            <div class="attribute-comments">
+
+                                <form method="post" action="/~ls/ezdemodesign_dev/index.php/eng/comment/add" name="CommentAdd">
+
+                                    <input type="hidden" name="ContentObjectID" value="61">
+                                    <input type="hidden" name="CommentLanguageCode" value="eng-GB">
+                                    <input type="hidden" name="RedirectURI" value="http://localhost/~ls/ezdemodesign_dev/index.php/eng/News/Etiam-porta-sem-malesuada-magna">
+
+                                    <div class="ezcom-add">
+
+                                        <div class="row">
+                                            <div class="ezcom-field ezcom-field-title span8">
+                                                <label>
+                                                    Title:
+                                                </label>
+                                                <input type="text" class="box span8" maxlength="100" name="CommentTitle">
+                                            </div>
+                                        </div>
+
+                                        <div class="row">
+                                            <div class="ezcom-field ezcom-field-name span4">
+                                                <div class="ezcom-filed-error"></div>
+                                                <label>
+                                                    Name:<span class="ezcom-field-mandatory">*</span>
+                                                </label>
+                                                <input type="text" class="box span4" maxlength="50" id="CommentName" name="CommentName">
+                                            </div>
+
+                                            <div class="ezcom-field ezcom-field-website span4">
+                                                <label>
+                                                    Website:
+                                                </label>
+                                                <input type="text" class="box span4" maxlength="100" id="CommentWebsite" name="CommentWebsite">
+                                            </div>
+                                        </div>
+
+                                        <div class="row">
+                                            <div class="ezcom-field ezcom-field-email span8">
+                                                <label>
+                                                    Email:<span class="ezcom-field-mandatory">*</span>&nbsp;<span class="ezcom-field-emailmessage">(The email address will not be shown)</span>
+                                                </label>
+                                                <input type="text" maxlength="100" class="box span8" id="CommentEmail" name="CommentEmail">
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="row">
+                                            <div class="ezcom-field ezcom-field-content span8">
+                                                <label>
+                                                    Content:<span class="ezcom-field-mandatory">*</span>
+                                                </label>
+                                                <textarea class="box span8" name="CommentContent" rows="6" cols=""></textarea>
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="row">
+                                            <div class="ezcom-field ezcom-field-notified span4">
+                                                <label class="checkbox">
+                                                    <input type="checkbox" name="CommentNotified" value="1">
+                                                    Notify me of new comments
+                                                </label>
+                                            </div>
+
+                                            <div class="ezcom-field ezcom-field-remember span4">
+                                                <label class="checkbox">
+                                                    <input type="checkbox" name="CommentRememberme" checked="checked" value="1">
+                                                    Remember me
+                                                </label>
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="row">
+                                            <div class="ezcom-field actions span8">
+                                                <input type="submit" value="Add comment" class="btn btn-warning pull-right" name="AddCommentButton">
+                                                <input type="reset" class="btn btn-danger" value="Reset form">
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </form>
                             </div>
                             
                             <div class="attribute-header">

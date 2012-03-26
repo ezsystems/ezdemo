@@ -1215,6 +1215,23 @@ aside > .content-view-aside:last-child > article:last-child:after {
 .attribute-star-rating p {
   font-size: 13px;
 }
+.attribute-comments {
+  display: block;
+  border-top: 1px solid #ebebeb;
+  padding: 10px 0 20px 0;
+}
+.attribute-comments .ezcom-field label {
+  margin-bottom: 0;
+}
+.attribute-comments .ezcom-field label.checkbox input {
+  margin-top: 6px;
+}
+.attribute-comments .ezcom-field.ezcom-field-content {
+  margin-bottom: 5px;
+}
+.attribute-comments .ezcom-field.actions {
+  margin-top: 10px;
+}
 .attribute-byline.with-comments {
   display: block;
   position: relative;
