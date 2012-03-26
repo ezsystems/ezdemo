@@ -914,6 +914,18 @@ aside > .content-view-aside:last-child > article:last-child:after {
 .content-view-embed .file-to-download .header:after {
   clear: both;
 }
+.attribute-header + .comment {
+  background-color: #fbfbfb;
+  background-image: -moz-linear-gradient(top, #f9f9f9, #ffffff);
+  background-image: -ms-linear-gradient(top, #f9f9f9, #ffffff);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#f9f9f9), to(#ffffff));
+  background-image: -webkit-linear-gradient(top, #f9f9f9, #ffffff);
+  background-image: -o-linear-gradient(top, #f9f9f9, #ffffff);
+  background-image: linear-gradient(top, #f9f9f9, #ffffff);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f9f9f9', endColorstr='#ffffff', GradientType=0);
+  border-top: 1px solid #ebebeb;
+}
 .comment {
   display: block;
   position: relative;
