@@ -971,7 +971,8 @@ aside > .content-view-aside:last-child > article:last-child:after {
   height: 17px;
   background: transparent url('../images/ez-sprite.png') no-repeat -137px top;
 }
-.content-view-embed .comment .comment-content-wrapper .header {
+.content-view-embed .comment .comment-content-wrapper .header,
+.content-view-embed .comment .comment-content-wrapper .comment-headline {
   display: block;
   *zoom: 1;
   border-bottom: 1px solid #ebebeb;
@@ -979,11 +980,27 @@ aside > .content-view-aside:last-child > article:last-child:after {
   margin-bottom: 2px;
 }
 .content-view-embed .comment .comment-content-wrapper .header:before,
-.content-view-embed .comment .comment-content-wrapper .header:after {
+.content-view-embed .comment .comment-content-wrapper .comment-headline:before,
+.content-view-embed .comment .comment-content-wrapper .header:after,
+.content-view-embed .comment .comment-content-wrapper .comment-headline:after {
   display: table;
   content: "";
 }
-.content-view-embed .comment .comment-content-wrapper .header:after {
+.content-view-embed .comment .comment-content-wrapper .header:after,
+.content-view-embed .comment .comment-content-wrapper .comment-headline:after {
+  clear: both;
+}
+.content-view-embed .comment .comment-content-wrapper .ezcom-comment-tool {
+  display: block;
+  *zoom: 1;
+  padding: 10px 0 0 0;
+}
+.content-view-embed .comment .comment-content-wrapper .ezcom-comment-tool:before,
+.content-view-embed .comment .comment-content-wrapper .ezcom-comment-tool:after {
+  display: table;
+  content: "";
+}
+.content-view-embed .comment .comment-content-wrapper .ezcom-comment-tool:after {
   clear: both;
 }
 .content-view-embed .comment-form {
@@ -1686,6 +1703,10 @@ cite {
 .comment .header .comment-date {
   color: #dbdbdc;
   font-size: 13px;
+}
+.comment .comment-headline {
+  font-weight: bold;
+  color: #6f6f6f;
 }
 .comment .comment-body {
   color: #6f6f6f;
