@@ -1007,6 +1007,7 @@ aside > .content-view-aside:last-child > article:last-child:after {
   display: block;
   *zoom: 1;
   padding: 10px 0 0 0;
+  text-align: left;
 }
 .comment .comment-content-wrapper .ezcom-comment-tool:before,
 .comment .comment-content-wrapper .ezcom-comment-tool:after {
@@ -1255,6 +1256,9 @@ aside > .content-view-aside:last-child > article:last-child:after {
 .attribute-comments .ezcom-function-title {
   border-bottom: 1px solid #ebebeb;
   margin-bottom: 10px;
+}
+.attribute-comments .ezcom-field {
+  padding: 0;
 }
 .attribute-comments .ezcom-field label {
   margin-bottom: 0;
@@ -4445,3 +4449,206 @@ a.thumbnail:hover {
   font-size: 150%;
   text-transform: none;
 }
+.ezsr-star-rating li a {
+  cursor: default;
+}
+.ezsr-star-rating-enabled li a {
+  cursor: pointer;
+}
+.ezsr-star-rating,
+.ezsr-star-rating a:hover,
+.ezsr-star-rating a:active,
+.ezsr-star-rating a:focus,
+.ezsr-star-rating .ezsr-current-rating {
+  background: url(../images/star.png) left -1000px repeat-x;
+}
+.ezsr-star-rating {
+  position: relative;
+  width: 125px;
+  height: 25px;
+  overflow: hidden;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background-position: left top;
+}
+.ezsr-star-rating li {
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+.ezsr-star-rating a,
+.ezsr-star-rating .ezsr-current-rating {
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-indent: -1000em;
+  height: 25px;
+  line-height: 25px;
+  outline: none;
+  overflow: hidden;
+  border: none;
+}
+.ezsr-star-rating-enabled a:hover,
+.ezsr-star-rating-enabled a:active,
+.ezsr-star-rating-enabled a:focus {
+  background-position: left bottom;
+}
+.ezsr-star-rating a.ezsr-stars-1 {
+  width: 20%;
+  z-index: 6;
+}
+.ezsr-star-rating a.ezsr-stars-2 {
+  width: 40%;
+  z-index: 5;
+}
+.ezsr-star-rating a.ezsr-stars-3 {
+  width: 60%;
+  z-index: 4;
+}
+.ezsr-star-rating a.ezsr-stars-4 {
+  width: 80%;
+  z-index: 3;
+}
+.ezsr-star-rating a.ezsr-stars-5 {
+  width: 100%;
+  z-index: 2;
+}
+.ezsr-star-rating .ezsr-current-rating {
+  z-index: 1;
+  background-position: left center;
+}
+span.ezsr_average_rating {
+  font-weight: bold;
+}
+.hreview-aggregate .fn {
+  display: none;
+}
+/* this is usually declared in core.css, but we redeclare it here in case the user does not include that file */
+.hide {
+  display: none;
+}
+/* COMMENT LIST */
+div.ezcom-view-list {
+  background-color: #ffffff;
+}
+div.ezcom-comment-title {
+  clear: both;
+  font-style: italic;
+}
+div.ezcom-comment-body {
+  clear: both;
+  padding-bottom: 5px;
+}
+div.ezcom-comment-body p,
+div.ezcom-comment-title span,
+div.ezcom-comment-index span {
+  color: #000000;
+  overflow: hidden;
+  padding: 4px;
+}
+div.ezcom-comment-author {
+  float: left;
+}
+div.ezcom-comment-time {
+  float: right;
+}
+input#recaptcha_response_field {
+  width: 50%;
+}
+div.ezcom-comment-tool {
+  clear: both;
+  text-align: right;
+  padding: 2px;
+}
+/* ----COMMENT LIST----- */
+/* ----FORM FIELD---- */
+span.ezcom-field-emailmessage {
+  font-size: 0.8em;
+}
+.ezcom-field-content textarea {
+  height: 100px;
+}
+.ezcom-field-mandatory {
+  color: #ff0000;
+  font-style: italic;
+}
+/*----FORM FIELD----*/
+/* ----COMMENT LIST IN CONTENT VIEW----- */
+div.attribute-comment {
+  padding-top: 20px;
+}
+div.ezcom-view-all p {
+  padding: 2px;
+  text-align: right;
+  font-style: italic;
+}
+/* ----COMMENT LIST IN CONTENT VIEW----- */
+/* ----COMMENT LIST - FULL VIEW----- */
+/* ----COMMENT LIST - FULL VIEW----- */
+/* ----COMMENT FUNCTION----- */
+/* ----COMMENT FUNCTION----- */
+/* ----ADDING COMMENT------- */
+div.ezcom-add,
+div.ezcom-edit {
+  background-color: #ffffff;
+}
+div.ezcom-field {
+  padding-left: 3px;
+  padding-right: 3px;
+  padding-top: 10px;
+}
+/* ----ADDING COMMENT------- */
+/*---- PAGING ----*/
+div.ezcom-page {
+  padding: 5px;
+  text-align: right;
+  background-color: #ffffff;
+}
+div.ezcom-page a {
+  padding: 1px;
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+}
+div.ezcom-page a:hover {
+  background-color: #eeeeee;
+}
+/*---- PAGING ----*/
+/*---- ERROR MESSGE ----*/
+div.ezcom-delete .message-confirmation,
+div.ezcom-add-result .message-error {
+  margin-left: auto;
+  margin-right: auto;
+}
+/*---- ERROR MESSGE ----*/
+/*-----SETTING------*/
+div.ezcom-setting-select {
+  float: left;
+  width: 130px;
+  display: inline;
+}
+div.ezcom-setting-count {
+  float: right;
+  width: 20%;
+  display: inline;
+}
+div.ezcom-setting-content {
+  display: inline;
+}
+div.ezcom-setting-head {
+  background-color: #f0f0f0;
+  padding: 5px;
+}
+div.ezcom-setting-row {
+  clear: both;
+  padding: 6px;
+  border-bottom: 1px solid #cccccc;
+}
+div.ezcom-setting {
+  background-color: #ffffff;
+}
+div.ezcom-setting-mail {
+  font-size: 1.25em;
+  padding: 1px;
+}
+/*-----SETTING------*/
