@@ -233,6 +233,58 @@
                                 <h3>Post a comment</h3>
                             </div>
                             
+                            <form method="post" action="/~ls/ezdemodesign_dev/index.php/eng/content/action" class="feedback-form">
+
+                                <div class="row">
+                                    <div class="span4">
+                                        <label for="ContentObjectAttribute_ezstring_data_text_248">
+                                            Sender name
+                                        </label>
+                                        <div class="attribute-sender-name">
+                                            <input class="box span4" type="text" size="70" name="ContentObjectAttribute_ezstring_data_text_248" value="">
+                                        </div>
+                                    </div>
+                                    <div class="span4">
+                                        <label for="ContentObjectAttribute_data_text_251">
+                                            Email
+                                        </label>
+                                        <div class="attribute-email">
+                                            <input class="box span4" type="text" size="20" name="ContentObjectAttribute_data_text_251" value="">
+                                        </div>
+                                    </div>
+                                </div>
+                            
+                                <div class="row">
+                                    <div class="span8">
+                                        <label for="ContentObjectAttribute_ezstring_data_text_249">
+                                            Subject
+                                        </label>
+                                        <div class="attribute-subject">
+                                            <input class="box span8" type="text" size="70" name="ContentObjectAttribute_ezstring_data_text_249" value="">
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="row">
+                                    <div class="span8">
+                                        <label for="ContentObjectAttribute_data_text_250">
+                                            Message
+                                        </label>
+                                        <div class="attribute-subject">
+                                            <textarea class="box span8" name="ContentObjectAttribute_data_text_250" cols="70" rows="10"></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="content-action">
+                                    <input type="submit" class="btn btn-warning pull-right" name="ActionCollectInformation" value="Send form">
+                                    <input type="hidden" name="ContentNodeID" value="65">
+                                    <input type="hidden" name="ContentObjectID" value="65">
+                                    <input type="hidden" name="ViewMode" value="full">
+                                </div>
+                                
+                            </form>
+                            
                             <div class="attribute-comments">
 
                                 <form method="post" action="/~ls/ezdemodesign_dev/index.php/eng/comment/add" name="CommentAdd">
@@ -242,6 +294,12 @@
                                     <input type="hidden" name="RedirectURI" value="http://localhost/~ls/ezdemodesign_dev/index.php/eng/News/Etiam-porta-sem-malesuada-magna">
 
                                     <div class="ezcom-add">
+                                        
+                                        <div class="ezcom-function-title">
+                                            <h3>
+                                                {'Post comment'|i18n( 'ezcomments/comment/add/form' )}
+                                            </h3>
+                                        </div>
 
                                         <div class="row">
                                             <div class="ezcom-field ezcom-field-title span8">

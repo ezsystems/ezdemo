@@ -1215,10 +1215,16 @@ aside > .content-view-aside:last-child > article:last-child:after {
 .attribute-star-rating p {
   font-size: 13px;
 }
-.attribute-comments {
-  display: block;
+.feedback-form {
   border-top: 1px solid #ebebeb;
-  padding: 10px 0 20px 0;
+  padding-top: 10px;
+}
+.feedback-form label {
+  margin-bottom: 0;
+}
+.attribute-comments .ezcom-function-title {
+  border-bottom: 1px solid #ebebeb;
+  margin-bottom: 10px;
 }
 .attribute-comments .ezcom-field label {
   margin-bottom: 0;
