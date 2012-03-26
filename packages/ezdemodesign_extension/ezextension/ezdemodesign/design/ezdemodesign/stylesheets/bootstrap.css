@@ -134,7 +134,8 @@ a:hover {
   color: #006a8d;
   text-decoration: underline;
 }
-a.teaser-link {
+a.teaser-link,
+.content-view-line .attribute-header a {
   color: #006a8d;
   -webkit-transition: color linear 0.2s;
   -moz-transition: color linear 0.2s;
@@ -143,9 +144,13 @@ a.teaser-link {
   transition: color linear 0.2s;
 }
 a.teaser-link h2,
+.content-view-line .attribute-header a h2,
 a.teaser-link h3,
+.content-view-line .attribute-header a h3,
 a.teaser-link h4,
-a.teaser-link h5 {
+.content-view-line .attribute-header a h4,
+a.teaser-link h5,
+.content-view-line .attribute-header a h5 {
   color: #006a8d;
   -webkit-transition: color linear 0.2s;
   -moz-transition: color linear 0.2s;
@@ -154,18 +159,28 @@ a.teaser-link h5 {
   transition: color linear 0.2s;
 }
 a.teaser-link:hover,
-a.teaser-link:focus {
+.content-view-line .attribute-header a:hover,
+a.teaser-link:focus,
+.content-view-line .attribute-header a:focus {
   text-decoration: none;
   color: #e57910;
 }
 a.teaser-link:hover h2,
+.content-view-line .attribute-header a:hover h2,
 a.teaser-link:focus h2,
+.content-view-line .attribute-header a:focus h2,
 a.teaser-link:hover h3,
+.content-view-line .attribute-header a:hover h3,
 a.teaser-link:focus h3,
+.content-view-line .attribute-header a:focus h3,
 a.teaser-link:hover h4,
+.content-view-line .attribute-header a:hover h4,
 a.teaser-link:focus h4,
+.content-view-line .attribute-header a:focus h4,
 a.teaser-link:hover h5,
-a.teaser-link:focus h5 {
+.content-view-line .attribute-header a:hover h5,
+a.teaser-link:focus h5,
+.content-view-line .attribute-header a:focus h5 {
   color: #e57910;
 }
 .highlighted a.teaser-link {
@@ -883,8 +898,7 @@ aside > .content-view-aside:last-child > article:last-child:after {
 .content-view-embed .attribute-header  + form {
   padding-top: 10px;
 }
-.content-view-embed .file-to-download,
-.content-view-embed .comment {
+.content-view-embed .file-to-download {
   display: block;
   position: relative;
 }
@@ -915,20 +929,34 @@ aside > .content-view-aside:last-child > article:last-child:after {
 .content-view-embed .file-to-download .header:after {
   clear: both;
 }
-.content-view-embed .comment {
+.attribute-header + .comment {
+  background-color: #fbfbfb;
+  background-image: -moz-linear-gradient(top, #f9f9f9, #ffffff);
+  background-image: -ms-linear-gradient(top, #f9f9f9, #ffffff);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#f9f9f9), to(#ffffff));
+  background-image: -webkit-linear-gradient(top, #f9f9f9, #ffffff);
+  background-image: -o-linear-gradient(top, #f9f9f9, #ffffff);
+  background-image: linear-gradient(top, #f9f9f9, #ffffff);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f9f9f9', endColorstr='#ffffff', GradientType=0);
+  border-top: 1px solid #ebebeb;
+}
+.comment {
+  display: block;
+  position: relative;
   padding: 0 15px 0 115px;
   min-height: 97px;
   *zoom: 1;
 }
-.content-view-embed .comment:before,
-.content-view-embed .comment:after {
+.comment:before,
+.comment:after {
   display: table;
   content: "";
 }
-.content-view-embed .comment:after {
+.comment:after {
   clear: both;
 }
-.content-view-embed .comment .profile-picture {
+.comment .profile-picture {
   display: block;
   position: absolute;
   left: 15px;
@@ -942,7 +970,7 @@ aside > .content-view-aside:last-child > article:last-child:after {
   -moz-border-radius: 2px;
   border-radius: 2px;
 }
-.content-view-embed .comment .comment-content-wrapper {
+.comment .comment-content-wrapper {
   display: block;
   position: relative;
   border: 1px solid #dbdbdc;
@@ -961,7 +989,7 @@ aside > .content-view-aside:last-child > article:last-child:after {
   background-repeat: repeat-x;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#f9f9f9', GradientType=0);
 }
-.content-view-embed .comment .comment-content-wrapper:before {
+.comment .comment-content-wrapper:before {
   content: "";
   display: block;
   position: absolute;
@@ -971,43 +999,44 @@ aside > .content-view-aside:last-child > article:last-child:after {
   height: 17px;
   background: transparent url('../images/ez-sprite.png') no-repeat -137px top;
 }
-.content-view-embed .comment .comment-content-wrapper .header,
-.content-view-embed .comment .comment-content-wrapper .comment-headline {
+.comment .comment-content-wrapper .header,
+.comment .comment-content-wrapper .comment-headline {
   display: block;
   *zoom: 1;
   border-bottom: 1px solid #ebebeb;
   padding: 0 0 2px 0;
   margin-bottom: 2px;
 }
-.content-view-embed .comment .comment-content-wrapper .header:before,
-.content-view-embed .comment .comment-content-wrapper .comment-headline:before,
-.content-view-embed .comment .comment-content-wrapper .header:after,
-.content-view-embed .comment .comment-content-wrapper .comment-headline:after {
+.comment .comment-content-wrapper .header:before,
+.comment .comment-content-wrapper .comment-headline:before,
+.comment .comment-content-wrapper .header:after,
+.comment .comment-content-wrapper .comment-headline:after {
   display: table;
   content: "";
 }
-.content-view-embed .comment .comment-content-wrapper .header:after,
-.content-view-embed .comment .comment-content-wrapper .comment-headline:after {
+.comment .comment-content-wrapper .header:after,
+.comment .comment-content-wrapper .comment-headline:after {
   clear: both;
 }
-.content-view-embed .comment .comment-content-wrapper .ezcom-comment-tool {
+.comment .comment-content-wrapper .ezcom-comment-tool {
   display: block;
   *zoom: 1;
   padding: 10px 0 0 0;
+  text-align: left;
 }
-.content-view-embed .comment .comment-content-wrapper .ezcom-comment-tool:before,
-.content-view-embed .comment .comment-content-wrapper .ezcom-comment-tool:after {
+.comment .comment-content-wrapper .ezcom-comment-tool:before,
+.comment .comment-content-wrapper .ezcom-comment-tool:after {
   display: table;
   content: "";
 }
-.content-view-embed .comment .comment-content-wrapper .ezcom-comment-tool:after {
+.comment .comment-content-wrapper .ezcom-comment-tool:after {
   clear: both;
 }
-.content-view-embed .comment-form {
+.comment-form {
   display: block;
   margin-bottom: 1em;
 }
-.content-view-embed .comment-form .logging-message {
+.comment-form .logging-message {
   margin-bottom: 10px;
 }
 .tags-wrapper {
@@ -1242,6 +1271,9 @@ aside > .content-view-aside:last-child > article:last-child:after {
 .attribute-comments .ezcom-function-title {
   border-bottom: 1px solid #ebebeb;
   margin-bottom: 10px;
+}
+.attribute-comments .ezcom-field {
+  padding: 0;
 }
 .attribute-comments .ezcom-field label {
   margin-bottom: 0;
@@ -4432,3 +4464,206 @@ a.thumbnail:hover {
   font-size: 150%;
   text-transform: none;
 }
+.ezsr-star-rating li a {
+  cursor: default;
+}
+.ezsr-star-rating-enabled li a {
+  cursor: pointer;
+}
+.ezsr-star-rating,
+.ezsr-star-rating a:hover,
+.ezsr-star-rating a:active,
+.ezsr-star-rating a:focus,
+.ezsr-star-rating .ezsr-current-rating {
+  background: url(../images/star.png) left -1000px repeat-x;
+}
+.ezsr-star-rating {
+  position: relative;
+  width: 125px;
+  height: 25px;
+  overflow: hidden;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background-position: left top;
+}
+.ezsr-star-rating li {
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+.ezsr-star-rating a,
+.ezsr-star-rating .ezsr-current-rating {
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-indent: -1000em;
+  height: 25px;
+  line-height: 25px;
+  outline: none;
+  overflow: hidden;
+  border: none;
+}
+.ezsr-star-rating-enabled a:hover,
+.ezsr-star-rating-enabled a:active,
+.ezsr-star-rating-enabled a:focus {
+  background-position: left bottom;
+}
+.ezsr-star-rating a.ezsr-stars-1 {
+  width: 20%;
+  z-index: 6;
+}
+.ezsr-star-rating a.ezsr-stars-2 {
+  width: 40%;
+  z-index: 5;
+}
+.ezsr-star-rating a.ezsr-stars-3 {
+  width: 60%;
+  z-index: 4;
+}
+.ezsr-star-rating a.ezsr-stars-4 {
+  width: 80%;
+  z-index: 3;
+}
+.ezsr-star-rating a.ezsr-stars-5 {
+  width: 100%;
+  z-index: 2;
+}
+.ezsr-star-rating .ezsr-current-rating {
+  z-index: 1;
+  background-position: left center;
+}
+span.ezsr_average_rating {
+  font-weight: bold;
+}
+.hreview-aggregate .fn {
+  display: none;
+}
+/* this is usually declared in core.css, but we redeclare it here in case the user does not include that file */
+.hide {
+  display: none;
+}
+/* COMMENT LIST */
+div.ezcom-view-list {
+  background-color: #ffffff;
+}
+div.ezcom-comment-title {
+  clear: both;
+  font-style: italic;
+}
+div.ezcom-comment-body {
+  clear: both;
+  padding-bottom: 5px;
+}
+div.ezcom-comment-body p,
+div.ezcom-comment-title span,
+div.ezcom-comment-index span {
+  color: #000000;
+  overflow: hidden;
+  padding: 4px;
+}
+div.ezcom-comment-author {
+  float: left;
+}
+div.ezcom-comment-time {
+  float: right;
+}
+input#recaptcha_response_field {
+  width: 50%;
+}
+div.ezcom-comment-tool {
+  clear: both;
+  text-align: right;
+  padding: 2px;
+}
+/* ----COMMENT LIST----- */
+/* ----FORM FIELD---- */
+span.ezcom-field-emailmessage {
+  font-size: 0.8em;
+}
+.ezcom-field-content textarea {
+  height: 100px;
+}
+.ezcom-field-mandatory {
+  color: #ff0000;
+  font-style: italic;
+}
+/*----FORM FIELD----*/
+/* ----COMMENT LIST IN CONTENT VIEW----- */
+div.attribute-comment {
+  padding-top: 20px;
+}
+div.ezcom-view-all p {
+  padding: 2px;
+  text-align: right;
+  font-style: italic;
+}
+/* ----COMMENT LIST IN CONTENT VIEW----- */
+/* ----COMMENT LIST - FULL VIEW----- */
+/* ----COMMENT LIST - FULL VIEW----- */
+/* ----COMMENT FUNCTION----- */
+/* ----COMMENT FUNCTION----- */
+/* ----ADDING COMMENT------- */
+div.ezcom-add,
+div.ezcom-edit {
+  background-color: #ffffff;
+}
+div.ezcom-field {
+  padding-left: 3px;
+  padding-right: 3px;
+  padding-top: 10px;
+}
+/* ----ADDING COMMENT------- */
+/*---- PAGING ----*/
+div.ezcom-page {
+  padding: 5px;
+  text-align: right;
+  background-color: #ffffff;
+}
+div.ezcom-page a {
+  padding: 1px;
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+}
+div.ezcom-page a:hover {
+  background-color: #eeeeee;
+}
+/*---- PAGING ----*/
+/*---- ERROR MESSGE ----*/
+div.ezcom-delete .message-confirmation,
+div.ezcom-add-result .message-error {
+  margin-left: auto;
+  margin-right: auto;
+}
+/*---- ERROR MESSGE ----*/
+/*-----SETTING------*/
+div.ezcom-setting-select {
+  float: left;
+  width: 130px;
+  display: inline;
+}
+div.ezcom-setting-count {
+  float: right;
+  width: 20%;
+  display: inline;
+}
+div.ezcom-setting-content {
+  display: inline;
+}
+div.ezcom-setting-head {
+  background-color: #f0f0f0;
+  padding: 5px;
+}
+div.ezcom-setting-row {
+  clear: both;
+  padding: 6px;
+  border-bottom: 1px solid #cccccc;
+}
+div.ezcom-setting {
+  background-color: #ffffff;
+}
+div.ezcom-setting-mail {
+  font-size: 1.25em;
+  padding: 1px;
+}
+/*-----SETTING------*/

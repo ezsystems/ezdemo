@@ -23,20 +23,5 @@
             {attribute_view_gui attribute=$node.data_map.body}
         </div>
 
-        {if $node.data_map.enable_comments.data_int}
-        <div class="attribute-comments">
-        <p>
-        {def $comment_count = fetch( 'content', 'list_count', hash( 'parent_node_id', $node.node_id,
-                                                                    'class_filter_type', 'include',
-                                                                    'class_filter_array', array( 'comment' ) ) )}
-        {if $comment_count|gt( 0 )}
-            <a href={concat( $node.url_alias, "#comments" )|ezurl}>{"View comments"|i18n("design/ezdemodesign/line/blog_post")} ({$comment_count})</a>
-        {else}
-            <a href={concat( $node.url_alias, "#comments" )|ezurl}>{"Add comment"|i18n("design/ezdemodesign/line/blog_post")}</a>
-        {/if}
-        </p>
-        </div>
-        {/if}
-
     </article>
 </div>
