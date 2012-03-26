@@ -1092,6 +1092,11 @@ class ezdemodesignInstaller extends eZSiteInstaller
                             'identifier' => 'call_for_action',
                             'name' => 'Call For Action',
                             'data_type_string' => 'ezpage'
+                        ),
+                        array(
+                            'identifier' => 'tags',
+                            'name' => 'Tags',
+                            'data_type_string' => 'ezkeyword'
                         )
                     )
                 )
@@ -3208,7 +3213,15 @@ class ezdemodesignInstaller extends eZSiteInstaller
                     'Match' => array( 
                         'class_identifier' => 'windows_media' 
                     ) 
-                ), 
+                ),
+                'full_video' => array(
+                    'Source' => 'node/view/full.tpl',
+                    'MatchFile' => 'full/video.tpl',
+                    'Subdir' => 'templates',
+                    'Match' => array(
+                        'class_identifier' => 'video'
+                    )
+                ),
                 'line_article' => array( 
                     'Source' => 'node/view/line.tpl', 
                     'MatchFile' => 'line/article.tpl', 
