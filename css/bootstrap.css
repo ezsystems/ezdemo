@@ -134,7 +134,8 @@ a:hover {
   color: #006a8d;
   text-decoration: underline;
 }
-a.teaser-link {
+a.teaser-link,
+.content-view-line .attribute-header a {
   color: #006a8d;
   -webkit-transition: color linear 0.2s;
   -moz-transition: color linear 0.2s;
@@ -143,9 +144,13 @@ a.teaser-link {
   transition: color linear 0.2s;
 }
 a.teaser-link h2,
+.content-view-line .attribute-header a h2,
 a.teaser-link h3,
+.content-view-line .attribute-header a h3,
 a.teaser-link h4,
-a.teaser-link h5 {
+.content-view-line .attribute-header a h4,
+a.teaser-link h5,
+.content-view-line .attribute-header a h5 {
   color: #006a8d;
   -webkit-transition: color linear 0.2s;
   -moz-transition: color linear 0.2s;
@@ -154,18 +159,28 @@ a.teaser-link h5 {
   transition: color linear 0.2s;
 }
 a.teaser-link:hover,
-a.teaser-link:focus {
+.content-view-line .attribute-header a:hover,
+a.teaser-link:focus,
+.content-view-line .attribute-header a:focus {
   text-decoration: none;
   color: #e57910;
 }
 a.teaser-link:hover h2,
+.content-view-line .attribute-header a:hover h2,
 a.teaser-link:focus h2,
+.content-view-line .attribute-header a:focus h2,
 a.teaser-link:hover h3,
+.content-view-line .attribute-header a:hover h3,
 a.teaser-link:focus h3,
+.content-view-line .attribute-header a:focus h3,
 a.teaser-link:hover h4,
+.content-view-line .attribute-header a:hover h4,
 a.teaser-link:focus h4,
+.content-view-line .attribute-header a:focus h4,
 a.teaser-link:hover h5,
-a.teaser-link:focus h5 {
+.content-view-line .attribute-header a:hover h5,
+a.teaser-link:focus h5,
+.content-view-line .attribute-header a:focus h5 {
   color: #e57910;
 }
 .highlighted a.teaser-link {
