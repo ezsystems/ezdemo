@@ -75,7 +75,11 @@
                      item_limit=$page_limit}
             </div>
             <div class="span4">
-                {include uri='design:parts/blog/extra_info.tpl' used_node=$node}
+                <aside>
+                    <section class="content-view-aside">
+                        {include uri='design:parts/blog/extra_info.tpl' used_node=$node}
+                    </section>
+                </aside>
             </div>
         </div>
     </div>
