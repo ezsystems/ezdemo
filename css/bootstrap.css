@@ -1290,6 +1290,9 @@ aside > .content-view-aside:last-child > article:last-child:after {
   float: left;
   margin: 0;
 }
+.attribute-star-rating > ul.ezsr-star-rating > li:before {
+  display: none;
+}
 .attribute-star-rating p {
   font-size: 13px;
 }
@@ -3689,6 +3692,7 @@ input[type="submit"].btn.small {
   -webkit-border-image: -webkit-linear-gradient(right, #ebebeb, rgba(235, 235, 235, 0)) 1 100%;
   -o-border-image: -o-linear-gradient(right, #ebebeb, rgba(235, 235, 235, 0)) 1 100%;
   -moz-border-image: -moz-linear-gradient(right, #ebebeb, end) 1 100%;
+  -o-border-image: none;
 }
 .navbar.extra-navi {
   position: relative;
