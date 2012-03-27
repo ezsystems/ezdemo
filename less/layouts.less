@@ -368,35 +368,37 @@ aside {
             padding-top: 10px;
         }
     }
-    .file-to-download {
-        display: block;
-        position: relative;
-    }
-    .file-to-download {
-        padding: 0 10px 0 60px;
-        min-height: 55px;
-        margin-bottom: 0.5em;
-        &:before {
-            content: "";
-            display: block;
-            position: absolute;
-            .sprite(transparent, -92px, -22px);
-            width: 36px;
-            height: 35px;
-            left: 8px;
-            top: 10px;
-        }
-        .header {
-            .clearfix();
-            padding: 5px 0;
-        }
-    }
 }
 
 
-.attribute-header + .comment {
-    #gradient > .vertical(@softwhite, @white);
-    border-top: 1px solid @grayLighter;
+.attribute-header {
+    + .comment,
+    + .file-to-download {
+        #gradient > .vertical(@softwhite, @white);
+        border-top: 1px solid @grayLighter;
+    }
+}
+
+.file-to-download {
+    display: block;
+    position: relative;
+    padding: 0 10px 0 60px;
+    min-height: 55px;
+    margin-bottom: 0.5em;
+    &:before {
+        content: "";
+        display: block;
+        position: absolute;
+        .sprite(transparent, -92px, -22px);
+        width: 36px;
+        height: 35px;
+        left: 8px;
+        top: 10px;
+    }
+    .header {
+        .clearfix();
+        padding: 5px 0;
+    }
 }
 
 .comment {
