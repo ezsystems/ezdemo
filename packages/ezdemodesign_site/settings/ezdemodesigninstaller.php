@@ -2918,6 +2918,15 @@ class ezdemodesignInstaller extends eZSiteInstaller
                         'view' => 'default'
                     ) 
                 ),
+                'block_feedback_form' => array(
+                    'Source' => 'block/view/view.tpl',
+                    'MatchFile' => 'block/feedback_form.tpl',
+                    'Subdir' => 'templates',
+                    'Match' => array(
+                        'type' => 'FeedbackForm',
+                        'view' => 'default'
+                    )
+                ),
                 'block_item_article' => array( 
                     'Source' => 'node/view/block_item.tpl', 
                     'MatchFile' => 'block_item/article.tpl', 
@@ -3761,6 +3770,30 @@ class ezdemodesignInstaller extends eZSiteInstaller
                     'Subdir' => 'templates',
                     'Match' => array(
                         'class_identifier' => 'article'
+                    )
+                ),
+                'ezstring_feedback_form' => array(
+                    'Source' => 'content/datatype/collect/ezstring.tpl',
+                    'MatchFile' => 'datatype/collect/ezstring_feedback_form.tpl',
+                    'Subdir' => 'templates',
+                    'Match' => array(
+                        'class_identifier' => 'feedback_form'
+                    )
+                ),
+                'ezemail_feedback_form' => array(
+                    'Source' => 'content/datatype/collect/ezemail.tpl',
+                    'MatchFile' => 'datatype/collect/ezemail_feedback_form.tpl',
+                    'Subdir' => 'templates',
+                    'Match' => array(
+                        'class_identifier' => 'feedback_form'
+                    )
+                ),
+                'eztext_feedback_form' => array(
+                    'Source' => 'content/datatype/collect/eztext.tpl',
+                    'MatchFile' => 'datatype/collect/eztext_feedback_form.tpl',
+                    'Subdir' => 'templates',
+                    'Match' => array(
+                        'class_identifier' => 'feedback_form'
                     )
                 ),
                 'factbox' => array( 
