@@ -8,7 +8,7 @@
 
 <div class="comment">
     <div class="profile-picture">
-        <img src="{'user.gif'|ezimage( 'no' )}" />
+        <img src="{'user.gif'|ezimage( 'no' )}" alt="{'Avatar'|i18n('design/ezdemodesign/comment/view')}" />
     </div>
     <div class="comment-content-wrapper">
         <div class="header">
@@ -56,7 +56,7 @@
                     {def $displayAttribute=''}
                 {/if}
                 <span{$displayAttribute}>
-                    <a href={concat( '/comment/edit/', $comment.id )|ezurl} class="btn btn-warning pull-right">{'Edit'|i18n('ezcomments/comment/view')}</a>
+                    <a href={concat( '/comment/edit/', $comment.id )|ezurl} class="btn btn-warning pull-right">{'Edit'|i18n('design/ezdemodesign/comment/view')}</a>
                 </span>
                 {undef $displayAttribute}
             {/if}
@@ -68,7 +68,7 @@
                 {/if}
                 <span {$displayAttribute}>
                     <a href={concat( '/comment/delete/',$comment.id )|ezurl} class="btn btn-danger">
-                        {'Delete'|i18n('ezcomments/comment/view')}
+                        {'Delete'|i18n('design/ezdemodesign/comment/view')}
                     </a>
                 </span>
                 {undef $displayAttribute}

@@ -1,7 +1,7 @@
 {* Feedback form - Full view *}
 
-<div class="content-view-full">
-    <div class="class-feedback-form">
+<section class="content-view-full">
+    <article class="class-feedback-form">
 
         <div class="attribute-header">
             <h1>{$node.name|wash()}</h1>
@@ -16,34 +16,43 @@
         </div>
         <form method="post" action={"content/action"|ezurl}>
 
-        <h4>{$node.data_map.sender_name.contentclass_attribute.name}</h4>
-        <div class="attribute-sender-name">
-                {attribute_view_gui attribute=$node.data_map.sender_name}
+        <div class="row">
+            <div class="span4">
+                <div class="attribute-sender-name">
+                    {attribute_view_gui attribute=$node.data_map.sender_name css_class='span4' label=$node.data_map.sender_name.contentclass_attribute.name}
+                </div>
+            </div>
+            <div class="span4">
+                <div class="attribute-email">
+                    {attribute_view_gui attribute=$node.data_map.email css_class='span4' label=$node.data_map.email.contentclass_attribute.name}
+                </div>
+            </div>
         </div>
 
-        <h4>{$node.data_map.email.contentclass_attribute.name}</h4>
-        <div class="attribute-email">
-                {attribute_view_gui attribute=$node.data_map.email}
+        <div class="row">
+            <div class="span8">
+                <div class="attribute-subject">
+                    {attribute_view_gui attribute=$node.data_map.subject css_class='span8' label=$node.data_map.subject.contentclass_attribute.name}
+                </div>
+            </div>
         </div>
 
-        <h4>{$node.data_map.subject.contentclass_attribute.name}</h4>
-        <div class="attribute-subject">
-                {attribute_view_gui attribute=$node.data_map.subject}
-        </div>
-
-        <h4>{$node.data_map.message.contentclass_attribute.name}</h4>
-        <div class="attribute-message">
-                {attribute_view_gui attribute=$node.data_map.message}
+        <div class="row">
+            <div class="span8">
+                <div class="attribute-subject">
+                    {attribute_view_gui attribute=$node.data_map.message css_class='span8' label=$node.data_map.message.contentclass_attribute.name}
+                </div>
+            </div>
         </div>
 
         <div class="content-action">
-            <input type="submit" class="defaultbutton" name="ActionCollectInformation" value="{"Send form"|i18n("design/ezdemodesign/full/feedback_form")}" />
+            <input type="submit" class="btn btn-warning pull-right" name="ActionCollectInformation" value="{"Send form"|i18n("design/ezdemodesign/full/feedback_form")}" />
             <input type="hidden" name="ContentNodeID" value="{$node.node_id}" />
             <input type="hidden" name="ContentObjectID" value="{$node.object.id}" />
             <input type="hidden" name="ViewMode" value="full" />
         </div>
         </form>
 
-    </div>
-</div>
+    </article>
+</section>
 

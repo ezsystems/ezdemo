@@ -3756,6 +3756,30 @@ class ezdemodesignInstaller extends eZSiteInstaller
                         'class_identifier' => 'article'
                     )
                 ),
+                'ezstring_feedback_form' => array(
+                    'Source' => 'content/datatype/collect/ezstring.tpl',
+                    'MatchFile' => 'datatype/collect/ezstring_feedback_form.tpl',
+                    'Subdir' => 'templates',
+                    'Match' => array(
+                        'class_identifier' => 'feedback_form'
+                    )
+                ),
+                'ezemail_feedback_form' => array(
+                    'Source' => 'content/datatype/collect/ezemail.tpl',
+                    'MatchFile' => 'datatype/collect/ezemail_feedback_form.tpl',
+                    'Subdir' => 'templates',
+                    'Match' => array(
+                        'class_identifier' => 'feedback_form'
+                    )
+                ),
+                'eztext_feedback_form' => array(
+                    'Source' => 'content/datatype/collect/eztext.tpl',
+                    'MatchFile' => 'datatype/collect/eztext_feedback_form.tpl',
+                    'Subdir' => 'templates',
+                    'Match' => array(
+                        'class_identifier' => 'feedback_form'
+                    )
+                ),
                 'factbox' => array( 
                     'Source' => 'content/datatype/view/ezxmltags/factbox.tpl', 
                     'MatchFile' => 'datatype/ezxmltext/factbox.tpl', 
