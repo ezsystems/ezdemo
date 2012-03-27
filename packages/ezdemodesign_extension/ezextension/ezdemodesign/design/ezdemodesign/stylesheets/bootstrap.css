@@ -911,6 +911,10 @@ aside > .content-view-aside:last-child > article:last-child:after {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f9f9f9', endColorstr='#ffffff', GradientType=0);
   border-top: 1px solid #ebebeb;
 }
+.content-view-children .attribute-header + .file-to-download {
+  border-top: none;
+  margin-top: -5px;
+}
 .file-to-download {
   display: block;
   position: relative;
