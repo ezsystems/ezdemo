@@ -1,22 +1,26 @@
 {* Product - Full view *}
 
+{set scope=global persistent_variable=hash('left_menu', false(),
+                                           'extra_menu', false())}
+
 <form method="post" action={"content/action"|ezurl}>
-<div class="content-view-full">
-    <div class="class-product">
+<section class="content-view-full">
+    <article class="class-product">
 
         <div class="attribute-header">
-        <h1>{$node.name|wash()}</h1>
+            <h1>{$node.name|wash()}</h1>
         </div>
         
         {if $node.data_map.image.has_content}
-        <div class="attribute-image">
-            {attribute_view_gui image_class=medium attribute=$node.data_map.image}
-            {if $node.data_map.caption.has_content}
-            <div class="caption">
-                {attribute_view_gui attribute=$node.data_map.caption}
+            <div class="attribute-image full-head">
+                {attribute_view_gui attribute=$node.data_map.image image_class=productimage}
+
+                {if $node.data_map.caption.has_content}
+                    <div class="attribute-caption">
+                        {attribute_view_gui attribute=$node.data_map.caption}
+                    </div>
+                {/if}
             </div>
-            {/if}
-        </div>
         {/if}
 
         <div class="attribute-product-number">
@@ -72,6 +76,6 @@
         </div>
        {/if}
        {undef $related_purchase}
-   </div>
-</div>
+   </article>
+</section>
 </form>

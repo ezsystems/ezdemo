@@ -898,38 +898,8 @@ aside > .content-view-aside:last-child > article:last-child:after {
 .content-view-embed .attribute-header  + form {
   padding-top: 10px;
 }
-.content-view-embed .file-to-download {
-  display: block;
-  position: relative;
-}
-.content-view-embed .file-to-download {
-  padding: 0 10px 0 60px;
-  min-height: 55px;
-  margin-bottom: 0.5em;
-}
-.content-view-embed .file-to-download:before {
-  content: "";
-  display: block;
-  position: absolute;
-  background: transparent url('../images/ez-sprite.png') no-repeat -92px -22px;
-  width: 36px;
-  height: 35px;
-  left: 8px;
-  top: 10px;
-}
-.content-view-embed .file-to-download .header {
-  *zoom: 1;
-  padding: 5px 0;
-}
-.content-view-embed .file-to-download .header:before,
-.content-view-embed .file-to-download .header:after {
-  display: table;
-  content: "";
-}
-.content-view-embed .file-to-download .header:after {
-  clear: both;
-}
-.attribute-header + .comment {
+.attribute-header + .comment,
+.attribute-header + .file-to-download {
   background-color: #fbfbfb;
   background-image: -moz-linear-gradient(top, #f9f9f9, #ffffff);
   background-image: -ms-linear-gradient(top, #f9f9f9, #ffffff);
@@ -940,6 +910,35 @@ aside > .content-view-aside:last-child > article:last-child:after {
   background-repeat: repeat-x;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f9f9f9', endColorstr='#ffffff', GradientType=0);
   border-top: 1px solid #ebebeb;
+}
+.file-to-download {
+  display: block;
+  position: relative;
+  padding: 0 10px 0 60px;
+  min-height: 55px;
+  margin-bottom: 0.5em;
+}
+.file-to-download:before {
+  content: "";
+  display: block;
+  position: absolute;
+  background: transparent url('../images/ez-sprite.png') no-repeat -92px -22px;
+  width: 36px;
+  height: 35px;
+  left: 8px;
+  top: 10px;
+}
+.file-to-download .header {
+  *zoom: 1;
+  padding: 5px 0;
+}
+.file-to-download .header:before,
+.file-to-download .header:after {
+  display: table;
+  content: "";
+}
+.file-to-download .header:after {
+  clear: both;
 }
 .comment {
   display: block;

@@ -75,9 +75,6 @@
                value="file" />
       <provide type="ezcontentclass"
                name="contentclass"
-               value="flash_player"/>
-      <provide type="ezcontentclass"
-               name="contentclass"
                value="image" />
       <provide type="ezcontentclass"
                name="contentclass"
@@ -143,9 +140,6 @@
           filename="class-file"
           sub-directory="ezcontentclass" />
     <item type="ezcontentclass"
-          filename="class-flash_player"
-          sub-directory="ezcontentclass" />
-    <item type="ezcontentclass"
           filename="class-image"
           sub-directory="ezcontentclass" />
     <item type="ezcontentclass"
@@ -206,9 +200,6 @@
           sub-directory="ezcontentclass" />
     <item type="ezcontentclass"
           filename="class-file"
-          sub-directory="ezcontentclass" />
-    <item type="ezcontentclass"
-          filename="class-flash_player"
           sub-directory="ezcontentclass" />
     <item type="ezcontentclass"
           filename="class-image"
