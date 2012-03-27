@@ -3478,7 +3478,7 @@ class ezdemodesignInstaller extends eZSiteInstaller
                     'Match' => array(
                         'class_identifier' => 'video'
                     )
-                ), 
+                ),
                 'edit_comment' => array( 
                     'Source' => 'content/edit.tpl', 
                     'MatchFile' => 'edit/comment.tpl', 

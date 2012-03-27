@@ -245,12 +245,12 @@
   <file name="itemized_sub_items.tpl" path="/design/ezdemodesign/override/templates/itemizedsubitems" md5sum="5205594ec7a6f019e13cd294b59802e4"/>
   <file name="wiki_page.tpl" path="/design/ezdemodesign/override/templates/itemizedsubitems" md5sum="885f07abd88a0d6344710645945b5715"/>
   <file name="line" path="/design/ezdemodesign/override/templates" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
-  <file name="article.tpl" path="/design/ezdemodesign/override/templates/line" md5sum="07529e10a2bf488b9f31b731e66f266b"/>
+  <file name="article.tpl" path="/design/ezdemodesign/override/templates/line" md5sum="85eda7553d87b2b8aafc6c514e127b00"/>
   <file name="article_mainpage.tpl" path="/design/ezdemodesign/override/templates/line" md5sum="282bf1a845887d6ad45a909d0b999d47"/>
   <file name="article_subpage.tpl" path="/design/ezdemodesign/override/templates/line" md5sum="f09404ed4d2fe1dc6cc95ec23f60c0ad"/>
   <file name="banner.tpl" path="/design/ezdemodesign/override/templates/line" md5sum="76e131107d69d532d64c2de765d5b414"/>
   <file name="blog.tpl" path="/design/ezdemodesign/override/templates/line" md5sum="5ab188919c82ebd2df53195bc45e33d4"/>
-  <file name="blog_post.tpl" path="/design/ezdemodesign/override/templates/line" md5sum="d93a9ca7cab959e097ab496f02b47e69"/>
+  <file name="blog_post.tpl" path="/design/ezdemodesign/override/templates/line" md5sum="88e87839f7701523045de74352e99e65"/>
   <file name="comment.tpl" path="/design/ezdemodesign/override/templates/line" md5sum="0f20af7b8aee22b599b09627fe0bea9b"/>
   <file name="event.tpl" path="/design/ezdemodesign/override/templates/line" md5sum="fd3549b4749e880fecf1359e218e9a3c"/>
   <file name="event_calendar.tpl" path="/design/ezdemodesign/override/templates/line" md5sum="abe871252626c075e52dcbc0d564153b"/>
@@ -273,6 +273,7 @@
   <file name="quicktime.tpl" path="/design/ezdemodesign/override/templates/line" md5sum="3d7f2e79916dc536dba6ce10a4304279"/>
   <file name="real_video.tpl" path="/design/ezdemodesign/override/templates/line" md5sum="3da19c95278abd21aca6231256acc0af"/>
   <file name="silverlight.tpl" path="/design/ezdemodesign/override/templates/line" md5sum="b6ff731eec1b8246a4efa18822c8c076"/>
+  <file name="video.tpl" path="/design/ezdemodesign/override/templates/line" md5sum="d461b9786366ddde9212594a5f0198ad"/>
   <file name="wiki_page.tpl" path="/design/ezdemodesign/override/templates/line" md5sum="3e6998a6ba6107e0330828eb87be336d"/>
   <file name="windows_media.tpl" path="/design/ezdemodesign/override/templates/line" md5sum="957e08e444f36b36c40465aa0570335f"/>
   <file name="listitem" path="/design/ezdemodesign/override/templates" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
