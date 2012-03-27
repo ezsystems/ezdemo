@@ -163,7 +163,23 @@ aside {
         color: @orange;
         font-family: @specialFontFamily;
         font-size: 26px;
-        font-weight: 400;
+        font-weight: 500;
+        .old-price {
+            color: @red;
+            text-decoration: line-through;
+        }
+    }
+    .product-main {
+        > .attribute-header {
+            h2 {
+                font-size: 26px;
+                font-weight: 500;
+            }
+            .subheadline {
+                color: @gray;
+                font-size: 13px;
+            }
+        }
     }
 }
 
