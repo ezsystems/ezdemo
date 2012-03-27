@@ -12,6 +12,7 @@ AllowedTypes[]=TagCloud
 AllowedTypes[]=Poll
 AllowedTypes[]=ItemList
 AllowedTypes[]=FeedReader
+AllowedTypes[]=FeedbackForm
 
 [Campaign]
 Name=Campaign
@@ -119,6 +120,15 @@ CustomAttributes[]
 CustomAttributes[]=source
 CustomAttributes[]=limit
 CustomAttributes[]=offset
+ViewList[]
+ViewList[]=default
+ViewName[default]=Default
+
+[FeedbackForm]
+Name=Feedback Form
+NumberOfValidItems=1
+NumberOfArchivedItems=5
+ManualAddingOfItems=enabled
 ViewList[]
 ViewList[]=default
 ViewName[default]=Default

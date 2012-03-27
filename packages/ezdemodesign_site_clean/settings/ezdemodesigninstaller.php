@@ -2910,7 +2910,16 @@ class ezdemodesignInstaller extends eZSiteInstaller
                         'type' => 'FeedReader',
                         'view' => 'default'
                     ) 
-                ), 
+                ),
+                'block_feedback_form' => array(
+                    'Source' => 'block/view/view.tpl',
+                    'MatchFile' => 'block/feedback_form.tpl',
+                    'Subdir' => 'templates',
+                    'Match' => array(
+                        'type' => 'FeedbackForm',
+                        'view' => 'default'
+                    )
+                ),
                 'block_item_article' => array( 
                     'Source' => 'node/view/block_item.tpl', 
                     'MatchFile' => 'block_item/article.tpl', 
