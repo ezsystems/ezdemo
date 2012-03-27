@@ -30,9 +30,9 @@
             </span>
         {/if}
             <a href="{$node.url_alias|ezurl( 'no' )}" class="comments">
-                {fetch( 'content', 'list_count', hash( 'parent_node_id', $node.node_id,
-                                                       'class_filter_type', 'include',
-                                                       'class_filter_array', array( 'comment' ) ) )}
+                {fetch( 'comment', 'comment_count', hash( 'contentobject_id', $node.contentobject_id,
+                                                          'language_id', $node.data_map.comments.language_id,
+                                                          'status', '1' ) )}
             </a>
         </div>
 
