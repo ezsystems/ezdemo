@@ -629,6 +629,35 @@ aside > .content-view-aside:first-child {
   /* W3C */
 
 }
+aside > .content-view-aside .product-main {
+  *zoom: 1;
+}
+aside > .content-view-aside .product-main:before,
+aside > .content-view-aside .product-main:after {
+  display: table;
+  content: "";
+}
+aside > .content-view-aside .product-main:after {
+  clear: both;
+}
+aside > .content-view-aside .product-main .attribute-header .subheadline {
+  display: block;
+  padding: 0 20px 5px 20px;
+  margin-top: -12px;
+}
+aside > .content-view-aside .product-main form {
+  margin-bottom: 0;
+}
+aside > .content-view-aside .product-main form .item-price {
+  margin-bottom: 20px;
+}
+aside > .content-view-aside .product-main form .item-buying-action label {
+  width: 50px;
+  padding-right: 18px;
+}
+aside > .content-view-aside .product-main form .item-buying-action label input {
+  width: 100%;
+}
 aside > .content-view-aside article,
 aside > .content-view-aside .block-content {
   display: block;
@@ -1261,6 +1290,9 @@ aside > .content-view-aside:last-child > article:last-child:after {
   float: left;
   margin: 0;
 }
+.attribute-star-rating > ul.ezsr-star-rating > li:before {
+  display: none;
+}
 .attribute-star-rating p {
   font-size: 13px;
 }
@@ -1495,7 +1527,20 @@ aside .item-price {
   color: #e57910;
   font-family: "Ubuntu", Helvetica, Arial, sans-serif;
   font-size: 26px;
-  font-weight: 400;
+  font-weight: 500;
+}
+aside .item-price .old-price {
+  color: #e20008;
+  text-decoration: line-through;
+}
+aside .product-main > .attribute-header h2 {
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 34px;
+}
+aside .product-main > .attribute-header .subheadline {
+  color: #aeaeae;
+  font-size: 13px;
 }
 ul,
 ol {
@@ -3648,6 +3693,7 @@ input[type="submit"].btn.small {
   -webkit-border-image: -webkit-linear-gradient(right, #ebebeb, rgba(235, 235, 235, 0)) 1 100%;
   -o-border-image: -o-linear-gradient(right, #ebebeb, rgba(235, 235, 235, 0)) 1 100%;
   -moz-border-image: -moz-linear-gradient(right, #ebebeb, end) 1 100%;
+  -o-border-image: none;
 }
 .navbar.extra-navi {
   position: relative;
