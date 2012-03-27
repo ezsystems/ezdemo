@@ -370,7 +370,6 @@ aside {
     }
 }
 
-
 .attribute-header {
     + .comment,
     + .file-to-download {
@@ -378,6 +377,14 @@ aside {
         border-top: 1px solid @grayLighter;
     }
 }
+
+.content-view-children .attribute-header {
+    + .file-to-download {
+        border-top: none;
+        margin-top: -5px;
+    }
+}
+
 
 .file-to-download {
     display: block;
