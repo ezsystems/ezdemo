@@ -32,7 +32,7 @@ Filters[]=geometry/scalewidthdownonly=770
 [contentgrid]
 Reference=original
 Filters[]=geometry/scalewidthdownonly=370
-Filters[]=geometry/crop=370;140;0;0
+Filters[]=geometry/crop=370;160;0;0
 
 [gallery]
 Reference=original

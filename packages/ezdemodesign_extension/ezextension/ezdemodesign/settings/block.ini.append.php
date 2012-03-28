@@ -13,6 +13,7 @@ AllowedTypes[]=Poll
 AllowedTypes[]=ItemList
 AllowedTypes[]=FeedReader
 AllowedTypes[]=FeedbackForm
+AllowedTypes[]=HighlightedItem
 
 [Campaign]
 Name=Campaign
@@ -126,6 +127,15 @@ ViewName[default]=Default
 
 [FeedbackForm]
 Name=Feedback Form
+NumberOfValidItems=1
+NumberOfArchivedItems=5
+ManualAddingOfItems=enabled
+ViewList[]
+ViewList[]=default
+ViewName[default]=Default
+
+[HighlightedItem]
+Name=Highlighted Item
 NumberOfValidItems=1
 NumberOfArchivedItems=5
 ManualAddingOfItems=enabled

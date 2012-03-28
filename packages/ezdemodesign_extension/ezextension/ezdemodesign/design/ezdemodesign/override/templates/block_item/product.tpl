@@ -21,15 +21,15 @@
         <form method="post" action={"content/action"|ezurl}>
             <fieldset>
                 <div class="item-price">
-                    {$node.object.data_map.price.content.inc_vat_price|l10n( 'currency' )}
+                    {$node.data_map.price.content.inc_vat_price|l10n( 'currency' )}
                 </div>
                 <div class="item-buying-action form-inline">
                     <label>
-                        <span class="hidden">{'Amount'i18n("design/ezdemodesign/block_item/product")}</span>
+                        <span class="hidden">{'Amount'|i18n("design/ezdemodesign/block_item/product")}</span>
                         <input type="text" name="Quantity" />
                     </label>
                     <button class="btn btn-warning" type="submit" name="ActionAddToBasket">
-                        {'Buy'i18n("design/ezdemodesign/block_item/product")}
+                        {'Buy'|i18n("design/ezdemodesign/block_item/product")}
                     </button>
                 </div>
             </fieldset>

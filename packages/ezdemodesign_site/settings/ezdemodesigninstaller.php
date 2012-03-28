@@ -2927,6 +2927,15 @@ class ezdemodesignInstaller extends eZSiteInstaller
                         'view' => 'default'
                     )
                 ),
+                'block_highlighted_item' => array(
+                    'Source' => 'block/view/view.tpl',
+                    'MatchFile' => 'block/highlighted_item.tpl',
+                    'Subdir' => 'templates',
+                    'Match' => array(
+                        'type' => 'HighlightedItem',
+                        'view' => 'default'
+                    )
+                ),
                 'block_item_article' => array( 
                     'Source' => 'node/view/block_item.tpl', 
                     'MatchFile' => 'block_item/article.tpl', 

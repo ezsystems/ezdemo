@@ -20,30 +20,30 @@
                     <a href="{$node.url_alias|ezurl( 'no' )}" class="teaser-link" title="{$node.name|wash()}">{$node.name|wash()}</a>
                 </h2>
                 <div class="product-number">
-                    {attribute_view_gui attribute=$node.object.data_map.product_number}
+                    {attribute_view_gui attribute=$node.data_map.product_number}
                 </div>
             </div>
 
             <div class="attribute-short">
-               {attribute_view_gui attribute=$node.object.data_map.short_description}
+               {attribute_view_gui attribute=$node.data_map.short_description}
             </div>
 
             <form method="post" action={"content/action"|ezurl}>
                 <fieldset class="row">
                     <div class="span{$content_size|div( '2' )}">
-                        {attribute_view_gui attribute=$node.object.data_map.additional_options}
+                        {attribute_view_gui attribute=$node.data_map.additional_options}
                     </div>
                     <div class="span{$content_size|div( '2' )}">
                         <div class="item-price">
-                            {attribute_view_gui attribute=$node.object.data_map.price}
+                            {attribute_view_gui attribute=$node.data_map.price}
                         </div>
                         <div class="item-buying-action form-inline">
                             <label>
-                                <span class="hidden">{'Amount'i18n("design/ezdemodesign/line/product")}</span>
+                                <span class="hidden">{'Amount'|i18n("design/ezdemodesign/line/product")}</span>
                                 <input class="span1" type="text" name="Quantity" />
                             </label>
                             <button class="btn btn-warning" type="submit" name="ActionAddToBasket">
-                                {'Buy'i18n("design/ezdemodesign/line/product")}
+                                {'Buy'|i18n("design/ezdemodesign/line/product")}
                             </button>
                         </div>
                     </div>

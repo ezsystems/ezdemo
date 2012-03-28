@@ -1535,6 +1535,7 @@ aside .item-price .old-price {
 aside .product-main > .attribute-header h2 {
   font-size: 26px;
   font-weight: 500;
+  line-height: 34px;
 }
 aside .product-main > .attribute-header .subheadline {
   color: #aeaeae;

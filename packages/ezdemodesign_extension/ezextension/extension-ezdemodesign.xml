@@ -131,6 +131,7 @@
   <file name="gallery_gmap.tpl" path="/design/ezdemodesign/override/templates/block" md5sum="3285f43040cd3d4914eb33c438af8cc5"/>
   <file name="geo_located_content.tpl" path="/design/ezdemodesign/override/templates/block" md5sum="445e8e95c41c56d629fa121308ca5d3b"/>
   <file name="gmap.tpl" path="/design/ezdemodesign/override/templates/block" md5sum="e1eb2765d78153cd404daf7ea6f7d7c1"/>
+  <file name="highlighted_item.tpl" path="/design/ezdemodesign/override/templates/block" md5sum="0580d85588314c495292628d0c1b999b"/>
   <file name="item_list.tpl" path="/design/ezdemodesign/override/templates/block" md5sum="0273a2f6bb59654ea1e71833b10f3254"/>
   <file name="keyword.tpl" path="/design/ezdemodesign/override/templates/block" md5sum="af0c8781760a48a80f4aeeb6b444e154"/>
   <file name="latest_content.tpl" path="/design/ezdemodesign/override/templates/block" md5sum="84b46c96efe4ebe8a1d907780a272f4e"/>
@@ -149,7 +150,7 @@
   <file name="article.tpl" path="/design/ezdemodesign/override/templates/block_item" md5sum="2786d851754021830bb67f013712b8d6"/>
   <file name="comment.tpl" path="/design/ezdemodesign/override/templates/block_item" md5sum="25cfcc1abbe4892f8ed47400e81500d6"/>
   <file name="image.tpl" path="/design/ezdemodesign/override/templates/block_item" md5sum="cc7e2438844b48fcd4f1856c11c924f0"/>
-  <file name="product.tpl" path="/design/ezdemodesign/override/templates/block_item" md5sum="8955c5be2c2eb0aa9318b0abf590228d"/>
+  <file name="product.tpl" path="/design/ezdemodesign/override/templates/block_item" md5sum="b5c4d2bad2045bb94064772a632d9905"/>
   <file name="datatype" path="/design/ezdemodesign/override/templates" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
   <file name="collect" path="/design/ezdemodesign/override/templates/datatype" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
   <file name="ezemail_feedback_form.tpl" path="/design/ezdemodesign/override/templates/datatype/collect" md5sum="57de2e8c8e30a2317e20f6337110691f"/>
@@ -220,7 +221,7 @@
   <file name="link.tpl" path="/design/ezdemodesign/override/templates/full" md5sum="2561b31f0ca60ed95c341864a73009a3"/>
   <file name="multicalendar.tpl" path="/design/ezdemodesign/override/templates/full" md5sum="50844d489be9fcb79f12ef7d0b1a6646"/>
   <file name="poll.tpl" path="/design/ezdemodesign/override/templates/full" md5sum="0ff4c337e3deef544bcd435582ee03a3"/>
-  <file name="product.tpl" path="/design/ezdemodesign/override/templates/full" md5sum="897fbe042a90c8721386ab1337cec843"/>
+  <file name="product.tpl" path="/design/ezdemodesign/override/templates/full" md5sum="ab1b4cbf0e5e49c003d08ccbd41bbc9d"/>
   <file name="quicktime.tpl" path="/design/ezdemodesign/override/templates/full" md5sum="a259bd4e3911c4d11b3bc9ce195c5bfe"/>
   <file name="real_video.tpl" path="/design/ezdemodesign/override/templates/full" md5sum="59fe08c4a96d1035043723803f9ceaf5"/>
   <file name="silverlight.tpl" path="/design/ezdemodesign/override/templates/full" md5sum="9e139463f83342767563e689acecc3a2"/>
@@ -262,14 +263,14 @@
   <file name="forum_reply.tpl" path="/design/ezdemodesign/override/templates/line" md5sum="aa9ece04619a57122803a1c737e7f364"/>
   <file name="forum_topic.tpl" path="/design/ezdemodesign/override/templates/line" md5sum="5bfdc87dded0456f9cf1c174480c791f"/>
   <file name="forums.tpl" path="/design/ezdemodesign/override/templates/line" md5sum="5360db79d77559fe45a7c35ce7bf365b"/>
-  <file name="gallery.tpl" path="/design/ezdemodesign/override/templates/line" md5sum="ed03b8810f4b780bf68c0eb36fb19b50"/>
+  <file name="gallery.tpl" path="/design/ezdemodesign/override/templates/line" md5sum="1364a5c734ff87a562571ba6e1121214"/>
   <file name="geo_article.tpl" path="/design/ezdemodesign/override/templates/line" md5sum="434d6c5735137529b09b9ebed67fe099"/>
   <file name="image.tpl" path="/design/ezdemodesign/override/templates/line" md5sum="4f57cc823bd0d6aa1dae1f05581eb96d"/>
   <file name="infobox.tpl" path="/design/ezdemodesign/override/templates/line" md5sum="a099d89d96d8480725d73cddf9a383fc"/>
   <file name="link.tpl" path="/design/ezdemodesign/override/templates/line" md5sum="6f6bd86df7580ce0a11585f33aa0bf3f"/>
   <file name="multicalendar.tpl" path="/design/ezdemodesign/override/templates/line" md5sum="30da5178b46dbc380b6e8d1c600b19f1"/>
   <file name="poll.tpl" path="/design/ezdemodesign/override/templates/line" md5sum="b48216b7aacae139f11ef319365b7bd1"/>
-  <file name="product.tpl" path="/design/ezdemodesign/override/templates/line" md5sum="9d17530bf5421d7bb521e4887c6a9bd7"/>
+  <file name="product.tpl" path="/design/ezdemodesign/override/templates/line" md5sum="9d11a348f9304ed72fb52d6c22a71738"/>
   <file name="quicktime.tpl" path="/design/ezdemodesign/override/templates/line" md5sum="3d7f2e79916dc536dba6ce10a4304279"/>
   <file name="real_video.tpl" path="/design/ezdemodesign/override/templates/line" md5sum="3da19c95278abd21aca6231256acc0af"/>
   <file name="silverlight.tpl" path="/design/ezdemodesign/override/templates/line" md5sum="b6ff731eec1b8246a4efa18822c8c076"/>
@@ -280,7 +281,7 @@
   <file name="article.tpl" path="/design/ezdemodesign/override/templates/listitem" md5sum="ee921a1d24776e8e22f8adf262dd29c7"/>
   <file name="image.tpl" path="/design/ezdemodesign/override/templates/listitem" md5sum="2989d063d0fffb53bab61f3dcd19bc51"/>
   <file name="stylesheets" path="/design/ezdemodesign" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
-  <file name="bootstrap.css" path="/design/ezdemodesign/stylesheets" md5sum="aca438f65d1e9b944840aa412ad3a605"/>
+  <file name="bootstrap.css" path="/design/ezdemodesign/stylesheets" md5sum="a2d146fe90e54280345d085396f4a0a7"/>
   <file name="comment.css" path="/design/ezdemodesign/stylesheets" md5sum="d41d8cd98f00b204e9800998ecf8427e"/>
   <file name="ezdhtml" path="/design/ezdemodesign/stylesheets" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
   <file name="toolbar.css" path="/design/ezdemodesign/stylesheets/ezdhtml" md5sum="ecaf038659962aac7cdcf931b2b86167"/>
@@ -462,12 +463,12 @@
   <file name="LICENSE" md5sum="0636e73ff0215e8d672dc4c32c317bb3"/>
   <file name="README" md5sum="d41d8cd98f00b204e9800998ecf8427e"/>
   <file name="settings" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
-  <file name="block.ini.append.php" path="/settings" md5sum="1415179a6091db57712edda58573fbdc"/>
+  <file name="block.ini.append.php" path="/settings" md5sum="98534f842ecd83e7f930c2110a9b14d5"/>
   <file name="content.ini.append.php" path="/settings" md5sum="9a4ef1a360def5a03529967474b99116"/>
   <file name="design.ini.append.php" path="/settings" md5sum="4693d6d3375b8ecc70418009d14f398f"/>
   <file name="ezoe_attributes.ini.append.php" path="/settings" md5sum="e3471df1db510285225dcb426e365abf"/>
   <file name="ezxml.ini.append.php" path="/settings" md5sum="d0ff8dcbf436a4103fe781f6c03efa88"/>
-  <file name="image.ini.append.php" path="/settings" md5sum="0d9f42b73d4962a38d12f522745a4e70"/>
+  <file name="image.ini.append.php" path="/settings" md5sum="fef788cfb9af46a0c76209b183765a9d"/>
   <file name="menu.ini.append.php" path="/settings" md5sum="e884449a1d5d52bebbc8f091e267362a"/>
   <file name="site.ini.append.php" path="/settings" md5sum="cf233ed91b99046fc5c847acd738e317"/>
   <file name="template.ini.append.php" path="/settings" md5sum="93260637cf03db6f1137f98aaa705cfc"/>
