@@ -740,7 +740,7 @@
                 <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="491" ezremote:identifier="image" name="Image" type="ezimage" image-file-key="c292efaba899d1e2bf49a86e5aecbc30" alternative-text="Etna"/>
                 <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="492" ezremote:identifier="caption" name="Caption (Image)" type="ezxmltext">
                   <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
-                    <paragraph>Mount Etna photographed by <link href="http://www.flickr.com/photos/59948030@N04/">bellamira</link> / Flickr, CC License.</paragraph>
+                    <paragraph>Mount Etna photographed by <link href="http://www.flickr.com/photos/vermazeren/">Arend Vermazeren</link> / Flickr, CC License.</paragraph>
                   </section>
                 </ezobject:attribute>
                 <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="493" ezremote:identifier="publish_date" name="Publish date" type="ezdatetime">
