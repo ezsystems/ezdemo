@@ -8,7 +8,6 @@ TopIdentifierList[]=forum
 TopIdentifierList[]=wiki_page
 TopIdentifierList[]=forums
 TopIdentifierList[]=event_calendar
-TopIdentifierList[]=multicalendar
 TopIdentifierList[]=link
 TopIdentifierList[]=blog
 TopIdentifierList[]=landing_page
@@ -20,10 +19,20 @@ LeftIdentifierList[]=forum
 LeftIdentifierList[]=wiki_page
 LeftIdentifierList[]=forums
 LeftIdentifierList[]=event_calendar
-LeftIdentifierList[]=multicalendar
 LeftIdentifierList[]=link
 LeftIdentifierList[]=blog
 LeftIdentifierList[]=landing_page
+
+RightIdentifierList[]=folder
+RightIdentifierList[]=feedback_form
+RightIdentifierList[]=gallery
+RightIdentifierList[]=forum
+RightIdentifierList[]=wiki_page
+RightIdentifierList[]=forums
+RightIdentifierList[]=event_calendar
+RightIdentifierList[]=link
+RightIdentifierList[]=blog
+RightIdentifierList[]=landing_page
 
 # Classes to use in extra menu (infobox)
 #ExtraIdentifierList[]

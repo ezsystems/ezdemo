@@ -58,7 +58,7 @@ ViewName[4_columns_2_rows]=4 columns 2 rows
 
 [Gallery]
 Name=Gallery
-NumberOfValidItems=5
+NumberOfValidItems=8
 NumberOfArchivedItems=5
 ManualAddingOfItems=enabled
 ViewList[]
