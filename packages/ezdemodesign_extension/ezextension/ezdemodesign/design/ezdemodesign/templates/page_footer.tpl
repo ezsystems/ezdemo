@@ -1,4 +1,6 @@
 <!-- Footer area: START -->
+{def $feedback_form_class = fetch( 'content', 'class', hash( 'class_id', 'feedback_form' ) )
+     $feedback_form = $feedback_form_class.object_list[0]}
 <footer>
     <div class="claim-wrapper">
         <div class="container">
@@ -10,51 +12,16 @@
     <div class="container">
         <div class="row">
             <div class="span4">
-                <h3>About</h3>
-                <address>
-                    <strong>eZ Systems</strong><br>
-                    Klostergata 30<br>
-                    3732 Skien, Norway<br>
-                    +47 22 22 09 50
-                </address>
+                {include uri='design:footer/address.tpl' node=$feedback_form}
             </div>
             <div class="span4 nav-collapse">
-                <h3>Recent new</h3>
-                <ul class="ez-pointer">
-                    <li><a href="#">Mannen som eide kverna</a></li>
-                    <li><a href="#">Dyrt &aring; komme for sent til festen</a></li>
-                    <li><a href="#">Positive til elbiler, men vil ikke ha dem</a></li>
-                    <li><a href="#">Verdens beste land &aring; investere i</a></li>
-                    <li><a href="#">Grensel&oslash;s publisering</a></li>
-                </ul>
+                {include uri='design:footer/latest_news.tpl'}
             </div>
             <div class="span4 nav-collapse">
-                <h3>Get in touch</h3>
-                <form method="get" action="#" class="contact-form" id="contact-form">
-                    <fieldset>
-                        <label>
-                            <span class="hidden">Name</span>
-                            <input type="text" name="contact-form-name" id="contact-form-name" placeholder="Name">
-                        </label>
-                        <label>
-                            <span class="hidden">Phone</span>
-                            <input type="text" name="contact-form-phone" id="contact-form-phone" placeholder="Phone">
-                        </label>
-                        <label>
-                            <span class="hidden">E-mail</span>
-                            <input type="text" name="contact-form-email" id="contact-form-email" placeholder="E-Mail">
-                        </label>
-                        <label>
-                            <span class="hidden">Message</span>
-                            <textarea id="contact-form-message" name="contact-form-message" placeholder="Message" rows="3"></textarea>
-                        </label>
-                        <div class="actions">
-                            <button type="submit" class="btn btn-mini btn-warning pull-right">Send</button>
-                        </div>
-                    </fieldset>
-                </form>
+                {include uri='design:footer/feedback_form.tpl' node=$feedback_form}
             </div>
         </div>
     </div>
 </footer>
 <!-- Footer area: END -->
+{undef $feedback_form_class $feedback_form}
