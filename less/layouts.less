@@ -165,7 +165,21 @@ aside {
                     padding: 8px 20px;
                 }
                 ul {
-                    display: none;
+                    padding: 0;
+                    margin: 0;
+                    > li {
+                        a {
+                            padding-left: 40px;
+                        }
+                        &:first-child {
+                            border-top: 1px solid @grayLight;
+                            #border-gradient > .left-to-right(1px 0 1px 0, @grayLight, fadeout(@grayLight, 100%));
+                        }
+                        &:last-child {
+                            border-bottom: none;
+                            #border-gradient > .left-to-right(0 0 0 0, @grayLight, fadeout(@grayLight, 100%));
+                        }
+                    }
                 }
                 &.active {
                     > a {
@@ -174,21 +188,6 @@ aside {
                     ul {
                         display: block;
                         background-color: fadeout(@white, 25%);
-                        padding: 0;
-                        margin: 0;
-                        > li {
-                            a {
-                                padding-left: 40px;
-                            }
-                            &:first-child {
-                                border-top: 1px solid @grayLight;
-                                #border-gradient > .left-to-right(1px 0 1px 0, @grayLight, fadeout(@grayLight, 100%));
-                            }
-                            &:last-child {
-                                border-bottom: none;
-                                #border-gradient > .left-to-right(0 0 0 0, @grayLight, fadeout(@grayLight, 100%));
-                            }
-                        }
                     }
                 }
             }

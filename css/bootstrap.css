@@ -575,21 +575,13 @@ aside > .subnavigation > ul li a {
   padding: 8px 20px;
 }
 aside > .subnavigation > ul li ul {
-  display: none;
-}
-aside > .subnavigation > ul li.active > a {
-  background-color: #ffffff;
-}
-aside > .subnavigation > ul li.active ul {
-  display: block;
-  background-color: rgba(255, 255, 255, 0.75);
   padding: 0;
   margin: 0;
 }
-aside > .subnavigation > ul li.active ul > li a {
+aside > .subnavigation > ul li ul > li a {
   padding-left: 40px;
 }
-aside > .subnavigation > ul li.active ul > li:first-child {
+aside > .subnavigation > ul li ul > li:first-child {
   border-top: 1px solid #dbdbdc;
   border-width: 1px 0 1px 0;
   -webkit-border-image: -webkit-gradient(linear, 100% 0, 0 0, from(#dbdbdc), to(rgba(219, 219, 220, 0))) 1 100%;
@@ -597,13 +589,20 @@ aside > .subnavigation > ul li.active ul > li:first-child {
   -o-border-image: -o-linear-gradient(right, #dbdbdc, rgba(219, 219, 220, 0)) 1 100%;
   -moz-border-image: -moz-linear-gradient(right, #dbdbdc, end) 1 100%;
 }
-aside > .subnavigation > ul li.active ul > li:last-child {
+aside > .subnavigation > ul li ul > li:last-child {
   border-bottom: none;
   border-width: 0 0 0 0;
   -webkit-border-image: -webkit-gradient(linear, 100% 0, 0 0, from(#dbdbdc), to(rgba(219, 219, 220, 0))) 1 100%;
   -webkit-border-image: -webkit-linear-gradient(right, #dbdbdc, rgba(219, 219, 220, 0)) 1 100%;
   -o-border-image: -o-linear-gradient(right, #dbdbdc, rgba(219, 219, 220, 0)) 1 100%;
   -moz-border-image: -moz-linear-gradient(right, #dbdbdc, end) 1 100%;
+}
+aside > .subnavigation > ul li.active > a {
+  background-color: #ffffff;
+}
+aside > .subnavigation > ul li.active ul {
+  display: block;
+  background-color: rgba(255, 255, 255, 0.75);
 }
 aside > .content-view-aside {
   position: relative;
