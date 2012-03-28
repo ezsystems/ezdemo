@@ -3951,7 +3951,8 @@ class ezdemodesignInstaller extends eZSiteInstaller
                         '10' => 'logo', 
                         '11' => 'infoboximage', 
                         '12' => 'billboard',
-                        '13' => 'productthumbnail'
+                        '13' => 'productthumbnail',
+                        '14' => 'productimage'
                     ) 
                 ), 
                 'small' => array( 
@@ -4036,6 +4037,12 @@ class ezdemodesignInstaller extends eZSiteInstaller
                     'Reference' => '',
                     'Filters' => array(
                         '0' => 'geometry/scaledownonly=170;220'
+                    )
+                ),
+                'productimage' => array(
+                    'Reference' => '',
+                    'Filters' => array(
+                        '0' => 'geometry/scaledownwidthonly=770'
                     )
                 )
             ) 
