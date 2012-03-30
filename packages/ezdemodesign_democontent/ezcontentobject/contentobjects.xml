@@ -81,9 +81,6 @@
                               </zone>
                             </page>
                         </ezobject:attribute>
-                        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="202" ezremote:identifier="tags" name="Tags" type="ezkeyword">
-                            <keyword-string></keyword-string>
-                        </ezobject:attribute>
                     </ezobject:object-translation>
                     <ezobject:node-assignment-list>
                         <node-assignment is-main-node="1" name="Home" node-id="2" remote-id="07cdfd23373b17c6b337251c22b7ea57" sort-field="priority" sort-order="1" priority="0"/>
