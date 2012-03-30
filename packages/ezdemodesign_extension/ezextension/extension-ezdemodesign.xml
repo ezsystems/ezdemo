@@ -9,11 +9,11 @@
   <file name="vcs.xml" path="/.idea" md5sum="1b4ab30910ae53c73594cd0e3db9840b"/>
   <file name="workspace.xml" path="/.idea" md5sum="c333f24be3a81416109a8574f08615aa"/>
   <file name="autoloads" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
-  <file name="ezarchive.php" path="/autoloads" md5sum="f69b783435c84721b85d5edcdc824f39"/>
-  <file name="ezkeywordlist.php" path="/autoloads" md5sum="2ef23ff5b26e7126f9f146ea9f6c3b86"/>
-  <file name="ezpagedata.php" path="/autoloads" md5sum="7cbca8471156220f9f6eda396b063138"/>
-  <file name="eztagcloud.php" path="/autoloads" md5sum="db2413e8b91ee77fa0f0100186dde3c4"/>
-  <file name="eztemplateautoload.php" path="/autoloads" md5sum="0e3312d4e311aebd6c7d4d61e23e617a"/>
+  <file name="ezarchive.php" path="/autoloads" md5sum="efa85dcd4233419d26c3c5999b57de6b"/>
+  <file name="ezkeywordlist.php" path="/autoloads" md5sum="e6ce1e57b6a0c46f21246762e3a192a1"/>
+  <file name="ezpagedata.php" path="/autoloads" md5sum="4198db722421738183fdae0dc9305231"/>
+  <file name="eztagcloud.php" path="/autoloads" md5sum="59749e9d0293403b7a0432fc7f574765"/>
+  <file name="eztemplateautoload.php" path="/autoloads" md5sum="588a290ab7461c0ccf38311c87ba9380"/>
   <file name="design" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
   <file name="ezdemodesign" path="/design" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
   <file name="images" path="/design/ezdemodesign" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
@@ -436,8 +436,8 @@
   <file name="1.8" path="/doc/changelogs" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
   <file name="CHANGELOG-1.7.0-to-1.8.0" path="/doc/changelogs/1.8" md5sum="932c54a12bccfdff86d484ae68b237a2"/>
   <file name="release-overview" path="/doc" md5sum="3614b574eafda9c1995d6bbf1bed5ec5"/>
-  <file name="extension.xml" md5sum="c5f9c635c2f951a44b43b294508c54d9"/>
-  <file name="ezinfo.php" md5sum="b0c63afe67b411675c0cb0eb60ee2b4a"/>
+  <file name="extension.xml" md5sum="b36a62418cfc00e1a715e2972c8c3ef1"/>
+  <file name="ezinfo.php" md5sum="76dc8f5dbb8965916055ecdc3d098531"/>
   <file name="LICENSE" md5sum="0636e73ff0215e8d672dc4c32c317bb3"/>
   <file name="README" md5sum="d41d8cd98f00b204e9800998ecf8427e"/>
   <file name="settings" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
@@ -453,7 +453,7 @@
   <file name="websitetoolbar.ini.append.php" path="/settings" md5sum="11c50259346b9d4ead8ab2e1842901b4"/>
   <file name="sql" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
   <file name="common" path="/sql" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
-  <file name="democontent.sql" path="/sql/common" md5sum="6ca753729ea163fc5eb30578da368971"/>
+  <file name="democontent.sql" path="/sql/common" md5sum="aa563569c48938dd4920c72a97c54a75"/>
   <file name="translations" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
   <file name="cat-ES" path="/translations" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
   <file name="translation.ts" path="/translations/cat-ES" md5sum="bb5d93870814b3fc55c15ef66d48cb71"/>
