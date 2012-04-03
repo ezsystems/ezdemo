@@ -1287,7 +1287,6 @@ aside > .content-view-aside:last-child > article:last-child:after {
 }
 .attribute-star-rating > ul.ezsr-star-rating {
   float: left;
-  margin: 0;
 }
 .attribute-star-rating > ul.ezsr-star-rating > li:before {
   display: none;
@@ -4539,6 +4538,7 @@ a.thumbnail:hover {
   display: inline;
   margin: 0;
   padding: 0;
+  position: static;
 }
 .ezsr-star-rating a,
 .ezsr-star-rating .ezsr-current-rating {
@@ -4551,6 +4551,7 @@ a.thumbnail:hover {
   outline: none;
   overflow: hidden;
   border: none;
+  text-align: left;
 }
 .ezsr-star-rating-enabled a:hover,
 .ezsr-star-rating-enabled a:active,
