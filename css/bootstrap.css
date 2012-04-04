@@ -4153,6 +4153,9 @@ a.thumbnail:hover {
 .content-view-aside .attribute-short {
   font-weight: normal;
 }
+.content-view-full .content-view-block {
+  margin-top: 0;
+}
 .full-gallery .gallery-navigator,
 .embed-gallery .gallery-navigator,
 .block-gallery .gallery-navigator {
