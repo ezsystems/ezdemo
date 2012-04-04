@@ -8,7 +8,7 @@
     </div>
     {/if}
 
-    {foreach $valid_nodes as $valid_node}
+    {foreach $valid_nodes as $valid_node max 4}
         {node_view_gui view='block_item' image_class='contentgrid' content_node=$valid_node}
     {/foreach}
 
