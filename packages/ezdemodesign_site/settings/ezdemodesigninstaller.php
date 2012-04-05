@@ -2936,6 +2936,22 @@ class ezdemodesignInstaller extends eZSiteInstaller
                         'view' => 'default'
                     )
                 ),
+                'block_item_campaign_article' => array(
+                    'Source' => 'node/view/block_item_campaign.tpl',
+                    'MatchFile' => 'block_item_campaign/article.tpl',
+                    'Subdir' => 'templates',
+                    'Match' => array(
+                        'class_identifier' => 'article'
+                    )
+                ),
+                'block_item_campaign_image' => array(
+                    'Source' => 'node/view/block_item_campaign.tpl',
+                    'MatchFile' => 'block_item_campaign/image.tpl',
+                    'Subdir' => 'templates',
+                    'Match' => array(
+                        'class_identifier' => 'image'
+                    )
+                ),
                 'block_item_article' => array( 
                     'Source' => 'node/view/block_item.tpl', 
                     'MatchFile' => 'block_item/article.tpl', 

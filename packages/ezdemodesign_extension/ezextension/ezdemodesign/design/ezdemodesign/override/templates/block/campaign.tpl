@@ -12,7 +12,7 @@
             {/for}
         </ul>
         <ul class="images">
-        {foreach $valid_nodes as $k => $img_node}<li>{node_view_gui view='block_item' image_class='campaign' content_node=$img_node}</li>{/foreach}
+        {foreach $valid_nodes as $k => $img_node}<li>{node_view_gui view='block_item_campaign' image_class='campaign' content_node=$img_node}</li>{/foreach}
         </ul>
     </div>
 </div>
