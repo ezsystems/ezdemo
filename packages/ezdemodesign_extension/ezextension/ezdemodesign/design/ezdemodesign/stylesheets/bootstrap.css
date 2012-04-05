@@ -4718,4 +4718,9 @@ div.ezcom-setting-mail {
   font-size: 1.25em;
   padding: 1px;
 }
-/*-----SETTING------*/
+/*-----SETTING------*/#ezwt-content input {
+  vertical-align: baseline;
+}
+#ezwt-content input[disabled] {
+  background-color: transparent;
+}
