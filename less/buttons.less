@@ -6,6 +6,8 @@
 // --------------------------------------------------
 
 // Core
+.button,
+.defaultbutton,
 .btn {
   display: inline-block;
   padding: 4px 10px 4px;
@@ -30,6 +32,8 @@
 }
 
 // Hover state
+.button:hover,
+.defaultbutton:hover,
 .btn:hover {
   color: @grayDark;
   text-decoration: none;
@@ -59,7 +63,9 @@
 
 // Disabled state
 .btn.disabled,
-.btn[disabled] {
+.btn[disabled],
+.button-disabled,
+.button-disabled[disabled] {
   cursor: default;
   background-image: none;
   background-color: darken(@white, 10%);
@@ -116,7 +122,9 @@
 .btn-info,
 .btn-info:hover,
 .btn-inverse,
-.btn-inverse:hover {
+.btn-inverse:hover,
+.defaultbutton,
+.defaultbutton:hover {
   text-shadow: 0 -1px 0 rgba(0,0,0,.25);
   color: @white;
 }
@@ -154,6 +162,10 @@
 // Inverse appears as dark gray
 .btn-inverse {
   .buttonBackground(#454545, #262626);
+}
+
+.defaultbutton {
+  .buttonBackground(lighten(@orange, 15%), @orange);
 }
 
 

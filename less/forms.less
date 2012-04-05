@@ -532,3 +532,45 @@ legend + .control-group {
     padding-left: 160px;
   }
 }
+
+.box {
+    width: 99%;
+}
+.halfbox {
+    width: 49%;
+}
+
+.block {
+    fieldset {
+        border: 1px solid #DBDBDC;
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+    input {
+        vertical-align: baseline;
+    }
+    legend {
+      margin-bottom: @baseLineHeight;
+      font-size: @baseFontSize ;
+      line-height: @baseLineHeight;
+      color: @grayDark;
+      border-bottom: none;
+      font-weight: bold;
+      width: inherit;
+    }
+    label {
+        font-weight: bold;
+    }
+    .element,
+    .halfelement {
+        float: left;
+        padding-right: 10px;
+        input[type="text"] {
+            width: 150px;
+        }
+    }
+}
+
+.buttonblock {
+    margin-top: 10px;
+}

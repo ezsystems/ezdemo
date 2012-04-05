@@ -1,4 +1,4 @@
-<div class="user-forgotpassword">
+<section class="user-forgotpassword">
 
 {if $link}
 <p>
@@ -44,4 +44,4 @@
    {/if}
 {/if}
 
-</div>
+</section>

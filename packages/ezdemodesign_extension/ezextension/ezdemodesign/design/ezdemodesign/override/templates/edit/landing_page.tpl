@@ -2,129 +2,85 @@
 
 {include uri='design:parts/website_toolbar_edit.tpl'}
 
-<!-- ZONE CONTENT: START -->
+<div class="content-edit row">
+    <div class="span3">
+    {* Current gui locale, to be used for class [attribute] name & description fields *}
+    {def $content_language = ezini( 'RegionalSettings', 'Locale' )}
 
-<div class="content-edit-landing-page">
+    <!-- SEARCH BOX: START -->
 
-{* Current gui locale, to be used for class [attribute] name & description fields *}
-{def $content_language = ezini( 'RegionalSettings', 'Locale' )}
+    <div id="ajaxsearchbox" class="tab-container">
 
-<!-- SEARCH BOX: START -->
+    <div class="block">
+        <label>{'Search phrase'|i18n( 'design/ezflow/edit/frontpage' )}</label>
+        <input class="textfield" type="text" id="search-string-{$object.id}" name="SearchStr" value="" />
+        <input name="SearchOffset" type="hidden" value="0"  />
+        <input name="SearchLimit" type="hidden" value="10"  />
+        <input id="search-button-{$object.id}" class="serach-button" type="image" src={"search_button.gif"|ezimage} name="SearchButton" value="" alt="{'Search'|i18n( 'design/ezflow/edit/frontpage' )}" title="{'Search'|i18n( 'design/ezflow/edit/frontpage' )}" />
+    </div>
 
-<div id="ajaxsearchbox" class="tab-container">
+    <div class="block search-results">
+        <span class="header">{'Results'|i18n( 'design/ezflow/edit/frontpage' )}</span>
+        <div id="search-results-{$object.id}" style="overflow: hidden">
+    </div>
 
-<div class="block">
-    <label>{'Search phrase'|i18n( 'design/ezflow/edit/frontpage' )}</label>
-    <input class="textfield" type="text" id="search-string-{$object.id}" name="SearchStr" value="" />
-    <input name="SearchOffset" type="hidden" value="0"  />
-    <input name="SearchLimit" type="hidden" value="10"  />
-    <input id="search-button-{$object.id}" class="serach-button" type="image" src={"search_button.gif"|ezimage} name="SearchButton" value="" alt="{'Search'|i18n( 'design/ezflow/edit/frontpage' )}" title="{'Search'|i18n( 'design/ezflow/edit/frontpage' )}" />
-</div>
-{*
-<div class="block">
-    <label>{'Section to search'|i18n( 'design/ezflow/edit/frontpage' )}</label>
-    <select name="SearchSectionID" multiple="multiple">
-        {foreach fetch( 'content', 'section_list' ) as $section}
-            <option value="{$section.id}">{$section.name}</option>
+    {foreach $content_attributes as $content_attribute}
+    {if eq( $content_attribute.data_type_string, 'ezpage' )}
+    <script type="text/javascript">
+    {literal}
+    function addBlock( object, id )
+    {
+        var $select = object;
+        var $id = id;
+        var addToBlock = document.getElementById( 'addtoblock' );
+        addToBlock.name = 'CustomActionButton[' + $id  +'_new_item' + '-' + $select.value + ']';
+    }
+    {/literal}
+    </script>
+    <p>
+    <select name="zonelist" onchange="addBlock( this, {$content_attribute.id} );">
+    <option>{'Select:'|i18n( 'design/ezflow/edit/frontpage' )}</option>
+    {def $zone_id = ''
+         $zone_name = ezini( $content_attribute.content.zone_layout, 'ZoneName', 'zone.ini' )}
+        {foreach $content_attribute.content.zones as $index => $zone}
+        {if and( is_set( $zone.action ), eq( $zone.action, 'remove' ) )}
+            {skip}
+        {/if}
+        {set $zone_id = $index}
+        <optgroup label="{$zone_name[$zone.zone_identifier]}">
+            {if and( is_set( $zone.blocks ), $zone.blocks|count() )}
+            {foreach $zone.blocks as $index => $block}
+            <option value="{$zone_id}-{$index}">{$index|inc}: {ezini( $block.type, 'Name', 'block.ini' )}</option>
+            {/foreach}
+            {/if}
+        </optgroup>
         {/foreach}
     </select>
-</div>
-
-<div class="block date-range">
-    <label>{'Date range'|i18n( 'design/ezflow/edit/frontpage' )}</label>
-    <input name="SearchDate" type="radio" value="1" onclick="javascript:showDateRange(this);" /> {'Past day'|i18n( 'design/ezflow/edit/frontpage' )} <input name="SearchDate" type="radio" value="2" onclick="javascript:showDateRange(this);" /> {'Past week'|i18n( 'design/ezflow/edit/frontpage' )} <br />
-    <input name="SearchDate" type="radio" value="3" onclick="javascript:showDateRange(this);" /> {'Past month'|i18n( 'design/ezflow/edit/frontpage' )} <input name="SearchDate" type="radio" value="4" onclick="javascript:showDateRange(this);" /> {'Past 3 months'|i18n( 'design/ezflow/edit/frontpage' )} <br />
-    <input name="SearchDate" type="radio" value="5" onclick="javascript:showDateRange(this);" /> {'Past year'|i18n( 'design/ezflow/edit/frontpage' )}
-</div>
-*}
-<div class="block date-range-selection">
-    <label>From:</label>
-        <select>
-            <option>September</option>
-        </select>
-        <select>
-            <option>23</option>
-        </select>
-        <select>
-            <option>2007</option>
-        </select>
-    <label>To:</label>
-        <select>
-            <option>October</option>
-        </select>
-        <select>
-            <option>12</option>
-        </select>
-        <select>
-            <option>2007</option>
-        </select>
-</div>
-
-<div class="block search-results">
-    <span class="header">{'Results'|i18n( 'design/ezflow/edit/frontpage' )}</span>
-    <div id="search-results-{$object.id}" style="overflow: hidden">
-</div>
-
-{foreach $content_attributes as $content_attribute}
-{if eq( $content_attribute.data_type_string, 'ezpage' )}
-<script type="text/javascript">
-{literal}
-function addBlock( object, id )
-{
-    var $select = object;
-    var $id = id;
-    var addToBlock = document.getElementById( 'addtoblock' );
-    addToBlock.name = 'CustomActionButton[' + $id  +'_new_item' + '-' + $select.value + ']';
-}
-{/literal}
-</script>
-<p>
-<select name="zonelist" onchange="addBlock( this, {$content_attribute.id} );">
-<option>{'Select:'|i18n( 'design/ezflow/edit/frontpage' )}</option>
-{def $zone_id = ''
-     $zone_name = ezini( $content_attribute.content.zone_layout, 'ZoneName', 'zone.ini' )}
-    {foreach $content_attribute.content.zones as $index => $zone}
-    {if and( is_set( $zone.action ), eq( $zone.action, 'remove' ) )}
-        {skip}
+    </p>
+    <input id="addtoblock" class="button" type="submit" name="CustomActionButton[{$content_attribute.id}_new_item]" value="{'Add to block'|i18n( 'design/ezflow/edit/frontpage' )}" />
     {/if}
-    {set $zone_id = $index}
-    <optgroup label="{$zone_name[$zone.zone_identifier]}">
-        {if and( is_set( $zone.blocks ), $zone.blocks|count() )}
-        {foreach $zone.blocks as $index => $block}
-        <option value="{$zone_id}-{$index}">{$index|inc}: {ezini( $block.type, 'Name', 'block.ini' )}</option>
-        {/foreach}
-        {/if}
-    </optgroup>
     {/foreach}
-</select>
-</p>
-<input id="addtoblock" class="button" type="submit" name="CustomActionButton[{$content_attribute.id}_new_item]" value="{'Add to block'|i18n( 'design/ezflow/edit/frontpage' )}" />
-{/if}
-{/foreach}
 
-</div>
+    </div>
 
-</div>
+    </div>
 
-{ezscript_require( array( 'ezjsc::yui3', 'ezjsc::yui3io', 'ezajaxsearch.js' ) )}
+    {ezscript_require( array( 'ezjsc::yui3', 'ezjsc::yui3io', 'ezajaxsearch.js' ) )}
 
-<script type="text/javascript">
-eZAJAXSearch.cfg = {ldelim}
-                        searchstring: '#search-string-{$object.id}',
-                        searchbutton: '#search-button-{$object.id}',
-                        searchresults: '#search-results-{$object.id}',
-                        dateformattype: 'shortdatetime',
-                        resulttemplate: '<div class="result-item float-break"><div class="item-title"><img src={"item-bullet.gif"|ezimage} />&nbsp;{ldelim}title{rdelim}</div><div class="item-published-date">[{ldelim}class_name{rdelim}] {ldelim}date{rdelim}</div><div class="item-selector"><input type="checkbox" value="{ldelim}node_id{rdelim}" name="SelectedNodeIDArray[]" /></div></div>'
-                   {rdelim};
-eZAJAXSearch.init();
-</script>
+    <script type="text/javascript">
+    eZAJAXSearch.cfg = {ldelim}
+                            searchstring: '#search-string-{$object.id}',
+                            searchbutton: '#search-button-{$object.id}',
+                            searchresults: '#search-results-{$object.id}',
+                            dateformattype: 'shortdatetime',
+                            resulttemplate: '<div class="result-item float-break"><div class="item-title"><img src={"item-bullet.gif"|ezimage} />&nbsp;{ldelim}title{rdelim}</div><div class="item-published-date">[{ldelim}class_name{rdelim}] {ldelim}date{rdelim}</div><div class="item-selector"><input type="checkbox" value="{ldelim}node_id{rdelim}" name="SelectedNodeIDArray[]" /></div></div>'
+                       {rdelim};
+    eZAJAXSearch.init();
+    </script>
 
-<!-- SEARCH BOX: END -->
-
-
-
-<div class="content-edit">
-
+    <!-- SEARCH BOX: END -->
+    </div>
+    <div class="span9">
     <div class="attribute-header">
         <h1 class="long">{'Edit <%object_name> (%class_name)'|i18n( 'design/ezflow/edit/frontpage', , hash( '%object_name', $object.name, '%class_name', first_set( $class.nameList[$content_language], $class.name ) ) )|wash}</h1>
     </div>
@@ -181,9 +137,10 @@ eZAJAXSearch.init();
     <input type="hidden" name="RedirectIfDiscarded" value="{if ezhttp_hasvariable( 'LastAccessesURI', 'session' )}{ezhttp( 'LastAccessesURI', 'session' )}{/if}" />
     <input type="hidden" name="RedirectURIAfterPublish" value="{if ezhttp_hasvariable( 'LastAccessesURI', 'session' )}{ezhttp( 'LastAccessesURI', 'session' )}{/if}" />
     </div>
+
+    </div>
 </div>
 
-</div>
 
 <!-- ZONE CONTENT: END -->
 
