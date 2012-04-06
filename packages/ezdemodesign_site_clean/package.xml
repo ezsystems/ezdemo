@@ -4,8 +4,8 @@
          is_active="true"
          install_type="import">
   <name>ezdemodesign_site_clean</name>
-  <summary>eZ Flow (without demo content)</summary>
-  <description>The eZ Flow extension to eZ Publish enables editors to build complex page layouts and pre-plan the publication schedule to ensure a constant flow of rich content.</description>
+  <summary>eZ Publish Demo Design (without demo content)</summary>
+  <description></description>
   <vendor>eZ systems</vendor>
   <type value="site" />
   <ezpublish>

@@ -5,7 +5,7 @@
          install_type="import">
   <name>ezdemodesign_site</name>
   <summary>eZ Publish Demo Design</summary>
-  <description>Some description</description>
+  <description></description>
   <vendor>eZ systems</vendor>
   <type value="site" />
   <ezpublish>
