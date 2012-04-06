@@ -87,6 +87,9 @@
                                 <input type="hidden" name="ViewMode" value="full" />
                             </form>
                         </article>
+                        <div class="attribute-socialize">
+                            {include uri='design:parts/social_buttons.tpl'}
+                        </div>
                     </div>
                 </section>
             </aside>

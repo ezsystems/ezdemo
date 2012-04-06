@@ -9,6 +9,7 @@ AliasList[]=highlighted
 AliasList[]=contentgrid
 AliasList[]=gallery
 AliasList[]=galleryfull
+AliasList[]=imagefull
 
 [campaign]
 Reference=original
@@ -38,5 +39,9 @@ Filters[]=geometry/crop=370;160;0;0
 Reference=original
 Filters[]=geometry/scalewidthdownonly=770
 Filters[]=geometry/crop=770;390;0;0
+
+[imagefull]
+Reference=original
+Filters[]=geometry/scalewidthdownonly=770
 
 */ ?>

@@ -4,7 +4,7 @@
      $previous_item = false()
      $next_item     = false()}
 
-<div class="content-view-full">
+<section class="content-view-full">
     <div class="class-image parent-class-{$parent.class_identifier|wash}">
 
         <div class="attribute-header">
@@ -70,14 +70,26 @@
     {/if}
 
         <div class="attribute-image">
-            <p>{attribute_view_gui attribute=$node.data_map.image image_class=imagelarge}</p>
+            {attribute_view_gui attribute=$node.data_map.image image_class=imagefull}
         </div>
 
         <div class="attribute-caption">
             {attribute_view_gui attribute=$node.data_map.caption}
         </div>
 
+        <div class="attribute-tags">
+            {attribute_view_gui attribute=$node.data_map.tags}
+        </div>
+
+        <div class="attribute-star-rating">
+            {attribute_view_gui attribute=$node.data_map.star_rating}
+        </div>
+
+        <div class="attribute-socialize">
+            {include uri='design:parts/social_buttons.tpl'}
+        </div>
+
         {include uri='design:parts/image/related_content.tpl'}
 
     </div>
-</div>
+</section>

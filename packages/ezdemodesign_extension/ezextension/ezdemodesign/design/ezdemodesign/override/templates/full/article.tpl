@@ -56,6 +56,10 @@
                 {attribute_view_gui attribute=$node.data_map.star_rating}
             </div>
 
+            <div class="attribute-socialize">
+                {include uri='design:parts/social_buttons.tpl'}
+            </div>
+
             <div class="attribute-comments">
                 {attribute_view_gui attribute=$node.data_map.comments}
             </div>
@@ -70,12 +74,14 @@
         <div class="span4">
             <aside>
                 <section class="content-view-aside">
+                    {if $node.data_map.location.has_content}
                     <h2>{'Location'|i18n( 'design/ezdemodesign/full/article' )}</h2>
                     <article>
                         <div class="attribute-location">
                             {attribute_view_gui attribute=$node.data_map.location}
                         </div>
                     </article>
+                    {/if}
 
                     {include uri='design:parts/related_content.tpl'}
                 </section>
