@@ -103,7 +103,7 @@ CustomAttributes[]=poll_node_id
 UseBrowseMode[poll_node_id]=true
 ViewList[]
 ViewList[]=default
-ViewName[default]=Poll
+ViewName[default]=Default
 
 [ItemList]
 Name=Item list

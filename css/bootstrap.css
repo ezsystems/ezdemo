@@ -900,6 +900,7 @@ aside > .content-view-aside:last-child > article:last-child:after {
 .content-search,
 .content-advancedsearch,
 .content-tipafriend,
+.content-edit-draft,
 .user-edit,
 .user-forgotpassword,
 .user-login,
@@ -1436,6 +1437,20 @@ aside > .content-view-aside:last-child > article:last-child:after {
   background-repeat: repeat-x;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#007ea6', endColorstr='#006a8d', GradientType=0);
   color: #ffffff;
+}
+#ajaxsearchbox .textfield {
+  width: 150px;
+  margin-bottom: 0;
+}
+#ajaxsearchbox .serach-button {
+  vertical-align: middle;
+}
+#ajaxsearchbox .block {
+  margin-bottom: 1em;
+}
+#ajaxsearchbox .search-results span {
+  margin-bottom: 0.5em;
+  display: block;
 }
 .content-navigator {
   display: block;
@@ -4312,6 +4327,22 @@ a.thumbnail:hover {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
+}
+.block .left {
+  width: 48%;
+  float: left;
+  clear: left;
+}
+.block .right {
+  width: 48%;
+  float: right;
+  clear: right;
+}
+.button-left {
+  float: left;
+}
+.button-right {
+  float: right;
 }
 .hide {
   display: none;
