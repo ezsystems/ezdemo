@@ -69,7 +69,6 @@ YUI(YUI3_config).add('ezsimplegallery', function (Y) {
         });
         Y.on('windowresize', function () {
             // realign the gallery when the window is resized
-            console.log('new offset: ' + that._getOffset());
             that.scrollTo(that.index);
         });
 
@@ -148,7 +147,7 @@ YUI(YUI3_config).add('ezsimplegallery', function (Y) {
      * Calculates the offset between two images
      */
     eZSG.prototype._getOffset = function () {
-        return parseInt(this.gallery.getStyle('width'));
+        return this.gallery.get('clientWidth');
     }
 
     /**

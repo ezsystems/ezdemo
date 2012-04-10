@@ -33,7 +33,7 @@ header .logo {
     display: block;
     width: 138px;
     height: 46px;
-    margin-top: 39px;
+    margin-top: 13px;
 }
 
 header .form-search {
@@ -336,7 +336,8 @@ aside {
 .content-view-full,
 .content-view-children,
 .content-view-block,
-.content-view-embed {
+.content-view-embed,
+.content-view-tagcloud {
     margin: 26px 0 50px 0;
     article {
         display: block;
@@ -361,7 +362,19 @@ aside {
     }
 }
 
-.content-view-block {
+.content-view-block,
+.content-view-sitemap,
+.content-edit,
+.content-edit-landing-page,
+.content-search,
+.content-advancedsearch,
+.content-tipafriend,
+.content-edit-draft,
+.user-edit,
+.user-forgotpassword,
+.user-login,
+.user-register,
+.notification-settings {
     margin-top: 26px;
 }
 
@@ -655,13 +668,42 @@ aside {
     .clearfix();
     > ul.ezsr-star-rating {
         float: left;
-        margin: 0;
         > li:before {
             display: none;
         }
     }
     p {
         font-size: 13px;
+    }
+}
+
+.attribute-socialize {
+    margin:  0 0 1em 0;
+    padding: 10px 0;
+    font-size: 13px;
+    text-align: center;
+    #gradient > .vertical(@softwhite, @white);
+    .clearfix();
+    .social-button {
+        display: inline-block;
+        vertical-align: top;
+    }
+}
+
+.class-article,
+.class-video,
+.class-image {
+    .attribute-star-rating {
+        margin-bottom: 0;
+    }
+}
+
+.class-product {
+    .attribute-socialize {
+        margin-bottom: 0;
+        #gradient > .directional(fadeout(@grayLight, 70%), fadeout(@grayLight, 100%), -45deg);
+        #border-gradient > .left-to-right(1px 0 0 0, @grayLighter, fadeout(@grayLighter, 100%));
+        padding-top: 20px;
     }
 }
 
@@ -737,5 +779,53 @@ aside {
     h2 {
         #gradient > .vertical(@blue, @blueDark);
         color: @white;
+    }
+}
+
+// Search column for landing page edit view
+#ajaxsearchbox .textfield {
+    width: 150px;
+    margin-bottom: 0;
+}
+#ajaxsearchbox .serach-button {
+    vertical-align: middle;
+}
+#ajaxsearchbox .block {
+    margin-bottom: 1em;
+}
+#ajaxsearchbox .search-results span {
+    margin-bottom: 0.5em;
+    display: block;
+}
+
+// Navigators
+
+.content-navigator {
+    display: block;
+    text-align: center;
+    div {
+        display: inline;
+        text-align: center;
+    }
+    .content-navigator-separator,
+    .content-navigator-separator-disabled {
+        padding-left: 4px;
+        padding-right: 4px;
+    }
+    .content-navigator-arrow {
+        font-size: 150%;
+    }
+}
+
+// Page navigation
+
+.pagenavigator {
+    text-align: center;
+    clear: both;
+    .previous {
+        float: left;
+    }
+    .next {
+        float: right;
     }
 }

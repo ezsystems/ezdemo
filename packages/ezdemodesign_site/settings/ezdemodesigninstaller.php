@@ -3,7 +3,7 @@
 // ## BEGIN COPYRIGHT, LICENSE AND WARRANTY NOTICE ##
 // SOFTWARE NAME: eZ Flow
 // SOFTWARE RELEASE: 1.1.0
-// COPYRIGHT NOTICE: Copyright (C) 1999-2011 eZ Systems AS
+// COPYRIGHT NOTICE: Copyright (C) 1999-2012 eZ Systems AS
 // SOFTWARE LICENSE: GNU General Public License v2.0
 // NOTICE: >
 //   This program is free software; you can redistribute it and/or
@@ -2936,6 +2936,22 @@ class ezdemodesignInstaller extends eZSiteInstaller
                         'view' => 'default'
                     )
                 ),
+                'block_item_campaign_article' => array(
+                    'Source' => 'node/view/block_item_campaign.tpl',
+                    'MatchFile' => 'block_item_campaign/article.tpl',
+                    'Subdir' => 'templates',
+                    'Match' => array(
+                        'class_identifier' => 'article'
+                    )
+                ),
+                'block_item_campaign_image' => array(
+                    'Source' => 'node/view/block_item_campaign.tpl',
+                    'MatchFile' => 'block_item_campaign/image.tpl',
+                    'Subdir' => 'templates',
+                    'Match' => array(
+                        'class_identifier' => 'image'
+                    )
+                ),
                 'block_item_article' => array( 
                     'Source' => 'node/view/block_item.tpl', 
                     'MatchFile' => 'block_item/article.tpl', 
@@ -3951,7 +3967,8 @@ class ezdemodesignInstaller extends eZSiteInstaller
                         '10' => 'logo', 
                         '11' => 'infoboximage', 
                         '12' => 'billboard',
-                        '13' => 'productthumbnail'
+                        '13' => 'productthumbnail',
+                        '14' => 'productimage'
                     ) 
                 ), 
                 'small' => array( 
@@ -4036,6 +4053,12 @@ class ezdemodesignInstaller extends eZSiteInstaller
                     'Reference' => '',
                     'Filters' => array(
                         '0' => 'geometry/scaledownonly=170;220'
+                    )
+                ),
+                'productimage' => array(
+                    'Reference' => '',
+                    'Filters' => array(
+                        '0' => 'geometry/scaledownwidthonly=770'
                     )
                 )
             ) 

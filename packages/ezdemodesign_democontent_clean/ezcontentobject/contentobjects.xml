@@ -18,25 +18,7 @@
                         </ezobject:attribute>
                         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1034"
                                             ezremote:identifier="page" name="Layout" type="ezpage">
-                            <page>
-                                <zone_layout>2ZonesLayout1</zone_layout>
-                                <zone id="id_4f6d946ab48d95799d31179c3acde8cb">
-                                    <zone_identifier>left</zone_identifier>
-                                    <block id="id_ab9e386be359563619c639ea52acd75d">
-                                        <name/>
-                                        <zone_id>4f6d946ab48d95799d31179c3acde8cb</zone_id>
-                                        <type>DemoBlock</type>
-                                        <view>demoblock</view>
-                                    </block>
-                                </zone>
-                                <zone id="id_a1117aa7fd4548568490cc7ab1271a4b">
-                                    <zone_identifier>right</zone_identifier>
-                                </zone>
-                            </page>
-                        </ezobject:attribute>
-                        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="253"
-                                            ezremote:identifier="tags" name="Tags" type="ezkeyword">
-                            <keyword-string></keyword-string>
+                            <page />
                         </ezobject:attribute>
                     </ezobject:object-translation>
                     <ezobject:node-assignment-list>
@@ -47,11 +29,55 @@
                 </ezobject:version>
             </ezobject:version-list>
         </ezremote:object>
+        <ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="74" name="Contact Us" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="20" ezremote:published="Wed, 28 Mar 2012 09:33:25 GMT" ezremote:modified="Wed, 28 Mar 2012 09:34:42 GMT" remote_id="f8cc7a4cf8a964a1a0ea6666f5da7d0d" class_remote_id="df0257b8fc55f6b8ab179d6fb915455e" ezremote:class_identifier="feedback_form" ezremote:always_available="0" initial_language="eng-GB">
+          <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="3">
+            <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="3" ezremote:status="1" ezremote:created="Wed, 28 Mar 2012 09:34:37 GMT" ezremote:modified="Wed, 28 Mar 2012 09:34:42 GMT" initial_language="eng-GB">
+              <ezobject:object-translation language="eng-GB" object_name="Contact Us">
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="306" ezremote:identifier="name" name="Name" type="ezstring">
+                  <text>Contact Us</text>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="307" ezremote:identifier="description" name="Description" type="ezxmltext">
+                  <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
+                    <paragraph>Please fill in the form below to contact us.</paragraph>
+                    <paragraph>You can also reach us at:</paragraph>
+                    <paragraph>
+                      <line xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
+                        <strong>Company Name</strong>
+                      </line>
+                      <line xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">Address</line>
+                      <line xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">City</line>
+                      <line xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">Country </line>
+                    </paragraph>
+                  </section>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="308" ezremote:identifier="sender_name" name="Sender name" type="ezstring">
+                  <text></text>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="309" ezremote:identifier="subject" name="Subject" type="ezstring">
+                  <text></text>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="310" ezremote:identifier="message" name="Message" type="eztext">
+                  <text></text>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="311" ezremote:identifier="email" name="Email" type="ezemail">
+                  <email></email>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="312" ezremote:identifier="recipient" name="Recipient" type="ezemail">
+                  <email></email>
+                </ezobject:attribute>
+              </ezobject:object-translation>
+              <ezobject:node-assignment-list>
+                <node-assignment is-main-node="1" name="Contact Us" node-id="76" remote-id="86bf306624668ee9b8b979b0d56f7e0d" sort-field="priority" sort-order="1" priority="-2"/>
+              </ezobject:node-assignment-list>
+            </ezobject:version>
+          </ezobject:version-list>
+        </ezremote:object>
     </object-list>
     <site-access-list>
         <site-access>eng</site-access>
     </site-access-list>
     <top-node-list>
         <top-node node-id="2" remote-id="07cdfd23373b17c6b337251c22b7ea57">Home</top-node>
+        <top-node node-id="76" remote-id="86bf306624668ee9b8b979b0d56f7e0d">Contact Us</top-node>
     </top-node-list>
 </content-object>

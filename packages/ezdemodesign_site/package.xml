@@ -5,7 +5,7 @@
          install_type="import">
   <name>ezdemodesign_site</name>
   <summary>eZ Publish Demo Design</summary>
-  <description>Some description</description>
+  <description></description>
   <vendor>eZ systems</vendor>
   <type value="site" />
   <ezpublish>
@@ -60,19 +60,19 @@
     <requires>
       <require type="ezpackage"
                name="ezwt_extension"
-               min-version="1.5" />
+               min-version="1.6" />
       <require type="ezpackage"
                name="ezstarrating_extension"
-               min-version="1.4" />
+               min-version="1.5" />
       <require type="ezpackage"
                name="ezgmaplocation_extension"
-               min-version="1.4" />
+               min-version="1.5" />
       <require type="ezpackage"
                name="ezdemodesign_extension"
                min-version="1.0" />
       <require type="ezpackage"
                name="ezflow_extension"
-               min-version="2.4" />
+               min-version="2.5" />
       <require type="ezpackage"
                name="ezcomments_extension"
                min-version="1.4" />

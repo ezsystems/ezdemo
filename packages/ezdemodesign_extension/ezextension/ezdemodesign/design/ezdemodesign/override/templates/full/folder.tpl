@@ -73,6 +73,49 @@
         </div>
         <div class="span4">
             <aside>
+                {def $root_node = fetch( 'content', 'node', hash( 'node_id', $node.path_array[$node.depth] ) )
+                     $menu_items = fetch( 'content', 'list', hash( 'parent_node_id', $root_node.node_id,
+                                                                   'sort_by', $root_node.sort_array,
+                                                                   'load_data_map', false(),
+                                                                   'class_filter_type', 'include',
+                                                                   'class_filter_array', ezini( 'MenuContentSettings', 'RightIdentifierList', 'menu.ini' ) ) )
+                     $menu_items_count = $menu_items|count()}
+                <section class="subnavigation row nav-collapse">
+                    <div class="attribute-header">
+                        <h2>{$node.name|wash()}</h2>
+                    </div>
+                    {if $menu_items_count}
+                    <ul class="span4">
+                        {foreach $menu_items as $key => $item}
+                            {if eq( $item.class_identifier, 'link')}
+                                <li><a href={$item.data_map.location.content|ezurl}{if and( is_set( $item.data_map.open_in_new_window ), $item.data_map.open_in_new_window.data_int )} target="_blank"{/if} title="{$item.data_map.location.data_text|wash}" class="menu-item-link" rel={$item.url_alias|ezurl}>{if $item.data_map.location.data_text}{$item.data_map.location.data_text|wash()}{else}{$item.name|wash()}{/if}</a>
+                            {else}
+                                <li><a href="{$item.url_alias|ezurl('no')}">{$item.name|wash()}</a>
+                            {/if}
+                            {def $sub_menu_items = fetch( 'content', 'list', hash( 'parent_node_id', $item.node_id,
+                                                                                                  'sort_by', $item.sort_array,
+                                                                                                  'load_data_map', false(),
+                                                                                                  'class_filter_type', 'include',
+                                                                                                  'class_filter_array', ezini( 'MenuContentSettings', 'RightIdentifierList', 'menu.ini' ) ) )
+                                 $sub_menu_items_count = $sub_menu_items|count}
+                            {if $sub_menu_items_count}
+                                <ul>
+                                    {foreach $sub_menu_items as $subkey => $subitem}
+                                        {if eq( $subitem.class_identifier, 'link')}
+                                            <li><a href={$subitem.data_map.location.content|ezurl}{if and( is_set( $subitem.data_map.open_in_new_window ), $subitem.data_map.open_in_new_window.data_int )} target="_blank"{/if} title="{$subitem.data_map.location.data_text|wash}" class="menu-item-link" rel={$subitem.url_alias|ezurl}>{if $subitem.data_map.location.data_text}{$subitem.data_map.location.data_text|wash()}{else}{$subitem.name|wash()}{/if}</a></li>
+                                        {else}
+                                            <li><a href="{$subitem.url_alias|ezurl( 'no' )}">{$subitem.name|wash()}</a></li>
+                                        {/if}
+                                    {/foreach}
+                                </ul>
+                            {/if}
+                            {undef $sub_menu_items $sub_menu_items_count}
+                            </li>
+                        {/foreach}
+                    </ul>
+                    {/if}
+                    {undef $root_node $menu_items $menu_items_count}
+                </section>
                 <section class="content-view-aside">
                     <div class="attribute-call-for-action">
                         {attribute_view_gui attribute=$node.data_map.call_for_action}

@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<package version="2.4-0"
+<package version="1.0-0"
          development="false"
          is_active="true"
          install_type="import">
   <name>ezdemodesign_site_clean</name>
-  <summary>eZ Flow (without demo content)</summary>
-  <description>The eZ Flow extension to eZ Publish enables editors to build complex page layouts and pre-plan the publication schedule to ensure a constant flow of rich content.</description>
+  <summary>eZ Publish Demo Design (without demo content)</summary>
+  <description></description>
   <vendor>eZ systems</vendor>
   <type value="site" />
   <ezpublish>
-    <version>4.6.0</version>
-    <named-version>4.6</named-version>
+    <version>4.7.0</version>
+    <named-version>4.7</named-version>
   </ezpublish>
   <maintainers>
     <maintainer>
@@ -50,7 +50,7 @@
      </collection>
   </files>
   <version>
-    <number>2.4</number>
+    <number>1.0</number>
     <release>0</release>
   </version>
   <licence>GPL</licence>
@@ -60,31 +60,28 @@
     <requires>
       <require type="ezpackage"
                name="ezwt_extension"
-               min-version="1.5" />
+               min-version="1.6" />
       <require type="ezpackage"
                name="ezstarrating_extension"
-               min-version="1.4" />
+               min-version="1.5" />
       <require type="ezpackage"
                name="ezgmaplocation_extension"
-               min-version="1.4" />
+               min-version="1.5" />
       <require type="ezpackage"
                name="ezdemodesign_extension"
-               min-version="1.9" />
+               min-version="1.0" />
       <require type="ezpackage"
                name="ezflow_extension"
-               min-version="2.4" />
+               min-version="2.5" />
       <require type="ezpackage"
                name="ezcomments_extension"
                min-version="1.4" />
       <require type="ezpackage"
                name="ezdemodesign_classes"
-               min-version="2.4" />
+               min-version="1.0" />
       <require type="ezpackage"
                name="ezdemodesign_democontent_clean"
-               min-version="2.4" />
-      <require type="ezpackage"
-               name="ezdemodesign_design"
-               min-version="2.4" />
+               min-version="1.0" />
     </requires>
     <obsoletes />
     <conflicts />

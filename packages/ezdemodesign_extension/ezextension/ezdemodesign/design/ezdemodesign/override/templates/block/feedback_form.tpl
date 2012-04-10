@@ -22,13 +22,13 @@
                     <span class="hidden">$node.data_map.message.contentclass_attribute.name</span>
                     {attribute_view_gui attribute=$node.data_map.message placeholder=$node.data_map.message.contentclass_attribute.name}
                 </label>
+                <div class="actions">
+                    <button type="submit" class="btn btn-warning pull-right" name="ActionCollectInformation">{"Send form"|i18n("design/ezdemodesign/block/feedback_form")}</button>
+                    <input type="hidden" name="ContentNodeID" value="{$node.node_id}" />
+                    <input type="hidden" name="ContentObjectID" value="{$node.object.id}" />
+                    <input type="hidden" name="ViewMode" value="full" />
+                </div>
             </fieldset>
-            <div class="content-action">
-                <input type="submit" class="btn btn-warning pull-right" name="ActionCollectInformation" value="{"Send form"|i18n("design/ezdemodesign/block/feedback_form")}" />
-                <input type="hidden" name="ContentNodeID" value="{$node.node_id}" />
-                <input type="hidden" name="ContentObjectID" value="{$node.object.id}" />
-                <input type="hidden" name="ViewMode" value="full" />
-            </div>
         </form>
     </article>
 </div>
