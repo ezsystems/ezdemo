@@ -132,7 +132,6 @@ footer {
     }
     h3 {
         border-bottom: 1px solid @grayLighter;
-        #border-gradient > .left-to-right(0 0 1px 0, @grayLighter, fadeout(@grayLighter, 100%));
         margin-bottom: 2px;
     }
 }
@@ -156,7 +155,6 @@ aside {
             #gradient > .directional(fadeout(@grayLight, 70%), fadeout(@grayLight, 100%), -45deg);
             li {
                 border-bottom: 1px solid @grayLight;
-                #border-gradient > .left-to-right(0 0 1px 0, @grayLight, fadeout(@grayLight, 100%));
                 &:before {
                     display: none;
                 }
@@ -173,11 +171,9 @@ aside {
                         }
                         &:first-child {
                             border-top: 1px solid @grayLight;
-                            #border-gradient > .left-to-right(1px 0 1px 0, @grayLight, fadeout(@grayLight, 100%));
                         }
                         &:last-child {
                             border-bottom: none;
-                            #border-gradient > .left-to-right(0 0 0 0, @grayLight, fadeout(@grayLight, 100%));
                         }
                     }
                 }
@@ -234,7 +230,7 @@ aside {
             display: block;
             padding: 20px;
             #gradient > .directional(fadeout(@grayLight, 70%), fadeout(@grayLight, 100%), -45deg);
-            #border-gradient > .left-to-right(1px 0 0 0, @grayLighter, fadeout(@grayLighter, 100%));
+            border-top: 1px solid @grayLighter;
             a.teaser-link {
                 display: block;
                 padding-bottom: 8px;
