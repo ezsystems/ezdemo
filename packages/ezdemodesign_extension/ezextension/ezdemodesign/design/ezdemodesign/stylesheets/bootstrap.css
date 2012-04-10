@@ -521,11 +521,6 @@ footer .claim-wrapper {
 }
 footer h3 {
   border-bottom: 1px solid #ebebeb;
-  border-width: 0 0 1px 0;
-  -webkit-border-image: -webkit-gradient(linear, 100% 0, 0 0, from(#ebebeb), to(rgba(235, 235, 235, 0))) 1 100%;
-  -webkit-border-image: -webkit-linear-gradient(right, #ebebeb, rgba(235, 235, 235, 0)) 1 100%;
-  -o-border-image: -o-linear-gradient(right, #ebebeb, rgba(235, 235, 235, 0)) 1 100%;
-  -moz-border-image: -moz-linear-gradient(right, #ebebeb, end) 1 100%;
   margin-bottom: 2px;
 }
 .contact-form {
@@ -561,11 +556,6 @@ aside > .subnavigation > ul {
 }
 aside > .subnavigation > ul li {
   border-bottom: 1px solid #dbdbdc;
-  border-width: 0 0 1px 0;
-  -webkit-border-image: -webkit-gradient(linear, 100% 0, 0 0, from(#dbdbdc), to(rgba(219, 219, 220, 0))) 1 100%;
-  -webkit-border-image: -webkit-linear-gradient(right, #dbdbdc, rgba(219, 219, 220, 0)) 1 100%;
-  -o-border-image: -o-linear-gradient(right, #dbdbdc, rgba(219, 219, 220, 0)) 1 100%;
-  -moz-border-image: -moz-linear-gradient(right, #dbdbdc, end) 1 100%;
 }
 aside > .subnavigation > ul li:before {
   display: none;
@@ -583,19 +573,9 @@ aside > .subnavigation > ul li ul > li a {
 }
 aside > .subnavigation > ul li ul > li:first-child {
   border-top: 1px solid #dbdbdc;
-  border-width: 1px 0 1px 0;
-  -webkit-border-image: -webkit-gradient(linear, 100% 0, 0 0, from(#dbdbdc), to(rgba(219, 219, 220, 0))) 1 100%;
-  -webkit-border-image: -webkit-linear-gradient(right, #dbdbdc, rgba(219, 219, 220, 0)) 1 100%;
-  -o-border-image: -o-linear-gradient(right, #dbdbdc, rgba(219, 219, 220, 0)) 1 100%;
-  -moz-border-image: -moz-linear-gradient(right, #dbdbdc, end) 1 100%;
 }
 aside > .subnavigation > ul li ul > li:last-child {
   border-bottom: none;
-  border-width: 0 0 0 0;
-  -webkit-border-image: -webkit-gradient(linear, 100% 0, 0 0, from(#dbdbdc), to(rgba(219, 219, 220, 0))) 1 100%;
-  -webkit-border-image: -webkit-linear-gradient(right, #dbdbdc, rgba(219, 219, 220, 0)) 1 100%;
-  -o-border-image: -o-linear-gradient(right, #dbdbdc, rgba(219, 219, 220, 0)) 1 100%;
-  -moz-border-image: -moz-linear-gradient(right, #dbdbdc, end) 1 100%;
 }
 aside > .subnavigation > ul li.active > a {
   background-color: #ffffff;
@@ -668,11 +648,7 @@ aside > .content-view-aside .block-content {
   background-image: -webkit-linear-gradient(-45deg, rgba(219, 219, 220, 0.30000000000000004), rgba(219, 219, 220, 0));
   background-image: -o-linear-gradient(-45deg, rgba(219, 219, 220, 0.30000000000000004), rgba(219, 219, 220, 0));
   background-image: linear-gradient(-45deg, rgba(219, 219, 220, 0.30000000000000004), rgba(219, 219, 220, 0));
-  border-width: 1px 0 0 0;
-  -webkit-border-image: -webkit-gradient(linear, 100% 0, 0 0, from(#ebebeb), to(rgba(235, 235, 235, 0))) 1 100%;
-  -webkit-border-image: -webkit-linear-gradient(right, #ebebeb, rgba(235, 235, 235, 0)) 1 100%;
-  -o-border-image: -o-linear-gradient(right, #ebebeb, rgba(235, 235, 235, 0)) 1 100%;
-  -moz-border-image: -moz-linear-gradient(right, #ebebeb, end) 1 100%;
+  border-top: 1px solid #ebebeb;
 }
 aside > .content-view-aside article a.teaser-link,
 aside > .content-view-aside .block-content a.teaser-link {
@@ -901,6 +877,11 @@ aside > .content-view-aside:last-child > article:last-child:after {
 .content-advancedsearch,
 .content-tipafriend,
 .content-edit-draft,
+.content-draft,
+.content-pendinglist,
+.content-browse,
+.shop-customerorderview,
+.shop-wishlist,
 .user-edit,
 .user-forgotpassword,
 .user-login,
@@ -1362,7 +1343,7 @@ aside > .content-view-aside:last-child > article:last-child:after {
   -webkit-border-image: -webkit-gradient(linear, 100% 0, 0 0, from(#ebebeb), to(rgba(235, 235, 235, 0))) 1 100%;
   -webkit-border-image: -webkit-linear-gradient(right, #ebebeb, rgba(235, 235, 235, 0)) 1 100%;
   -o-border-image: -o-linear-gradient(right, #ebebeb, rgba(235, 235, 235, 0)) 1 100%;
-  -moz-border-image: -moz-linear-gradient(right, #ebebeb, end) 1 100%;
+  -moz-border-image: -moz-linear-gradient(right, #ebebeb, rgba(235, 235, 235, 0)) 1 100%;
   padding-top: 20px;
 }
 .feedback-form {
@@ -3887,12 +3868,6 @@ input[type="submit"].btn.small {
 }
 .navbar .breadcrumb-wrapper {
   border-bottom: 1px solid #ebebeb;
-  border-width: 0 0 1px 0;
-  -webkit-border-image: -webkit-gradient(linear, 100% 0, 0 0, from(#ebebeb), to(rgba(235, 235, 235, 0))) 1 100%;
-  -webkit-border-image: -webkit-linear-gradient(right, #ebebeb, rgba(235, 235, 235, 0)) 1 100%;
-  -o-border-image: -o-linear-gradient(right, #ebebeb, rgba(235, 235, 235, 0)) 1 100%;
-  -moz-border-image: -moz-linear-gradient(right, #ebebeb, end) 1 100%;
-  -o-border-image: none;
 }
 .navbar.extra-navi {
   position: relative;
@@ -4456,11 +4431,6 @@ a.thumbnail:hover {
 .block-gallery .gallery-viewer {
   padding-bottom: 5px;
   border-bottom: 1px solid #ebebeb;
-  border-width: 0 0 1px 0;
-  -webkit-border-image: -webkit-gradient(linear, 100% 0, 0 0, from(#ebebeb), to(transparent)) 1 100%;
-  -webkit-border-image: -webkit-linear-gradient(right, #ebebeb, transparent) 1 100%;
-  -o-border-image: -o-linear-gradient(right, #ebebeb, transparent) 1 100%;
-  -moz-border-image: -moz-linear-gradient(right, #ebebeb, end) 1 100%;
 }
 .full-gallery .gallery-viewer .counter,
 .embed-gallery .gallery-viewer .counter,
@@ -4499,11 +4469,6 @@ a.thumbnail:hover {
 .embed-gallery .gallery-viewer h2,
 .block-gallery .gallery-viewer h2 {
   border-bottom: 1px solid #ebebeb;
-  border-width: 0 0 1px 0;
-  -webkit-border-image: -webkit-gradient(linear, 100% 0, 0 0, from(#ebebeb), to(transparent)) 1 100%;
-  -webkit-border-image: -webkit-linear-gradient(right, #ebebeb, transparent) 1 100%;
-  -o-border-image: -o-linear-gradient(right, #ebebeb, transparent) 1 100%;
-  -moz-border-image: -moz-linear-gradient(right, #ebebeb, end) 1 100%;
   line-height: 28px;
   margin: 15px 0;
 }
