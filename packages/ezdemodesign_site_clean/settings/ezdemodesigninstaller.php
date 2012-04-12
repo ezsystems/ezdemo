@@ -2781,7 +2781,7 @@ class ezdemodesignInstaller extends eZSiteInstaller
                 ),
                 'block_main_story_background_image' => array(
                     'Source' => 'block/view/view.tpl',
-                    'MatchFile' => 'block/main_story_bg_image.tpl',
+                    'MatchFile' => 'block/main_story_background_image.tpl',
                     'Subdir' => 'templates',
                     'Match' => array(
                         'type' => 'MainStory',
@@ -3615,7 +3615,7 @@ class ezdemodesignInstaller extends eZSiteInstaller
                 ), 
                 'vertically_listed_sub_items' => array( 
                     'Source' => 'content/view/embed.tpl', 
-                    'MatchFile' => 'embed/vert_listed_sub_items.tpl',
+                    'MatchFile' => 'embed/vertically_listed_sub_items.tpl', 
                     'Subdir' => 'templates', 
                     'Match' => array( 
                         'classification' => 'vertically_listed_sub_items' 
@@ -3623,7 +3623,7 @@ class ezdemodesignInstaller extends eZSiteInstaller
                 ), 
                 'horizontally_listed_sub_items' => array( 
                     'Source' => 'content/view/embed.tpl', 
-                    'MatchFile' => 'embed/horiz_listed_sub_items.tpl',
+                    'MatchFile' => 'embed/horizontally_listed_sub_items.tpl', 
                     'Subdir' => 'templates', 
                     'Match' => array( 
                         'classification' => 'horizontally_listed_sub_items' 
@@ -3759,7 +3759,7 @@ class ezdemodesignInstaller extends eZSiteInstaller
                 ), 
                 'embed_itemizedsubitems_itemized_sub_items' => array( 
                     'Source' => 'content/view/itemizedsubitems.tpl', 
-                    'MatchFile' => 'itemizedsubitems/list.tpl',
+                    'MatchFile' => 'itemizedsubitems/itemized_sub_items.tpl', 
                     'Subdir' => 'templates' 
                 ), 
                 'embed_event_calendar' => array( 
@@ -3772,7 +3772,7 @@ class ezdemodesignInstaller extends eZSiteInstaller
                 ), 
                 'embed_horizontallylistedsubitems_article' => array( 
                     'Source' => 'node/view/horizontallylistedsubitems.tpl', 
-                    'MatchFile' => 'horiz_listed_subitems/article.tpl',
+                    'MatchFile' => 'horizontallylistedsubitems/article.tpl', 
                     'Subdir' => 'templates', 
                     'Match' => array( 
                         'class_identifier' => 'article' 
@@ -3780,7 +3780,7 @@ class ezdemodesignInstaller extends eZSiteInstaller
                 ), 
                 'embed_horizontallylistedsubitems_event' => array( 
                     'Source' => 'node/view/horizontallylistedsubitems.tpl', 
-                    'MatchFile' => 'horiz_listed_subitems/event.tpl',
+                    'MatchFile' => 'horizontallylistedsubitems/event.tpl', 
                     'Subdir' => 'templates', 
                     'Match' => array( 
                         'class_identifier' => 'event' 
@@ -3788,7 +3788,7 @@ class ezdemodesignInstaller extends eZSiteInstaller
                 ), 
                 'embed_horizontallylistedsubitems_image' => array( 
                     'Source' => 'node/view/horizontallylistedsubitems.tpl', 
-                    'MatchFile' => 'horiz_listed_subitems/image.tpl',
+                    'MatchFile' => 'horizontallylistedsubitems/image.tpl', 
                     'Subdir' => 'templates', 
                     'Match' => array( 
                         'class_identifier' => 'image' 
@@ -3796,7 +3796,7 @@ class ezdemodesignInstaller extends eZSiteInstaller
                 ), 
                 'embed_horizontallylistedsubitems_product' => array( 
                     'Source' => 'node/view/horizontallylistedsubitems.tpl', 
-                    'MatchFile' => 'horiz_listed_subitems/product.tpl',
+                    'MatchFile' => 'horizontallylistedsubitems/product.tpl', 
                     'Subdir' => 'templates', 
                     'Match' => array( 
                         'class_identifier' => 'product' 
@@ -3804,7 +3804,7 @@ class ezdemodesignInstaller extends eZSiteInstaller
                 ),
                 'ezgmaplocation_article' => array(
                     'Source' => 'content/datatype/view/ezgmaplocation.tpl',
-                    'MatchFile' => 'datatype/view/ezgmaploc_article.tpl',
+                    'MatchFile' => 'datatype/view/ezgmaplocation_article.tpl',
                     'Subdir' => 'templates',
                     'Match' => array(
                         'class_identifier' => 'article'
@@ -3812,7 +3812,7 @@ class ezdemodesignInstaller extends eZSiteInstaller
                 ),
                 'ezstring_feedback_form' => array(
                     'Source' => 'content/datatype/collect/ezstring.tpl',
-                    'MatchFile' => 'datatype/collect/ezstring_fform.tpl',
+                    'MatchFile' => 'datatype/collect/ezstring_feedback_form.tpl',
                     'Subdir' => 'templates',
                     'Match' => array(
                         'class_identifier' => 'feedback_form'
@@ -3820,7 +3820,7 @@ class ezdemodesignInstaller extends eZSiteInstaller
                 ),
                 'ezemail_feedback_form' => array(
                     'Source' => 'content/datatype/collect/ezemail.tpl',
-                    'MatchFile' => 'datatype/collect/ezemail_fform.tpl',
+                    'MatchFile' => 'datatype/collect/ezemail_feedback_form.tpl',
                     'Subdir' => 'templates',
                     'Match' => array(
                         'class_identifier' => 'feedback_form'
@@ -3828,7 +3828,7 @@ class ezdemodesignInstaller extends eZSiteInstaller
                 ),
                 'eztext_feedback_form' => array(
                     'Source' => 'content/datatype/collect/eztext.tpl',
-                    'MatchFile' => 'datatype/collect/eztext_fform.tpl',
+                    'MatchFile' => 'datatype/collect/eztext_feedback_form.tpl',
                     'Subdir' => 'templates',
                     'Match' => array(
                         'class_identifier' => 'feedback_form'
@@ -3854,7 +3854,7 @@ class ezdemodesignInstaller extends eZSiteInstaller
                 ), 
                 'table_comparison' => array( 
                     'Source' => 'content/datatype/view/ezxmltags/table.tpl', 
-                    'MatchFile' => 'datatype/ezxmltext/table_comp.tpl',
+                    'MatchFile' => 'datatype/ezxmltext/table_comparison.tpl', 
                     'Subdir' => 'templates', 
                     'Match' => array( 
                         'classification' => 'comparison' 
