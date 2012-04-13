@@ -1288,10 +1288,10 @@ aside > .content-view-aside:last-child > article:last-child:after {
 .attribute-star-rating:after {
   clear: both;
 }
-.attribute-star-rating > ul.ezsr-star-rating {
+.attribute-star-rating ul.ezsr-star-rating {
   float: left;
 }
-.attribute-star-rating > ul.ezsr-star-rating > li:before {
+.attribute-star-rating ul.ezsr-star-rating > li:before {
   display: none;
 }
 .attribute-star-rating p {
