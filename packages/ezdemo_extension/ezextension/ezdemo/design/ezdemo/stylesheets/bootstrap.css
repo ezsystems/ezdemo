@@ -1419,6 +1419,9 @@ aside > .content-view-aside:last-child > article:last-child:after {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#007ea6', endColorstr='#006a8d', GradientType=0);
   color: #ffffff;
 }
+.user-login .button-right {
+  float: none;
+}
 #ajaxsearchbox .textfield {
   width: 150px;
   margin-bottom: 0;
