@@ -1459,6 +1459,30 @@ aside > .content-view-aside:last-child > article:last-child:after {
 .pagenavigator .next {
   float: right;
 }
+.calendar .month h2 {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.calendar .month .previous,
+.calendar .month .next {
+  font-weight: bold;
+  margin: 0 4px 0 4px;
+  padding-top: 0.1em;
+  display: inline;
+  /* Fix for IE */
+
+}
+.calendar .month .previous p,
+.calendar .month .next p {
+  display: inline;
+}
+.calendar .month .previous {
+  float: left;
+}
+.calendar .month .next {
+  float: right;
+}
 p {
   margin: 0 0 10.5px;
   font-family: Arial, Helvetica, sans-serif;
