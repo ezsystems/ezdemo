@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<extension name="ezdemodesign">
+<extension name="ezdemo">
   <file name=".idea" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
   <file name=".name" path="/.idea" md5sum="e52a324afcc55b36a538f1375852bbb6"/>
   <file name="encodings.xml" path="/.idea" md5sum="f1c5edfa5b1a67aabcb9e41674afa252"/>
@@ -13,7 +13,7 @@
   <file name="ezkeywordlist.php" path="/autoloads" md5sum="e6ce1e57b6a0c46f21246762e3a192a1"/>
   <file name="ezpagedata.php" path="/autoloads" md5sum="4198db722421738183fdae0dc9305231"/>
   <file name="eztagcloud.php" path="/autoloads" md5sum="59749e9d0293403b7a0432fc7f574765"/>
-  <file name="eztemplateautoload.php" path="/autoloads" md5sum="588a290ab7461c0ccf38311c87ba9380"/>
+  <file name="eztemplateautoload.php" path="/autoloads" md5sum="2694b92cbe7ca269b89b6ef16e1b0397"/>
   <file name="design" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
   <file name="ezdemodesign" path="/design" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
   <file name="images" path="/design/ezdemodesign" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
@@ -459,12 +459,12 @@
   <file name="settings" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
   <file name="block.ini.append.php" path="/settings" md5sum="8440203cfe5fdbd674612bdd119b57a7"/>
   <file name="content.ini.append.php" path="/settings" md5sum="9a4ef1a360def5a03529967474b99116"/>
-  <file name="design.ini.append.php" path="/settings" md5sum="4693d6d3375b8ecc70418009d14f398f"/>
+  <file name="design.ini.append.php" path="/settings" md5sum="35f157a8e9a141c549c66ae6b060bf80"/>
   <file name="ezoe_attributes.ini.append.php" path="/settings" md5sum="e3471df1db510285225dcb426e365abf"/>
   <file name="ezxml.ini.append.php" path="/settings" md5sum="d0ff8dcbf436a4103fe781f6c03efa88"/>
   <file name="image.ini.append.php" path="/settings" md5sum="c783331842a6f41993384fc9c5087e85"/>
   <file name="menu.ini.append.php" path="/settings" md5sum="ed107cdc56db795a782fea96116bc607"/>
-  <file name="site.ini.append.php" path="/settings" md5sum="cf233ed91b99046fc5c847acd738e317"/>
+  <file name="site.ini.append.php" path="/settings" md5sum="240f429cc099428d9908cce44142abd0"/>
   <file name="template.ini.append.php" path="/settings" md5sum="93260637cf03db6f1137f98aaa705cfc"/>
   <file name="websitetoolbar.ini.append.php" path="/settings" md5sum="11c50259346b9d4ead8ab2e1842901b4"/>
   <file name="sql" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>

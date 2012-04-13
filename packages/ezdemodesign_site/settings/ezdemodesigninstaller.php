@@ -699,14 +699,14 @@ class ezdemodesignInstaller extends eZSiteInstaller
                             'function' => '*' 
                         ), 
                         array( 
-                            'module' => 'ezdemodesign',
+                            'module' => 'ezflow',
                             'function' => '*' 
                         ), 
                         array( 
                             'module' => 'ezajax', 
                             'function' => '*' 
-                        ), 
-                        array( 
+                        ),
+                        array(
                             'module' => 'content', 
                             'function' => 'diff' 
                         ), 
@@ -760,12 +760,14 @@ class ezdemodesignInstaller extends eZSiteInstaller
                     ) 
                 ) 
             ),
-/*
-                                   array( '_function' => 'setSection',
-                                          '_params' => array( 'location' => 'partners',
-                                                              'section_name' => 'Restricted' ) ),
-*/
-                                   array( 
+            array(
+                '_function' => 'setSection',
+                 '_params' => array(
+                     'location' => 'Partner-Section',
+                     'section_name' => 'Restricted'
+                 )
+            ),
+            array(
                 '_function' => 'addPoliciesForRole', 
                 '_params' => array( 
                     'role_name' => 'Partner', 
@@ -1220,7 +1222,7 @@ class ezdemodesignInstaller extends eZSiteInstaller
         ) );
         $this->insertDBFile( 'ezflow_extension', 'ezflow' );
         $this->insertDBFile( 'ezcomments_extension', 'ezcomments' );
-        $this->insertDBFile( 'ezdemodesign_extension', 'ezdemodesign', false, true );
+        $this->insertDBFile( 'ezdemodesign_extension', 'ezdemo', false, true );
         $this->insertDBFile( 'ezstarrating_extension', 'ezstarrating' );
         $this->insertDBFile( 'ezgmaplocation_extension', 'ezgmaplocation' );
     }

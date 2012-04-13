@@ -705,7 +705,7 @@ class ezdemodesignInstaller extends eZSiteInstaller
                             'function' => '*' 
                         ), 
                         array( 
-                            'module' => 'ezdemodesign',
+                            'module' => 'ezflow',
                             'function' => '*' 
                         ), 
                         array( 
@@ -766,12 +766,14 @@ class ezdemodesignInstaller extends eZSiteInstaller
                     ) 
                 ) 
             ),
-/*
-                                   array( '_function' => 'setSection',
-                                          '_params' => array( 'location' => 'partners',
-                                                              'section_name' => 'Restricted' ) ),
-*/
-                                   array( 
+            array(
+                '_function' => 'setSection',
+                 '_params' => array(
+                     'location' => 'Partner-Section',
+                     'section_name' => 'Restricted'
+                 )
+            ),
+            array(
                 '_function' => 'addPoliciesForRole', 
                 '_params' => array( 
                     'role_name' => 'Partner', 

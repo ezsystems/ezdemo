@@ -1,10 +1,10 @@
 <?php /*
 
 [TemplateSettings]
-ExtensionAutoloadPath[]=ezdemodesign
+ExtensionAutoloadPath[]=ezdemo
 
 [RegionalSettings]
-TranslationExtensions[]=ezdemodesign
+TranslationExtensions[]=ezdemo
 
 [RSSSettings]
 DefaultFeedItemClasses[folder]=article

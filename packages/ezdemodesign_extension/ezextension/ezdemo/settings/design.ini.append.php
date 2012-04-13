@@ -1,7 +1,7 @@
 <?php /*
 
 [ExtensionSettings]
-DesignExtensions[]=ezdemodesign
+DesignExtensions[]=ezdemo
 
 # List of javascripts to use in footer
 [JavaScriptSettings]

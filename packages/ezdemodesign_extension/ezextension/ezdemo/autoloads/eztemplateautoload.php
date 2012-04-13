@@ -26,16 +26,16 @@
 
 $eZTemplateOperatorArray = array();
 
-$eZTemplateOperatorArray[] = array( 'script' => 'extension/ezdemodesign/autoloads/ezkeywordlist.php',
+$eZTemplateOperatorArray[] = array( 'script' => 'extension/ezdemo/autoloads/ezkeywordlist.php',
                                     'class' => 'eZKeywordList',
                                     'operator_names' => array( 'ezkeywordlist' ) );
-$eZTemplateOperatorArray[] = array( 'script' => 'extension/ezdemodesign/autoloads/ezarchive.php',
+$eZTemplateOperatorArray[] = array( 'script' => 'extension/ezdemo/autoloads/ezarchive.php',
                                     'class' => 'eZArchive',
                                     'operator_names' => array( 'ezarchive' ) );
-$eZTemplateOperatorArray[] = array( 'script' => 'extension/ezdemodesign/autoloads/eztagcloud.php',
+$eZTemplateOperatorArray[] = array( 'script' => 'extension/ezdemo/autoloads/eztagcloud.php',
                                     'class' => 'eZTagCloud',
                                     'operator_names' => array( 'eztagcloud' ) );
-$eZTemplateOperatorArray[] = array( 'script' => 'extension/ezdemodesign/autoloads/ezpagedata.php',
+$eZTemplateOperatorArray[] = array( 'script' => 'extension/ezdemo/autoloads/ezpagedata.php',
                                     'class' => 'eZPageData',
                                     'operator_names' => array( 'ezpagedata', 'ezpagedata_set', 'ezpagedata_append' ) );
 ?>
