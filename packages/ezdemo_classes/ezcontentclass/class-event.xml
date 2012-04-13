@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<content-class xmlns:ezcontentclass-attri="http://ezpublish/contentclassattribute" is-container="false" always-available="false" sort-field="path" sort-order="1">
+  <serialized-name-list>a:2:{s:6:"eng-GB";s:5:"Event";s:16:"always-available";s:6:"eng-GB";}</serialized-name-list>
+  <identifier>event</identifier>
+  <serialized-description-list>a:1:{s:6:"eng-GB";s:0:"";}</serialized-description-list>
+  <remote-id>563cb5edc2adfd2b240efa456c81525f</remote-id>
+  <object-name-pattern>&lt;short_title|title&gt;</object-name-pattern>
+  <url-alias-pattern></url-alias-pattern>
+  <remote>
+    <site-url>http://localhost/~ls/ezdemo_dev/index.php/</site-url>
+    <url>http://localhost/~ls/ezdemo_dev/index.php/class/view/32</url>
+    <groups>
+      <group id="1" name="Content"/>
+    </groups>
+    <id>32</id>
+    <created>1332426596</created>
+    <modified>1332497946</modified>
+    <creator>
+      <user-id>14</user-id>
+      <user-login>admin</user-login>
+    </creator>
+    <modifier>
+      <user-id>14</user-id>
+      <user-login>admin</user-login>
+    </modifier>
+  </remote>
+  <ezcontentclass-attri:attributes xmlns:ezcontentclass-attribute="http://ezpublish/contentclassattribute">
+    <attribute datatype="ezstring" required="false" searchable="true" information-collector="false" translatable="true">
+      <remote>
+        <id>256</id>
+      </remote>
+      <serialized-name-list>a:2:{s:6:"eng-GB";s:10:"Full title";s:16:"always-available";s:6:"eng-GB";}</serialized-name-list>
+      <identifier>title</identifier>
+      <serialized-description-list>a:1:{s:6:"eng-GB";s:0:"";}</serialized-description-list>
+      <category></category>
+      <serialized-data-text>a:0:{}</serialized-data-text>
+      <placement>1</placement>
+      <datatype-parameters>
+        <max-length>55</max-length>
+        <default-string/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezstring" required="true" searchable="true" information-collector="false" translatable="true">
+      <remote>
+        <id>257</id>
+      </remote>
+      <serialized-name-list>a:2:{s:6:"eng-GB";s:11:"Short title";s:16:"always-available";s:6:"eng-GB";}</serialized-name-list>
+      <identifier>short_title</identifier>
+      <serialized-description-list>a:1:{s:6:"eng-GB";s:0:"";}</serialized-description-list>
+      <category></category>
+      <serialized-data-text>a:0:{}</serialized-data-text>
+      <placement>2</placement>
+      <datatype-parameters>
+        <max-length>19</max-length>
+        <default-string/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezxmltext" required="false" searchable="true" information-collector="false" translatable="true">
+      <remote>
+        <id>258</id>
+      </remote>
+      <serialized-name-list>a:2:{s:6:"eng-GB";s:4:"Text";s:16:"always-available";s:6:"eng-GB";}</serialized-name-list>
+      <identifier>text</identifier>
+      <serialized-description-list>a:1:{s:6:"eng-GB";s:0:"";}</serialized-description-list>
+      <category></category>
+      <serialized-data-text>a:0:{}</serialized-data-text>
+      <placement>3</placement>
+      <datatype-parameters>
+        <text-column-count>10</text-column-count>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezkeyword" required="false" searchable="true" information-collector="false" translatable="true">
+      <remote>
+        <id>259</id>
+      </remote>
+      <serialized-name-list>a:2:{s:6:"eng-GB";s:8:"Category";s:16:"always-available";s:6:"eng-GB";}</serialized-name-list>
+      <identifier>category</identifier>
+      <serialized-description-list>a:1:{s:6:"eng-GB";s:0:"";}</serialized-description-list>
+      <category></category>
+      <serialized-data-text>a:0:{}</serialized-data-text>
+      <placement>4</placement>
+      <datatype-parameters/>
+    </attribute>
+    <attribute datatype="ezdatetime" required="true" searchable="false" information-collector="false" translatable="false">
+      <remote>
+        <id>260</id>
+      </remote>
+      <serialized-name-list>a:2:{s:6:"eng-GB";s:9:"From Time";s:16:"always-available";s:6:"eng-GB";}</serialized-name-list>
+      <identifier>from_time</identifier>
+      <serialized-description-list>a:1:{s:6:"eng-GB";s:0:"";}</serialized-description-list>
+      <category></category>
+      <serialized-data-text>a:0:{}</serialized-data-text>
+      <placement>5</placement>
+      <datatype-parameters>
+        <default-value type="current-date"/>
+        <use-seconds>0</use-seconds>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezdatetime" required="false" searchable="false" information-collector="false" translatable="false">
+      <remote>
+        <id>261</id>
+      </remote>
+      <serialized-name-list>a:2:{s:6:"eng-GB";s:7:"To Time";s:16:"always-available";s:6:"eng-GB";}</serialized-name-list>
+      <identifier>to_time</identifier>
+      <serialized-description-list>a:1:{s:6:"eng-GB";s:0:"";}</serialized-description-list>
+      <category></category>
+      <serialized-data-text>a:0:{}</serialized-data-text>
+      <placement>6</placement>
+      <datatype-parameters>
+        <default-value type="empty"/>
+        <use-seconds>0</use-seconds>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezkeyword" required="false" searchable="true" information-collector="false" translatable="true">
+      <remote>
+        <id>303</id>
+      </remote>
+      <serialized-name-list>a:2:{s:6:"eng-GB";s:4:"Tags";s:16:"always-available";s:6:"eng-GB";}</serialized-name-list>
+      <identifier>tags</identifier>
+      <serialized-description-list>a:2:{s:6:"eng-GB";s:0:"";s:16:"always-available";s:6:"eng-GB";}</serialized-description-list>
+      <category></category>
+      <serialized-data-text>a:2:{s:6:"eng-GB";s:0:"";s:16:"always-available";s:6:"eng-GB";}</serialized-data-text>
+      <placement>7</placement>
+      <datatype-parameters/>
+    </attribute>
+  </ezcontentclass-attri:attributes>
+</content-class>

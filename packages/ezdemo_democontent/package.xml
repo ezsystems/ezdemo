@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package version="1.0-0" development="false" install_type="install">
+    <name>ezdemo_democontent</name>
+    <summary></summary>
+    <description></description>
+    <vendor>eZ systems</vendor>
+    <type value="contentobject"/>
+    <ezpublish>
+        <version>4.7.0</version>
+        <named-version>4.7</named-version>
+    </ezpublish>
+    <maintainers>
+        <maintainer>
+            <name>Administrator User</name>
+            <email>nospam@ez.no</email>
+            <role>lead</role>
+        </maintainer>
+    </maintainers>
+    <packaging>
+        <timestamp>1300109477</timestamp>
+        <host>packages.ez.no</host>
+    </packaging>
+    <documents>
+        <document mime-type="text/plain" name="LICENCE"/>
+    </documents>
+    <changelog>
+        <entry timestamp="1300109477" person="Administrator User" email="bk@ez.no" release="1">
+            <change>Creation of package.</change>
+        </entry>
+    </changelog>
+    <simple-files>
+      <simple-file key="b476ae30e0a67e8c3b542747dd3caa5c" original-path="var/ezdemo_site/storage/images/getting-started/selected-features/search-result-clustering-with-ez-find/443-3-eng-GB/Search-Result-Clustering-with-eZ-Find.png" package-path="simplefiles/274b087e.png"/>
+      <simple-file key="7925243670eab1301badd0dca478471f" original-path="var/ezdemo_site/storage/images/getting-started/selected-features/autosave-in-editorial-editing-process/455-1-eng-GB/Autosave-in-Editorial-Editing-Process.png" package-path="simplefiles/c7cfa9d3.png"/>
+      <simple-file key="7aca712855270c7826e1fb5ce5d30090" original-path="var/ezdemo_site/storage/images/getting-started/selected-features/multivariate-testing/467-11-eng-GB/Multivariate-Testing.png" package-path="simplefiles/b0839e1d.png"/>
+      <simple-file key="cb48c01e310c2b3933cdc0661c4a618a" original-path="var/ezdemo_site/storage/images/getting-started/selected-features/improved-online-analytics/479-3-eng-GB/Improved-Online-Analytics.png" package-path="simplefiles/7a3d11eb.png"/>
+      <simple-file key="c292efaba899d1e2bf49a86e5aecbc30" original-path="var/ezdemo_site/storage/images/getting-started/selected-features/getting-started-with-ez-publish-etna/491-3-eng-GB/Getting-Started-with-eZ-Publish-Etna.jpg" package-path="simplefiles/a16f7354.jpg"/>
+      <simple-file key="114df3fbb84cbf9c7533d9e1f36f53a4" original-path="var/ezdemo_site/storage/images/travel/peruvian-amazon/amazon-side-river/223-1-eng-GB/Amazon-Side-River.jpg" package-path="simplefiles/7d1afcb4.jpg"/>
+      <simple-file key="c882d324a7ace933807c1fb269e984d5" original-path="var/ezdemo_site/storage/images/travel/peruvian-amazon/river-boat/228-1-eng-GB/River-Boat.jpg" package-path="simplefiles/bbbbc2fe.jpg"/>
+      <simple-file key="5c535315cb437330233390b557e3606c" original-path="var/ezdemo_site/storage/images/travel/peruvian-amazon/flying-bird/233-1-eng-GB/Flying-Bird.jpg" package-path="simplefiles/9675a24a.jpg"/>
+      <simple-file key="fcc238fe34b5cae12086428a3d06ffea" original-path="var/ezdemo_site/storage/images/travel/peruvian-amazon/turtles/238-1-eng-GB/Turtles.jpg" package-path="simplefiles/236e8a89.jpg"/>
+      <simple-file key="c00d7c512b8a507c21f68dd8a962fc5d" original-path="var/ezdemo_site/storage/images/travel/peruvian-amazon/hat-on-a-stick/243-1-eng-GB/Hat-on-a-Stick.jpg" package-path="simplefiles/2233e737.jpg"/>
+      <simple-file key="5ab5d4d88a4036a848fbdcc5aba52f33" original-path="var/ezdemo_site/storage/images/travel/peruvian-amazon/heron-in-the-water/248-1-eng-GB/Heron-in-the-Water.jpg" package-path="simplefiles/347b47f7.jpg"/>
+      <simple-file key="cf2b5b3ff0459e992efb6b3ebef8e85f" original-path="var/ezdemo_site/storage/images/travel/peruvian-amazon/bird-island/253-1-eng-GB/Bird-Island.jpg" package-path="simplefiles/1c936c89.jpg"/>
+      <simple-file key="b2ae62ab2a5defaef82e2d1f20ec99fd" original-path="var/ezdemo_site/storage/images/travel/peruvian-amazon/aligator/258-1-eng-GB/Aligator.jpg" package-path="simplefiles/81b898d7.jpg"/>
+      <simple-file key="ed8092df1024eb39618d4b5598950522" original-path="var/ezdemo_site/storage/original/application/a1ec03af36d81e9b8c4f5022b13de7c2.m4v" package-path="simplefiles/8650bb68.m4v"/>
+      <simple-file key="f8a4d17a43243d1289dbfcb3077b2d93" original-path="var/ezdemo_site/storage/images/travel/information/largest-city-without-road-connection/266-1-eng-GB/Largest-City-Without-Road-Connection.jpg" package-path="simplefiles/e410cf0a.jpg"/>
+      <simple-file key="6407c9cdfd5d16ae56ad91fb8e425e65" original-path="var/ezdemo_site/storage/images/travel/information/amazon-jungle/285-4-eng-GB/Amazon-Jungle.jpg" package-path="simplefiles/44525552.jpg"/>
+      <simple-file key="63183f14981309421adc20de240d6ef0" original-path="var/ezdemo_site/storage/images/travel/information/floating-village-in-iquitos-loreto/297-3-eng-GB/Floating-Village-in-Iquitos-Loreto.jpg" package-path="simplefiles/1adcd08a.jpg"/>
+      <simple-file key="47a625f70eb48502d21359054a41a2fe" original-path="var/ezdemo_site/storage/images/city-shopping/products/new-york-cab/339-1-eng-GB/New-York-Cab.jpg" package-path="simplefiles/e627f43d.jpg"/>
+      <simple-file key="d03cb0f0ca042a830fbad9886ef9ed8a" original-path="var/ezdemo_site/storage/images/city-shopping/products/city-view/362-1-eng-GB/City-View.jpg" package-path="simplefiles/5b3249df.jpg"/>
+      <simple-file key="dbf5a6dc4e56d637f07bdc63807000d0" original-path="var/ezdemo_site/storage/images/city-shopping/products/street-crossing/373-1-eng-GB/Street-Crossing.jpg" package-path="simplefiles/01a8f40b.jpg"/>
+      <simple-file key="68ec6922551353ce21604ec422c6316e" original-path="var/ezdemo_site/storage/images/city-shopping/locations/new-york-city/391-2-eng-GB/New-York-City.jpg" package-path="simplefiles/90bbe723.jpg"/>
+      <simple-file key="344717be52aada472d23ae50a19f2599" original-path="var/ezdemo_site/storage/original/image/e76c8776dccaba21cbfc21f52a02e19f.png" package-path="simplefiles/7095dbbb.png"/>
+      <simple-file key="d5fb94aa39f233d3f1c271c42df17a40" original-path="var/ezdemo_site/storage/original/image/5abdfbefae47de9dca63bc43e3a23ff4.png" package-path="simplefiles/783983ef.png"/>
+    </simple-files>
+    <version>
+        <number>1.0</number>
+        <release>0</release>
+    </version>
+    <licence>GPL</licence>
+    <state>stable</state>
+    <dependencies>
+        <provides/>
+        <requires/>
+        <obsoletes/>
+        <conflicts/>
+    </dependencies>
+    <install>
+        <item type="ezcontentobject" filename="contentobjects" sub-directory="ezcontentobject"/>
+    </install>
+    <uninstall>
+        <item type="ezcontentobject" filename="contentobjects" sub-directory="ezcontentobject"/>
+    </uninstall>
+</package>
