@@ -10,10 +10,10 @@
     <dependencies>
         <requires>
             <extension name="ezjscore" />
-            <extension name="ezflow" />
         </requires>
         <extends>
             <extension name="ezwt" />
+            <extension name="ezflow" />
         </extends>
     </dependencies>
 
