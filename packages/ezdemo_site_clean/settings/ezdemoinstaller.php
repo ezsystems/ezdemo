@@ -765,14 +765,7 @@ class ezdemoInstaller extends eZSiteInstaller
                         'description' => '' 
                     ) 
                 ) 
-            ),
-            array(
-                '_function' => 'setSection',
-                 '_params' => array(
-                     'location' => 'partner_section',
-                     'section_name' => 'Restricted'
-                 )
-            ),
+            ), 
             array(
                 '_function' => 'addPoliciesForRole', 
                 '_params' => array( 
