@@ -1,5 +1,8 @@
 <?php /*
 
+[SiteSettings]
+SiteGoogleAnalytics=UA-XXXXXXXX-X
+
 [TemplateSettings]
 ExtensionAutoloadPath[]=ezdemo
 
