@@ -1296,6 +1296,18 @@ aside > .content-view-aside:last-child > article:last-child:after {
 .attribute-star-rating p {
   font-size: 13px;
 }
+.attribute-download {
+  *zoom: 1;
+  padding: 10px 0;
+}
+.attribute-download:before,
+.attribute-download:after {
+  display: table;
+  content: "";
+}
+.attribute-download:after {
+  clear: both;
+}
 .attribute-socialize {
   margin: 0 0 1em 0;
   padding: 10px 0;
