@@ -3705,7 +3705,15 @@ class ezdemoInstaller extends eZSiteInstaller
                     'Match' => array( 
                         'class_identifier' => 'windows_media' 
                     ) 
-                ), 
+                ),
+                'embed_video' => array(
+                    'Source' => 'content/view/embed.tpl',
+                    'MatchFile' => 'embed/video.tpl',
+                    'Subdir' => 'templates',
+                    'Match' => array(
+                        'class_identifier' => 'video'
+                    )
+                ),
                 'embed_inline_image' => array( 
                     'Source' => 'content/view/embed-inline.tpl', 
                     'MatchFile' => 'embed-inline/image.tpl', 
