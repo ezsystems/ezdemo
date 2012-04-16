@@ -588,7 +588,6 @@ aside > .content-view-aside {
   position: relative;
 }
 aside > .content-view-aside:first-child {
-  padding-top: 20px;
   background: -moz-linear-gradient(top, #ffffff 0px, rgba(255, 255, 255, 0) 30px);
   /* FF3.6+ */
 
