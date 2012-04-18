@@ -377,6 +377,8 @@ aside {
 .content-browse,
 .shop-customerorderview,
 .shop-wishlist,
+.shop-orderview,
+.shop-orderlist,
 .user-edit,
 .user-forgotpassword,
 .user-login,
@@ -687,6 +689,30 @@ aside {
 .attribute-download {
     .clearfix();
     padding: 10px 0;
+}
+
+.shop-basket,
+.shop-userregister,
+.shop-confirmorder {
+    margin: 20px 0;
+    ul {
+        margin-left: 0;
+        li {
+            &:first-child {
+                padding-left: 0;
+                &.selected {
+                    padding-left: 10px;
+                }
+            }
+            float: left;
+            padding: 10px 15px;
+            &.selected {
+                background-color: @orange;
+                color: @white;
+            }
+        }
+        .clearfix();
+    }
 }
 
 .attribute-socialize {

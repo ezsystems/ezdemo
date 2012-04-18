@@ -884,6 +884,8 @@ aside > .content-view-aside:last-child > article:last-child:after {
 .content-browse,
 .shop-customerorderview,
 .shop-wishlist,
+.shop-orderview,
+.shop-orderlist,
 .user-edit,
 .user-forgotpassword,
 .user-login,
@@ -1309,6 +1311,53 @@ aside > .content-view-aside:last-child > article:last-child:after {
   content: "";
 }
 .attribute-download:after {
+  clear: both;
+}
+.shop-basket,
+.shop-userregister,
+.shop-confirmorder {
+  margin: 20px 0;
+}
+.shop-basket ul,
+.shop-userregister ul,
+.shop-confirmorder ul {
+  margin-left: 0;
+  *zoom: 1;
+}
+.shop-basket ul li,
+.shop-userregister ul li,
+.shop-confirmorder ul li {
+  float: left;
+  padding: 10px 15px;
+}
+.shop-basket ul li:first-child,
+.shop-userregister ul li:first-child,
+.shop-confirmorder ul li:first-child {
+  padding-left: 0;
+}
+.shop-basket ul li:first-child.selected,
+.shop-userregister ul li:first-child.selected,
+.shop-confirmorder ul li:first-child.selected {
+  padding-left: 10px;
+}
+.shop-basket ul li.selected,
+.shop-userregister ul li.selected,
+.shop-confirmorder ul li.selected {
+  background-color: #e57910;
+  color: #ffffff;
+}
+.shop-basket ul:before,
+.shop-userregister ul:before,
+.shop-confirmorder ul:before,
+.shop-basket ul:after,
+.shop-userregister ul:after,
+.shop-confirmorder ul:after {
+  display: table;
+  content: "";
+}
+.shop-basket ul:after,
+.shop-userregister ul:after,
+.shop-confirmorder ul:after {
   clear: both;
 }
 .attribute-socialize {

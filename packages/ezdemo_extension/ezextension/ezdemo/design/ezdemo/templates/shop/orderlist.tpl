@@ -72,7 +72,7 @@
 
 {/section}
 
-<div class="button">
+<div class="actions">
 <input type="submit" class="button" name="ArchiveButton" value="{'Archive'|i18n('design/ezdemo/shop/orderlist')}" />
 </div>
 
