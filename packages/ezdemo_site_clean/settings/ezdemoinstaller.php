@@ -3711,7 +3711,7 @@ class ezdemoInstaller extends eZSiteInstaller
                     'Match' => array(
                         'class_identifier' => 'video'
                     )
-                ), 
+                ),
                 'embed_inline_image' => array( 
                     'Source' => 'content/view/embed-inline.tpl', 
                     'MatchFile' => 'embed-inline/image.tpl', 

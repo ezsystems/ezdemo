@@ -519,6 +519,9 @@ footer .claim-wrapper {
   min-height: 33px;
   margin-bottom: 14px;
 }
+footer .claim-wrapper a {
+  color: white;
+}
 footer h3 {
   border-bottom: 1px solid #ebebeb;
   margin-bottom: 2px;

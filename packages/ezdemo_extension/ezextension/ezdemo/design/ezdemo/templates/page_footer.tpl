@@ -5,7 +5,7 @@
     <div class="claim-wrapper">
         <div class="container">
             <div class="nav-collapse">
-                Powered by eZ Publish&#8482; CMS Open Source Web Content Management.
+                Powered by <a href="http://ez.no/ezpublish" title="eZ Publish&#8482; CMS Open Source Web Content Management">eZ Publish&#8482; CMS Open Source Web Content Management</a>.
             </div>
         </div>
     </div>
