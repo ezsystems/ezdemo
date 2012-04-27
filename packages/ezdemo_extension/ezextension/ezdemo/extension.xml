@@ -12,8 +12,8 @@
             <extension name="ezjscore" />
         </requires>
         <extends>
-            <extension name="ezwt" />
             <extension name="ezflow" />
+            <extension name="ezwt" />
         </extends>
     </dependencies>
 

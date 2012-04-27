@@ -53,7 +53,6 @@
                     initFunc: function () {
                         var imgs = this.navigator.getImages();
 
-                        // make the browser caches images
                         setTimeout(function () {
                             imgs.each(function(elem) {
                                 (new Image).src = elem.getAttribute('data-gallery-src');

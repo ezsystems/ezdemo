@@ -3984,7 +3984,7 @@ input[type="submit"].btn.small {
   background-color: #007ea6;
   position: absolute;
   left: 170px;
-  top: -200px;
+  top: -1000px;
   z-index: 10;
   background-color: #00769c;
   background-image: -moz-linear-gradient(top, #007ea6, #006a8d);
@@ -4001,11 +4001,11 @@ input[type="submit"].btn.small {
   -webkit-box-shadow: 0 5px 5px rgba(0, 0, 0, 0.35);
   -moz-box-shadow: 0 5px 5px rgba(0, 0, 0, 0.35);
   box-shadow: 0 5px 5px rgba(0, 0, 0, 0.35);
-  -webkit-transition: top 0.4s ease;
-  -moz-transition: top 0.4s ease;
-  -ms-transition: top 0.4s ease;
-  -o-transition: top 0.4s ease;
-  transition: top 0.4s ease;
+  -webkit-transition: top 0.2s ease;
+  -moz-transition: top 0.2s ease;
+  -ms-transition: top 0.2s ease;
+  -o-transition: top 0.2s ease;
+  transition: top 0.2s ease;
 }
 .navbar.extra-navi #lang-selector ul > li {
   list-style-type: none;
