@@ -1775,6 +1775,46 @@ As imagens são colocadas na biblioteca e você poderá reutilizá-las em outros
         <source>Search text:</source>
         <translation>Pesquisar texto:</translation>
     </message>
+    <message>
+        <source>Tag cloud</source>
+        <translation>Nuvem de tag</translation>
+    </message>
+    <message>
+        <source>Site map</source>
+        <translation>Mapa do site</translation>
+    </message>
+    <message>
+        <source>Shopping basket</source>
+        <translation>Cesta de compras</translation>
+    </message>
+    <message>
+        <source>My profile</source>
+        <translation>Meu perfil</translation>
+    </message>
+    <message>
+        <source>Logout</source>
+        <translation>Logout</translation>
+    </message>
+    <message>
+        <source>Register</source>
+        <translation>Cadastre-se</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation>Login</translation>
+    </message>
+    <message>
+        <source>Username</source>
+        <translation>Nome de usuário</translation>
+    </message>
+    <message>
+        <source>Password</source>
+        <translation>Senha</translation>
+    </message>
+    <message>
+        <source>Forgot your password?</source>
+        <translation>Esqueceu sua senha?</translation>
+    </message>
 </context>
 <context>
     <name>design/ezdemo/parts/website_toolbar</name>
