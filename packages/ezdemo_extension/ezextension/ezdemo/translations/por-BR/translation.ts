@@ -1777,7 +1777,7 @@ As imagens são colocadas na biblioteca e você poderá reutilizá-las em outros
     </message>
     <message>
         <source>Tag cloud</source>
-        <translation>Nuvem de tag</translation>
+        <translation>Tags</translation>
     </message>
     <message>
         <source>Site map</source>
