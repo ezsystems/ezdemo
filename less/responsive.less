@@ -120,7 +120,6 @@
     footer address br {
         display: none;
     }
-    
     header .form-search {
         .clearfix();
         padding: 20px 0 15px 0;
@@ -130,7 +129,14 @@
             display: block;
         }
     }
-    
+
+
+    header {
+        .row > .span8, .row > .form-search {
+            display:inline-block;
+            width:49%;
+        }
+    }
     .navbar.main-navi {
         ul {
             margin: 0 -20px;
@@ -175,6 +181,16 @@
     width: auto;
     margin: 0;
   }
+
+    header {
+        .row > .span8, .row > .form-search {
+            display:inline-block;
+            width:49%;
+        }
+        .form-search {
+            padding-top: 10px;
+        }
+    }
 }
 
 
