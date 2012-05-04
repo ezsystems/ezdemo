@@ -6,7 +6,7 @@
     <div class="campaign">
         <a href="#" class="navig prev" style="opacity:0;"><span class="hide">&lt;</span></a>
         <a href={cond( $several, $valid_nodes[1].url_alias|ezurl, '"#"' )} class="navig next{cond( $several|not, ' disabled', '' )}"><span class="hide">&gt;</span></a>
-        <ul class="indicator">
+        <ul class="indicator{cond( $several|not, ' disabled', '' )}">
             {for 1 to $valid_nodes|count as $i}
             <li{cond( $i|eq( 1 ), ' class="selected"', '' )}><span class="hide">{$i}</span></li>
             {/for}

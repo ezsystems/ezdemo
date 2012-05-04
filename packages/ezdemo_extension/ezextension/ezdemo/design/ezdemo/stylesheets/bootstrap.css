@@ -4738,6 +4738,9 @@ a.thumbnail:hover {
   top: 46%;
   z-index: 11;
 }
+.block-type-campaign .disabled {
+  display: none;
+}
 .block-type-campaign .next {
   right: 0px;
   background: transparent url('../images/ez-sprite.png') no-repeat -55px -22px;
