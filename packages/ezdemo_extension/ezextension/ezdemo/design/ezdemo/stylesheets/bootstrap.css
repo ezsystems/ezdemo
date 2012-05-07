@@ -882,6 +882,7 @@ aside > .content-view-aside:last-child > article:last-child:after {
 .content-draft,
 .content-pendinglist,
 .content-browse,
+.content-history,
 .shop-customerorderview,
 .shop-wishlist,
 .shop-orderview,
@@ -1548,6 +1549,89 @@ aside > .content-view-aside:last-child > article:last-child:after {
 }
 .calendar .month .next {
   float: right;
+}
+#diffview {
+  margin-bottom: 1em;
+}
+#diffview ul {
+  margin: 0 0 0.5em 0;
+  padding: 0.25em 0.5em 0.25em 0.5em;
+  border-bottom: 1px solid #808080;
+  display: block;
+}
+#diffview ul li {
+  font-size: 0.85em;
+  margin: 0 0.5em 0 0;
+  padding: 0;
+  display: inline;
+  list-style-type: none;
+}
+.attribute-view-diff {
+  padding: 0.25em;
+  border: 1px solid #d7d7d2;
+}
+.attribute-view-diff label {
+  color: #75756c;
+}
+.attribute-view-diff-old {
+  padding-bottom: 0.25em;
+  border-bottom: 1px dashed #bfbfb7;
+}
+.attribute-view-diff-new {
+  padding-top: 0.25em;
+}
+ins {
+  color: #008000;
+  text-decoration: none;
+  border-bottom: 1px solid #00b000;
+}
+del {
+  color: #d98078;
+  text-decoration: line-through;
+}
+ins:hover,
+del:hover {
+  background-color: #ffffff;
+}
+ins:hover {
+  color: #006000;
+  border-bottom: none;
+}
+del:hover {
+  color: #852c25;
+  text-decoration: none;
+}
+.blockchanges ins,
+.blockchanges del {
+  color: #000000;
+  padding-left: 0.5em;
+  text-decoration: none;
+  border-bottom: none;
+  display: block;
+}
+.blockchanges ins {
+  border-left: 0.5em solid #008000;
+}
+.blockchanges del {
+  border-left: 0.5em solid #d98078;
+}
+.previous ins {
+  display: none;
+}
+.previous del {
+  color: #000000;
+  background-color: #ffff00;
+  border-bottom: none;
+  text-decoration: none;
+}
+.latest del {
+  display: none;
+}
+.latest ins {
+  color: #000000;
+  background-color: #ffff00;
+  border-bottom: none;
+  text-decoration: none;
 }
 p {
   margin: 0 0 10.5px;
@@ -2691,6 +2775,10 @@ legend + .control-group {
 }
 .buttonblock {
   margin-top: 10px;
+}
+select[name="FromVersion"],
+select[name="ToVersion"] {
+  width: 60px;
 }
 table {
   max-width: 100%;
