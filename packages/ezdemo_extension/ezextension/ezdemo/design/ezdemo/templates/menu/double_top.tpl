@@ -2,7 +2,7 @@
 <div class="navbar-inner">
     <div class="container">
 
-        <a class="btn btn-navbar" data-action="toggleclass" data-class="nav-collapse" data-target="header .nav-collapse">{'Navigation'|i18n( 'design/ezdemo/menu' )}</a>
+        <a class="btn btn-navbar" data-action="toggleclass" data-class="nav-collapse" data-target=".main-navi .nav-collapse">{'Navigation'|i18n( 'design/ezdemo/menu' )}</a>
 
         <div class="nav-collapse">
             <ul class="nav">
