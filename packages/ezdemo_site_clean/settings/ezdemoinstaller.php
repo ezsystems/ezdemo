@@ -100,8 +100,7 @@ class ezdemoInstaller extends eZSiteInstaller
             $this->setting( 'user_siteaccess' ) 
         ), $this->setting( 'language_based_siteaccess_list' ) ) );
         $this->addSetting( 'all_siteaccess_list', array_merge( $this->setting( 'user_siteaccess_list' ), array( 
-            $this->setting( 'admin_siteaccess' ), 
-            'iphone' 
+            $this->setting( 'admin_siteaccess' )
         ) ) );
         $this->addSetting( 'access_type', eZSiteInstaller::getParam( $parameters, 'site_type/access_type', '' ) );
         $this->addSetting( 'access_type_value', eZSiteInstaller::getParam( $parameters, 'site_type/access_type_value', '' ) );
@@ -135,18 +134,6 @@ class ezdemoInstaller extends eZSiteInstaller
                     $this->setting( 'admin_access_type_value' ), 
                     $this->setting( 'access_type_value' ) 
                 ) 
-            ) ),
-            'mobile' => $this->createSiteaccessUrls( array(
-                'siteaccess_list' => array(
-                    'iphone'
-                ),
-                'access_type' => $this->setting( 'access_type' ),
-                'access_type_value' => $this->setting( 'access_type_value' ) + count( $this->setting( 'language_based_siteaccess_list' ) ) + 1,
-                'host' => $this->setting( 'host' ),
-                'exclude_port_list' => array(
-                    $this->setting( 'admin_access_type_value' ),
-                    $this->setting( 'access_type_value' )
-                )
             ) )
         );
         $this->addSetting( 'siteaccess_urls', $siteaccessUrls );
@@ -176,15 +163,7 @@ class ezdemoInstaller extends eZSiteInstaller
             array( 
                 '_function' => 'createTranslationSiteAccesses', 
                 '_params' => array() 
-            ), 
-            array( 
-                '_function' => 'createiPhoneSiteAccess', 
-                '_params' => array() 
-            ), 
-            array( 
-                '_function' => 'updateiPhoneImageINISettings', 
-                '_params' => array() 
-            ), 
+            ),
             array( 
                 '_function' => 'updateTemplateLookClassAttributes', 
                 '_params' => array() 
@@ -1456,85 +1435,6 @@ class ezdemoInstaller extends eZSiteInstaller
         }
     }
 
-    function createiPhoneSiteAccess()
-    {
-        $this->createSiteAccess( array( 
-            'src' => array( 
-                'siteaccess' => $this->setting( 'user_siteaccess' ) 
-            ), 
-            'dst' => array( 
-                'siteaccess' => 'iphone', 
-                'settings' => array( 
-                    'site.ini' => array(
-                        'DesignSettings' => array( 
-                            'AdditionalSiteDesignList' => array(
-                                'ezdemo', 'ezflow', 'base', 'standard'
-                                ),
-                            'SiteDesign' => 'iphone'
-                            ),
-                        ) 
-                    ) 
-                ) 
-            ) 
-        );
-        
-    }
-    
-    function updateiPhoneImageINISettings()
-    {
-        $settings = $this->siteImageINISettings();
-        
-        $settings['settings']['AliasSettings'] = array(
-            'AliasList' => array_merge(
-                $settings['settings']['AliasSettings']['AliasList'],
-                array(
-                    'iphonelarge', 
-                    'ifrontpagegallery', 
-                    'iphonethumb', 
-                    'iphoneminithumb', 
-                    'imainstory1'
-                )
-            )
-        );
-        $settings['settings']['iphonelarge'] = array(
-            'Reference' => '',
-            'Filters' => array(
-                'geometry/scalewidthdownonly=285'
-            )
-        );
-        $settings['settings']['iphonethumb'] = array(
-            'Reference' => '',
-            'Filters' => array(
-                'geometry/scalewidthdownonly=139'
-            )
-        );
-        $settings['settings']['iphoneminithumb'] = array(
-            'Reference' => '',
-            'Filters' => array(
-                'geometry/scalewidthdownonly=102.2'
-            )
-        );
-        $settings['settings']['ifrontpagegallery'] = array(
-            'Reference' => '',
-            'Filters' => array(
-                'geometry/scalewidthdownonly=239'
-            )
-        );
-        $settings['settings']['imainstory1'] = array(
-            'Reference' => '',
-            'Filters' => array(
-                'geometry/scalewidthdownonly=302'
-            )
-        );
-
-        $ini = eZINI::instance( $settings['name'], 'settings/siteaccess/iphone', null, false, null, true );
-        $ini->reset();
-
-        $ini->setReadOnlySettingsCheck( false );
-        $ini->setVariables( $settings['settings'] );
-        $ini->save( $settings['name'], '.append.php', false, null, 'settings/siteaccess/iphone', true );
-    }
-
     ///////////////////////////////////////////////////////////////////////////
     // Setup roles
     ///////////////////////////////////////////////////////////////////////////
@@ -2633,10 +2533,7 @@ class ezdemoInstaller extends eZSiteInstaller
         $siteaccessUrl = $this->setting( 'siteaccess_urls' );
         $settings['SiteAccessSettings'] = array( 
             'RequireUserLogin' => 'false', 
-            'ShowHiddenNodes' => 'false',
-            'DetectMobileDevice' => 'enabled',
-            'MobileSiteAccessList' => array( 'iphone' ),
-            'MobileSiteAccessURL' => 'http://' . $siteaccessUrl['mobile']['iphone']['url']
+            'ShowHiddenNodes' => 'false'
         );
         $siteaccessUrl = $this->setting( 'siteaccess_urls' );
         $adminSiteaccessName = $this->setting( 'admin_siteaccess' );
