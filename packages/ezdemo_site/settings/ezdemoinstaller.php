@@ -2021,6 +2021,7 @@ class ezdemoInstaller extends eZSiteInstaller
         $settings[] = $this->commonForumINISettings();
         $settings[] = $this->commonOEAttributesINISettings();
         $settings[] = $this->commonXMLINISettings();
+        $settings[] = $this->commonLayoutINISettings();
         return $settings;
     }
 
@@ -2495,6 +2496,19 @@ class ezdemoInstaller extends eZSiteInstaller
                     ) 
                 ) 
             ) 
+        );
+    }
+
+    function commonLayoutINISettings()
+    {
+        return array(
+            'name' => 'layout.ini',
+            'settings' => array(
+                'mobile' => array(
+                    'PageLayout' => 'mobile_pagelayout.tpl',
+                    'UseFullUrl' => 'true'
+                )
+            )
         );
     }
 

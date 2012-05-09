@@ -335,6 +335,7 @@
   <file name="double_top.tpl" path="/design/ezdemo/templates/menu" md5sum="a0725f1dc9de22f8295e234f5900ed25"/>
   <file name="flat_left.tpl" path="/design/ezdemo/templates/menu" md5sum="4015663d01f42565c1e23661d31fdc09"/>
   <file name="flat_top.tpl" path="/design/ezdemo/templates/menu" md5sum="3d46c897203ea30927dd829d66c54727"/>
+  <file name="mobile_pagelayout.tpl" path="/design/ezdemo/templates" md5sum="03309b4370a4cc90d45c34182c7bed5b"/>
   <file name="node" path="/design/ezdemo/templates" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
   <file name="gallery_item.tpl" path="/design/ezdemo/templates/node" md5sum="d9ce73d0779a85284c752662602a2845"/>
   <file name="removeobject.tpl" path="/design/ezdemo/templates/node" md5sum="04dca35d4c46403fe17cafb41aa8a5ab"/>
