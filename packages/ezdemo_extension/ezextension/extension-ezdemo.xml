@@ -426,7 +426,7 @@
   <file name="3zoneslayout1.tpl" path="/design/ezdemo/templates/zone" md5sum="468aca86d0ed4b45be810da39c1bb753"/>
   <file name="3zoneslayout2.tpl" path="/design/ezdemo/templates/zone" md5sum="c2927aad25b98da50ea0d224db024a89"/>
   <file name="globalzonelayout.tpl" path="/design/ezdemo/templates/zone" md5sum="daac4365a4ce5744013c70b5cf669fb1"/>
-  <file name="extension.xml" md5sum="0ebd1defc8e0d264b6cb3ad8f8e463b5"/>
+  <file name="extension.xml" md5sum="b08e171bc410b55ecc67f46cf4136312"/>
   <file name="ezinfo.php" md5sum="fea67ffc79c5e9b1fc766eb5818fc31f"/>
   <file name="LICENSE" md5sum="0636e73ff0215e8d672dc4c32c317bb3"/>
   <file name="README" md5sum="d41d8cd98f00b204e9800998ecf8427e"/>
@@ -438,6 +438,7 @@
   <file name="ezxml.ini.append.php" path="/settings" md5sum="d0ff8dcbf436a4103fe781f6c03efa88"/>
   <file name="image.ini.append.php" path="/settings" md5sum="c783331842a6f41993384fc9c5087e85"/>
   <file name="menu.ini.append.php" path="/settings" md5sum="ed107cdc56db795a782fea96116bc607"/>
+  <file name="odf.ini.append.php" path="/settings" md5sum="a1d1b33e4e084558e9faa02106ac7582"/>
   <file name="site.ini.append.php" path="/settings" md5sum="240f429cc099428d9908cce44142abd0"/>
   <file name="template.ini.append.php" path="/settings" md5sum="93260637cf03db6f1137f98aaa705cfc"/>
   <file name="timeline.ini.append.php" path="/settings" md5sum="6b396f64319cbb1969134e6f69e6a3a3"/>

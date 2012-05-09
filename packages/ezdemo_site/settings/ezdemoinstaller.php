@@ -1570,7 +1570,6 @@ class ezdemoInstaller extends eZSiteInstaller
         $settings[] = $this->adminContentINISettings();
         $settings[] = $this->adminIconINISettings();
         $settings[] = $this->adminViewCacheINISettings();
-        $settings[] = $this->adminODFINISettings();
         $settings[] = $this->adminOEINISettings();
         return $settings;
     }
@@ -1995,12 +1994,6 @@ class ezdemoInstaller extends eZSiteInstaller
                 ) 
             ) 
         );
-    }
-
-    function adminODFINISettings()
-    {
-        // admin siteaccess uses the same ODF-settings
-        return $this->siteODFINISettings();
     }
 
     function adminOEINISettings()
@@ -2521,7 +2514,6 @@ class ezdemoInstaller extends eZSiteInstaller
         $settings[] = $this->siteBrowseINISettings();
         $settings[] = $this->siteTemplateINISettings();
         $settings[] = $this->siteContentStructureMenuINISettings();
-        $settings[] = $this->siteODFINISettings();
         $settings[] = $this->siteOEINISettings();
         return $settings;
     }
@@ -4026,24 +4018,6 @@ class ezdemoInstaller extends eZSiteInstaller
             ) 
         );
         return $settings;
-    }
-
-    function siteODFINISettings()
-    {
-        // update 'article' class attributes info
-        $articleExtraAttributes = array( 
-            'caption' => 'caption', 
-            'publish_date' => 'publish_date', 
-            'unpublish_date' => 'unpublish_date' 
-        );
-        return array( 
-            'name' => 'odf.ini', 
-            'settings' => array( 
-                'article' => array( 
-                    'Attribute' => $articleExtraAttributes 
-                ) 
-            ) 
-        );
     }
 
     function siteOEINISettings()
