@@ -21,6 +21,8 @@
      $locales          = fetch( 'content', 'translation_list' )
      $current_node_id  = $pagedata.node_id}
 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 {include uri='design:page_head.tpl'}
 {include uri='design:page_head_style.tpl'}
 {include uri='design:page_head_script.tpl'}
