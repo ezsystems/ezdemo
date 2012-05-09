@@ -3,6 +3,9 @@
 
 {ezcss_require( 'video.css' )}
 {ezscript_require( 'video.js' )}
+<script>
+    _V_.options.flash.swf = "{'flash/video-js.swf'|ezdesign( 'no' )}"
+</script>
 
 <div class="block-type-video">
     <div class="attribute-header">
@@ -10,7 +13,7 @@
     </div>
     <article>
         <div class="attribute-video">
-            <video id="video_{$block.id}" class="video-js vjs-default-skin" controls preload="auto" width="100%" height="264" poster="" data-setup="">
+            <video id="video_{$block.id}" class="video-js vjs-default-skin" controls preload="auto" width="100%" height="264" poster="" data-setup="{ldelim}{rdelim}">
               <source src="{$video_path}" type="video/mp4" />
             </video>
         </div>
