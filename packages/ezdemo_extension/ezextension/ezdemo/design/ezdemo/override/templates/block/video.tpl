@@ -13,7 +13,7 @@
     </div>
     <article>
         <div class="attribute-video">
-            <video id="video_{$block.id}" class="video-js vjs-default-skin" controls preload="auto" width="100%" height="264" poster="" data-setup="{ldelim}{rdelim}">
+            <video id="video_{$block.id}" class="video-js vjs-default-skin" controls preload="auto" width="330" height="264" poster="" data-setup="{ldelim}{rdelim}">
               <source src="{$video_path}" type="video/mp4" />
             </video>
         </div>
