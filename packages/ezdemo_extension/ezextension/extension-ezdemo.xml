@@ -8,6 +8,7 @@
   <file name="eztemplateautoload.php" path="/autoloads" md5sum="2694b92cbe7ca269b89b6ef16e1b0397"/>
   <file name="design" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
   <file name="ezdemo" path="/design" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
+  <file name=".DS_Store" path="/design/ezdemo" md5sum="5588ff467dc102387741b62ff912d810"/>
   <file name="flash" path="/design/ezdemo" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
   <file name="video-js.swf" path="/design/ezdemo/flash" md5sum="b7a88ed9b3cbfcdd13cb2a7ce6512964"/>
   <file name="images" path="/design/ezdemo" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
