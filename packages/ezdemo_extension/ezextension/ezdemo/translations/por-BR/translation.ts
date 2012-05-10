@@ -5,38 +5,38 @@
     <name>design/admin/content/datatype</name>
     <message>
         <source>Year</source>
-        <translation type="unfinished">Ano</translation>
+        <translation>Ano</translation>
     </message>
     <message>
         <source>Month</source>
-        <translation type="unfinished">Mês</translation>
+        <translation>Mês</translation>
     </message>
     <message>
         <source>Day</source>
-        <translation type="unfinished">Dia</translation>
+        <translation>Dia</translation>
     </message>
     <message>
         <source>Hour</source>
-        <translation type="unfinished">Hora</translation>
+        <translation>Hora</translation>
     </message>
     <message>
         <source>Minute</source>
-        <translation type="unfinished">Minuto</translation>
+        <translation>Minuto</translation>
     </message>
 </context>
 <context>
     <name>design/admin/content/edit_attribute</name>
     <message>
         <source>not translatable</source>
-        <translation type="unfinished"></translation>
+        <translation>não traduzível</translation>
     </message>
     <message>
         <source>required</source>
-        <translation type="unfinished"></translation>
+        <translation>obrigatório</translation>
     </message>
     <message>
         <source>information collector</source>
-        <translation type="unfinished"></translation>
+        <translation>coletor de informação</translation>
     </message>
 </context>
 <context>
@@ -173,11 +173,11 @@
     <name>design/ezdemo/collectedinfomail/feedback</name>
     <message>
         <source>Feedback from %1</source>
-        <translation type="unfinished">Feedback de %1</translation>
+        <translation>Feedback de %1</translation>
     </message>
     <message>
         <source>The following feedback was collected</source>
-        <translation type="unfinished">O seguinte feedback foi colectado</translation>
+        <translation>O seguinte feedback foi colectado</translation>
     </message>
 </context>
 <context>
@@ -340,7 +340,7 @@
     </message>
     <message>
         <source>Show calendar to select a date.</source>
-        <translation type="unfinished"></translation>
+        <translation>Mostrar calendário para selecionar uma data.</translation>
     </message>
 </context>
 <context>
@@ -507,27 +507,27 @@
     </message>
     <message>
         <source>Edit &lt;%object_name&gt; (%class_name)</source>
-        <translation type="unfinished"></translation>
+        <translation>Editar &lt;%object_name&gt; (%class_name)</translation>
     </message>
     <message>
         <source>Publish the contents of the draft that is being edited. The draft will become the published version of the object.</source>
-        <translation type="unfinished"></translation>
+        <translation>Publicar os conteúdos do rascunho que está sendo editado. O rascunho tornará a versão publicada do objeto.</translation>
     </message>
     <message>
         <source>Store the contents of the draft that is being edited and continue editing. Use this button to periodically save your work while editing.</source>
-        <translation type="unfinished"></translation>
+        <translation>Armazenar os conteúdos do rascunho que está sendo editado e continuar editando. Utilize este botão periodicamente para salvar seu trabalho enquanto está editando.</translation>
     </message>
     <message>
         <source>Store draft and exit</source>
-        <translation type="unfinished"></translation>
+        <translation>Armazenar rascunho e sair</translation>
     </message>
     <message>
         <source>Store the draft that is being edited and exit from edit mode. Use when you need to exit your work and return later to continue.</source>
-        <translation type="unfinished"></translation>
+        <translation>Armazenar o rascunho que está sendo editado e sair do modo de edição. Utilize quando você precisa sair do seu trabalho e voltar mais tarde para continuar.</translation>
     </message>
     <message>
         <source>Discard the draft that is being edited. This will also remove the translations that belong to the draft (if any).</source>
-        <translation type="unfinished"></translation>
+        <translation>Descartar o rascunho que está sendo editado. Isso irá também remover as traduções que pertencem ao rascunho (se existir).</translation>
     </message>
 </context>
 <context>
@@ -1196,7 +1196,7 @@ As imagens são colocadas na biblioteca e você poderá reutilizá-las em outros
     </message>
     <message>
         <source>Related content</source>
-        <translation type="unfinished"></translation>
+        <translation>Conteúdo relacionado</translation>
     </message>
 </context>
 <context>
@@ -1290,7 +1290,7 @@ As imagens são colocadas na biblioteca e você poderá reutilizá-las em outros
     </message>
     <message>
         <source>Show All Events..</source>
-        <translation type="unfinished"></translation>
+        <translation>Mostrar todos eventos..</translation>
     </message>
 </context>
 <context>
@@ -1440,7 +1440,7 @@ As imagens são colocadas na biblioteca e você poderá reutilizá-las em outros
     </message>
     <message>
         <source>Forum</source>
-        <translation type="unfinished"></translation>
+        <translation>Forum</translation>
     </message>
 </context>
 <context>
@@ -1462,7 +1462,7 @@ As imagens são colocadas na biblioteca e você poderá reutilizá-las em outros
     </message>
     <message>
         <source>Related content</source>
-        <translation type="unfinished"></translation>
+        <translation>Conteúdo relacionado</translation>
     </message>
 </context>
 <context>
@@ -1522,7 +1522,7 @@ As imagens são colocadas na biblioteca e você poderá reutilizá-las em outros
     </message>
     <message>
         <source>Tags:</source>
-        <translation type="unfinished">Tags:</translation>
+        <translation>Tags:</translation>
     </message>
 </context>
 <context>
@@ -1662,7 +1662,7 @@ As imagens são colocadas na biblioteca e você poderá reutilizá-las em outros
     </message>
     <message>
         <source>The items contain more than the maximum possible nodes for subtree removal and will not be deleted. You can remove this subtree using the ezsubtreeremove.php script.</source>
-        <translation type="unfinished"></translation>
+        <translation>Os itens possuem mais que o número máximo possíveis de nós para a remoção de subárvore e não serão removidos. Você pode remover esta subárvore utilizando o script ezsubtreeremove.php.</translation>
     </message>
 </context>
 <context>
@@ -1775,51 +1775,91 @@ As imagens são colocadas na biblioteca e você poderá reutilizá-las em outros
         <source>Search text:</source>
         <translation>Pesquisar texto:</translation>
     </message>
+    <message>
+        <source>Tag cloud</source>
+        <translation>Tags</translation>
+    </message>
+    <message>
+        <source>Site map</source>
+        <translation>Mapa do site</translation>
+    </message>
+    <message>
+        <source>Shopping basket</source>
+        <translation>Cesta de compras</translation>
+    </message>
+    <message>
+        <source>My profile</source>
+        <translation>Meu perfil</translation>
+    </message>
+    <message>
+        <source>Logout</source>
+        <translation>Logout</translation>
+    </message>
+    <message>
+        <source>Register</source>
+        <translation>Cadastre-se</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation>Login</translation>
+    </message>
+    <message>
+        <source>Username</source>
+        <translation>Nome de usuário</translation>
+    </message>
+    <message>
+        <source>Password</source>
+        <translation>Senha</translation>
+    </message>
+    <message>
+        <source>Forgot your password?</source>
+        <translation>Esqueceu sua senha?</translation>
+    </message>
 </context>
 <context>
     <name>design/ezdemo/parts/website_toolbar</name>
     <message>
         <source>Remove node RSS/ATOM feed</source>
-        <translation type="unfinished"></translation>
+        <translation>Remover nó feed de RSS/ATOM</translation>
     </message>
     <message>
         <source>Create node RSS/ATOM feed</source>
-        <translation type="unfinished"></translation>
+        <translation>Criar nó de feed RSS/ATOM</translation>
     </message>
 </context>
 <context>
     <name>design/ezdemo/rss/edit_export</name>
     <message>
         <source>Edit &lt;%rss_export_name&gt; [RSS Export]</source>
-        <translation type="unfinished"></translation>
+        <translation>Editar &lt;%rss_export_name&gt; [RSS Export]</translation>
     </message>
     <message>
         <source>Invalid input</source>
-        <translation type="unfinished"></translation>
+        <translation>Entrada inválida</translation>
     </message>
     <message>
         <source>If RSS Export is Active then a valid Access URL is required.</source>
-        <translation type="unfinished"></translation>
+        <translation>Se a exportação RSS está Ativa então uma URL de Acesso válida é obrigatória.</translation>
     </message>
     <message>
         <source>Name</source>
-        <translation type="unfinished">Nome</translation>
+        <translation>Nome</translation>
     </message>
     <message>
         <source>Name of the RSS export. This name is used in the Administration Interface only, to distinguish the different exports from each other.</source>
-        <translation type="unfinished"></translation>
+        <translation>Nome da exportação de RSS. Este nome é utilizado apenas na Interface Administrativa, para diferenciar entre cada uma das diferentes exportações.</translation>
     </message>
     <message>
         <source>Description</source>
-        <translation type="unfinished">Descrição</translation>
+        <translation>Descrição</translation>
     </message>
     <message>
         <source>Use the description field to write a text explaining what users can expect from the RSS export.</source>
-        <translation type="unfinished"></translation>
+        <translation>Utilize o campo de descrição para escrever um texto explicando o que os usuários podem esperar da exportação RSS.</translation>
     </message>
     <message>
         <source>Site URL</source>
-        <translation type="unfinished"></translation>
+        <translation>URL do Site</translation>
     </message>
     <message>
         <source>Use this field to enter the base URL of your site. It is used to produce the URLs in the export, composed by the Site URL (e.g. &quot;http://www.example.com/index.php&quot;) and the path to the object (e.g. &quot;/articles/my_article&quot;). The Site URL depends on your web server and eZ Publish configuration.</source>
@@ -1831,27 +1871,27 @@ As imagens são colocadas na biblioteca e você poderá reutilizá-las em outros
     </message>
     <message>
         <source>Image</source>
-        <translation type="unfinished"></translation>
+        <translation>Imagem</translation>
     </message>
     <message>
         <source>Browse</source>
-        <translation type="unfinished">Procurar</translation>
+        <translation>Buscar</translation>
     </message>
     <message>
         <source>Click this button to select an image for the RSS export. Note that images only work with RSS version 2.0</source>
-        <translation type="unfinished"></translation>
+        <translation>Clique neste botão para selecionar a imagem para a exportação RSS. Note que as imagens apenas funcionam com o RSS versão 2.0</translation>
     </message>
     <message>
         <source>Remove image</source>
-        <translation type="unfinished"></translation>
+        <translation>Remover imagem</translation>
     </message>
     <message>
         <source>Click to remove image from RSS export.</source>
-        <translation type="unfinished"></translation>
+        <translation>Clique para remover imagem da exportação RSS.</translation>
     </message>
     <message>
         <source>RSS version</source>
-        <translation type="unfinished"></translation>
+        <translation>Versão do RSS</translation>
     </message>
     <message>
         <source>Use this drop-down menu to select the RSS version to use for the export. You must select RSS 2.0 in order to export the image selected above.</source>
@@ -1911,7 +1951,7 @@ As imagens são colocadas na biblioteca e você poderá reutilizá-las em outros
     </message>
     <message>
         <source>Class</source>
-        <translation type="unfinished">Classe</translation>
+        <translation>Classe</translation>
     </message>
     <message>
         <source>Use this drop-down to select the type of object that triggers the export. Click the &quot;Set&quot; button to load the correct attribute types for the remaining fields.</source>
@@ -1919,7 +1959,7 @@ As imagens são colocadas na biblioteca e você poderá reutilizá-las em outros
     </message>
     <message>
         <source>Set</source>
-        <translation type="unfinished">Definir</translation>
+        <translation>Definir</translation>
     </message>
     <message>
         <source>Click this button to load the correct values into the drop-down fields below. Use the drop-down menu on the left to select the class.</source>
@@ -1927,7 +1967,7 @@ As imagens são colocadas na biblioteca e você poderá reutilizá-las em outros
     </message>
     <message>
         <source>Title</source>
-        <translation type="unfinished"></translation>
+        <translation>Título</translation>
     </message>
     <message>
         <source>Use this drop-down to select the attribute that should be exported as the title of the RSS export entry.</source>
@@ -2026,7 +2066,7 @@ As imagens são colocadas na biblioteca e você poderá reutilizá-las em outros
     </message>
     <message>
         <source>Browse</source>
-        <translation type="unfinished">Procurar</translation>
+        <translation>Buscar</translation>
     </message>
     <message>
         <source>Click this button to select the destination node where objects created by the import are located.</source>
@@ -2038,7 +2078,7 @@ As imagens são colocadas na biblioteca e você poderá reutilizá-las em outros
     </message>
     <message>
         <source>Change user</source>
-        <translation type="unfinished"></translation>
+        <translation>Mudar usuário</translation>
     </message>
     <message>
         <source>Click this button to select the user who should own the objects created by the import.</source>
@@ -2046,7 +2086,7 @@ As imagens são colocadas na biblioteca e você poderá reutilizá-las em outros
     </message>
     <message>
         <source>Class</source>
-        <translation type="unfinished">Classe</translation>
+        <translation>Classe</translation>
     </message>
     <message>
         <source>Use this drop-down to select the type of object the import should create. Click the &quot;Set&quot; button to load the attribute types for the remaining fields.</source>
@@ -2201,7 +2241,7 @@ As imagens são colocadas na biblioteca e você poderá reutilizá-las em outros
     </message>
     <message>
         <source>Create a new RSS import.</source>
-        <translation type="unfinished"></translation>
+        <translation>Criar uma nova importação RSS.</translation>
     </message>
 </context>
 <context>
@@ -2383,15 +2423,15 @@ As imagens são colocadas na biblioteca e você poderá reutilizá-las em outros
     </message>
     <message>
         <source>Summary</source>
-        <translation type="unfinished">Resumo</translation>
+        <translation>Resumo</translation>
     </message>
     <message>
         <source>Total ex. VAT</source>
-        <translation type="unfinished">Total sem ICMS</translation>
+        <translation>Total sem ICMS</translation>
     </message>
     <message>
         <source>Total inc. VAT</source>
-        <translation type="unfinished">Total com ICMS</translation>
+        <translation>Total com ICMS</translation>
     </message>
 </context>
 <context>
@@ -2955,11 +2995,11 @@ As imagens são colocadas na biblioteca e você poderá reutilizá-las em outros
     </message>
     <message>
         <source>Your browser does not support html5 video.</source>
-        <translation type="unfinished"></translation>
+        <translation>Seu navegador não suporta video html5.</translation>
     </message>
     <message>
         <source>Your browser does not support html5 audio.</source>
-        <translation type="unfinished"></translation>
+        <translation>Seu navegador não suporta áudio html5.</translation>
     </message>
 </context>
 <context>
@@ -3019,26 +3059,26 @@ As imagens são colocadas na biblioteca e você poderá reutilizá-las em outros
     <name>design/standard/content/datatype</name>
     <message>
         <source>Second</source>
-        <translation type="unfinished"></translation>
+        <translation>Segundo</translation>
     </message>
 </context>
 <context>
     <name>design/standard/user</name>
     <message>
         <source>Your email address has been confirmed. An administrator needs to approve your sign up request, before your login becomes valid.</source>
-        <translation type="unfinished"></translation>
+        <translation>Seu endereço de email foi confirmado. Um administrador precisa aprovar sua requisição de cadastro, antes que seu login torne-se válido.</translation>
     </message>
     <message>
         <source>Your account is now activated.</source>
-        <translation type="unfinished">Sua conta está ativa agora.</translation>
+        <translation>Sua conta está ativa agora.</translation>
     </message>
     <message>
         <source>Your account is already active.</source>
-        <translation type="unfinished">Sua conta já está ativa.</translation>
+        <translation>Sua conta já está ativa.</translation>
     </message>
     <message>
         <source>Sorry, the key submitted was not a valid key. Account was not activated.</source>
-        <translation type="unfinished">Desculpa, a chave submetida não é válida. A conta não foi ativada.</translation>
+        <translation>Desculpa, a chave submetida não é válida. A conta não foi ativada.</translation>
     </message>
 </context>
 </TS>
