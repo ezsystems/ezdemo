@@ -99,6 +99,49 @@
   <file name="insertmedia.js" path="/design/ezdemo/javascript" md5sum="628425e2845f1e47494ca1b4c23b2c8a"/>
   <file name="toggle_class.js" path="/design/ezdemo/javascript" md5sum="ead292be90d9cb50af6f9790b8049b69"/>
   <file name="video.js" path="/design/ezdemo/javascript" md5sum="cc3ad19f17ce33db8ac1db74a3e9c09c"/>
+  <file name="less" path="/design/ezdemo" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
+  <file name="accordion.less" path="/design/ezdemo/less" md5sum="6c73ef2db7e9911ffcce1c3481d4b0eb"/>
+  <file name="alerts.less" path="/design/ezdemo/less" md5sum="8a08b43be3226240ef3fad82139d5f16"/>
+  <file name="blocks.less" path="/design/ezdemo/less" md5sum="b13c0ee6b8209070f6d071314b028649"/>
+  <file name="bootstrap.less" path="/design/ezdemo/less" md5sum="f7cad6240702ab5c88fe947a54dc3f97"/>
+  <file name="breadcrumbs.less" path="/design/ezdemo/less" md5sum="5f81d39363ae0ef9665687e4f8cc64cf"/>
+  <file name="button-groups.less" path="/design/ezdemo/less" md5sum="b351d371ace0e4a6f619bc21226bd538"/>
+  <file name="buttons.less" path="/design/ezdemo/less" md5sum="ddfc9a9c07f2fb7931ebe48a6e23ccd0"/>
+  <file name="carousel.less" path="/design/ezdemo/less" md5sum="3ad7d4b5a908686f352f0cdc085644b3"/>
+  <file name="close.less" path="/design/ezdemo/less" md5sum="8fba93ac6138881e3b6ba03d4a134ccd"/>
+  <file name="code.less" path="/design/ezdemo/less" md5sum="cc7589434ec52ca827024d7b99bdc29c"/>
+  <file name="comments.less" path="/design/ezdemo/less" md5sum="eb955e8a3e2a1a51da4d3ee0182c4e75"/>
+  <file name="component-animations.less" path="/design/ezdemo/less" md5sum="9ac05b18d1ab05d519b3840074f50948"/>
+  <file name="dropdowns.less" path="/design/ezdemo/less" md5sum="2e2faf9486f8b6844211f2853d3cac2b"/>
+  <file name="forms.less" path="/design/ezdemo/less" md5sum="1b520c7b94f4d3e742dc86aeda5d20f4"/>
+  <file name="fullgallery.less" path="/design/ezdemo/less" md5sum="4ed919520de87208ebc197da492a7140"/>
+  <file name="general-content.less" path="/design/ezdemo/less" md5sum="251244389a1fb049e07a64c01b4d6869"/>
+  <file name="grid.less" path="/design/ezdemo/less" md5sum="093b04da109c33b5cf412a342587fc7c"/>
+  <file name="hero-unit.less" path="/design/ezdemo/less" md5sum="ba236d05e19a22ca5a58c4f3d048ba46"/>
+  <file name="labels.less" path="/design/ezdemo/less" md5sum="ce4ea4e3ae2bdb97b129319b3a2553cc"/>
+  <file name="layouts.less" path="/design/ezdemo/less" md5sum="9c94804dad8340ebc1006d6d42200a67"/>
+  <file name="mixins.less" path="/design/ezdemo/less" md5sum="5f8e19b7de293a4482dc835f66c25d56"/>
+  <file name="modals.less" path="/design/ezdemo/less" md5sum="0127a0a209b75758f0221bd36593cdf6"/>
+  <file name="navbar.less" path="/design/ezdemo/less" md5sum="afe25c314496e959510716c547580b86"/>
+  <file name="navs.less" path="/design/ezdemo/less" md5sum="62cf0b1c5b774b6db1f991d7808c8b20"/>
+  <file name="pager.less" path="/design/ezdemo/less" md5sum="38cd0dce550569e458073daf0285498d"/>
+  <file name="pagination.less" path="/design/ezdemo/less" md5sum="aa8d1da3d823591f2b86d10e845524e6"/>
+  <file name="popovers.less" path="/design/ezdemo/less" md5sum="1f9ce2fdc6aa4033c652c6e71cd40889"/>
+  <file name="progress-bars.less" path="/design/ezdemo/less" md5sum="ba33e95ba5af94997e75ed7b724760d9"/>
+  <file name="reset.less" path="/design/ezdemo/less" md5sum="17074dfa79969a511a87f7b202d37c62"/>
+  <file name="responsive.less" path="/design/ezdemo/less" md5sum="16384180ef0073d291982dbcbefebb0a"/>
+  <file name="scaffolding.less" path="/design/ezdemo/less" md5sum="bae5fbe76f1dfcf145b13a9a99e3a1a1"/>
+  <file name="simplegallery.less" path="/design/ezdemo/less" md5sum="b26a052ba36251985c5a2401dd3983df"/>
+  <file name="sprites.less" path="/design/ezdemo/less" md5sum="1e39ae458decd1a7dd1e22592fedb5c8"/>
+  <file name="star-rating.less" path="/design/ezdemo/less" md5sum="0e87e2d2988cd2b39aaf9a1295b19f8a"/>
+  <file name="tables.less" path="/design/ezdemo/less" md5sum="c32c3054c80e5c52ea93f78882b7a0d0"/>
+  <file name="thumbnails.less" path="/design/ezdemo/less" md5sum="cdd0282de0c81ff0fa4ad362147029bb"/>
+  <file name="tooltip.less" path="/design/ezdemo/less" md5sum="f6a511f39ea1ec36ff5ffc1c7fe5e083"/>
+  <file name="type.less" path="/design/ezdemo/less" md5sum="e3fe464bda158261d4b2c6d397563083"/>
+  <file name="utilities.less" path="/design/ezdemo/less" md5sum="f6fda685996dd1f1087eb43678a072c4"/>
+  <file name="variables.less" path="/design/ezdemo/less" md5sum="00ff03ce81d019fa082d86de5ff65134"/>
+  <file name="website-toolbar.less" path="/design/ezdemo/less" md5sum="3b630f01a8338ae4a576f28b6a805a71"/>
+  <file name="wells.less" path="/design/ezdemo/less" md5sum="07cc7d04d7f7f344742f23886cbe5683"/>
   <file name="override" path="/design/ezdemo" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
   <file name="templates" path="/design/ezdemo/override" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
   <file name="billboard" path="/design/ezdemo/override/templates" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
@@ -264,7 +307,7 @@
   <file name="article.tpl" path="/design/ezdemo/override/templates/listitem" md5sum="ee921a1d24776e8e22f8adf262dd29c7"/>
   <file name="image.tpl" path="/design/ezdemo/override/templates/listitem" md5sum="2989d063d0fffb53bab61f3dcd19bc51"/>
   <file name="stylesheets" path="/design/ezdemo" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
-  <file name="bootstrap.css" path="/design/ezdemo/stylesheets" md5sum="bbb94ccf2fa3c806c963c0214dca52a0"/>
+  <file name="bootstrap.css" path="/design/ezdemo/stylesheets" md5sum="a0c016888ab2babbde085ce9cf3e23ed"/>
   <file name="comment.css" path="/design/ezdemo/stylesheets" md5sum="d41d8cd98f00b204e9800998ecf8427e"/>
   <file name="ezdhtml" path="/design/ezdemo/stylesheets" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
   <file name="toolbar.css" path="/design/ezdemo/stylesheets/ezdhtml" md5sum="ecaf038659962aac7cdcf931b2b86167"/>
@@ -480,11 +523,11 @@
   <file name="pol-PL" path="/translations" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
   <file name="translation.ts" path="/translations/pol-PL" md5sum="9e869ec9e02706748bc4f194359565c3"/>
   <file name="por-BR" path="/translations" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
-  <file name="translation.ts" path="/translations/por-BR" md5sum="115de19caa9a8e2182d3cf63f097333c"/>
+  <file name="translation.ts" path="/translations/por-BR" md5sum="9b832afe8868db082b81c0a1b58716e7"/>
   <file name="ser-SR" path="/translations" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
   <file name="translation.ts" path="/translations/ser-SR" md5sum="8de1e76fd3ed6adde0c9ea8e7bdff200"/>
   <file name="swe-SE" path="/translations" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
   <file name="translation.ts" path="/translations/swe-SE" md5sum="300d4339acef62dc0705b9447b805326"/>
   <file name="untranslated" path="/translations" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
-  <file name="translation.ts" path="/translations/untranslated" md5sum="cbdc17592358e06ae1a2e609240e7ecc"/>
+  <file name="translation.ts" path="/translations/untranslated" md5sum="fc5d7edbc419cb340ddefce77c360de5"/>
 </extension>

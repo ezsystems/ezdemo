@@ -4771,6 +4771,7 @@ a.thumbnail:hover {
 }
 .block-type-content-grid article {
   display: block;
+  margin-bottom: 30px;
 }
 .block-type-content-grid article a.teaser-link {
   display: block;
@@ -4866,7 +4867,6 @@ a.thumbnail:hover {
   z-index: 12;
   color: #fff;
   font-size: 120%;
-  text-transform: uppercase;
   width: 100%;
   float: left;
   background: rgba(0, 0, 0, 0.3);
