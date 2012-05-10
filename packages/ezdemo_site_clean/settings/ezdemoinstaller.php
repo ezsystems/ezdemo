@@ -2567,7 +2567,9 @@ class ezdemoInstaller extends eZSiteInstaller
                         'insertmedia.js'
                     ) 
                 ), 
-                'StylesheetSettings' => array( 
+                'StylesheetSettings' => array(
+                    'SiteCSS' => '',
+                    'ClassesCSS' => '',
                     'CSSFileList' => array( 
                     ) 
                 ) 

@@ -2480,7 +2480,7 @@ class ezdemoInstaller extends eZSiteInstaller
         );
         return array( 
             'name' => 'ezoe_attributes.ini', 
-            'settings' => $settings 
+            'settings' => $settings
         );
     }
 
@@ -2569,9 +2569,11 @@ class ezdemoInstaller extends eZSiteInstaller
                         'insertmedia.js'
                     ) 
                 ), 
-                'StylesheetSettings' => array( 
+                'StylesheetSettings' => array(
+                    'SiteCSS' => '',
+                    'ClassesCSS' => '',
                     'CSSFileList' => array(
-                    ) 
+                    )
                 ) 
             ) 
         );
