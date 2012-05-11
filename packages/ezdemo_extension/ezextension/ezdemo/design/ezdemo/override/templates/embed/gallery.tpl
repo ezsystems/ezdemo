@@ -41,6 +41,7 @@
 YUI(YUI3_config).use('ezgallery', 'event', function (Y) {
     Y.on('domready', function () {
         var g = new Y.eZ.Gallery({
+            autoFixSizes: false,
             navigator: {
                 gallery: '.embed-gallery'
             },
