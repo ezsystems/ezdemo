@@ -221,6 +221,21 @@
   // Input grid
   #inputGridSystem > .generate(12, 42px, 20px);
 
+  .block-type-content-grid {
+    .row-fluid {
+      width: 100%;
+    }
+    .row {
+      margin-left: 0;
+    }
+    .row > [class*="span"],
+    .row-fluid > [class*="span"] {
+      float: none;
+      display: block;
+      width: auto;
+      margin: 0;
+    }
+  }
 }
 
 

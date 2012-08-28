@@ -372,6 +372,19 @@
   .uneditable-input.span12 {
     width: 714px;
   }
+  .block-type-content-grid .row-fluid {
+    width: 100%;
+  }
+  .block-type-content-grid .row {
+    margin-left: 0;
+  }
+  .block-type-content-grid .row > [class*="span"],
+  .block-type-content-grid .row-fluid > [class*="span"] {
+    float: none;
+    display: block;
+    width: auto;
+    margin: 0;
+  }
 }
 @media (max-width: 979px) {
   body {
