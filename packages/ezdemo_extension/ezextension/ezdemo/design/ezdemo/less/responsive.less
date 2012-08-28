@@ -129,8 +129,14 @@
             display: block;
         }
     }
-
-
+    header,
+    header > .container {
+        min-height: 70px;
+    }
+    header .logo {
+        width: 110px;
+        height: 37px;
+    }
     header {
         .row > .span8, .row > .form-search {
             display:inline-block;
@@ -143,13 +149,19 @@
             li {
                 border: none;
                 a {
-                    font-size: 30px;
-                    line-height: 45px;
+                    font-size: 18px;
+                    line-height: 32px;
                 }
             }
         }
     }
-
+    .block-type-campaign {
+        .attribute-caption {
+            > p {
+                display: none;
+            }
+        }
+    }
 }
 
 

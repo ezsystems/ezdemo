@@ -116,6 +116,14 @@
     clear: both;
     display: block;
   }
+  header,
+  header > .container {
+    min-height: 70px;
+  }
+  header .logo {
+    width: 110px;
+    height: 37px;
+  }
   header .row > .span8,
   header .row > .form-search {
     display: inline-block;
@@ -128,8 +136,11 @@
     border: none;
   }
   .navbar.main-navi ul li a {
-    font-size: 30px;
-    line-height: 45px;
+    font-size: 18px;
+    line-height: 32px;
+  }
+  .block-type-campaign .attribute-caption > p {
+    display: none;
   }
 }
 @media (max-width: 767px) {
