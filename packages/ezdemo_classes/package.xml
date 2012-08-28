@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<package version="1.0-0"
+<package version="5.0-0"
          development="false"
          install_type="install">
   <name>ezdemo_classes</name>
