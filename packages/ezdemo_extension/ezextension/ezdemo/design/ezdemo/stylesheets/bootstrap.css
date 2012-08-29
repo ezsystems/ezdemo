@@ -4850,6 +4850,7 @@ a.thumbnail:hover {
 }
 .block-type-campaign .images li {
   display: inline-block;
+  width: 100%;
 }
 .block-type-campaign .images li:before {
   display: none;
