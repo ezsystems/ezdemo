@@ -39,7 +39,7 @@
 
         <div class="row">
             <div class="span8">
-                <div class="attribute-subject">
+                <div class="attribute-message">
                     {attribute_view_gui attribute=$node.data_map.message css_class='span8' label=$node.data_map.message.contentclass_attribute.name}
                 </div>
             </div>

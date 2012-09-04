@@ -2889,6 +2889,14 @@ class ezdemoInstaller extends eZSiteInstaller
                         'class_identifier' => 'product'
                     )
                 ),
+                'call_to_action_mail' => array(
+                    'Source' => 'content/collectedinfomail/form.tpl',
+                    'MatchFile' => 'collectedinfomail/call_to_action.tpl',
+                    'Subdir' => 'templates',
+                    'Match' => array(
+                        'class_identifier' => 'call_to_action'
+                    )
+                ),
                 'full_article' => array( 
                     'Source' => 'node/view/full.tpl', 
                     'MatchFile' => 'full/article.tpl', 
@@ -2944,7 +2952,23 @@ class ezdemoInstaller extends eZSiteInstaller
                     'Match' => array( 
                         'class_identifier' => 'blog_post' 
                     ) 
-                ), 
+                ),
+                'full_call_to_action' => array(
+                    'Source' => 'node/view/full.tpl',
+                    'MatchFile' => 'full/call_to_action.tpl',
+                    'Subdir' => 'templates',
+                    'Match' => array(
+                        'class_identifier' => 'call_to_action'
+                    )
+                ),
+                'full_call_to_action_feedback' => array(
+                    'Source' => 'node/view/full.tpl',
+                    'MatchFile' => 'full/call_to_action_feedback.tpl',
+                    'Subdir' => 'templates',
+                    'Match' => array(
+                        'class_identifier' => 'call_to_action_feedback'
+                    )
+                ),
                 'full_comment' => array( 
                     'Source' => 'node/view/full.tpl', 
                     'MatchFile' => 'full/comment.tpl', 

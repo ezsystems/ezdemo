@@ -1489,6 +1489,9 @@ aside > .content-view-aside:last-child > article:last-child:after {
 .user-login .button-right {
   float: none;
 }
+.class-call-to-action .attribute-header {
+  padding-bottom: 20px;
+}
 #ajaxsearchbox .textfield {
   width: 150px;
   margin-bottom: 0;
