@@ -2,19 +2,19 @@
 <form method="post" action={"content/action"|ezurl} class="contact-form">
     <fieldset>
         <label>
-            <span class="hidden">$object.data_map.sender_name.contentclass_attribute.name</span>
+            <span class="hidden">{$object.data_map.sender_name.contentclass_attribute.name|wash()}</span>
             {attribute_view_gui attribute=$object.data_map.sender_name placeholder=$object.data_map.sender_name.contentclass_attribute.name}
         </label>
         <label>
-            <span class="hidden">$object.data_map.email.contentclass_attribute.name</span>
+            <span class="hidden">{$object.data_map.email.contentclass_attribute.name|wash()}</span>
             {attribute_view_gui attribute=$object.data_map.email placeholder=$object.data_map.email.contentclass_attribute.name}
         </label>
         <label>
-            <span class="hidden">$object.data_map.subject.contentclass_attribute.name</span>
+            <span class="hidden">{$object.data_map.subject.contentclass_attribute.name|wash()}</span>
             {attribute_view_gui attribute=$object.data_map.subject placeholder=$object.data_map.subject.contentclass_attribute.name}
         </label>
         <label>
-            <span class="hidden">$object.data_map.message.contentclass_attribute.name</span>
+            <span class="hidden">{$object.data_map.message.contentclass_attribute.name|wash()}</span>
             {attribute_view_gui attribute=$object.data_map.message placeholder=$object.data_map.message.contentclass_attribute.name}
         </label>
         <div class="actions">
