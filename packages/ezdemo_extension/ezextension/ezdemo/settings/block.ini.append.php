@@ -70,10 +70,22 @@ Name=Banner
 NumberOfValidItems=1
 NumberOfArchivedItems=5
 ManualAddingOfItems=disabled
+CustomAttributes[]
+CustomAttributes[]=image_node_id
+CustomAttributes[]=url
+CustomAttributes[]=path
+CustomAttributes[]=code
+CustomAttributeTypes[code]=text
+CustomAttributeNames[url]=Target URL
+CustomAttributeNames[path]=Image path
+CustomAttributeNames[code]=JavaScript / XHTML code
+UseBrowseMode[image_node_id]=true
 ViewList[]
 ViewList[]=default
+ViewList[]=external
 ViewList[]=code
-ViewName[default]=URL
+ViewName[default]=Internal
+ViewName[external]=External
 ViewName[code]=Code
 
 [Video]

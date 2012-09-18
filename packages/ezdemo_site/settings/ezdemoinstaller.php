@@ -2761,23 +2761,32 @@ class ezdemoInstaller extends eZSiteInstaller
                         'type' => 'Gallery',
                         'view' => 'default'
                     ) 
-                ), 
-                'block_banner_url' => array(
+                ),
+                'block_banner_internal' => array(
+                    'Source' => 'block/view/view.tpl',
+                    'MatchFile' => 'block/banner_internal.tpl',
+                    'Subdir' => 'templates',
+                    'Match' => array(
+                        'type' => 'Banner',
+                        'view' => 'default'
+                    )
+                ),
+                'block_banner_external' => array(
                     'Source' => 'block/view/view.tpl', 
-                    'MatchFile' => 'block/banner_url.tpl',
+                    'MatchFile' => 'block/banner_external.tpl',
                     'Subdir' => 'templates', 
                     'Match' => array( 
                         'type' => 'Banner',
-                        'view' => 'banner_url'
+                        'view' => 'external'
                     ) 
-                ), 
-                'dynamic_banner_code' => array(
+                ),
+                'block_banner_code' => array(
                     'Source' => 'block/view/view.tpl', 
                     'MatchFile' => 'block/banner_code.tpl',
                     'Subdir' => 'templates', 
                     'Match' => array( 
                         'type' => 'Banner',
-                        'view' => 'banner_code'
+                        'view' => 'code'
                     ) 
                 ), 
                 'block_video' => array(
