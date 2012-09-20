@@ -66,6 +66,24 @@
     </message>
 </context>
 <context>
+    <name>design/ezdemo/block/feedback_form</name>
+    <message>
+        <source>Send form</source>
+        <translation type="unfinished">Enviar formulário</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezdemo/block_item/product</name>
+    <message>
+        <source>Amount</source>
+        <translation type="unfinished">Quantidade</translation>
+    </message>
+    <message>
+        <source>Buy</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>design/ezdemo/blog/calendar</name>
     <message>
         <source>Previous month</source>
@@ -117,6 +135,14 @@
     <message>
         <source>Archive</source>
         <translation>Arquivo</translation>
+    </message>
+    <message>
+        <source>Tag cloud</source>
+        <translation type="unfinished">Tags</translation>
+    </message>
+    <message>
+        <source>Description</source>
+        <translation type="unfinished">Descrição</translation>
     </message>
 </context>
 <context>
@@ -189,6 +215,32 @@
     <message>
         <source>The following information was collected</source>
         <translation>As seguintes informações foram coletadas</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezdemo/colledtedinfomail</name>
+    <message>
+        <source>Collected information from %1</source>
+        <translation type="unfinished">Informações coletadas de %1</translation>
+    </message>
+    <message>
+        <source>The following information was collected</source>
+        <translation type="unfinished">As seguintes informações foram coletadas</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezdemo/comment/view</name>
+    <message>
+        <source>Avatar</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation type="unfinished">Editar</translation>
+    </message>
+    <message>
+        <source>Delete</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1127,53 +1179,78 @@
     <name>design/ezdemo/ezodf/import</name>
     <message>
         <source>Document is now imported</source>
-        <translation>O documento foi importado</translation>
+        <translation type="obsolete">O documento foi importado</translation>
     </message>
     <message>
         <source>OpenOffice.org import</source>
-        <translation>Inportar OpenOffice.org</translation>
+        <translation type="obsolete">Inportar OpenOffice.org</translation>
     </message>
     <message>
         <source>The object was imported as: %class_name</source>
-        <translation>O objeto foi importado como: %class_name</translation>
+        <translation type="obsolete">O objeto foi importado como: %class_name</translation>
     </message>
     <message>
         <source>Document imported as</source>
-        <translation>Documento importado como</translation>
+        <translation type="obsolete">Documento importado como</translation>
     </message>
     <message>
         <source>The images are placed in the media and can be re-used.</source>
-        <translation>As imagens foram colocadas na biblioteca e podem ser reutilizadas.</translation>
+        <translation type="obsolete">As imagens foram colocadas na biblioteca e podem ser reutilizadas.</translation>
     </message>
     <message>
         <source>Import another document</source>
-        <translation>Importar outro documento</translation>
+        <translation type="obsolete">Importar outro documento</translation>
     </message>
     <message>
         <source>Upload file</source>
-        <translation>Carregar arquivo</translation>
+        <translation type="obsolete">Carregar arquivo</translation>
     </message>
     <message>
         <source>Import OpenOffice.org document</source>
-        <translation>Importar documento OpenOffice.org/BrOffice.org</translation>
+        <translation type="obsolete">Importar documento OpenOffice.org/BrOffice.org</translation>
     </message>
     <message>
         <source>Replace document</source>
-        <translation>Substituir documento</translation>
+        <translation type="obsolete">Substituir documento</translation>
     </message>
     <message>
         <source>Import to</source>
-        <translation>Importar para</translation>
+        <translation type="obsolete">Importar para</translation>
     </message>
     <message>
         <source>You can import OpenOffice.org Writer documents directly into eZ publish from this page. You are
 asked where to place the document and eZ publish does the rest. The document is converted into
 the appropriate class during the import, you get a notice about this after the import is done.
 Images are placed in the media library so you can re-use them in other articles.</source>
-        <translation>Você pode importar documentos OpenOffice.org Writer diretamente para o eZ Publish a partir desta página.
+        <translation type="obsolete">Você pode importar documentos OpenOffice.org Writer diretamente para o eZ Publish a partir desta página.
 Você escolherá onde colocar o documento e o eZ Publish fará o resto. O documento é convertido para
 a classe apropriada durante a importação, você receberá um aviso sobre isto após concluída a importação.
 As imagens são colocadas na biblioteca e você poderá reutilizá-las em outros artigos.</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezdemo/footer/address</name>
+    <message>
+        <source>Address</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>design/ezdemo/footer/feedback_form</name>
+    <message>
+        <source>Get in touch</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Send</source>
+        <translation type="unfinished">Enviar</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezdemo/footer/latest_news</name>
+    <message>
+        <source>Latest News</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1198,6 +1275,10 @@ As imagens são colocadas na biblioteca e você poderá reutilizá-las em outros
         <source>Related content</source>
         <translation>Conteúdo relacionado</translation>
     </message>
+    <message>
+        <source>Location</source>
+        <translation type="unfinished">Local</translation>
+    </message>
 </context>
 <context>
     <name>design/ezdemo/full/article_mainpage</name>
@@ -1217,30 +1298,22 @@ As imagens são colocadas na biblioteca e você poderá reutilizá-las em outros
     <name>design/ezdemo/full/blog_post</name>
     <message>
         <source>Tags:</source>
-        <translation>Tags:</translation>
+        <translation type="obsolete">Tags:</translation>
     </message>
     <message>
         <source>Comments</source>
-        <translation>Comentários</translation>
+        <translation type="obsolete">Comentários</translation>
     </message>
     <message>
         <source>%login_link_startLog in%login_link_end or %create_link_startcreate a user account%create_link_end to comment.</source>
-        <translation>%login_link_startEntre com seu usuário e senha%login_link_end ou %create_link_startregistre-se no site%create_link_end para comentar.</translation>
+        <translation type="obsolete">%login_link_startEntre com seu usuário e senha%login_link_end ou %create_link_startregistre-se no site%create_link_end para comentar.</translation>
     </message>
 </context>
 <context>
-    <name>design/ezdemo/full/wiki_page</name>
+    <name>design/ezdemo/full/call_to_action</name>
     <message>
-        <source>Created:</source>
-        <translation>Criado:</translation>
-    </message>
-    <message>
-        <source>Modified:</source>
-        <translation>Modificado:</translation>
-    </message>
-    <message>
-        <source>Table of contents</source>
-        <translation>Índice</translation>
+        <source>Submit</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1447,7 +1520,7 @@ As imagens são colocadas na biblioteca e você poderá reutilizá-las em outros
     <name>design/ezdemo/full/gallery</name>
     <message>
         <source>View as slideshow</source>
-        <translation>Ver como slideshow</translation>
+        <translation type="obsolete">Ver como slideshow</translation>
     </message>
 </context>
 <context>
@@ -1503,22 +1576,48 @@ As imagens são colocadas na biblioteca e você poderá reutilizá-las em outros
     </message>
     <message>
         <source>Add to wish list</source>
-        <translation>Adicionar à lista de desejos</translation>
+        <translation type="obsolete">Adicionar à lista de desejos</translation>
     </message>
     <message>
         <source>People who bought this also bought</source>
         <translation>Pessoas que compraram este produto também compraram</translation>
+    </message>
+    <message>
+        <source>Amount</source>
+        <translation type="unfinished">Quantidade</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezdemo/full/video</name>
+    <message>
+        <source>Download</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>design/ezdemo/full/wiki_page</name>
+    <message>
+        <source>Created:</source>
+        <translation>Criado:</translation>
+    </message>
+    <message>
+        <source>Modified:</source>
+        <translation>Modificado:</translation>
+    </message>
+    <message>
+        <source>Table of contents</source>
+        <translation>Índice</translation>
     </message>
 </context>
 <context>
     <name>design/ezdemo/line/blog_post</name>
     <message>
         <source>View comments</source>
-        <translation>Ver comentários</translation>
+        <translation type="obsolete">Ver comentários</translation>
     </message>
     <message>
         <source>Add comment</source>
-        <translation>Comentar</translation>
+        <translation type="obsolete">Comentar</translation>
     </message>
     <message>
         <source>Tags:</source>
@@ -1537,6 +1636,21 @@ As imagens são colocadas na biblioteca e você poderá reutilizá-las em outros
     <message>
         <source>Next events</source>
         <translation>Próximos eventos</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezdemo/line/file</name>
+    <message>
+        <source>File size:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Modified:</source>
+        <translation type="unfinished">Modificado:</translation>
+    </message>
+    <message>
+        <source>Download file</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1584,6 +1698,17 @@ As imagens são colocadas na biblioteca e você poderá reutilizá-las em outros
     </message>
 </context>
 <context>
+    <name>design/ezdemo/line/product</name>
+    <message>
+        <source>Amount</source>
+        <translation type="unfinished">Quantidade</translation>
+    </message>
+    <message>
+        <source>Buy</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>design/ezdemo/line/quicktime</name>
     <message>
         <source>View movie</source>
@@ -1624,6 +1749,13 @@ As imagens são colocadas na biblioteca e você poderá reutilizá-las em outros
     <message>
         <source>Printable version</source>
         <translation>Versão para impressão</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezdemo/menu</name>
+    <message>
+        <source>Navigation</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1769,11 +1901,11 @@ As imagens são colocadas na biblioteca e você poderá reutilizá-las em outros
     </message>
     <message>
         <source>Skip to main content</source>
-        <translation>Pular para o conteúdo principal</translation>
+        <translation type="obsolete">Pular para o conteúdo principal</translation>
     </message>
     <message>
         <source>Search text:</source>
-        <translation>Pesquisar texto:</translation>
+        <translation type="obsolete">Pesquisar texto:</translation>
     </message>
     <message>
         <source>Tag cloud</source>
@@ -1814,6 +1946,10 @@ As imagens são colocadas na biblioteca e você poderá reutilizá-las em outros
     <message>
         <source>Forgot your password?</source>
         <translation>Esqueceu sua senha?</translation>
+    </message>
+    <message>
+        <source>Search text</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -3056,6 +3192,60 @@ As imagens são colocadas na biblioteca e você poderá reutilizá-las em outros
     </message>
 </context>
 <context>
+    <name>design/ezflow/edit/frontpage</name>
+    <message>
+        <source>Search phrase</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation type="unfinished">Busca</translation>
+    </message>
+    <message>
+        <source>Results</source>
+        <translation type="unfinished">Resultados</translation>
+    </message>
+    <message>
+        <source>Select:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Add to block</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Edit &lt;%object_name&gt; (%class_name)</source>
+        <translation type="unfinished">Editar &lt;%object_name&gt; (%class_name)</translation>
+    </message>
+    <message>
+        <source>Translating content from %from_lang to %to_lang</source>
+        <translation type="unfinished">Traduzindo o conteúdo de %from_lang para %to_lang</translation>
+    </message>
+    <message>
+        <source>Content in %language</source>
+        <translation type="unfinished">Conteúdo em %language</translation>
+    </message>
+    <message>
+        <source>Send for publishing</source>
+        <translation type="unfinished">Enviar para publicação</translation>
+    </message>
+    <message>
+        <source>Store draft</source>
+        <translation type="unfinished">Salvar o rascunho</translation>
+    </message>
+    <message>
+        <source>Discard draft</source>
+        <translation type="unfinished">Descartar o rascunho</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezflow/embed/poll</name>
+    <message>
+        <source>Vote</source>
+        <translation type="unfinished">Votar</translation>
+    </message>
+</context>
+<context>
     <name>design/standard/content/datatype</name>
     <message>
         <source>Second</source>
@@ -3079,6 +3269,80 @@ As imagens são colocadas na biblioteca e você poderá reutilizá-las em outros
     <message>
         <source>Sorry, the key submitted was not a valid key. Account was not activated.</source>
         <translation>Desculpa, a chave submetida não é válida. A conta não foi ativada.</translation>
+    </message>
+</context>
+<context>
+    <name>ezcomments/comment/add</name>
+    <message>
+        <source>reCAPTCHA API key missing.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>ezcomments/comment/add/form</name>
+    <message>
+        <source>Post a comment</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Title:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Name:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Website:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Email:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>(The email address will not be shown)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Content:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Notify me of new comments</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Security text:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Enter both words below, with or without a space.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The letters are not case-sensitive.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Can&apos;t read this?</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Try another</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Remember me</source>
+        <translation type="unfinished">Lembre-me</translation>
+    </message>
+    <message>
+        <source>Add comment</source>
+        <translation type="unfinished">Comentar</translation>
+    </message>
+    <message>
+        <source>Reset form</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 </TS>

@@ -66,6 +66,24 @@
     </message>
 </context>
 <context>
+    <name>design/ezdemo/block/feedback_form</name>
+    <message>
+        <source>Send form</source>
+        <translation type="unfinished">Formulier verzenden</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezdemo/block_item/product</name>
+    <message>
+        <source>Amount</source>
+        <translation type="unfinished">Bedrag</translation>
+    </message>
+    <message>
+        <source>Buy</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>design/ezdemo/blog/calendar</name>
     <message>
         <source>Previous month</source>
@@ -117,6 +135,14 @@
     <message>
         <source>Archive</source>
         <translation>Archiveren</translation>
+    </message>
+    <message>
+        <source>Tag cloud</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Description</source>
+        <translation type="unfinished">Omschrijving</translation>
     </message>
 </context>
 <context>
@@ -189,6 +215,32 @@
     <message>
         <source>The following information was collected</source>
         <translation>De volgende informatie werd verzameld</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezdemo/colledtedinfomail</name>
+    <message>
+        <source>Collected information from %1</source>
+        <translation type="unfinished">Verzamelde informatie van %1</translation>
+    </message>
+    <message>
+        <source>The following information was collected</source>
+        <translation type="unfinished">De volgende informatie werd verzameld</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezdemo/comment/view</name>
+    <message>
+        <source>Avatar</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation type="unfinished">Bewerken</translation>
+    </message>
+    <message>
+        <source>Delete</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1144,53 +1196,78 @@
     <name>design/ezdemo/ezodf/import</name>
     <message>
         <source>Document is now imported</source>
-        <translation>Document is nu geïmporteerd</translation>
+        <translation type="obsolete">Document is nu geïmporteerd</translation>
     </message>
     <message>
         <source>OpenOffice.org import</source>
-        <translation>OpenOffice.org-import</translation>
+        <translation type="obsolete">OpenOffice.org-import</translation>
     </message>
     <message>
         <source>The object was imported as: %class_name</source>
-        <translation>Het object werd geïmporteerd als: %class_name</translation>
+        <translation type="obsolete">Het object werd geïmporteerd als: %class_name</translation>
     </message>
     <message>
         <source>Document imported as</source>
-        <translation>Document geïmporteerd als</translation>
+        <translation type="obsolete">Document geïmporteerd als</translation>
     </message>
     <message>
         <source>The images are placed in the media and can be re-used.</source>
-        <translation>De afbeeldingen werden in de media geplaatst en kunnen opnieuw gebruikt worden.</translation>
+        <translation type="obsolete">De afbeeldingen werden in de media geplaatst en kunnen opnieuw gebruikt worden.</translation>
     </message>
     <message>
         <source>Import another document</source>
-        <translation>Een ander document importeren</translation>
+        <translation type="obsolete">Een ander document importeren</translation>
     </message>
     <message>
         <source>Upload file</source>
-        <translation>Bestand uploaden</translation>
+        <translation type="obsolete">Bestand uploaden</translation>
     </message>
     <message>
         <source>Import OpenOffice.org document</source>
-        <translation>Importeer OpenOffice.org-document</translation>
+        <translation type="obsolete">Importeer OpenOffice.org-document</translation>
     </message>
     <message>
         <source>Replace document</source>
-        <translation>Document vervangen</translation>
+        <translation type="obsolete">Document vervangen</translation>
     </message>
     <message>
         <source>Import to</source>
-        <translation>Importeer naar</translation>
+        <translation type="obsolete">Importeer naar</translation>
     </message>
     <message>
         <source>You can import OpenOffice.org Writer documents directly into eZ publish from this page. You are
 asked where to place the document and eZ publish does the rest. The document is converted into
 the appropriate class during the import, you get a notice about this after the import is done.
 Images are placed in the media library so you can re-use them in other articles.</source>
-        <translation>Vanaf deze pagina kunt u OpenOffice documenten rechtstreeks importeren. U geeft aan
+        <translation type="obsolete">Vanaf deze pagina kunt u OpenOffice documenten rechtstreeks importeren. U geeft aan
 waar het document geplaatst moet worden en eZ publish doet de rest.Het document wordt tijdens het importeren
 omgezet in de passende klasse, u krijgt hiervan een bericht als de import is voltooid.
 Afbeeldingen worden in de media bibliotheek geplaatst, zodat u deze opnieuw kunt gebruiken in andere artikelen.</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezdemo/footer/address</name>
+    <message>
+        <source>Address</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>design/ezdemo/footer/feedback_form</name>
+    <message>
+        <source>Get in touch</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Send</source>
+        <translation type="unfinished">Verzenden</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezdemo/footer/latest_news</name>
+    <message>
+        <source>Latest News</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1215,6 +1292,10 @@ Afbeeldingen worden in de media bibliotheek geplaatst, zodat u deze opnieuw kunt
         <source>Related content</source>
         <translation>Gerelateerde content</translation>
     </message>
+    <message>
+        <source>Location</source>
+        <translation type="unfinished">Locatie</translation>
+    </message>
 </context>
 <context>
     <name>design/ezdemo/full/article_mainpage</name>
@@ -1234,30 +1315,22 @@ Afbeeldingen worden in de media bibliotheek geplaatst, zodat u deze opnieuw kunt
     <name>design/ezdemo/full/blog_post</name>
     <message>
         <source>Tags:</source>
-        <translation>Labels:</translation>
+        <translation type="obsolete">Labels:</translation>
     </message>
     <message>
         <source>Comments</source>
-        <translation>Commentaren</translation>
+        <translation type="obsolete">Commentaren</translation>
     </message>
     <message>
         <source>%login_link_startLog in%login_link_end or %create_link_startcreate a user account%create_link_end to comment.</source>
-        <translation>%login_link_startMeld u aan%login_link_end of %create_link_startmaak een gebruikersaccount aan%create_link_end om commentaar te geven.</translation>
+        <translation type="obsolete">%login_link_startMeld u aan%login_link_end of %create_link_startmaak een gebruikersaccount aan%create_link_end om commentaar te geven.</translation>
     </message>
 </context>
 <context>
-    <name>design/ezdemo/full/wiki_page</name>
+    <name>design/ezdemo/full/call_to_action</name>
     <message>
-        <source>Table of contents</source>
-        <translation>Inhoudstabel</translation>
-    </message>
-    <message>
-        <source>Created:</source>
-        <translation>Aangemaakt:</translation>
-    </message>
-    <message>
-        <source>Modified:</source>
-        <translation>Gewijzigd:</translation>
+        <source>Submit</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1464,7 +1537,7 @@ Afbeeldingen worden in de media bibliotheek geplaatst, zodat u deze opnieuw kunt
     <name>design/ezdemo/full/gallery</name>
     <message>
         <source>View as slideshow</source>
-        <translation>Weergave als slideshow</translation>
+        <translation type="obsolete">Weergave als slideshow</translation>
     </message>
 </context>
 <context>
@@ -1520,22 +1593,48 @@ Afbeeldingen worden in de media bibliotheek geplaatst, zodat u deze opnieuw kunt
     </message>
     <message>
         <source>Add to wish list</source>
-        <translation>Aan wensenlijst toevoegen</translation>
+        <translation type="obsolete">Aan wensenlijst toevoegen</translation>
     </message>
     <message>
         <source>People who bought this also bought</source>
         <translation>De mensen die dit kochten, kochten ook</translation>
+    </message>
+    <message>
+        <source>Amount</source>
+        <translation type="unfinished">Bedrag</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezdemo/full/video</name>
+    <message>
+        <source>Download</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>design/ezdemo/full/wiki_page</name>
+    <message>
+        <source>Table of contents</source>
+        <translation>Inhoudstabel</translation>
+    </message>
+    <message>
+        <source>Created:</source>
+        <translation>Aangemaakt:</translation>
+    </message>
+    <message>
+        <source>Modified:</source>
+        <translation>Gewijzigd:</translation>
     </message>
 </context>
 <context>
     <name>design/ezdemo/line/blog_post</name>
     <message>
         <source>View comments</source>
-        <translation>Commentaren bekijken</translation>
+        <translation type="obsolete">Commentaren bekijken</translation>
     </message>
     <message>
         <source>Add comment</source>
-        <translation>Commentaren toevoegen</translation>
+        <translation type="obsolete">Commentaren toevoegen</translation>
     </message>
     <message>
         <source>Tags:</source>
@@ -1554,6 +1653,21 @@ Afbeeldingen worden in de media bibliotheek geplaatst, zodat u deze opnieuw kunt
     <message>
         <source>Next events</source>
         <translation>Volgende gebeurtenissen</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezdemo/line/file</name>
+    <message>
+        <source>File size:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Modified:</source>
+        <translation type="unfinished">Gewijzigd:</translation>
+    </message>
+    <message>
+        <source>Download file</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1601,6 +1715,17 @@ Afbeeldingen worden in de media bibliotheek geplaatst, zodat u deze opnieuw kunt
     </message>
 </context>
 <context>
+    <name>design/ezdemo/line/product</name>
+    <message>
+        <source>Amount</source>
+        <translation type="unfinished">Bedrag</translation>
+    </message>
+    <message>
+        <source>Buy</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>design/ezdemo/line/quicktime</name>
     <message>
         <source>View movie</source>
@@ -1641,6 +1766,13 @@ Afbeeldingen worden in de media bibliotheek geplaatst, zodat u deze opnieuw kunt
     <message>
         <source>Printable version</source>
         <translation>Afdrukbare versie</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezdemo/menu</name>
+    <message>
+        <source>Navigation</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1787,11 +1919,55 @@ Afbeeldingen worden in de media bibliotheek geplaatst, zodat u deze opnieuw kunt
     </message>
     <message>
         <source>Skip to main content</source>
-        <translation>Naar hoofdinhoud springen</translation>
+        <translation type="obsolete">Naar hoofdinhoud springen</translation>
     </message>
     <message>
         <source>Search text:</source>
-        <translation>Zoektekst:</translation>
+        <translation type="obsolete">Zoektekst:</translation>
+    </message>
+    <message>
+        <source>Tag cloud</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Site map</source>
+        <translation type="unfinished">Sitemap</translation>
+    </message>
+    <message>
+        <source>Shopping basket</source>
+        <translation type="unfinished">Winkelmandje</translation>
+    </message>
+    <message>
+        <source>My profile</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Logout</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Register</source>
+        <translation type="unfinished">Register</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Username</source>
+        <translation type="unfinished">Gebruikersnaam</translation>
+    </message>
+    <message>
+        <source>Password</source>
+        <translation type="unfinished">Wachtwoord</translation>
+    </message>
+    <message>
+        <source>Forgot your password?</source>
+        <translation type="unfinished">Wachtwoord vergeten?</translation>
+    </message>
+    <message>
+        <source>Search text</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -3034,6 +3210,60 @@ Afbeeldingen worden in de media bibliotheek geplaatst, zodat u deze opnieuw kunt
     </message>
 </context>
 <context>
+    <name>design/ezflow/edit/frontpage</name>
+    <message>
+        <source>Search phrase</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation type="unfinished">Zoeken</translation>
+    </message>
+    <message>
+        <source>Results</source>
+        <translation type="unfinished">Resultaten</translation>
+    </message>
+    <message>
+        <source>Select:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Add to block</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Edit &lt;%object_name&gt; (%class_name)</source>
+        <translation type="unfinished">&lt;%object_name&gt; (%class_name) bewerken</translation>
+    </message>
+    <message>
+        <source>Translating content from %from_lang to %to_lang</source>
+        <translation type="unfinished">Vertaal inhoud van %from_lang naar %to_lang</translation>
+    </message>
+    <message>
+        <source>Content in %language</source>
+        <translation type="unfinished">Inhoud in %language</translation>
+    </message>
+    <message>
+        <source>Send for publishing</source>
+        <translation type="unfinished">Verzend voor publicatie</translation>
+    </message>
+    <message>
+        <source>Store draft</source>
+        <translation type="unfinished">Concept opslaan</translation>
+    </message>
+    <message>
+        <source>Discard draft</source>
+        <translation type="unfinished">Concept verwerpen</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezflow/embed/poll</name>
+    <message>
+        <source>Vote</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>design/standard/content/datatype</name>
     <message>
         <source>Second</source>
@@ -3057,6 +3287,80 @@ Afbeeldingen worden in de media bibliotheek geplaatst, zodat u deze opnieuw kunt
     <message>
         <source>Sorry, the key submitted was not a valid key. Account was not activated.</source>
         <translation>Soory, de ingegeven sleutel was geen geldige sleutel. De account werd niet geactiveerd.</translation>
+    </message>
+</context>
+<context>
+    <name>ezcomments/comment/add</name>
+    <message>
+        <source>reCAPTCHA API key missing.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>ezcomments/comment/add/form</name>
+    <message>
+        <source>Post a comment</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Title:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Name:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Website:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Email:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>(The email address will not be shown)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Content:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Notify me of new comments</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Security text:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Enter both words below, with or without a space.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The letters are not case-sensitive.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Can&apos;t read this?</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Try another</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Remember me</source>
+        <translation type="unfinished">Onthoud mij</translation>
+    </message>
+    <message>
+        <source>Add comment</source>
+        <translation type="unfinished">Commentaren toevoegen</translation>
+    </message>
+    <message>
+        <source>Reset form</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 </TS>
