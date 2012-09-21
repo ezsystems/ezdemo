@@ -4,7 +4,7 @@
          is_active="true"
          install_type="import">
   <name>ezdemo_site_clean</name>
-  <summary>eZ Publish Demo Design (without demo content)</summary>
+  <summary>eZ Publish Demo Site (without demo content)</summary>
   <description></description>
   <vendor>eZ systems</vendor>
   <type value="site" />

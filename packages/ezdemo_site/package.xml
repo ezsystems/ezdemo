@@ -4,7 +4,7 @@
          is_active="true"
          install_type="import">
   <name>ezdemo_site</name>
-  <summary>eZ Publish Demo Design LS</summary>
+  <summary>eZ Publish Demo Site</summary>
   <description></description>
   <vendor>eZ systems</vendor>
   <type value="site" />
