@@ -3194,6 +3194,22 @@ class ezdemoInstaller extends eZSiteInstaller
                         'class_identifier' => 'video'
                     )
                 ),
+                'gallery_item_video' => array(
+                    'Source' => 'node/view/gallery_item.tpl',
+                    'MatchFile' => 'gallery_item/video.tpl',
+                    'Subdir' => 'templates',
+                    'Match' => array(
+                        'class_identifier' => 'video'
+                    )
+                ),
+                'gallery_viewer_video' => array(
+                    'Source' => 'node/view/gallery_viewer.tpl',
+                    'MatchFile' => 'gallery_viewer/video.tpl',
+                    'Subdir' => 'templates',
+                    'Match' => array(
+                        'class_identifier' => 'video'
+                    )
+                ),
                 'line_article' => array( 
                     'Source' => 'node/view/line.tpl', 
                     'MatchFile' => 'line/article.tpl', 

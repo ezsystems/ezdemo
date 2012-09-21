@@ -8,7 +8,7 @@ YUI(YUI3_config).add('ezgallery', function (Y) {
         container: '.gallery-viewer',
         title: 'h2 a',
         counter: '.counter span',
-        image: 'figure img',
+        image: 'figure > img',
         caption: 'figcaption',
         figure: 'figure',
         transitionDuration: 0.8,
