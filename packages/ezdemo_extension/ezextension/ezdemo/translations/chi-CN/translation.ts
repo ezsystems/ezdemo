@@ -66,6 +66,24 @@
     </message>
 </context>
 <context>
+    <name>design/ezdemo/block/feedback_form</name>
+    <message>
+        <source>Send form</source>
+        <translation type="unfinished">发送表单</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezdemo/block_item/product</name>
+    <message>
+        <source>Amount</source>
+        <translation type="unfinished">总数</translation>
+    </message>
+    <message>
+        <source>Buy</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>design/ezdemo/blog/calendar</name>
     <message>
         <source>Previous month</source>
@@ -117,6 +135,14 @@
     <message>
         <source>Archive</source>
         <translation>归档</translation>
+    </message>
+    <message>
+        <source>Tag cloud</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Description</source>
+        <translation type="unfinished">简介</translation>
     </message>
 </context>
 <context>
@@ -189,6 +215,32 @@
     <message>
         <source>The following information was collected</source>
         <translation>以下的信息已被收集</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezdemo/colledtedinfomail</name>
+    <message>
+        <source>Collected information from %1</source>
+        <translation type="unfinished">从%1收集的信息</translation>
+    </message>
+    <message>
+        <source>The following information was collected</source>
+        <translation type="unfinished">以下的信息已被收集</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezdemo/comment/view</name>
+    <message>
+        <source>Avatar</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation type="unfinished">编辑</translation>
+    </message>
+    <message>
+        <source>Delete</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1109,49 +1161,67 @@
     <name>design/ezdemo/ezodf/import</name>
     <message>
         <source>Document is now imported</source>
-        <translation>文档成功导入</translation>
+        <translation type="obsolete">文档成功导入</translation>
     </message>
     <message>
         <source>OpenOffice.org import</source>
-        <translation>OpenOffice.org导入</translation>
+        <translation type="obsolete">OpenOffice.org导入</translation>
     </message>
     <message>
         <source>The object was imported as: %class_name</source>
-        <translation>该对象被导入为: %class_name</translation>
+        <translation type="obsolete">该对象被导入为: %class_name</translation>
     </message>
     <message>
         <source>Document imported as</source>
-        <translation>文档被导入为</translation>
+        <translation type="obsolete">文档被导入为</translation>
     </message>
     <message>
         <source>The images are placed in the media and can be re-used.</source>
-        <translation>图片被放置至媒体库并可以被重用。</translation>
+        <translation type="obsolete">图片被放置至媒体库并可以被重用。</translation>
     </message>
     <message>
         <source>Import another document</source>
-        <translation>导入其他文档</translation>
+        <translation type="obsolete">导入其他文档</translation>
     </message>
     <message>
         <source>Upload file</source>
-        <translation>上传文件</translation>
+        <translation type="obsolete">上传文件</translation>
     </message>
     <message>
         <source>Import OpenOffice.org document</source>
-        <translation>导入OpenOffice.org文档</translation>
+        <translation type="obsolete">导入OpenOffice.org文档</translation>
     </message>
     <message>
         <source>Replace document</source>
-        <translation>替换文档</translation>
+        <translation type="obsolete">替换文档</translation>
     </message>
     <message>
         <source>Import to</source>
-        <translation>导入至</translation>
+        <translation type="obsolete">导入至</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezdemo/footer/address</name>
+    <message>
+        <source>Address</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>design/ezdemo/footer/feedback_form</name>
+    <message>
+        <source>Get in touch</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>You can import OpenOffice.org Writer documents directly into eZ publish from this page. You are
-asked where to place the document and eZ publish does the rest. The document is converted into
-the appropriate class during the import, you get a notice about this after the import is done.
-Images are placed in the media library so you can re-use them in other articles.</source>
+        <source>Send</source>
+        <translation type="unfinished">发送</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezdemo/footer/latest_news</name>
+    <message>
+        <source>Latest News</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -1177,6 +1247,10 @@ Images are placed in the media library so you can re-use them in other articles.
         <source>Related content</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Location</source>
+        <translation type="unfinished">位置</translation>
+    </message>
 </context>
 <context>
     <name>design/ezdemo/full/article_mainpage</name>
@@ -1196,30 +1270,22 @@ Images are placed in the media library so you can re-use them in other articles.
     <name>design/ezdemo/full/blog_post</name>
     <message>
         <source>Tags:</source>
-        <translation>标签:</translation>
+        <translation type="obsolete">标签:</translation>
     </message>
     <message>
         <source>Comments</source>
-        <translation>评论</translation>
+        <translation type="obsolete">评论</translation>
     </message>
     <message>
         <source>%login_link_startLog in%login_link_end or %create_link_startcreate a user account%create_link_end to comment.</source>
-        <translation>%login_link_start登录%login_link_end或%create_link_start注册一个新帐号%create_link_end来提交注释。</translation>
+        <translation type="obsolete">%login_link_start登录%login_link_end或%create_link_start注册一个新帐号%create_link_end来提交注释。</translation>
     </message>
 </context>
 <context>
-    <name>design/ezdemo/full/wiki_page</name>
+    <name>design/ezdemo/full/call_to_action</name>
     <message>
-        <source>Table of contents</source>
-        <translation>内容索引</translation>
-    </message>
-    <message>
-        <source>Created:</source>
-        <translation>创建:</translation>
-    </message>
-    <message>
-        <source>Modified:</source>
-        <translation>修改:</translation>
+        <source>Submit</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1426,7 +1492,7 @@ Images are placed in the media library so you can re-use them in other articles.
     <name>design/ezdemo/full/gallery</name>
     <message>
         <source>View as slideshow</source>
-        <translation>以幻灯片形式显示</translation>
+        <translation type="obsolete">以幻灯片形式显示</translation>
     </message>
 </context>
 <context>
@@ -1482,23 +1548,41 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
     <message>
         <source>Add to wish list</source>
-        <translation>加入购物清单</translation>
+        <translation type="obsolete">加入购物清单</translation>
     </message>
     <message>
         <source>People who bought this also bought</source>
         <translation>购买该商品的用户也购买了</translation>
     </message>
+    <message>
+        <source>Amount</source>
+        <translation type="unfinished">总数</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezdemo/full/video</name>
+    <message>
+        <source>Download</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>design/ezdemo/full/wiki_page</name>
+    <message>
+        <source>Table of contents</source>
+        <translation>内容索引</translation>
+    </message>
+    <message>
+        <source>Created:</source>
+        <translation>创建:</translation>
+    </message>
+    <message>
+        <source>Modified:</source>
+        <translation>修改:</translation>
+    </message>
 </context>
 <context>
     <name>design/ezdemo/line/blog_post</name>
-    <message>
-        <source>View comments</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Add comment</source>
-        <translation type="unfinished"></translation>
-    </message>
     <message>
         <source>Tags:</source>
         <translation type="unfinished">标签:</translation>
@@ -1516,6 +1600,21 @@ Images are placed in the media library so you can re-use them in other articles.
     <message>
         <source>Next events</source>
         <translation>下一活动</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezdemo/line/file</name>
+    <message>
+        <source>File size:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Modified:</source>
+        <translation type="unfinished">修改:</translation>
+    </message>
+    <message>
+        <source>Download file</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1563,6 +1662,17 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
 </context>
 <context>
+    <name>design/ezdemo/line/product</name>
+    <message>
+        <source>Amount</source>
+        <translation type="unfinished">总数</translation>
+    </message>
+    <message>
+        <source>Buy</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>design/ezdemo/line/quicktime</name>
     <message>
         <source>View movie</source>
@@ -1603,6 +1713,13 @@ Images are placed in the media library so you can re-use them in other articles.
     <message>
         <source>Printable version</source>
         <translation>打印机版本</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezdemo/menu</name>
+    <message>
+        <source>Navigation</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1747,11 +1864,47 @@ Images are placed in the media library so you can re-use them in other articles.
         <translation>搜索</translation>
     </message>
     <message>
-        <source>Skip to main content</source>
+        <source>Tag cloud</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Search text:</source>
+        <source>Site map</source>
+        <translation type="unfinished">站点地图</translation>
+    </message>
+    <message>
+        <source>Shopping basket</source>
+        <translation type="unfinished">购物车</translation>
+    </message>
+    <message>
+        <source>My profile</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Logout</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Register</source>
+        <translation type="unfinished">注册</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation type="unfinished">登录</translation>
+    </message>
+    <message>
+        <source>Username</source>
+        <translation type="unfinished">用户名</translation>
+    </message>
+    <message>
+        <source>Password</source>
+        <translation type="unfinished">密码</translation>
+    </message>
+    <message>
+        <source>Forgot your password?</source>
+        <translation type="unfinished">忘记密码?</translation>
+    </message>
+    <message>
+        <source>Search text</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -2995,6 +3148,60 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
 </context>
 <context>
+    <name>design/ezflow/edit/frontpage</name>
+    <message>
+        <source>Search phrase</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation type="unfinished">搜索</translation>
+    </message>
+    <message>
+        <source>Results</source>
+        <translation type="unfinished">结果</translation>
+    </message>
+    <message>
+        <source>Select:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Add to block</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Edit &lt;%object_name&gt; (%class_name)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Translating content from %from_lang to %to_lang</source>
+        <translation type="unfinished">将内容从%from_lang翻译至%to_lang</translation>
+    </message>
+    <message>
+        <source>Content in %language</source>
+        <translation type="unfinished">%language的内容</translation>
+    </message>
+    <message>
+        <source>Send for publishing</source>
+        <translation type="unfinished">发布</translation>
+    </message>
+    <message>
+        <source>Store draft</source>
+        <translation type="unfinished">保存草稿</translation>
+    </message>
+    <message>
+        <source>Discard draft</source>
+        <translation type="unfinished">放弃草稿</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezflow/embed/poll</name>
+    <message>
+        <source>Vote</source>
+        <translation type="unfinished">投票</translation>
+    </message>
+</context>
+<context>
     <name>design/standard/content/datatype</name>
     <message>
         <source>Second</source>
@@ -3018,6 +3225,80 @@ Images are placed in the media library so you can re-use them in other articles.
     <message>
         <source>Sorry, the key submitted was not a valid key. Account was not activated.</source>
         <translation type="unfinished">抱歉，您发送的key不是一个合法的key。帐号没有被激活。</translation>
+    </message>
+</context>
+<context>
+    <name>ezcomments/comment/add</name>
+    <message>
+        <source>reCAPTCHA API key missing.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>ezcomments/comment/add/form</name>
+    <message>
+        <source>Post a comment</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Title:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Name:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Website:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Email:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>(The email address will not be shown)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Content:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Notify me of new comments</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Security text:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Enter both words below, with or without a space.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The letters are not case-sensitive.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Can&apos;t read this?</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Try another</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Remember me</source>
+        <translation type="unfinished">记住登录状态</translation>
+    </message>
+    <message>
+        <source>Add comment</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Reset form</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 </TS>
