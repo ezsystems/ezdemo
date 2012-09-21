@@ -28,9 +28,9 @@
                     {if eq( $gallery_item.class_identifier, 'video' )}
                         {node_view_gui view='gallery_viewer' is_hidden=true() big_class=$big_image_class total_items=$children_count content_node=$gallery_item}
                     {/if}
-                    {if and( eq( $gallery_item.class_identifier, 'image' ), $render_image_once|not() )}
+                    {if and( eq( $gallery_item.class_identifier, 'image' ), $image_container|not() )}
                         {node_view_gui view='gallery_viewer' is_hidden=true() big_class=$big_image_class total_items=$children_count content_node=$gallery_item}
-                        {set $render_image_once = true()}
+                        {set $image_container = true()}
                     {/if}
                 {/foreach}
             </div>
