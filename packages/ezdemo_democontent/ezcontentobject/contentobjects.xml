@@ -1997,7 +1997,7 @@
                       </line>
                       <line xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">Address</line>
                       <line xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">City</line>
-                      <line xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">Country </line>
+                      <line xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">Country</line>
                     </paragraph>
                   </section>
                 </ezobject:attribute>
