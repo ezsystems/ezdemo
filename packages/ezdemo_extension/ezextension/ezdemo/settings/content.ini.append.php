@@ -3,6 +3,7 @@
 
 [FooterSettings]
 ContentObjectName=footer
+NodeID=100
 
 [CustomTagSettings]
 AvailableCustomTags[]=separator

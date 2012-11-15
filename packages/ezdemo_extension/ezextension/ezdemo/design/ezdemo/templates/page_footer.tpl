@@ -1,8 +1,5 @@
 <!-- Footer area: START -->
-{def $footer = fetch( 'content', 'list', hash( 'parent_node_id', ezini( 'NodeSettings', 'RootNode', 'content.ini' ),
-                                               'limit', '1',
-                                               'attribute_filter', array( array( 'name','=', ezini( 'FooterSettings', 'ContentObjectName', 'content.ini' ) ) ) ) )
-     $footer_node = $footer[0]}
+{def $footer_node = fetch( 'content', 'node', hash( 'node_id', ezini( 'FooterSettings', 'NodeID', 'content.ini' ) ) )}
 <footer>
     <div class="claim-wrapper">
         <div class="container">
@@ -26,4 +23,4 @@
     </div>
 </footer>
 <!-- Footer area: END -->
-{undef $footer $footer_node}
+{undef $footer_node}
