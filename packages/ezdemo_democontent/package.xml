@@ -29,10 +29,9 @@
         </entry>
     </changelog>
     <simple-files>
-      <simple-file key="b476ae30e0a67e8c3b542747dd3caa5c" original-path="var/ezdemo_site/storage/images/getting-started/selected-features/search-result-clustering-with-ez-find/443-3-eng-GB/Search-Result-Clustering-with-eZ-Find.png" package-path="simplefiles/274b087e.png"/>
-      <simple-file key="7925243670eab1301badd0dca478471f" original-path="var/ezdemo_site/storage/images/getting-started/selected-features/autosave-in-editorial-editing-process/455-1-eng-GB/Autosave-in-Editorial-Editing-Process.png" package-path="simplefiles/c7cfa9d3.png"/>
-      <simple-file key="7aca712855270c7826e1fb5ce5d30090" original-path="var/ezdemo_site/storage/images/getting-started/selected-features/multivariate-testing/467-11-eng-GB/Multivariate-Testing.png" package-path="simplefiles/b0839e1d.png"/>
-      <simple-file key="cb48c01e310c2b3933cdc0661c4a618a" original-path="var/ezdemo_site/storage/images/getting-started/selected-features/improved-online-analytics/479-3-eng-GB/Improved-Online-Analytics.png" package-path="simplefiles/7a3d11eb.png"/>
+      <simple-file key="b476ae30e0a67e8c3b542747dd3caa5c" original-path="var/ezdemo_site/storage/images/getting-started/selected-features/search-result-clustering-with-ez-find/443-3-eng-GB/Search-Result-Clustering-with-eZ-Find.png" package-path="simplefiles/274b087e.jpg"/>
+      <simple-file key="7aca712855270c7826e1fb5ce5d30090" original-path="var/ezdemo_site/storage/images/getting-started/selected-features/multivariate-testing/467-11-eng-GB/Multivariate-Testing.png" package-path="simplefiles/b0839e1d.jpg"/>
+      <simple-file key="cb48c01e310c2b3933cdc0661c4a618a" original-path="var/ezdemo_site/storage/images/getting-started/selected-features/improved-online-analytics/479-3-eng-GB/Improved-Online-Analytics.png" package-path="simplefiles/7a3d11eb.jpg"/>
       <simple-file key="c292efaba899d1e2bf49a86e5aecbc30" original-path="var/ezdemo_site/storage/images/getting-started/selected-features/getting-started-with-ez-publish-etna/491-3-eng-GB/Getting-Started-with-eZ-Publish-Etna.jpg" package-path="simplefiles/a16f7354.jpg"/>
       <simple-file key="114df3fbb84cbf9c7533d9e1f36f53a4" original-path="var/ezdemo_site/storage/images/travel/peruvian-amazon/amazon-side-river/223-1-eng-GB/Amazon-Side-River.jpg" package-path="simplefiles/7d1afcb4.jpg"/>
       <simple-file key="c882d324a7ace933807c1fb269e984d5" original-path="var/ezdemo_site/storage/images/travel/peruvian-amazon/river-boat/228-1-eng-GB/River-Boat.jpg" package-path="simplefiles/bbbbc2fe.jpg"/>
