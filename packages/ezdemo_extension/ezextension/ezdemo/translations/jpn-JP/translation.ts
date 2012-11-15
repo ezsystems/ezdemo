@@ -40,6 +40,21 @@
     </message>
 </context>
 <context>
+    <name>design/admin/preview/article</name>
+    <message>
+        <source>Comments allowed</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Yes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>No</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>design/ezdemo/article/article_index</name>
     <message>
         <source>Article index</source>
@@ -383,96 +398,8 @@
         <translation>日</translation>
     </message>
     <message>
-        <source>Hour</source>
-        <translation type="obsolete">時間</translation>
-    </message>
-    <message>
-        <source>Minute</source>
-        <translation type="obsolete">分</translation>
-    </message>
-    <message>
         <source>Show calendar to select a date.</source>
         <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
-    <name>design/ezdemo/content/diff</name>
-    <message>
-        <source>Versions for &lt;%object_name&gt; [%version_count]</source>
-        <translation type="obsolete">&lt;%object_name&gt; [%version_count] 
-のバージョン</translation>
-    </message>
-    <message>
-        <source>Version</source>
-        <translation type="obsolete">バージョン</translation>
-    </message>
-    <message>
-        <source>Status</source>
-        <translation type="obsolete">ステータス</translation>
-    </message>
-    <message>
-        <source>Translations</source>
-        <translation type="obsolete">翻訳</translation>
-    </message>
-    <message>
-        <source>Creator</source>
-        <translation type="obsolete">作成者</translation>
-    </message>
-    <message>
-        <source>Modified</source>
-        <translation type="obsolete">修正日時</translation>
-    </message>
-    <message>
-        <source>Draft</source>
-        <translation type="obsolete">ドラフト</translation>
-    </message>
-    <message>
-        <source>Published</source>
-        <translation type="obsolete">公開中</translation>
-    </message>
-    <message>
-        <source>Pending</source>
-        <translation type="obsolete">保留中</translation>
-    </message>
-    <message>
-        <source>Archived</source>
-        <translation type="obsolete">保管</translation>
-    </message>
-    <message>
-        <source>Rejected</source>
-        <translation type="obsolete">非承認</translation>
-    </message>
-    <message>
-        <source>Untouched draft</source>
-        <translation type="obsolete">未変更ドラフト</translation>
-    </message>
-    <message>
-        <source>This object does not have any versions.</source>
-        <translation type="obsolete">このオブジェクトにはバージョンが存在しません。</translation>
-    </message>
-    <message>
-        <source>Show differences</source>
-        <translation type="obsolete">違いを表示</translation>
-    </message>
-    <message>
-        <source>Differences between versions %oldVersion and %newVersion</source>
-        <translation type="obsolete">%oldVersion と %newVersionの違い</translation>
-    </message>
-    <message>
-        <source>Old version</source>
-        <translation type="obsolete">旧バージョン</translation>
-    </message>
-    <message>
-        <source>Inline changes</source>
-        <translation type="obsolete">インライン変更</translation>
-    </message>
-    <message>
-        <source>Block changes</source>
-        <translation type="obsolete">ブロック変更</translation>
-    </message>
-    <message>
-        <source>New version</source>
-        <translation type="obsolete">新バージョン</translation>
     </message>
 </context>
 <context>
@@ -1175,79 +1102,23 @@
     </message>
 </context>
 <context>
-    <name>design/ezdemo/ezodf/import</name>
-    <message>
-        <source>Document is now imported</source>
-        <translation type="obsolete">ドキュメントがインポートされました</translation>
-    </message>
-    <message>
-        <source>OpenOffice.org import</source>
-        <translation type="obsolete">OpenOffice.orgファイルのインポート</translation>
-    </message>
-    <message>
-        <source>The object was imported as: %class_name</source>
-        <translation type="obsolete">%class_nameとして、オブジェクトがインポートされました</translation>
-    </message>
-    <message>
-        <source>Document imported as</source>
-        <translation type="obsolete">ドキュメントは次の名前でインポートされました: </translation>
-    </message>
-    <message>
-        <source>The images are placed in the media and can be re-used.</source>
-        <translation type="obsolete">画像はメディアリソースに配置されますので、後に再利用することができます。</translation>
-    </message>
-    <message>
-        <source>Import another document</source>
-        <translation type="obsolete">もう一つのドキュメントをアップロードする</translation>
-    </message>
-    <message>
-        <source>Upload file</source>
-        <translation type="obsolete">ファイルのアップロード</translation>
-    </message>
-    <message>
-        <source>Import OpenOffice.org document</source>
-        <translation type="obsolete">OpenOffice.orgドキュメントをインポートする</translation>
-    </message>
-    <message>
-        <source>Replace document</source>
-        <translation type="obsolete">ドキュメントを入れ替える</translation>
-    </message>
-    <message>
-        <source>Import to</source>
-        <translation type="obsolete">インポート先</translation>
-    </message>
-    <message>
-        <source>You can import OpenOffice.org Writer documents directly into eZ publish from this page. You are
-asked where to place the document and eZ publish does the rest. The document is converted into
-the appropriate class during the import, you get a notice about this after the import is done.
-Images are placed in the media library so you can re-use them in other articles.</source>
-        <translation type="obsolete">OpenOffice.org Writerドキュメントを直接eZ Publishにインポートします。ドキュメントの配置先を選択する必要があります。
-ドキュメントは自動的に適切なクラスに変換されます。インポートが終わりましたら、通知が表示されます。
-画像はメディアリソースに登録されるため、他のオブジェクトと共有できます。</translation>
-    </message>
-</context>
-<context>
     <name>design/ezdemo/footer/address</name>
-    <message>
-        <source>Address</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
-    <name>design/ezdemo/footer/feedback_form</name>
     <message>
         <source>Get in touch</source>
         <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Send</source>
-        <translation type="unfinished">送信</translation>
     </message>
 </context>
 <context>
     <name>design/ezdemo/footer/latest_news</name>
     <message>
         <source>Latest News</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>design/ezdemo/footer/links</name>
+    <message>
+        <source>eZ Links</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -1290,21 +1161,6 @@ Images are placed in the media library so you can re-use them in other articles.
     <message>
         <source>Tip a friend</source>
         <translation>友達に教える</translation>
-    </message>
-</context>
-<context>
-    <name>design/ezdemo/full/blog_post</name>
-    <message>
-        <source>Tags:</source>
-        <translation type="obsolete">タグ:</translation>
-    </message>
-    <message>
-        <source>Comments</source>
-        <translation type="obsolete">コメント</translation>
-    </message>
-    <message>
-        <source>%login_link_startLog in%login_link_end or %create_link_startcreate a user account%create_link_end to comment.</source>
-        <translation type="obsolete">コメントを投稿するには、%login_link_startログインする%login_link_end か %create_link_startユーザアカウントを作成してください%create_link_end</translation>
     </message>
 </context>
 <context>
@@ -1515,13 +1371,6 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
 </context>
 <context>
-    <name>design/ezdemo/full/gallery</name>
-    <message>
-        <source>View as slideshow</source>
-        <translation type="obsolete">スライドショーを表示</translation>
-    </message>
-</context>
-<context>
     <name>design/ezdemo/full/image</name>
     <message>
         <source>Previous image</source>
@@ -1573,10 +1422,6 @@ Images are placed in the media library so you can re-use them in other articles.
         <translation>買い物カゴへ追加</translation>
     </message>
     <message>
-        <source>Add to wish list</source>
-        <translation type="obsolete">ウイッシュリストへ追加</translation>
-    </message>
-    <message>
         <source>People who bought this also bought</source>
         <translation>これを購入した人はこんな商品を買っています</translation>
     </message>
@@ -1609,14 +1454,6 @@ Images are placed in the media library so you can re-use them in other articles.
 </context>
 <context>
     <name>design/ezdemo/line/blog_post</name>
-    <message>
-        <source>View comments</source>
-        <translation type="obsolete">コメントを表示</translation>
-    </message>
-    <message>
-        <source>Add comment</source>
-        <translation type="obsolete">コメントを投稿する</translation>
-    </message>
     <message>
         <source>Tags:</source>
         <translation>タグ:</translation>
@@ -1896,14 +1733,6 @@ Images are placed in the media library so you can re-use them in other articles.
     <message>
         <source>Search</source>
         <translation>検索</translation>
-    </message>
-    <message>
-        <source>Skip to main content</source>
-        <translation type="obsolete">メインコンテンツへスキップ</translation>
-    </message>
-    <message>
-        <source>Search text:</source>
-        <translation type="obsolete">検索テキスト: </translation>
     </message>
     <message>
         <source>Tag cloud</source>
@@ -2869,18 +2698,6 @@ Images are placed in the media library so you can re-use them in other articles.
         <translation>アカウントを有効にする</translation>
     </message>
     <message>
-        <source>Your account is now activated.</source>
-        <translation type="obsolete">アカウントは有効になりました。</translation>
-    </message>
-    <message>
-        <source>Sorry, the key submitted was not a valid key. Account was not activated.</source>
-        <translation type="obsolete">パスワードが無効なためアカウントを有効に出来ません。</translation>
-    </message>
-    <message>
-        <source>Your account is already active.</source>
-        <translation type="obsolete">あなたのアカウントは既に有効です。</translation>
-    </message>
-    <message>
         <source>OK</source>
         <translation>OK</translation>
     </message>
@@ -3267,6 +3084,17 @@ Images are placed in the media library so you can re-use them in other articles.
     <message>
         <source>Sorry, the key submitted was not a valid key. Account was not activated.</source>
         <translation type="unfinished">パスワードが無効なためアカウントを有効に出来ません。</translation>
+    </message>
+</context>
+<context>
+    <name>extension/ezstarrating/datatype</name>
+    <message>
+        <source>Rating: %current_rating/5</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%rating_count votes cast</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

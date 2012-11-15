@@ -40,6 +40,21 @@
     </message>
 </context>
 <context>
+    <name>design/admin/preview/article</name>
+    <message>
+        <source>Comments allowed</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Yes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>No</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>design/ezdemo/article/article_index</name>
     <message>
         <source>Article index</source>
@@ -383,95 +398,8 @@
         <translation>Giorno</translation>
     </message>
     <message>
-        <source>Hour</source>
-        <translation type="obsolete">Ora</translation>
-    </message>
-    <message>
-        <source>Minute</source>
-        <translation type="obsolete">Minuto</translation>
-    </message>
-    <message>
         <source>Show calendar to select a date.</source>
         <translation>Mostra il calendario per selezionare una data.</translation>
-    </message>
-</context>
-<context>
-    <name>design/ezdemo/content/diff</name>
-    <message>
-        <source>Versions for &lt;%object_name&gt; [%version_count]</source>
-        <translation type="obsolete">Versioni per &lt;%object_name&gt; [%version_count]</translation>
-    </message>
-    <message>
-        <source>Version</source>
-        <translation type="obsolete">Versione</translation>
-    </message>
-    <message>
-        <source>Status</source>
-        <translation type="obsolete">Stato</translation>
-    </message>
-    <message>
-        <source>Translations</source>
-        <translation type="obsolete">Traduzioni</translation>
-    </message>
-    <message>
-        <source>Creator</source>
-        <translation type="obsolete">Creatore</translation>
-    </message>
-    <message>
-        <source>Modified</source>
-        <translation type="obsolete">Modificata il</translation>
-    </message>
-    <message>
-        <source>Draft</source>
-        <translation type="obsolete">Bozza</translation>
-    </message>
-    <message>
-        <source>Published</source>
-        <translation type="obsolete">Pubblicato</translation>
-    </message>
-    <message>
-        <source>Pending</source>
-        <translation type="obsolete">In attesa</translation>
-    </message>
-    <message>
-        <source>Archived</source>
-        <translation type="obsolete">Archiviata</translation>
-    </message>
-    <message>
-        <source>Rejected</source>
-        <translation type="obsolete">Respinta</translation>
-    </message>
-    <message>
-        <source>Untouched draft</source>
-        <translation type="obsolete">Bozza non modificata</translation>
-    </message>
-    <message>
-        <source>This object does not have any versions.</source>
-        <translation type="obsolete">Quest&apos;oggetto non ha alcuna versione.</translation>
-    </message>
-    <message>
-        <source>Show differences</source>
-        <translation type="obsolete">Mostra le differenze</translation>
-    </message>
-    <message>
-        <source>Differences between versions %oldVersion and %newVersion</source>
-        <translation type="obsolete">Differenze fra le versioni %oldVersion e %newVersion</translation>
-    </message>
-    <message>
-        <source>Old version</source>
-        <translation type="obsolete">Vecchia versione</translation>
-    </message>
-    <message>
-        <source>Inline changes</source>
-        <translation type="obsolete">Modifiche in linea</translation>
-    </message>
-    <message>
-        <source>Block changes</source>
-        <translation type="obsolete">Blocco modifiche</translation>
-    </message>
-    <message>
-        <source>New version</source>
-        <translation type="obsolete">Nuova versione</translation>
     </message>
 </context>
 <context>
@@ -1174,80 +1102,23 @@
     </message>
 </context>
 <context>
-    <name>design/ezdemo/ezodf/import</name>
-    <message>
-        <source>Document is now imported</source>
-        <translation type="obsolete">Il documento ora è stato importato</translation>
-    </message>
-    <message>
-        <source>OpenOffice.org import</source>
-        <translation type="obsolete">Importazione OpenOffice.org</translation>
-    </message>
-    <message>
-        <source>The object was imported as: %class_name</source>
-        <translation type="obsolete">L&apos;oggetto è stato importato come: %class_name</translation>
-    </message>
-    <message>
-        <source>Document imported as</source>
-        <translation type="obsolete">Il documento è stato importato come</translation>
-    </message>
-    <message>
-        <source>The images are placed in the media and can be re-used.</source>
-        <translation type="obsolete">Le immagini sono state collocate in media e possono essere riutilizzate.</translation>
-    </message>
-    <message>
-        <source>Import another document</source>
-        <translation type="obsolete">Importa un altro documento</translation>
-    </message>
-    <message>
-        <source>Upload file</source>
-        <translation type="obsolete">Carica file</translation>
-    </message>
-    <message>
-        <source>Import OpenOffice.org document</source>
-        <translation type="obsolete">Importa un documento OpenOffice.org</translation>
-    </message>
-    <message>
-        <source>Replace document</source>
-        <translation type="obsolete">Sostituisci documento</translation>
-    </message>
-    <message>
-        <source>Import to</source>
-        <translation type="obsolete">Importa a</translation>
-    </message>
-    <message>
-        <source>You can import OpenOffice.org Writer documents directly into eZ publish from this page. You are
-asked where to place the document and eZ publish does the rest. The document is converted into
-the appropriate class during the import, you get a notice about this after the import is done.
-Images are placed in the media library so you can re-use them in other articles.</source>
-        <translation type="obsolete">Puoi importare documenti OpenOffice.org Writer direttamente in eZ Publish da questa pagina. Ti verrà chiesto
-dove posizionare i documenti e eZ Publish farà il resto. Il documento viene convertito nella classe
-appropriata durante l&apos;importazione, ne riceverai notifica al completamento dell&apos;importazione.
-Le immagini vengono collocate nella libreria media in modo da poter essere riutilizzate.</translation>
-    </message>
-</context>
-<context>
     <name>design/ezdemo/footer/address</name>
-    <message>
-        <source>Address</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
-    <name>design/ezdemo/footer/feedback_form</name>
     <message>
         <source>Get in touch</source>
         <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Send</source>
-        <translation type="unfinished">Invia</translation>
     </message>
 </context>
 <context>
     <name>design/ezdemo/footer/latest_news</name>
     <message>
         <source>Latest News</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>design/ezdemo/footer/links</name>
+    <message>
+        <source>eZ Links</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -1290,21 +1161,6 @@ Le immagini vengono collocate nella libreria media in modo da poter essere riuti
     <message>
         <source>Tip a friend</source>
         <translation>Segnala ad un amico</translation>
-    </message>
-</context>
-<context>
-    <name>design/ezdemo/full/blog_post</name>
-    <message>
-        <source>Tags:</source>
-        <translation type="obsolete">Parole chiave:</translation>
-    </message>
-    <message>
-        <source>Comments</source>
-        <translation type="obsolete">Commenti</translation>
-    </message>
-    <message>
-        <source>%login_link_startLog in%login_link_end or %create_link_startcreate a user account%create_link_end to comment.</source>
-        <translation type="obsolete">%login_link_startLog in%login_link_end o %create_link_startcrea un account utente%create_link_end per inviare un commento.</translation>
     </message>
 </context>
 <context>
@@ -1515,13 +1371,6 @@ Le immagini vengono collocate nella libreria media in modo da poter essere riuti
     </message>
 </context>
 <context>
-    <name>design/ezdemo/full/gallery</name>
-    <message>
-        <source>View as slideshow</source>
-        <translation type="obsolete">Guarda le immagini in sequenza</translation>
-    </message>
-</context>
-<context>
     <name>design/ezdemo/full/image</name>
     <message>
         <source>Previous image</source>
@@ -1573,10 +1422,6 @@ Le immagini vengono collocate nella libreria media in modo da poter essere riuti
         <translation>Aggiungi al carrello</translation>
     </message>
     <message>
-        <source>Add to wish list</source>
-        <translation type="obsolete">Aggiungi alla lista dei desideri</translation>
-    </message>
-    <message>
         <source>People who bought this also bought</source>
         <translation>Chi ha acquistato questo ha comprato anche</translation>
     </message>
@@ -1609,14 +1454,6 @@ Le immagini vengono collocate nella libreria media in modo da poter essere riuti
 </context>
 <context>
     <name>design/ezdemo/line/blog_post</name>
-    <message>
-        <source>View comments</source>
-        <translation type="obsolete">Guarda il commento</translation>
-    </message>
-    <message>
-        <source>Add comment</source>
-        <translation type="obsolete">Aggiungi un commento</translation>
-    </message>
     <message>
         <source>Tags:</source>
         <translation>Parole chiave:</translation>
@@ -1896,14 +1733,6 @@ Le immagini vengono collocate nella libreria media in modo da poter essere riuti
     <message>
         <source>Search</source>
         <translation>Cerca</translation>
-    </message>
-    <message>
-        <source>Skip to main content</source>
-        <translation type="obsolete">Salta al livello principale dei contenuti</translation>
-    </message>
-    <message>
-        <source>Search text:</source>
-        <translation type="obsolete">Testo ricerca:</translation>
     </message>
     <message>
         <source>Tag cloud</source>
@@ -2869,18 +2698,6 @@ Le immagini vengono collocate nella libreria media in modo da poter essere riuti
         <translation>Account attivato</translation>
     </message>
     <message>
-        <source>Your account is now activated.</source>
-        <translation type="obsolete">Il tuo account ora è attivo.</translation>
-    </message>
-    <message>
-        <source>Your account is already active.</source>
-        <translation type="obsolete">Il tuo account è già attivo.</translation>
-    </message>
-    <message>
-        <source>Sorry, the key submitted was not a valid key. Account was not activated.</source>
-        <translation type="obsolete">Spiacenti, la chiave inserita non è valida. L&apos;account non è stato attivato.</translation>
-    </message>
-    <message>
         <source>OK</source>
         <translation>OK</translation>
     </message>
@@ -3267,6 +3084,17 @@ Le immagini vengono collocate nella libreria media in modo da poter essere riuti
     <message>
         <source>Sorry, the key submitted was not a valid key. Account was not activated.</source>
         <translation>Spiacenti, la chiave inserita non è valida. L&apos;account non è stato attivato.</translation>
+    </message>
+</context>
+<context>
+    <name>extension/ezstarrating/datatype</name>
+    <message>
+        <source>Rating: %current_rating/5</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%rating_count votes cast</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

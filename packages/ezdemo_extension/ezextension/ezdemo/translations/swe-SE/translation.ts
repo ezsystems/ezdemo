@@ -40,6 +40,21 @@
     </message>
 </context>
 <context>
+    <name>design/admin/preview/article</name>
+    <message>
+        <source>Comments allowed</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Yes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>No</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>design/ezdemo/article/article_index</name>
     <message>
         <source>Article index</source>
@@ -383,95 +398,8 @@
         <translation>Dag</translation>
     </message>
     <message>
-        <source>Hour</source>
-        <translation type="obsolete">Timme</translation>
-    </message>
-    <message>
-        <source>Minute</source>
-        <translation type="obsolete">Minut</translation>
-    </message>
-    <message>
         <source>Show calendar to select a date.</source>
         <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
-    <name>design/ezdemo/content/diff</name>
-    <message>
-        <source>Versions for &lt;%object_name&gt; [%version_count]</source>
-        <translation type="obsolete">Versioner för &lt;%object_name&gt; [%version_count]</translation>
-    </message>
-    <message>
-        <source>Version</source>
-        <translation type="obsolete">Version</translation>
-    </message>
-    <message>
-        <source>Status</source>
-        <translation type="obsolete">Status</translation>
-    </message>
-    <message>
-        <source>Translations</source>
-        <translation type="obsolete">Översättningar</translation>
-    </message>
-    <message>
-        <source>Creator</source>
-        <translation type="obsolete">Skapare</translation>
-    </message>
-    <message>
-        <source>Modified</source>
-        <translation type="obsolete">Modifierad</translation>
-    </message>
-    <message>
-        <source>Draft</source>
-        <translation type="obsolete">Utkast</translation>
-    </message>
-    <message>
-        <source>Published</source>
-        <translation type="obsolete">Publicerad</translation>
-    </message>
-    <message>
-        <source>Pending</source>
-        <translation type="obsolete">Väntar</translation>
-    </message>
-    <message>
-        <source>Archived</source>
-        <translation type="obsolete">Arkiverad</translation>
-    </message>
-    <message>
-        <source>Rejected</source>
-        <translation type="obsolete">Ignorerad</translation>
-    </message>
-    <message>
-        <source>Untouched draft</source>
-        <translation type="obsolete">Obearbetat utkast</translation>
-    </message>
-    <message>
-        <source>This object does not have any versions.</source>
-        <translation type="obsolete">Objektet har inga versioner.</translation>
-    </message>
-    <message>
-        <source>Show differences</source>
-        <translation type="obsolete">Visa skillnader</translation>
-    </message>
-    <message>
-        <source>Differences between versions %oldVersion and %newVersion</source>
-        <translation type="obsolete">Skillnader mellan versionerna %oldVersion och %newVersion</translation>
-    </message>
-    <message>
-        <source>Old version</source>
-        <translation type="obsolete">Gammal version</translation>
-    </message>
-    <message>
-        <source>Inline changes</source>
-        <translation type="obsolete">Infogade ändringar</translation>
-    </message>
-    <message>
-        <source>Block changes</source>
-        <translation type="obsolete">Spärra ändringar</translation>
-    </message>
-    <message>
-        <source>New version</source>
-        <translation type="obsolete">Ny version</translation>
     </message>
 </context>
 <context>
@@ -1166,70 +1094,23 @@
     </message>
 </context>
 <context>
-    <name>design/ezdemo/ezodf/import</name>
-    <message>
-        <source>Document is now imported</source>
-        <translation type="obsolete">Dokumentet har nu importerats</translation>
-    </message>
-    <message>
-        <source>OpenOffice.org import</source>
-        <translation type="obsolete">OpenOffice.org-import</translation>
-    </message>
-    <message>
-        <source>The object was imported as: %class_name</source>
-        <translation type="obsolete">Objektet importerades som: %class_name</translation>
-    </message>
-    <message>
-        <source>Document imported as</source>
-        <translation type="obsolete">Dokument importerat som</translation>
-    </message>
-    <message>
-        <source>The images are placed in the media and can be re-used.</source>
-        <translation type="obsolete">Bilderna har placerats i mediet och kan återanvändas.</translation>
-    </message>
-    <message>
-        <source>Import another document</source>
-        <translation type="obsolete">Importera ett till dokument</translation>
-    </message>
-    <message>
-        <source>Upload file</source>
-        <translation type="obsolete">Ladda upp fil</translation>
-    </message>
-    <message>
-        <source>Import OpenOffice.org document</source>
-        <translation type="obsolete">Importera OpenOffice.org-dokument</translation>
-    </message>
-    <message>
-        <source>Replace document</source>
-        <translation type="obsolete">Ersätt dokument</translation>
-    </message>
-    <message>
-        <source>Import to</source>
-        <translation type="obsolete">Importera till</translation>
-    </message>
-</context>
-<context>
     <name>design/ezdemo/footer/address</name>
-    <message>
-        <source>Address</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
-    <name>design/ezdemo/footer/feedback_form</name>
     <message>
         <source>Get in touch</source>
         <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Send</source>
-        <translation type="unfinished">Skicka</translation>
     </message>
 </context>
 <context>
     <name>design/ezdemo/footer/latest_news</name>
     <message>
         <source>Latest News</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>design/ezdemo/footer/links</name>
+    <message>
+        <source>eZ Links</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -1272,21 +1153,6 @@
     <message>
         <source>Tip a friend</source>
         <translation>Tipsa en vän</translation>
-    </message>
-</context>
-<context>
-    <name>design/ezdemo/full/blog_post</name>
-    <message>
-        <source>Tags:</source>
-        <translation type="obsolete">Taggar:</translation>
-    </message>
-    <message>
-        <source>Comments</source>
-        <translation type="obsolete">Kommentarer</translation>
-    </message>
-    <message>
-        <source>%login_link_startLog in%login_link_end or %create_link_startcreate a user account%create_link_end to comment.</source>
-        <translation type="obsolete">%login_link_startLogga in%login_link_end eller %create_link_startskapa ett användarkonto%create_link_end för att kommentera.</translation>
     </message>
 </context>
 <context>
@@ -1497,13 +1363,6 @@
     </message>
 </context>
 <context>
-    <name>design/ezdemo/full/gallery</name>
-    <message>
-        <source>View as slideshow</source>
-        <translation type="obsolete">Visa som bildspel</translation>
-    </message>
-</context>
-<context>
     <name>design/ezdemo/full/image</name>
     <message>
         <source>Previous image</source>
@@ -1555,10 +1414,6 @@
         <translation>Lägg till i kundvagnen</translation>
     </message>
     <message>
-        <source>Add to wish list</source>
-        <translation type="obsolete">Lägg till i önskelistan</translation>
-    </message>
-    <message>
         <source>People who bought this also bought</source>
         <translation>De som köpte denna köpte även</translation>
     </message>
@@ -1591,14 +1446,6 @@
 </context>
 <context>
     <name>design/ezdemo/line/blog_post</name>
-    <message>
-        <source>View comments</source>
-        <translation type="obsolete">Visa kommentarer</translation>
-    </message>
-    <message>
-        <source>Add comment</source>
-        <translation type="obsolete">Lägg till kommentar</translation>
-    </message>
     <message>
         <source>Tags:</source>
         <translation type="unfinished">Taggar:</translation>
@@ -2843,18 +2690,6 @@
         <translation>Aktivera konto</translation>
     </message>
     <message>
-        <source>Your account is now activated.</source>
-        <translation type="obsolete">Ditt konto är nu aktiverat.</translation>
-    </message>
-    <message>
-        <source>Your account is already active.</source>
-        <translation type="obsolete">Ditt konto är redan aktivt.</translation>
-    </message>
-    <message>
-        <source>Sorry, the key submitted was not a valid key. Account was not activated.</source>
-        <translation type="obsolete">Nyckeln som skickades var tyvärr inte giltig. Kontot har inte aktiverats.</translation>
-    </message>
-    <message>
         <source>OK</source>
         <translation>Ok</translation>
     </message>
@@ -3241,6 +3076,17 @@
     <message>
         <source>Sorry, the key submitted was not a valid key. Account was not activated.</source>
         <translation type="unfinished">Nyckeln som skickades var tyvärr inte giltig. Kontot har inte aktiverats.</translation>
+    </message>
+</context>
+<context>
+    <name>extension/ezstarrating/datatype</name>
+    <message>
+        <source>Rating: %current_rating/5</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%rating_count votes cast</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

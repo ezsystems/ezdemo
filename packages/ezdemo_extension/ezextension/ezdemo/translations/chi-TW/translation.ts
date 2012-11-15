@@ -40,6 +40,21 @@
     </message>
 </context>
 <context>
+    <name>design/admin/preview/article</name>
+    <message>
+        <source>Comments allowed</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Yes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>No</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>design/ezdemo/article/article_index</name>
     <message>
         <source>Article index</source>
@@ -385,85 +400,6 @@
     <message>
         <source>Show calendar to select a date.</source>
         <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
-    <name>design/ezdemo/content/diff</name>
-    <message>
-        <source>Versions for &lt;%object_name&gt; [%version_count]</source>
-        <translation type="obsolete">&lt;%object_name&gt; 的版本 [%version_count]</translation>
-    </message>
-    <message>
-        <source>Version</source>
-        <translation type="obsolete">版本</translation>
-    </message>
-    <message>
-        <source>Status</source>
-        <translation type="obsolete">狀態</translation>
-    </message>
-    <message>
-        <source>Translations</source>
-        <translation type="obsolete">翻譯</translation>
-    </message>
-    <message>
-        <source>Creator</source>
-        <translation type="obsolete">建立者</translation>
-    </message>
-    <message>
-        <source>Modified</source>
-        <translation type="obsolete">已經修改</translation>
-    </message>
-    <message>
-        <source>Draft</source>
-        <translation type="obsolete">草稿</translation>
-    </message>
-    <message>
-        <source>Published</source>
-        <translation type="obsolete">已發布</translation>
-    </message>
-    <message>
-        <source>Pending</source>
-        <translation type="obsolete">擱置</translation>
-    </message>
-    <message>
-        <source>Archived</source>
-        <translation type="obsolete">歸檔</translation>
-    </message>
-    <message>
-        <source>Rejected</source>
-        <translation type="obsolete">拒絕</translation>
-    </message>
-    <message>
-        <source>Untouched draft</source>
-        <translation type="obsolete">未更動的草稿</translation>
-    </message>
-    <message>
-        <source>This object does not have any versions.</source>
-        <translation type="obsolete">此物件沒有任何版本。</translation>
-    </message>
-    <message>
-        <source>Show differences</source>
-        <translation type="obsolete">顯示差異</translation>
-    </message>
-    <message>
-        <source>Differences between versions %oldVersion and %newVersion</source>
-        <translation type="obsolete">版本 %oldVersion 和 %newVersion 之間的差異</translation>
-    </message>
-    <message>
-        <source>Old version</source>
-        <translation type="obsolete">舊版本</translation>
-    </message>
-    <message>
-        <source>Inline changes</source>
-        <translation type="obsolete">內聯變更</translation>
-    </message>
-    <message>
-        <source>Block changes</source>
-        <translation type="obsolete">區塊變更</translation>
-    </message>
-    <message>
-        <source>New version</source>
-        <translation type="obsolete">新版本</translation>
     </message>
 </context>
 <context>
@@ -1160,25 +1096,21 @@
 <context>
     <name>design/ezdemo/footer/address</name>
     <message>
-        <source>Address</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
-    <name>design/ezdemo/footer/feedback_form</name>
-    <message>
         <source>Get in touch</source>
         <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Send</source>
-        <translation type="unfinished">寄送</translation>
     </message>
 </context>
 <context>
     <name>design/ezdemo/footer/latest_news</name>
     <message>
         <source>Latest News</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>design/ezdemo/footer/links</name>
+    <message>
+        <source>eZ Links</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -1221,21 +1153,6 @@
     <message>
         <source>Tip a friend</source>
         <translation>告知朋友</translation>
-    </message>
-</context>
-<context>
-    <name>design/ezdemo/full/blog_post</name>
-    <message>
-        <source>Tags:</source>
-        <translation type="obsolete">標籤:</translation>
-    </message>
-    <message>
-        <source>Comments</source>
-        <translation type="obsolete">註釋</translation>
-    </message>
-    <message>
-        <source>%login_link_startLog in%login_link_end or %create_link_startcreate a user account%create_link_end to comment.</source>
-        <translation type="obsolete">用 %login_link_start 登入 %login_link_end 或是用 %create_link_start 以新增一個使用者帳號 %create_link_end 來下註解 。</translation>
     </message>
 </context>
 <context>
@@ -1446,13 +1363,6 @@
     </message>
 </context>
 <context>
-    <name>design/ezdemo/full/gallery</name>
-    <message>
-        <source>View as slideshow</source>
-        <translation type="obsolete">投影片放映方式檢視</translation>
-    </message>
-</context>
-<context>
     <name>design/ezdemo/full/image</name>
     <message>
         <source>Previous image</source>
@@ -1502,10 +1412,6 @@
     <message>
         <source>Add to basket</source>
         <translation>加入購物籃</translation>
-    </message>
-    <message>
-        <source>Add to wish list</source>
-        <translation type="obsolete">加入願望清單</translation>
     </message>
     <message>
         <source>People who bought this also bought</source>
@@ -2222,7 +2128,7 @@
     </message>
     <message>
         <source>Modified</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">已修改</translation>
     </message>
     <message>
         <source>Select RSS export for removal.</source>
@@ -2784,18 +2690,6 @@
         <translation>啟用帳號</translation>
     </message>
     <message>
-        <source>Your account is now activated.</source>
-        <translation type="obsolete">您的帳號現在已啟用。</translation>
-    </message>
-    <message>
-        <source>Sorry, the key submitted was not a valid key. Account was not activated.</source>
-        <translation type="obsolete">抱歉，提交的金鑰無效。帳號未啟用。</translation>
-    </message>
-    <message>
-        <source>Your account is already active.</source>
-        <translation type="obsolete">您的帳號已啟用。</translation>
-    </message>
-    <message>
         <source>OK</source>
         <translation>確定</translation>
     </message>
@@ -3182,6 +3076,17 @@
     <message>
         <source>Sorry, the key submitted was not a valid key. Account was not activated.</source>
         <translation type="unfinished">抱歉，提交的金鑰無效。帳號未啟用。</translation>
+    </message>
+</context>
+<context>
+    <name>extension/ezstarrating/datatype</name>
+    <message>
+        <source>Rating: %current_rating/5</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%rating_count votes cast</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

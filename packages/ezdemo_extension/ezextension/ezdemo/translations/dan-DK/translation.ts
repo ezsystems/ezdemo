@@ -40,6 +40,21 @@
     </message>
 </context>
 <context>
+    <name>design/admin/preview/article</name>
+    <message>
+        <source>Comments allowed</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Yes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>No</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>design/ezdemo/article/article_index</name>
     <message>
         <source>Article index</source>
@@ -383,95 +398,8 @@
         <translation>Dag</translation>
     </message>
     <message>
-        <source>Hour</source>
-        <translation type="obsolete">Time</translation>
-    </message>
-    <message>
-        <source>Minute</source>
-        <translation type="obsolete">Minut</translation>
-    </message>
-    <message>
         <source>Show calendar to select a date.</source>
         <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
-    <name>design/ezdemo/content/diff</name>
-    <message>
-        <source>Versions for &lt;%object_name&gt; [%version_count]</source>
-        <translation type="obsolete">Versioner af %object_name [%version_count]</translation>
-    </message>
-    <message>
-        <source>Version</source>
-        <translation type="obsolete">Version</translation>
-    </message>
-    <message>
-        <source>Status</source>
-        <translation type="obsolete">Status</translation>
-    </message>
-    <message>
-        <source>Translations</source>
-        <translation type="obsolete">Oversættelser</translation>
-    </message>
-    <message>
-        <source>Creator</source>
-        <translation type="obsolete">Oprettet af</translation>
-    </message>
-    <message>
-        <source>Modified</source>
-        <translation type="obsolete">ændret</translation>
-    </message>
-    <message>
-        <source>Draft</source>
-        <translation type="obsolete">Udkast</translation>
-    </message>
-    <message>
-        <source>Published</source>
-        <translation type="obsolete">Publiceret</translation>
-    </message>
-    <message>
-        <source>Pending</source>
-        <translation type="obsolete">Venter</translation>
-    </message>
-    <message>
-        <source>Archived</source>
-        <translation type="obsolete">Arkiveret</translation>
-    </message>
-    <message>
-        <source>Rejected</source>
-        <translation type="obsolete">Forkastet</translation>
-    </message>
-    <message>
-        <source>Untouched draft</source>
-        <translation type="obsolete">Urørt udkast</translation>
-    </message>
-    <message>
-        <source>This object does not have any versions.</source>
-        <translation type="obsolete">Dette objektet har ingen versioner.</translation>
-    </message>
-    <message>
-        <source>Show differences</source>
-        <translation type="obsolete">Vis forskellen</translation>
-    </message>
-    <message>
-        <source>Differences between versions %oldVersion and %newVersion</source>
-        <translation type="obsolete">Forskellen mellem versionerne %oldVersion og %newVersion</translation>
-    </message>
-    <message>
-        <source>Old version</source>
-        <translation type="obsolete">Gammel version</translation>
-    </message>
-    <message>
-        <source>Inline changes</source>
-        <translation type="obsolete">Linje ændringer</translation>
-    </message>
-    <message>
-        <source>Block changes</source>
-        <translation type="obsolete">Afsnit ændringer</translation>
-    </message>
-    <message>
-        <source>New version</source>
-        <translation type="obsolete">Ny version</translation>
     </message>
 </context>
 <context>
@@ -1166,70 +1094,23 @@
     </message>
 </context>
 <context>
-    <name>design/ezdemo/ezodf/import</name>
-    <message>
-        <source>Document is now imported</source>
-        <translation type="obsolete">Dokument er nu importeret</translation>
-    </message>
-    <message>
-        <source>OpenOffice.org import</source>
-        <translation type="obsolete">OpenOffice.org import</translation>
-    </message>
-    <message>
-        <source>The object was imported as: %class_name</source>
-        <translation type="obsolete">Objektet blev importeret som: %class_name</translation>
-    </message>
-    <message>
-        <source>Document imported as</source>
-        <translation type="obsolete">Dokument importeret som</translation>
-    </message>
-    <message>
-        <source>The images are placed in the media and can be re-used.</source>
-        <translation type="obsolete">Billederne er placeret i medier og kan genbruges.</translation>
-    </message>
-    <message>
-        <source>Import another document</source>
-        <translation type="obsolete">Importer et andet dokument</translation>
-    </message>
-    <message>
-        <source>Upload file</source>
-        <translation type="obsolete">Upload fil</translation>
-    </message>
-    <message>
-        <source>Import OpenOffice.org document</source>
-        <translation type="obsolete">Import OpenOffice.org-dokument</translation>
-    </message>
-    <message>
-        <source>Replace document</source>
-        <translation type="obsolete">Erstat dokument</translation>
-    </message>
-    <message>
-        <source>Import to</source>
-        <translation type="obsolete">Importer til</translation>
-    </message>
-</context>
-<context>
     <name>design/ezdemo/footer/address</name>
-    <message>
-        <source>Address</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
-    <name>design/ezdemo/footer/feedback_form</name>
     <message>
         <source>Get in touch</source>
         <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Send</source>
-        <translation type="unfinished">Send</translation>
     </message>
 </context>
 <context>
     <name>design/ezdemo/footer/latest_news</name>
     <message>
         <source>Latest News</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>design/ezdemo/footer/links</name>
+    <message>
+        <source>eZ Links</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -1272,21 +1153,6 @@
     <message>
         <source>Tip a friend</source>
         <translation>Tip en ven</translation>
-    </message>
-</context>
-<context>
-    <name>design/ezdemo/full/blog_post</name>
-    <message>
-        <source>Tags:</source>
-        <translation type="obsolete">Mærkater: </translation>
-    </message>
-    <message>
-        <source>Comments</source>
-        <translation type="obsolete">Kommentarer</translation>
-    </message>
-    <message>
-        <source>%login_link_startLog in%login_link_end or %create_link_startcreate a user account%create_link_end to comment.</source>
-        <translation type="obsolete">%login_link_startLog i%login_link_end eller %create_link_startcreate en bruger konto%create_link_end for at kommenterer.</translation>
     </message>
 </context>
 <context>
@@ -1497,13 +1363,6 @@
     </message>
 </context>
 <context>
-    <name>design/ezdemo/full/gallery</name>
-    <message>
-        <source>View as slideshow</source>
-        <translation type="obsolete">Se som diasshow</translation>
-    </message>
-</context>
-<context>
     <name>design/ezdemo/full/image</name>
     <message>
         <source>Previous image</source>
@@ -1555,10 +1414,6 @@
         <translation>Tilføj til indkøbskurv</translation>
     </message>
     <message>
-        <source>Add to wish list</source>
-        <translation type="obsolete">Tilføj til ønskeliste</translation>
-    </message>
-    <message>
         <source>People who bought this also bought</source>
         <translation>Dem som købte denne købte også</translation>
     </message>
@@ -1591,14 +1446,6 @@
 </context>
 <context>
     <name>design/ezdemo/line/blog_post</name>
-    <message>
-        <source>View comments</source>
-        <translation type="obsolete">Se kommentarer</translation>
-    </message>
-    <message>
-        <source>Add comment</source>
-        <translation type="obsolete">Tilføj kommentarer</translation>
-    </message>
     <message>
         <source>Tags:</source>
         <translation type="unfinished">Mærkater: </translation>
@@ -2281,7 +2128,7 @@
     </message>
     <message>
         <source>Modified</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Ændret</translation>
     </message>
     <message>
         <source>Select RSS export for removal.</source>
@@ -2843,18 +2690,6 @@
         <translation>Aktiver kontoen</translation>
     </message>
     <message>
-        <source>Your account is now activated.</source>
-        <translation type="obsolete">Din konto er nu aktivert.</translation>
-    </message>
-    <message>
-        <source>Sorry, the key submitted was not a valid key. Account was not activated.</source>
-        <translation type="obsolete">Beklager, aktiveringsnøglen var ikke gyldig. Kontoen blev ikke aktiveret.</translation>
-    </message>
-    <message>
-        <source>Your account is already active.</source>
-        <translation type="obsolete">Din konto er allerede aktiv.</translation>
-    </message>
-    <message>
         <source>OK</source>
         <translation>OK</translation>
     </message>
@@ -3241,6 +3076,17 @@
     <message>
         <source>Sorry, the key submitted was not a valid key. Account was not activated.</source>
         <translation type="unfinished">Beklager, aktiveringsnøglen var ikke gyldig. Kontoen blev ikke aktiveret.</translation>
+    </message>
+</context>
+<context>
+    <name>extension/ezstarrating/datatype</name>
+    <message>
+        <source>Rating: %current_rating/5</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%rating_count votes cast</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
