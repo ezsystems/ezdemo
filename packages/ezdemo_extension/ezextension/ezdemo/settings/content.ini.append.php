@@ -1,6 +1,9 @@
 <?php /* #?ini charset="utf-8"?
 # eZ publish configuration file for content
 
+[FooterSettings]
+ContentObjectName=footer
+
 [CustomTagSettings]
 AvailableCustomTags[]=separator
 AvailableCustomTags[]=children_menu
