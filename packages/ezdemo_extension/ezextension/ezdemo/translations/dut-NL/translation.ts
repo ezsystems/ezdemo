@@ -40,6 +40,21 @@
     </message>
 </context>
 <context>
+    <name>design/admin/preview/article</name>
+    <message>
+        <source>Comments allowed</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Yes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>No</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>design/ezdemo/article/article_index</name>
     <message>
         <source>Article index</source>
@@ -383,95 +398,8 @@
         <translation>Dag</translation>
     </message>
     <message>
-        <source>Hour</source>
-        <translation type="obsolete">Uur</translation>
-    </message>
-    <message>
-        <source>Minute</source>
-        <translation type="obsolete">Minuut</translation>
-    </message>
-    <message>
         <source>Show calendar to select a date.</source>
         <translation>Toon kalendar om een datum te selecteren.</translation>
-    </message>
-</context>
-<context>
-    <name>design/ezdemo/content/diff</name>
-    <message>
-        <source>Versions for &lt;%object_name&gt; [%version_count]</source>
-        <translation type="obsolete">Versies voor &lt;%object_name&gt; (%version_count)</translation>
-    </message>
-    <message>
-        <source>Version</source>
-        <translation type="obsolete">Versie</translation>
-    </message>
-    <message>
-        <source>Status</source>
-        <translation type="obsolete">Status</translation>
-    </message>
-    <message>
-        <source>Translations</source>
-        <translation type="obsolete">Vertalingen</translation>
-    </message>
-    <message>
-        <source>Creator</source>
-        <translation type="obsolete">Creator</translation>
-    </message>
-    <message>
-        <source>Modified</source>
-        <translation type="obsolete">Gewijzigd</translation>
-    </message>
-    <message>
-        <source>Draft</source>
-        <translation type="obsolete">Concept</translation>
-    </message>
-    <message>
-        <source>Published</source>
-        <translation type="obsolete">Gepubliceerd</translation>
-    </message>
-    <message>
-        <source>Pending</source>
-        <translation type="obsolete">In behandeling</translation>
-    </message>
-    <message>
-        <source>Archived</source>
-        <translation type="obsolete">Gearchiveerd</translation>
-    </message>
-    <message>
-        <source>Rejected</source>
-        <translation type="obsolete">Verworpen</translation>
-    </message>
-    <message>
-        <source>Untouched draft</source>
-        <translation type="obsolete">Onaangeroerd concept</translation>
-    </message>
-    <message>
-        <source>This object does not have any versions.</source>
-        <translation type="obsolete">Dit object heeft geen versies.</translation>
-    </message>
-    <message>
-        <source>Show differences</source>
-        <translation type="obsolete">Verschillen weergeven</translation>
-    </message>
-    <message>
-        <source>Differences between versions %oldVersion and %newVersion</source>
-        <translation type="obsolete">Verschillen tussen versies %oldVersion en %newVersion</translation>
-    </message>
-    <message>
-        <source>Old version</source>
-        <translation type="obsolete">Oude versie</translation>
-    </message>
-    <message>
-        <source>Inline changes</source>
-        <translation type="obsolete">Inline wijzigingen</translation>
-    </message>
-    <message>
-        <source>Block changes</source>
-        <translation type="obsolete">Wijzigingen blokkeren</translation>
-    </message>
-    <message>
-        <source>New version</source>
-        <translation type="obsolete">Nieuwe versie</translation>
     </message>
 </context>
 <context>
@@ -538,10 +466,6 @@
 <context>
     <name>design/ezdemo/content/edit</name>
     <message>
-        <source>Edit %1 - %2</source>
-        <translation type="obsolete">Bewerk %1 - %2</translation>
-    </message>
-    <message>
         <source>Translating content from %from_lang to %to_lang</source>
         <translation>Vertaal inhoud van %from_lang naar %to_lang</translation>
     </message>
@@ -584,21 +508,6 @@
     <message>
         <source>Discard the draft that is being edited. This will also remove the translations that belong to the draft (if any).</source>
         <translation>Het concept dat u nu bewerkt verwerpen. Hiermee verwijdert u ook eventuele vertalingen bij dit concept.</translation>
-    </message>
-</context>
-<context>
-    <name>design/ezdemo/content/edit_attribute</name>
-    <message>
-        <source>Not translatable</source>
-        <translation type="obsolete">Niet te vertalen</translation>
-    </message>
-    <message>
-        <source>Required</source>
-        <translation type="obsolete">Vereist</translation>
-    </message>
-    <message>
-        <source>Information collector</source>
-        <translation type="obsolete">Informatieverzamelaar</translation>
     </message>
 </context>
 <context>
@@ -1193,80 +1102,23 @@
     </message>
 </context>
 <context>
-    <name>design/ezdemo/ezodf/import</name>
-    <message>
-        <source>Document is now imported</source>
-        <translation type="obsolete">Document is nu geïmporteerd</translation>
-    </message>
-    <message>
-        <source>OpenOffice.org import</source>
-        <translation type="obsolete">OpenOffice.org-import</translation>
-    </message>
-    <message>
-        <source>The object was imported as: %class_name</source>
-        <translation type="obsolete">Het object werd geïmporteerd als: %class_name</translation>
-    </message>
-    <message>
-        <source>Document imported as</source>
-        <translation type="obsolete">Document geïmporteerd als</translation>
-    </message>
-    <message>
-        <source>The images are placed in the media and can be re-used.</source>
-        <translation type="obsolete">De afbeeldingen werden in de media geplaatst en kunnen opnieuw gebruikt worden.</translation>
-    </message>
-    <message>
-        <source>Import another document</source>
-        <translation type="obsolete">Een ander document importeren</translation>
-    </message>
-    <message>
-        <source>Upload file</source>
-        <translation type="obsolete">Bestand uploaden</translation>
-    </message>
-    <message>
-        <source>Import OpenOffice.org document</source>
-        <translation type="obsolete">Importeer OpenOffice.org-document</translation>
-    </message>
-    <message>
-        <source>Replace document</source>
-        <translation type="obsolete">Document vervangen</translation>
-    </message>
-    <message>
-        <source>Import to</source>
-        <translation type="obsolete">Importeer naar</translation>
-    </message>
-    <message>
-        <source>You can import OpenOffice.org Writer documents directly into eZ publish from this page. You are
-asked where to place the document and eZ publish does the rest. The document is converted into
-the appropriate class during the import, you get a notice about this after the import is done.
-Images are placed in the media library so you can re-use them in other articles.</source>
-        <translation type="obsolete">Vanaf deze pagina kunt u OpenOffice documenten rechtstreeks importeren. U geeft aan
-waar het document geplaatst moet worden en eZ publish doet de rest.Het document wordt tijdens het importeren
-omgezet in de passende klasse, u krijgt hiervan een bericht als de import is voltooid.
-Afbeeldingen worden in de media bibliotheek geplaatst, zodat u deze opnieuw kunt gebruiken in andere artikelen.</translation>
-    </message>
-</context>
-<context>
     <name>design/ezdemo/footer/address</name>
-    <message>
-        <source>Address</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
-    <name>design/ezdemo/footer/feedback_form</name>
     <message>
         <source>Get in touch</source>
         <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Send</source>
-        <translation type="unfinished">Verzenden</translation>
     </message>
 </context>
 <context>
     <name>design/ezdemo/footer/latest_news</name>
     <message>
         <source>Latest News</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>design/ezdemo/footer/links</name>
+    <message>
+        <source>eZ Links</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -1309,21 +1161,6 @@ Afbeeldingen worden in de media bibliotheek geplaatst, zodat u deze opnieuw kunt
     <message>
         <source>Tip a friend</source>
         <translation>Tip een vriend</translation>
-    </message>
-</context>
-<context>
-    <name>design/ezdemo/full/blog_post</name>
-    <message>
-        <source>Tags:</source>
-        <translation type="obsolete">Labels:</translation>
-    </message>
-    <message>
-        <source>Comments</source>
-        <translation type="obsolete">Commentaren</translation>
-    </message>
-    <message>
-        <source>%login_link_startLog in%login_link_end or %create_link_startcreate a user account%create_link_end to comment.</source>
-        <translation type="obsolete">%login_link_startMeld u aan%login_link_end of %create_link_startmaak een gebruikersaccount aan%create_link_end om commentaar te geven.</translation>
     </message>
 </context>
 <context>
@@ -1534,13 +1371,6 @@ Afbeeldingen worden in de media bibliotheek geplaatst, zodat u deze opnieuw kunt
     </message>
 </context>
 <context>
-    <name>design/ezdemo/full/gallery</name>
-    <message>
-        <source>View as slideshow</source>
-        <translation type="obsolete">Weergave als slideshow</translation>
-    </message>
-</context>
-<context>
     <name>design/ezdemo/full/image</name>
     <message>
         <source>Previous image</source>
@@ -1592,10 +1422,6 @@ Afbeeldingen worden in de media bibliotheek geplaatst, zodat u deze opnieuw kunt
         <translation>Aan winkelmandje toevoegen</translation>
     </message>
     <message>
-        <source>Add to wish list</source>
-        <translation type="obsolete">Aan wensenlijst toevoegen</translation>
-    </message>
-    <message>
         <source>People who bought this also bought</source>
         <translation>De mensen die dit kochten, kochten ook</translation>
     </message>
@@ -1628,14 +1454,6 @@ Afbeeldingen worden in de media bibliotheek geplaatst, zodat u deze opnieuw kunt
 </context>
 <context>
     <name>design/ezdemo/line/blog_post</name>
-    <message>
-        <source>View comments</source>
-        <translation type="obsolete">Commentaren bekijken</translation>
-    </message>
-    <message>
-        <source>Add comment</source>
-        <translation type="obsolete">Commentaren toevoegen</translation>
-    </message>
     <message>
         <source>Tags:</source>
         <translation>Labels:</translation>
@@ -1916,14 +1734,6 @@ Afbeeldingen worden in de media bibliotheek geplaatst, zodat u deze opnieuw kunt
     <message>
         <source>Search</source>
         <translation>Zoeken</translation>
-    </message>
-    <message>
-        <source>Skip to main content</source>
-        <translation type="obsolete">Naar hoofdinhoud springen</translation>
-    </message>
-    <message>
-        <source>Search text:</source>
-        <translation type="obsolete">Zoektekst:</translation>
     </message>
     <message>
         <source>Tag cloud</source>
@@ -2889,18 +2699,6 @@ Afbeeldingen worden in de media bibliotheek geplaatst, zodat u deze opnieuw kunt
         <translation>Account activeren</translation>
     </message>
     <message>
-        <source>Your account is now activated.</source>
-        <translation type="obsolete">Uw account is nu geactiveerd.</translation>
-    </message>
-    <message>
-        <source>Your account is already active.</source>
-        <translation type="obsolete">Uw account is reeds actief.</translation>
-    </message>
-    <message>
-        <source>Sorry, the key submitted was not a valid key. Account was not activated.</source>
-        <translation type="obsolete">Soory, de ingegeven sleutel was geen geldige sleutel. De account werd niet geactiveerd.</translation>
-    </message>
-    <message>
         <source>OK</source>
         <translation>OK</translation>
     </message>
@@ -3287,6 +3085,17 @@ Afbeeldingen worden in de media bibliotheek geplaatst, zodat u deze opnieuw kunt
     <message>
         <source>Sorry, the key submitted was not a valid key. Account was not activated.</source>
         <translation>Soory, de ingegeven sleutel was geen geldige sleutel. De account werd niet geactiveerd.</translation>
+    </message>
+</context>
+<context>
+    <name>extension/ezstarrating/datatype</name>
+    <message>
+        <source>Rating: %current_rating/5</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%rating_count votes cast</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

@@ -40,6 +40,21 @@
     </message>
 </context>
 <context>
+    <name>design/admin/preview/article</name>
+    <message>
+        <source>Comments allowed</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Yes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>No</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>design/ezdemo/article/article_index</name>
     <message>
         <source>Article index</source>
@@ -383,95 +398,8 @@
         <translation>Dia</translation>
     </message>
     <message>
-        <source>Hour</source>
-        <translation type="obsolete">Hora</translation>
-    </message>
-    <message>
-        <source>Minute</source>
-        <translation type="obsolete">Minut</translation>
-    </message>
-    <message>
         <source>Show calendar to select a date.</source>
         <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
-    <name>design/ezdemo/content/diff</name>
-    <message>
-        <source>Versions for &lt;%object_name&gt; [%version_count]</source>
-        <translation type="obsolete">Versions de &lt;%object_name&gt; [%version_count]</translation>
-    </message>
-    <message>
-        <source>Version</source>
-        <translation type="obsolete">Versions</translation>
-    </message>
-    <message>
-        <source>Status</source>
-        <translation type="obsolete">Estat</translation>
-    </message>
-    <message>
-        <source>Translations</source>
-        <translation type="obsolete">Traduccions</translation>
-    </message>
-    <message>
-        <source>Creator</source>
-        <translation type="obsolete">Creat per</translation>
-    </message>
-    <message>
-        <source>Modified</source>
-        <translation type="obsolete">Modificat</translation>
-    </message>
-    <message>
-        <source>Draft</source>
-        <translation type="obsolete">Esborrany</translation>
-    </message>
-    <message>
-        <source>Published</source>
-        <translation type="obsolete">Publicat</translation>
-    </message>
-    <message>
-        <source>Pending</source>
-        <translation type="obsolete">Pendent</translation>
-    </message>
-    <message>
-        <source>Archived</source>
-        <translation type="obsolete">Arxivat</translation>
-    </message>
-    <message>
-        <source>Rejected</source>
-        <translation type="obsolete">Rebutjat</translation>
-    </message>
-    <message>
-        <source>Untouched draft</source>
-        <translation type="obsolete">Esborrany sense canvis</translation>
-    </message>
-    <message>
-        <source>This object does not have any versions.</source>
-        <translation type="obsolete">Aquest objecte no te cap versió.</translation>
-    </message>
-    <message>
-        <source>Show differences</source>
-        <translation type="obsolete">Mostra diferències</translation>
-    </message>
-    <message>
-        <source>Differences between versions %oldVersion and %newVersion</source>
-        <translation type="obsolete">Diferències entre les versión %oldVersion i %newVersion</translation>
-    </message>
-    <message>
-        <source>Old version</source>
-        <translation type="obsolete">Versió antiga</translation>
-    </message>
-    <message>
-        <source>Inline changes</source>
-        <translation type="obsolete">Canvis en línia</translation>
-    </message>
-    <message>
-        <source>Block changes</source>
-        <translation type="obsolete">Canvis en bloc</translation>
-    </message>
-    <message>
-        <source>New version</source>
-        <translation type="obsolete">Nova versió</translation>
     </message>
 </context>
 <context>
@@ -1175,80 +1103,23 @@
     </message>
 </context>
 <context>
-    <name>design/ezdemo/ezodf/import</name>
-    <message>
-        <source>Document is now imported</source>
-        <translation type="obsolete">S&apos;ha importat el document</translation>
-    </message>
-    <message>
-        <source>OpenOffice.org import</source>
-        <translation type="obsolete">Importació OpenOffice.org</translation>
-    </message>
-    <message>
-        <source>The object was imported as: %class_name</source>
-        <translation type="obsolete">S&apos;ha importat l&apos;objecte com: %class_name</translation>
-    </message>
-    <message>
-        <source>Document imported as</source>
-        <translation type="obsolete">Document importat com</translation>
-    </message>
-    <message>
-        <source>The images are placed in the media and can be re-used.</source>
-        <translation type="obsolete">Les imatges es col·loquen en la biblioteca multimèdia i poden ser reutilitzades.</translation>
-    </message>
-    <message>
-        <source>Import another document</source>
-        <translation type="obsolete">Importa un altre document</translation>
-    </message>
-    <message>
-        <source>Upload file</source>
-        <translation type="obsolete">Carrega fitxer</translation>
-    </message>
-    <message>
-        <source>Import OpenOffice.org document</source>
-        <translation type="obsolete">Importa document OpenOffice.org</translation>
-    </message>
-    <message>
-        <source>Replace document</source>
-        <translation type="obsolete">Reemplaça document</translation>
-    </message>
-    <message>
-        <source>Import to</source>
-        <translation type="obsolete">Importa a</translation>
-    </message>
-    <message>
-        <source>You can import OpenOffice.org Writer documents directly into eZ publish from this page. You are
-asked where to place the document and eZ publish does the rest. The document is converted into
-the appropriate class during the import, you get a notice about this after the import is done.
-Images are placed in the media library so you can re-use them in other articles.</source>
-        <translation type="obsolete">Pots importar documents OpenOffice.org directament a eZ publish des d&apos;aquesta pàgina. eZ publish et preguntarà
-on vols col·locar el document i el programa farà la resta. El document es converteix en
-la classe apropiada durant la importació i el programa t&apos;envia una notificació quan la importació finalitza.
-Les imatges es col·loquen a la biblioteca multimèdia per a poder ser reutilitzades en altres articles. </translation>
-    </message>
-</context>
-<context>
     <name>design/ezdemo/footer/address</name>
-    <message>
-        <source>Address</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
-    <name>design/ezdemo/footer/feedback_form</name>
     <message>
         <source>Get in touch</source>
         <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Send</source>
-        <translation type="unfinished">Envia</translation>
     </message>
 </context>
 <context>
     <name>design/ezdemo/footer/latest_news</name>
     <message>
         <source>Latest News</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>design/ezdemo/footer/links</name>
+    <message>
+        <source>eZ Links</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -1291,21 +1162,6 @@ Les imatges es col·loquen a la biblioteca multimèdia per a poder ser reutilitz
     <message>
         <source>Tip a friend</source>
         <translation>Avisa a un amic</translation>
-    </message>
-</context>
-<context>
-    <name>design/ezdemo/full/blog_post</name>
-    <message>
-        <source>Tags:</source>
-        <translation type="obsolete">Etiquetes:</translation>
-    </message>
-    <message>
-        <source>Comments</source>
-        <translation type="obsolete">Comentaris</translation>
-    </message>
-    <message>
-        <source>%login_link_startLog in%login_link_end or %create_link_startcreate a user account%create_link_end to comment.</source>
-        <translation type="obsolete">%login_link_startConnecta%login_link_end o %create_link_startcrea un compte d&apos;usuari%create_link_end per a comentar.</translation>
     </message>
 </context>
 <context>
@@ -1516,13 +1372,6 @@ Les imatges es col·loquen a la biblioteca multimèdia per a poder ser reutilitz
     </message>
 </context>
 <context>
-    <name>design/ezdemo/full/gallery</name>
-    <message>
-        <source>View as slideshow</source>
-        <translation type="obsolete">Reprodueix com a presentació</translation>
-    </message>
-</context>
-<context>
     <name>design/ezdemo/full/image</name>
     <message>
         <source>Previous image</source>
@@ -1574,10 +1423,6 @@ Les imatges es col·loquen a la biblioteca multimèdia per a poder ser reutilitz
         <translation>Afegeix a la cistella</translation>
     </message>
     <message>
-        <source>Add to wish list</source>
-        <translation type="obsolete">Afegeix a la llista de desitjos</translation>
-    </message>
-    <message>
         <source>People who bought this also bought</source>
         <translation>Les persones que han comprat això també van comprar</translation>
     </message>
@@ -1610,14 +1455,6 @@ Les imatges es col·loquen a la biblioteca multimèdia per a poder ser reutilitz
 </context>
 <context>
     <name>design/ezdemo/line/blog_post</name>
-    <message>
-        <source>View comments</source>
-        <translation type="obsolete">Veure comentaris</translation>
-    </message>
-    <message>
-        <source>Add comment</source>
-        <translation type="obsolete">Afegir un comentari</translation>
-    </message>
     <message>
         <source>Tags:</source>
         <translation type="unfinished">Etiquetes:</translation>
@@ -1897,14 +1734,6 @@ Les imatges es col·loquen a la biblioteca multimèdia per a poder ser reutilitz
     <message>
         <source>Search</source>
         <translation>Cerca</translation>
-    </message>
-    <message>
-        <source>Skip to main content</source>
-        <translation type="obsolete">Tornar al contingut principal</translation>
-    </message>
-    <message>
-        <source>Search text:</source>
-        <translation type="obsolete">Cercar texte:</translation>
     </message>
     <message>
         <source>Tag cloud</source>
@@ -2296,7 +2125,7 @@ Les imatges es col·loquen a la biblioteca multimèdia per a poder ser reutilitz
     </message>
     <message>
         <source>Version</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Versió</translation>
     </message>
     <message>
         <source>Status</source>
@@ -2870,18 +2699,6 @@ Les imatges es col·loquen a la biblioteca multimèdia per a poder ser reutilitz
         <translation>Activa el compte</translation>
     </message>
     <message>
-        <source>Your account is now activated.</source>
-        <translation type="obsolete">S&apos;ha activat el teu compte.</translation>
-    </message>
-    <message>
-        <source>Your account is already active.</source>
-        <translation type="obsolete">El teu compte ja s&apos;havia activat.</translation>
-    </message>
-    <message>
-        <source>Sorry, the key submitted was not a valid key. Account was not activated.</source>
-        <translation type="obsolete">Ho sentim, la clau subministrada no és vàlida. El compte no s&apos;ha activat.</translation>
-    </message>
-    <message>
         <source>OK</source>
         <translation>D&apos;acord</translation>
     </message>
@@ -3268,6 +3085,17 @@ Les imatges es col·loquen a la biblioteca multimèdia per a poder ser reutilitz
     <message>
         <source>Sorry, the key submitted was not a valid key. Account was not activated.</source>
         <translation type="unfinished">Ho sentim, la clau subministrada no és vàlida. El compte no s&apos;ha activat.</translation>
+    </message>
+</context>
+<context>
+    <name>extension/ezstarrating/datatype</name>
+    <message>
+        <source>Rating: %current_rating/5</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%rating_count votes cast</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
