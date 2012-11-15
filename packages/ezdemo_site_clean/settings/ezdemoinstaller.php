@@ -1860,14 +1860,14 @@ class ezdemoInstaller extends eZSiteInstaller
                         'class_identifier' => 'image' 
                     ) 
                 ), 
-                'edit_landing_page' => array(
-                    'Source' => 'content/edit.tpl', 
-                    'MatchFile' => 'edit/landing_page.tpl',
-                    'Subdir' => 'templates', 
-                    'Match' => array( 
+                'add_to_block_frontpage' => array(
+                    'Source' => 'content/parts/add_to_block.tpl',
+                    'MatchFile' => 'content/parts/add_to_block_frontpage.tpl',
+                    'Subdir' => 'templates',
+                    'Match' => array(
                         'class_identifier' => 'landing_page'
-                    ) 
-                ), 
+                    )
+                ),
                 'embed_image' => array( 
                     'Source' => 'content/view/embed.tpl', 
                     'MatchFile' => 'embed_image.tpl', 
