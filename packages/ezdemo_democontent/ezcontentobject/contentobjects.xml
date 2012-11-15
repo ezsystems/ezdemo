@@ -1924,7 +1924,7 @@
                       </li>
                     </ul>
                   </paragraph>
-                  <paragraph>Copyright © 2011 eZ Systems AS (except where otherwise noted). All rights reserved.</paragraph>
+                  <paragraph>Copyright © 2012 eZ Systems AS (except where otherwise noted). All rights reserved.</paragraph>
                 </section>
               </ezobject:attribute>
               <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="552" ezremote:identifier="image" name="Image" type="ezimage" alternative-text=""/>
