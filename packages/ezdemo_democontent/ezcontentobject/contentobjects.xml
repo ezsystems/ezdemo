@@ -1883,10 +1883,10 @@
             </ezobject:version>
           </ezobject:version-list>
         </ezremote:object>
-      <ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="102" name="footer" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="16" ezremote:published="Mon, 12 Nov 2012 15:54:38 GMT" ezremote:modified="Mon, 12 Nov 2012 17:31:44 GMT" remote_id="115536b84726ddb2184014682753b794" class_remote_id="c15b600eb9198b1924063b5a68758232" ezremote:class_identifier="article" ezremote:always_available="0" initial_language="eng-US">
+      <ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="102" name="footer" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="16" ezremote:published="Mon, 12 Nov 2012 15:54:38 GMT" ezremote:modified="Mon, 12 Nov 2012 17:31:44 GMT" remote_id="115536b84726ddb2184014682753b794" class_remote_id="c15b600eb9198b1924063b5a68758232" ezremote:class_identifier="article" ezremote:always_available="0" initial_language="eng-GB">
         <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="6">
-          <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="6" ezremote:status="1" ezremote:created="Mon, 12 Nov 2012 17:31:27 GMT" ezremote:modified="Mon, 12 Nov 2012 17:31:44 GMT" initial_language="eng-US">
-            <ezobject:object-translation language="eng-US" object_name="footer">
+          <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="6" ezremote:status="1" ezremote:created="Mon, 12 Nov 2012 17:31:27 GMT" ezremote:modified="Mon, 12 Nov 2012 17:31:44 GMT" initial_language="eng-GB">
+            <ezobject:object-translation language="eng-GB" object_name="footer">
               <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="547" ezremote:identifier="title" name="Title" type="ezstring">
                 <text>Footer</text>
               </ezobject:attribute>
