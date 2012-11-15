@@ -17,7 +17,7 @@
                 {include uri='design:footer/latest_news.tpl'}
             </div>
             <div class="span4 nav-collapse">
-                {include uri='design:footer/feedback_form.tpl' node=$footer_node}
+                {include uri='design:footer/links.tpl' node=$footer_node}
             </div>
         </div>
     </div>
