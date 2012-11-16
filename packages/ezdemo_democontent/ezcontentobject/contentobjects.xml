@@ -1896,14 +1896,14 @@
               <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="549" ezremote:identifier="author" name="Author" type="ezauthor">
                 <ezauthor>
                   <authors>
-                    <author id="0" name="Administrator User" email="roland.benedetti@ez.no"/>
+                    <author id="0" name="Administrator User" email="nospam@ez.no"/>
                   </authors>
                 </ezauthor>
               </ezobject:attribute>
               <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="550" ezremote:identifier="intro" name="Summary" type="ezxmltext">
                 <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
                   <paragraph>eZ is a global company with offices around the world including Skien (Norway), New York (USA), Oslo (Norway), Cologne (Germany), Paris (France), Lyon (France), Beijing (China), Tokyo (Japan), Singapore, London (UK)</paragraph>
-                  <paragraph><link href="\">Contact us</link> for more information!</paragraph>
+                  <paragraph><link href="http://ez.no/About-eZ/Contact-Us">Contact us</link> for more information!</paragraph>
                 </section>
               </ezobject:attribute>
               <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="551" ezremote:identifier="body" name="Body" type="ezxmltext">
@@ -1911,16 +1911,16 @@
                   <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
                     <ul>
                       <li>
-                        <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">eZ Official site: <link href="\">http://ez.no</link></paragraph>
+                        <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">eZ Official site: <link href="http://ez.no">http://ez.no</link></paragraph>
                       </li>
                       <li>
-                        <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">eZ Community site: <link href="\">http://share.ez.so</link></paragraph>
+                        <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">eZ Community site: <link href="http://share.ez.so">http://share.ez.so</link></paragraph>
                       </li>
                       <li>
-                        <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">Documentation: <link href="\">http://doc.ez.no</link></paragraph>
+                        <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">Documentation: <link href="http://doc.ez.no">http://doc.ez.no</link></paragraph>
                       </li>
                       <li>
-                        <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">Follow us on <link href="\">twitter</link>, <link href="\">facebook</link> and <link href="\">linkedin</link></paragraph>
+                        <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">Follow us on <link href="https://twitter.com/eZSystems">Twitter</link>, <link href="http://www.facebook.com/eZPublishEnterprise">Facebook</link> and <link href="https://www.linkedin.com/company/ez-systems">LinkedIn</link></paragraph>
                       </li>
                     </ul>
                   </paragraph>
