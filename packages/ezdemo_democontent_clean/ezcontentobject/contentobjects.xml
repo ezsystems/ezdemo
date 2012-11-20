@@ -115,6 +115,6 @@
     </site-access-list>
     <top-node-list>
         <top-node node-id="2" remote-id="07cdfd23373b17c6b337251c22b7ea57">Home</top-node>
-        <top-node node-id="76" remote-id="86bf306624668ee9b8b979b0d56f7e0d">footer</top-node></top-node>
+        <top-node node-id="76" remote-id="86bf306624668ee9b8b979b0d56f7e0d">footer</top-node>
     </top-node-list>
 </content-object>
