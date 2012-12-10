@@ -1238,7 +1238,7 @@ class ezdemoInstaller extends eZSiteInstaller
 
         if ( !$res )
         {
-            eZDebug::writeError( 'Can\'t initialize ' . $extensionName . ' database shema.', __METHOD__ );
+            eZDebug::writeError( 'Can\'t initialize ' . $extensionName . ' database schema.', __METHOD__ );
 
             return false;
         }
