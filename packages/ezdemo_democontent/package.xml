@@ -29,28 +29,35 @@
         </entry>
     </changelog>
     <simple-files>
-      <simple-file key="b476ae30e0a67e8c3b542747dd3caa5c" original-path="var/ezdemo_site/storage/images/getting-started/selected-features/search-result-clustering-with-ez-find/443-3-eng-GB/Search-Result-Clustering-with-eZ-Find.png" package-path="simplefiles/274b087e.jpg"/>
-      <simple-file key="7aca712855270c7826e1fb5ce5d30090" original-path="var/ezdemo_site/storage/images/getting-started/selected-features/multivariate-testing/467-11-eng-GB/Multivariate-Testing.png" package-path="simplefiles/b0839e1d.jpg"/>
-      <simple-file key="cb48c01e310c2b3933cdc0661c4a618a" original-path="var/ezdemo_site/storage/images/getting-started/selected-features/improved-online-analytics/479-3-eng-GB/Improved-Online-Analytics.png" package-path="simplefiles/7a3d11eb.jpg"/>
-      <simple-file key="c292efaba899d1e2bf49a86e5aecbc30" original-path="var/ezdemo_site/storage/images/getting-started/selected-features/getting-started-with-ez-publish-etna/491-3-eng-GB/Getting-Started-with-eZ-Publish-Etna.jpg" package-path="simplefiles/a16f7354.jpg"/>
-      <simple-file key="114df3fbb84cbf9c7533d9e1f36f53a4" original-path="var/ezdemo_site/storage/images/travel/peruvian-amazon/amazon-side-river/223-1-eng-GB/Amazon-Side-River.jpg" package-path="simplefiles/7d1afcb4.jpg"/>
-      <simple-file key="c882d324a7ace933807c1fb269e984d5" original-path="var/ezdemo_site/storage/images/travel/peruvian-amazon/river-boat/228-1-eng-GB/River-Boat.jpg" package-path="simplefiles/bbbbc2fe.jpg"/>
-      <simple-file key="5c535315cb437330233390b557e3606c" original-path="var/ezdemo_site/storage/images/travel/peruvian-amazon/flying-bird/233-1-eng-GB/Flying-Bird.jpg" package-path="simplefiles/9675a24a.jpg"/>
-      <simple-file key="fcc238fe34b5cae12086428a3d06ffea" original-path="var/ezdemo_site/storage/images/travel/peruvian-amazon/turtles/238-1-eng-GB/Turtles.jpg" package-path="simplefiles/236e8a89.jpg"/>
-      <simple-file key="c00d7c512b8a507c21f68dd8a962fc5d" original-path="var/ezdemo_site/storage/images/travel/peruvian-amazon/hat-on-a-stick/243-1-eng-GB/Hat-on-a-Stick.jpg" package-path="simplefiles/2233e737.jpg"/>
-      <simple-file key="5ab5d4d88a4036a848fbdcc5aba52f33" original-path="var/ezdemo_site/storage/images/travel/peruvian-amazon/heron-in-the-water/248-1-eng-GB/Heron-in-the-Water.jpg" package-path="simplefiles/347b47f7.jpg"/>
-      <simple-file key="cf2b5b3ff0459e992efb6b3ebef8e85f" original-path="var/ezdemo_site/storage/images/travel/peruvian-amazon/bird-island/253-1-eng-GB/Bird-Island.jpg" package-path="simplefiles/1c936c89.jpg"/>
-      <simple-file key="b2ae62ab2a5defaef82e2d1f20ec99fd" original-path="var/ezdemo_site/storage/images/travel/peruvian-amazon/aligator/258-1-eng-GB/Aligator.jpg" package-path="simplefiles/81b898d7.jpg"/>
-      <simple-file key="ed8092df1024eb39618d4b5598950522" original-path="var/ezdemo_site/storage/original/application/a1ec03af36d81e9b8c4f5022b13de7c2.m4v" package-path="simplefiles/8650bb68.m4v"/>
-      <simple-file key="f8a4d17a43243d1289dbfcb3077b2d93" original-path="var/ezdemo_site/storage/images/travel/information/largest-city-without-road-connection/266-1-eng-GB/Largest-City-Without-Road-Connection.jpg" package-path="simplefiles/e410cf0a.jpg"/>
-      <simple-file key="6407c9cdfd5d16ae56ad91fb8e425e65" original-path="var/ezdemo_site/storage/images/travel/information/amazon-jungle/285-4-eng-GB/Amazon-Jungle.jpg" package-path="simplefiles/44525552.jpg"/>
-      <simple-file key="63183f14981309421adc20de240d6ef0" original-path="var/ezdemo_site/storage/images/travel/information/floating-village-in-iquitos-loreto/297-3-eng-GB/Floating-Village-in-Iquitos-Loreto.jpg" package-path="simplefiles/1adcd08a.jpg"/>
-      <simple-file key="47a625f70eb48502d21359054a41a2fe" original-path="var/ezdemo_site/storage/images/city-shopping/products/new-york-cab/339-1-eng-GB/New-York-Cab.jpg" package-path="simplefiles/e627f43d.jpg"/>
-      <simple-file key="d03cb0f0ca042a830fbad9886ef9ed8a" original-path="var/ezdemo_site/storage/images/city-shopping/products/city-view/362-1-eng-GB/City-View.jpg" package-path="simplefiles/5b3249df.jpg"/>
-      <simple-file key="dbf5a6dc4e56d637f07bdc63807000d0" original-path="var/ezdemo_site/storage/images/city-shopping/products/street-crossing/373-1-eng-GB/Street-Crossing.jpg" package-path="simplefiles/01a8f40b.jpg"/>
-      <simple-file key="68ec6922551353ce21604ec422c6316e" original-path="var/ezdemo_site/storage/images/city-shopping/locations/new-york-city/391-2-eng-GB/New-York-City.jpg" package-path="simplefiles/90bbe723.jpg"/>
-      <simple-file key="344717be52aada472d23ae50a19f2599" original-path="var/ezdemo_site/storage/original/image/e76c8776dccaba21cbfc21f52a02e19f.png" package-path="simplefiles/7095dbbb.png"/>
-      <simple-file key="d5fb94aa39f233d3f1c271c42df17a40" original-path="var/ezdemo_site/storage/original/image/5abdfbefae47de9dca63bc43e3a23ff4.png" package-path="simplefiles/783983ef.png"/>
+      <simple-file key="dcbbca71f9115439cb1a47e9093c4d86" original-path="var/ezdemo_site/storage/images/getting-started/selected-features/automate/1283-5-eng-GB/Automate.jpg" package-path="simplefiles/ba2a2bea.jpg"/>
+      <simple-file key="324db4a22b0841c40e10a153e13f9f77" original-path="var/ezdemo_site/storage/images/getting-started/selected-features/deliver/265-2-eng-GB/Deliver.jpg" package-path="simplefiles/c97d7955.jpg"/>
+      <simple-file key="4daa5223cf84e604df452bbcf77edd44" original-path="var/ezdemo_site/storage/images/getting-started/selected-features/create/277-3-eng-GB/Create.jpg" package-path="simplefiles/92f022f1.jpg"/>
+      <simple-file key="b30c789136efae94eb10e575b887a799" original-path="var/ezdemo_site/storage/images/getting-started/selected-features/optimize/289-3-eng-GB/Optimize.jpg" package-path="simplefiles/bb64019b.jpg"/>
+      <simple-file key="5b71995be15fb77afea60fb3c5305353" original-path="var/ezdemo_site/storage/images/getting-started/selected-features/getting-started-with-ez-publish-5/301-4-eng-GB/Getting-Started-with-eZ-Publish-5.jpg" package-path="simplefiles/1f96ad5f.jpg"/>
+      <simple-file key="58564f4b7283a1af95eebb6c37c6f3a6" original-path="var/ezdemo_site/storage/images/shopping/products/ez-publish-community-iphone-4-case/1367-1-eng-GB/eZ-Publish-Community-iPhone-4-Case.jpg" package-path="simplefiles/94bbf784.jpg"/>
+      <simple-file key="6e4400f4c3a9829c371051c2904d6de2" original-path="var/ezdemo_site/storage/images/shopping/products/ez-publish-samsung-galaxy-siii-case/1378-1-eng-GB/eZ-Publish-Samsung-Galaxy-SIII-Case.jpg" package-path="simplefiles/d1452126.jpg"/>
+      <simple-file key="a728d6d6c96638e0f092698aa68aab92" original-path="var/ezdemo_site/storage/images/shopping/products/ez-publish-community-mug/1389-1-eng-GB/eZ-Publish-Community-Mug.png" package-path="simplefiles/94ba49af.png"/>
+      <simple-file key="33a16d8fd3c6a729a2422a220a4a0b41" original-path="var/ezdemo_site/storage/images/shopping/products/ez-publish-man-jacket/1400-1-eng-GB/eZ-Publish-Man-jacket.jpg" package-path="simplefiles/9f7c6a08.jpg"/>
+      <simple-file key="4aba060e50a2641bdba5539a97a167b0" original-path="var/ezdemo_site/storage/images/shopping/services/support-maintenance/2486-5-eng-GB/Support-Maintenance.jpg" package-path="simplefiles/4ff73fcb.jpg"/>
+      <simple-file key="9a373cdd0838deaf5a855dcc649a82cd" original-path="var/ezdemo_site/storage/images/shopping/services/professional-services/2498-2-eng-GB/Professional-Services.jpg" package-path="simplefiles/d08e25a3.jpg"/>
+      <simple-file key="366fa3244fb4cd170e07218d9920eb9d" original-path="var/ezdemo_site/storage/images/shopping/services/training-services/2510-3-eng-GB/Training-Services.jpg" package-path="simplefiles/138f5201.jpg"/>
+      <simple-file key="d5a4e04e9207c6e82213ffb7be01a1d5" original-path="var/ezdemo_site/storage/images/shopping/services/ez-publish-enterprise-service/451-6-eng-GB/eZ-Publish-Enterprise-Service.jpg" package-path="simplefiles/f6ff91ab.jpg"/>
+      <simple-file key="cfb134a6699adeef34bb96c56265b3c6" original-path="var/ezdemo_site/storage/images/shopping/services/ez-publish-enterprise-service/squares/548-1-eng-GB/squares.png" package-path="simplefiles/a825a4dc.png"/>
+      <simple-file key="c92effff1d66b1073d92b0932b0f133c" original-path="var/ezdemo_site/storage/original/image/e76c8776dccaba21cbfc21f52a02e19f.png" package-path="simplefiles/0e753680.png"/>
+      <simple-file key="282c5b7862371e3651a20204422cc4ac" original-path="var/ezdemo_site/storage/original/image/5abdfbefae47de9dca63bc43e3a23ff4.png" package-path="simplefiles/0508ba70.png"/>
+      <simple-file key="fadf75fc8fa655212e59f7a3f92af634" original-path="var/ezdemo_site/storage/images/10-tips-to-quickly-discover-stetind-and-ez-publish-5/landing1/1248-1-eng-GB/landing1.jpg" package-path="simplefiles/c76e90df.jpg"/>
+      <simple-file key="05171a31d40a40d9d3d084befbfb8fdd" original-path="var/ezdemo_site/storage/original/application/63cd472dd7819da7b75e8e2fee507c68.pdf" package-path="simplefiles/530ddbca.pdf"/>
+      <simple-file key="1127499c0508f13c7149661768389db2" original-path="var/ezdemo_site/storage/images/media/images/screen-shot-2013-01-31-at-8.17.26-pm/1297-1-eng-GB/Screen-Shot-2013-01-31-at-8.17.26-PM.png" package-path="simplefiles/07cad76d.png"/>
+      <simple-file key="6479c23df792b75664100b579c86c03e" original-path="var/ezdemo_site/storage/images/media/images/funel2/1413-1-eng-GB/funel.png" package-path="simplefiles/1e653715.png"/>
+      <simple-file key="e287e065f2289fab8979f479a017426f" original-path="var/ezdemo_site/storage/images/about/the-mountains-of-ez/mount-matterhorn/1523-1-eng-GB/mount-matterhorn.jpg" package-path="simplefiles/3963f0b6.jpg"/>
+      <simple-file key="c519455777f8e3d70eb9e305f41139ec" original-path="var/ezdemo_site/storage/images/about/the-mountains-of-ez/mount-annapurna/1528-1-eng-GB/mount-annapurna.jpg" package-path="simplefiles/38d686e0.jpg"/>
+      <simple-file key="e0275413e3a896b6587c3fcab1ad932e" original-path="var/ezdemo_site/storage/images/about/the-mountains-of-ez/mount-stetind/1533-1-eng-GB/mount-stetind.jpg" package-path="simplefiles/05d34e35.jpg"/>
+      <simple-file key="e4222d7656e76e5c6a398128df826d3e" original-path="var/ezdemo_site/storage/images/about/the-mountains-of-ez/mount-ventoux/1538-1-eng-GB/mount-ventoux.jpg" package-path="simplefiles/2323304e.jpg"/>
+      <simple-file key="2e41bd01e9c8d23aba9d31a52413fd54" original-path="var/ezdemo_site/storage/images/about/the-mountains-of-ez/mount-kilimanjaro/1543-1-eng-GB/mount-kilimanjaro.jpg" package-path="simplefiles/b970cf62.jpg"/>
+      <simple-file key="21ab248afb36298bc2356b83069fb1ea" original-path="var/ezdemo_site/storage/images/about/the-mountains-of-ez/mount-etna/1548-1-eng-GB/mount-etna.jpg" package-path="simplefiles/e08a9864.jpg"/>
+      <simple-file key="7256dbd01f723a86d0f4f081656d7ca2" original-path="var/ezdemo_site/storage/images/about/the-mountains-of-ez/mount-fuji/1558-1-eng-GB/mount-fuji.jpg" package-path="simplefiles/58504932.jpg"/>
+      <simple-file key="f978c52678bc8ca8b1043c838d005adf" original-path="var/ezdemo_site/storage/images/about/the-mountains-of-ez/mount-aconcagua/1563-1-eng-GB/mount-aconcagua.jpg" package-path="simplefiles/8d6f1f98.jpg"/>
+      <simple-file key="0121cb57124840749b68a8da7de79716" original-path="var/ezdemo_site/storage/original/video/cbca3a8812784f3989158d295cc0c016.mp4" package-path="simplefiles/ed958bed.mp4"/>
     </simple-files>
     <version>
         <number>1.0</number>

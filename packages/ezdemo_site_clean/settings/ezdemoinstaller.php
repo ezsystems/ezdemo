@@ -2898,6 +2898,14 @@ class ezdemoInstaller extends eZSiteInstaller
                         'class_identifier' => 'product'
                     )
                 ),
+                'block_item_call_to_action' => array(
+                    'Source' => 'node/view/block_item.tpl',
+                    'MatchFile' => 'block_item/call_to_action.tpl',
+                    'Subdir' => 'templates',
+                    'Match' => array(
+                        'class_identifier' => 'call_to_action'
+                    )
+                ),
                 'call_to_action_mail' => array(
                     'Source' => 'content/collectedinfomail/form.tpl',
                     'MatchFile' => 'collectedinfomail/call_to_action.tpl',

@@ -18,13 +18,21 @@
 
         <div class="row">
             <div class="span4">
-                <div class="attribute-sender-name">
-                    {attribute_view_gui attribute=$node.data_map.sender_name css_class='span4' label=$node.data_map.sender_name.contentclass_attribute.name}
+                <div class="attribute-first-name">
+                    {attribute_view_gui attribute=$node.data_map.first_name css_class='span4' label=$node.data_map.first_name.contentclass_attribute.name}
                 </div>
             </div>
             <div class="span4">
+                <div class="attribute-last-name">
+                    {attribute_view_gui attribute=$node.data_map.last_name css_class='span4' label=$node.data_map.last_name.contentclass_attribute.name}
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="span8">
                 <div class="attribute-email">
-                    {attribute_view_gui attribute=$node.data_map.email css_class='span4' label=$node.data_map.email.contentclass_attribute.name}
+                    {attribute_view_gui attribute=$node.data_map.email css_class='span8' label=$node.data_map.email.contentclass_attribute.name}
                 </div>
             </div>
         </div>
@@ -33,6 +41,15 @@
             <div class="span8">
                 <div class="attribute-subject">
                     {attribute_view_gui attribute=$node.data_map.subject css_class='span8' label=$node.data_map.subject.contentclass_attribute.name}
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="span8">
+                <div class="attribute-country">
+                    <label>{$node.data_map.country.contentclass_attribute.name}</label>
+                    {attribute_view_gui attribute=$node.data_map.country css_class='span8' label=$node.data_map.country.contentclass_attribute.name}
                 </div>
             </div>
         </div>
