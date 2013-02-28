@@ -7,19 +7,27 @@
         <form method="post" action={"content/action"|ezurl} class="contact-form">
             <fieldset>
                 <label>
-                    <span class="hidden">$node.data_map.sender_name.contentclass_attribute.name</span>
-                    {attribute_view_gui attribute=$node.data_map.sender_name placeholder=$node.data_map.sender_name.contentclass_attribute.name}
+                    <span class="hidden">{$node.data_map.first_name.contentclass_attribute.name}</span>
+                    {attribute_view_gui attribute=$node.data_map.first_name placeholder=$node.data_map.first_name.contentclass_attribute.name}
                 </label>
                 <label>
-                    <span class="hidden">$node.data_map.email.contentclass_attribute.name</span>
+                    <span class="hidden">{$node.data_map.last_name.contentclass_attribute.name}</span>
+                    {attribute_view_gui attribute=$node.data_map.last_name placeholder=$node.data_map.last_name.contentclass_attribute.name}
+                </label>
+                <label>
+                    <span class="hidden">{$node.data_map.email.contentclass_attribute.name}</span>
                     {attribute_view_gui attribute=$node.data_map.email placeholder=$node.data_map.email.contentclass_attribute.name}
                 </label>
                 <label>
-                    <span class="hidden">$node.data_map.subject.contentclass_attribute.name</span>
+                    <span class="hidden">{$node.data_map.country.contentclass_attribute.name}</span>
+                    {attribute_view_gui attribute=$node.data_map.country placeholder=$node.data_map.country.contentclass_attribute.name}
+                </label>
+                <label>
+                    <span class="hidden">{$node.data_map.subject.contentclass_attribute.name}</span>
                     {attribute_view_gui attribute=$node.data_map.subject placeholder=$node.data_map.subject.contentclass_attribute.name}
                 </label>
                 <label>
-                    <span class="hidden">$node.data_map.message.contentclass_attribute.name</span>
+                    <span class="hidden">{$node.data_map.message.contentclass_attribute.name}</span>
                     {attribute_view_gui attribute=$node.data_map.message placeholder=$node.data_map.message.contentclass_attribute.name}
                 </label>
                 <div class="actions">

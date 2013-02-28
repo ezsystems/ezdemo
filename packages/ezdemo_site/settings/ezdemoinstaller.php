@@ -249,6 +249,12 @@ class ezdemoInstaller extends eZSiteInstaller
                                         '_params' => array( 
                                             'identifier' => 'banner' 
                                         ) 
+                                    ),
+                                    array(
+                                        '_function' => 'classIDbyIdentifier',
+                                        '_params' => array(
+                                            'identifier' => 'file'
+                                        )
                                     )
                                 ), 
                                 'Section' => array( 
