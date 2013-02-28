@@ -1492,6 +1492,25 @@ aside > .content-view-aside:last-child > article:last-child:after {
 .class-call-to-action .attribute-header {
   padding-bottom: 20px;
 }
+.class-call-to-action .span2 {
+  text-align: right;
+}
+.class-call-to-action .form {
+  background-color: #f4f4f4;
+  padding: 10px 0 10px 0;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+.class-call-to-action .form .content-action {
+  padding-right: 5px;
+}
+.class-call-to-action .span3 .box {
+  width: 95%;
+}
+.class-call-to-action .attribute-image {
+  padding-left: 10px;
+}
 #ajaxsearchbox .textfield {
   width: 150px;
   margin-bottom: 0;
