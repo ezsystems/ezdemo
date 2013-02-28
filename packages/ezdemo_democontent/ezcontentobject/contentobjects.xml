@@ -172,14 +172,14 @@
                   <zone_layout>2ZonesLayout2</zone_layout>
                   <zone id="id_c5ce576877ab71afb7c143ea3276db4f">
                     <zone_identifier>left</zone_identifier>
-                    <block id="id_74f7a63a2c079e279c8669f660ded478">
+                    <block id="id_7cf0aae050d80f40f00ef4eb2295d0cb">
                       <name>Highlighted Feature</name>
                       <zone_id>c5ce576877ab71afb7c143ea3276db4f</zone_id>
                       <type>HighlightedItem</type>
                       <view>default</view>
                       <overflow_id/>
                     </block>
-                    <block id="id_a577b33f9a9ec054e0c2171288056be9">
+                    <block id="id_32e704f1bc3d785eee7e742c081d5beb">
                       <name>Main Features</name>
                       <zone_id>c5ce576877ab71afb7c143ea3276db4f</zone_id>
                       <type>ContentGrid</type>
@@ -189,14 +189,14 @@
                   </zone>
                   <zone id="id_fe8088a104581ea7faa6c00fe743f072">
                     <zone_identifier>right</zone_identifier>
-                    <block id="id_c0ef745972ce2d55057c70d157eb7b96">
+                    <block id="id_639b9f037115d1ef4269713fdb7b6c71">
                       <name/>
                       <zone_id>fe8088a104581ea7faa6c00fe743f072</zone_id>
                       <type>Campaign</type>
                       <view>default</view>
                       <overflow_id/>
                     </block>
-                    <block id="id_594491ab539125dc271807a83724e608">
+                    <block id="id_96a998b9f2d0cfba849c27209dc582e9">
                       <name/>
                       <zone_id>fe8088a104581ea7faa6c00fe743f072</zone_id>
                       <type>ContentGrid</type>
@@ -940,7 +940,7 @@
                   <zone_layout>2ZonesLayout1</zone_layout>
                   <zone id="id_1b6149311bf4ece4717e6fff905e148c">
                     <zone_identifier>left</zone_identifier>
-                    <block id="id_01ed169f80890739b1c089a675134cfc">
+                    <block id="id_a74a80887661109e0c87d0ad912ce09c">
                       <name/>
                       <zone_id>1b6149311bf4ece4717e6fff905e148c</zone_id>
                       <type>ContentGrid</type>
@@ -950,14 +950,14 @@
                   </zone>
                   <zone id="id_6669bce3079221f326d4eb4121447fd9">
                     <zone_identifier>right</zone_identifier>
-                    <block id="id_4f1c2e8abfb4f163fbf256a29af0a24e">
+                    <block id="id_e9f6cd9b25adb89f87efcb06d8a3c324">
                       <name>Products</name>
                       <zone_id>6669bce3079221f326d4eb4121447fd9</zone_id>
                       <type>ContentGrid</type>
                       <view>default</view>
                       <overflow_id/>
                     </block>
-                    <block id="id_eaaa22644debcfc6f1f32ff6a9ff4514">
+                    <block id="id_7838c8283e8647f754569ab99419a727">
                       <name/>
                       <zone_id>6669bce3079221f326d4eb4121447fd9</zone_id>
                       <type>Video</type>
