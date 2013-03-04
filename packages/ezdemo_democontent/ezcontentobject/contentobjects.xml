@@ -1980,7 +1980,7 @@
               <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="544" ezremote:identifier="email" name="Email" type="ezemail">
                 <email></email>
               </ezobject:attribute>
-              <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2466" ezremote:identifier="country" name="Country" type="ezstring">
+              <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2466" ezremote:identifier="country" name="Country" type="ezcountry">
                 <text></text>
               </ezobject:attribute>
               <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="545" ezremote:identifier="comment" name="Comment" type="eztext">
