@@ -264,7 +264,12 @@ class ezdemoInstaller extends eZSiteInstaller
                                     ) 
                                 ) 
                             ) 
-                        ) 
+                        ),
+                        array(
+                            'module' => 'content',
+                            'function' => 'view_embed',
+                            'limitation' => array(),
+                        )
                     ) 
                 ) 
             ), 
