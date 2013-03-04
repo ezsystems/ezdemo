@@ -14,7 +14,7 @@
     </groups>
     <id>19</id>
     <created>1356008911</created>
-    <modified>1361549935</modified>
+    <modified>1362397137</modified>
     <creator>
       <user-id>14</user-id>
       <user-login>admin</user-login>
@@ -84,7 +84,7 @@
         <default-string/>
       </datatype-parameters>
     </attribute>
-    <attribute datatype="ezstring" required="false" searchable="true" information-collector="true" translatable="true">
+    <attribute datatype="ezstring" required="true" searchable="true" information-collector="true" translatable="true">
       <remote>
         <id>324</id>
       </remote>
@@ -111,9 +111,9 @@
       <placement>6</placement>
       <datatype-parameters/>
     </attribute>
-    <attribute datatype="ezstring" required="false" searchable="true" information-collector="true" translatable="true">
+    <attribute datatype="ezcountry" required="false" searchable="true" information-collector="true" translatable="true">
       <remote>
-        <id>325</id>
+        <id>326</id>
       </remote>
       <serialized-name-list>a:2:{s:6:"eng-GB";s:7:"Country";s:16:"always-available";s:6:"eng-GB";}</serialized-name-list>
       <identifier>country</identifier>
@@ -121,10 +121,7 @@
       <category></category>
       <serialized-data-text>a:2:{s:6:"eng-GB";s:0:"";s:16:"always-available";s:6:"eng-GB";}</serialized-data-text>
       <placement>7</placement>
-      <datatype-parameters>
-        <max-length>0</max-length>
-        <default-string/>
-      </datatype-parameters>
+      <datatype-parameters/>
     </attribute>
     <attribute datatype="eztext" required="true" searchable="true" information-collector="true" translatable="true">
       <remote>

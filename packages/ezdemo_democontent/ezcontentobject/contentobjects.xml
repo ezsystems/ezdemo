@@ -2042,7 +2042,7 @@
               <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1201" ezremote:identifier="email" name="Email" type="ezemail">
                 <email></email>
               </ezobject:attribute>
-              <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2467" ezremote:identifier="country" name="Country" type="ezstring">
+              <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2467" ezremote:identifier="country" name="Country" type="ezcountry">
                 <text></text>
               </ezobject:attribute>
               <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1202" ezremote:identifier="comment" name="Comment" type="eztext">
