@@ -641,7 +641,7 @@
               <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1288" ezremote:identifier="location" name="Location" type="ezgmaplocation" ezgl_has_content="1">
                 <latitude>68.165193</latitude>
                 <longitude>16.592763</longitude>
-                <address>stetind, norway</address>
+                <address>Stadda, norway</address>
               </ezobject:attribute>
               <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1289" ezremote:identifier="comments" name="Comments" type="ezcomcomments">
                 <data-int>1</data-int>
@@ -702,7 +702,7 @@
               <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="270" ezremote:identifier="location" name="Location" type="ezgmaplocation" ezgl_has_content="1">
                 <latitude>68.165193</latitude>
                 <longitude>16.592763</longitude>
-                <address>stetind,norway</address>
+                <address>Stadda,Norway</address>
               </ezobject:attribute>
               <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="271" ezremote:identifier="comments" name="Comments" type="ezcomcomments">
                 <data-int>-1</data-int>
@@ -763,7 +763,7 @@
               <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="282" ezremote:identifier="location" name="Location" type="ezgmaplocation" ezgl_has_content="1">
                 <latitude>68.165193</latitude>
                 <longitude>16.592763</longitude>
-                <address>stetind, norway</address>
+                <address>Stadda, Norway</address>
               </ezobject:attribute>
               <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="283" ezremote:identifier="comments" name="Comments" type="ezcomcomments">
                 <data-int>1</data-int>
@@ -824,7 +824,7 @@
               <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="294" ezremote:identifier="location" name="Location" type="ezgmaplocation" ezgl_has_content="1">
                 <latitude>68.165193</latitude>
                 <longitude>16.592763</longitude>
-                <address>stetind, norway</address>
+                <address>Stadda, Norway</address>
               </ezobject:attribute>
               <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="295" ezremote:identifier="comments" name="Comments" type="ezcomcomments">
                 <data-int>-1</data-int>
@@ -858,7 +858,7 @@
               <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="299" ezremote:identifier="intro" name="Summary" type="ezxmltext">
                 <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
                   <paragraph>
-                    <line xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">Welcome to eZ Publish Platform 5.1, the Stetind release. </line>
+                    <line xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">Welcome to eZ Publish Platform 5.1, the Stadda release. </line>
                     <line xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">This release brings several new features and general improvements on the foundations introduced in eZ Publish Platform 5.0.</line>
                   </paragraph>
                 </section>
@@ -914,7 +914,7 @@
               <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="306" ezremote:identifier="location" name="Location" type="ezgmaplocation" ezgl_has_content="1">
                 <latitude>68.165193</latitude>
                 <longitude>16.592763</longitude>
-                <address>stetind, norway</address>
+                <address>Stadda, Norway</address>
               </ezobject:attribute>
               <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="307" ezremote:identifier="comments" name="Comments" type="ezcomcomments">
                 <data-int>-1</data-int>
@@ -1930,7 +1930,7 @@
               <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" ezremote:id="910" ezremote:identifier="body" name="Body" type="ezxmltext">
                 <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
                   <paragraph>Thanks to eZ Publish I was able to run an A/B testing campaign on my landing page in 2 mn.</paragraph>
-                  <paragraph>For instance, on <link node_remote_id="3e49b9fe4c95366cb590d3beb32a5838">All-you-need-to-know-about-eZ-Publish-5-the-Stetind-release</link>,</paragraph>
+                  <paragraph>For instance, on <link node_remote_id="3e49b9fe4c95366cb590d3beb32a5838">All-you-need-to-know-about-eZ-Publish-5-the-Stadda-release</link>,</paragraph>
                   <paragraph>I can run a campaign that will distribute the traffic between the original page and another test for it. Then, analytics at one click from me, I can track and measure the efficiency of each test scenario!</paragraph>
                   <paragraph>Do you like my funel by the way? below:</paragraph>
                   <paragraph>
@@ -1996,17 +1996,17 @@
           </ezobject:version>
         </ezobject:version-list>
       </ezremote:object>
-      <ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" ezremote:id="191" name="10 Tips to Quickly Discover Stetind and eZ Publish 5" ezremote:section_id="1" ezremote:owner_id="190" ezremote:class_id="19" ezremote:published="Fri, 25 Jan 2013 16:11:47 GMT" ezremote:modified="Wed, 30 Jan 2013 15:39:28 GMT" remote_id="ec8ceac6bc6c2d3cc8b4d3fbf5655914" class_remote_id="5ef96fd48e645dbdeb803014fe7af178" ezremote:class_identifier="call_to_action" ezremote:always_available="0" initial_language="eng-GB">
+      <ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" ezremote:id="191" name="10 Tips to Quickly Discover Stadda and eZ Publish 5" ezremote:section_id="1" ezremote:owner_id="190" ezremote:class_id="19" ezremote:published="Fri, 25 Jan 2013 16:11:47 GMT" ezremote:modified="Wed, 30 Jan 2013 15:39:28 GMT" remote_id="ec8ceac6bc6c2d3cc8b4d3fbf5655914" class_remote_id="5ef96fd48e645dbdeb803014fe7af178" ezremote:class_identifier="call_to_action" ezremote:always_available="0" initial_language="eng-GB">
         <ezobject:version-list xmlns:ezobject="http://ez.no/object/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" active_version="7">
           <ezobject:version xmlns:ezremote="http://ez.no/ezobject" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" ezremote:version="7" ezremote:status="1" ezremote:created="Wed, 30 Jan 2013 15:39:01 GMT" ezremote:modified="Wed, 30 Jan 2013 15:39:28 GMT" initial_language="eng-GB">
-            <ezobject:object-translation xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" language="eng-GB" object_name="10 Tips to Quickly Discover Stetind and eZ Publish 5">
+            <ezobject:object-translation xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" language="eng-GB" object_name="10 Tips to Quickly Discover Stadda and eZ Publish 5">
               <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1197" ezremote:identifier="title" name="Title" type="ezstring">
-                <text>10 Tips to Quickly Discover Stetind and eZ Publish 5</text>
+                <text>10 Tips to Quickly Discover Stadda and eZ Publish 5</text>
               </ezobject:attribute>
               <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" ezremote:id="1198" ezremote:identifier="description" name="Description" type="ezxmltext">
                 <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
-                  <paragraph><embed align="right" view="embed" size="medium" custom:offset="0" custom:limit="5" object_remote_id="c93a009eec36c5090224470880d62384"/>Stetind or Stetinden is a mountain in the municipality of Tysfjord in Nordland county, Norway. It is located about 15 kilometres (9.3 mi) northeast of the village of Kjøpsvik. The mountain has very smooth sides reaching all the way to the fjord. Stetind has an obelisk-shape which gives it a very distinct look. In 2002, it was voted to be the "National Mountain" of Norway by listeners of NRK. Setind is also the codename for the eZ Publish 5.1 release.</paragraph>
-                  <paragraph>Download our white paper if you want to quickly discover Stetind and eZ Publish 5.</paragraph>
+                  <paragraph><embed align="right" view="embed" size="medium" custom:offset="0" custom:limit="5" object_remote_id="c93a009eec36c5090224470880d62384"/>Stadda is a mountain in the municipality of Tysfjord in Nordland county, Norway. It is located about 15 kilometres (9.3 mi) northeast of the village of Kjøpsvik. The mountain has very smooth sides reaching all the way to the fjord. Stadda has an obelisk-shape which gives it a very distinct look. In 2002, it was voted to be the "National Mountain" of Norway by listeners of NRK. Setind is also the codename for the eZ Publish 5.1 release.</paragraph>
+                  <paragraph>Download our white paper if you want to quickly discover Stadda and eZ Publish 5.</paragraph>
                   <paragraph>This white paper contains</paragraph>
                   <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
                     <ul>
@@ -2053,7 +2053,7 @@
               </ezobject:attribute>
             </ezobject:object-translation>
             <ezobject:node-assignment-list>
-              <node-assignment is-main-node="1" name="10 Tips to Quickly Discover Stetind and eZ Publish 5" node-id="191" remote-id="3e49b9fe4c95366cb590d3beb32a5838" sort-field="path" sort-order="1" priority="0"/>
+              <node-assignment is-main-node="1" name="10 Tips to Quickly Discover Stadda and eZ Publish 5" node-id="191" remote-id="3e49b9fe4c95366cb590d3beb32a5838" sort-field="path" sort-order="1" priority="0"/>
             </ezobject:node-assignment-list>
           </ezobject:version>
         </ezobject:version-list>
@@ -2325,16 +2325,16 @@
           </ezobject:version>
         </ezobject:version-list>
       </ezremote:object>
-      <ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="243" name="mount Stetind" ezremote:section_id="3" ezremote:owner_id="190" ezremote:class_id="27" ezremote:published="Wed, 06 Feb 2013 00:08:32 GMT" ezremote:modified="Wed, 06 Feb 2013 00:48:46 GMT" remote_id="9fc874a5faf032ddf198e67cb129ecc4" class_remote_id="f6df12aa74e36230eb675f364fccd25a" ezremote:class_identifier="image" ezremote:always_available="0" initial_language="eng-GB">
+      <ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="243" name="mount Stadda" ezremote:section_id="3" ezremote:owner_id="190" ezremote:class_id="27" ezremote:published="Wed, 06 Feb 2013 00:08:32 GMT" ezremote:modified="Wed, 06 Feb 2013 00:48:46 GMT" remote_id="9fc874a5faf032ddf198e67cb129ecc4" class_remote_id="f6df12aa74e36230eb675f364fccd25a" ezremote:class_identifier="image" ezremote:always_available="0" initial_language="eng-GB">
         <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="2">
           <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="2" ezremote:status="1" ezremote:created="Wed, 06 Feb 2013 00:47:07 GMT" ezremote:modified="Wed, 06 Feb 2013 00:48:46 GMT" initial_language="eng-GB">
-            <ezobject:object-translation language="eng-GB" object_name="mount Stetind">
+            <ezobject:object-translation language="eng-GB" object_name="mount Stadda">
               <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1531" ezremote:identifier="name" name="Name" type="ezstring">
-                <text>mount Stetind</text>
+                <text>mount Stadda</text>
               </ezobject:attribute>
               <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1532" ezremote:identifier="caption" name="Caption" type="ezxmltext">
                 <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
-                  <paragraph>Stetind is almost there, the ".1" of the 5th generation: eZ Publish 5.1 and Norway's national mountain.</paragraph>
+                  <paragraph>Stadda is almost there, the ".1" of the 5th generation: eZ Publish 5.1 and Norway's national mountain.</paragraph>
                 </section>
               </ezobject:attribute>
               <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1533" ezremote:identifier="image" name="Image" type="ezimage" image-file-key="e0275413e3a896b6587c3fcab1ad932e" alternative-text=""/>
@@ -2348,7 +2348,7 @@
               </ezobject:attribute>
             </ezobject:object-translation>
             <ezobject:node-assignment-list>
-              <node-assignment is-main-node="1" parent-node-remote-id="1b26c0454b09bb49dfb1b9190ffd67cb" name="mount Stetind" node-id="242" remote-id="9ce7495dd08002ee08a8fc3f3ab00a84" sort-field="published" sort-order="0" priority="6"/>
+              <node-assignment is-main-node="1" parent-node-remote-id="1b26c0454b09bb49dfb1b9190ffd67cb" name="mount Stadda" node-id="242" remote-id="9ce7495dd08002ee08a8fc3f3ab00a84" sort-field="published" sort-order="0" priority="6"/>
             </ezobject:node-assignment-list>
           </ezobject:version>
         </ezobject:version-list>
@@ -2535,7 +2535,7 @@
       <top-node node-id="94" remote-id="49dfabb2e1a632ae1f95fdeb79f4a92e">Partner</top-node>
       <top-node node-id="99" remote-id="0d05ff0c44f63901d8a1c0fbc5abc884">Blog</top-node>
       <top-node node-id="102" remote-id="3592a877f42e8f9b5355756a9b64703f">Buy this product</top-node>
-      <top-node node-id="191" remote-id="3e49b9fe4c95366cb590d3beb32a5838">10 Tips to Quickly Discover Stetind and eZ Publish 5</top-node>
+      <top-node node-id="191" remote-id="3e49b9fe4c95366cb590d3beb32a5838">10 Tips to Quickly Discover Stadda and eZ Publish 5</top-node>
       <top-node node-id="204" remote-id="1e14d4e6b05a5af714297bfca4676fa1">About</top-node>
     </top-node-list>
 </content-object>
