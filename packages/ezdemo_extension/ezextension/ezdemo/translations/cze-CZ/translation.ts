@@ -5,23 +5,23 @@
     <name>design/admin/content/datatype</name>
     <message>
         <source>Year</source>
-        <translation type="unfinished">Rok</translation>
+        <translation type="obsolete">Rok</translation>
     </message>
     <message>
         <source>Month</source>
-        <translation type="unfinished">Měsíc</translation>
+        <translation type="obsolete">Měsíc</translation>
     </message>
     <message>
         <source>Day</source>
-        <translation type="unfinished">Den</translation>
+        <translation type="obsolete">Den</translation>
     </message>
     <message>
         <source>Hour</source>
-        <translation type="unfinished">Hodina</translation>
+        <translation type="obsolete">Hodina</translation>
     </message>
     <message>
         <source>Minute</source>
-        <translation type="unfinished">Minuta</translation>
+        <translation type="obsolete">Minuta</translation>
     </message>
 </context>
 <context>
@@ -85,6 +85,13 @@
     <message>
         <source>Send form</source>
         <translation type="unfinished">Odeslat formulář</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezdemo/block_item/call_to_action</name>
+    <message>
+        <source>Download!</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -387,19 +394,15 @@
     <name>design/ezdemo/content/datatype</name>
     <message>
         <source>Year</source>
-        <translation>Rok</translation>
+        <translation type="obsolete">Rok</translation>
     </message>
     <message>
         <source>Month</source>
-        <translation>Měsíc</translation>
+        <translation type="obsolete">Měsíc</translation>
     </message>
     <message>
         <source>Day</source>
-        <translation>Den</translation>
-    </message>
-    <message>
-        <source>Show calendar to select a date.</source>
-        <translation type="unfinished"></translation>
+        <translation type="obsolete">Den</translation>
     </message>
 </context>
 <context>
@@ -3049,13 +3052,6 @@
     <name>design/ezflow/embed/poll</name>
     <message>
         <source>Vote</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
-    <name>design/standard/content/datatype</name>
-    <message>
-        <source>Second</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

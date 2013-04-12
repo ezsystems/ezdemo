@@ -5,23 +5,23 @@
     <name>design/admin/content/datatype</name>
     <message>
         <source>Year</source>
-        <translation>Jaar</translation>
+        <translation type="obsolete">Jaar</translation>
     </message>
     <message>
         <source>Month</source>
-        <translation>Maand</translation>
+        <translation type="obsolete">Maand</translation>
     </message>
     <message>
         <source>Day</source>
-        <translation>Dag</translation>
+        <translation type="obsolete">Dag</translation>
     </message>
     <message>
         <source>Hour</source>
-        <translation>Uur</translation>
+        <translation type="obsolete">Uur</translation>
     </message>
     <message>
         <source>Minute</source>
-        <translation>Minuut</translation>
+        <translation type="obsolete">Minuut</translation>
     </message>
 </context>
 <context>
@@ -85,6 +85,13 @@
     <message>
         <source>Send form</source>
         <translation type="unfinished">Formulier verzenden</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezdemo/block_item/call_to_action</name>
+    <message>
+        <source>Download!</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -387,19 +394,19 @@
     <name>design/ezdemo/content/datatype</name>
     <message>
         <source>Year</source>
-        <translation>Jaar</translation>
+        <translation type="obsolete">Jaar</translation>
     </message>
     <message>
         <source>Month</source>
-        <translation>Maand</translation>
+        <translation type="obsolete">Maand</translation>
     </message>
     <message>
         <source>Day</source>
-        <translation>Dag</translation>
+        <translation type="obsolete">Dag</translation>
     </message>
     <message>
         <source>Show calendar to select a date.</source>
-        <translation>Toon kalendar om een datum te selecteren.</translation>
+        <translation type="obsolete">Toon kalendar om een datum te selecteren.</translation>
     </message>
 </context>
 <context>
@@ -3058,13 +3065,6 @@
     <name>design/ezflow/embed/poll</name>
     <message>
         <source>Vote</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
-    <name>design/standard/content/datatype</name>
-    <message>
-        <source>Second</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

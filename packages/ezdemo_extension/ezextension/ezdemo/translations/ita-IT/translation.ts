@@ -5,23 +5,23 @@
     <name>design/admin/content/datatype</name>
     <message>
         <source>Year</source>
-        <translation>Anno</translation>
+        <translation type="obsolete">Anno</translation>
     </message>
     <message>
         <source>Month</source>
-        <translation>Mese</translation>
+        <translation type="obsolete">Mese</translation>
     </message>
     <message>
         <source>Day</source>
-        <translation>Giorno</translation>
+        <translation type="obsolete">Giorno</translation>
     </message>
     <message>
         <source>Hour</source>
-        <translation>Ora</translation>
+        <translation type="obsolete">Ora</translation>
     </message>
     <message>
         <source>Minute</source>
-        <translation>Minuto</translation>
+        <translation type="obsolete">Minuto</translation>
     </message>
 </context>
 <context>
@@ -85,6 +85,13 @@
     <message>
         <source>Send form</source>
         <translation type="unfinished">Invia modulo</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezdemo/block_item/call_to_action</name>
+    <message>
+        <source>Download!</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -387,19 +394,19 @@
     <name>design/ezdemo/content/datatype</name>
     <message>
         <source>Year</source>
-        <translation>Anno</translation>
+        <translation type="obsolete">Anno</translation>
     </message>
     <message>
         <source>Month</source>
-        <translation>Mese</translation>
+        <translation type="obsolete">Mese</translation>
     </message>
     <message>
         <source>Day</source>
-        <translation>Giorno</translation>
+        <translation type="obsolete">Giorno</translation>
     </message>
     <message>
         <source>Show calendar to select a date.</source>
-        <translation>Mostra il calendario per selezionare una data.</translation>
+        <translation type="obsolete">Mostra il calendario per selezionare una data.</translation>
     </message>
 </context>
 <context>
@@ -3064,7 +3071,7 @@
     <name>design/standard/content/datatype</name>
     <message>
         <source>Second</source>
-        <translation>Secondo</translation>
+        <translation type="obsolete">Secondo</translation>
     </message>
 </context>
 <context>

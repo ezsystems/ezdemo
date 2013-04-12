@@ -5,23 +5,23 @@
     <name>design/admin/content/datatype</name>
     <message>
         <source>Year</source>
-        <translation type="unfinished">Rok</translation>
+        <translation type="obsolete">Rok</translation>
     </message>
     <message>
         <source>Month</source>
-        <translation type="unfinished">Miesiąc</translation>
+        <translation type="obsolete">Miesiąc</translation>
     </message>
     <message>
         <source>Day</source>
-        <translation type="unfinished">Dzień</translation>
+        <translation type="obsolete">Dzień</translation>
     </message>
     <message>
         <source>Hour</source>
-        <translation type="unfinished">Godzina</translation>
+        <translation type="obsolete">Godzina</translation>
     </message>
     <message>
         <source>Minute</source>
-        <translation type="unfinished">Minuta</translation>
+        <translation type="obsolete">Minuta</translation>
     </message>
 </context>
 <context>
@@ -85,6 +85,13 @@
     <message>
         <source>Send form</source>
         <translation type="unfinished">Wyślij formularz</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezdemo/block_item/call_to_action</name>
+    <message>
+        <source>Download!</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -387,19 +394,15 @@
     <name>design/ezdemo/content/datatype</name>
     <message>
         <source>Year</source>
-        <translation>Rok</translation>
+        <translation type="obsolete">Rok</translation>
     </message>
     <message>
         <source>Month</source>
-        <translation>Miesiąc</translation>
+        <translation type="obsolete">Miesiąc</translation>
     </message>
     <message>
         <source>Day</source>
-        <translation>Dzień</translation>
-    </message>
-    <message>
-        <source>Show calendar to select a date.</source>
-        <translation type="unfinished"></translation>
+        <translation type="obsolete">Dzień</translation>
     </message>
 </context>
 <context>
@@ -3050,13 +3053,6 @@
     <message>
         <source>Vote</source>
         <translation type="unfinished">Głosuj</translation>
-    </message>
-</context>
-<context>
-    <name>design/standard/content/datatype</name>
-    <message>
-        <source>Second</source>
-        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

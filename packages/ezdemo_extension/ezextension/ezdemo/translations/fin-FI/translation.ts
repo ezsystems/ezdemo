@@ -5,23 +5,23 @@
     <name>design/admin/content/datatype</name>
     <message>
         <source>Year</source>
-        <translation type="unfinished">Vuosi</translation>
+        <translation type="obsolete">Vuosi</translation>
     </message>
     <message>
         <source>Month</source>
-        <translation type="unfinished">Kuukausi</translation>
+        <translation type="obsolete">Kuukausi</translation>
     </message>
     <message>
         <source>Day</source>
-        <translation type="unfinished">Päivä</translation>
+        <translation type="obsolete">Päivä</translation>
     </message>
     <message>
         <source>Hour</source>
-        <translation type="unfinished">Tunti</translation>
+        <translation type="obsolete">Tunti</translation>
     </message>
     <message>
         <source>Minute</source>
-        <translation type="unfinished">Minuutti</translation>
+        <translation type="obsolete">Minuutti</translation>
     </message>
 </context>
 <context>
@@ -85,6 +85,13 @@
     <message>
         <source>Send form</source>
         <translation type="unfinished">Lähetä lomake</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezdemo/block_item/call_to_action</name>
+    <message>
+        <source>Download!</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -387,19 +394,15 @@
     <name>design/ezdemo/content/datatype</name>
     <message>
         <source>Year</source>
-        <translation>Vuosi</translation>
+        <translation type="obsolete">Vuosi</translation>
     </message>
     <message>
         <source>Month</source>
-        <translation>Kuukausi</translation>
+        <translation type="obsolete">Kuukausi</translation>
     </message>
     <message>
         <source>Day</source>
-        <translation>Päivä</translation>
-    </message>
-    <message>
-        <source>Show calendar to select a date.</source>
-        <translation type="unfinished"></translation>
+        <translation type="obsolete">Päivä</translation>
     </message>
 </context>
 <context>
@@ -3058,13 +3061,6 @@ Nappi</translation>
     <message>
         <source>Vote</source>
         <translation type="unfinished">Äänestä</translation>
-    </message>
-</context>
-<context>
-    <name>design/standard/content/datatype</name>
-    <message>
-        <source>Second</source>
-        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

@@ -5,23 +5,23 @@
     <name>design/admin/content/datatype</name>
     <message>
         <source>Year</source>
-        <translation type="unfinished">Godina</translation>
+        <translation type="obsolete">Godina</translation>
     </message>
     <message>
         <source>Month</source>
-        <translation type="unfinished">Mesec</translation>
+        <translation type="obsolete">Mesec</translation>
     </message>
     <message>
         <source>Day</source>
-        <translation type="unfinished">Dan</translation>
+        <translation type="obsolete">Dan</translation>
     </message>
     <message>
         <source>Hour</source>
-        <translation type="unfinished">Sat</translation>
+        <translation type="obsolete">Sat</translation>
     </message>
     <message>
         <source>Minute</source>
-        <translation type="unfinished">Minut</translation>
+        <translation type="obsolete">Minut</translation>
     </message>
 </context>
 <context>
@@ -85,6 +85,13 @@
     <message>
         <source>Send form</source>
         <translation type="unfinished">Pošalji</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezdemo/block_item/call_to_action</name>
+    <message>
+        <source>Download!</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -387,19 +394,15 @@
     <name>design/ezdemo/content/datatype</name>
     <message>
         <source>Year</source>
-        <translation>Godina</translation>
+        <translation type="obsolete">Godina</translation>
     </message>
     <message>
         <source>Month</source>
-        <translation>Mesec</translation>
+        <translation type="obsolete">Mesec</translation>
     </message>
     <message>
         <source>Day</source>
-        <translation>Dan</translation>
-    </message>
-    <message>
-        <source>Show calendar to select a date.</source>
-        <translation type="unfinished"></translation>
+        <translation type="obsolete">Dan</translation>
     </message>
 </context>
 <context>
@@ -3050,13 +3053,6 @@
     <message>
         <source>Vote</source>
         <translation type="unfinished">Glasaj</translation>
-    </message>
-</context>
-<context>
-    <name>design/standard/content/datatype</name>
-    <message>
-        <source>Second</source>
-        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

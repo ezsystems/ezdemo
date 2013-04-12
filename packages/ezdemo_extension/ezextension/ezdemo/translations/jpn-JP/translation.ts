@@ -5,23 +5,23 @@
     <name>design/admin/content/datatype</name>
     <message>
         <source>Year</source>
-        <translation type="unfinished">年</translation>
+        <translation type="obsolete">年</translation>
     </message>
     <message>
         <source>Month</source>
-        <translation type="unfinished">月</translation>
+        <translation type="obsolete">月</translation>
     </message>
     <message>
         <source>Day</source>
-        <translation type="unfinished">日</translation>
+        <translation type="obsolete">日</translation>
     </message>
     <message>
         <source>Hour</source>
-        <translation type="unfinished">時間</translation>
+        <translation type="obsolete">時間</translation>
     </message>
     <message>
         <source>Minute</source>
-        <translation type="unfinished">分</translation>
+        <translation type="obsolete">分</translation>
     </message>
 </context>
 <context>
@@ -85,6 +85,13 @@
     <message>
         <source>Send form</source>
         <translation type="unfinished">フォームの送信</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezdemo/block_item/call_to_action</name>
+    <message>
+        <source>Download!</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -387,19 +394,15 @@
     <name>design/ezdemo/content/datatype</name>
     <message>
         <source>Year</source>
-        <translation>年</translation>
+        <translation type="obsolete">年</translation>
     </message>
     <message>
         <source>Month</source>
-        <translation>月</translation>
+        <translation type="obsolete">月</translation>
     </message>
     <message>
         <source>Day</source>
-        <translation>日</translation>
-    </message>
-    <message>
-        <source>Show calendar to select a date.</source>
-        <translation type="unfinished"></translation>
+        <translation type="obsolete">日</translation>
     </message>
 </context>
 <context>
@@ -3058,13 +3061,6 @@
     <message>
         <source>Vote</source>
         <translation type="unfinished">投票</translation>
-    </message>
-</context>
-<context>
-    <name>design/standard/content/datatype</name>
-    <message>
-        <source>Second</source>
-        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

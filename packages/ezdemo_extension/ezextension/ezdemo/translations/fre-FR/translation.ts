@@ -5,23 +5,23 @@
     <name>design/admin/content/datatype</name>
     <message>
         <source>Year</source>
-        <translation>Année</translation>
+        <translation type="obsolete">Année</translation>
     </message>
     <message>
         <source>Month</source>
-        <translation>Mois</translation>
+        <translation type="obsolete">Mois</translation>
     </message>
     <message>
         <source>Day</source>
-        <translation>Jour</translation>
+        <translation type="obsolete">Jour</translation>
     </message>
     <message>
         <source>Hour</source>
-        <translation>Heure</translation>
+        <translation type="obsolete">Heure</translation>
     </message>
     <message>
         <source>Minute</source>
-        <translation>Minute</translation>
+        <translation type="obsolete">Minute</translation>
     </message>
 </context>
 <context>
@@ -85,6 +85,13 @@
     <message>
         <source>Send form</source>
         <translation type="unfinished">Formulaire d&apos;envoi</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezdemo/block_item/call_to_action</name>
+    <message>
+        <source>Download!</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -387,19 +394,19 @@
     <name>design/ezdemo/content/datatype</name>
     <message>
         <source>Year</source>
-        <translation>Année</translation>
+        <translation type="obsolete">Année</translation>
     </message>
     <message>
         <source>Month</source>
-        <translation>Mois</translation>
+        <translation type="obsolete">Mois</translation>
     </message>
     <message>
         <source>Day</source>
-        <translation>Jour</translation>
+        <translation type="obsolete">Jour</translation>
     </message>
     <message>
         <source>Show calendar to select a date.</source>
-        <translation>Afficher le calendrier pour sélectionner une date.</translation>
+        <translation type="obsolete">Afficher le calendrier pour sélectionner une date.</translation>
     </message>
 </context>
 <context>
@@ -3065,7 +3072,7 @@ Vous pouvez soit éditer les brouillons soit les supprimer si vous n&apos;en ave
     <name>design/standard/content/datatype</name>
     <message>
         <source>Second</source>
-        <translation>Second</translation>
+        <translation type="obsolete">Second</translation>
     </message>
 </context>
 <context>
