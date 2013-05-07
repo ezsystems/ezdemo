@@ -2223,6 +2223,9 @@ label textarea,
 label select {
   display: block;
 }
+.content-view-full .class-poll label input[type="radio"] {
+  display: inline-block;
+}
 input[type="image"],
 input[type="checkbox"],
 input[type="radio"] {
