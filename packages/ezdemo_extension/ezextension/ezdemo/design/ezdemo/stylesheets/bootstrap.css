@@ -871,6 +871,9 @@ aside > .content-view-aside:last-child > article:last-child:after {
 .content-view-tagcloud article ol li {
   margin-bottom: 0.5em;
 }
+.content-view-full .class-poll label input[type="radio"] {
+  display: inline-block;
+}
 .content-view-block,
 .content-view-sitemap,
 .content-edit,
@@ -2222,9 +2225,6 @@ label input,
 label textarea,
 label select {
   display: block;
-}
-.content-view-full .class-poll label input[type="radio"] {
-  display: inline-block;
 }
 input[type="image"],
 input[type="checkbox"],
