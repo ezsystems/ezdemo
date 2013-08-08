@@ -61,7 +61,7 @@
 
 
 {if $cancel_action}
-<input type="hidden" name="BrowseCancelURI" value="{$cancel_action}" />
+<input type="hidden" name="BrowseCancelURI" value="{$cancel_action|wash}" />
 {/if}
  <input class="button" type="submit" name="BrowseCancelButton" value="{'Cancel'|i18n( 'design/ezdemo/content/browse' )}" />
 </form>
