@@ -1235,21 +1235,21 @@ class ezdemoInstaller extends eZSiteInstaller
         switch ( $db->databaseName() )
         {
             case 'mysql':
-                $sqlFile = 'mysql.sql';
                 $path = $package->path() . '/ezextension/' . $extensionName . '/sql/mysql';
                 break;
             case 'postgresql':
-                $sqlFile = 'postgresql.sql';
                 $path = $package->path() . '/ezextension/' . $extensionName . '/sql/postgresql';
                 break;
         }
-        $res = $db->insertFile( $path, $sqlFile, false );
 
-        if ( !$res )
+        // We first try using schema.sql, and fallback to <dbtype>.sql if it fails
+        if ( !$db->insertFile( $path, 'schema.sql', false ) )
         {
-            eZDebug::writeError( 'Can\'t initialize ' . $extensionName . ' database shema.', __METHOD__ );
-
-            return false;
+            if ( !$db->insertFile( $path, $db->databaseName() . '.sql', false ) )
+            {
+                eZDebug::writeError( 'Can\'t initialize ' . $extensionName . ' database schema.', __METHOD__ );
+                return false;
+            }
         }
 
         return true;
