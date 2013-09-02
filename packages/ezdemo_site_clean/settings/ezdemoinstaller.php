@@ -1242,12 +1242,26 @@ class ezdemoInstaller extends eZSiteInstaller
                 break;
         }
 
-        // We first try using schema.sql, and fallback to <dbtype>.sql if it fails
-        if ( !$db->insertFile( $path, 'schema.sql', false ) )
+        // We first try using schema.sql
+        if ( file_exists( "$path/schema.sql" ) )
+        {
+            if ( !$db->insertFile( $path, 'schema.sql', false ) )
+            {
+                eZDebug::writeError( "Can't initialize $extensionName database schema ($path/schema.sql)", __METHOD__ );
+                return false;
+            }
+            else
+            {
+                return true;
+            }
+        }
+
+        // and fallback to <dbtype>.sql if it fails
+        if ( file_exists( $path . '/' . $db->databaseName() . '.sql' ) )
         {
             if ( !$db->insertFile( $path, $db->databaseName() . '.sql', false ) )
             {
-                eZDebug::writeError( 'Can\'t initialize ' . $extensionName . ' database schema.', __METHOD__ );
+                eZDebug::writeError( "Can't initialize $extensionName database schema ($path/" . $db->databaseName() . '.sql)', __METHOD__ );
                 return false;
             }
         }
