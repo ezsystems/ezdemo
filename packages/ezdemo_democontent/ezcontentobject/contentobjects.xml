@@ -594,340 +594,340 @@
           </ezobject:version>
         </ezobject:version-list>
       </ezremote:object>
-      <ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="201" name="Automate" ezremote:section_id="1" ezremote:owner_id="190" ezremote:class_id="16" ezremote:published="Wed, 30 Jan 2013 18:20:29 GMT" ezremote:modified="Mon, 11 Feb 2013 16:08:09 GMT" remote_id="f9a7487e6dc1d94615551bc7f4c01f1f" class_remote_id="c15b600eb9198b1924063b5a68758232" ezremote:class_identifier="article" ezremote:always_available="0" initial_language="eng-GB">
-        <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="7">
-          <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="7" ezremote:status="1" ezremote:created="Mon, 11 Feb 2013 16:07:19 GMT" ezremote:modified="Mon, 11 Feb 2013 16:08:09 GMT" initial_language="eng-GB">
-            <ezobject:object-translation language="eng-GB" object_name="Automate">
-              <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1278" ezremote:identifier="title" name="Title" type="ezstring">
-                <text>Automate</text>
-              </ezobject:attribute>
-              <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1279" ezremote:identifier="short_title" name="Short title" type="ezstring">
-                <text></text>
-              </ezobject:attribute>
-              <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1280" ezremote:identifier="author" name="Author" type="ezauthor">
-                <ezauthor>
-                  <authors>
-                    <author id="0" name="Roland Benedetti" email="Roland.Benedetti@ez.no"/>
-                  </authors>
-                </ezauthor>
-              </ezobject:attribute>
-              <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1281" ezremote:identifier="intro" name="Summary" type="ezxmltext">
-                <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
-                  <paragraph>If Create, Deliver and Optimize is the winning formula, the last thing you want to do when you are there is to automate so that your online user experience is self-building!</paragraph>
-                </section>
-              </ezobject:attribute>
-              <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1282" ezremote:identifier="body" name="Body" type="ezxmltext">
-                <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
-                  <paragraph>Identifying the right content, picking delivery strategy, understanding your metrics and optimizing your online presence to have your numbers on the up-side are tasks that requires a lot of work that no machine could do by itself. However, when you have identified the right recipes in that Create - Deliver - Optimize cycle, the next thing you want to do is automate as much as possible all the recurring tasks. That is where a platform like the eZ Publish Platform will deliver even more value, from Content sourcing and authoring to delivery workflow and marketing automation, relying on an integrated platform will help you automate the tasks that are taking your KPIs and your online business up!</paragraph>
-                </section>
-              </ezobject:attribute>
-              <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1283" ezremote:identifier="image" name="Image" type="ezimage" image-file-key="dcbbca71f9115439cb1a47e9093c4d86" alternative-text=""/>
-              <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1284" ezremote:identifier="caption" name="Caption (Image)" type="ezxmltext">
-                <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
-                  <paragraph>photo by <link target="_blank" href="http://www.panoramio.com/user/1841812">Ronny van der Spa</link>.</paragraph>
-                </section>
-              </ezobject:attribute>
-              <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1285" ezremote:identifier="publish_date" name="Publish date" type="ezdatetime">
-                <date_time>Thu, 01 Jan 1970 00:00:00 GMT</date_time>
-              </ezobject:attribute>
-              <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1286" ezremote:identifier="star_rating" name="Star Rating" type="ezsrrating">
-                <data-int></data-int>
-                <data-float>0</data-float>
-                <data-text></data-text>
-              </ezobject:attribute>
-              <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1287" ezremote:identifier="tags" name="Tags" type="ezkeyword">
-                <keyword-string></keyword-string>
-              </ezobject:attribute>
-              <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1288" ezremote:identifier="location" name="Location" type="ezgmaplocation" ezgl_has_content="1">
-                <latitude>68.165193</latitude>
-                <longitude>16.592763</longitude>
-                <address>Stadda, norway</address>
-              </ezobject:attribute>
-              <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1289" ezremote:identifier="comments" name="Comments" type="ezcomcomments">
-                <data-int>1</data-int>
-                <data-float>1</data-float>
-                <data-text></data-text>
-              </ezobject:attribute>
-            </ezobject:object-translation>
-            <ezobject:node-assignment-list>
-              <node-assignment is-main-node="1" parent-node-remote-id="595c35359a2d37e2dba89eb8dba4ce93" name="Automate" node-id="200" remote-id="e1b2a7e5f3a4368e666c4cd6a3810552" sort-field="path" sort-order="1" priority="0"/>
-            </ezobject:node-assignment-list>
-          </ezobject:version>
-        </ezobject:version-list>
-      </ezremote:object>
-      <ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="66" name="Deliver" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="16" ezremote:published="Wed, 28 Mar 2012 11:08:24 GMT" ezremote:modified="Wed, 30 Jan 2013 21:07:08 GMT" remote_id="c8fa6ace2c8b3cdd30941c89470b9213" class_remote_id="c15b600eb9198b1924063b5a68758232" ezremote:class_identifier="article" ezremote:always_available="0" initial_language="eng-GB">
-        <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="3">
-          <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="3" ezremote:status="1" ezremote:created="Wed, 30 Jan 2013 21:06:58 GMT" ezremote:modified="Wed, 30 Jan 2013 21:07:08 GMT" initial_language="eng-GB">
-            <ezobject:object-translation language="eng-GB" object_name="Deliver">
-              <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="260" ezremote:identifier="title" name="Title" type="ezstring">
-                <text>Deliver</text>
-              </ezobject:attribute>
-              <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="261" ezremote:identifier="short_title" name="Short title" type="ezstring">
-                <text></text>
-              </ezobject:attribute>
-              <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="262" ezremote:identifier="author" name="Author" type="ezauthor">
-                <ezauthor>
-                  <authors>
-                    <author id="0" name="Administrator User" email="nospam@ez.no"/>
-                  </authors>
-                </ezauthor>
-              </ezobject:attribute>
-              <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="263" ezremote:identifier="intro" name="Summary" type="ezxmltext">
-                <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
-                  <paragraph>Content consumption is changing rapidly. An agile solution to distribute your content and empower your digital business model is key to success in every industry.</paragraph>
-                </section>
-              </ezobject:attribute>
-              <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="264" ezremote:identifier="body" name="Body" type="ezxmltext">
-                <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
-                  <paragraph>eZ Publish Enterprise is the platform to make the omni-channel approach possible. A powerful presentation engine provides a multiplicity of websites and pages that display your content in a variety of renderings. A powerful API directly and simply integrates your content with any Web-enabled application on any device, including the iPad, iPhone or Android without ever interfering with or impacting the platform itself.</paragraph>
-                </section>
-              </ezobject:attribute>
-              <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="265" ezremote:identifier="image" name="Image" type="ezimage" image-file-key="324db4a22b0841c40e10a153e13f9f77" alternative-text="Content Clustering with eZ Find"/>
-              <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="266" ezremote:identifier="caption" name="Caption (Image)" type="ezxmltext">
-                <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
-                  <paragraph>photo by <link target="_blank" href="http://www.panoramio.com/user/1841812">Ronny van der Spa</link>.</paragraph>
-                </section>
-              </ezobject:attribute>
-              <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="267" ezremote:identifier="publish_date" name="Publish date" type="ezdatetime">
-                <date_time>Thu, 01 Jan 1970 00:00:00 GMT</date_time>
-              </ezobject:attribute>
-              <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="268" ezremote:identifier="star_rating" name="Star Rating" type="ezsrrating">
-                <data-int></data-int>
-                <data-float>0</data-float>
-                <data-text></data-text>
-              </ezobject:attribute>
-              <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="269" ezremote:identifier="tags" name="Tags" type="ezkeyword">
-                <keyword-string>deliver, kilimanjaro</keyword-string>
-              </ezobject:attribute>
-              <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="270" ezremote:identifier="location" name="Location" type="ezgmaplocation" ezgl_has_content="1">
-                <latitude>68.165193</latitude>
-                <longitude>16.592763</longitude>
-                <address>Stadda,Norway</address>
-              </ezobject:attribute>
-              <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="271" ezremote:identifier="comments" name="Comments" type="ezcomcomments">
-                <data-int>-1</data-int>
-                <data-float>-1</data-float>
-                <data-text></data-text>
-              </ezobject:attribute>
-            </ezobject:object-translation>
-            <ezobject:node-assignment-list>
-              <node-assignment is-main-node="1" parent-node-remote-id="595c35359a2d37e2dba89eb8dba4ce93" name="Deliver" node-id="68" remote-id="0379665e0367a771802c95a1a755679e" sort-field="path" sort-order="1" priority="0"/>
-            </ezobject:node-assignment-list>
-          </ezobject:version>
-        </ezobject:version-list>
-      </ezremote:object>
-      <ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="67" name="Create" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="16" ezremote:published="Wed, 28 Mar 2012 11:18:59 GMT" ezremote:modified="Thu, 07 Feb 2013 15:52:07 GMT" remote_id="db01949a286c60127a496daf7343591c" class_remote_id="c15b600eb9198b1924063b5a68758232" ezremote:class_identifier="article" ezremote:always_available="0" initial_language="eng-GB">
-        <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="7">
-          <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="7" ezremote:status="1" ezremote:created="Thu, 07 Feb 2013 15:51:38 GMT" ezremote:modified="Thu, 07 Feb 2013 15:52:07 GMT" initial_language="eng-GB">
-            <ezobject:object-translation language="eng-GB" object_name="Create">
-              <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="272" ezremote:identifier="title" name="Title" type="ezstring">
-                <text>Create</text>
-              </ezobject:attribute>
-              <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="273" ezremote:identifier="short_title" name="Short title" type="ezstring">
-                <text></text>
-              </ezobject:attribute>
-              <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="274" ezremote:identifier="author" name="Author" type="ezauthor">
-                <ezauthor>
-                  <authors>
-                    <author id="0" name="Administrator User" email="nospam@ez.no"/>
-                  </authors>
-                </ezauthor>
-              </ezobject:attribute>
-              <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="275" ezremote:identifier="intro" name="Summary" type="ezxmltext">
-                <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
-                  <paragraph>Increasing the productivity of your content infrastructure, eZ Publish Enterprise provides you with powerful tools to create, automate and collaborate on content...</paragraph>
-                </section>
-              </ezobject:attribute>
-              <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="276" ezremote:identifier="body" name="Body" type="ezxmltext">
-                <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
-                  <paragraph>Dealing with hundreds of editors, having millions of content contributions from different sources and managing information with dozens of audiences can get complex. You get a single tool to create content whatever the content type is. From very simple and unstructured to highly structured content with complex metadata and rich media. eZ Publish Enterprise enables your non-technical contributors to manage complex content infrastructures and to collaborate with co-workers to get tasks done quickly.</paragraph>
-                </section>
-              </ezobject:attribute>
-              <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="277" ezremote:identifier="image" name="Image" type="ezimage" image-file-key="4daa5223cf84e604df452bbcf77edd44" alternative-text=""/>
-              <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="278" ezremote:identifier="caption" name="Caption (Image)" type="ezxmltext">
-                <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
-                  <paragraph>photo by O.Mørk</paragraph>
-                </section>
-              </ezobject:attribute>
-              <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="279" ezremote:identifier="publish_date" name="Publish date" type="ezdatetime">
-                <date_time>Thu, 01 Jan 1970 00:00:00 GMT</date_time>
-              </ezobject:attribute>
-              <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="280" ezremote:identifier="star_rating" name="Star Rating" type="ezsrrating">
-                <data-int></data-int>
-                <data-float>0</data-float>
-                <data-text></data-text>
-              </ezobject:attribute>
-              <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="281" ezremote:identifier="tags" name="Tags" type="ezkeyword">
-                <keyword-string>kilimanjaro</keyword-string>
-              </ezobject:attribute>
-              <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="282" ezremote:identifier="location" name="Location" type="ezgmaplocation" ezgl_has_content="1">
-                <latitude>68.165193</latitude>
-                <longitude>16.592763</longitude>
-                <address>Stadda, Norway</address>
-              </ezobject:attribute>
-              <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="283" ezremote:identifier="comments" name="Comments" type="ezcomcomments">
-                <data-int>1</data-int>
-                <data-float>1</data-float>
-                <data-text></data-text>
-              </ezobject:attribute>
-            </ezobject:object-translation>
-            <ezobject:node-assignment-list>
-              <node-assignment is-main-node="1" parent-node-remote-id="595c35359a2d37e2dba89eb8dba4ce93" name="Create" node-id="69" remote-id="fd2168050d72bcfe92b1250586a8a87f" sort-field="path" sort-order="1" priority="0"/>
-            </ezobject:node-assignment-list>
-          </ezobject:version>
-        </ezobject:version-list>
-      </ezremote:object>
-      <ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="68" name="Optimize" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="16" ezremote:published="Wed, 28 Mar 2012 11:23:12 GMT" ezremote:modified="Wed, 30 Jan 2013 02:44:20 GMT" remote_id="16923c9da5bf2dc970e7c802ae434f8e" class_remote_id="c15b600eb9198b1924063b5a68758232" ezremote:class_identifier="article" ezremote:always_available="0" initial_language="eng-GB">
-        <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="5">
-          <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="5" ezremote:status="1" ezremote:created="Wed, 30 Jan 2013 02:44:02 GMT" ezremote:modified="Wed, 30 Jan 2013 02:44:20 GMT" initial_language="eng-GB">
-            <ezobject:object-translation language="eng-GB" object_name="Optimize">
-              <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="284" ezremote:identifier="title" name="Title" type="ezstring">
-                <text>Optimize</text>
-              </ezobject:attribute>
-              <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="285" ezremote:identifier="short_title" name="Short title" type="ezstring">
-                <text></text>
-              </ezobject:attribute>
-              <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="286" ezremote:identifier="author" name="Author" type="ezauthor">
-                <ezauthor>
-                  <authors>
-                    <author id="0" name="Administrator User" email="nospam@ez.no"/>
-                  </authors>
-                </ezauthor>
-              </ezobject:attribute>
-              <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="287" ezremote:identifier="intro" name="Summary" type="ezxmltext">
-                <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
-                  <paragraph>It’s about the right content at the right time and in the right format!</paragraph>
-                </section>
-              </ezobject:attribute>
-              <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="288" ezremote:identifier="body" name="Body" type="ezxmltext">
-                <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
-                  <paragraph>eZ Publish Enterprise offers an entire set of capabilities including search, analytics, personalized recommendations as well as automated and integrated testing functionality (e.g. A/B, Multivariate, etc.). Efficient search starts with enabling editors and letting them search for existing content to reuse and re-purpose. You can analyze the user behaviour, create a compelling content strategy and provide automated scenarios based on the users\\\\\\\' behaviour.</paragraph>
-                </section>
-              </ezobject:attribute>
-              <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="289" ezremote:identifier="image" name="Image" type="ezimage" image-file-key="b30c789136efae94eb10e575b887a799" alternative-text=""/>
-              <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="290" ezremote:identifier="caption" name="Caption (Image)" type="ezxmltext">
-                <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
-                  <paragraph>photo by O.Mørk.</paragraph>
-                </section>
-              </ezobject:attribute>
-              <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="291" ezremote:identifier="publish_date" name="Publish date" type="ezdatetime">
-                <date_time>Thu, 01 Jan 1970 00:00:00 GMT</date_time>
-              </ezobject:attribute>
-              <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="292" ezremote:identifier="star_rating" name="Star Rating" type="ezsrrating">
-                <data-int></data-int>
-                <data-float>0</data-float>
-                <data-text></data-text>
-              </ezobject:attribute>
-              <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="293" ezremote:identifier="tags" name="Tags" type="ezkeyword">
-                <keyword-string>kilimanjaro</keyword-string>
-              </ezobject:attribute>
-              <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="294" ezremote:identifier="location" name="Location" type="ezgmaplocation" ezgl_has_content="1">
-                <latitude>68.165193</latitude>
-                <longitude>16.592763</longitude>
-                <address>Stadda, Norway</address>
-              </ezobject:attribute>
-              <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="295" ezremote:identifier="comments" name="Comments" type="ezcomcomments">
-                <data-int>-1</data-int>
-                <data-float>-1</data-float>
-                <data-text></data-text>
-              </ezobject:attribute>
-            </ezobject:object-translation>
-            <ezobject:node-assignment-list>
-              <node-assignment is-main-node="1" parent-node-remote-id="595c35359a2d37e2dba89eb8dba4ce93" name="Optimize" node-id="70" remote-id="cbd26486e64e79b91e7b4cc4ca6a7f87" sort-field="path" sort-order="1" priority="0"/>
-            </ezobject:node-assignment-list>
-          </ezobject:version>
-        </ezobject:version-list>
-      </ezremote:object>
-      <ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="69" name="Getting Started with eZ Publish 5" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="16" ezremote:published="Wed, 28 Mar 2012 11:27:54 GMT" ezremote:modified="Mon, 18 Feb 2013 17:36:47 GMT" remote_id="699c5b72347666a663adf84f5410ea18" class_remote_id="c15b600eb9198b1924063b5a68758232" ezremote:class_identifier="article" ezremote:always_available="0" initial_language="eng-GB">
-        <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="12">
-          <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="12" ezremote:status="1" ezremote:created="Mon, 18 Feb 2013 17:36:34 GMT" ezremote:modified="Mon, 18 Feb 2013 17:36:47 GMT" initial_language="eng-GB">
-            <ezobject:object-translation language="eng-GB" object_name="Getting Started with eZ Publish 5">
-              <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="296" ezremote:identifier="title" name="Title" type="ezstring">
-                <text>Getting Started with eZ Publish 5</text>
-              </ezobject:attribute>
-              <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="297" ezremote:identifier="short_title" name="Short title" type="ezstring">
-                <text></text>
-              </ezobject:attribute>
-              <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="298" ezremote:identifier="author" name="Author" type="ezauthor">
-                <ezauthor>
-                  <authors>
-                    <author id="0" name="Administrator User" email="nospam@ez.no"/>
-                  </authors>
-                </ezauthor>
-              </ezobject:attribute>
-              <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="299" ezremote:identifier="intro" name="Summary" type="ezxmltext">
-                <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
-                  <paragraph>
-                    <line xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">Welcome to eZ Publish Platform 5.1, the Stadda release. </line>
-                    <line xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">This release brings several new features and general improvements on the foundations introduced in eZ Publish Platform 5.0.</line>
-                  </paragraph>
-                </section>
-              </ezobject:attribute>
-              <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="300" ezremote:identifier="body" name="Body" type="ezxmltext">
-                <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
-                  <section>
-                    <header>Key Selected New Features in eZ Publish 5</header>
-                    <paragraph>Our objective is to provide you the most compelling Multichannel Web and Customer Experience Platform. With eZ Publish 5 architecture we encompass a thoroughly revamped platform, which facilitates better user experiences, increases productivity, and enables your digital business model sustainably. Underlying and enabling these ambitious goals is a completely new but thoroughly backward compatible product architecture, along with a host of user interface (UI) enhancements.</paragraph>
-                    <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
-                      <ul>
-                        <li>
-                          <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">New Public API – Streamlined PHP Interface to eZ Publish</paragraph>
-                        </li>
-                        <li>
-                          <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">Enhanced REST API – eZ Publish as a Web Service</paragraph>
-                        </li>
-                        <li>
-                          <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">New high-performance framework for Web projects – Symfony full stack</paragraph>
-                        </li>
-                        <li>
-                          <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">New modern template engine – Twig based</paragraph>
-                        </li>
-                        <li>
-                          <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">Still totally backward compatible with 4.x legacy architecture</paragraph>
-                        </li>
-                        <li>
-                          <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">Many new and updated extensions in the eZ Market</paragraph>
-                        </li>
-                      </ul>
-                    </paragraph>
-                    <paragraph>For further information visit <link href="\">www.ez.no,</link> the documentation: <link href="\">doc.ez.no</link> and the <link href="\">share.ez.no</link> community.</paragraph>
+        <ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="67" name="Automate" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="16" ezremote:published="Wed, 30 Jan 2013 18:20:29 GMT" ezremote:modified="Fri, 06 Sep 2013 19:39:18 GMT" remote_id="f9a7487e6dc1d94615551bc7f4c01f1f" class_remote_id="c15b600eb9198b1924063b5a68758232" ezremote:class_identifier="article" ezremote:always_available="0" initial_language="eng-GB">
+          <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="2">
+            <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="2" ezremote:status="1" ezremote:created="Fri, 06 Sep 2013 19:38:06 GMT" ezremote:modified="Fri, 06 Sep 2013 19:39:18 GMT" initial_language="eng-GB">
+              <ezobject:object-translation language="eng-GB" object_name="Automate">
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="269" ezremote:identifier="title" name="Title" type="ezstring">
+                  <text>Automate</text>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="270" ezremote:identifier="short_title" name="Short title" type="ezstring">
+                  <text></text>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="271" ezremote:identifier="author" name="Author" type="ezauthor">
+                  <ezauthor>
+                    <authors>
+                      <author id="0" name="Roland Benedetti" email="Roland.Benedetti@ez.no"/>
+                    </authors>
+                  </ezauthor>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="272" ezremote:identifier="intro" name="Summary" type="ezxmltext">
+                  <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
+                    <paragraph>If Create, Deliver and Optimize is the winning formula, the last thing you want to do when you are there is to automate so that your online user experience is self-building!</paragraph>
                   </section>
-                </section>
-              </ezobject:attribute>
-              <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="301" ezremote:identifier="image" name="Image" type="ezimage" image-file-key="5b71995be15fb77afea60fb3c5305353" alternative-text=""/>
-              <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="302" ezremote:identifier="caption" name="Caption (Image)" type="ezxmltext">
-                <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
-                  <paragraph>Image by Seth Hobby - <link href="http://www.alpineguides.no/">www.alpineguides.no</link></paragraph>
-                </section>
-              </ezobject:attribute>
-              <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="303" ezremote:identifier="publish_date" name="Publish date" type="ezdatetime">
-                <date_time>Thu, 01 Jan 1970 00:00:00 GMT</date_time>
-              </ezobject:attribute>
-              <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="304" ezremote:identifier="star_rating" name="Star Rating" type="ezsrrating">
-                <data-int></data-int>
-                <data-float>0</data-float>
-                <data-text></data-text>
-              </ezobject:attribute>
-              <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="305" ezremote:identifier="tags" name="Tags" type="ezkeyword">
-                <keyword-string></keyword-string>
-              </ezobject:attribute>
-              <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="306" ezremote:identifier="location" name="Location" type="ezgmaplocation" ezgl_has_content="1">
-                <latitude>68.165193</latitude>
-                <longitude>16.592763</longitude>
-                <address>Stadda, Norway</address>
-              </ezobject:attribute>
-              <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="307" ezremote:identifier="comments" name="Comments" type="ezcomcomments">
-                <data-int>-1</data-int>
-                <data-float>-1</data-float>
-                <data-text></data-text>
-              </ezobject:attribute>
-            </ezobject:object-translation>
-            <ezobject:node-assignment-list>
-              <node-assignment is-main-node="1" parent-node-remote-id="595c35359a2d37e2dba89eb8dba4ce93" name="Getting Started with eZ Publish 5" node-id="71" remote-id="80536ae793c16e51018c632b9c90ff25" sort-field="path" sort-order="1" priority="0"/>
-            </ezobject:node-assignment-list>
-          </ezobject:version>
-        </ezobject:version-list>
-      </ezremote:object>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="273" ezremote:identifier="body" name="Body" type="ezxmltext">
+                  <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
+                    <paragraph>Identifying the right content, picking delivery strategy, understanding your metrics and optimizing your online presence to have your numbers on the up-side are tasks that requires a lot of work that no machine could do by itself. However, when you have identified the right recipes in that Create - Deliver - Optimize cycle, the next thing you want to do is automate as much as possible all the recurring tasks. That is where a platform like the eZ Publish Platform will deliver even more value, from Content sourcing and authoring to delivery workflow and marketing automation, relying on an integrated platform will help you automate the tasks that are taking your KPIs and your online business up!</paragraph>
+                  </section>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="274" ezremote:identifier="image" name="Image" type="ezimage" image-file-key="dcbbca71f9115439cb1a47e9093c4d86" alternative-text=""/>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="275" ezremote:identifier="caption" name="Caption (Image)" type="ezxmltext">
+                  <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
+                    <paragraph>photo by winkyintheuk.</paragraph>
+                  </section>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="276" ezremote:identifier="publish_date" name="Publish date" type="ezdatetime">
+                  <date_time>Thu, 01 Jan 1970 00:00:00 GMT</date_time>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="277" ezremote:identifier="star_rating" name="Star Rating" type="ezsrrating">
+                  <data-int></data-int>
+                  <data-float>0</data-float>
+                  <data-text></data-text>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="278" ezremote:identifier="tags" name="Tags" type="ezkeyword">
+                  <keyword-string>aconcagua</keyword-string>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="279" ezremote:identifier="location" name="Location" type="ezgmaplocation" ezgl_has_content="1">
+                  <latitude>-32.653333</latitude>
+                  <longitude>-70.010833</longitude>
+                  <address>aconcagua, argentina</address>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="280" ezremote:identifier="comments" name="Comments" type="ezcomcomments">
+                  <data-int>1</data-int>
+                  <data-float>1</data-float>
+                  <data-text></data-text>
+                </ezobject:attribute>
+              </ezobject:object-translation>
+              <ezobject:node-assignment-list>
+                <node-assignment is-main-node="1" parent-node-remote-id="595c35359a2d37e2dba89eb8dba4ce93" name="Automate" node-id="69" remote-id="e1b2a7e5f3a4368e666c4cd6a3810552" sort-field="path" sort-order="1" priority="0"/>
+              </ezobject:node-assignment-list>
+            </ezobject:version>
+          </ezobject:version-list>
+        </ezremote:object>
+        <ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="68" name="Deliver" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="16" ezremote:published="Wed, 28 Mar 2012 11:08:24 GMT" ezremote:modified="Fri, 06 Sep 2013 19:35:22 GMT" remote_id="c8fa6ace2c8b3cdd30941c89470b9213" class_remote_id="c15b600eb9198b1924063b5a68758232" ezremote:class_identifier="article" ezremote:always_available="0" initial_language="eng-GB">
+          <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="2">
+            <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="2" ezremote:status="1" ezremote:created="Fri, 06 Sep 2013 19:34:18 GMT" ezremote:modified="Fri, 06 Sep 2013 19:35:22 GMT" initial_language="eng-GB">
+              <ezobject:object-translation language="eng-GB" object_name="Deliver">
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="281" ezremote:identifier="title" name="Title" type="ezstring">
+                  <text>Deliver</text>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="282" ezremote:identifier="short_title" name="Short title" type="ezstring">
+                  <text></text>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="283" ezremote:identifier="author" name="Author" type="ezauthor">
+                  <ezauthor>
+                    <authors>
+                      <author id="0" name="Administrator User" email="nospam@ez.no"/>
+                    </authors>
+                  </ezauthor>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="284" ezremote:identifier="intro" name="Summary" type="ezxmltext">
+                  <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
+                    <paragraph>Content consumption is changing rapidly. An agile solution to distribute your content and empower your digital business model is key to success in every industry.</paragraph>
+                  </section>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="285" ezremote:identifier="body" name="Body" type="ezxmltext">
+                  <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
+                    <paragraph>eZ Publish Enterprise is the platform to make the omni-channel approach possible. A powerful presentation engine provides a multiplicity of websites and pages that display your content in a variety of renderings. A powerful API directly and simply integrates your content with any Web-enabled application on any device, including the iPad, iPhone or Android without ever interfering with or impacting the platform itself.</paragraph>
+                  </section>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="286" ezremote:identifier="image" name="Image" type="ezimage" image-file-key="324db4a22b0841c40e10a153e13f9f77" alternative-text="Content Clustering with eZ Find"/>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="287" ezremote:identifier="caption" name="Caption (Image)" type="ezxmltext">
+                  <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
+                    <paragraph>photo by macha.cl</paragraph>
+                  </section>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="288" ezremote:identifier="publish_date" name="Publish date" type="ezdatetime">
+                  <date_time>Thu, 01 Jan 1970 00:00:00 GMT</date_time>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="289" ezremote:identifier="star_rating" name="Star Rating" type="ezsrrating">
+                  <data-int></data-int>
+                  <data-float>0</data-float>
+                  <data-text></data-text>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="290" ezremote:identifier="tags" name="Tags" type="ezkeyword">
+                  <keyword-string>deliver, kilimanjaro</keyword-string>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="291" ezremote:identifier="location" name="Location" type="ezgmaplocation" ezgl_has_content="1">
+                  <latitude>68.165193</latitude>
+                  <longitude>16.592763</longitude>
+                  <address>Stadda,Norway</address>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="292" ezremote:identifier="comments" name="Comments" type="ezcomcomments">
+                  <data-int>-1</data-int>
+                  <data-float>-1</data-float>
+                  <data-text></data-text>
+                </ezobject:attribute>
+              </ezobject:object-translation>
+              <ezobject:node-assignment-list>
+                <node-assignment is-main-node="1" parent-node-remote-id="595c35359a2d37e2dba89eb8dba4ce93" name="Deliver" node-id="70" remote-id="0379665e0367a771802c95a1a755679e" sort-field="path" sort-order="1" priority="0"/>
+              </ezobject:node-assignment-list>
+            </ezobject:version>
+          </ezobject:version-list>
+        </ezremote:object>
+        <ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="69" name="Create" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="16" ezremote:published="Wed, 28 Mar 2012 11:18:59 GMT" ezremote:modified="Fri, 06 Sep 2013 19:34:07 GMT" remote_id="db01949a286c60127a496daf7343591c" class_remote_id="c15b600eb9198b1924063b5a68758232" ezremote:class_identifier="article" ezremote:always_available="0" initial_language="eng-GB">
+          <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="3">
+            <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="3" ezremote:status="1" ezremote:created="Fri, 06 Sep 2013 19:33:35 GMT" ezremote:modified="Fri, 06 Sep 2013 19:34:07 GMT" initial_language="eng-GB">
+              <ezobject:object-translation language="eng-GB" object_name="Create">
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="293" ezremote:identifier="title" name="Title" type="ezstring">
+                  <text>Create</text>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="294" ezremote:identifier="short_title" name="Short title" type="ezstring">
+                  <text></text>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="295" ezremote:identifier="author" name="Author" type="ezauthor">
+                  <ezauthor>
+                    <authors>
+                      <author id="0" name="Administrator User" email="nospam@ez.no"/>
+                    </authors>
+                  </ezauthor>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="296" ezremote:identifier="intro" name="Summary" type="ezxmltext">
+                  <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
+                    <paragraph>Increasing the productivity of your content infrastructure, eZ Publish Enterprise provides you with powerful tools to create, automate and collaborate on content...</paragraph>
+                  </section>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="297" ezremote:identifier="body" name="Body" type="ezxmltext">
+                  <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
+                    <paragraph>Dealing with hundreds of editors, having millions of content contributions from different sources and managing information with dozens of audiences can get complex. You get a single tool to create content whatever the content type is. From very simple and unstructured to highly structured content with complex metadata and rich media. eZ Publish Enterprise enables your non-technical contributors to manage complex content infrastructures and to collaborate with co-workers to get tasks done quickly.</paragraph>
+                  </section>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="298" ezremote:identifier="image" name="Image" type="ezimage" image-file-key="4daa5223cf84e604df452bbcf77edd44" alternative-text=""/>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="299" ezremote:identifier="caption" name="Caption (Image)" type="ezxmltext">
+                  <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
+                    <paragraph>photo by galeria_miradas</paragraph>
+                  </section>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="300" ezremote:identifier="publish_date" name="Publish date" type="ezdatetime">
+                  <date_time>Thu, 01 Jan 1970 00:00:00 GMT</date_time>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="301" ezremote:identifier="star_rating" name="Star Rating" type="ezsrrating">
+                  <data-int></data-int>
+                  <data-float>0</data-float>
+                  <data-text></data-text>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="302" ezremote:identifier="tags" name="Tags" type="ezkeyword">
+                  <keyword-string>aconcagua</keyword-string>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="303" ezremote:identifier="location" name="Location" type="ezgmaplocation" ezgl_has_content="1">
+                  <latitude>-32.653333</latitude>
+                  <longitude>-70.010833</longitude>
+                  <address>aconcagua, argentina</address>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="304" ezremote:identifier="comments" name="Comments" type="ezcomcomments">
+                  <data-int>1</data-int>
+                  <data-float>1</data-float>
+                  <data-text></data-text>
+                </ezobject:attribute>
+              </ezobject:object-translation>
+              <ezobject:node-assignment-list>
+                <node-assignment is-main-node="1" parent-node-remote-id="595c35359a2d37e2dba89eb8dba4ce93" name="Create" node-id="71" remote-id="fd2168050d72bcfe92b1250586a8a87f" sort-field="path" sort-order="1" priority="0"/>
+              </ezobject:node-assignment-list>
+            </ezobject:version>
+          </ezobject:version-list>
+        </ezremote:object>
+        <ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="70" name="Optimize" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="16" ezremote:published="Wed, 28 Mar 2012 11:23:12 GMT" ezremote:modified="Fri, 06 Sep 2013 19:37:48 GMT" remote_id="16923c9da5bf2dc970e7c802ae434f8e" class_remote_id="c15b600eb9198b1924063b5a68758232" ezremote:class_identifier="article" ezremote:always_available="0" initial_language="eng-GB">
+          <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="4">
+            <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="4" ezremote:status="1" ezremote:created="Fri, 06 Sep 2013 19:37:20 GMT" ezremote:modified="Fri, 06 Sep 2013 19:37:48 GMT" initial_language="eng-GB">
+              <ezobject:object-translation language="eng-GB" object_name="Optimize">
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="305" ezremote:identifier="title" name="Title" type="ezstring">
+                  <text>Optimize</text>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="306" ezremote:identifier="short_title" name="Short title" type="ezstring">
+                  <text></text>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="307" ezremote:identifier="author" name="Author" type="ezauthor">
+                  <ezauthor>
+                    <authors>
+                      <author id="0" name="Administrator User" email="nospam@ez.no"/>
+                    </authors>
+                  </ezauthor>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="308" ezremote:identifier="intro" name="Summary" type="ezxmltext">
+                  <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
+                    <paragraph>It’s about the right content at the right time and in the right format!</paragraph>
+                  </section>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="309" ezremote:identifier="body" name="Body" type="ezxmltext">
+                  <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
+                    <paragraph>eZ Publish Enterprise offers an entire set of capabilities including search, analytics, personalized recommendations as well as automated and integrated testing functionality (e.g. A/B, Multivariate, etc.). Efficient search starts with enabling editors and letting them search for existing content to reuse and re-purpose. You can analyze the user behaviour, create a compelling content strategy and provide automated scenarios based on the users' behaviour.</paragraph>
+                  </section>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="310" ezremote:identifier="image" name="Image" type="ezimage" image-file-key="b30c789136efae94eb10e575b887a799" alternative-text=""/>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="311" ezremote:identifier="caption" name="Caption (Image)" type="ezxmltext">
+                  <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
+                    <paragraph>photo by Ostrosky.</paragraph>
+                  </section>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="312" ezremote:identifier="publish_date" name="Publish date" type="ezdatetime">
+                  <date_time>Thu, 01 Jan 1970 00:00:00 GMT</date_time>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="313" ezremote:identifier="star_rating" name="Star Rating" type="ezsrrating">
+                  <data-int></data-int>
+                  <data-float>0</data-float>
+                  <data-text></data-text>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="314" ezremote:identifier="tags" name="Tags" type="ezkeyword">
+                  <keyword-string>aconcagua</keyword-string>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="315" ezremote:identifier="location" name="Location" type="ezgmaplocation" ezgl_has_content="1">
+                  <latitude>-32.653333</latitude>
+                  <longitude>-70.010833</longitude>
+                  <address>aconcagua argentina</address>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="316" ezremote:identifier="comments" name="Comments" type="ezcomcomments">
+                  <data-int>-1</data-int>
+                  <data-float>-1</data-float>
+                  <data-text></data-text>
+                </ezobject:attribute>
+              </ezobject:object-translation>
+              <ezobject:node-assignment-list>
+                <node-assignment is-main-node="1" parent-node-remote-id="595c35359a2d37e2dba89eb8dba4ce93" name="Optimize" node-id="72" remote-id="cbd26486e64e79b91e7b4cc4ca6a7f87" sort-field="path" sort-order="1" priority="0"/>
+              </ezobject:node-assignment-list>
+            </ezobject:version>
+          </ezobject:version-list>
+        </ezremote:object>
+        <ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="71" name="Getting Started with eZ Publish Platform" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="16" ezremote:published="Wed, 28 Mar 2012 11:27:54 GMT" ezremote:modified="Fri, 06 Sep 2013 19:45:32 GMT" remote_id="699c5b72347666a663adf84f5410ea18" class_remote_id="c15b600eb9198b1924063b5a68758232" ezremote:class_identifier="article" ezremote:always_available="0" initial_language="eng-GB">
+          <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="3">
+            <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="3" ezremote:status="1" ezremote:created="Fri, 06 Sep 2013 19:45:01 GMT" ezremote:modified="Fri, 06 Sep 2013 19:45:32 GMT" initial_language="eng-GB">
+              <ezobject:object-translation language="eng-GB" object_name="Getting Started with eZ Publish Platform">
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="317" ezremote:identifier="title" name="Title" type="ezstring">
+                  <text>Getting Started with eZ Publish Platform</text>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="318" ezremote:identifier="short_title" name="Short title" type="ezstring">
+                  <text></text>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="319" ezremote:identifier="author" name="Author" type="ezauthor">
+                  <ezauthor>
+                    <authors>
+                      <author id="0" name="Administrator User" email="nospam@ez.no"/>
+                    </authors>
+                  </ezauthor>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="320" ezremote:identifier="intro" name="Summary" type="ezxmltext">
+                  <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
+                    <paragraph>
+                      <line xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">Welcome to eZ Publish Platform 5.2, the Aconcagua release. </line>
+                      <line xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">This release brings several new features and general improvements on the foundations introduced in eZ Publish Platform 5</line>
+                    </paragraph>
+                  </section>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="321" ezremote:identifier="body" name="Body" type="ezxmltext">
+                  <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
+                    <section>
+                      <header>Key Selected New Features in eZ Publish 5</header>
+                      <paragraph>Our objective is to provide you the most compelling Multichannel Web and Customer Experience Platform. With the eZ Publish 5 architecture we encompass a thoroughly revamped platform, which facilitates better user experiences, increases productivity, and enables your digital business model sustainably. Underlying and enabling these ambitious goals is a completely new but thoroughly backward compatible product architecture, along with a host of user interface (UI) enhancements.</paragraph>
+                      <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
+                        <ul>
+                          <li>
+                            <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">New Public API – Streamlined PHP Interface to eZ Publish</paragraph>
+                          </li>
+                          <li>
+                            <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">Enhanced REST API – eZ Publish as a Web Service</paragraph>
+                          </li>
+                          <li>
+                            <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">New high-performance framework for Web projects – Symfony full stack</paragraph>
+                          </li>
+                          <li>
+                            <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">New modern template engine – Twig based</paragraph>
+                          </li>
+                          <li>
+                            <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">Still totally backward compatible with 4.x legacy architecture</paragraph>
+                          </li>
+                          <li>
+                            <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">Many new and updated extensions in the eZ Market</paragraph>
+                          </li>
+                        </ul>
+                      </paragraph>
+                      <paragraph>For further information visit <link href="\">www.ez.no,</link> the documentation: <link href="\">doc.ez.no</link> and the <link href="\">share.ez.no</link> community.</paragraph>
+                    </section>
+                  </section>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="322" ezremote:identifier="image" name="Image" type="ezimage" image-file-key="5b71995be15fb77afea60fb3c5305353" alternative-text=""/>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="323" ezremote:identifier="caption" name="Caption (Image)" type="ezxmltext">
+                  <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
+                    <paragraph>Image by <link href="http://www.flickr.com/photos/flissphil/">PhillipC</link></paragraph>
+                  </section>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="324" ezremote:identifier="publish_date" name="Publish date" type="ezdatetime">
+                  <date_time>Thu, 01 Jan 1970 00:00:00 GMT</date_time>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="325" ezremote:identifier="star_rating" name="Star Rating" type="ezsrrating">
+                  <data-int></data-int>
+                  <data-float>0</data-float>
+                  <data-text></data-text>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="326" ezremote:identifier="tags" name="Tags" type="ezkeyword">
+                  <keyword-string>aconcagua</keyword-string>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="327" ezremote:identifier="location" name="Location" type="ezgmaplocation" ezgl_has_content="1">
+                  <latitude>-32.65036</latitude>
+                  <longitude>-70.022392</longitude>
+                  <address>paris</address>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="328" ezremote:identifier="comments" name="Comments" type="ezcomcomments">
+                  <data-int>-1</data-int>
+                  <data-float>-1</data-float>
+                  <data-text></data-text>
+                </ezobject:attribute>
+              </ezobject:object-translation>
+              <ezobject:node-assignment-list>
+                <node-assignment is-main-node="1" parent-node-remote-id="595c35359a2d37e2dba89eb8dba4ce93" name="Getting Started with eZ Publish Platform" node-id="73" remote-id="80536ae793c16e51018c632b9c90ff25" sort-field="path" sort-order="1" priority="0"/>
+              </ezobject:node-assignment-list>
+            </ezobject:version>
+          </ezobject:version-list>
+        </ezremote:object>
       <ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="85" name="Shopping" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="23" ezremote:published="Wed, 28 Mar 2012 10:12:08 GMT" ezremote:modified="Mon, 25 Feb 2013 18:05:55 GMT" remote_id="fdfad0d10118eda1334a1aa8ee117ca6" class_remote_id="e36c458e3e4a81298a0945f53a2c81f4" ezremote:class_identifier="landing_page" ezremote:always_available="0" initial_language="eng-GB">
         <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="21">
           <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="21" ezremote:status="1" ezremote:created="Mon, 25 Feb 2013 18:05:18 GMT" ezremote:modified="Mon, 25 Feb 2013 18:05:55 GMT" initial_language="eng-GB">
@@ -1920,42 +1920,36 @@
           </ezobject:version>
         </ezobject:version-list>
       </ezremote:object>
-      <ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" ezremote:id="149" name="It's helping me Optimize my Business" ezremote:section_id="7" ezremote:owner_id="103" ezremote:class_id="18" ezremote:published="Wed, 23 Jan 2013 16:02:17 GMT" ezremote:modified="Mon, 25 Feb 2013 17:19:23 GMT" remote_id="1586a075852367c4a665361e9905ba29" class_remote_id="7ecb961056b7cbb30f22a91357e0a007" ezremote:class_identifier="blog_post" ezremote:always_available="0" initial_language="eng-GB">
-        <ezobject:version-list xmlns:ezobject="http://ez.no/object/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" active_version="12">
-          <ezobject:version xmlns:ezremote="http://ez.no/ezobject" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" ezremote:version="12" ezremote:status="1" ezremote:created="Mon, 25 Feb 2013 17:17:27 GMT" ezremote:modified="Mon, 25 Feb 2013 17:19:23 GMT" initial_language="eng-GB">
-            <ezobject:object-translation xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" language="eng-GB" object_name="It's helping me Optimize my Business">
-              <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="909" ezremote:identifier="title" name="Title" type="ezstring">
-                <text>It's helping me Optimize my Business</text>
-              </ezobject:attribute>
-              <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" ezremote:id="910" ezremote:identifier="body" name="Body" type="ezxmltext">
-                <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
-                  <paragraph>Thanks to eZ Publish I was able to run an A/B testing campaign on my landing page in 2 mn.</paragraph>
-                  <paragraph>For instance, on <link node_remote_id="3e49b9fe4c95366cb590d3beb32a5838">All-you-need-to-know-about-eZ-Publish-5-the-Stadda-release</link>,</paragraph>
-                  <paragraph>I can run a campaign that will distribute the traffic between the original page and another test for it. Then, analytics at one click from me, I can track and measure the efficiency of each test scenario!</paragraph>
-                  <paragraph>Do you like my funel by the way? below:</paragraph>
-                  <paragraph>
-                    <embed view="embed" size="imagelarge" custom:offset="0" custom:limit="5" object_remote_id="eb51c2e7184b625fea3d798511e600ce"/>
-                  </paragraph>
-                </section>
-              </ezobject:attribute>
-              <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="911" ezremote:identifier="publication_date" name="Publication date" type="ezdatetime">
-                <date_time>Wed, 23 Jan 2013 16:02:00 GMT</date_time>
-              </ezobject:attribute>
-              <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="912" ezremote:identifier="tags" name="Tags" type="ezkeyword">
-                <keyword-string>a/b testing, landing page</keyword-string>
-              </ezobject:attribute>
-              <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="913" ezremote:identifier="comments" name="Comments" type="ezcomcomments">
-                <data-int>1</data-int>
-                <data-float>1</data-float>
-                <data-text></data-text>
-              </ezobject:attribute>
-            </ezobject:object-translation>
-            <ezobject:node-assignment-list>
-              <node-assignment is-main-node="1" parent-node-remote-id="0d05ff0c44f63901d8a1c0fbc5abc884" name="It's helping me Optimize my Business" node-id="148" remote-id="510dcc113607e92399a8486d1e2c9a3f" sort-field="path" sort-order="1" priority="0"/>
-            </ezobject:node-assignment-list>
-          </ezobject:version>
-        </ezobject:version-list>
-      </ezremote:object>
+        <ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="91" name="It's helping me  optimizing my business" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="18" ezremote:published="Wed, 23 Jan 2013 16:02:17 GMT" ezremote:modified="Fri, 06 Sep 2013 19:43:18 GMT" remote_id="1586a075852367c4a665361e9905ba29" class_remote_id="7ecb961056b7cbb30f22a91357e0a007" ezremote:class_identifier="blog_post" ezremote:always_available="0" initial_language="eng-GB">
+          <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="2">
+            <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="2" ezremote:status="1" ezremote:created="Fri, 06 Sep 2013 19:41:03 GMT" ezremote:modified="Fri, 06 Sep 2013 19:43:18 GMT" initial_language="eng-GB">
+              <ezobject:object-translation language="eng-GB" object_name="It's helping me  optimizing my business">
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="473" ezremote:identifier="title" name="Title" type="ezstring">
+                  <text>It's helping me optimizing my business</text>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="474" ezremote:identifier="body" name="Body" type="ezxmltext">
+                  <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
+                    <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">Mauris hendrerit dignissim nisl, non sagittis velit aliquet ut. Ut egestas euismod tempus. Aliquam luctus ultrices interdum. Donec commodo, mi quis cursus feugiat, odio arcu tempor tortor, et sollicitudin velit nulla vitae mi. Cras feugiat interdum sem, quis vestibulum nisl interdum vel. Fusce eget nibh mauris. Nulla et purus sed urna pharetra egestas eu sed dui. Nulla sollicitudin eu eros sit amet porttitor.In lacus justo, cursus tincidunt quam eu, pretium pellentesque tellus. Nulla condimentum ultrices lorem, in ornare nulla imperdiet nec. Etiam facilisis vestibulum ligula condimentum interdum. Sed molestie nunc gravida nunc tristique gravida. Proin laoreet luctus enim nec interdum. Proin massa mi, rutrum et dui sit amet, consectetur elementum sem. Sed lorem massa, scelerisque in nunc eu, tempor auctor purus. Aliquam convallis enim non viverra molestie. Ut quis arcu fringilla, vehicula eros et, scelerisque turpis. Donec at ante eu mauris sagittis posuere. Suspendisse sit amet risus dolor. Donec posuere massa eget consequat malesuada. Nunc eget feugiat massa.</paragraph>
+                  </section>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="475" ezremote:identifier="publication_date" name="Publication date" type="ezdatetime">
+                  <date_time>Wed, 23 Jan 2013 16:02:00 GMT</date_time>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="476" ezremote:identifier="tags" name="Tags" type="ezkeyword">
+                  <keyword-string>a/b testing, landing page</keyword-string>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="477" ezremote:identifier="comments" name="Comments" type="ezcomcomments">
+                  <data-int>1</data-int>
+                  <data-float>1</data-float>
+                  <data-text></data-text>
+                </ezobject:attribute>
+              </ezobject:object-translation>
+              <ezobject:node-assignment-list>
+                <node-assignment is-main-node="1" parent-node-remote-id="0d05ff0c44f63901d8a1c0fbc5abc884" name="It's helping me  optimizing my business" node-id="93" remote-id="510dcc113607e92399a8486d1e2c9a3f" sort-field="path" sort-order="1" priority="0"/>
+              </ezobject:node-assignment-list>
+            </ezobject:version>
+          </ezobject:version-list>
+        </ezremote:object>
       <ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" ezremote:id="191" name="Discover eZ Publish 5" ezremote:section_id="1" ezremote:owner_id="190" ezremote:class_id="19" ezremote:published="Fri, 25 Jan 2013 16:11:47 GMT" ezremote:modified="Wed, 30 Jan 2013 15:39:28 GMT" remote_id="ec8ceac6bc6c2d3cc8b4d3fbf5655914" class_remote_id="5ef96fd48e645dbdeb803014fe7af178" ezremote:class_identifier="call_to_action" ezremote:always_available="0" initial_language="eng-GB">
         <ezobject:version-list xmlns:ezobject="http://ez.no/object/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" active_version="7">
           <ezobject:version xmlns:ezremote="http://ez.no/ezobject" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" ezremote:version="7" ezremote:status="1" ezremote:created="Wed, 30 Jan 2013 15:39:01 GMT" ezremote:modified="Wed, 30 Jan 2013 15:39:28 GMT" initial_language="eng-GB">
@@ -1964,36 +1958,36 @@
                 <text>Discover eZ Publish 5</text>
               </ezobject:attribute>
               <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" ezremote:id="1198" ezremote:identifier="description" name="Description" type="ezxmltext">
-                <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
-                  <paragraph><embed align="right" view="embed" size="medium" custom:offset="0" custom:limit="5" object_remote_id="c93a009eec36c5090224470880d62384"/>Stadda (Lule Sami: Stádda, Norwegian: Stetind or Stetinden) is a mountain in the municipality of Tysfjord in Nordland county, Norway. It is located about 15 kilometres (9.3 mi) northeast of the village of Kjøpsvik. The mountain has very smooth sides reaching all the way to the fjord. Stadda has an obelisk-shape which gives it a very distinct look. In 2002, it was voted to be the "National Mountain" of Norway by listeners of NRK. Stadda is also the codename for the eZ Publish 5.1 release.</paragraph>
-                  <section>
+                  <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
+                    <paragraph><embed size="medium" view="embed" align="right" custom:offset="0" custom:limit="5" object_remote_id="c93a009eec36c5090224470880d62384"/>Aconcagua is the highest mountain in the Americas at 6,960.8 m. It is located in the Andes mountain range, in the province of Mendoza, Argentina, and lies 112 kilometres west by north of its capital, the city of Mendoza.</paragraph>
                     <section>
-                      <header>White Papers</header>
+                      <section>
+                        <header>White Papers</header>
+                        <paragraph>Download our white paper if you want to quickly discover eZ Publish 5.</paragraph>
+                        <paragraph>This white paper contains</paragraph>
+                        <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
+                          <ul>
+                            <li>
+                              <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
+                                <strong>A detailed presentation of eZ Publish 5 for Marketers and Editors.</strong>
+                              </paragraph>
+                            </li>
+                            <li>
+                              <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
+                                <strong>An introduction to the eZ Publish 5 technical architecture.</strong>
+                              </paragraph>
+                            </li>
+                            <li>
+                              <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
+                                <strong>A clear summary of the value of using such a digital user experience management platform.</strong>
+                              </paragraph>
+                            </li>
+                          </ul>
+                        </paragraph>
+                        <paragraph>Don't hesitate, leave us your contact information and download this paper to get all the benefits of eZ Publish 5.</paragraph>
+                      </section>
                     </section>
                   </section>
-                  <paragraph>Download our white paper if you want to quickly discover Stadda and eZ Publish 5.</paragraph>
-                  <paragraph>This white paper contains</paragraph>
-                  <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
-                    <ul>
-                      <li>
-                        <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
-                          <strong>A detailed presentation of eZ Publish 5 for Marketers and Editors.</strong>
-                        </paragraph>
-                      </li>
-                      <li>
-                        <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
-                          <strong>An introduction to the eZ Publish 5 technical architecture.</strong>
-                        </paragraph>
-                      </li>
-                      <li>
-                        <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
-                          <strong>A clear summary of the value of using such a digital user experience management platform.</strong>
-                        </paragraph>
-                      </li>
-                    </ul>
-                  </paragraph>
-                  <paragraph>Don't hesitate, leave us your contact information and download this paper to get all the benefits of eZ Publish 5.</paragraph>
-                </section>
               </ezobject:attribute>
               <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1199" ezremote:identifier="feedback_page" name="Feedback Page" type="ezobjectrelation">
                 <related-object-remote-id>681116da12d3fed558704658248067da</related-object-remote-id>

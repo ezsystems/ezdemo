@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package version="5.0-0">
+<package version="5.2.0-alpha1">
     <name>ezdemo_democontent</name>
     <summary></summary>
     <description></description>
     <vendor>eZ systems</vendor>
     <type value="contentobject"/>
     <ezpublish>
-        <version>4.7.0</version>
-        <named-version>4.7</named-version>
+        <version>5.2.0</version>
+        <named-version>5.2</named-version>
     </ezpublish>
     <maintainers>
         <maintainer>
@@ -60,8 +60,8 @@
       <simple-file key="0121cb57124840749b68a8da7de79716" original-path="var/ezdemo_site/storage/original/video/cbca3a8812784f3989158d295cc0c016.mp4" package-path="simplefiles/ed958bed.mp4"/>
     </simple-files>
     <version>
-        <number>1.0</number>
-        <release>0</release>
+        <number>5.2</number>
+        <release>0-alpha1</release>
     </version>
     <licence>GPL</licence>
     <state>stable</state>
