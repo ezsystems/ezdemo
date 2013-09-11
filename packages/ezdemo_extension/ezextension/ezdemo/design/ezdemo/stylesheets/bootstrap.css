@@ -2449,6 +2449,9 @@ textarea[readonly] {
   border-color: #ddd;
   cursor: not-allowed;
 }
+.spamfilter {
+  display: none;
+}
 .control-group.warning > label,
 .control-group.warning .help-block,
 .control-group.warning .help-inline {
