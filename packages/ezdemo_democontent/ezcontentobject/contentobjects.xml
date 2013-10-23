@@ -1936,7 +1936,7 @@
                   <date_time>Wed, 23 Jan 2013 16:02:00 GMT</date_time>
                 </ezobject:attribute>
                 <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="476" ezremote:identifier="tags" name="Tags" type="ezkeyword">
-                  <keyword-string>a/b testing, landing page</keyword-string>
+                  <keyword-string>landing page</keyword-string>
                 </ezobject:attribute>
                 <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="477" ezremote:identifier="comments" name="Comments" type="ezcomcomments">
                   <data-int>1</data-int>
