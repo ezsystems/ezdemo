@@ -914,7 +914,7 @@
                 <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="327" ezremote:identifier="location" name="Location" type="ezgmaplocation" ezgl_has_content="1">
                   <latitude>-32.65036</latitude>
                   <longitude>-70.022392</longitude>
-                  <address>paris</address>
+                  <address></address>
                 </ezobject:attribute>
                 <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="328" ezremote:identifier="comments" name="Comments" type="ezcomcomments">
                   <data-int>-1</data-int>
