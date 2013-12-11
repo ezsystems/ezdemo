@@ -274,7 +274,52 @@ class ezdemoInstaller extends eZSiteInstaller
                         array(
                             'module' => 'content',
                             'function' => 'view_embed',
-                            'limitation' => array(),
+                            'limitation' => array(
+                                'Section' => array(
+                                    '_function' => 'sectionIDbyName',
+                                    '_params' => array(
+                                        'section_name' => 'Standard'
+                                    )
+                                )
+                            )
+                        ),
+                        array(
+                            'module' => 'content',
+                            'function' => 'view_embed',
+                            'limitation' => array(
+                                'Class' => array(
+                                    array(
+                                        '_function' => 'classIDbyIdentifier',
+                                        '_params' => array(
+                                            'identifier' => 'image'
+                                        )
+                                    ),
+                                    array(
+                                        '_function' => 'classIDbyIdentifier',
+                                        '_params' => array(
+                                            'identifier' => 'banner'
+                                        )
+                                    ),
+                                    array(
+                                        '_function' => 'classIDbyIdentifier',
+                                        '_params' => array(
+                                            'identifier' => 'video'
+                                        )
+                                    ),
+                                    array(
+                                        '_function' => 'classIDbyIdentifier',
+                                        '_params' => array(
+                                            'identifier' => 'file'
+                                        )
+                                    )
+                                ),
+                                'Section' => array(
+                                    '_function' => 'sectionIDbyName',
+                                    '_params' => array(
+                                        'section_name' => 'Media'
+                                    )
+                                )
+                            )
                         )
                     ) 
                 ) 
