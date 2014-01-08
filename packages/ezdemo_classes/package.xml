@@ -112,6 +112,12 @@
       <provide type="ezcontentclass"
                name="contentclass"
                value="video"/>
+      <provide type="ezcontentclass"
+               name="contentclass"
+               value="place"/>
+      <provide type="ezcontentclass"
+               name="contentclass"
+               value="place_list"/>
     </provides>
     <requires />
     <obsoletes />
@@ -184,6 +190,12 @@
     <item type="ezcontentclass"
           filename="class-video"
           sub-directory="ezcontentclass" />
+    <item type="ezcontentclass"
+          filename="class-place"
+          sub-directory="ezcontentclass" />
+    <item type="ezcontentclass"
+          filename="class-place_list"
+          sub-directory="ezcontentclass" />
   </install>
   <uninstall>
     <item type="ezcontentclass"
@@ -251,6 +263,12 @@
           sub-directory="ezcontentclass" />
     <item type="ezcontentclass"
           filename="class-video"
+          sub-directory="ezcontentclass" />
+    <item type="ezcontentclass"
+          filename="class-place"
+          sub-directory="ezcontentclass" />
+    <item type="ezcontentclass"
+          filename="class-place_list"
           sub-directory="ezcontentclass" />
   </uninstall>
 </package>
