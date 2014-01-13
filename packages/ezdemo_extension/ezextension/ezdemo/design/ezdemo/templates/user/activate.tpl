@@ -19,7 +19,7 @@
 </p>
 
 <div class="buttonblock">
-<form action={"/user/login"|ezurl} method="post">
+<form action={"/login_check"|ezurl} method="post">
     <input class="button" type="submit" value="{'OK'|i18n( 'design/ezdemo/user/activate' )}" />
 </form>
 </div>

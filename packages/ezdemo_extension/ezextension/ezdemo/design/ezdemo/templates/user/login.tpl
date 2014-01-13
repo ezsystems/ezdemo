@@ -1,6 +1,6 @@
 <div class="user-login">
 
-<form method="post" action={"/user/login/"|ezurl} name="loginform">
+<form method="post" action={"/login_check"|ezurl} name="loginform">
 
 <div class="attribute-header">
     <h1 class="long">{"Login"|i18n("design/ezdemo/user/login")}</h1>
