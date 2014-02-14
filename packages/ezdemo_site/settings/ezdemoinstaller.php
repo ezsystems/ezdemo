@@ -1668,7 +1668,8 @@ class ezdemoInstaller extends eZSiteInstaller
                         'event_calender', 
                         'landing_page', 
                         'forums', 
-                        'gallery' 
+                        'gallery',
+                        'blog'
                     ) 
                 ) 
             ) 
