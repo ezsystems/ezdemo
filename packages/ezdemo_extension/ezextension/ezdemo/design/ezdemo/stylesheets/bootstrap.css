@@ -4510,6 +4510,12 @@ a.thumbnail:hover {
   margin-right: auto;
   text-align: center;
 }
+.embed-inline-left {
+  float: left;
+}
+.embed-inline-right {
+  float: right;
+}
 .block .left {
   width: 48%;
   float: left;
