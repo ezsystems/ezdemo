@@ -23,7 +23,7 @@
             {attribute_edit_gui attribute=$object.data_map.message}
         </div>
 
-        {def $notification_access=fetch( 'user', 'has_access_to', hash( 'module', 'notification', 'function', 'addtonotification' ) )}
+        {def $notification_access=fetch( 'user', 'has_access_to', hash( 'module', 'notification', 'function', 'use' ) )}
         <div class="block">
             {if $notification_access}
                 <label>{$object.data_map.notify_me.contentclass_attribute.name}</label>
