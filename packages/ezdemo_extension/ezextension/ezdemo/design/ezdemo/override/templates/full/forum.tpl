@@ -15,7 +15,7 @@
 
     {if is_unset( $versionview_mode )}
     {if $node.object.can_create}
-        {def $notification_access=fetch( 'user', 'has_access_to', hash( 'module', 'notification', 'function', 'addtonotification' ) )}
+        {def $notification_access=fetch( 'user', 'has_access_to', hash( 'module', 'notification', 'function', 'use' ) )}
         <form method="post" action={"content/action/"|ezurl}>
             <input class="button forum-new-topic" type="submit" name="NewButton" value="{'New topic'|i18n( 'design/ezdemo/full/forum' )}" />
             <input type="hidden" name="ContentNodeID" value="{$node.node_id}" />
