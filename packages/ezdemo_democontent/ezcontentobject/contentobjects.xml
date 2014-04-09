@@ -106,31 +106,31 @@
                 </ezauthor>
               </ezobject:attribute>
               <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="550" ezremote:identifier="intro" name="Summary" type="ezxmltext">
-                <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
-                  <paragraph>eZ is a global company with offices around the world including Skien (Norway), New York (USA), Oslo (Norway), Cologne (Germany), Paris (France), Lyon (France), Beijing (China), Tokyo (Japan), Singapore, London (UK)</paragraph>
-                  <paragraph><link href="http://ez.no/About-eZ/Contact-Us">Contact us</link> for more information!</paragraph>
-                </section>
+                  <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
+                    <paragraph>eZ is a global company with offices around the world including Skien (Norway), New York (USA), Oslo (Norway), Cologne (Germany), Paris (France), Lyon (France), Tokyo (Japan), Katowice (Poland)</paragraph>
+                    <paragraph><link href="http://ez.no/About-eZ/Contact-Us">Contact us</link> for more information!</paragraph>
+                  </section>
               </ezobject:attribute>
               <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="551" ezremote:identifier="body" name="Body" type="ezxmltext">
-                <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
-                  <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
-                    <ul>
-                      <li>
-                        <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">eZ Official site: <link href="http://ez.no">http://ez.no</link></paragraph>
-                      </li>
-                      <li>
-                        <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">eZ Community site: <link href="http://share.ez.no">http://share.ez.no</link></paragraph>
-                      </li>
-                      <li>
-                        <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">Documentation: <link href="http://doc.ez.no">http://doc.ez.no</link></paragraph>
-                      </li>
-                      <li>
-                        <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">Follow us on <link href="https://twitter.com/eZSystems">Twitter</link>, <link href="http://www.facebook.com/eZPublishEnterprise">Facebook</link> and <link href="https://www.linkedin.com/company/ez-systems">LinkedIn</link></paragraph>
-                      </li>
-                    </ul>
-                  </paragraph>
-                  <paragraph>Copyright © 2013 eZ Systems AS (except where otherwise noted). All rights reserved.</paragraph>
-                </section>
+                  <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
+                    <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
+                      <ul>
+                        <li>
+                          <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">eZ Official site: <link href="http://ez.no">http://ez.no</link></paragraph>
+                        </li>
+                        <li>
+                          <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">eZ Community site: <link href="http://share.ez.no">http://share.ez.no</link></paragraph>
+                        </li>
+                        <li>
+                          <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">Documentation: <link href="http://doc.ez.no">http://doc.ez.no</link></paragraph>
+                        </li>
+                        <li>
+                          <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">Follow us on <link href="https://twitter.com/eZSystems">Twitter</link>, <link href="http://www.facebook.com/eZPublishEnterprise">Facebook</link> and <link href="https://www.linkedin.com/company/ez-systems">LinkedIn</link></paragraph>
+                        </li>
+                      </ul>
+                    </paragraph>
+                    <paragraph>Copyright © 2014 eZ Systems AS (except where otherwise noted). All rights reserved.</paragraph>
+                  </section>
               </ezobject:attribute>
               <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="552" ezremote:identifier="image" name="Image" type="ezimage" alternative-text=""/>
               <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="553" ezremote:identifier="caption" name="Caption (Image)" type="ezxmltext">
@@ -636,12 +636,12 @@
                   <data-text></data-text>
                 </ezobject:attribute>
                 <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="278" ezremote:identifier="tags" name="Tags" type="ezkeyword">
-                  <keyword-string>aconcagua</keyword-string>
+                  <keyword-string>Ventoux</keyword-string>
                 </ezobject:attribute>
                 <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="279" ezremote:identifier="location" name="Location" type="ezgmaplocation" ezgl_has_content="1">
-                  <latitude>-32.653333</latitude>
-                  <longitude>-70.010833</longitude>
-                  <address>aconcagua, argentina</address>
+                    <latitude>44.173966</latitude>
+                    <longitude>5.278285</longitude>
+                    <address>Ventoux, France</address>
                 </ezobject:attribute>
                 <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="280" ezremote:identifier="comments" name="Comments" type="ezcomcomments">
                   <data-int>1</data-int>
@@ -684,9 +684,9 @@
                 </ezobject:attribute>
                 <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="286" ezremote:identifier="image" name="Image" type="ezimage" image-file-key="324db4a22b0841c40e10a153e13f9f77" alternative-text="Content Clustering with eZ Find"/>
                 <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="287" ezremote:identifier="caption" name="Caption (Image)" type="ezxmltext">
-                  <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
-                    <paragraph>photo by macha.cl</paragraph>
-                  </section>
+                    <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
+                      <paragraph>photo by <link href="http://www.flickr.com/photos/43302713@N04/4033066123/">muneaki</link> (<link xhtml:title="w:en:Creative Commons" href="http://en.wikipedia.org/wiki/en:Creative_Commons">Creative Commons</link> Attribution-Share Alike)</paragraph>
+                    </section>
                 </ezobject:attribute>
                 <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="288" ezremote:identifier="publish_date" name="Publish date" type="ezdatetime">
                   <date_time>Thu, 01 Jan 1970 00:00:00 GMT</date_time>
@@ -745,9 +745,9 @@
                 </ezobject:attribute>
                 <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="298" ezremote:identifier="image" name="Image" type="ezimage" image-file-key="4daa5223cf84e604df452bbcf77edd44" alternative-text=""/>
                 <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="299" ezremote:identifier="caption" name="Caption (Image)" type="ezxmltext">
-                  <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
-                    <paragraph>photo by galeria_miradas</paragraph>
-                  </section>
+                    <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
+                      <paragraph>photo by <link href="https://www.flickr.com/photos/magnusmaximus/8659055714/in/photolist-ecaVA3-ecaWc9-bDssF1-bDstQ3-bDskkh-bDshZy-bSncfB-bSnb7z-bSn9r2-bDsARU-bSn3MF-bDsmm1-bDsmTw-bDsvxY-bSnda6-bSnjYr-bSneFz-bSn65z-bDsrwN-bSnbBv-bSn7HT-bDspJQ-bDsf9J-bSn9dD-bSn3u2-bDspvm-bDsfLW-7Pvvs5-5JgCq7-zit1Z-6tspRA-zitRm-6udqyo-bDXDkN-bSShNP-2KKafv-atvJ3v-QfykJ-8C3xX3-d9WBzG-d9WMtX-d9WqBc-d9WFsj-d9Wmp7-d9WHWX-d9Wxcb-KoVQN-evTpv3-feDXwE-3d4ZsV">Mzximvs VdB</link> (cc Attribution-ShareAlike license)</paragraph>
+                    </section>
                 </ezobject:attribute>
                 <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="300" ezremote:identifier="publish_date" name="Publish date" type="ezdatetime">
                   <date_time>Thu, 01 Jan 1970 00:00:00 GMT</date_time>
@@ -758,12 +758,12 @@
                   <data-text></data-text>
                 </ezobject:attribute>
                 <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="302" ezremote:identifier="tags" name="Tags" type="ezkeyword">
-                  <keyword-string>aconcagua</keyword-string>
+                  <keyword-string>Ventoux</keyword-string>
                 </ezobject:attribute>
                 <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="303" ezremote:identifier="location" name="Location" type="ezgmaplocation" ezgl_has_content="1">
-                  <latitude>-32.653333</latitude>
-                  <longitude>-70.010833</longitude>
-                  <address>aconcagua, argentina</address>
+                    <latitude>44.173966</latitude>
+                    <longitude>5.278285</longitude>
+                    <address>Ventoux, France</address>
                 </ezobject:attribute>
                 <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="304" ezremote:identifier="comments" name="Comments" type="ezcomcomments">
                   <data-int>1</data-int>
@@ -806,9 +806,9 @@
                 </ezobject:attribute>
                 <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="310" ezremote:identifier="image" name="Image" type="ezimage" image-file-key="b30c789136efae94eb10e575b887a799" alternative-text=""/>
                 <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="311" ezremote:identifier="caption" name="Caption (Image)" type="ezxmltext">
-                  <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
-                    <paragraph>photo by Ostrosky.</paragraph>
-                  </section>
+                    <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
+                      <paragraph>photo by <link href="https://www.flickr.com/photos/troye/6381927617/in/photolist-mWNzC-6yU6wD-6yYpC3-6yU6w4-6yYC8S-79snTC-79ow3P-6yYpCC-6yYpD1-6yYpCL-6yYC83-6yYC8w-6yU6wk-6yYpCq-6yU6vM-6yYpCj-7kVdJm-aHX3JM-pbB7a-5WmxEz-d7CsQy-79so8m-vPZHt-aHX5Kk-6yZf5y-79owhr-eQv3BR-ec5ciz-79ow1n-8Tae4n-6yYC8h-6yU6x2-6yYC8J-6yU6wt-6z9Fit-6zdK9q-6zdHkw-6z9ECe-6z9Dov-6zdJfN-6zdJxJ-6zdJ5E-6zdHNN-6z9EPc-bWfqYy-dmQR88-6DfcH5-79so15-79so5b-qFfY2">troy owens</link> (Creative Commons Attribution-ShareAlike License).</paragraph>
+                    </section>
                 </ezobject:attribute>
                 <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="312" ezremote:identifier="publish_date" name="Publish date" type="ezdatetime">
                   <date_time>Thu, 01 Jan 1970 00:00:00 GMT</date_time>
@@ -819,12 +819,12 @@
                   <data-text></data-text>
                 </ezobject:attribute>
                 <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="314" ezremote:identifier="tags" name="Tags" type="ezkeyword">
-                  <keyword-string>aconcagua</keyword-string>
+                  <keyword-string>Ventoux</keyword-string>
                 </ezobject:attribute>
                 <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="315" ezremote:identifier="location" name="Location" type="ezgmaplocation" ezgl_has_content="1">
-                  <latitude>-32.653333</latitude>
-                  <longitude>-70.010833</longitude>
-                  <address>aconcagua argentina</address>
+                    <latitude>44.173966</latitude>
+                    <longitude>5.278285</longitude>
+                    <address>Ventoux, France</address>
                 </ezobject:attribute>
                 <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="316" ezremote:identifier="comments" name="Comments" type="ezcomcomments">
                   <data-int>-1</data-int>
@@ -856,49 +856,46 @@
                   </ezauthor>
                 </ezobject:attribute>
                 <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="320" ezremote:identifier="intro" name="Summary" type="ezxmltext">
-                  <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
-                    <paragraph>
-                      <line xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">Welcome to eZ Publish Platform 5.2, the Aconcagua release. </line>
-                      <line xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">This release brings several new features and general improvements on the foundations introduced in eZ Publish Platform 5</line>
-                    </paragraph>
-                  </section>
-                </ezobject:attribute>
-                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="321" ezremote:identifier="body" name="Body" type="ezxmltext">
-                  <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
-                    <section>
-                      <header>Key Selected New Features in eZ Publish 5</header>
-                      <paragraph>Our objective is to provide you the most compelling Multichannel Web and Customer Experience Platform. With the eZ Publish 5 architecture we encompass a thoroughly revamped platform, which facilitates better user experiences, increases productivity, and enables your digital business model sustainably. Underlying and enabling these ambitious goals is a completely new but thoroughly backward compatible product architecture, along with a host of user interface (UI) enhancements.</paragraph>
-                      <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
-                        <ul>
-                          <li>
-                            <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">New Public API – Streamlined PHP Interface to eZ Publish</paragraph>
-                          </li>
-                          <li>
-                            <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">Enhanced REST API – eZ Publish as a Web Service</paragraph>
-                          </li>
-                          <li>
-                            <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">New high-performance framework for Web projects – Symfony full stack</paragraph>
-                          </li>
-                          <li>
-                            <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">New modern template engine – Twig based</paragraph>
-                          </li>
-                          <li>
-                            <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">Still totally backward compatible with 4.x legacy architecture</paragraph>
-                          </li>
-                          <li>
-                            <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">Many new and updated extensions in the eZ Market</paragraph>
-                          </li>
-                        </ul>
+                    <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
+                      <paragraph>
+                        <line xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">Welcome to eZ Publish Platform 5.3, the Ventoux release. </line>
+                        <line xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">This release brings several new features and general improvements on the foundations introduced in eZ Publish Platform 5</line>
                       </paragraph>
-                      <paragraph>For further information visit <link href="\">www.ez.no,</link> the documentation: <link href="\">doc.ez.no</link> and the <link href="\">share.ez.no</link> community.</paragraph>
                     </section>
-                  </section>
+                  </ezobject:attribute>
+                  <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="321" ezremote:identifier="body" name="Body" type="ezxmltext">
+                    <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
+                      <section>
+                        <header>Key Selected New Features in eZ Publish 5</header>
+                        <paragraph>Our objective is to provide you the most compelling Multichannel Web and Customer Experience Platform. With the eZ Publish 5 architecture we encompass a thoroughly revamped platform, which facilitates better user experiences, increases productivity, and enables your digital business model sustainably. Underlying and enabling these ambitious goals is a completely new but thoroughly backward compatible product architecture, along with a host of user interface (UI) enhancements.</paragraph>
+                        <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
+                          <ul>
+                            <li>
+                              <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">New Public API – Streamlined PHP Interface to eZ Publish</paragraph>
+                            </li>
+                            <li>
+                              <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">Enhanced REST API – eZ Publish as a Web Service</paragraph>
+                            </li>
+                            <li>
+                              <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">New high-performance framework for Web projects – Symfony full stack</paragraph>
+                            </li>
+                            <li>
+                              <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">New modern template engine – Twig based</paragraph>
+                            </li>
+                            <li>
+                              <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">Still totally backward compatible with 4.x legacy architecture</paragraph>
+                            </li>
+                          </ul>
+                        </paragraph>
+                        <paragraph>For further information visit <link href="http://ez.no">www.ez.no,</link> the documentation: <link href="http://doc.ez.no">doc.ez.no</link> and the <link href="http://share.ez.no">share.ez.no</link> community.</paragraph>
+                      </section>
+                    </section>
                 </ezobject:attribute>
                 <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="322" ezremote:identifier="image" name="Image" type="ezimage" image-file-key="5b71995be15fb77afea60fb3c5305353" alternative-text=""/>
                 <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="323" ezremote:identifier="caption" name="Caption (Image)" type="ezxmltext">
-                  <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
-                    <paragraph>Image by <link href="http://www.flickr.com/photos/flissphil/">PhillipC</link></paragraph>
-                  </section>
+                    <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
+                      <paragraph>Image by <link href="https://www.flickr.com/photos/mrbernard/10890274604/in/photolist-hAkvef-dmsXBR-dYZJKL-dYZJMd-dYZJNy-dYZJPm-6TYZAY-dGFuHc-i5DrA-aDZ7pQ-aDZ7ow-aDVeqH-dkzqD8-dkqwvp-6ktQvW-dmt255-dmt1JS-dmt34N-dmt3wo-dmsYMc-d2BSAj-d2BQXo-645zeu-6475b1-6Xja2w-bSL7ZM-gzFd4X-dkWrvE-dkWrCJ-6kucwq-6XfaCX-9RbBCk-7ahT7F-dX88ZX-dX82Zr-8sPufL-dmbw8T-dXdF8d-dX7QsR-dXdkE7-dX7LJB-dXdm33-dX7AmF-dXdp7S-dXds65-dX7z1M-dX7ZpR-dXdpQf-dX86TZ-dXdifW">MrBernard</link> (Creative Commons Attribution-ShareAlike License)</paragraph>
+                    </section>
                 </ezobject:attribute>
                 <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="324" ezremote:identifier="publish_date" name="Publish date" type="ezdatetime">
                   <date_time>Thu, 01 Jan 1970 00:00:00 GMT</date_time>
@@ -909,12 +906,12 @@
                   <data-text></data-text>
                 </ezobject:attribute>
                 <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="326" ezremote:identifier="tags" name="Tags" type="ezkeyword">
-                  <keyword-string>aconcagua</keyword-string>
+                  <keyword-string>e-commerce, ez publish</keyword-string>
                 </ezobject:attribute>
                 <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="327" ezremote:identifier="location" name="Location" type="ezgmaplocation" ezgl_has_content="1">
-                  <latitude>-32.65036</latitude>
-                  <longitude>-70.022392</longitude>
-                  <address></address>
+                  <latitude>44.173966</latitude>
+                  <longitude>5.278285</longitude>
+                  <address>Ventoux, France</address>
                 </ezobject:attribute>
                 <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="328" ezremote:identifier="comments" name="Comments" type="ezcomcomments">
                   <data-int>-1</data-int>
@@ -1959,7 +1956,7 @@
               </ezobject:attribute>
               <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" ezremote:id="1198" ezremote:identifier="description" name="Description" type="ezxmltext">
                   <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
-                    <paragraph><embed size="medium" view="embed" align="right" custom:offset="0" custom:limit="5" object_remote_id="c93a009eec36c5090224470880d62384"/>Aconcagua is the highest mountain in the Americas at 6,960.8 m. It is located in the Andes mountain range, in the province of Mendoza, Argentina, and lies 112 kilometres west by north of its capital, the city of Mendoza.</paragraph>
+                    <paragraph><embed size="medium" view="embed" align="right" custom:offset="0" custom:limit="5" object_remote_id="c93a009eec36c5090224470880d62384"/><strong>Mont Ventoux</strong> (<emphasize>Ventor</emphasize> in Provençal) is a mountain in the Provence region of southern France, located some 20 km northeast of Carpentras, Vaucluse. On the north side, the mountain borders the Drôme <emphasize>département</emphasize>. It is the largest mountain in the region and has been nicknamed the "Beast of Provence", the "Giant of Provence", or "The Bald Mountain". It has gained fame through its use in the Tour de France cycling race.</paragraph>
                     <section>
                       <section>
                         <header>White Papers</header>
@@ -2075,12 +2072,12 @@
           </ezobject:version>
         </ezobject:version-list>
       </ezremote:object>
-      <ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="197" name="landing1" ezremote:section_id="1" ezremote:owner_id="190" ezremote:class_id="27" ezremote:published="Wed, 30 Jan 2013 01:40:22 GMT" ezremote:modified="Wed, 30 Jan 2013 01:40:22 GMT" remote_id="c93a009eec36c5090224470880d62384" class_remote_id="f6df12aa74e36230eb675f364fccd25a" ezremote:class_identifier="image" ezremote:always_available="0" initial_language="eng-GB">
+      <ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="197" name="Tour de France" ezremote:section_id="1" ezremote:owner_id="190" ezremote:class_id="27" ezremote:published="Wed, 30 Jan 2013 01:40:22 GMT" ezremote:modified="Wed, 30 Jan 2013 01:40:22 GMT" remote_id="c93a009eec36c5090224470880d62384" class_remote_id="f6df12aa74e36230eb675f364fccd25a" ezremote:class_identifier="image" ezremote:always_available="0" initial_language="eng-GB">
         <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="1">
           <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="1" ezremote:status="1" ezremote:created="Wed, 30 Jan 2013 01:40:22 GMT" ezremote:modified="Wed, 30 Jan 2013 01:40:22 GMT" initial_language="eng-GB">
-            <ezobject:object-translation language="eng-GB" object_name="landing1">
+            <ezobject:object-translation language="eng-GB" object_name="Tour de France">
               <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1246" ezremote:identifier="name" name="Name" type="ezstring">
-                <text>landing1</text>
+                <text>Tour de France</text>
               </ezobject:attribute>
               <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1247" ezremote:identifier="caption" name="Caption" type="ezxmltext">
                 <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/"/>
@@ -2096,7 +2093,7 @@
               </ezobject:attribute>
             </ezobject:object-translation>
             <ezobject:node-assignment-list>
-              <node-assignment is-main-node="1" parent-node-remote-id="3e49b9fe4c95366cb590d3beb32a5838" name="landing1" node-id="196" remote-id="04e55eb14597148e4132bbe8118a52a5" sort-field="published" sort-order="0" priority="0"/>
+              <node-assignment is-main-node="1" parent-node-remote-id="3e49b9fe4c95366cb590d3beb32a5838" name="Tour de France" node-id="196" remote-id="04e55eb14597148e4132bbe8118a52a5" sort-field="published" sort-order="0" priority="0"/>
             </ezobject:node-assignment-list>
           </ezobject:version>
         </ezobject:version-list>
@@ -2321,7 +2318,7 @@
               </ezobject:attribute>
               <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1537" ezremote:identifier="caption" name="Caption" type="ezxmltext">
                 <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
-                  <paragraph>eZ will climb "le Ventoux" in spring 2014, a few weeks before le Tour de France. Who knows which version number it will be!</paragraph>
+                  <paragraph>Latest summit on eZ's list, "le Ventoux", the "Giant of Provence" in spring 2014, a few weeks before le Tour de France. eZ Publish Platform 5.3 is here!</paragraph>
                 </section>
               </ezobject:attribute>
               <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1538" ezremote:identifier="image" name="Image" type="ezimage" image-file-key="e4222d7656e76e5c6a398128df826d3e" alternative-text=""/>
