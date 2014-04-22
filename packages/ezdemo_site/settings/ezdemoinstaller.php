@@ -1669,7 +1669,8 @@ class ezdemoInstaller extends eZSiteInstaller
                         'landing_page', 
                         'forums', 
                         'gallery',
-                        'blog'
+                        'blog',
+                        'place_list'
                     ) 
                 ) 
             ) 
