@@ -85,8 +85,7 @@ class ezdemoInstaller extends eZSiteInstaller
             'ezgmaplocation', 
             strtolower( $this->solutionName() ), 
             'ezwt', 
-            'ezflow',
-            'ezcomments'
+            'ezflow'
         ) );
         $this->addSetting( 'version', $this->solutionVersion() );
         $this->addSetting( 'locales', eZSiteInstaller::getParam( $parameters, 'all_language_codes', array() ) );
@@ -1242,7 +1241,6 @@ class ezdemoInstaller extends eZSiteInstaller
         $contentINI = eZINI::instance( 'content.ini' );
         $datatypeRepositories = $contentINI->variable( 'DataTypeSettings', 'ExtensionDirectories' );
         $datatypeRepositories[] = 'ezflow';
-        $datatypeRepositories[] = 'ezcomments';
         $datatypeRepositories[] = 'ezstarrating';
         $datatypeRepositories[] = 'ezgmaplocation';
         $contentINI->setVariables( array(
@@ -1252,7 +1250,6 @@ class ezdemoInstaller extends eZSiteInstaller
         ) );
         $availableDatatype = $contentINI->variable( 'DataTypeSettings', 'AvailableDataTypes' );
         $availableDatatype[] = 'ezpage';
-        $availableDatatype[] = 'ezcomcomments';
         $availableDatatype[] = 'ezsrrating';
         $availableDatatype[] = 'ezgmaplocation';
         $contentINI->setVariables( array(
@@ -1261,7 +1258,6 @@ class ezdemoInstaller extends eZSiteInstaller
             )
         ) );
         $this->insertDBFile( 'ezflow_extension', 'ezflow' );
-        $this->insertDBFile( 'ezcomments_extension', 'ezcomments' );
         $this->insertDBFile( 'ezstarrating_extension', 'ezstarrating' );
         $this->insertDBFile( 'ezgmaplocation_extension', 'ezgmaplocation' );
     }
