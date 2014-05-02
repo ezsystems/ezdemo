@@ -24,10 +24,6 @@
                     {attribute_view_gui attribute=$node.data_map.tags}
                 </div>
 
-                <div class="attribute-comments">
-                    {attribute_view_gui attribute=$node.data_map.comments}
-                </div>
-
                 {include uri='design:parts/related_content.tpl'}
 
             </div>

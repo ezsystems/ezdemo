@@ -461,58 +461,6 @@ aside {
     }
 }
 
-.comment {
-    display: block;
-    position: relative;
-    padding: 0 15px 0 115px;
-    min-height: 97px;
-    .clearfix();
-    .profile-picture {
-        display: block;
-        position: absolute;
-        left: 15px;
-        top: 15px;
-        width: 70px;
-        height: 70px;
-        border: 1px solid @grayLight;
-        padding: 5px;
-        background-color: @blueLightest;
-        .border-radius(2px);
-    }
-    .comment-content-wrapper {
-        display: block;
-        position: relative;
-        border: 1px solid @grayLight;
-        .border-radius(2px);
-        margin-top: 15px;
-        padding: 15px 20px;
-        #gradient > .vertical(@white, @softwhite);
-        &:before {
-            content: "";
-            display: block;
-            position: absolute;
-            left: -9px;
-            top: 15px;
-            width: 9px;
-            height: 17px;
-            .sprite(transparent, -137px, top);
-        }
-        .header,
-        .comment-headline {
-            display: block;
-            .clearfix();
-            border-bottom: 1px solid @grayLighter;
-            padding: 0 0 2px 0;
-            margin-bottom: 2px;
-        }
-        .ezcom-comment-tool {
-            display: block;
-            .clearfix();
-            padding: 10px 0 0 0;
-            text-align: left;
-        }
-    }
-}
 .comment-form {
     display: block;
     margin-bottom: 1em;
@@ -765,30 +713,6 @@ aside {
     padding-top: 10px;
     label {
         margin-bottom: 0;
-    }
-}
-
-.attribute-comments {
-    .ezcom-function-title {
-        border-bottom: 1px solid @grayLighter;
-        margin-bottom: 10px;
-    }
-    .ezcom-field {
-        padding: 0;
-        label {
-            margin-bottom: 0;
-            &.checkbox {
-                input {
-                    margin-top: 6px;
-                }
-            }
-        }
-        &.ezcom-field-content {
-            margin-bottom: 5px;
-        }
-        &.actions {
-            margin-top: 10px;
-        }
     }
 }
 
