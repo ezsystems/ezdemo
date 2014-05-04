@@ -18,13 +18,6 @@
                     <a href="{$node.url_alias|ezurl( 'no' )}" class="teaser-link">{$node.name|wash()}</a>
                 </h2>
             </div>
-            <div class="attribute-byline with-comments">
-                <a href="{$node.url_alias|ezurl( 'no' )}" class="comments">
-                    {fetch( 'comment', 'comment_count', hash( 'contentobject_id', $node.contentobject_id,
-                                                              'language_id', $node.data_map.comments.language_id,
-                                                              'status', '1' ) )}
-                </a>
-            </div>
             <div class="attribute-short">
                 {attribute_view_gui attribute=$node.data_map.caption}
             </div>

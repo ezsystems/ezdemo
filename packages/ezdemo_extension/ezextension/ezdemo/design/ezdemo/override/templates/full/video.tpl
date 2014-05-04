@@ -33,10 +33,6 @@
         <div class="attribute-socialize">
             {include uri='design:parts/social_buttons.tpl'}
         </div>
-
-        <div class="attribute-comments">
-            {attribute_view_gui attribute=$node.data_map.comments}
-        </div>
     </article>
 </section>
 {undef $video_path}

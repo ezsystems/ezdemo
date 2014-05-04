@@ -60,10 +60,6 @@
                 {include uri='design:parts/social_buttons.tpl'}
             </div>
 
-            <div class="attribute-comments">
-                {attribute_view_gui attribute=$node.data_map.comments}
-            </div>
-
         {def $tipafriend_access=fetch( 'user', 'has_access_to', hash( 'module', 'content', 'function', 'tipafriend' ) )}
         {if and( ezmodule( 'content/tipafriend' ), $tipafriend_access )}
             <div class="attribute-tipafriend">

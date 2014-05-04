@@ -24,9 +24,5 @@
         <div class="attribute-star-rating">
             {attribute_view_gui attribute=$node.data_map.star_rating}
         </div>
-
-         <div class="attribute-comments">
-            {attribute_view_gui attribute=$node.data_map.comments}
-        </div>
     </article>
 </section>

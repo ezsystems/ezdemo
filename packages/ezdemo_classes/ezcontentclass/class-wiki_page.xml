@@ -78,18 +78,6 @@
       <placement>4</placement>
       <datatype-parameters/>
     </attribute>
-    <attribute datatype="ezcomcomments" required="false" searchable="true" information-collector="false" translatable="true">
-      <remote>
-        <id>293</id>
-      </remote>
-      <serialized-name-list>a:2:{s:6:"eng-GB";s:8:"Comments";s:16:"always-available";s:6:"eng-GB";}</serialized-name-list>
-      <identifier>comments</identifier>
-      <serialized-description-list>a:2:{s:6:"eng-GB";s:0:"";s:16:"always-available";s:6:"eng-GB";}</serialized-description-list>
-      <category></category>
-      <serialized-data-text>a:2:{s:6:"eng-GB";s:0:"";s:16:"always-available";s:6:"eng-GB";}</serialized-data-text>
-      <placement>5</placement>
-      <datatype-parameters/>
-    </attribute>
     <attribute datatype="ezboolean" required="false" searchable="false" information-collector="false" translatable="true">
       <remote>
         <id>223</id>

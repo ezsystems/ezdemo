@@ -29,11 +29,6 @@
                 {attribute_view_gui attribute=$node.data_map.author}
             </span>
         {/if}
-            <a href="{$node.url_alias|ezurl( 'no' )}" class="comments">
-                {fetch( 'comment', 'comment_count', hash( 'contentobject_id', $node.contentobject_id,
-                                                          'language_id', $node.data_map.comments.language_id,
-                                                          'status', '1' ) )}
-            </a>
         </div>
 
         {if $node.data_map.intro.content.is_empty|not}

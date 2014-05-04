@@ -148,11 +148,6 @@
                 <keyword-string></keyword-string>
               </ezobject:attribute>
               <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="557" ezremote:identifier="location" name="Location" type="ezgmaplocation" ezgl_has_content="0"/>
-              <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="558" ezremote:identifier="comments" name="Comments" type="ezcomcomments">
-                <data-int>1</data-int>
-                <data-float>1</data-float>
-                <data-text></data-text>
-              </ezobject:attribute>
             </ezobject:object-translation>
             <ezobject:node-assignment-list>
               <node-assignment is-main-node="1" name="footer" node-id="76" remote-id="86bf306624668ee9b8b979b0d56f7e0d" sort-field="path" sort-order="1" priority="0"/>
@@ -337,11 +332,6 @@
                 <keyword-string></keyword-string>
               </ezobject:attribute>
               <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="217" ezremote:identifier="location" name="Location" type="ezgmaplocation" ezgl_has_content="0"/>
-              <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="218" ezremote:identifier="comments" name="Comments" type="ezcomcomments">
-                <data-int>-1</data-int>
-                <data-float>-1</data-float>
-                <data-text></data-text>
-              </ezobject:attribute>
             </ezobject:object-translation>
             <ezobject:node-assignment-list>
               <node-assignment is-main-node="1" parent-node-remote-id="016830043439eddf2956a14d3192fc09" name="eZ Publish Tutorials" node-id="63" remote-id="a2304f8b1c6a2a363e7055aa16b2d555" sort-field="path" sort-order="1" priority="0"/>
@@ -408,11 +398,6 @@
                 <keyword-string></keyword-string>
               </ezobject:attribute>
               <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="229" ezremote:identifier="location" name="Location" type="ezgmaplocation" ezgl_has_content="0"/>
-              <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="230" ezremote:identifier="comments" name="Comments" type="ezcomcomments">
-                <data-int>-1</data-int>
-                <data-float>-1</data-float>
-                <data-text></data-text>
-              </ezobject:attribute>
             </ezobject:object-translation>
             <ezobject:node-assignment-list>
               <node-assignment is-main-node="1" parent-node-remote-id="016830043439eddf2956a14d3192fc09" name="eZ User Documentation" node-id="64" remote-id="0382aaa1f4fb90e8cf01cc77406e88b0" sort-field="path" sort-order="1" priority="0"/>
@@ -479,11 +464,6 @@
                 <keyword-string></keyword-string>
               </ezobject:attribute>
               <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="241" ezremote:identifier="location" name="Location" type="ezgmaplocation" ezgl_has_content="0"/>
-              <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="242" ezremote:identifier="comments" name="Comments" type="ezcomcomments">
-                <data-int>-1</data-int>
-                <data-float>-1</data-float>
-                <data-text></data-text>
-              </ezobject:attribute>
             </ezobject:object-translation>
             <ezobject:node-assignment-list>
               <node-assignment is-main-node="1" parent-node-remote-id="016830043439eddf2956a14d3192fc09" name="Technical Documentation" node-id="65" remote-id="b9b95382aaa102120ca724dc96fb5892" sort-field="path" sort-order="1" priority="0"/>
@@ -550,11 +530,6 @@
                 <keyword-string></keyword-string>
               </ezobject:attribute>
               <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="253" ezremote:identifier="location" name="Location" type="ezgmaplocation" ezgl_has_content="0"/>
-              <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="254" ezremote:identifier="comments" name="Comments" type="ezcomcomments">
-                <data-int>-1</data-int>
-                <data-float>-1</data-float>
-                <data-text></data-text>
-              </ezobject:attribute>
             </ezobject:object-translation>
             <ezobject:node-assignment-list>
               <node-assignment is-main-node="1" parent-node-remote-id="016830043439eddf2956a14d3192fc09" name="Demos and Videos" node-id="66" remote-id="0240c72d729c2412817a1c252e51eb1a" sort-field="path" sort-order="1" priority="0"/>
@@ -643,11 +618,6 @@
                     <longitude>5.278285</longitude>
                     <address>Ventoux, France</address>
                 </ezobject:attribute>
-                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="280" ezremote:identifier="comments" name="Comments" type="ezcomcomments">
-                  <data-int>1</data-int>
-                  <data-float>1</data-float>
-                  <data-text></data-text>
-                </ezobject:attribute>
               </ezobject:object-translation>
               <ezobject:node-assignment-list>
                 <node-assignment is-main-node="1" parent-node-remote-id="595c35359a2d37e2dba89eb8dba4ce93" name="Automate" node-id="69" remote-id="e1b2a7e5f3a4368e666c4cd6a3810552" sort-field="path" sort-order="1" priority="0"/>
@@ -703,11 +673,6 @@
                   <latitude>68.165193</latitude>
                   <longitude>16.592763</longitude>
                   <address>Stadda,Norway</address>
-                </ezobject:attribute>
-                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="292" ezremote:identifier="comments" name="Comments" type="ezcomcomments">
-                  <data-int>-1</data-int>
-                  <data-float>-1</data-float>
-                  <data-text></data-text>
                 </ezobject:attribute>
               </ezobject:object-translation>
               <ezobject:node-assignment-list>
@@ -765,11 +730,6 @@
                     <longitude>5.278285</longitude>
                     <address>Ventoux, France</address>
                 </ezobject:attribute>
-                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="304" ezremote:identifier="comments" name="Comments" type="ezcomcomments">
-                  <data-int>1</data-int>
-                  <data-float>1</data-float>
-                  <data-text></data-text>
-                </ezobject:attribute>
               </ezobject:object-translation>
               <ezobject:node-assignment-list>
                 <node-assignment is-main-node="1" parent-node-remote-id="595c35359a2d37e2dba89eb8dba4ce93" name="Create" node-id="71" remote-id="fd2168050d72bcfe92b1250586a8a87f" sort-field="path" sort-order="1" priority="0"/>
@@ -825,11 +785,6 @@
                     <latitude>44.173966</latitude>
                     <longitude>5.278285</longitude>
                     <address>Ventoux, France</address>
-                </ezobject:attribute>
-                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="316" ezremote:identifier="comments" name="Comments" type="ezcomcomments">
-                  <data-int>-1</data-int>
-                  <data-float>-1</data-float>
-                  <data-text></data-text>
                 </ezobject:attribute>
               </ezobject:object-translation>
               <ezobject:node-assignment-list>
@@ -912,11 +867,6 @@
                   <latitude>44.173966</latitude>
                   <longitude>5.278285</longitude>
                   <address>Ventoux, France</address>
-                </ezobject:attribute>
-                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="328" ezremote:identifier="comments" name="Comments" type="ezcomcomments">
-                  <data-int>-1</data-int>
-                  <data-float>-1</data-float>
-                  <data-text></data-text>
                 </ezobject:attribute>
               </ezobject:object-translation>
               <ezobject:node-assignment-list>
@@ -1067,11 +1017,6 @@
               <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1371" ezremote:identifier="tags" name="Tags" type="ezkeyword">
                 <keyword-string>phone, tech</keyword-string>
               </ezobject:attribute>
-              <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1372" ezremote:identifier="comments" name="Comments" type="ezcomcomments">
-                <data-int>1</data-int>
-                <data-float>1</data-float>
-                <data-text></data-text>
-              </ezobject:attribute>
             </ezobject:object-translation>
             <ezobject:node-assignment-list>
               <node-assignment is-main-node="1" parent-node-remote-id="c07971827e6e6cdbb9ab4e65a1ca7634" name="eZ Publish Community - iPhone 4 Case" node-id="213" remote-id="a1db085c4b30f728a063da72b4cf077d" sort-field="path" sort-order="1" priority="0"/>
@@ -1140,11 +1085,6 @@
               <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1382" ezremote:identifier="tags" name="Tags" type="ezkeyword">
                 <keyword-string></keyword-string>
               </ezobject:attribute>
-              <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1383" ezremote:identifier="comments" name="Comments" type="ezcomcomments">
-                <data-int>1</data-int>
-                <data-float>1</data-float>
-                <data-text></data-text>
-              </ezobject:attribute>
             </ezobject:object-translation>
             <ezobject:node-assignment-list>
               <node-assignment is-main-node="1" parent-node-remote-id="c07971827e6e6cdbb9ab4e65a1ca7634" name="eZ Publish - Samsung Galaxy SIII Case" node-id="214" remote-id="f46d1041283c096b3b31f02feb126e40" sort-field="path" sort-order="1" priority="0"/>
@@ -1205,11 +1145,6 @@
               </ezobject:attribute>
               <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1393" ezremote:identifier="tags" name="Tags" type="ezkeyword">
                 <keyword-string></keyword-string>
-              </ezobject:attribute>
-              <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1394" ezremote:identifier="comments" name="Comments" type="ezcomcomments">
-                <data-int>1</data-int>
-                <data-float>1</data-float>
-                <data-text></data-text>
               </ezobject:attribute>
             </ezobject:object-translation>
             <ezobject:node-assignment-list>
@@ -1274,11 +1209,6 @@
               </ezobject:attribute>
               <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1404" ezremote:identifier="tags" name="Tags" type="ezkeyword">
                 <keyword-string></keyword-string>
-              </ezobject:attribute>
-              <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1405" ezremote:identifier="comments" name="Comments" type="ezcomcomments">
-                <data-int>1</data-int>
-                <data-float>1</data-float>
-                <data-text></data-text>
               </ezobject:attribute>
             </ezobject:object-translation>
             <ezobject:node-assignment-list>
@@ -1395,11 +1325,6 @@
                 <keyword-string></keyword-string>
               </ezobject:attribute>
               <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2491" ezremote:identifier="location" name="Location" type="ezgmaplocation" ezgl_has_content="0"/>
-              <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2492" ezremote:identifier="comments" name="Comments" type="ezcomcomments">
-                <data-int>1</data-int>
-                <data-float>1</data-float>
-                <data-text></data-text>
-              </ezobject:attribute>
             </ezobject:object-translation>
             <ezobject:node-assignment-list>
               <node-assignment is-main-node="1" parent-node-remote-id="a655946daa57223381420cf5d93dfed2" name="Support &amp; Maintenance" node-id="353" remote-id="2cbc5d102c426831314f67530588def2" sort-field="path" sort-order="1" priority="0"/>
@@ -1452,11 +1377,6 @@
                 <keyword-string></keyword-string>
               </ezobject:attribute>
               <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2503" ezremote:identifier="location" name="Location" type="ezgmaplocation" ezgl_has_content="0"/>
-              <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2504" ezremote:identifier="comments" name="Comments" type="ezcomcomments">
-                <data-int>1</data-int>
-                <data-float>1</data-float>
-                <data-text></data-text>
-              </ezobject:attribute>
             </ezobject:object-translation>
             <ezobject:node-assignment-list>
               <node-assignment is-main-node="1" parent-node-remote-id="a655946daa57223381420cf5d93dfed2" name="Professional Services" node-id="354" remote-id="d0348df851326b0bb8bcd885d1ca9c11" sort-field="path" sort-order="1" priority="0"/>
@@ -1571,11 +1491,6 @@
                 <keyword-string></keyword-string>
               </ezobject:attribute>
               <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2515" ezremote:identifier="location" name="Location" type="ezgmaplocation" ezgl_has_content="0"/>
-              <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2516" ezremote:identifier="comments" name="Comments" type="ezcomcomments">
-                <data-int>1</data-int>
-                <data-float>1</data-float>
-                <data-text></data-text>
-              </ezobject:attribute>
             </ezobject:object-translation>
             <ezobject:node-assignment-list>
               <node-assignment is-main-node="1" parent-node-remote-id="a655946daa57223381420cf5d93dfed2" name="Training Services" node-id="355" remote-id="11e34e72be29920e4abcdc0d4f2347d3" sort-field="path" sort-order="1" priority="0"/>
@@ -1665,11 +1580,6 @@
                 <latitude>40.78306</latitude>
                 <longitude>-73.971249</longitude>
                 <address>Manhattan New York</address>
-              </ezobject:attribute>
-              <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="457" ezremote:identifier="comments" name="Comments" type="ezcomcomments">
-                <data-int>-1</data-int>
-                <data-float>-1</data-float>
-                <data-text></data-text>
               </ezobject:attribute>
             </ezobject:object-translation>
             <ezobject:node-assignment-list>
@@ -1761,11 +1671,6 @@
               <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="467" ezremote:identifier="tags" name="Tags" type="ezkeyword">
                 <keyword-string>Logo</keyword-string>
               </ezobject:attribute>
-              <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="468" ezremote:identifier="comments" name="Comments" type="ezcomcomments">
-                <data-int>-1</data-int>
-                <data-float>-1</data-float>
-                <data-text></data-text>
-              </ezobject:attribute>
             </ezobject:object-translation>
             <ezobject:node-assignment-list>
               <node-assignment is-main-node="1" parent-node-remote-id="49dfabb2e1a632ae1f95fdeb79f4a92e" name="eZ Logo Black" node-id="95" remote-id="a6748f3cbe4bbc163e532c03ad28d0d0" sort-field="path" sort-order="1" priority="0"/>
@@ -1795,11 +1700,6 @@
               </ezobject:attribute>
               <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="473" ezremote:identifier="tags" name="Tags" type="ezkeyword">
                 <keyword-string></keyword-string>
-              </ezobject:attribute>
-              <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="474" ezremote:identifier="comments" name="Comments" type="ezcomcomments">
-                <data-int>-1</data-int>
-                <data-float>-1</data-float>
-                <data-text></data-text>
               </ezobject:attribute>
             </ezobject:object-translation>
             <ezobject:node-assignment-list>
@@ -1881,11 +1781,6 @@
               <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="492" ezremote:identifier="tags" name="Tags" type="ezkeyword">
                 <keyword-string>Blog Post, Social, eZ Publish, cxm</keyword-string>
               </ezobject:attribute>
-              <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="493" ezremote:identifier="comments" name="Comments" type="ezcomcomments">
-                <data-int>-1</data-int>
-                <data-float>-1</data-float>
-                <data-text></data-text>
-              </ezobject:attribute>
             </ezobject:object-translation>
             <ezobject:node-assignment-list>
               <node-assignment is-main-node="1" parent-node-remote-id="0d05ff0c44f63901d8a1c0fbc5abc884" name="This will be our magic recipe" node-id="100" remote-id="c0125304ac852abc3b7abe57f5ecbf21" sort-field="path" sort-order="1" priority="0"/>
@@ -1934,11 +1829,6 @@
                 </ezobject:attribute>
                 <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="476" ezremote:identifier="tags" name="Tags" type="ezkeyword">
                   <keyword-string>landing page</keyword-string>
-                </ezobject:attribute>
-                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="477" ezremote:identifier="comments" name="Comments" type="ezcomcomments">
-                  <data-int>1</data-int>
-                  <data-float>1</data-float>
-                  <data-text></data-text>
                 </ezobject:attribute>
               </ezobject:object-translation>
               <ezobject:node-assignment-list>
@@ -2060,11 +1950,6 @@
                 <keyword-string></keyword-string>
               </ezobject:attribute>
               <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1213" ezremote:identifier="location" name="Location" type="ezgmaplocation" ezgl_has_content="0"/>
-              <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1214" ezremote:identifier="comments" name="Comments" type="ezcomcomments">
-                <data-int>-1</data-int>
-                <data-float>-1</data-float>
-                <data-text></data-text>
-              </ezobject:attribute>
             </ezobject:object-translation>
             <ezobject:node-assignment-list>
               <node-assignment is-main-node="1" parent-node-remote-id="3e49b9fe4c95366cb590d3beb32a5838" name="Download your White Paper here" node-id="193" remote-id="0ad294a85c89e0fbfd227fd8c71c9a9d" sort-field="path" sort-order="1" priority="0"/>
@@ -2160,11 +2045,6 @@
               </ezobject:attribute>
               <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1266" ezremote:identifier="tags" name="Tags" type="ezkeyword">
                 <keyword-string></keyword-string>
-              </ezobject:attribute>
-              <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1267" ezremote:identifier="comments" name="Comments" type="ezcomcomments">
-                <data-int>1</data-int>
-                <data-float>1</data-float>
-                <data-text></data-text>
               </ezobject:attribute>
             </ezobject:object-translation>
             <ezobject:node-assignment-list>
@@ -2465,11 +2345,6 @@
               <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1409" ezremote:identifier="star_rating" name="Star Rating" type="ezsrrating">
                 <data-int></data-int>
                 <data-float>0</data-float>
-                <data-text></data-text>
-              </ezobject:attribute>
-              <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1410" ezremote:identifier="comments" name="Comments" type="ezcomcomments">
-                <data-int>1</data-int>
-                <data-float>1</data-float>
                 <data-text></data-text>
               </ezobject:attribute>
             </ezobject:object-translation>

@@ -97,11 +97,6 @@
                 <keyword-string></keyword-string>
               </ezobject:attribute>
               <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="557" ezremote:identifier="location" name="Location" type="ezgmaplocation" ezgl_has_content="0"/>
-              <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="558" ezremote:identifier="comments" name="Comments" type="ezcomcomments">
-                <data-int>1</data-int>
-                <data-float>1</data-float>
-                <data-text></data-text>
-              </ezobject:attribute>
             </ezobject:object-translation>
             <ezobject:node-assignment-list>
               <node-assignment is-main-node="1" name="footer" node-id="76" remote-id="86bf306624668ee9b8b979b0d56f7e0d" sort-field="path" sort-order="1" priority="0"/>

@@ -1,5 +1,5 @@
 {* Article - Admin preview *}
-{def $default_attributes=array( 'title', 'author', 'image', 'intro', 'body', 'enable_comments', 'comments' )}
+{def $default_attributes=array( 'title', 'author', 'image', 'intro', 'body', 'enable_comments' )}
 <div class="content-view-full">
     <div class="class-article">
 
