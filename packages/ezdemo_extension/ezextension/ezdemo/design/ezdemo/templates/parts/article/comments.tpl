@@ -18,9 +18,9 @@
                     </form>
                 {else}
                     {if ezmodule( 'user/register' )}
-                        <p>{'%login_link_startLog in%login_link_end or %create_link_startcreate a user account%create_link_end to comment.'|i18n( 'design/ezdemo/article/comments', , hash( '%login_link_start', concat( '<a href="', '/user/login'|ezurl(no), '">' ), '%login_link_end', '</a>', '%create_link_start', concat( '<a href="', "/user/register"|ezurl(no), '">' ), '%create_link_end', '</a>' ) )}</p>
+                        <p>{'%login_link_startLog in%login_link_end or %create_link_startcreate a user account%create_link_end to comment.'|i18n( 'design/ezdemo/article/comments', , hash( '%login_link_start', concat( '<a href="', '/login'|ezurl(no), '">' ), '%login_link_end', '</a>', '%create_link_start', concat( '<a href="', "/user/register"|ezurl(no), '">' ), '%create_link_end', '</a>' ) )}</p>
                     {else}
-                        <p>{'%login_link_startLog in%login_link_end to comment.'|i18n( 'design/ezdemo/article/comments', , hash( '%login_link_start', concat( '<a href="', '/user/login'|ezurl(no), '">' ), '%login_link_end', '</a>' ) )}</p>
+                        <p>{'%login_link_startLog in%login_link_end to comment.'|i18n( 'design/ezdemo/article/comments', , hash( '%login_link_start', concat( '<a href="', '/login'|ezurl(no), '">' ), '%login_link_end', '</a>' ) )}</p>
                     {/if}
                 {/if}
         {/if}

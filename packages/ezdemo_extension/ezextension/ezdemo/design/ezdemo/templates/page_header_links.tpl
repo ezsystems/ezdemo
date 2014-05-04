@@ -14,7 +14,7 @@
     <li id="login" class="transition-showed">
         <a href="#login" title="show login form" class="show-login-form">{'Login'|i18n('design/ezdemo/pagelayout')}</a>
         <a href="#" title="hide login form" class="hide-login-form">{'Login'|i18n('design/ezdemo/pagelayout')}</a>
-        <form class="login-form span3" action="{'/user/login'|ezurl( 'no' )}" method="post">
+        <form class="login-form span3" action="{'/login_check'|ezurl( 'no' )}" method="post">
             <fieldset>
                 <label>
                     <span class="hidden">{'Username'|i18n('design/ezdemo/pagelayout')}</span>
