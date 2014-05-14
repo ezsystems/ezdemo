@@ -13,6 +13,11 @@
     "require": {
         "ezsystems/ezpublish-legacy-installer": "*"
     },
+    "suggest": {
+        "ezsystems/ezwt-extension": "~5.3",
+        "ezsystems/ezgmaplocation-extension": "~5.3",
+        "ezsystems/ezstarrating-extension": "~5.3"
+    },
     "extra": {
         "ezpublish-legacy-extension-name": "ezdemo"
     }
