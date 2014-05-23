@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package version="5.2.0-alpha1">
+<package version="5.3.0">
     <name>ezdemo_democontent</name>
     <summary></summary>
     <description></description>
     <vendor>eZ systems</vendor>
     <type value="contentobject"/>
     <ezpublish>
-        <version>5.2.0</version>
-        <named-version>5.2</named-version>
+        <version>5.3.0</version>
+        <named-version>5.3</named-version>
     </ezpublish>
     <maintainers>
         <maintainer>
@@ -58,10 +58,11 @@
       <simple-file key="7256dbd01f723a86d0f4f081656d7ca2" original-path="var/ezdemo_site/storage/images/about/the-mountains-of-ez/mount-fuji/1558-1-eng-GB/mount-fuji.jpg" package-path="simplefiles/58504932.jpg"/>
       <simple-file key="f978c52678bc8ca8b1043c838d005adf" original-path="var/ezdemo_site/storage/images/about/the-mountains-of-ez/mount-aconcagua/1563-1-eng-GB/mount-aconcagua.jpg" package-path="simplefiles/8d6f1f98.jpg"/>
       <simple-file key="0121cb57124840749b68a8da7de79716" original-path="var/ezdemo_site/storage/original/video/cbca3a8812784f3989158d295cc0c016.mp4" package-path="simplefiles/ed958bed.mp4"/>
+      <simple-file key="7bda3a15a781658034dc6e30a13733a0" original-path="var/ezdemo_site/storage/images/getting-started/ez-mountains/mount-etna/650-2-eng-GB/Mount-Etna.jpg" package-path="simplefiles/0fa0cfbf.jpg"/>
     </simple-files>
     <version>
-        <number>5.2</number>
-        <release>0-alpha1</release>
+        <number>5.3</number>
+        <release>0</release>
     </version>
     <licence>GPL</licence>
     <state>stable</state>
