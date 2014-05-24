@@ -58,7 +58,14 @@
       <simple-file key="7256dbd01f723a86d0f4f081656d7ca2" original-path="var/ezdemo_site/storage/images/about/the-mountains-of-ez/mount-fuji/1558-1-eng-GB/mount-fuji.jpg" package-path="simplefiles/58504932.jpg"/>
       <simple-file key="f978c52678bc8ca8b1043c838d005adf" original-path="var/ezdemo_site/storage/images/about/the-mountains-of-ez/mount-aconcagua/1563-1-eng-GB/mount-aconcagua.jpg" package-path="simplefiles/8d6f1f98.jpg"/>
       <simple-file key="0121cb57124840749b68a8da7de79716" original-path="var/ezdemo_site/storage/original/video/cbca3a8812784f3989158d295cc0c016.mp4" package-path="simplefiles/ed958bed.mp4"/>
-      <simple-file key="7bda3a15a781658034dc6e30a13733a0" original-path="var/ezdemo_site/storage/images/getting-started/ez-mountains/mount-etna/650-2-eng-GB/Mount-Etna.jpg" package-path="simplefiles/0fa0cfbf.jpg"/>
+      <simple-file key="acb69750298ff73d6e5726c04c60e22b" original-path="var/ezdemo_site/storage/images/ez-mountains/mount-fuji/632-2-eng-GB/Mount-Fuji.jpg" package-path="simplefiles/d5c11bd1.jpg"/>
+      <simple-file key="0e54bdfbe8c4d5b4a539a87afeca0dbb" original-path="var/ezdemo_site/storage/images/ez-mountains/mount-matterhorn/638-2-eng-GB/Mount-Matterhorn.jpg" package-path="simplefiles/7df85099.jpg"/>
+      <simple-file key="114b45da7bd17da85121e6f06ef64f74" original-path="var/ezdemo_site/storage/images/ez-mountains/mount-annapurna/644-2-eng-GB/Mount-Annapurna.jpg" package-path="simplefiles/553bfea2.jpg"/>
+      <simple-file key="3ad8ff8e32b9b1040e70239fc3f2b633" original-path="var/ezdemo_site/storage/images/ez-mountains/mount-etna/650-3-eng-GB/Mount-Etna.jpg" package-path="simplefiles/f5aab896.jpg"/>
+      <simple-file key="3cd9223e45e7414f0422ac7632afcdb2" original-path="var/ezdemo_site/storage/images/ez-mountains/mount-kilimanjaro/656-2-eng-GB/Mount-Kilimanjaro.jpg" package-path="simplefiles/944650b0.jpg"/>
+      <simple-file key="968c543d732a626d01e3e393971bb531" original-path="var/ezdemo_site/storage/images/ez-mountains/mount-stadda/662-2-eng-GB/Mount-Stadda.jpg" package-path="simplefiles/4418140f.jpg"/>
+      <simple-file key="c1d90a5b7f607a660972bdc8b01b555a" original-path="var/ezdemo_site/storage/images/ez-mountains/mount-aconcagua/668-2-eng-GB/Mount-Aconcagua.jpg" package-path="simplefiles/08cbe9b8.jpg"/>
+      <simple-file key="f1758fd41ac3aff654b6db0fabb66086" original-path="var/ezdemo_site/storage/images/ez-mountains/mount-ventoux/674-2-eng-GB/Mount-Ventoux.jpg" package-path="simplefiles/f2744337.jpg"/>
     </simple-files>
     <version>
         <number>5.3</number>

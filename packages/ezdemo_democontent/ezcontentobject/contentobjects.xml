@@ -2376,9 +2376,9 @@
           </ezobject:version>
         </ezobject:version-list>
       </ezremote:object>
-      <ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="113" name="Mount Fuji" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="38" ezremote:published="Mon, 07 Apr 2014 22:48:22 GMT" ezremote:modified="Mon, 07 Apr 2014 22:48:22 GMT" remote_id="c1e928edcf93cb90b4e6913324e43c8d" class_remote_id="861f02510226434178f3859242fe40d7" ezremote:class_identifier="place" ezremote:always_available="0" initial_language="eng-GB">
-        <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="1">
-          <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="1" ezremote:status="1" ezremote:created="Mon, 07 Apr 2014 22:45:34 GMT" ezremote:modified="Mon, 07 Apr 2014 22:48:22 GMT" initial_language="eng-GB">
+      <ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="113" name="Mount Fuji" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="38" ezremote:published="Mon, 07 Apr 2014 22:48:22 GMT" ezremote:modified="Fri, 23 May 2014 14:55:37 GMT" remote_id="c1e928edcf93cb90b4e6913324e43c8d" class_remote_id="861f02510226434178f3859242fe40d7" ezremote:class_identifier="place" ezremote:always_available="0" initial_language="eng-GB">
+        <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="4">
+          <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="4" ezremote:status="1" ezremote:created="Fri, 23 May 2014 14:55:23 GMT" ezremote:modified="Fri, 23 May 2014 14:55:37 GMT" initial_language="eng-GB">
             <ezobject:object-translation language="eng-GB" object_name="Mount Fuji">
               <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="630" ezremote:identifier="name" name="Name" type="ezstring">
                 <text>Mount Fuji</text>
@@ -2386,12 +2386,12 @@
               <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="631" ezremote:identifier="description" name="Description" type="ezxmltext">
                 <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
                   <paragraph><strong>Mount Fuji</strong>, located on Honshu Island, is the highest mountain in Japan at 3,776.24 m (12,389 ft). An active stratovolcano that last erupted in 1707–08, Mount Fuji lies about 100 kilometres (60 mi) south-west of Tokyo, and can be seen from there on a clear day. Mount Fuji's exceptionally symmetrical cone, which is snow-capped several months a year, is a well-known symbol of Japan and it is frequently depicted in art and photographs, as well as visited by sightseers and climbers. It is one of Japan's "Three Holy Mountains" along with Mount Tate and Mount Haku; it is a Special Place of Scenic Beauty, a Historic Site, and was added to the World Heritage List as a Cultural Site on June 22nd, 2013.</paragraph>
-                  <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
-                    <line>The mountain has been selected as a “cultural” rather than a “natural” heritage site. As per UNESCO, Mount Fuji has “inspired artists and poets and been the object of pilgrimage for centuries”. The 25 locations include the mountain itself,Fujisan Hongū Sengen Taisha and six other Sengen shrines, two lodging houses, Lake Yamanaka, Lake Kawaguchi, the eight Oshino Hakkai hot springs, two lava tree molds, the remains of the Fuji-kō cult in the Hitoana cave, Shiraito Falls, andMiho no Matsubara pine tree grove.</line>
+                  <paragraph>
+                    <custom name="sub">This article uses material from the Wikipedia article <link target="_blank" href="http://en.wikipedia.org/wiki/Mount_Fuji">Mount Fuji</link>, which is released under the <link target="_blank" href="http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">Creative Commons Attribution-ShareAlike License</link>.</custom>
                   </paragraph>
                 </section>
               </ezobject:attribute>
-              <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="632" ezremote:identifier="image" name="Image" type="ezimage" alternative-text=""/>
+              <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="632" ezremote:identifier="image" name="Image" type="ezimage" image-file-key="acb69750298ff73d6e5726c04c60e22b" alternative-text=""/>
               <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="633" ezremote:identifier="location" name="Location" type="ezgmaplocation" ezgl_has_content="1">
                 <latitude>35.360555</latitude>
                 <longitude>138.727778</longitude>
@@ -2412,9 +2412,9 @@
           </ezobject:version>
         </ezobject:version-list>
       </ezremote:object>
-      <ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="114" name="Mount Matterhorn" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="38" ezremote:published="Mon, 07 Apr 2014 22:50:53 GMT" ezremote:modified="Mon, 07 Apr 2014 22:50:53 GMT" remote_id="83925375c49447d034816699a8bc1e89" class_remote_id="861f02510226434178f3859242fe40d7" ezremote:class_identifier="place" ezremote:always_available="0" initial_language="eng-GB">
-        <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="1">
-          <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="1" ezremote:status="1" ezremote:created="Mon, 07 Apr 2014 22:48:41 GMT" ezremote:modified="Mon, 07 Apr 2014 22:50:53 GMT" initial_language="eng-GB">
+      <ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="114" name="Mount Matterhorn" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="38" ezremote:published="Mon, 07 Apr 2014 22:50:53 GMT" ezremote:modified="Fri, 23 May 2014 14:55:59 GMT" remote_id="83925375c49447d034816699a8bc1e89" class_remote_id="861f02510226434178f3859242fe40d7" ezremote:class_identifier="place" ezremote:always_available="0" initial_language="eng-GB">
+        <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="4">
+          <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="4" ezremote:status="1" ezremote:created="Fri, 23 May 2014 14:55:45 GMT" ezremote:modified="Fri, 23 May 2014 14:55:59 GMT" initial_language="eng-GB">
             <ezobject:object-translation language="eng-GB" object_name="Mount Matterhorn">
               <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="636" ezremote:identifier="name" name="Name" type="ezstring">
                 <text>Mount Matterhorn</text>
@@ -2422,11 +2422,12 @@
               <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="637" ezremote:identifier="description" name="Description" type="ezxmltext">
                 <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
                   <paragraph>The <strong>Matterhorn</strong> (German), <strong>Monte Cervino</strong> (Italian) or <strong>Mont Cervin</strong> (French), is a mountain in the Pennine Alps on the border between Switzerland and Italy. Its summit is 4,478 metres (14,692 ft) high, making it one of the highest peaks in the Alps. The four steep faces, rising above the surrounding glaciers, face the four compass points. The mountain overlooks the town of Zermatt in the canton of Valais to the north-east and Breuil-Cervinia in the Aosta Valley to the south. Theodul Pass, located at the eastern base of the peak, is the lowest passage between its north and south side.</paragraph>
-                  <paragraph>The Matterhorn was one of the last great Alpine peaks to be climbed and its first ascent marked the end of the golden age of alpinism. It was made in 1865 by a party led by Edward Whymper and ended disastrously when four of its members fell to their deaths on the descent. The north face was not climbed until 1931, and is amongst the six great north faces of the Alps. It is estimated that over 500 alpinists have died on the Matterhorn since the first climb in 1865, making it one of the deadliest peaks in the Alps.</paragraph>
-                  <paragraph>The Matterhorn has become an iconic emblem of the Swiss Alps and the Alps in general. Since the end of the 19th century, when railways were built, it attracted more and more visitors and climbers. Each summer a large number of mountaineers try to climb the Matterhorn via the northeast Hörnli ridge, the most popular route to the summit.</paragraph>
+                  <paragraph>
+                    <custom name="sub">This article uses material from the Wikipedia article <link target="_blank" href="http://en.wikipedia.org/wiki/Matterhorn">Matterhorn</link>, which is released under the <link target="_blank" href="http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">Creative Commons Attribution-ShareAlike License</link>.</custom>
+                  </paragraph>
                 </section>
               </ezobject:attribute>
-              <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="638" ezremote:identifier="image" name="Image" type="ezimage" alternative-text=""/>
+              <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="638" ezremote:identifier="image" name="Image" type="ezimage" image-file-key="0e54bdfbe8c4d5b4a539a87afeca0dbb" alternative-text=""/>
               <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="639" ezremote:identifier="location" name="Location" type="ezgmaplocation" ezgl_has_content="1">
                 <latitude>45.976433</latitude>
                 <longitude>7.658448</longitude>
@@ -2447,9 +2448,9 @@
           </ezobject:version>
         </ezobject:version-list>
       </ezremote:object>
-      <ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="115" name="Mount Annapurna" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="38" ezremote:published="Mon, 07 Apr 2014 22:54:10 GMT" ezremote:modified="Mon, 07 Apr 2014 22:54:10 GMT" remote_id="8c6bc4d2124379707baf83ca6c9717d4" class_remote_id="861f02510226434178f3859242fe40d7" ezremote:class_identifier="place" ezremote:always_available="0" initial_language="eng-GB">
-        <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="1">
-          <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="1" ezremote:status="1" ezremote:created="Mon, 07 Apr 2014 22:51:32 GMT" ezremote:modified="Mon, 07 Apr 2014 22:54:10 GMT" initial_language="eng-GB">
+      <ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="115" name="Mount Annapurna" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="38" ezremote:published="Mon, 07 Apr 2014 22:54:10 GMT" ezremote:modified="Fri, 23 May 2014 14:56:27 GMT" remote_id="8c6bc4d2124379707baf83ca6c9717d4" class_remote_id="861f02510226434178f3859242fe40d7" ezremote:class_identifier="place" ezremote:always_available="0" initial_language="eng-GB">
+        <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="4">
+          <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="4" ezremote:status="1" ezremote:created="Fri, 23 May 2014 14:56:11 GMT" ezremote:modified="Fri, 23 May 2014 14:56:26 GMT" initial_language="eng-GB">
             <ezobject:object-translation language="eng-GB" object_name="Mount Annapurna">
               <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="642" ezremote:identifier="name" name="Name" type="ezstring">
                 <text>Mount Annapurna</text>
@@ -2457,12 +2458,12 @@
               <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="643" ezremote:identifier="description" name="Description" type="ezxmltext">
                 <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
                   <paragraph><strong>Annapurna</strong> (Sanskrit, Nepali, Nepal Bhasa: अन्नपुर्ण) is a section of the Himalayas in north-central Nepal that includes 8,091 m (26,545 ft) Annapurna I, thirteen additional peaks over 7,000 m (22,970 ft) and 16 more over 6,000 m (19,690 ft). This section is a 55 km-long (34 mi-long) massif bounded by the Kali Gandaki Gorge on the west, the Marshyangdi River on the north and east, and Pokhara Valley on the south. Annapurna I is tenth among Earth's fourteen <emphasize>eight-thousanders</emphasize>. 8167 metre Dhaulagiri I rises 34 km to the west across the Kali Gandaki Gorge, considered Earth's deepest canyon.</paragraph>
-                  <paragraph><emphasize>Annapurna</emphasize> is a Sanskrit name which literally means "full of food" (feminine form), but is normally translated as <emphasize>Goddess of the Harvests</emphasize>. In Hinduism, Annapurna is "... the universal and timeless kitchen-goddess ... the mother who feeds. Without her there is starvation, a universal fear: This makes Annapurna a universal goddess ... Her most popular shrine is located inKashi, on the banks of the river Ganga." Her association with the giving of food (wealth) led her in time to be transformed into Lakshmi, the Goddess of Wealth.</paragraph>
-                  <paragraph>The entire massif and surrounding area are protected within the 7,629 km<custom name="sup">2</custom> Annapurna Conservation Area, the first and largest conservation area in Nepal. The Annapurna Conservation Area is home to several world-class treks, including the Annapurna Circuit.</paragraph>
-                  <paragraph>The Annapurna peaks are among the world's most dangerous mountains to climb, although in more recent history, using figures from only 1990 and after, Kangchenjunga has a higher fatality rate. As of the end of 2009, there had been 157 summit ascents of Annapurna I, and 60 climbing fatalities on the mountain. This fatality-to-summit ratio (38%) is the highest of any of the eight-thousanders. In particular, the ascent via the south face is considered, by some, the most difficult of all climbs.</paragraph>
+                  <paragraph>
+                    <custom name="sub">This article uses material from the Wikipedia article <link target="_blank" href="http://en.wikipedia.org/wiki/Annapurna">Annapurna</link>, which is released under the <link target="_blank" href="http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">Creative Commons Attribution-ShareAlike License</link>.</custom>
+                  </paragraph>
                 </section>
               </ezobject:attribute>
-              <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="644" ezremote:identifier="image" name="Image" type="ezimage" alternative-text=""/>
+              <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="644" ezremote:identifier="image" name="Image" type="ezimage" image-file-key="114b45da7bd17da85121e6f06ef64f74" alternative-text=""/>
               <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="645" ezremote:identifier="location" name="Location" type="ezgmaplocation" ezgl_has_content="1">
                 <latitude>28.570556</latitude>
                 <longitude>84.035278</longitude>
@@ -2483,9 +2484,9 @@
           </ezobject:version>
         </ezobject:version-list>
       </ezremote:object>
-      <ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="116" name="Mount Etna" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="38" ezremote:published="Mon, 07 Apr 2014 22:59:57 GMT" ezremote:modified="Tue, 08 Apr 2014 21:48:58 GMT" remote_id="94c8b13d604ea04ab338d9a21c44e1c4" class_remote_id="861f02510226434178f3859242fe40d7" ezremote:class_identifier="place" ezremote:always_available="0" initial_language="eng-GB">
-        <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="2">
-          <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="1" ezremote:status="3" ezremote:created="Mon, 07 Apr 2014 22:57:42 GMT" ezremote:modified="Mon, 07 Apr 2014 22:59:57 GMT" initial_language="eng-GB">
+      <ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="116" name="Mount Etna" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="38" ezremote:published="Mon, 07 Apr 2014 22:59:57 GMT" ezremote:modified="Fri, 23 May 2014 14:56:55 GMT" remote_id="94c8b13d604ea04ab338d9a21c44e1c4" class_remote_id="861f02510226434178f3859242fe40d7" ezremote:class_identifier="place" ezremote:always_available="0" initial_language="eng-GB">
+        <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="5">
+          <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="5" ezremote:status="1" ezremote:created="Fri, 23 May 2014 14:56:37 GMT" ezremote:modified="Fri, 23 May 2014 14:56:55 GMT" initial_language="eng-GB">
             <ezobject:object-translation language="eng-GB" object_name="Mount Etna">
               <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="648" ezremote:identifier="name" name="Name" type="ezstring">
                 <text>Mount Etna</text>
@@ -2493,38 +2494,12 @@
               <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="649" ezremote:identifier="description" name="Description" type="ezxmltext">
                 <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
                   <paragraph><strong>Mount Etna</strong> (Latin: <emphasize>Aetna</emphasize>, Sicilian: <emphasize>Mungibeddu</emphasize> or <emphasize>'a Muntagna</emphasize>) is an active stratovolcano on the east coast of Sicily, Italy, close to Messina and Catania. It lies above the convergent plate margin between the African Plate and the Eurasian Plate. It is the tallest active volcano on the European continent, currently 3,329 m (10,922 ft) high, though this varies with summit eruptions. It is the highest mountain in Italy south of the Alps. Etna covers an area of 1,190 km<custom name="sup">2</custom> (459 sq mi) with a basal circumference of 140 km. This makes it by far the largest of the three active volcanoes in Italy, being about two and a half times the height of the next largest, Mount Vesuvius. Only Mount Teide in Tenerife surpasses it in the whole of the European–North-African region. In Greek Mythology, the deadly monster Typhon was trapped under this mountain by Zeus, the god of the sky and thunder and king of gods, and the forges of Hephaestus were said to also be located underneath it.</paragraph>
-                  <paragraph>Mount Etna is one of the most active volcanoes in the world and is in an almost constant state of activity. The fertile volcanic soils support extensive agriculture, with vineyards and orchards spread across the lower slopes of the mountain and the broad Plain of Catania to the south. Due to its history of recent activity and nearby population, Mount Etna has been designated a Decade Volcano by the United Nations. In June 2013, it was added to the list of UNESCO World Heritage Sites.</paragraph>
+                  <paragraph>
+                    <custom name="sub">This article uses material from the Wikipedia article <link target="_blank" href="http://en.wikipedia.org/wiki/Mount_Etna">Mount Etna</link>, which is released under the <link target="_blank" href="http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">Creative Commons Attribution-ShareAlike License</link>.</custom>
+                  </paragraph>
                 </section>
               </ezobject:attribute>
-              <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="650" ezremote:identifier="image" name="Image" type="ezimage" alternative-text=""/>
-              <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="651" ezremote:identifier="location" name="Location" type="ezgmaplocation" ezgl_has_content="1">
-                <latitude>37.75</latitude>
-                <longitude>15</longitude>
-                <address>mount etna</address>
-              </ezobject:attribute>
-              <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="652" ezremote:identifier="keyword" name="Keyword" type="ezkeyword">
-                <keyword-string></keyword-string>
-              </ezobject:attribute>
-              <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="653" ezremote:identifier="rating" name="Rating" type="ezsrrating">
-                <data-int></data-int>
-                <data-float>0</data-float>
-                <data-text></data-text>
-              </ezobject:attribute>
-            </ezobject:object-translation>
-            <ezobject:node-assignment-list/>
-          </ezobject:version>
-          <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="2" ezremote:status="1" ezremote:created="Tue, 08 Apr 2014 21:45:16 GMT" ezremote:modified="Tue, 08 Apr 2014 21:48:58 GMT" initial_language="eng-GB">
-            <ezobject:object-translation language="eng-GB" object_name="Mount Etna">
-              <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="648" ezremote:identifier="name" name="Name" type="ezstring">
-                <text>Mount Etna</text>
-              </ezobject:attribute>
-              <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="649" ezremote:identifier="description" name="Description" type="ezxmltext">
-                <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
-                  <paragraph><strong>Mount Etna</strong> (Latin: <emphasize>Aetna</emphasize>, Sicilian: <emphasize>Mungibeddu</emphasize> or <emphasize>'a Muntagna</emphasize>) is an active stratovolcano on the east coast of Sicily, Italy, close to Messina and Catania. It lies above the convergent plate margin between the African Plate and the Eurasian Plate. It is the tallest active volcano on the European continent, currently 3,329 m (10,922 ft) high, though this varies with summit eruptions. It is the highest mountain in Italy south of the Alps. Etna covers an area of 1,190 km<custom name="sup">2</custom> (459 sq mi) with a basal circumference of 140 km. This makes it by far the largest of the three active volcanoes in Italy, being about two and a half times the height of the next largest, Mount Vesuvius. Only Mount Teide in Tenerife surpasses it in the whole of the European–North-African region. In Greek Mythology, the deadly monster Typhon was trapped under this mountain by Zeus, the god of the sky and thunder and king of gods, and the forges of Hephaestus were said to also be located underneath it.</paragraph>
-                  <paragraph>Mount Etna is one of the most active volcanoes in the world and is in an almost constant state of activity. The fertile volcanic soils support extensive agriculture, with vineyards and orchards spread across the lower slopes of the mountain and the broad Plain of Catania to the south. Due to its history of recent activity and nearby population, Mount Etna has been designated a Decade Volcano by the United Nations. In June 2013, it was added to the list of UNESCO World Heritage Sites.</paragraph>
-                </section>
-              </ezobject:attribute>
-              <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="650" ezremote:identifier="image" name="Image" type="ezimage" image-file-key="7bda3a15a781658034dc6e30a13733a0" alternative-text=""/>
+              <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="650" ezremote:identifier="image" name="Image" type="ezimage" image-file-key="3ad8ff8e32b9b1040e70239fc3f2b633" alternative-text=""/>
               <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="651" ezremote:identifier="location" name="Location" type="ezgmaplocation" ezgl_has_content="1">
                 <latitude>37.75</latitude>
                 <longitude>15</longitude>
@@ -2545,9 +2520,9 @@
           </ezobject:version>
         </ezobject:version-list>
       </ezremote:object>
-      <ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="117" name="Mount Kilimanjaro" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="38" ezremote:published="Mon, 07 Apr 2014 23:01:13 GMT" ezremote:modified="Mon, 07 Apr 2014 23:01:13 GMT" remote_id="954cd863ca3b3fadae24eab118af2149" class_remote_id="861f02510226434178f3859242fe40d7" ezremote:class_identifier="place" ezremote:always_available="0" initial_language="eng-GB">
-        <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="1">
-          <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="1" ezremote:status="1" ezremote:created="Mon, 07 Apr 2014 23:00:16 GMT" ezremote:modified="Mon, 07 Apr 2014 23:01:13 GMT" initial_language="eng-GB">
+      <ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="117" name="Mount Kilimanjaro" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="38" ezremote:published="Mon, 07 Apr 2014 23:01:13 GMT" ezremote:modified="Fri, 23 May 2014 14:57:13 GMT" remote_id="954cd863ca3b3fadae24eab118af2149" class_remote_id="861f02510226434178f3859242fe40d7" ezremote:class_identifier="place" ezremote:always_available="0" initial_language="eng-GB">
+        <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="5">
+          <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="5" ezremote:status="1" ezremote:created="Fri, 23 May 2014 14:57:04 GMT" ezremote:modified="Fri, 23 May 2014 14:57:13 GMT" initial_language="eng-GB">
             <ezobject:object-translation language="eng-GB" object_name="Mount Kilimanjaro">
               <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="654" ezremote:identifier="name" name="Name" type="ezstring">
                 <text>Mount Kilimanjaro</text>
@@ -2555,9 +2530,12 @@
               <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="655" ezremote:identifier="description" name="Description" type="ezxmltext">
                 <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
                   <paragraph><strong>Mount Kilimanjaro</strong>, with its three volcanic cones, <strong>Kibo</strong>, <strong>Mawenzi</strong>, and <strong>Shira</strong>, is a dormant volcanic mountain in Tanzania. It is the highest mountain in Africa and the highest free-standing mountain in the world at 5,895 metres or 19,341 feet abovesea level (the <strong>Uhuru Peak</strong>/<strong>Kibo Peak</strong>).</paragraph>
+                  <paragraph>
+                    <custom name="sub">This article uses material from the Wikipedia article <link target="_blank" href="http://en.wikipedia.org/wiki/Mount_Kilimanjaro">Mount Kilimanjaro</link>, which is released under the <link target="_blank" href="http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">Creative Commons Attribution-ShareAlike License</link>.</custom>
+                  </paragraph>
                 </section>
               </ezobject:attribute>
-              <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="656" ezremote:identifier="image" name="Image" type="ezimage" alternative-text=""/>
+              <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="656" ezremote:identifier="image" name="Image" type="ezimage" image-file-key="3cd9223e45e7414f0422ac7632afcdb2" alternative-text=""/>
               <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="657" ezremote:identifier="location" name="Location" type="ezgmaplocation" ezgl_has_content="1">
                 <latitude>-3.066465</latitude>
                 <longitude>37.350666</longitude>
@@ -2578,9 +2556,9 @@
           </ezobject:version>
         </ezobject:version-list>
       </ezremote:object>
-      <ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="118" name="Mount Stadda" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="38" ezremote:published="Mon, 07 Apr 2014 23:05:40 GMT" ezremote:modified="Mon, 07 Apr 2014 23:05:40 GMT" remote_id="5dcb6a1a9bed4da3b1a16c84080ffd88" class_remote_id="861f02510226434178f3859242fe40d7" ezremote:class_identifier="place" ezremote:always_available="0" initial_language="eng-GB">
-        <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="1">
-          <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="1" ezremote:status="1" ezremote:created="Mon, 07 Apr 2014 23:01:23 GMT" ezremote:modified="Mon, 07 Apr 2014 23:05:40 GMT" initial_language="eng-GB">
+      <ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="118" name="Mount Stadda" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="38" ezremote:published="Mon, 07 Apr 2014 23:05:40 GMT" ezremote:modified="Fri, 23 May 2014 14:51:48 GMT" remote_id="5dcb6a1a9bed4da3b1a16c84080ffd88" class_remote_id="861f02510226434178f3859242fe40d7" ezremote:class_identifier="place" ezremote:always_available="0" initial_language="eng-GB">
+        <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="3">
+          <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="3" ezremote:status="1" ezremote:created="Fri, 23 May 2014 14:50:43 GMT" ezremote:modified="Fri, 23 May 2014 14:51:48 GMT" initial_language="eng-GB">
             <ezobject:object-translation language="eng-GB" object_name="Mount Stadda">
               <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="660" ezremote:identifier="name" name="Name" type="ezstring">
                 <text>Mount Stadda</text>
@@ -2588,9 +2566,12 @@
               <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="661" ezremote:identifier="description" name="Description" type="ezxmltext">
                 <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
                   <paragraph><strong>Stadda </strong>(in Lule Sami: <emphasize>Stádda</emphasize>) is a mountain in the municipality of Tysfjord in Nordland county, Norway. It is located about 15 kilometres (9 mi) northeast of the village of Kjøpsvik. The mountain has very smooth sides reaching all the way to the fjord. Stetind has an obelisk-shape which gives it a very distinct look. In 2002 it was voted to be the "National Mountain" of Norway by listeners of NRK.</paragraph>
+                  <paragraph>
+                    <custom name="sub">This article uses material from the Wikipedia article <link target="_blank" href="http://en.wikipedia.org/wiki/Stetind">Mount Stetind</link>, which is released under the <link target="_blank" href="http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">Creative Commons Attribution-ShareAlike License</link>.</custom>
+                  </paragraph>
                 </section>
               </ezobject:attribute>
-              <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="662" ezremote:identifier="image" name="Image" type="ezimage" alternative-text=""/>
+              <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="662" ezremote:identifier="image" name="Image" type="ezimage" image-file-key="968c543d732a626d01e3e393971bb531" alternative-text=""/>
               <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="663" ezremote:identifier="location" name="Location" type="ezgmaplocation" ezgl_has_content="1">
                 <latitude>68.165193</latitude>
                 <longitude>16.592763</longitude>
@@ -2611,9 +2592,9 @@
           </ezobject:version>
         </ezobject:version-list>
       </ezremote:object>
-      <ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="119" name="Mount Aconcagua" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="38" ezremote:published="Mon, 07 Apr 2014 23:08:11 GMT" ezremote:modified="Mon, 07 Apr 2014 23:08:11 GMT" remote_id="75f2d4d89b405816a1d03fed2da17eba" class_remote_id="861f02510226434178f3859242fe40d7" ezremote:class_identifier="place" ezremote:always_available="0" initial_language="eng-GB">
-        <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="1">
-          <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="1" ezremote:status="1" ezremote:created="Mon, 07 Apr 2014 23:05:56 GMT" ezremote:modified="Mon, 07 Apr 2014 23:08:11 GMT" initial_language="eng-GB">
+      <ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="119" name="Mount Aconcagua" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="38" ezremote:published="Mon, 07 Apr 2014 23:08:11 GMT" ezremote:modified="Fri, 23 May 2014 14:53:16 GMT" remote_id="75f2d4d89b405816a1d03fed2da17eba" class_remote_id="861f02510226434178f3859242fe40d7" ezremote:class_identifier="place" ezremote:always_available="0" initial_language="eng-GB">
+        <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="3">
+          <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="3" ezremote:status="1" ezremote:created="Fri, 23 May 2014 14:52:07 GMT" ezremote:modified="Fri, 23 May 2014 14:53:16 GMT" initial_language="eng-GB">
             <ezobject:object-translation language="eng-GB" object_name="Mount Aconcagua">
               <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="666" ezremote:identifier="name" name="Name" type="ezstring">
                 <text>Mount Aconcagua</text>
@@ -2621,11 +2602,12 @@
               <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="667" ezremote:identifier="description" name="Description" type="ezxmltext">
                 <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
                   <paragraph><strong>Aconcagua</strong> (Spanish pronunciation: [akoŋˈkaɣwa]) is the highest mountain in the Western and Southern Hemispheres at 6,960.8 metres (22,837 ft). It is located in the Andes mountain range, in the province of Mendoza, Argentina, and lies 112 kilometres (70 mi) northwest of its capital, the city of Mendoza. The summit is also located about 5 kilometres from San Juan Province and 15 kilometres from the international border with Chile. Aconcagua is the highest peak in both the Western and Southern Hemispheres. It is one of the Seven Summits.</paragraph>
-                  <paragraph>Aconcagua is bounded by the <emphasize>Valle de las Vacas</emphasize> to the north and east and the <emphasize>Valle de los Horcones Inferior</emphasize> to the West and South. The mountain and its surroundings are part of the Aconcagua Provincial Park. The mountain has a number of glaciers. The largest glacier is the Ventisquero Horcones Inferior at about 10 km long, which descends from the south face to about 3600 m altitude near the Confluencia camp. Two other large glacier systems are the Ventisquero de las Vacas Sur and Glaciar Este/Ventisquero Relinchos system at about 5 km long. The most well-known is the north-eastern or Polish Glacier, as it is a common route of ascent.</paragraph>
-                  <paragraph>The mountain was created by the subduction of the Nazca Plate beneath the South American plate during the geologically recent Andean orogeny; but it is not an active volcano. The origin of the name is contested; it is either from the Arauca <emphasize>Aconca-Hue,</emphasize> which refers to the Aconcagua River and means "comes from the other side", the Quechua <emphasize>Ackon Cahuak</emphasize>, meaning "'Sentinel of Stone" or Quechua <emphasize>Anco Cahuac</emphasize>, "White Sentinel" or the Aymara <emphasize>Janq'u Q'awa</emphasize>, "White Ravine", "White Brook".</paragraph>
+                  <paragraph>
+                    <custom name="sub">This article uses material from the Wikipedia article <link target="_blank" href="http://en.wikipedia.org/wiki/Aconcagua">Aconcagua</link>, which is released under the <link target="_blank" href="http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">Creative Commons Attribution-ShareAlike License</link>.</custom>
+                  </paragraph>
                 </section>
               </ezobject:attribute>
-              <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="668" ezremote:identifier="image" name="Image" type="ezimage" alternative-text=""/>
+              <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="668" ezremote:identifier="image" name="Image" type="ezimage" image-file-key="c1d90a5b7f607a660972bdc8b01b555a" alternative-text=""/>
               <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="669" ezremote:identifier="location" name="Location" type="ezgmaplocation" ezgl_has_content="1">
                 <latitude>-32.653333</latitude>
                 <longitude>-70.010833</longitude>
@@ -2646,9 +2628,9 @@
           </ezobject:version>
         </ezobject:version-list>
       </ezremote:object>
-      <ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="120" name="Mount Ventoux" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="38" ezremote:published="Mon, 07 Apr 2014 23:09:31 GMT" ezremote:modified="Mon, 07 Apr 2014 23:09:31 GMT" remote_id="c56fa5a0274ea48e738dd63399116444" class_remote_id="861f02510226434178f3859242fe40d7" ezremote:class_identifier="place" ezremote:always_available="0" initial_language="eng-GB">
-        <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="1">
-          <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="1" ezremote:status="1" ezremote:created="Mon, 07 Apr 2014 23:08:28 GMT" ezremote:modified="Mon, 07 Apr 2014 23:09:30 GMT" initial_language="eng-GB">
+      <ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="120" name="Mount Ventoux" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="38" ezremote:published="Mon, 07 Apr 2014 23:09:31 GMT" ezremote:modified="Fri, 23 May 2014 14:54:40 GMT" remote_id="c56fa5a0274ea48e738dd63399116444" class_remote_id="861f02510226434178f3859242fe40d7" ezremote:class_identifier="place" ezremote:always_available="0" initial_language="eng-GB">
+        <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="3">
+          <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="3" ezremote:status="1" ezremote:created="Fri, 23 May 2014 14:53:37 GMT" ezremote:modified="Fri, 23 May 2014 14:54:40 GMT" initial_language="eng-GB">
             <ezobject:object-translation language="eng-GB" object_name="Mount Ventoux">
               <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="672" ezremote:identifier="name" name="Name" type="ezstring">
                 <text>Mount Ventoux</text>
@@ -2656,9 +2638,12 @@
               <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="673" ezremote:identifier="description" name="Description" type="ezxmltext">
                 <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
                   <paragraph><strong>Mont Ventoux</strong> (<emphasize>Ventor</emphasize> in Provençal) is a mountain in the Provence region of southern France, located some 20 km northeast of Carpentras, Vaucluse. On the north side, the mountain borders the Drôme <emphasize>département</emphasize>. It is the largest mountain in the region and has been nicknamed the "Beast of Provence", the "Giant of Provence", or "The Bald Mountain". It has gained fame through its use in the Tour de France cycling race.</paragraph>
+                  <paragraph>
+                    <custom name="sub">This article uses material from the Wikipedia article <link target="_blank" href="http://en.wikipedia.org/wiki/Mont_Ventoux">Mount Ventoux</link>, which is released under the <link target="_blank" href="http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">Creative Commons Attribution-ShareAlike License</link>.</custom>
+                  </paragraph>
                 </section>
               </ezobject:attribute>
-              <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="674" ezremote:identifier="image" name="Image" type="ezimage" alternative-text=""/>
+              <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="674" ezremote:identifier="image" name="Image" type="ezimage" image-file-key="f1758fd41ac3aff654b6db0fabb66086" alternative-text=""/>
               <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="675" ezremote:identifier="location" name="Location" type="ezgmaplocation" ezgl_has_content="1">
                 <latitude>44.173966</latitude>
                 <longitude>5.278285</longitude>
