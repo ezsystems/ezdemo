@@ -58,20 +58,12 @@
   <dependencies>
     <provides />
     <requires>
-      <require type="ezpackage"
-               name="ezwt_extension"
-               min-version="5.1" />
-      <require type="ezpackage"
-               name="ezstarrating_extension"
-               min-version="5.1" />
-      <require type="ezpackage"
-               name="ezgmaplocation_extension"
-               min-version="5.1" />
+      <require type="ezpackage" name="ezwt_extension" min-version="5.3.0" />
+      <require type="ezpackage" name="ezstarrating_extension" min-version="5.3.0" />
+      <require type="ezpackage" name="ezgmaplocation_extension" min-version="5.3.0" />
+      <require type="ezpackage" name="ezflow_extension" min-version="5.3.0" />
       <require type="ezpackage"
                name="ezdemo_extension"
-               min-version="5.1" />
-      <require type="ezpackage"
-               name="ezflow_extension"
                min-version="5.1" />
       <require type="ezpackage"
                name="ezdemo_classes"
