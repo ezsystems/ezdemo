@@ -58,20 +58,14 @@
   <dependencies>
     <provides />
     <requires>
-      <require type="ezpackage"
-               name="ezwt_extension"
-               min-version="5.1" />
-      <require type="ezpackage"
-               name="ezstarrating_extension"
-               min-version="5.1" />
-      <require type="ezpackage"
-               name="ezgmaplocation_extension"
-               min-version="5.1" />
+      <!-- These requirements won't be parsed by the build script since their formatting is different. This is on purpose, since those version numbers won't change anymore -->
+      <require type="ezpackage" name="ezwt_extension" min-version="5.3.0" />
+      <require type="ezpackage" name="ezstarrating_extension" min-version="5.3.0" />
+      <require type="ezpackage" name="ezgmaplocation_extension" min-version="5.3.0" />
+      <require type="ezpackage" name="ezflow_extension" min-version="5.3.0" />
+      <!-- These are formatted like before, and will be replaced as usual, based on the .properties file -->
       <require type="ezpackage"
                name="ezdemo_extension"
-               min-version="5.1" />
-      <require type="ezpackage"
-               name="ezflow_extension"
                min-version="5.1" />
       <require type="ezpackage"
                name="ezdemo_classes"
