@@ -7,14 +7,14 @@
   <object-name-pattern>&lt;short_title|title&gt;</object-name-pattern>
   <url-alias-pattern></url-alias-pattern>
   <remote>
-    <site-url>http://localhost/~ls/ezdemo_dev/index.php/</site-url>
-    <url>http://localhost/~ls/ezdemo_dev/index.php/class/view/16</url>
+    <site-url>http://localhost/</site-url>
+    <url>http://localhost/class/view/16</url>
     <groups>
       <group id="1" name="Content"/>
     </groups>
     <id>16</id>
-    <created>1332426596</created>
-    <modified>1332497541</modified>
+    <created>1415366453</created>
+    <modified>1415876299</modified>
     <creator>
       <user-id>14</user-id>
       <user-login>admin</user-login>
@@ -55,18 +55,6 @@
         <default-string/>
       </datatype-parameters>
     </attribute>
-    <attribute datatype="ezauthor" required="false" searchable="false" information-collector="false" translatable="true">
-      <remote>
-        <id>183</id>
-      </remote>
-      <serialized-name-list>a:2:{s:6:"eng-GB";s:6:"Author";s:16:"always-available";s:6:"eng-GB";}</serialized-name-list>
-      <identifier>author</identifier>
-      <serialized-description-list>a:1:{s:6:"eng-GB";s:0:"";}</serialized-description-list>
-      <category></category>
-      <serialized-data-text>a:0:{}</serialized-data-text>
-      <placement>3</placement>
-      <datatype-parameters/>
-    </attribute>
     <attribute datatype="ezxmltext" required="true" searchable="true" information-collector="false" translatable="true">
       <remote>
         <id>184</id>
@@ -76,7 +64,7 @@
       <serialized-description-list>a:1:{s:6:"eng-GB";s:0:"";}</serialized-description-list>
       <category></category>
       <serialized-data-text>a:0:{}</serialized-data-text>
-      <placement>4</placement>
+      <placement>3</placement>
       <datatype-parameters>
         <text-column-count>10</text-column-count>
       </datatype-parameters>
@@ -90,14 +78,28 @@
       <serialized-description-list>a:1:{s:6:"eng-GB";s:0:"";}</serialized-description-list>
       <category></category>
       <serialized-data-text>a:0:{}</serialized-data-text>
-      <placement>5</placement>
+      <placement>4</placement>
       <datatype-parameters>
         <text-column-count>20</text-column-count>
       </datatype-parameters>
     </attribute>
+    <attribute datatype="ezxmltext" required="false" searchable="false" information-collector="false" translatable="true">
+      <remote>
+        <id>309</id>
+      </remote>
+      <serialized-name-list>a:2:{s:6:"eng-GB";s:17:"Subscriber teaser";s:16:"always-available";s:6:"eng-GB";}</serialized-name-list>
+      <identifier>subscriber_teaser</identifier>
+      <serialized-description-list>a:2:{s:6:"eng-GB";s:35:"Teaser displayed for non subscriber";s:16:"always-available";s:6:"eng-GB";}</serialized-description-list>
+      <category>meta</category>
+      <serialized-data-text>a:2:{s:6:"eng-GB";s:0:"";s:16:"always-available";s:6:"eng-GB";}</serialized-data-text>
+      <placement>5</placement>
+      <datatype-parameters>
+        <text-column-count>10</text-column-count>
+      </datatype-parameters>
+    </attribute>
     <attribute datatype="ezimage" required="false" searchable="false" information-collector="false" translatable="true">
       <remote>
-        <id>187</id>
+        <id>186</id>
       </remote>
       <serialized-name-list>a:2:{s:6:"eng-GB";s:5:"Image";s:16:"always-available";s:6:"eng-GB";}</serialized-name-list>
       <identifier>image</identifier>
@@ -111,7 +113,7 @@
     </attribute>
     <attribute datatype="ezxmltext" required="false" searchable="true" information-collector="false" translatable="true">
       <remote>
-        <id>188</id>
+        <id>187</id>
       </remote>
       <serialized-name-list>a:2:{s:6:"eng-GB";s:15:"Caption (Image)";s:16:"always-available";s:6:"eng-GB";}</serialized-name-list>
       <identifier>caption</identifier>
@@ -123,16 +125,40 @@
         <text-column-count>10</text-column-count>
       </datatype-parameters>
     </attribute>
+    <attribute datatype="ezgmaplocation" required="false" searchable="true" information-collector="false" translatable="true">
+      <remote>
+        <id>191</id>
+      </remote>
+      <serialized-name-list>a:2:{s:6:"eng-GB";s:8:"Location";s:16:"always-available";s:6:"eng-GB";}</serialized-name-list>
+      <identifier>location</identifier>
+      <serialized-description-list>a:2:{s:6:"eng-GB";s:0:"";s:16:"always-available";s:6:"eng-GB";}</serialized-description-list>
+      <category></category>
+      <serialized-data-text>a:0:{}</serialized-data-text>
+      <placement>8</placement>
+      <datatype-parameters/>
+    </attribute>
+    <attribute datatype="ezauthor" required="false" searchable="false" information-collector="false" translatable="true">
+      <remote>
+        <id>183</id>
+      </remote>
+      <serialized-name-list>a:2:{s:6:"eng-GB";s:6:"Author";s:16:"always-available";s:6:"eng-GB";}</serialized-name-list>
+      <identifier>author</identifier>
+      <serialized-description-list>a:1:{s:6:"eng-GB";s:0:"";}</serialized-description-list>
+      <category>meta</category>
+      <serialized-data-text>a:0:{}</serialized-data-text>
+      <placement>9</placement>
+      <datatype-parameters/>
+    </attribute>
     <attribute datatype="ezdatetime" required="false" searchable="true" information-collector="false" translatable="true">
       <remote>
-        <id>189</id>
+        <id>188</id>
       </remote>
       <serialized-name-list>a:2:{s:6:"eng-GB";s:12:"Publish date";s:16:"always-available";s:6:"eng-GB";}</serialized-name-list>
       <identifier>publish_date</identifier>
       <serialized-description-list>a:1:{s:6:"eng-GB";s:0:"";}</serialized-description-list>
-      <category></category>
+      <category>meta</category>
       <serialized-data-text>a:0:{}</serialized-data-text>
-      <placement>8</placement>
+      <placement>10</placement>
       <datatype-parameters>
         <default-value type="empty"/>
         <use-seconds>0</use-seconds>
@@ -140,38 +166,26 @@
     </attribute>
     <attribute datatype="ezsrrating" required="false" searchable="false" information-collector="false" translatable="true">
       <remote>
-        <id>190</id>
+        <id>189</id>
       </remote>
       <serialized-name-list>a:2:{s:6:"eng-GB";s:11:"Star Rating";s:16:"always-available";s:6:"eng-GB";}</serialized-name-list>
       <identifier>star_rating</identifier>
       <serialized-description-list>a:1:{s:6:"eng-GB";s:0:"";}</serialized-description-list>
-      <category></category>
+      <category>meta</category>
       <serialized-data-text>a:0:{}</serialized-data-text>
-      <placement>9</placement>
+      <placement>11</placement>
       <datatype-parameters/>
     </attribute>
     <attribute datatype="ezkeyword" required="false" searchable="true" information-collector="false" translatable="true">
       <remote>
-        <id>301</id>
+        <id>190</id>
       </remote>
       <serialized-name-list>a:2:{s:6:"eng-GB";s:4:"Tags";s:16:"always-available";s:6:"eng-GB";}</serialized-name-list>
       <identifier>tags</identifier>
       <serialized-description-list>a:2:{s:6:"eng-GB";s:0:"";s:16:"always-available";s:6:"eng-GB";}</serialized-description-list>
-      <category></category>
-      <serialized-data-text>a:2:{s:6:"eng-GB";s:0:"";s:16:"always-available";s:6:"eng-GB";}</serialized-data-text>
-      <placement>10</placement>
-      <datatype-parameters/>
-    </attribute>
-    <attribute datatype="ezgmaplocation" required="false" searchable="true" information-collector="false" translatable="true">
-      <remote>
-        <id>192</id>
-      </remote>
-      <serialized-name-list>a:2:{s:6:"eng-GB";s:8:"Location";s:16:"always-available";s:6:"eng-GB";}</serialized-name-list>
-      <identifier>location</identifier>
-      <serialized-description-list>a:2:{s:6:"eng-GB";s:0:"";s:16:"always-available";s:6:"eng-GB";}</serialized-description-list>
-      <category></category>
+      <category>meta</category>
       <serialized-data-text>a:0:{}</serialized-data-text>
-      <placement>11</placement>
+      <placement>12</placement>
       <datatype-parameters/>
     </attribute>
   </ezcontentclass-attri:attributes>

@@ -45,7 +45,6 @@
       <simple-file key="cfb134a6699adeef34bb96c56265b3c6" original-path="var/ezdemo_site/storage/images/shopping/services/ez-publish-enterprise-service/squares/548-1-eng-GB/squares.png" package-path="simplefiles/a825a4dc.png"/>
       <simple-file key="c92effff1d66b1073d92b0932b0f133c" original-path="var/ezdemo_site/storage/original/image/e76c8776dccaba21cbfc21f52a02e19f.png" package-path="simplefiles/0e753680.png"/>
       <simple-file key="282c5b7862371e3651a20204422cc4ac" original-path="var/ezdemo_site/storage/original/image/5abdfbefae47de9dca63bc43e3a23ff4.png" package-path="simplefiles/0508ba70.png"/>
-      <simple-file key="fadf75fc8fa655212e59f7a3f92af634" original-path="var/ezdemo_site/storage/images/10-tips-to-quickly-discover-stetind-and-ez-publish-5/landing1/1248-1-eng-GB/landing1.jpg" package-path="simplefiles/c76e90df.jpg"/>
       <simple-file key="05171a31d40a40d9d3d084befbfb8fdd" original-path="var/ezdemo_site/storage/original/application/63cd472dd7819da7b75e8e2fee507c68.pdf" package-path="simplefiles/530ddbca.pdf"/>
       <simple-file key="1127499c0508f13c7149661768389db2" original-path="var/ezdemo_site/storage/images/media/images/screen-shot-2013-01-31-at-8.17.26-pm/1297-1-eng-GB/Screen-Shot-2013-01-31-at-8.17.26-PM.png" package-path="simplefiles/07cad76d.png"/>
       <simple-file key="6479c23df792b75664100b579c86c03e" original-path="var/ezdemo_site/storage/images/media/images/funel2/1413-1-eng-GB/funel.png" package-path="simplefiles/1e653715.png"/>
@@ -66,6 +65,8 @@
       <simple-file key="968c543d732a626d01e3e393971bb531" original-path="var/ezdemo_site/storage/images/ez-mountains/mount-stadda/662-2-eng-GB/Mount-Stadda.jpg" package-path="simplefiles/4418140f.jpg"/>
       <simple-file key="c1d90a5b7f607a660972bdc8b01b555a" original-path="var/ezdemo_site/storage/images/ez-mountains/mount-aconcagua/668-2-eng-GB/Mount-Aconcagua.jpg" package-path="simplefiles/08cbe9b8.jpg"/>
       <simple-file key="f1758fd41ac3aff654b6db0fabb66086" original-path="var/ezdemo_site/storage/images/ez-mountains/mount-ventoux/674-2-eng-GB/Mount-Ventoux.jpg" package-path="simplefiles/f2744337.jpg"/>
+      <simple-file key="6da278a0502e9516147b978fb44eefdc" original-path="var/ezdemo_site/storage/images/ez-mountains/mount-castor/640-1-eng-GB/Mount-Castor.jpg" package-path="simplefiles/45b6205e.jpg"/>
+      <simple-file key="b51bed037d13f4a66c1a7d63aa9bdeb3" original-path="var/ezdemo_site/storage/images/media/images/mount-castor/646-1-eng-GB/mount-Castor.jpg" package-path="simplefiles/af41107b.jpg"/>
     </simple-files>
     <version>
         <number>5.3</number>

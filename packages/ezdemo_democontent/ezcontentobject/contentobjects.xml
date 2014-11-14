@@ -56,8 +56,8 @@
                                 <zone_id>f742abffba08fc849b6e80dec769a74c</zone_id>
                                 <type>FeedReader</type>
                                 <custom_attributes>
-                                  <source>http://ez.no/rss/feed/news</source>
-                                  <limit>5</limit>
+                                  <source>http://ez.no/rss/feed/blog</source>
+                                  <limit>8</limit>
                                   <offset>0</offset>
                                 </custom_attributes>
                                 <view>default</view>
@@ -582,7 +582,7 @@
                 <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="271" ezremote:identifier="author" name="Author" type="ezauthor">
                   <ezauthor>
                     <authors>
-                      <author id="0" name="Roland Benedetti" email="Roland.Benedetti@ez.no"/>
+                      <author id="0" name="Administrator User" email="nospam@ez.no"/>
                     </authors>
                   </ezauthor>
                 </ezobject:attribute>
@@ -598,9 +598,10 @@
                 </ezobject:attribute>
                 <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="274" ezremote:identifier="image" name="Image" type="ezimage" image-file-key="dcbbca71f9115439cb1a47e9093c4d86" alternative-text=""/>
                 <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="275" ezremote:identifier="caption" name="Caption (Image)" type="ezxmltext">
-                  <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
-                    <paragraph>photo by winkyintheuk.</paragraph>
-                  </section>
+                  <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/"/>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="654" ezremote:identifier="subscriber_teaser" name="Subscriber teaser" type="ezxmltext">
+                  <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/"/>
                 </ezobject:attribute>
                 <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="276" ezremote:identifier="publish_date" name="Publish date" type="ezdatetime">
                   <date_time>Thu, 01 Jan 1970 00:00:00 GMT</date_time>
@@ -611,12 +612,12 @@
                   <data-text></data-text>
                 </ezobject:attribute>
                 <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="278" ezremote:identifier="tags" name="Tags" type="ezkeyword">
-                  <keyword-string>Ventoux</keyword-string>
+                  <keyword-string>Castor, automate</keyword-string>
                 </ezobject:attribute>
                 <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="279" ezremote:identifier="location" name="Location" type="ezgmaplocation" ezgl_has_content="1">
-                    <latitude>44.173966</latitude>
-                    <longitude>5.278285</longitude>
-                    <address>Ventoux, France</address>
+                  <latitude>45.9209</latitude>
+                  <longitude>7.79336</longitude>
+                  <address>Castor, Italy</address>
                 </ezobject:attribute>
               </ezobject:object-translation>
               <ezobject:node-assignment-list>
@@ -652,11 +653,12 @@
                     <paragraph>eZ Publish Enterprise is the platform to make the omni-channel approach possible. A powerful presentation engine provides a multiplicity of websites and pages that display your content in a variety of renderings. A powerful API directly and simply integrates your content with any Web-enabled application on any device, including the iPad, iPhone or Android without ever interfering with or impacting the platform itself.</paragraph>
                   </section>
                 </ezobject:attribute>
-                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="286" ezremote:identifier="image" name="Image" type="ezimage" image-file-key="324db4a22b0841c40e10a153e13f9f77" alternative-text="Content Clustering with eZ Find"/>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="286" ezremote:identifier="image" name="Image" type="ezimage" image-file-key="324db4a22b0841c40e10a153e13f9f77" alternative-text=""/>
                 <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="287" ezremote:identifier="caption" name="Caption (Image)" type="ezxmltext">
-                    <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
-                      <paragraph>photo by <link href="http://www.flickr.com/photos/43302713@N04/4033066123/">muneaki</link> (<link xhtml:title="w:en:Creative Commons" href="http://en.wikipedia.org/wiki/en:Creative_Commons">Creative Commons</link> Attribution-Share Alike)</paragraph>
-                    </section>
+                  <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/"/>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="656" ezremote:identifier="subscriber_teaser" name="Subscriber teaser" type="ezxmltext">
+                  <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/"/>
                 </ezobject:attribute>
                 <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="288" ezremote:identifier="publish_date" name="Publish date" type="ezdatetime">
                   <date_time>Thu, 01 Jan 1970 00:00:00 GMT</date_time>
@@ -667,12 +669,12 @@
                   <data-text></data-text>
                 </ezobject:attribute>
                 <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="290" ezremote:identifier="tags" name="Tags" type="ezkeyword">
-                  <keyword-string>deliver, kilimanjaro</keyword-string>
+                  <keyword-string>deliver, Castor</keyword-string>
                 </ezobject:attribute>
                 <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="291" ezremote:identifier="location" name="Location" type="ezgmaplocation" ezgl_has_content="1">
-                  <latitude>68.165193</latitude>
-                  <longitude>16.592763</longitude>
-                  <address>Stadda,Norway</address>
+                  <latitude>45.9209</latitude>
+                  <longitude>7.79336</longitude>
+                  <address>Castor, Italy</address>
                 </ezobject:attribute>
               </ezobject:object-translation>
               <ezobject:node-assignment-list>
@@ -710,9 +712,10 @@
                 </ezobject:attribute>
                 <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="298" ezremote:identifier="image" name="Image" type="ezimage" image-file-key="4daa5223cf84e604df452bbcf77edd44" alternative-text=""/>
                 <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="299" ezremote:identifier="caption" name="Caption (Image)" type="ezxmltext">
-                    <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
-                      <paragraph>photo by <link href="https://www.flickr.com/photos/magnusmaximus/8659055714/in/photolist-ecaVA3-ecaWc9-bDssF1-bDstQ3-bDskkh-bDshZy-bSncfB-bSnb7z-bSn9r2-bDsARU-bSn3MF-bDsmm1-bDsmTw-bDsvxY-bSnda6-bSnjYr-bSneFz-bSn65z-bDsrwN-bSnbBv-bSn7HT-bDspJQ-bDsf9J-bSn9dD-bSn3u2-bDspvm-bDsfLW-7Pvvs5-5JgCq7-zit1Z-6tspRA-zitRm-6udqyo-bDXDkN-bSShNP-2KKafv-atvJ3v-QfykJ-8C3xX3-d9WBzG-d9WMtX-d9WqBc-d9WFsj-d9Wmp7-d9WHWX-d9Wxcb-KoVQN-evTpv3-feDXwE-3d4ZsV">Mzximvs VdB</link> (cc Attribution-ShareAlike license)</paragraph>
-                    </section>
+                  <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/"/>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="660" ezremote:identifier="subscriber_teaser" name="Subscriber teaser" type="ezxmltext">
+                  <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/"/>
                 </ezobject:attribute>
                 <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="300" ezremote:identifier="publish_date" name="Publish date" type="ezdatetime">
                   <date_time>Thu, 01 Jan 1970 00:00:00 GMT</date_time>
@@ -723,12 +726,12 @@
                   <data-text></data-text>
                 </ezobject:attribute>
                 <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="302" ezremote:identifier="tags" name="Tags" type="ezkeyword">
-                  <keyword-string>Ventoux</keyword-string>
+                  <keyword-string>Castor, create</keyword-string>
                 </ezobject:attribute>
                 <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="303" ezremote:identifier="location" name="Location" type="ezgmaplocation" ezgl_has_content="1">
-                    <latitude>44.173966</latitude>
-                    <longitude>5.278285</longitude>
-                    <address>Ventoux, France</address>
+                  <latitude>45.9209</latitude>
+                  <longitude>7.79336</longitude>
+                  <address>Castor, Italy</address>
                 </ezobject:attribute>
               </ezobject:object-translation>
               <ezobject:node-assignment-list>
@@ -761,14 +764,15 @@
                 </ezobject:attribute>
                 <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="309" ezremote:identifier="body" name="Body" type="ezxmltext">
                   <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
-                    <paragraph>eZ Publish Enterprise offers an entire set of capabilities including search, analytics, personalized recommendations as well as automated and integrated testing functionality (e.g. A/B, Multivariate, etc.). Efficient search starts with enabling editors and letting them search for existing content to reuse and re-purpose. You can analyze the user behaviour, create a compelling content strategy and provide automated scenarios based on the users' behaviour.</paragraph>
+                    <paragraph>eZ Publish Enterprise offers an entire set of capabilities including search, analytics, personalized recommendations as well as automated and integrated testing functionality (e.g. A/B, Multivariate, etc.). Efficient search starts with enabling editors and letting them search for existing content to reuse and re-purpose. You can analyze the user behavior, create a compelling content strategy and provide automated scenarios based on the users' behavior.</paragraph>
                   </section>
                 </ezobject:attribute>
                 <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="310" ezremote:identifier="image" name="Image" type="ezimage" image-file-key="b30c789136efae94eb10e575b887a799" alternative-text=""/>
                 <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="311" ezremote:identifier="caption" name="Caption (Image)" type="ezxmltext">
-                    <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
-                      <paragraph>photo by <link href="https://www.flickr.com/photos/troye/6381927617/in/photolist-mWNzC-6yU6wD-6yYpC3-6yU6w4-6yYC8S-79snTC-79ow3P-6yYpCC-6yYpD1-6yYpCL-6yYC83-6yYC8w-6yU6wk-6yYpCq-6yU6vM-6yYpCj-7kVdJm-aHX3JM-pbB7a-5WmxEz-d7CsQy-79so8m-vPZHt-aHX5Kk-6yZf5y-79owhr-eQv3BR-ec5ciz-79ow1n-8Tae4n-6yYC8h-6yU6x2-6yYC8J-6yU6wt-6z9Fit-6zdK9q-6zdHkw-6z9ECe-6z9Dov-6zdJfN-6zdJxJ-6zdJ5E-6zdHNN-6z9EPc-bWfqYy-dmQR88-6DfcH5-79so15-79so5b-qFfY2">troy owens</link> (Creative Commons Attribution-ShareAlike License).</paragraph>
-                    </section>
+                  <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/"/>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="664" ezremote:identifier="subscriber_teaser" name="Subscriber teaser" type="ezxmltext">
+                  <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/"/>
                 </ezobject:attribute>
                 <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="312" ezremote:identifier="publish_date" name="Publish date" type="ezdatetime">
                   <date_time>Thu, 01 Jan 1970 00:00:00 GMT</date_time>
@@ -779,12 +783,12 @@
                   <data-text></data-text>
                 </ezobject:attribute>
                 <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="314" ezremote:identifier="tags" name="Tags" type="ezkeyword">
-                  <keyword-string>Ventoux</keyword-string>
+                  <keyword-string>Castor, Optimize</keyword-string>
                 </ezobject:attribute>
                 <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="315" ezremote:identifier="location" name="Location" type="ezgmaplocation" ezgl_has_content="1">
-                    <latitude>44.173966</latitude>
-                    <longitude>5.278285</longitude>
-                    <address>Ventoux, France</address>
+                  <latitude>45.9209</latitude>
+                  <longitude>7.79336</longitude>
+                  <address>Castor, Italy</address>
                 </ezobject:attribute>
               </ezobject:object-translation>
               <ezobject:node-assignment-list>
@@ -813,44 +817,59 @@
                 <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="320" ezremote:identifier="intro" name="Summary" type="ezxmltext">
                     <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
                       <paragraph>
-                        <line xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">Welcome to eZ Publish Platform 5.3, the Ventoux release. </line>
+                        <line xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">Welcome to eZ Publish Platform 5.4, the Castor release. </line>
                         <line xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">This release brings several new features and general improvements on the foundations introduced in eZ Publish Platform 5</line>
                       </paragraph>
                     </section>
                   </ezobject:attribute>
                   <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="321" ezremote:identifier="body" name="Body" type="ezxmltext">
-                    <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
-                      <section>
-                        <header>Key Selected New Features in eZ Publish 5</header>
-                        <paragraph>Our objective is to provide you the most compelling Multichannel Web and Customer Experience Platform. With the eZ Publish 5 architecture we encompass a thoroughly revamped platform, which facilitates better user experiences, increases productivity, and enables your digital business model sustainably. Underlying and enabling these ambitious goals is a completely new but thoroughly backward compatible product architecture, along with a host of user interface (UI) enhancements.</paragraph>
-                        <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
-                          <ul>
-                            <li>
-                              <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">New Public API – Streamlined PHP Interface to eZ Publish</paragraph>
-                            </li>
-                            <li>
-                              <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">Enhanced REST API – eZ Publish as a Web Service</paragraph>
-                            </li>
-                            <li>
-                              <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">New high-performance framework for Web projects – Symfony full stack</paragraph>
-                            </li>
-                            <li>
-                              <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">New modern template engine – Twig based</paragraph>
-                            </li>
-                            <li>
-                              <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">Still totally backward compatible with 4.x legacy architecture</paragraph>
-                            </li>
-                          </ul>
-                        </paragraph>
-                        <paragraph>For further information visit <link href="http://ez.no">www.ez.no,</link> the documentation: <link href="http://doc.ez.no">doc.ez.no</link> and the <link href="http://share.ez.no">share.ez.no</link> community.</paragraph>
+                      <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
+                        <section>
+                          <header>Key Selected New Features in eZ Publish 5.4</header>
+                          <paragraph>Our objective is to provide you the most compelling Multichannel Web and Customer Experience Platform. With the eZ Publish 5 architecture we encompass a thoroughly revamped platform, which facilitates better user experiences, increases productivity, and enables your digital business model sustainably. Underlying and enabling these ambitious goals is a completely new but thoroughly backward compatible product architecture, along with a host of user interface (UI) enhancements. New in 5.4:</paragraph>
+                          <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
+                            <ul>
+                              <li>
+                                <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">Native IO support</paragraph>
+                              </li>
+                              <li>
+                                <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">Faster multilingual and multisite search API</paragraph>
+                              </li>
+                              <li>
+                                <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">Native support for legacy DFS cluster</paragraph>
+                              </li>
+                              <li>
+                                <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">New image alias system</paragraph>
+                              </li>
+                              <li>
+                                <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">URL decorators</paragraph>
+                              </li>
+                              <li>
+                                <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">Premium content wall</paragraph>
+                              </li>
+                              <li>
+                                <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">Improved HTTP cache system</paragraph>
+                              </li>
+                              <li>
+                                <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">Simplified configuration </paragraph>
+                              </li>
+                            </ul>
+                          </paragraph>
+                          <paragraph>For further information visit <link href="http://ez.no">www.ez.no,</link> the documentation: <link href="http://doc.ez.no">doc.ez.no</link> and the <link href="http://share.ez.no">share.ez.no</link> community.</paragraph>
+                        </section>
                       </section>
-                    </section>
                 </ezobject:attribute>
                 <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="322" ezremote:identifier="image" name="Image" type="ezimage" image-file-key="5b71995be15fb77afea60fb3c5305353" alternative-text=""/>
                 <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="323" ezremote:identifier="caption" name="Caption (Image)" type="ezxmltext">
-                    <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
-                      <paragraph>Image by <link href="https://www.flickr.com/photos/mrbernard/10890274604/in/photolist-hAkvef-dmsXBR-dYZJKL-dYZJMd-dYZJNy-dYZJPm-6TYZAY-dGFuHc-i5DrA-aDZ7pQ-aDZ7ow-aDVeqH-dkzqD8-dkqwvp-6ktQvW-dmt255-dmt1JS-dmt34N-dmt3wo-dmsYMc-d2BSAj-d2BQXo-645zeu-6475b1-6Xja2w-bSL7ZM-gzFd4X-dkWrvE-dkWrCJ-6kucwq-6XfaCX-9RbBCk-7ahT7F-dX88ZX-dX82Zr-8sPufL-dmbw8T-dXdF8d-dX7QsR-dXdkE7-dX7LJB-dXdm33-dX7AmF-dXdp7S-dXds65-dX7z1M-dX7ZpR-dXdpQf-dX86TZ-dXdifW">MrBernard</link> (Creative Commons Attribution-ShareAlike License)</paragraph>
+                    <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/"/>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="667" ezremote:identifier="subscriber_teaser" name="Subscriber teaser" type="ezxmltext">
+                  <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
+                    <section>
+                      <header>Key new features you don't want to miss</header>
+                      <paragraph>eZ Publish Platform 5.4 provides a range of core improvements to the eZ platform that will be core to eZ Platform in the future. You clearly want to know about the benefits for your eZ Publish project...</paragraph>
                     </section>
+                  </section>
                 </ezobject:attribute>
                 <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="324" ezremote:identifier="publish_date" name="Publish date" type="ezdatetime">
                   <date_time>Thu, 01 Jan 1970 00:00:00 GMT</date_time>
@@ -864,9 +883,9 @@
                   <keyword-string>e-commerce, ez publish</keyword-string>
                 </ezobject:attribute>
                 <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="327" ezremote:identifier="location" name="Location" type="ezgmaplocation" ezgl_has_content="1">
-                  <latitude>44.173966</latitude>
-                  <longitude>5.278285</longitude>
-                  <address>Ventoux, France</address>
+                  <latitude>45.9209</latitude>
+                  <longitude>7.79336</longitude>
+                  <address>Castor, Italy</address>
                 </ezobject:attribute>
               </ezobject:object-translation>
               <ezobject:node-assignment-list>
@@ -1845,36 +1864,36 @@
                 <text>Discover eZ Publish 5</text>
               </ezobject:attribute>
               <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" ezremote:id="1198" ezremote:identifier="description" name="Description" type="ezxmltext">
-                  <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
-                    <paragraph><embed size="medium" view="embed" align="right" custom:offset="0" custom:limit="5" object_remote_id="c93a009eec36c5090224470880d62384"/><strong>Mont Ventoux</strong> (<emphasize>Ventor</emphasize> in Provençal) is a mountain in the Provence region of southern France, located some 20 km northeast of Carpentras, Vaucluse. On the north side, the mountain borders the Drôme <emphasize>département</emphasize>. It is the largest mountain in the region and has been nicknamed the "Beast of Provence", the "Giant of Provence", or "The Bald Mountain". It has gained fame through its use in the Tour de France cycling race.</paragraph>
+                <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
+                  <paragraph><strong><embed align="right" view="embed" size="medium" custom:offset="0" custom:limit="5" object_remote_id="2d9bef9f1e0eb417a56e1707352e83c0"/>Mont Castor</strong> Castor (Italian: Castore) is a mountain in the Pennine Alps on the border between Valais, Switzerland and the Aosta Valley in Italy. It is the higher of a pair of twin peaks (Zwillinge), the other being Pollux, named after the Gemini twins of Roman mythology. Castor's peak is at an elevation of 4,228 m (13,871 ft), and it lies between Breithorn and Monte Rosa. It is separated from Pollux by a pass at 3,845 m (12,615 ft), named Passo di Verra in Italian and Zwillingsjoch in German.</paragraph>
+                  <section>
                     <section>
-                      <section>
-                        <header>White Papers</header>
-                        <paragraph>Download our white paper if you want to quickly discover eZ Publish 5.</paragraph>
-                        <paragraph>This white paper contains</paragraph>
-                        <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
-                          <ul>
-                            <li>
-                              <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
-                                <strong>A detailed presentation of eZ Publish 5 for Marketers and Editors.</strong>
-                              </paragraph>
-                            </li>
-                            <li>
-                              <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
-                                <strong>An introduction to the eZ Publish 5 technical architecture.</strong>
-                              </paragraph>
-                            </li>
-                            <li>
-                              <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
-                                <strong>A clear summary of the value of using such a digital user experience management platform.</strong>
-                              </paragraph>
-                            </li>
-                          </ul>
-                        </paragraph>
-                        <paragraph>Don't hesitate, leave us your contact information and download this paper to get all the benefits of eZ Publish 5.</paragraph>
-                      </section>
+                      <header>White Papers</header>
+                      <paragraph>Download our white paper if you want to quickly discover eZ Publish 5.</paragraph>
+                      <paragraph>This white paper contains</paragraph>
+                      <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
+                        <ul>
+                          <li>
+                            <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
+                              <strong>A detailed presentation of eZ Publish 5 for Marketers and Editors.</strong>
+                            </paragraph>
+                          </li>
+                          <li>
+                            <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
+                              <strong>An introduction to the eZ Publish 5 technical architecture.</strong>
+                            </paragraph>
+                          </li>
+                          <li>
+                            <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
+                              <strong>A clear summary of the value of using such a digital user experience management platform.</strong>
+                            </paragraph>
+                          </li>
+                        </ul>
+                      </paragraph>
+                      <paragraph>Don't hesitate, leave us your contact information and download this paper to get all the benefits of eZ Publish 5.</paragraph>
                     </section>
                   </section>
+                </section>
               </ezobject:attribute>
               <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1199" ezremote:identifier="feedback_page" name="Feedback Page" type="ezobjectrelation">
                 <related-object-remote-id>681116da12d3fed558704658248067da</related-object-remote-id>
@@ -1917,7 +1936,7 @@
               <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1205" ezremote:identifier="author" name="Author" type="ezauthor">
                 <ezauthor>
                   <authors>
-                    <author id="0" name="Roland Benedetti" email="Roland.Benedetti@ez.no"/>
+                    <author id="0" name="Administrator User" email="nospam@ez.no"/>
                   </authors>
                 </ezauthor>
               </ezobject:attribute>
@@ -1953,32 +1972,6 @@
             </ezobject:object-translation>
             <ezobject:node-assignment-list>
               <node-assignment is-main-node="1" parent-node-remote-id="3e49b9fe4c95366cb590d3beb32a5838" name="Download your White Paper here" node-id="193" remote-id="0ad294a85c89e0fbfd227fd8c71c9a9d" sort-field="path" sort-order="1" priority="0"/>
-            </ezobject:node-assignment-list>
-          </ezobject:version>
-        </ezobject:version-list>
-      </ezremote:object>
-      <ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="197" name="Tour de France" ezremote:section_id="1" ezremote:owner_id="190" ezremote:class_id="27" ezremote:published="Wed, 30 Jan 2013 01:40:22 GMT" ezremote:modified="Wed, 30 Jan 2013 01:40:22 GMT" remote_id="c93a009eec36c5090224470880d62384" class_remote_id="f6df12aa74e36230eb675f364fccd25a" ezremote:class_identifier="image" ezremote:always_available="0" initial_language="eng-GB">
-        <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="1">
-          <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="1" ezremote:status="1" ezremote:created="Wed, 30 Jan 2013 01:40:22 GMT" ezremote:modified="Wed, 30 Jan 2013 01:40:22 GMT" initial_language="eng-GB">
-            <ezobject:object-translation language="eng-GB" object_name="Tour de France">
-              <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1246" ezremote:identifier="name" name="Name" type="ezstring">
-                <text>Tour de France</text>
-              </ezobject:attribute>
-              <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1247" ezremote:identifier="caption" name="Caption" type="ezxmltext">
-                <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/"/>
-              </ezobject:attribute>
-              <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1248" ezremote:identifier="image" name="Image" type="ezimage" image-file-key="fadf75fc8fa655212e59f7a3f92af634" alternative-text=""/>
-              <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1249" ezremote:identifier="star_rating" name="Star Rating" type="ezsrrating">
-                <data-int></data-int>
-                <data-float>0</data-float>
-                <data-text></data-text>
-              </ezobject:attribute>
-              <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1250" ezremote:identifier="tags" name="Tags" type="ezkeyword">
-                <keyword-string></keyword-string>
-              </ezobject:attribute>
-            </ezobject:object-translation>
-            <ezobject:node-assignment-list>
-              <node-assignment is-main-node="1" parent-node-remote-id="3e49b9fe4c95366cb590d3beb32a5838" name="Tour de France" node-id="196" remote-id="04e55eb14597148e4132bbe8118a52a5" sort-field="published" sort-order="0" priority="0"/>
             </ezobject:node-assignment-list>
           </ezobject:version>
         </ezobject:version-list>
@@ -2198,7 +2191,7 @@
               </ezobject:attribute>
               <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1537" ezremote:identifier="caption" name="Caption" type="ezxmltext">
                 <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
-                  <paragraph>Latest summit on eZ's list, "le Ventoux", the "Giant of Provence" in spring 2014, a few weeks before le Tour de France. eZ Publish Platform 5.3 is here!</paragraph>
+                  <paragraph>"le Ventoux", aka the Giant of Provence, was on eZ's list in spring 2014, a few weeks before le Tour de France. eZ Publish Platform 5.3 is here!</paragraph>
                 </section>
               </ezobject:attribute>
               <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1538" ezremote:identifier="image" name="Image" type="ezimage" image-file-key="e4222d7656e76e5c6a398128df826d3e" alternative-text=""/>
@@ -2217,6 +2210,34 @@
           </ezobject:version>
         </ezobject:version-list>
       </ezremote:object>
+      <ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="119" name="mount Castor" ezremote:section_id="3" ezremote:owner_id="14" ezremote:class_id="27" ezremote:published="Mon, 10 Nov 2014 23:03:59 GMT" ezremote:modified="Mon, 10 Nov 2014 23:03:59 GMT" remote_id="2d9bef9f1e0eb417a56e1707352e83c0" class_remote_id="f6df12aa74e36230eb675f364fccd25a" ezremote:class_identifier="image" ezremote:always_available="0" initial_language="eng-GB">
+      <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="1">
+        <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="1" ezremote:status="1" ezremote:created="Mon, 10 Nov 2014 23:03:04 GMT" ezremote:modified="Mon, 10 Nov 2014 23:03:59 GMT" initial_language="eng-GB">
+          <ezobject:object-translation language="eng-GB" object_name="mount Castor">
+            <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="644" ezremote:identifier="name" name="Name" type="ezstring">
+              <text>mount Castor</text>
+            </ezobject:attribute>
+            <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="645" ezremote:identifier="caption" name="Caption" type="ezxmltext">
+              <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
+                <paragraph>Castor is the eZ summit for November 2014. It is also the last of the 5.x series of eZ Publish Platform.</paragraph>
+              </section>
+            </ezobject:attribute>
+            <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="646" ezremote:identifier="image" name="Image" type="ezimage" image-file-key="b51bed037d13f4a66c1a7d63aa9bdeb3" alternative-text=""/>
+            <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="647" ezremote:identifier="star_rating" name="Star Rating" type="ezsrrating">
+              <data-int></data-int>
+              <data-float>0</data-float>
+              <data-text></data-text>
+            </ezobject:attribute>
+            <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="648" ezremote:identifier="tags" name="Tags" type="ezkeyword">
+              <keyword-string>castor</keyword-string>
+            </ezobject:attribute>
+          </ezobject:object-translation>
+          <ezobject:node-assignment-list>
+            <node-assignment is-main-node="1" parent-node-remote-id="1b26c0454b09bb49dfb1b9190ffd67cb" name="mount Castor" node-id="121" remote-id="022374e0cb9ef8992a51d3b0d5ec2a0d" sort-field="path" sort-order="1" priority="0"/>
+          </ezobject:node-assignment-list>
+        </ezobject:version>
+      </ezobject:version-list>
+    </ezremote:object>
       <ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="245" name="mount Kilimanjaro" ezremote:section_id="3" ezremote:owner_id="190" ezremote:class_id="27" ezremote:published="Wed, 06 Feb 2013 00:08:54 GMT" ezremote:modified="Wed, 06 Feb 2013 00:46:57 GMT" remote_id="9c44b69d423f44bfcf1b65fcbf56a731" class_remote_id="f6df12aa74e36230eb675f364fccd25a" ezremote:class_identifier="image" ezremote:always_available="0" initial_language="eng-GB">
         <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="2">
           <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="2" ezremote:status="1" ezremote:created="Wed, 06 Feb 2013 00:45:43 GMT" ezremote:modified="Wed, 06 Feb 2013 00:46:57 GMT" initial_language="eng-GB">
@@ -2664,6 +2685,42 @@
           </ezobject:version>
         </ezobject:version-list>
       </ezremote:object>
+      <ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="118" name="Mount Castor" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="38" ezremote:published="Mon, 10 Nov 2014 21:25:13 GMT" ezremote:modified="Mon, 10 Nov 2014 21:30:37 GMT" remote_id="12d04011332555e8c7fb42c59324f76f" class_remote_id="861f02510226434178f3859242fe40d7" ezremote:class_identifier="place" ezremote:always_available="0" initial_language="eng-GB">
+      <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="2">
+        <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="2" ezremote:status="1" ezremote:created="Mon, 10 Nov 2014 21:25:50 GMT" ezremote:modified="Mon, 10 Nov 2014 21:30:37 GMT" initial_language="eng-GB">
+          <ezobject:object-translation language="eng-GB" object_name="Mount Castor">
+            <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="638" ezremote:identifier="name" name="Name" type="ezstring">
+              <text>Mount Castor</text>
+            </ezobject:attribute>
+            <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="639" ezremote:identifier="description" name="Description" type="ezxmltext">
+              <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
+                <paragraph><strong>Castor</strong> (Italian: <emphasize>Castore</emphasize>) is a mountain in the Pennine Alps on the border between Valais, Switzerland and the Aosta Valley in Italy. It is the higher of a pair of twin peaks (Zwillinge), the other being Pollux, named after the Gemini twins of Roman mythology. Castor's peak is at an elevation of 4,228 m (13,871 ft), and it lies between Breithorn and Monte Rosa. It is separated from Pollux by a pass at 3,845 m (12,615 ft), named <emphasize>Passo di Verra</emphasize> in Italian and <emphasize>Zwillingsjoch</emphasize> in German. Ascents are usually made from the alpine hut <emphasize>Capanna Quintino Sella</emphasize> on the Italian side, by means of the Felikjoch and the long and narrow southeast ridge. From the Swiss side, ascents start from Klein Matterhorn and go by way of the Italian Mezzalama glacier and the mountain's west flank. The first ascent was made on August 23, 1861.</paragraph>
+                <paragraph>
+                  <custom name="sub">This article uses material from the Wikipedia article <link href="http://en.wikipedia.org/wiki/Castor_(mountain)">Mount Castor</link>, which is released under the <link target="_blank" href="http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">Creative Commons Attribution-ShareAlike License</link>. <link anchor_name="mediaviewer/File:Castore_per_la_cresta_sudorientale.JPG" href="http://commons.wikimedia.org/wiki/File:Castore_per_la_cresta_sudorientale.JPG">Photo</link>: "Castore per la cresta sudorientale" by Franco56 - fotografia personale. Licensed under Creative Commons Attribution-Share Alike 3.0 via Wikimedia Commons.</custom>
+                </paragraph>
+              </section>
+            </ezobject:attribute>
+            <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="640" ezremote:identifier="image" name="Image" type="ezimage" image-file-key="6da278a0502e9516147b978fb44eefdc" alternative-text="Castore per la cresta sudorientale"/>
+            <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="641" ezremote:identifier="location" name="Location" type="ezgmaplocation" ezgl_has_content="1">
+              <latitude>45.9209</latitude>
+              <longitude>7.79336</longitude>
+              <address>Castor, Switzerland</address>
+            </ezobject:attribute>
+            <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="642" ezremote:identifier="keyword" name="Keyword" type="ezkeyword">
+              <keyword-string>castor, ez mountains</keyword-string>
+            </ezobject:attribute>
+            <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="643" ezremote:identifier="rating" name="Rating" type="ezsrrating">
+              <data-int></data-int>
+              <data-float>0</data-float>
+              <data-text></data-text>
+            </ezobject:attribute>
+          </ezobject:object-translation>
+          <ezobject:node-assignment-list>
+            <node-assignment is-main-node="1" parent-node-remote-id="12d24b1557425698ff9db34850d1847d" name="Mount Castor" node-id="120" remote-id="5dd5394bbec6fb6c7f4a9940bb2d63fc" sort-field="path" sort-order="1" priority="0"/>
+          </ezobject:node-assignment-list>
+        </ezobject:version>
+      </ezobject:version-list>
+    </ezremote:object>
     </object-list>
     <site-access-list>
         <site-access>eng</site-access>
