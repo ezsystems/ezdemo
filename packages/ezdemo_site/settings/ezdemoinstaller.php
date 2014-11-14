@@ -2,25 +2,23 @@
 //
 // ## BEGIN COPYRIGHT, LICENSE AND WARRANTY NOTICE ##
 // SOFTWARE NAME: eZ Flow
-// SOFTWARE RELEASE: 1.1.0
+// SOFTWARE RELEASE: 5.4.0-beta1
 // COPYRIGHT NOTICE: Copyright (C) 1999-2014 eZ Systems AS
 // SOFTWARE LICENSE: GNU General Public License v2.0
 // NOTICE: >
-//   This program is free software; you can redistribute it and/or
-//   modify it under the terms of version 2.0  of the GNU General
-//   Public License as published by the Free Software Foundation.
+//  This program is free software; you can redistribute it and/or
+//  modify it under the terms of version 2.0  of the GNU General
+//  Public License as published by the Free Software Foundation.
 //
-//   This program is distributed in the hope that it will be useful,
+//  This program is distributed in the hope that it will be useful,
 //   but WITHOUT ANY WARRANTY; without even the implied warranty of
-//   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-//   GNU General Public License for more details.
+//  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+//  GNU General Public License for more details.
 //
-//   You should have received a copy of version 2.0 of the GNU General
-//   Public License along with this program; if not, write to the Free
-//   Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
-//   MA 02110-1301, USA.
-//
-//
+//  You should have received a copy of version 2.0 of the GNU General
+//  Public License along with this program; if not, write to the Free
+//  Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
+//  MA 02110-1301, USA.
 // ## END COPYRIGHT, LICENSE AND WARRANTY NOTICE ##
 //
 class ezdemoInstaller extends eZSiteInstaller
@@ -228,6 +226,13 @@ class ezdemoInstaller extends eZSiteInstaller
                 ) 
             ), 
             array( 
+                '_function' => 'createContentSection', 
+                '_params' => array( 
+                    'name' => 'Premium content', 
+                    'navigation_part_identifier' => 'ezcontentnavigationpart' 
+                ) 
+            ), 
+            array( 
                 '_function' => 'addPoliciesForRole', 
                 '_params' => array( 
                     'role_name' => 'Anonymous', 
@@ -269,6 +274,18 @@ class ezdemoInstaller extends eZSiteInstaller
                                     ) 
                                 ) 
                             ) 
+                        ),
+                        array(
+                            'module' => 'content',
+                            'function' => 'read',
+                            'limitation' => array(
+                                'Section' => array(
+                                    '_function' => 'sectionIDbyName',
+                                    '_params' => array(
+                                        'section_name' => 'Premium content'
+                                    )
+                                )
+                            )
                         ),
                         array(
                             'module' => 'content',
@@ -800,11 +817,29 @@ class ezdemoInstaller extends eZSiteInstaller
                     ) 
                 ) 
             ),
+            array( 
+                '_function' => 'createContentObject', 
+                '_params' => array( 
+                    'class_identifier' => 'user_group', 
+                    'location' => 'users', 
+                    'attributes' => array( 
+                        'name' => 'Subscribers', 
+                        'description' => '' 
+                    ) 
+                ) 
+            ),
             array(
                 '_function' => 'setSection',
                  '_params' => array(
                      'location' => 'partner',
                      'section_name' => 'Restricted'
+                 )
+            ), 
+            array(
+                '_function' => 'setSection',
+                 '_params' => array(
+                     'location' => 'getting_started/selected_features/getting_started_with_ez_publish_platform',
+                     'section_name' => 'Premium content'
                  )
             ),
             array(
@@ -941,6 +976,13 @@ class ezdemoInstaller extends eZSiteInstaller
                         ) 
                     ) 
                 ) 
+            ), 
+            array(
+                '_function' => 'addPoliciesForRole', 
+                '_params' => array( 
+                    'role_name' => 'Subscriber', 
+                    'policies' => array()
+                )
             ), 
             array( 
                 '_function' => 'renameContentObject', 
@@ -1113,6 +1155,20 @@ class ezdemoInstaller extends eZSiteInstaller
                 '_function' => 'assignUserToRole', 
                 '_params' => array( 
                     'location' => 'users/partners', 
+                    'role_name' => 'Anonymous' 
+                ) 
+            ), 
+            array( 
+                '_function' => 'assignUserToRole', 
+                '_params' => array( 
+                    'location' => 'users/subscribers', 
+                    'role_name' => 'Subscriber' 
+                ) 
+            ), 
+            array( 
+                '_function' => 'assignUserToRole', 
+                '_params' => array( 
+                    'location' => 'users/subscribers', 
                     'role_name' => 'Anonymous' 
                 ) 
             ), 
