@@ -824,9 +824,21 @@ class ezdemoInstaller extends eZSiteInstaller
                     'location' => 'users', 
                     'attributes' => array( 
                         'name' => 'Subscribers', 
-                        'description' => '' 
-                    ) 
+                        'description' => ''
+                    )
                 ) 
+            ),
+            array(
+                '_function' => 'createContentObject',
+                '_params' => array(
+                    'class_identifier' => 'user',
+                    'location' => 'users/Subscribers',
+                    'attributes' => array(
+                        'first_name' => 'Subscriber',
+                        'last_name' => 'User',
+                        'user_account' => 'subscriber|subscriber@ez.no|aff687ebeaa4f54c53707b7918041662|md5_user|1'
+                    )
+                )
             ),
             array(
                 '_function' => 'setSection',
@@ -978,20 +990,25 @@ class ezdemoInstaller extends eZSiteInstaller
                 ) 
             ), 
             array(
-                '_function' => 'addPoliciesForRole', 
-                '_params' => array( 
-                    'role_name' => 'Subscriber', 
-                    'policies' => array()
-                )
-            ), 
-            array( 
                 '_function' => 'renameContentObject', 
                 '_params' => array( 
                     'contentobject_id' => '11',  // 11 is id of "Guest accounts"
                     'name' => 'Members' 
                 ) 
-            ), 
-            array( 
+            ),
+            array(
+                '_function' => 'createContentObject',
+                '_params' => array(
+                    'class_identifier' => 'user',
+                    'location' => 'users/Members',
+                    'attributes' => array(
+                        'first_name' => 'Member',
+                        'last_name' => 'User',
+                        'user_account' => 'member|member@ez.no|61c4aed984adf5eb50a90802959d60e8|md5_user|1'
+                    )
+                )
+            ),
+            array(
                 '_function' => 'addPoliciesForRole', 
                 '_params' => array( 
                     'role_name' => 'Member', 
@@ -1129,8 +1146,15 @@ class ezdemoInstaller extends eZSiteInstaller
                         )
                     ) 
                 ) 
-            ), 
-            array( 
+            ),
+            array(
+                '_function' => 'addPoliciesForRole',
+                '_params' => array(
+                    'role_name' => 'Subscriber',
+                    'policies' => array()
+                )
+            ),
+            array(
                 '_function' => 'assignUserToRole', 
                 '_params' => array( 
                     'location' => 'users/members', 
