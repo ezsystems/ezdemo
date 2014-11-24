@@ -71,9 +71,11 @@
     <input class="button" type="submit" name="StoreExitButton" value="{'Store draft and exit'|i18n( 'design/ezdemo/content/edit' )}" title="{'Store the draft that is being edited and exit from edit mode. Use when you need to exit your work and return later to continue.'|i18n( 'design/ezdemo/content/edit' )}" />
     <input class="button" type="submit" name="DiscardButton" value="{'Discard draft'|i18n( 'design/ezdemo/content/edit' )}" title="{'Discard the draft that is being edited. This will also remove the translations that belong to the draft (if any).'|i18n( 'design/ezdemo/content/edit' ) }" />
     <input type="hidden" name="DiscardConfirm" value="0" />
-    <input type="hidden" name="RedirectIfDiscarded" value="{if ezhttp_hasvariable( 'LastAccessesURI', 'session' )}{ezhttp( 'LastAccessesURI', 'session' )}{/if}" />
-    <input type="hidden" name="RedirectURIAfterPublish" value="{if ezhttp_hasvariable( 'LastAccessesURI', 'session' )}{ezhttp( 'LastAccessesURI', 'session' )}{/if}" />
+
+    {include uri='design:content/edit_redirection.tpl'}
+
     </div>
+
 </div>
 
 </form>
