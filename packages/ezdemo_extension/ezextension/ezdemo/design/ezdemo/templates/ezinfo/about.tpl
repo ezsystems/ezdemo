@@ -12,15 +12,17 @@
 </div>
 
 {if is_set( $what_is_ez_publish )}
-   <p>{$what_is_ez_publish}</p>
+   {$what_is_ez_publish}
 {/if}
 
 <div class="attribute-header">
     <h3>{'Licence'|i18n( 'design/ezdemo/ezinfo/about' )}</h3>
 </div>
 
-{if is_set( $license )}
-   <p>{$license}</p>
+{if $license}
+    <pre style="height: 300px; overflow:scroll;">{$license|wash}</pre>
+{else}
+    <p>{'Could not load LICENSE file! You should have a LICENSE file in your eZ Publish root directory.'|i18n( 'design/admin/ezinfo/about' )}</p>
 {/if}
 
 {if and( is_set( $contributors ), is_array( $contributors ), count( $contributors )|ge( 1 ) )}
@@ -47,7 +49,7 @@
 </div>
 
 <p>
-    Copyright &copy; 1999-2014 <a href="http://ez.no/">eZ Systems AS</a>, with portions copyright by other parties. A complete list of all contributors and third-party
+    Copyright for eZ Publish is included in the License shown above. Portions are copyright by other parties. A complete list of all contributors and third-party
     software follows.
 </p>
 
