@@ -4494,6 +4494,18 @@ a.thumbnail:hover {
   font-weight: 200;
   line-height: 31.5px;
 }
+.text-left {
+  text-align: left;
+}
+.text-right {
+  text-align: right;
+}
+.text-center {
+  text-align: center;
+}
+.text-justify {
+  text-align: justify;
+}
 .pull-right {
   float: right;
 }
