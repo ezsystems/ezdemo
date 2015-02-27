@@ -177,6 +177,13 @@ class eZPageData
                 $pageData['canonical_url']       = false;
                 $pageData['canonical_language_url'] = false;
 
+                // As RootNode is a system wide repository setting that affects a lot of other things, we prefer
+                // SiteNode if avaiable as it is only for exactly what we want here, the root of the site.
+                if ( $contentIni->hasVariable( 'NodeSettings', 'SiteNode' ) )
+                {
+                    $pageData['root_node'] = (int) $contentIni->variable( 'NodeSettings', 'SiteNode' );
+                }
+
                 // is_edit if not on user/edit and not on content/action when
                 // you get info collector warning about missing attributes
                 if ( $uiContext === 'edit'
