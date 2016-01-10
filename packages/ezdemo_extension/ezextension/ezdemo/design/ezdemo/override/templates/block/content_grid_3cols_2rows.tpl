@@ -16,7 +16,7 @@
         {delimiter modulo=3}
         </div>
         <div class="row">
-        {/delimitrer}
+        {/delimiter}
     {/foreach}
     </div>
 
