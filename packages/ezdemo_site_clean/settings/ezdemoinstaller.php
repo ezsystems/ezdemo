@@ -1232,7 +1232,7 @@ class ezdemoInstaller extends eZSiteInstaller
     /*!
       pre-install stuff.
     */
-    function preInstall()
+    function preInstall( $siteType = array() )
     {
         // hack for images/binaryfiles
         // need to set siteaccess to have correct placement(VarDir) for files in SetupWizard
@@ -1257,9 +1257,13 @@ class ezdemoInstaller extends eZSiteInstaller
                 'AvailableDataTypes' => $availableDatatype
             )
         ) );
-        $this->insertDBFile( 'ezflow_extension', 'ezflow' );
-        $this->insertDBFile( 'ezstarrating_extension', 'ezstarrating' );
-        $this->insertDBFile( 'ezgmaplocation_extension', 'ezgmaplocation' );
+
+        if ( empty( $siteType ) || ( $siteType['existing_database'] != eZStepInstaller::DB_DATA_KEEP ) )
+        {
+            $this->insertDBFile('ezflow_extension', 'ezflow');
+            $this->insertDBFile('ezstarrating_extension', 'ezstarrating');
+            $this->insertDBFile('ezgmaplocation_extension', 'ezgmaplocation');
+        }
     }
 
     function insertDBFile( $packageName, $extensionName, $loadSchema = true, $loadContent = false )

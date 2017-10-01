@@ -27,11 +27,11 @@
 /*
 This get called by ezstep_create_sites.php
 */
-function eZSitePreInstall( )
+function eZSitePreInstall( $siteType = array() )
 {
     $installer = new ezdemoInstaller( array( 'var_dir' => 'var/ezdemo_site' ) );
 
-    $installer->preInstall();
+    $installer->preInstall( $siteType );
 }
 
 
