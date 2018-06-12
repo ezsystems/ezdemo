@@ -44,7 +44,7 @@
     {include uri='design:page_header.tpl'}
     <!-- Header area: END -->
 
-    {cache-block keys=array( $module_result.uri, $user_hash, $extra_cache_key )}
+    {cache-block keys=array( $module_result.uri, $user_hash, $extra_cache_key, $current_user.contentobject_id|eq( $pagedata.owner_id ) )}
 
     <div class="navbar main-navi">
         <!-- Top menu area: START -->
