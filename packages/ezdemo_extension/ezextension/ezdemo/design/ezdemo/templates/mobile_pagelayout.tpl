@@ -38,7 +38,7 @@
     {/foreach}
     {/if}
 
-    {cache-block keys=array( $module_result.uri, $user_hash, $extra_cache_key )}
+    {cache-block keys=array( $module_result.uri, $user_hash, $extra_cache_key, $current_user.contentobject_id|eq( $pagedata.owner_id ) )}
 
     <!-- Toolbar area: START -->
     {if and( $pagedata.website_toolbar, $pagedata.is_edit|not)}

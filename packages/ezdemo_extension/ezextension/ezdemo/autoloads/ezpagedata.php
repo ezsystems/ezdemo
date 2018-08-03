@@ -292,6 +292,14 @@ class eZPageData
                     $pageData['website_toolbar'] = ( $currentNodeId && $currentUser->attribute('is_logged_in') );
                 }
 
+                // Get owner_id for easier access in templates
+                $pageData['owner_id'] = 0;
+                if ( !empty($currentNodeId) )
+                {
+                    $node = eZContentObjectTreeNode::fetch( $currentNodeId );
+                    $pageData['owner_id'] = $node->attribute('object')->attribute('owner_id');
+                }
+
                 // Init default menu settings
                 $pageData['top_menu']     = $menuIni->variable('SelectedMenu', 'TopMenu');
                 $pageData['left_menu']    = $menuIni->variable('SelectedMenu', 'LeftMenu');
